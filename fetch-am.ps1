@@ -42,6 +42,109 @@ function New-HttpClient {
     return $client
 }
 
+function Get-HttpRequestHeaders {
+    param(
+        [string]$Accept = 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8'
+    )
+
+    return @{
+        'User-Agent'      = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36'
+        'Accept'          = $Accept
+        'Accept-Language' = 'zh-CN,zh;q=0.9,en;q=0.8'
+        'Cache-Control'   = 'no-cache'
+        'Pragma'          = 'no-cache'
+    }
+}
+
+function Test-IsTlsFailure {
+    param([Exception]$Exception)
+
+    $current = $Exception
+    while ($null -ne $current) {
+        if ($current.Message -match '(?i)SSL|TLS|Schannel|security package|credentials') {
+            return $true
+        }
+        $current = $current.InnerException
+    }
+    return $false
+}
+
+function Get-RemoteBytesWithPython {
+    param(
+        [string]$Url,
+        [hashtable]$Headers
+    )
+
+    $python = Get-Command python -ErrorAction SilentlyContinue
+    if ($null -eq $python) {
+        throw 'Python is required for the HTTPS fallback but was not found on PATH.'
+    }
+
+    $tempPath = [IO.Path]::GetTempFileName()
+    $tempScriptPath = [IO.Path]::ChangeExtension([IO.Path]::GetTempFileName(), '.py')
+    $tempHeadersPath = [IO.Path]::GetTempFileName()
+    try {
+        $headerJson = $Headers | ConvertTo-Json -Compress
+        $script = @'
+import sys
+import json
+import urllib.request
+
+url, headers_path, out_path = sys.argv[1], sys.argv[2], sys.argv[3]
+with open(headers_path, "r", encoding="utf-8") as handle:
+    headers = json.load(handle)
+
+request = urllib.request.Request(url, headers=headers)
+with urllib.request.urlopen(request, timeout=30) as response:
+    data = response.read()
+with open(out_path, "wb") as handle:
+    handle.write(data)
+'@
+        [IO.File]::WriteAllText($tempScriptPath, $script, $Utf8NoBom)
+        [IO.File]::WriteAllText($tempHeadersPath, $headerJson, $Utf8NoBom)
+
+        $output = & $python.Source $tempScriptPath $Url $tempHeadersPath $tempPath 2>&1
+        if ($LASTEXITCODE -ne 0) {
+            throw "Python download fallback failed with exit code $LASTEXITCODE. $output"
+        }
+        return [IO.File]::ReadAllBytes($tempPath)
+    }
+    finally {
+        foreach ($path in @($tempPath, $tempScriptPath, $tempHeadersPath)) {
+            if (Test-Path -LiteralPath $path) {
+                Remove-Item -LiteralPath $path -Force
+            }
+        }
+    }
+}
+
+function Get-RemoteBytes {
+    param(
+        [string]$Url,
+        [hashtable]$Headers = (Get-HttpRequestHeaders)
+    )
+
+    if ($env:FETCH_AM_FORCE_DOTNET_DOWNLOAD_FAILURE -eq '1') {
+        Write-Log "Python download fallback: $Url"
+        return Get-RemoteBytesWithPython -Url $Url -Headers $Headers
+    }
+
+    $client = New-HttpClient
+    try {
+        return $client.GetByteArrayAsync($Url).GetAwaiter().GetResult()
+    }
+    catch {
+        if (-not (Test-IsTlsFailure -Exception $_.Exception)) {
+            throw
+        }
+        Write-Log "Python download fallback: $Url"
+        return Get-RemoteBytesWithPython -Url $Url -Headers $Headers
+    }
+    finally {
+        $client.Dispose()
+    }
+}
+
 function Get-SourceContent {
     param([string]$Url)
 
@@ -53,14 +156,8 @@ function Get-SourceContent {
         return [IO.File]::ReadAllText($uri.LocalPath, [Text.Encoding]::UTF8)
     }
 
-    $client = New-HttpClient
-    try {
-        $bytes = $client.GetByteArrayAsync($Url).GetAwaiter().GetResult()
-        return [Text.Encoding]::UTF8.GetString($bytes)
-    }
-    finally {
-        $client.Dispose()
-    }
+    $bytes = Get-RemoteBytes -Url $Url -Headers (Get-HttpRequestHeaders)
+    return [Text.Encoding]::UTF8.GetString($bytes)
 }
 
 function Get-LocalNoticeText {
@@ -82,12 +179,8 @@ function Save-RemoteAsset {
         return
     }
 
-    $headers = @{
-        'User-Agent'      = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36'
-        'Accept'          = '*/*'
-        'Accept-Language' = 'zh-CN,zh;q=0.9,en;q=0.8'
-    }
-    Invoke-WebRequest -Uri $AssetUri.AbsoluteUri -Headers $headers -OutFile $LocalPath -UseBasicParsing -TimeoutSec 30
+    $bytes = Get-RemoteBytes -Url $AssetUri.AbsoluteUri -Headers (Get-HttpRequestHeaders -Accept '*/*')
+    [IO.File]::WriteAllBytes($LocalPath, $bytes)
 }
 
 function Convert-ToLocalViewHtml {
@@ -136,6 +229,9 @@ function Convert-ToLocalViewHtml {
             $localDir = Split-Path -Parent $localPath
             if (-not (Test-Path -LiteralPath $localDir)) {
                 New-Item -ItemType Directory -Path $localDir -Force | Out-Null
+            }
+            if (Test-Path -LiteralPath $localPath) {
+                return $match.Groups[1].Value + $RelativePrefix + $localRelative + $match.Groups[3].Value
             }
 
             try {
