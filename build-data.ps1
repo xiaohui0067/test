@@ -2553,10 +2553,14 @@ $jsonPath = Join-Path $dataDir 'records.json'
 $json = $payload | ConvertTo-Json -Depth 10
 [IO.File]::WriteAllText($jsonPath, $json, $Utf8NoBom)
 $dashboardPath = Join-Path $RootDir 'dashboard.html'
-[IO.File]::WriteAllText($dashboardPath, (New-DashboardHtml -EmbeddedJson $json), $Utf8NoBom)
+$dashboardHtml = New-DashboardHtml -EmbeddedJson $json
+[IO.File]::WriteAllText($dashboardPath, $dashboardHtml, $Utf8NoBom)
+$indexPath = Join-Path $RootDir 'index.html'
+[IO.File]::WriteAllText($indexPath, $dashboardHtml, $Utf8NoBom)
 $reportPath = Join-Path $RootDir 'report.html'
 [IO.File]::WriteAllText($reportPath, (New-ReportHtml -Summary $summary), $Utf8NoBom)
 Write-Host "Records: $($deduped.Count)"
 Write-Host "Saved: $jsonPath"
 Write-Host "Saved: $dashboardPath"
+Write-Host "Saved: $indexPath"
 Write-Host "Saved: $reportPath"

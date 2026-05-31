@@ -4,9 +4,9 @@
 
 ## 核心入口
 
-- `fetch-am.ps1`：抓取原站页面，重写本地资源，保存 `index.html`、`pages/*.html`、`assets/site/*`，然后调用 `build-data.ps1`。
-- `build-data.ps1`：从 `pages/*.html` 解析开奖记录，生成 `data/*.json`、`dashboard.html`、`report.html`。
-- `dashboard.html`：数据看板，包含看板、游戏、预测、5期窗口、日报标签；本地双击可用，线上部署时会优先读取 `/api/data`。
+- `fetch-am.ps1`：抓取原站页面，重写本地资源，保存 `kjjl.html`、`pages/*.html`、`assets/site/*`，然后调用 `build-data.ps1`。
+- `build-data.ps1`：从 `pages/*.html` 解析开奖记录，生成 `data/*.json`、`index.html`、`dashboard.html`、`report.html`。
+- `index.html` / `dashboard.html`：数据看板，包含看板、游戏、预测、5期窗口、日报标签；访问站点根目录时默认打开 `index.html`，线上部署时会优先读取 `/api/data`。
 - `report.html`：独立日报页。
 - `api/collect.js`：Vercel 手动采集接口，抓取原站、重新计算基础数据并写入 Vercel Blob。
 - `api/data.js`：Vercel 数据读取接口，从 Vercel Blob 读取最近一次线上采集结果。
@@ -30,8 +30,9 @@ powershell -NoProfile -ExecutionPolicy Bypass -File .\build-data.ps1 -RootDir .
 打开本地文件：
 
 ```text
-dashboard.html
 index.html
+dashboard.html
+kjjl.html
 report.html
 ```
 
@@ -44,7 +45,9 @@ report.html
 - `data/game-predictions.json`：游戏推荐记录和结算结果。
 - `data/prediction-observations.json`：预测观察记录。
 - `data/forecast-evaluation.json`：预测评估摘要。
+- `index.html`：根目录默认看板入口，内容与 `dashboard.html` 相同。
 - `dashboard.html`：内嵌数据的静态看板。
+- `kjjl.html`：开奖记录本地页面。
 - `report.html`：日报页面。
 
 JSON 和 HTML 写入使用 UTF-8 no BOM。

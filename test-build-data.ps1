@@ -286,6 +286,13 @@ try {
         throw 'dashboard.html was not created'
     }
     $dashboard = [IO.File]::ReadAllText((Join-Path $outDir 'dashboard.html'), [Text.Encoding]::UTF8)
+    $indexHtml = [IO.File]::ReadAllText((Join-Path $outDir 'index.html'), [Text.Encoding]::UTF8)
+    if (-not $indexHtml.Contains('data-tab="overview"') -or -not $indexHtml.Contains('id="manual-collect"')) {
+        throw 'index.html should be the dashboard entry for root directory access'
+    }
+    if ($indexHtml -ne $dashboard) {
+        throw 'index.html should match dashboard.html'
+    }
     if (-not (Test-Path -LiteralPath (Join-Path $outDir 'kjjl.html'))) {
         throw 'kjjl.html lottery records page should be preserved'
     }
