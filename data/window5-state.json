@@ -1,81 +1,81 @@
 {
-    "generatedAt":  "2026-05-31 20:04:08",
-    "items":  [
-                  {
-                      "source":  "am",
-                      "year":  "2026",
-                      "yearPool":  [
-                                       "01",
-                                       "27",
-                                       "37",
-                                       "16",
-                                       "23",
-                                       "29",
-                                       "12",
-                                       "10",
-                                       "31"
-                                   ],
-                      "adjustmentStatus":  "有变更",
-                      "adjustmentReason":  "最新开奖后当年覆盖池已调整",
-                      "changeTime":  "2026-05-31 20:04:08",
-                      "stablePool":  [
-                                         "08",
-                                         "05",
-                                         "06",
-                                         "09",
-                                         "20",
-                                         "30",
-                                         "01",
-                                         "02",
-                                         "03",
-                                         "10",
-                                         "12",
-                                         "23",
-                                         "24"
-                                     ],
-                      "stablePoolStatus":  "未触发",
-                      "stablePoolReason":  "未到重算条件，沿用上次跨年稳定池",
-                      "stablePoolChangeTime":  "2026-05-31 01:05:33",
-                      "stablePoolLastIssue":  150,
-                      "stablePoolNextRecalcIssue":  170,
-                      "computedAt":  "2026-05-31 20:04:08"
-                  },
-                  {
-                      "source":  "hk",
-                      "year":  "2026",
-                      "yearPool":  [
-                                       "40",
-                                       "42",
-                                       "19",
-                                       "34",
-                                       "27"
-                                   ],
-                      "adjustmentStatus":  "无变更",
-                      "adjustmentReason":  "本次重算与上次一致",
-                      "changeTime":  "2026-05-31 00:30:19",
-                      "stablePool":  [
-                                         "02",
-                                         "01",
-                                         "04",
-                                         "08",
-                                         "03",
-                                         "07",
-                                         "10",
-                                         "11",
-                                         "13",
-                                         "24",
-                                         "39",
-                                         "44",
-                                         "06",
-                                         "14",
-                                         "15"
-                                     ],
-                      "stablePoolStatus":  "未触发",
-                      "stablePoolReason":  "未到重算条件，沿用上次跨年稳定池",
-                      "stablePoolChangeTime":  "2026-05-31 01:05:33",
-                      "stablePoolLastIssue":  58,
-                      "stablePoolNextRecalcIssue":  68,
-                      "computedAt":  "2026-05-31 20:04:08"
-                  }
-              ]
+  "generatedAt": "2026-05-31 14:42:01",
+  "items": [
+    {
+      "source": "am",
+      "year": "2026",
+      "yearPool": [
+        "01",
+        "27",
+        "37",
+        "16",
+        "23",
+        "29",
+        "12",
+        "10",
+        "31"
+      ],
+      "adjustmentStatus": "无变更",
+      "adjustmentReason": "本次重算与上次一致",
+      "changeTime": "2026-05-31 20:04:08",
+      "stablePool": [
+        "08",
+        "05",
+        "06",
+        "09",
+        "20",
+        "30",
+        "01",
+        "02",
+        "03",
+        "10",
+        "12",
+        "23",
+        "24"
+      ],
+      "stablePoolStatus": "未触发",
+      "stablePoolReason": "未到重算条件，沿用上次跨年稳定池",
+      "stablePoolChangeTime": "2026-05-31 01:05:33",
+      "stablePoolLastIssue": 150,
+      "stablePoolNextRecalcIssue": 170,
+      "computedAt": "2026-05-31 14:42:01"
+    },
+    {
+      "source": "hk",
+      "year": "2026",
+      "yearPool": [
+        "40",
+        "42",
+        "19",
+        "34",
+        "27"
+      ],
+      "adjustmentStatus": "无变更",
+      "adjustmentReason": "本次重算与上次一致",
+      "changeTime": "2026-05-31 00:30:19",
+      "stablePool": [
+        "02",
+        "01",
+        "04",
+        "08",
+        "03",
+        "07",
+        "10",
+        "11",
+        "13",
+        "24",
+        "39",
+        "44",
+        "06",
+        "14",
+        "15"
+      ],
+      "stablePoolStatus": "未触发",
+      "stablePoolReason": "未到重算条件，沿用上次跨年稳定池",
+      "stablePoolChangeTime": "2026-05-31 01:05:33",
+      "stablePoolLastIssue": 58,
+      "stablePoolNextRecalcIssue": 68,
+      "computedAt": "2026-05-31 14:42:01"
+    }
+  ]
 }
