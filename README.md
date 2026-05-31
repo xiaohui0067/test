@@ -30,8 +30,8 @@ powershell -NoProfile -ExecutionPolicy Bypass -File .\build-data.ps1 -RootDir .
 打开本地文件：
 
 ```text
-index.html
 dashboard.html
+index.html
 report.html
 ```
 
@@ -109,11 +109,13 @@ powershell -NoProfile -ExecutionPolicy Bypass -File .\test-sanzhong-coverage.ps1
 
 ## Windows 计划任务
 
-安装每天晚上 9:45 自动抓取：
+安装每天北京时间 21:45 自动抓取：
 
 ```powershell
-powershell -NoProfile -ExecutionPolicy Bypass -File .\install-task.ps1 -ScriptPath <绝对路径>\fetch-am.ps1
+powershell -NoProfile -ExecutionPolicy Bypass -File .\install-task.ps1
 ```
+
+脚本会按当前机器时区换算本地触发时间，并生成指向当前仓库的 `run-hidden.vbs`。例如当前机器为 UTC+05:30 时，计划任务显示为本地 19:15，对应北京时间 21:45。
 
 计划任务名称：
 

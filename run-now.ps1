@@ -1,7 +1,9 @@
 $ErrorActionPreference = 'Stop'
 
 $scriptPath = Join-Path $PSScriptRoot 'fetch-am.ps1'
-& $scriptPath
+& $scriptPath -OutputDir $PSScriptRoot -SkipSnapshot
 
 Write-Host ''
-Write-Host 'Open local file: C:\codex\test\am\index.html'
+$dashboardPath = Join-Path $PSScriptRoot 'dashboard.html'
+Write-Host "Open local file: $dashboardPath"
+Start-Process -FilePath $dashboardPath
