@@ -47,4 +47,14 @@ if ($runNow -notmatch 'Start-Process\s+-FilePath\s+\$dashboardPath') {
     throw 'run-now.ps1 does not open dashboard.html'
 }
 
+if ($workflow -notmatch 'concurrency:') {
+    throw 'fetch workflow does not define concurrency'
+}
+if ($workflow -notmatch 'git rebase origin/main') {
+    throw 'fetch workflow does not rebase before pushing generated data'
+}
+if ($workflow -notmatch 'kjjl\.html') {
+    throw 'fetch workflow does not commit kjjl.html'
+}
+
 Write-Host 'PASS'

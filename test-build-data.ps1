@@ -87,6 +87,7 @@ $hkSample = @"
 "@
 
 [IO.File]::WriteAllText((Join-Path $pagesDir 'hk.html'), $hkSample, $utf8NoBom)
+[IO.File]::WriteAllText((Join-Path $outDir 'kjjl.html'), '<html><body>lottery records</body></html>', $utf8NoBom)
 
 $dataDir = Join-Path $outDir 'data'
 New-Item -ItemType Directory -Path $dataDir -Force | Out-Null
@@ -285,6 +286,12 @@ try {
         throw 'dashboard.html was not created'
     }
     $dashboard = [IO.File]::ReadAllText((Join-Path $outDir 'dashboard.html'), [Text.Encoding]::UTF8)
+    if (-not (Test-Path -LiteralPath (Join-Path $outDir 'kjjl.html'))) {
+        throw 'kjjl.html lottery records page should be preserved'
+    }
+    if (-not $dashboard.Contains('href="kjjl.html"')) {
+        throw 'dashboard should link back to kjjl.html'
+    }
     if (-not $dashboard.Contains('data-tab="overview"') -or -not $dashboard.Contains('data-tab="games"') -or -not $dashboard.Contains('data-tab="daily"') -or -not $dashboard.Contains('data-tab="forecast"') -or -not $dashboard.Contains('data-tab="window5"')) {
         throw 'dashboard should expose overview, games, forecast, 5-window, and daily tabs'
     }
@@ -622,11 +629,29 @@ try {
     if (-not $dashboard.Contains('function renderWindow5()')) {
         throw 'dashboard should expose a five-issue window coverage renderer'
     }
+    if (-not $dashboard.Contains('data-tab="threeWindow5"')) {
+        throw 'dashboard should expose a three-hit-three five-issue window tab'
+    }
+    if (-not $dashboard.Contains('function renderThreeWindow5()')) {
+        throw 'dashboard should expose a three-hit-three five-issue window renderer'
+    }
+    if (-not $dashboard.Contains('function threeWindowAnalysis(source)')) {
+        throw 'dashboard should calculate three-hit-three five-issue window analysis'
+    }
+    if (-not $dashboard.Contains('function buildThreeHitCombos(records)')) {
+        throw 'dashboard should build ranked three-hit-three combinations'
+    }
+    if (-not $dashboard.Contains('function threeHitWindowCoverage(rows, combos)')) {
+        throw 'dashboard should evaluate three-hit-three five-issue window coverage'
+    }
     if (-not $dashboard.Contains('function fiveWindowAnalysis(source)')) {
         throw 'dashboard should calculate five-issue window coverage analysis'
     }
     if (-not $dashboard.Contains('function greedyFiveWindowPool(windows)')) {
         throw 'dashboard should automatically recalculate the current-year five-window pool'
+    }
+    if (-not $dashboard.Contains('const maxWindow5PoolSize = 8') -or -not $dashboard.Contains('const maxStableWindow5PoolSize = 15') -or -not $dashboard.Contains('selected.length >= maxWindow5PoolSize')) {
+        throw 'five-issue window pools should be capped in dashboard logic'
     }
     if ($dashboard.Contains("yearPool: ['40','42','19','34','27']") -or $dashboard.Contains("yearPool: ['01','27','37','16','23','29','12','10']")) {
         throw 'five-issue window current-year pool should not be hard-coded'
@@ -654,6 +679,12 @@ try {
     foreach ($item in @($windowState.items)) {
         if ($null -eq $item.stablePool -or $null -eq $item.stablePoolStatus -or $null -eq $item.stablePoolChangeTime -or $null -eq $item.stablePoolNextRecalcIssue) {
             throw 'window5-state item should include stable pool state fields'
+        }
+        if (@($item.yearPool).Count -gt 8) {
+            throw 'window5 year pool should be capped at eight numbers'
+        }
+        if (@($item.stablePool).Count -gt 15) {
+            throw 'window5 stable pool should be capped at fifteen numbers'
         }
         if (@($item.stablePool | ForEach-Object { [string]$_ }) -contains '00') {
             throw 'window5 stable pool should not contain placeholder 00'

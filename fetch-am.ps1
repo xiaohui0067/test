@@ -418,6 +418,8 @@ try {
 
     $indexPath = Join-Path $OutputDir 'index.html'
     [IO.File]::WriteAllText($indexPath, $localHtml, $Utf8NoBom)
+    $recordsEntryPath = Join-Path $OutputDir 'kjjl.html'
+    [IO.File]::WriteAllText($recordsEntryPath, $localHtml, $Utf8NoBom)
 
     $rootPage = $allPages[([Uri]$baseUrlForRewrite).AbsoluteUri]
     if ($null -ne $rootPage) {

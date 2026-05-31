@@ -47,6 +47,9 @@ try {
     if (-not (Test-Path -LiteralPath $index)) {
         throw 'index.html was not created'
     }
+    if (-not (Test-Path -LiteralPath (Join-Path $outDir 'kjjl.html'))) {
+        throw 'kjjl.html records entry was not created'
+    }
 
     $html = [IO.File]::ReadAllText($index, [Text.Encoding]::UTF8)
     if ($html -notmatch 'assets/site/static/css/history\.css') {
