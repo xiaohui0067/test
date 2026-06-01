@@ -7,11 +7,17 @@ $wrapperPath = Join-Path $root 'run-hidden.vbs'
 $runNowPath = Join-Path $root 'run-now.ps1'
 
 $workflow = [IO.File]::ReadAllText($workflowPath, [Text.Encoding]::UTF8)
-if ($workflow -notmatch '21:45 Beijing time') {
-    throw 'workflow comment does not document the 21:45 Beijing schedule'
+if ($workflow -notmatch '21:45 / 21:55 / 22:05 Beijing time') {
+    throw 'workflow comment does not document the Beijing fallback schedules'
 }
 if ($workflow -notmatch 'cron:\s*"45 13 \* \* \*"') {
     throw 'workflow cron is not 13:45 UTC / 21:45 Beijing time'
+}
+if ($workflow -notmatch 'cron:\s*"55 13 \* \* \*"') {
+    throw 'workflow cron is not 13:55 UTC / 21:55 Beijing time'
+}
+if ($workflow -notmatch 'cron:\s*"5 14 \* \* \*"') {
+    throw 'workflow cron is not 14:05 UTC / 22:05 Beijing time'
 }
 
 $installTask = [IO.File]::ReadAllText($installTaskPath, [Text.Encoding]::UTF8)
