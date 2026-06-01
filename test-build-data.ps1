@@ -660,6 +660,13 @@ try {
     if (-not $dashboard.Contains('&#38271;&#26399;&#36136;&#37327;') -or -not $dashboard.Contains('&#24403;&#21069;&#29366;&#24577;')) {
         throw 'new pattern analysis should expose long-term quality and current status columns'
     }
+    $patternAnalysisBody = [regex]::Match($dashboard, 'function renderPatternAnalysis\(\) \{[\s\S]*?function renderDaily').Value
+    if (-not $patternAnalysisBody.Contains('analysis.special.structure.colors') -or -not $patternAnalysisBody.Contains('analysis.special.structure.tails') -or -not $patternAnalysisBody.Contains('analysis.three.structure.spans') -or -not $patternAnalysisBody.Contains('analysis.three.structure.parity')) {
+        throw 'new pattern analysis should include structure stats copied from pattern watch'
+    }
+    if (-not $patternAnalysisBody.Contains('&#29305;&#21035;&#21495;&#39068;&#33394;&#32467;&#26500;') -or -not $patternAnalysisBody.Contains('&#29305;&#21035;&#21495;&#23614;&#25968;&#32467;&#26500;') -or -not $patternAnalysisBody.Contains('&#19977;&#20013;&#19977;&#36328;&#24230;&#32467;&#26500;') -or -not $patternAnalysisBody.Contains('&#19977;&#20013;&#19977;&#22855;&#20598;&#32467;&#26500;')) {
+        throw 'new pattern analysis should render the copied structure statistic sections'
+    }
     if (-not $dashboard.Contains('function patternWatchAnalysis(source)')) {
         throw 'dashboard should calculate pattern watch metrics'
     }

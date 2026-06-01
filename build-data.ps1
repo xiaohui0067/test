@@ -2532,6 +2532,7 @@ __EMBEDDED_JSON__
     function patternAnalysisRows(source) {
       const special = fiveWindowAnalysis(source);
       const three = threeWindowAnalysis(source);
+      const yearRows = cachedSourceRecords(source).filter(row => displayYear(row) === special.currentYear);
       const decorate = (name, sizeLabel, stats, baseline) => ({name, sizeLabel, ...stats, baseline, edge: Math.round((stats.hitRate - baseline) * 100) / 100});
       return {
         currentYear: special.currentYear,
@@ -2539,7 +2540,9 @@ __EMBEDDED_JSON__
           decorate('\u7279\u522B\u53F7\u5F53\u5E748\u7801\u6C60', `${special.yearPool.length}\u7801`, patternRiskStats(special.yearWindows), randomWindowBaseline(special.yearPool.length, 49, 5)),
           decorate('\u7279\u522B\u53F7\u8DE8\u5E74\u7A33\u5B9A\u6C60', `${special.stablePool.length}\u7801`, patternRiskStats(special.stableWindows), randomWindowBaseline(special.stablePool.length, 49, 5)),
           decorate('\u4E09\u4E2D\u4E09\u7EC4\u5408\u6C60', `${three.combos.length}\u7EC4`, patternRiskStats(three.yearWindows), randomWindowBaseline(three.combos.length * 20, 18424, 5))
-        ]
+        ],
+        special: {structure: specialStructureStats(yearRows)},
+        three: {structure: threeComboStructureStats(three.combos)}
       };
     }
     function patternAnalysisMetricRow(item) {
@@ -2553,6 +2556,10 @@ __EMBEDDED_JSON__
         <section class="panel wide"><h2>&#38271;&#26399;&#36136;&#37327;</h2><p class="muted">&#21482;&#30475;&#38271;&#26399;&#21629;&#20013;&#29575;&#30456;&#23545;&#38543;&#26426;&#22522;&#20934;&#30340;&#36229;&#39069;&#65292;&#19981;&#25226;&#24403;&#21069;&#28431;&#31383;&#30452;&#25509;&#24403;&#25104;&#35268;&#24459;&#22833;&#25928;&#12290;</p></section>
         <section class="panel wide"><h2>&#24403;&#21069;&#29366;&#24577;</h2><p class="muted">&#21333;&#29420;&#27604;&#36739;&#24403;&#21069;&#36830;&#32493;&#28431;&#31383;&#19982;&#21382;&#21490;&#26368;&#22823;&#24050;&#32467;&#26463;&#28431;&#31383;&#65292;&#29992;&#20110;&#25552;&#31034;&#22238;&#25764;&#21387;&#21147;&#12290;</p></section>
         <section class="panel full"><h2>${esc(analysis.currentYear)}&#24180;&#35268;&#24459;&#20998;&#26512;</h2><table class="compact-table"><thead><tr><th>&#35266;&#23519;&#39033;</th><th>&#35268;&#27169;</th><th>&#26679;&#26412;&#31383;&#21475;</th><th>&#23454;&#38469;</th><th>&#38543;&#26426;&#22522;&#20934;</th><th>&#36229;&#39069;</th><th>&#36817;10&#31383;&#21475;</th><th>&#38271;&#26399;&#36136;&#37327;</th><th>&#24403;&#21069;&#28431;&#31383;</th><th>&#21382;&#21490;&#26368;&#22823;&#28431;&#31383;</th><th>&#24403;&#21069;&#29366;&#24577;</th></tr></thead><tbody>${analysis.rows.map(patternAnalysisMetricRow).join('')}</tbody></table></section>
+        <section class="panel wide"><h2>&#29305;&#21035;&#21495;&#39068;&#33394;&#32467;&#26500;</h2>${simpleRankList(analysis.special.structure.colors)}</section>
+        <section class="panel wide"><h2>&#29305;&#21035;&#21495;&#23614;&#25968;&#32467;&#26500;</h2>${simpleRankList(analysis.special.structure.tails.slice(0, 10))}</section>
+        <section class="panel wide"><h2>&#19977;&#20013;&#19977;&#36328;&#24230;&#32467;&#26500;</h2>${simpleRankList(analysis.three.structure.spans)}</section>
+        <section class="panel wide"><h2>&#19977;&#20013;&#19977;&#22855;&#20598;&#32467;&#26500;</h2>${simpleRankList(analysis.three.structure.parity)}</section>
       </div>`;
       document.getElementById('pattern-analysis-source').addEventListener('change', renderPatternAnalysis);
     }
