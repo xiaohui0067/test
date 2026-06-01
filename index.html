@@ -91,7 +91,7 @@
   <script id="embedded-records" type="application/json">
 {
     "summary":  {
-                    "generatedAt":  "2026-06-01 10:24:39",
+                    "generatedAt":  "2026-06-01 15:21:30",
                     "totalRecords":  2942,
                     "totalBalls":  20594,
                     "bySource":  {
@@ -198319,7 +198319,7 @@
                                                          "05",
                                                          "43"
                                                      ],
-                                         "createdAt":  "2026-06-01 10:24:42",
+                                         "createdAt":  "2026-06-01 15:21:32",
                                          "savedBy":  "fetch"
                                      },
                                      {
@@ -198339,7 +198339,7 @@
                                                          "45",
                                                          "06"
                                                      ],
-                                         "createdAt":  "2026-06-01 10:24:42",
+                                         "createdAt":  "2026-06-01 15:21:32",
                                          "savedBy":  "fetch"
                                      },
                                      {
@@ -198584,7 +198584,7 @@
                                                           },
                                              "verifiedCandidates":  18424,
                                              "method":  "exhaustive-49c3-portfolio",
-                                             "createdAt":  "2026-06-01 10:24:42",
+                                             "createdAt":  "2026-06-01 15:21:32",
                                              "savedBy":  "fetch"
                                          },
                                          {
@@ -198807,7 +198807,7 @@
                                                           },
                                              "verifiedCandidates":  18424,
                                              "method":  "exhaustive-49c3-portfolio",
-                                             "createdAt":  "2026-06-01 10:24:42",
+                                             "createdAt":  "2026-06-01 15:21:32",
                                              "savedBy":  "fetch"
                                          },
                                          {
@@ -199036,7 +199036,7 @@
                                      ]
                     },
     "games":  {
-                  "generatedAt":  "2026-06-01 10:25:29",
+                  "generatedAt":  "2026-06-01 15:22:16",
                   "items":  [
                                 {
                                     "id":  "am-special-number-2026-152-ant-colony",
@@ -200822,7 +200822,7 @@
                             ]
               },
     "forecasts":  {
-                      "generatedAt":  "2026-06-01 10:25:34",
+                      "generatedAt":  "2026-06-01 15:22:21",
                       "items":  [
                                     {
                                         "id":  "am-forecast-special-number-2026-152",
@@ -202104,7 +202104,7 @@
                                 ]
                   },
     "window5":  {
-                    "generatedAt":  "2026-06-01 10:24:39",
+                    "generatedAt":  "2026-06-01 15:21:30",
                     "items":  [
                                   {
                                       "source":  "am",
@@ -202123,26 +202123,28 @@
                                       "adjustmentReason":  "本次重算与上次一致",
                                       "changeTime":  "2026-05-31 20:04:08",
                                       "stablePool":  [
-                                                         "08",
+                                                         "03",
                                                          "05",
-                                                         "06",
-                                                         "09",
+                                                         "08",
                                                          "20",
+                                                         "23",
                                                          "30",
                                                          "01",
-                                                         "02",
-                                                         "03",
+                                                         "04",
+                                                         "06",
                                                          "10",
-                                                         "12",
-                                                         "23",
-                                                         "24"
+                                                         "14",
+                                                         "24",
+                                                         "39",
+                                                         "46",
+                                                         "02"
                                                      ],
-                                      "stablePoolStatus":  "未触发",
-                                      "stablePoolReason":  "未到重算条件，沿用上次跨年稳定池",
-                                      "stablePoolChangeTime":  "2026-05-31 01:05:33",
-                                      "stablePoolLastIssue":  150,
-                                      "stablePoolNextRecalcIssue":  170,
-                                      "computedAt":  "2026-06-01 10:24:39"
+                                      "stablePoolStatus":  "有变更",
+                                      "stablePoolReason":  "已按周期规则重算跨年稳定池",
+                                      "stablePoolChangeTime":  "2026-06-01 15:21:30",
+                                      "stablePoolLastIssue":  151,
+                                      "stablePoolNextRecalcIssue":  171,
+                                      "computedAt":  "2026-06-01 15:21:30"
                                   },
                                   {
                                       "source":  "hk",
@@ -202179,7 +202181,7 @@
                                       "stablePoolChangeTime":  "2026-05-31 01:05:33",
                                       "stablePoolLastIssue":  58,
                                       "stablePoolNextRecalcIssue":  68,
-                                      "computedAt":  "2026-06-01 10:24:39"
+                                      "computedAt":  "2026-06-01 15:21:30"
                                   }
                               ]
                 }
@@ -202512,23 +202514,23 @@
       return Math.round((1 - Math.pow(1 - pickCount / totalCount, drawsPerWindow)) * 10000) / 100;
     }
     function patternLevel(edge, currentMiss, maxMiss) {
-      const pressure = maxMiss ? currentMiss / maxMiss : 0;
-      if (edge >= 15 && pressure <= 0.5) return '&#20248;&#31168;';
-      if (edge >= 8 && pressure <= 0.75) return '&#33391;&#22909;';
-      if (edge >= 0 && pressure < 1) return '&#35266;&#23519;';
-      return '&#22833;&#25928;';
+      if (edge < 0 || (maxMiss > 0 && currentMiss > maxMiss)) return '&#22833;&#25928;';
+      if (edge >= 15 && currentMiss <= 2) return '&#20248;&#31168;';
+      if (edge >= 8 && currentMiss <= 3) return '&#33391;&#22909;';
+      return '&#35266;&#23519;';
     }
     function patternStats(windows) {
-      const total = windows.length;
-      const hits = windows.filter(item => item.covered).length;
+      const completed = windows.filter(item => Number(item.count || 0) >= 5);
+      const total = completed.length;
+      const hits = completed.filter(item => item.covered).length;
       let currentMiss = 0;
-      for (let i = windows.length - 1; i >= 0; i--) {
-        if (windows[i].covered) break;
+      for (let i = completed.length - 1; i >= 0; i--) {
+        if (completed[i].covered) break;
         currentMiss++;
       }
       let maxMiss = 0;
       let run = 0;
-      windows.forEach(item => {
+      completed.forEach(item => {
         if (item.covered) {
           maxMiss = Math.max(maxMiss, run);
           run = 0;
@@ -202537,7 +202539,7 @@
         }
       });
       maxMiss = Math.max(maxMiss, run);
-      const recent = windows.slice(-10);
+      const recent = completed.slice(-10);
       const recentHits = recent.filter(item => item.covered).length;
       return {total, hits, hitRate: total ? Math.round(hits / total * 10000) / 100 : 0, currentMiss, maxMiss, recentHitRate: recent.length ? Math.round(recentHits / recent.length * 10000) / 100 : 0};
     }
@@ -202552,6 +202554,39 @@
       });
       const toRows = (map) => [...map.entries()].map(([name, count]) => ({name, count})).sort((a, b) => b.count - a.count || String(a.name).localeCompare(String(b.name)));
       return {colors: toRows(colorMap), tails: toRows(tailMap)};
+    }
+    function optimizedSpecialPool(rows, basePool, size) {
+      const structure = specialStructureStats(rows);
+      const tailRank = new Map(structure.tails.map((item, idx) => [String(item.name), structure.tails.length - idx]));
+      const colorRank = new Map(structure.colors.map((item, idx) => [String(item.name), structure.colors.length - idx]));
+      const freq = new Map();
+      rows.forEach(row => {
+        const ball = row.balls?.[6];
+        if (!ball) return;
+        const num = String(ball.numberText || '').padStart(2, '0');
+        freq.set(num, {num, color: ball.color, count: (freq.get(num)?.count || 0) + 1});
+      });
+      const base = new Set(basePool);
+      const scored = Array.from({length: 49}, (_, idx) => String(idx + 1).padStart(2, '0')).map(num => {
+        const item = freq.get(num) || {num, color: '', count: 0};
+        const tail = num.slice(-1);
+        const score = item.count * 8 + (tailRank.get(tail) || 0) * 3 + (colorRank.get(item.color) || 0) * 2 + (base.has(num) ? 20 : 0);
+        return {num, score};
+      }).sort((a, b) => b.score - a.score || Number(a.num) - Number(b.num));
+      const selected = [];
+      const tailCounts = new Map();
+      scored.forEach(item => {
+        if (selected.length >= size) return;
+        const tail = item.num.slice(-1);
+        if ((tailCounts.get(tail) || 0) >= 2) return;
+        selected.push(item.num);
+        tailCounts.set(tail, (tailCounts.get(tail) || 0) + 1);
+      });
+      scored.forEach(item => {
+        if (selected.length >= size) return;
+        if (!selected.includes(item.num)) selected.push(item.num);
+      });
+      return selected;
     }
     function threeComboStructureStats(combos) {
       const spans = new Map();
@@ -202568,6 +202603,45 @@
       const toRows = (map) => [...map.entries()].map(([name, count]) => ({name, count})).sort((a, b) => b.count - a.count || String(a.name).localeCompare(String(b.name)));
       return {spans: toRows(spans), parity: toRows(parity)};
     }
+    function optimizedThreeCombos(rows, baseCombos, size) {
+      const built = buildThreeHitCombos(rows);
+      const candidates = [...baseCombos, ...built.combos];
+      const seen = new Set();
+      const ranked = candidates.filter(item => {
+        const key = comboKey(item.numbers);
+        if (seen.has(key)) return false;
+        seen.add(key);
+        return true;
+      }).map(item => ({...item, key: comboKey(item.numbers)})).sort((a, b) => (b.windowHits || 0) - (a.windowHits || 0) || (b.hits || 0) - (a.hits || 0) || a.key.localeCompare(b.key));
+      const selected = [];
+      const parityCounts = new Map();
+      const spanCounts = new Map();
+      ranked.forEach(item => {
+        if (selected.length >= size) return;
+        const nums = item.numbers.map(n => Number(n)).sort((a, b) => a - b);
+        const odd = nums.filter(n => n % 2 === 1).length;
+        const parity = `${odd}\u5947${3 - odd}\u5076`;
+        const span = nums[2] - nums[0];
+        const spanName = span <= 12 ? '0-12' : span <= 24 ? '13-24' : '25+';
+        const overlapTooHigh = selected.filter(existing => item.numbers.filter(num => existing.numbers.includes(num)).length >= 2).length >= 3;
+        if (overlapTooHigh || (parityCounts.get(parity) || 0) >= 5 || (spanCounts.get(spanName) || 0) >= 7) return;
+        selected.push(item);
+        parityCounts.set(parity, (parityCounts.get(parity) || 0) + 1);
+        spanCounts.set(spanName, (spanCounts.get(spanName) || 0) + 1);
+      });
+      ranked.forEach(item => {
+        if (selected.length >= size) return;
+        if (!selected.some(existing => existing.key === item.key)) selected.push(item);
+      });
+      return selected.slice(0, size);
+    }
+    function optimizationCompareRow(name, original, optimized, baseline) {
+      const originalEdge = Math.round((original.hitRate - baseline) * 100) / 100;
+      const optimizedEdge = Math.round((optimized.hitRate - baseline) * 100) / 100;
+      const delta = Math.round((optimized.hitRate - original.hitRate) * 100) / 100;
+      const verdict = delta > 0 ? '\u4F18\u5316\u66F4\u4F18' : delta < 0 ? '\u539F\u6C60\u66F4\u4F18' : '\u6301\u5E73';
+      return `<tr><td>${name}</td><td>${esc(original.hitRate)}%</td><td>${esc(optimized.hitRate)}%</td><td>${esc(baseline)}%</td><td>${esc(originalEdge)}%</td><td>${esc(optimizedEdge)}%</td><td>${esc(delta)}%</td><td>${verdict}</td></tr>`;
+    }
     function patternWatchAnalysis(source) {
       const special = fiveWindowAnalysis(source);
       const three = threeWindowAnalysis(source);
@@ -202578,12 +202652,19 @@
       const stableBaseline = randomWindowBaseline(special.stablePool.length, 49, 5);
       const threeBaseline = randomWindowBaseline(three.combos.length * 20, 18424, 5);
       const yearRows = cachedSourceRecords(source).filter(row => displayYear(row) === special.currentYear);
+      const optimizedSpecial = optimizedSpecialPool(yearRows, special.yearPool, 8);
+      const optimizedStable = optimizedSpecialPool(yearRows, special.stablePool, 15);
+      const optimizedThree = optimizedThreeCombos(yearRows, three.combos, 12);
+      const optimizedSpecialStats = patternStats(fiveWindowCoverage(yearRows, optimizedSpecial));
+      const optimizedStableStats = patternStats(fiveWindowCoverage(yearRows, optimizedStable));
+      const optimizedThreeStats = patternStats(threeHitWindowCoverage(yearRows, optimizedThree));
       return {
         source,
         currentYear: special.currentYear,
         special: {...specialStats, baseline: specialBaseline, edge: Math.round((specialStats.hitRate - specialBaseline) * 100) / 100, level: patternLevel(specialStats.hitRate - specialBaseline, specialStats.currentMiss, specialStats.maxMiss), poolSize: special.yearPool.length, structure: specialStructureStats(yearRows)},
         stable: {...stableStats, baseline: stableBaseline, edge: Math.round((stableStats.hitRate - stableBaseline) * 100) / 100, level: patternLevel(stableStats.hitRate - stableBaseline, stableStats.currentMiss, stableStats.maxMiss), poolSize: special.stablePool.length},
-        three: {...threeStats, baseline: threeBaseline, edge: Math.round((threeStats.hitRate - threeBaseline) * 100) / 100, level: patternLevel(threeStats.hitRate - threeBaseline, threeStats.currentMiss, threeStats.maxMiss), comboSize: three.combos.length, structure: threeComboStructureStats(three.combos)}
+        three: {...threeStats, baseline: threeBaseline, edge: Math.round((threeStats.hitRate - threeBaseline) * 100) / 100, level: patternLevel(threeStats.hitRate - threeBaseline, threeStats.currentMiss, threeStats.maxMiss), comboSize: three.combos.length, structure: threeComboStructureStats(three.combos)},
+        optimized: {special: {pool: optimizedSpecial, stats: optimizedSpecialStats}, stable: {pool: optimizedStable, stats: optimizedStableStats}, three: {combos: optimizedThree, stats: optimizedThreeStats}}
       };
     }
     function recommendationSummary(rows) {
@@ -202886,6 +202967,9 @@
     function simpleRankList(items) {
       return `<table class="compact-table"><thead><tr><th>&#32467;&#26500;</th><th>&#27425;&#25968;</th></tr></thead><tbody>${items.map(item => `<tr><td>${esc(item.name)}</td><td>${esc(item.count)}</td></tr>`).join('')}</tbody></table>`;
     }
+    function comboListHtml(combos) {
+      return `<div class="history-list">${combos.map(item => `<div>${numberChips(item.numbers)}</div>`).join('')}</div>`;
+    }
     function renderPatternWatch() {
       const selected = document.getElementById('pattern-source')?.value || 'am';
       const analysis = patternWatchAnalysis(selected);
@@ -202896,6 +202980,16 @@
           ${patternMetricRow('\u7279\u522B\u53F7\u8DE8\u5E74\u7A33\u5B9A\u6C60', analysis.stable, `${analysis.stable.poolSize}\u7801`)}
           ${patternMetricRow('\u4E09\u4E2D\u4E09\u7EC4\u5408\u6C60', analysis.three, `${analysis.three.comboSize}\u7EC4`)}
         </tbody></table></section>
+        <section class="panel full"><h2>&#35268;&#24459;&#20248;&#21270;&#27744;</h2><p class="muted">&#21407;&#27744;&#19981;&#21160;&#65292;&#27492;&#22788;&#20165;&#29992;&#20110;&#35266;&#23519;&#35268;&#24459;&#32467;&#26500;&#20248;&#21270;&#21518;&#30340;&#22238;&#27979;&#34920;&#29616;&#12290;</p><div class="grid">
+          <section class="panel"><h2>&#29305;&#21035;&#21495;&#24403;&#24180;8&#30721;&#20248;&#21270;</h2>${numberChips(analysis.optimized.special.pool)}<p class="muted">&#20445;&#30041;&#21407;&#27744;&#26680;&#24515;&#65292;&#25353;&#24403;&#24180;&#39057;&#27425;&#12289;&#39068;&#33394;&#12289;&#23614;&#25968;&#20998;&#25955;&#20248;&#21270;&#12290;</p></section>
+          <section class="panel"><h2>&#29305;&#21035;&#21495;&#36328;&#24180;&#31283;&#23450;&#20248;&#21270;</h2>${numberChips(analysis.optimized.stable.pool)}<p class="muted">&#20445;&#30041;&#36328;&#24180;&#31283;&#23450;&#27744;&#26435;&#37325;&#65292;&#25353;&#24403;&#24180;&#32467;&#26500;&#20570;&#36731;&#37327;&#35843;&#25972;&#12290;</p></section>
+          <section class="panel wide"><h2>&#19977;&#20013;&#19977;12&#32452;&#20248;&#21270;</h2>${comboListHtml(analysis.optimized.three.combos)}<p class="muted">&#25353;&#21382;&#21490;&#31383;&#21475;&#21629;&#20013;&#12289;&#36328;&#24230;&#12289;&#22855;&#20598;&#21644;&#37325;&#22797;&#21495;&#25511;&#21046;&#20248;&#21270;&#12290;</p></section>
+        </div></section>
+        <section class="panel full"><h2>&#20248;&#21270;&#34920;&#29616;&#23545;&#27604;</h2><table class="compact-table"><thead><tr><th>&#35266;&#23519;&#39033;</th><th>&#21407;&#22987;&#23454;&#38469;</th><th>&#20248;&#21270;&#23454;&#38469;</th><th>&#38543;&#26426;&#22522;&#20934;</th><th>&#21407;&#22987;&#36229;&#39069;</th><th>&#20248;&#21270;&#36229;&#39069;</th><th>&#21464;&#21270;</th><th>&#32467;&#35770;</th></tr></thead><tbody>
+          ${optimizationCompareRow('\u7279\u522B\u53F7\u5F53\u5E748\u7801\u6C60', analysis.special, analysis.optimized.special.stats, analysis.special.baseline)}
+          ${optimizationCompareRow('\u7279\u522B\u53F7\u8DE8\u5E74\u7A33\u5B9A\u6C60', analysis.stable, analysis.optimized.stable.stats, analysis.stable.baseline)}
+          ${optimizationCompareRow('\u4E09\u4E2D\u4E09\u7EC4\u5408\u6C60', analysis.three, analysis.optimized.three.stats, analysis.three.baseline)}
+        </tbody></table></section>
         <section class="panel wide"><h2>&#29305;&#21035;&#21495;&#39068;&#33394;&#32467;&#26500;</h2>${simpleRankList(analysis.special.structure.colors)}</section>
         <section class="panel wide"><h2>&#29305;&#21035;&#21495;&#23614;&#25968;&#32467;&#26500;</h2>${simpleRankList(analysis.special.structure.tails.slice(0, 10))}</section>
         <section class="panel wide"><h2>&#19977;&#20013;&#19977;&#36328;&#24230;&#32467;&#26500;</h2>${simpleRankList(analysis.three.structure.spans)}</section>
@@ -202904,17 +202998,18 @@
       document.getElementById('pattern-source').addEventListener('change', renderPatternWatch);
     }
     function patternRiskStats(windows) {
-      const total = windows.length;
-      const hits = windows.filter(item => item.covered).length;
+      const completed = windows.filter(item => Number(item.count || 0) >= 5);
+      const total = completed.length;
+      const hits = completed.filter(item => item.covered).length;
       let currentMiss = 0;
-      for (let i = windows.length - 1; i >= 0; i--) {
-        if (windows[i].covered) break;
+      for (let i = completed.length - 1; i >= 0; i--) {
+        if (completed[i].covered) break;
         currentMiss++;
       }
-      const completed = windows.slice(0, Math.max(0, windows.length - currentMiss));
+      const previousWindows = completed.slice(0, Math.max(0, completed.length - currentMiss));
       let previousMaxMiss = 0;
       let run = 0;
-      completed.forEach(item => {
+      previousWindows.forEach(item => {
         if (item.covered) {
           previousMaxMiss = Math.max(previousMaxMiss, run);
           run = 0;
@@ -202923,7 +203018,7 @@
         }
       });
       previousMaxMiss = Math.max(previousMaxMiss, run);
-      const recent = windows.slice(-10);
+      const recent = completed.slice(-10);
       const recentHits = recent.filter(item => item.covered).length;
       return {total, hits, hitRate: total ? Math.round(hits / total * 10000) / 100 : 0, currentMiss, previousMaxMiss, recentHitRate: recent.length ? Math.round(recentHits / recent.length * 10000) / 100 : 0};
     }

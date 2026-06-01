@@ -1,5 +1,5 @@
 {
-    "generatedAt":  "2026-06-01 10:24:39",
+    "generatedAt":  "2026-06-01 15:21:30",
     "items":  [
                   {
                       "source":  "am",
@@ -18,26 +18,28 @@
                       "adjustmentReason":  "本次重算与上次一致",
                       "changeTime":  "2026-05-31 20:04:08",
                       "stablePool":  [
-                                         "08",
+                                         "03",
                                          "05",
-                                         "06",
-                                         "09",
+                                         "08",
                                          "20",
+                                         "23",
                                          "30",
                                          "01",
-                                         "02",
-                                         "03",
+                                         "04",
+                                         "06",
                                          "10",
-                                         "12",
-                                         "23",
-                                         "24"
+                                         "14",
+                                         "24",
+                                         "39",
+                                         "46",
+                                         "02"
                                      ],
-                      "stablePoolStatus":  "未触发",
-                      "stablePoolReason":  "未到重算条件，沿用上次跨年稳定池",
-                      "stablePoolChangeTime":  "2026-05-31 01:05:33",
-                      "stablePoolLastIssue":  150,
-                      "stablePoolNextRecalcIssue":  170,
-                      "computedAt":  "2026-06-01 10:24:39"
+                      "stablePoolStatus":  "有变更",
+                      "stablePoolReason":  "已按周期规则重算跨年稳定池",
+                      "stablePoolChangeTime":  "2026-06-01 15:21:30",
+                      "stablePoolLastIssue":  151,
+                      "stablePoolNextRecalcIssue":  171,
+                      "computedAt":  "2026-06-01 15:21:30"
                   },
                   {
                       "source":  "hk",
@@ -74,7 +76,7 @@
                       "stablePoolChangeTime":  "2026-05-31 01:05:33",
                       "stablePoolLastIssue":  58,
                       "stablePoolNextRecalcIssue":  68,
-                      "computedAt":  "2026-06-01 10:24:39"
+                      "computedAt":  "2026-06-01 15:21:30"
                   }
               ]
 }

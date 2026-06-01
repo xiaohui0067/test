@@ -657,6 +657,9 @@ try {
     if (-not $dashboard.Contains('function patternRiskStats(windows)') -or -not $dashboard.Contains('previousMaxMiss')) {
         throw 'new pattern analysis should compare current miss against previous historical max miss'
     }
+    if (-not $dashboard.Contains('const completed = windows.filter(item => Number(item.count || 0) >= 5)')) {
+        throw 'pattern stats should only count completed five-issue windows'
+    }
     if (-not $dashboard.Contains('&#38271;&#26399;&#36136;&#37327;') -or -not $dashboard.Contains('&#24403;&#21069;&#29366;&#24577;')) {
         throw 'new pattern analysis should expose long-term quality and current status columns'
     }
@@ -669,6 +672,21 @@ try {
     }
     if (-not $dashboard.Contains('function patternWatchAnalysis(source)')) {
         throw 'dashboard should calculate pattern watch metrics'
+    }
+    if (-not $dashboard.Contains('if (edge < 0 || (maxMiss > 0 && currentMiss > maxMiss))')) {
+        throw 'pattern watch should only mark invalid when current miss exceeds historical max or underperforms baseline'
+    }
+    if (-not $dashboard.Contains('function optimizedSpecialPool(rows, basePool, size)')) {
+        throw 'pattern watch should calculate optimized special-number pools'
+    }
+    if (-not $dashboard.Contains('function optimizedThreeCombos(rows, baseCombos, size)')) {
+        throw 'pattern watch should calculate optimized three-hit combo pools'
+    }
+    if (-not $dashboard.Contains('function optimizationCompareRow(name, original, optimized, baseline)')) {
+        throw 'pattern watch should compare original and optimized pool performance'
+    }
+    if (-not $dashboard.Contains('&#35268;&#24459;&#20248;&#21270;&#27744;') -or -not $dashboard.Contains('&#21407;&#27744;&#19981;&#21160;')) {
+        throw 'pattern watch should render optimized pool comparison without changing original pools'
     }
     if (-not $dashboard.Contains('function randomWindowBaseline(pickCount, totalCount, drawsPerWindow)')) {
         throw 'dashboard should calculate random window baselines'
@@ -730,6 +748,10 @@ try {
         if (@($item.stablePool | ForEach-Object { [string]$_ }) -contains '00') {
             throw 'window5 stable pool should not contain placeholder 00'
         }
+    }
+    $buildScriptText = [IO.File]::ReadAllText((Join-Path $PSScriptRoot 'build-data.ps1'), [Text.Encoding]::UTF8)
+    if (-not $buildScriptText.Contains('$oldStablePool.Count -lt 15')) {
+        throw 'window5 stable pool should recalculate when an old pool has fewer than fifteen numbers'
     }
     if ($dashboard.Contains('<h2>&#35206;&#30422;&#27744;&#29366;&#24577;</h2>')) {
         throw 'five-issue window status should be displayed under current-year pool, not as a separate card'
