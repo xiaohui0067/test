@@ -1759,6 +1759,7 @@ function New-DashboardHtml {
       <button data-tab="forecast">&#39044;&#27979;</button>
       <button data-tab="window5">5&#26399;&#31383;&#21475;</button>
       <button data-tab="threeWindow5">&#19977;&#20013;&#19977;5&#26399;&#31383;&#21475;</button>
+      <button data-tab="patternWatch">&#35268;&#24459;&#35266;&#23519;</button>
       <button data-tab="daily">&#26085;&#25253;</button>
     </nav>
     <section id="app"></section>
@@ -2088,6 +2089,85 @@ __EMBEDDED_JSON__
       }
       return {source, latest, currentYear, numberPool: built.numberPool, combos: built.combos, currentWindow, yearWindows, stats: {total: yearWindows.length, hits: hitWindows, misses: yearWindows.length - hitWindows, hitRate: yearWindows.length ? Math.round(hitWindows / yearWindows.length * 100) : 0, currentMiss, maxMiss}};
     }
+    function randomWindowBaseline(pickCount, totalCount, drawsPerWindow) {
+      if (!pickCount || !totalCount || !drawsPerWindow) return 0;
+      return Math.round((1 - Math.pow(1 - pickCount / totalCount, drawsPerWindow)) * 10000) / 100;
+    }
+    function patternLevel(edge, currentMiss, maxMiss) {
+      const pressure = maxMiss ? currentMiss / maxMiss : 0;
+      if (edge >= 15 && pressure <= 0.5) return '&#20248;&#31168;';
+      if (edge >= 8 && pressure <= 0.75) return '&#33391;&#22909;';
+      if (edge >= 0 && pressure < 1) return '&#35266;&#23519;';
+      return '&#22833;&#25928;';
+    }
+    function patternStats(windows) {
+      const total = windows.length;
+      const hits = windows.filter(item => item.covered).length;
+      let currentMiss = 0;
+      for (let i = windows.length - 1; i >= 0; i--) {
+        if (windows[i].covered) break;
+        currentMiss++;
+      }
+      let maxMiss = 0;
+      let run = 0;
+      windows.forEach(item => {
+        if (item.covered) {
+          maxMiss = Math.max(maxMiss, run);
+          run = 0;
+        } else {
+          run++;
+        }
+      });
+      maxMiss = Math.max(maxMiss, run);
+      const recent = windows.slice(-10);
+      const recentHits = recent.filter(item => item.covered).length;
+      return {total, hits, hitRate: total ? Math.round(hits / total * 10000) / 100 : 0, currentMiss, maxMiss, recentHitRate: recent.length ? Math.round(recentHits / recent.length * 10000) / 100 : 0};
+    }
+    function specialStructureStats(rows) {
+      const items = rows.map(row => row.balls?.[6]).filter(Boolean);
+      const colorMap = new Map();
+      const tailMap = new Map();
+      items.forEach(ball => {
+        colorMap.set(ball.color, (colorMap.get(ball.color) || 0) + 1);
+        const tail = String(ball.numberText || '').slice(-1);
+        tailMap.set(tail, (tailMap.get(tail) || 0) + 1);
+      });
+      const toRows = (map) => [...map.entries()].map(([name, count]) => ({name, count})).sort((a, b) => b.count - a.count || String(a.name).localeCompare(String(b.name)));
+      return {colors: toRows(colorMap), tails: toRows(tailMap)};
+    }
+    function threeComboStructureStats(combos) {
+      const spans = new Map();
+      const parity = new Map();
+      combos.forEach(item => {
+        const nums = item.numbers.map(n => Number(n)).sort((a, b) => a - b);
+        const span = nums[2] - nums[0];
+        const spanName = span <= 12 ? '0-12' : span <= 24 ? '13-24' : '25+';
+        spans.set(spanName, (spans.get(spanName) || 0) + 1);
+        const odd = nums.filter(n => n % 2 === 1).length;
+        const key = `${odd}\u5947${3 - odd}\u5076`;
+        parity.set(key, (parity.get(key) || 0) + 1);
+      });
+      const toRows = (map) => [...map.entries()].map(([name, count]) => ({name, count})).sort((a, b) => b.count - a.count || String(a.name).localeCompare(String(b.name)));
+      return {spans: toRows(spans), parity: toRows(parity)};
+    }
+    function patternWatchAnalysis(source) {
+      const special = fiveWindowAnalysis(source);
+      const three = threeWindowAnalysis(source);
+      const specialStats = patternStats(special.yearWindows);
+      const stableStats = patternStats(special.stableWindows);
+      const threeStats = patternStats(three.yearWindows);
+      const specialBaseline = randomWindowBaseline(special.yearPool.length, 49, 5);
+      const stableBaseline = randomWindowBaseline(special.stablePool.length, 49, 5);
+      const threeBaseline = randomWindowBaseline(three.combos.length * 20, 18424, 5);
+      const yearRows = cachedSourceRecords(source).filter(row => displayYear(row) === special.currentYear);
+      return {
+        source,
+        currentYear: special.currentYear,
+        special: {...specialStats, baseline: specialBaseline, edge: Math.round((specialStats.hitRate - specialBaseline) * 100) / 100, level: patternLevel(specialStats.hitRate - specialBaseline, specialStats.currentMiss, specialStats.maxMiss), poolSize: special.yearPool.length, structure: specialStructureStats(yearRows)},
+        stable: {...stableStats, baseline: stableBaseline, edge: Math.round((stableStats.hitRate - stableBaseline) * 100) / 100, level: patternLevel(stableStats.hitRate - stableBaseline, stableStats.currentMiss, stableStats.maxMiss), poolSize: special.stablePool.length},
+        three: {...threeStats, baseline: threeBaseline, edge: Math.round((threeStats.hitRate - threeBaseline) * 100) / 100, level: patternLevel(threeStats.hitRate - threeBaseline, threeStats.currentMiss, threeStats.maxMiss), comboSize: three.combos.length, structure: threeComboStructureStats(three.combos)}
+      };
+    }
     function recommendationSummary(rows) {
       const map = new Map();
       rows.forEach(row => {
@@ -2382,6 +2462,29 @@ __EMBEDDED_JSON__
       </div>`;
       document.getElementById('three-window5-source').addEventListener('change', renderThreeWindow5);
     }
+    function patternMetricRow(name, item, sizeLabel) {
+      return `<tr><td>${esc(name)}</td><td>${esc(sizeLabel)}</td><td>${esc(item.hitRate)}%</td><td>${esc(item.baseline)}%</td><td>${esc(item.edge)}%</td><td>${esc(item.currentMiss)}</td><td>${esc(item.maxMiss)}</td><td>${esc(item.recentHitRate)}%</td><td>${item.level}</td></tr>`;
+    }
+    function simpleRankList(items) {
+      return `<table class="compact-table"><thead><tr><th>&#32467;&#26500;</th><th>&#27425;&#25968;</th></tr></thead><tbody>${items.map(item => `<tr><td>${esc(item.name)}</td><td>${esc(item.count)}</td></tr>`).join('')}</tbody></table>`;
+    }
+    function renderPatternWatch() {
+      const selected = document.getElementById('pattern-source')?.value || 'am';
+      const analysis = patternWatchAnalysis(selected);
+      app.innerHTML = `<div class="grid">
+        <section class="panel full"><div class="filters"><label>&#26469;&#28304;<select id="pattern-source">${sourceOptions(selected)}</select></label></div></section>
+        <section class="panel full"><h2>&#35268;&#24459;&#35266;&#23519;</h2><p class="muted">${esc(analysis.currentYear)}&#24180;&#65292;&#23545;&#27604;&#23454;&#38469;5&#26399;&#31383;&#21475;&#21629;&#20013;&#29575;&#19982;&#38543;&#26426;&#22522;&#20934;&#12290;</p><table class="compact-table"><thead><tr><th>&#35266;&#23519;&#39033;</th><th>&#35268;&#27169;</th><th>&#23454;&#38469;</th><th>&#38543;&#26426;&#22522;&#20934;</th><th>&#36229;&#39069;</th><th>&#24403;&#21069;&#28431;&#31383;</th><th>&#26368;&#22823;&#28431;&#31383;</th><th>&#36817;10&#31383;&#21475;</th><th>&#31561;&#32423;</th></tr></thead><tbody>
+          ${patternMetricRow('\u7279\u522B\u53F7\u5F53\u5E748\u7801\u6C60', analysis.special, `${analysis.special.poolSize}\u7801`)}
+          ${patternMetricRow('\u7279\u522B\u53F7\u8DE8\u5E74\u7A33\u5B9A\u6C60', analysis.stable, `${analysis.stable.poolSize}\u7801`)}
+          ${patternMetricRow('\u4E09\u4E2D\u4E09\u7EC4\u5408\u6C60', analysis.three, `${analysis.three.comboSize}\u7EC4`)}
+        </tbody></table></section>
+        <section class="panel wide"><h2>&#29305;&#21035;&#21495;&#39068;&#33394;&#32467;&#26500;</h2>${simpleRankList(analysis.special.structure.colors)}</section>
+        <section class="panel wide"><h2>&#29305;&#21035;&#21495;&#23614;&#25968;&#32467;&#26500;</h2>${simpleRankList(analysis.special.structure.tails.slice(0, 10))}</section>
+        <section class="panel wide"><h2>&#19977;&#20013;&#19977;&#36328;&#24230;&#32467;&#26500;</h2>${simpleRankList(analysis.three.structure.spans)}</section>
+        <section class="panel wide"><h2>&#19977;&#20013;&#19977;&#22855;&#20598;&#32467;&#26500;</h2>${simpleRankList(analysis.three.structure.parity)}</section>
+      </div>`;
+      document.getElementById('pattern-source').addEventListener('change', renderPatternWatch);
+    }
     function renderDaily() {
       const selected = document.getElementById('daily-source')?.value || 'am';
       const selectedSummary = sourceSummary(selected);
@@ -2407,6 +2510,7 @@ __EMBEDDED_JSON__
       forecast: renderForecast,
       window5: renderWindow5,
       threeWindow5: renderThreeWindow5,
+      patternWatch: renderPatternWatch,
       daily: renderDaily
     };
     tabs.forEach(btn => btn.addEventListener('click', () => { tabs.forEach(item => item.classList.remove('active')); btn.classList.add('active'); renderers[btn.dataset.tab](); }));

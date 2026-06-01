@@ -299,8 +299,8 @@ try {
     if (-not $dashboard.Contains('href="kjjl.html"')) {
         throw 'dashboard should link back to kjjl.html'
     }
-    if (-not $dashboard.Contains('data-tab="overview"') -or -not $dashboard.Contains('data-tab="games"') -or -not $dashboard.Contains('data-tab="daily"') -or -not $dashboard.Contains('data-tab="forecast"') -or -not $dashboard.Contains('data-tab="window5"')) {
-        throw 'dashboard should expose overview, games, forecast, 5-window, and daily tabs'
+    if (-not $dashboard.Contains('data-tab="overview"') -or -not $dashboard.Contains('data-tab="games"') -or -not $dashboard.Contains('data-tab="daily"') -or -not $dashboard.Contains('data-tab="forecast"') -or -not $dashboard.Contains('data-tab="window5"') -or -not $dashboard.Contains('data-tab="threeWindow5"') -or -not $dashboard.Contains('data-tab="patternWatch"')) {
+        throw 'dashboard should expose overview, games, forecast, 5-window, three-hit 5-window, pattern watch, and daily tabs'
     }
     if (-not $dashboard.Contains('id="manual-collect"')) {
         throw 'dashboard should render manual collect button'
@@ -642,6 +642,18 @@ try {
     if (-not $dashboard.Contains('function renderThreeWindow5()')) {
         throw 'dashboard should expose a three-hit-three five-issue window renderer'
     }
+    if (-not $dashboard.Contains('function renderPatternWatch()')) {
+        throw 'dashboard should expose a pattern watch renderer'
+    }
+    if (-not $dashboard.Contains('function patternWatchAnalysis(source)')) {
+        throw 'dashboard should calculate pattern watch metrics'
+    }
+    if (-not $dashboard.Contains('function randomWindowBaseline(pickCount, totalCount, drawsPerWindow)')) {
+        throw 'dashboard should calculate random window baselines'
+    }
+    if (-not $dashboard.Contains('function patternLevel(edge, currentMiss, maxMiss)')) {
+        throw 'dashboard should classify pattern observation levels'
+    }
     if (-not $dashboard.Contains('function threeWindowAnalysis(source)')) {
         throw 'dashboard should calculate three-hit-three five-issue window analysis'
     }
@@ -752,6 +764,9 @@ try {
     $mojibakeMarker = [string][char]0x951F
     if ($dashboard.Contains($mojibakeMarker)) {
         throw 'dashboard contains mojibake marker'
+    }
+    if ($dashboard.Contains('&amp;#30721;') -or $dashboard.Contains('&amp;#32452;') -or $dashboard.Contains('&amp;#22855;') -or $dashboard.Contains('&amp;#20598;')) {
+        throw 'pattern watch should not double-escape size or structure labels'
     }
 
     Write-Host 'PASS'
