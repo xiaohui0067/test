@@ -83,6 +83,7 @@
       <button data-tab="window5">5&#26399;&#31383;&#21475;</button>
       <button data-tab="threeWindow5">&#19977;&#20013;&#19977;5&#26399;&#31383;&#21475;</button>
       <button data-tab="patternWatch">&#35268;&#24459;&#35266;&#23519;</button>
+      <button data-tab="patternAnalysis">&#35268;&#24459;&#20998;&#26512;</button>
       <button data-tab="daily">&#26085;&#25253;</button>
     </nav>
     <section id="app"></section>
@@ -90,7 +91,7 @@
   <script id="embedded-records" type="application/json">
 {
     "summary":  {
-                    "generatedAt":  "2026-06-01 09:12:08",
+                    "generatedAt":  "2026-06-01 10:14:02",
                     "totalRecords":  2942,
                     "totalBalls":  20594,
                     "bySource":  {
@@ -198318,7 +198319,7 @@
                                                          "05",
                                                          "43"
                                                      ],
-                                         "createdAt":  "2026-06-01 09:12:09",
+                                         "createdAt":  "2026-06-01 10:14:04",
                                          "savedBy":  "fetch"
                                      },
                                      {
@@ -198338,7 +198339,7 @@
                                                          "45",
                                                          "06"
                                                      ],
-                                         "createdAt":  "2026-06-01 09:12:09",
+                                         "createdAt":  "2026-06-01 10:14:04",
                                          "savedBy":  "fetch"
                                      },
                                      {
@@ -198583,7 +198584,7 @@
                                                           },
                                              "verifiedCandidates":  18424,
                                              "method":  "exhaustive-49c3-portfolio",
-                                             "createdAt":  "2026-06-01 09:12:09",
+                                             "createdAt":  "2026-06-01 10:14:04",
                                              "savedBy":  "fetch"
                                          },
                                          {
@@ -198806,7 +198807,7 @@
                                                           },
                                              "verifiedCandidates":  18424,
                                              "method":  "exhaustive-49c3-portfolio",
-                                             "createdAt":  "2026-06-01 09:12:09",
+                                             "createdAt":  "2026-06-01 10:14:04",
                                              "savedBy":  "fetch"
                                          },
                                          {
@@ -199035,7 +199036,7 @@
                                      ]
                     },
     "games":  {
-                  "generatedAt":  "2026-06-01 09:12:38",
+                  "generatedAt":  "2026-06-01 10:14:47",
                   "items":  [
                                 {
                                     "id":  "am-special-number-2026-152-ant-colony",
@@ -200821,7 +200822,7 @@
                             ]
               },
     "forecasts":  {
-                      "generatedAt":  "2026-06-01 09:12:41",
+                      "generatedAt":  "2026-06-01 10:14:53",
                       "items":  [
                                     {
                                         "id":  "am-forecast-special-number-2026-152",
@@ -202103,7 +202104,7 @@
                                 ]
                   },
     "window5":  {
-                    "generatedAt":  "2026-06-01 09:12:08",
+                    "generatedAt":  "2026-06-01 10:14:02",
                     "items":  [
                                   {
                                       "source":  "am",
@@ -202141,7 +202142,7 @@
                                       "stablePoolChangeTime":  "2026-05-31 01:05:33",
                                       "stablePoolLastIssue":  150,
                                       "stablePoolNextRecalcIssue":  170,
-                                      "computedAt":  "2026-06-01 09:12:08"
+                                      "computedAt":  "2026-06-01 10:14:02"
                                   },
                                   {
                                       "source":  "hk",
@@ -202178,7 +202179,7 @@
                                       "stablePoolChangeTime":  "2026-05-31 01:05:33",
                                       "stablePoolLastIssue":  58,
                                       "stablePoolNextRecalcIssue":  68,
-                                      "computedAt":  "2026-06-01 09:12:08"
+                                      "computedAt":  "2026-06-01 10:14:02"
                                   }
                               ]
                 }
@@ -202902,6 +202903,76 @@
       </div>`;
       document.getElementById('pattern-source').addEventListener('change', renderPatternWatch);
     }
+    function patternRiskStats(windows) {
+      const total = windows.length;
+      const hits = windows.filter(item => item.covered).length;
+      let currentMiss = 0;
+      for (let i = windows.length - 1; i >= 0; i--) {
+        if (windows[i].covered) break;
+        currentMiss++;
+      }
+      const completed = windows.slice(0, Math.max(0, windows.length - currentMiss));
+      let previousMaxMiss = 0;
+      let run = 0;
+      completed.forEach(item => {
+        if (item.covered) {
+          previousMaxMiss = Math.max(previousMaxMiss, run);
+          run = 0;
+        } else {
+          run++;
+        }
+      });
+      previousMaxMiss = Math.max(previousMaxMiss, run);
+      const recent = windows.slice(-10);
+      const recentHits = recent.filter(item => item.covered).length;
+      return {total, hits, hitRate: total ? Math.round(hits / total * 10000) / 100 : 0, currentMiss, previousMaxMiss, recentHitRate: recent.length ? Math.round(recentHits / recent.length * 10000) / 100 : 0};
+    }
+    function qualityLevel(item) {
+      if (item.total < 10) return {text: '\u6837\u672C\u4E0D\u8DB3', tone: 'info'};
+      if (item.edge >= 15 && item.recentHitRate >= item.baseline) return {text: '\u4F18\u79C0', tone: 'good'};
+      if (item.edge >= 8) return {text: '\u826F\u597D', tone: 'good'};
+      if (item.edge >= 0) return {text: '\u89C2\u5BDF', tone: 'info'};
+      return {text: '\u5F31\u4E8E\u968F\u673A', tone: 'bad'};
+    }
+    function riskStatus(item) {
+      if (item.currentMiss === 0) return {text: '\u672C\u7A97\u5DF2\u8986\u76D6', tone: 'good'};
+      if (item.previousMaxMiss > 0 && item.currentMiss > item.previousMaxMiss) return {text: '\u7A81\u7834\u5386\u53F2\u6F0F\u7A97', tone: 'bad'};
+      const base = Math.max(1, item.previousMaxMiss);
+      const pressure = item.currentMiss / base;
+      if (pressure >= 0.85) return {text: '\u63A5\u8FD1\u5386\u53F2\u6F0F\u7A97', tone: 'warn'};
+      if (pressure >= 0.6) return {text: '\u538B\u529B\u5347\u9AD8', tone: 'warn'};
+      return {text: '\u6B63\u5E38\u56DE\u64A4', tone: 'info'};
+    }
+    function statusBadge(item) {
+      return `<span class="badge ${esc(item.tone)}">${esc(item.text)}</span>`;
+    }
+    function patternAnalysisRows(source) {
+      const special = fiveWindowAnalysis(source);
+      const three = threeWindowAnalysis(source);
+      const decorate = (name, sizeLabel, stats, baseline) => ({name, sizeLabel, ...stats, baseline, edge: Math.round((stats.hitRate - baseline) * 100) / 100});
+      return {
+        currentYear: special.currentYear,
+        rows: [
+          decorate('\u7279\u522B\u53F7\u5F53\u5E748\u7801\u6C60', `${special.yearPool.length}\u7801`, patternRiskStats(special.yearWindows), randomWindowBaseline(special.yearPool.length, 49, 5)),
+          decorate('\u7279\u522B\u53F7\u8DE8\u5E74\u7A33\u5B9A\u6C60', `${special.stablePool.length}\u7801`, patternRiskStats(special.stableWindows), randomWindowBaseline(special.stablePool.length, 49, 5)),
+          decorate('\u4E09\u4E2D\u4E09\u7EC4\u5408\u6C60', `${three.combos.length}\u7EC4`, patternRiskStats(three.yearWindows), randomWindowBaseline(three.combos.length * 20, 18424, 5))
+        ]
+      };
+    }
+    function patternAnalysisMetricRow(item) {
+      return `<tr><td>${esc(item.name)}</td><td>${esc(item.sizeLabel)}</td><td>${esc(item.total)}</td><td>${esc(item.hitRate)}%</td><td>${esc(item.baseline)}%</td><td>${esc(item.edge)}%</td><td>${esc(item.recentHitRate)}%</td><td>${statusBadge(qualityLevel(item))}</td><td>${esc(item.currentMiss)}</td><td>${esc(item.previousMaxMiss)}</td><td>${statusBadge(riskStatus(item))}</td></tr>`;
+    }
+    function renderPatternAnalysis() {
+      const selected = document.getElementById('pattern-analysis-source')?.value || 'am';
+      const analysis = patternAnalysisRows(selected);
+      app.innerHTML = `<div class="grid">
+        <section class="panel full"><div class="filters"><label>&#26469;&#28304;<select id="pattern-analysis-source">${sourceOptions(selected)}</select></label></div></section>
+        <section class="panel wide"><h2>&#38271;&#26399;&#36136;&#37327;</h2><p class="muted">&#21482;&#30475;&#38271;&#26399;&#21629;&#20013;&#29575;&#30456;&#23545;&#38543;&#26426;&#22522;&#20934;&#30340;&#36229;&#39069;&#65292;&#19981;&#25226;&#24403;&#21069;&#28431;&#31383;&#30452;&#25509;&#24403;&#25104;&#35268;&#24459;&#22833;&#25928;&#12290;</p></section>
+        <section class="panel wide"><h2>&#24403;&#21069;&#29366;&#24577;</h2><p class="muted">&#21333;&#29420;&#27604;&#36739;&#24403;&#21069;&#36830;&#32493;&#28431;&#31383;&#19982;&#21382;&#21490;&#26368;&#22823;&#24050;&#32467;&#26463;&#28431;&#31383;&#65292;&#29992;&#20110;&#25552;&#31034;&#22238;&#25764;&#21387;&#21147;&#12290;</p></section>
+        <section class="panel full"><h2>${esc(analysis.currentYear)}&#24180;&#35268;&#24459;&#20998;&#26512;</h2><table class="compact-table"><thead><tr><th>&#35266;&#23519;&#39033;</th><th>&#35268;&#27169;</th><th>&#26679;&#26412;&#31383;&#21475;</th><th>&#23454;&#38469;</th><th>&#38543;&#26426;&#22522;&#20934;</th><th>&#36229;&#39069;</th><th>&#36817;10&#31383;&#21475;</th><th>&#38271;&#26399;&#36136;&#37327;</th><th>&#24403;&#21069;&#28431;&#31383;</th><th>&#21382;&#21490;&#26368;&#22823;&#28431;&#31383;</th><th>&#24403;&#21069;&#29366;&#24577;</th></tr></thead><tbody>${analysis.rows.map(patternAnalysisMetricRow).join('')}</tbody></table></section>
+      </div>`;
+      document.getElementById('pattern-analysis-source').addEventListener('change', renderPatternAnalysis);
+    }
     function renderDaily() {
       const selected = document.getElementById('daily-source')?.value || 'am';
       const selectedSummary = sourceSummary(selected);
@@ -202928,6 +202999,7 @@
       window5: renderWindow5,
       threeWindow5: renderThreeWindow5,
       patternWatch: renderPatternWatch,
+      patternAnalysis: renderPatternAnalysis,
       daily: renderDaily
     };
     tabs.forEach(btn => btn.addEventListener('click', () => { tabs.forEach(item => item.classList.remove('active')); btn.classList.add('active'); renderers[btn.dataset.tab](); }));

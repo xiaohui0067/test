@@ -285,6 +285,9 @@ try {
     if (-not (Test-Path -LiteralPath (Join-Path $outDir 'dashboard.html'))) {
         throw 'dashboard.html was not created'
     }
+    if (Test-Path -LiteralPath (Join-Path $outDir 'pattern-analysis.html')) {
+        throw 'pattern analysis should stay inside dashboard instead of creating a standalone html file'
+    }
     $dashboard = [IO.File]::ReadAllText((Join-Path $outDir 'dashboard.html'), [Text.Encoding]::UTF8)
     $indexHtml = [IO.File]::ReadAllText((Join-Path $outDir 'index.html'), [Text.Encoding]::UTF8)
     if (-not $indexHtml.Contains('data-tab="overview"') -or -not $indexHtml.Contains('id="manual-collect"')) {
@@ -299,8 +302,8 @@ try {
     if (-not $dashboard.Contains('href="kjjl.html"')) {
         throw 'dashboard should link back to kjjl.html'
     }
-    if (-not $dashboard.Contains('data-tab="overview"') -or -not $dashboard.Contains('data-tab="games"') -or -not $dashboard.Contains('data-tab="daily"') -or -not $dashboard.Contains('data-tab="forecast"') -or -not $dashboard.Contains('data-tab="window5"') -or -not $dashboard.Contains('data-tab="threeWindow5"') -or -not $dashboard.Contains('data-tab="patternWatch"')) {
-        throw 'dashboard should expose overview, games, forecast, 5-window, three-hit 5-window, pattern watch, and daily tabs'
+    if (-not $dashboard.Contains('data-tab="overview"') -or -not $dashboard.Contains('data-tab="games"') -or -not $dashboard.Contains('data-tab="daily"') -or -not $dashboard.Contains('data-tab="forecast"') -or -not $dashboard.Contains('data-tab="window5"') -or -not $dashboard.Contains('data-tab="threeWindow5"') -or -not $dashboard.Contains('data-tab="patternWatch"') -or -not $dashboard.Contains('data-tab="patternAnalysis"')) {
+        throw 'dashboard should expose overview, games, forecast, 5-window, three-hit 5-window, coworker pattern watch, new pattern analysis, and daily tabs'
     }
     if (-not $dashboard.Contains('id="manual-collect"')) {
         throw 'dashboard should render manual collect button'
@@ -644,6 +647,18 @@ try {
     }
     if (-not $dashboard.Contains('function renderPatternWatch()')) {
         throw 'dashboard should expose a pattern watch renderer'
+    }
+    if (-not $dashboard.Contains('function renderPatternAnalysis()')) {
+        throw 'dashboard should expose the new pattern analysis renderer'
+    }
+    if (-not $dashboard.Contains('function qualityLevel(item)') -or -not $dashboard.Contains('function riskStatus(item)')) {
+        throw 'new pattern analysis should separate long-term quality from current risk'
+    }
+    if (-not $dashboard.Contains('function patternRiskStats(windows)') -or -not $dashboard.Contains('previousMaxMiss')) {
+        throw 'new pattern analysis should compare current miss against previous historical max miss'
+    }
+    if (-not $dashboard.Contains('&#38271;&#26399;&#36136;&#37327;') -or -not $dashboard.Contains('&#24403;&#21069;&#29366;&#24577;')) {
+        throw 'new pattern analysis should expose long-term quality and current status columns'
     }
     if (-not $dashboard.Contains('function patternWatchAnalysis(source)')) {
         throw 'dashboard should calculate pattern watch metrics'
