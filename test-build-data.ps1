@@ -697,6 +697,9 @@ try {
     if (-not $dashboard.Contains('function threeWindowAnalysis(source)')) {
         throw 'dashboard should calculate three-hit-three five-issue window analysis'
     }
+    if (-not $dashboard.Contains('const trainingRows = yearRows.filter') -or -not $dashboard.Contains('Number(row.issue || 0) < currentStart') -or -not $dashboard.Contains('Number(row.issue || 0) > currentEnd')) {
+        throw 'three-hit-three window analysis should build current combos without using current-window draw results'
+    }
     if (-not $dashboard.Contains('function buildThreeHitCombos(records)')) {
         throw 'dashboard should build ranked three-hit-three combinations'
     }

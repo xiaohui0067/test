@@ -2072,10 +2072,12 @@ __EMBEDDED_JSON__
       const latest = sourceRows.slice().sort((a, b) => String(b.date || '').localeCompare(String(a.date || '')) || Number(b.issue || 0) - Number(a.issue || 0))[0];
       const currentYear = displayYear(latest);
       const yearRows = sourceRows.filter(row => displayYear(row) === currentYear).sort((a, b) => Number(a.issue || 0) - Number(b.issue || 0));
-      const built = buildThreeHitCombos(yearRows.length ? yearRows : sourceRows);
-      const yearWindows = threeHitWindowCoverage(yearRows, built.combos);
       const latestIssue = Number(latest?.issue || 0);
       const currentStart = Math.floor((latestIssue - 1) / 5) * 5 + 1;
+      const currentEnd = currentStart + 4;
+      const trainingRows = yearRows.filter(row => Number(row.issue || 0) < currentStart || Number(row.issue || 0) > currentEnd);
+      const built = buildThreeHitCombos(trainingRows.length ? trainingRows : yearRows.length ? yearRows : sourceRows);
+      const yearWindows = threeHitWindowCoverage(yearRows, built.combos);
       const currentWindow = yearWindows.find(item => item.start === currentStart) || {start: currentStart, end: currentStart + 4, count: 0, hits: [], covered: false};
       let maxMiss = 0;
       let currentMiss = 0;

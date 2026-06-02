@@ -91,7 +91,7 @@
   <script id="embedded-records" type="application/json">
 {
     "summary":  {
-                    "generatedAt":  "2026-06-02 13:54:51",
+                    "generatedAt":  "2026-06-02 20:34:59",
                     "totalRecords":  2945,
                     "totalBalls":  20615,
                     "bySource":  {
@@ -1070,11 +1070,11 @@
                                         "count":  1732
                                     },
                                     {
-                                        "name":  "猪",
+                                        "name":  "猴",
                                         "count":  1716
                                     },
                                     {
-                                        "name":  "猴",
+                                        "name":  "猪",
                                         "count":  1716
                                     },
                                     {
@@ -198520,7 +198520,7 @@
                                                          "05",
                                                          "48"
                                                      ],
-                                         "createdAt":  "2026-06-02 13:54:52",
+                                         "createdAt":  "2026-06-02 20:35:01",
                                          "savedBy":  "fetch"
                                      },
                                      {
@@ -198540,7 +198540,7 @@
                                                          "06",
                                                          "27"
                                                      ],
-                                         "createdAt":  "2026-06-02 13:54:52",
+                                         "createdAt":  "2026-06-02 20:35:01",
                                          "savedBy":  "fetch"
                                      },
                                      {
@@ -198845,7 +198845,7 @@
                                                           },
                                              "verifiedCandidates":  18424,
                                              "method":  "exhaustive-49c3-portfolio",
-                                             "createdAt":  "2026-06-02 13:54:52",
+                                             "createdAt":  "2026-06-02 20:35:01",
                                              "savedBy":  "fetch"
                                          },
                                          {
@@ -199068,7 +199068,7 @@
                                                           },
                                              "verifiedCandidates":  18424,
                                              "method":  "exhaustive-49c3-portfolio",
-                                             "createdAt":  "2026-06-02 13:54:52",
+                                             "createdAt":  "2026-06-02 20:35:01",
                                              "savedBy":  "fetch"
                                          },
                                          {
@@ -199966,7 +199966,7 @@
                                      ]
                     },
     "games":  {
-                  "generatedAt":  "2026-06-02 13:55:08",
+                  "generatedAt":  "2026-06-02 20:35:39",
                   "items":  [
                                 {
                                     "id":  "am-special-number-2026-154-ant-colony",
@@ -203975,7 +203975,7 @@
                             ]
               },
     "forecasts":  {
-                      "generatedAt":  "2026-06-02 13:55:18",
+                      "generatedAt":  "2026-06-02 20:35:47",
                       "items":  [
                                     {
                                         "id":  "am-forecast-special-number-2026-154",
@@ -206568,7 +206568,7 @@
                                 ]
                   },
     "window5":  {
-                    "generatedAt":  "2026-06-02 13:54:51",
+                    "generatedAt":  "2026-06-02 20:34:59",
                     "items":  [
                                   {
                                       "source":  "am",
@@ -206608,7 +206608,7 @@
                                       "stablePoolChangeTime":  "2026-06-01 15:21:30",
                                       "stablePoolLastIssue":  151,
                                       "stablePoolNextRecalcIssue":  171,
-                                      "computedAt":  "2026-06-02 13:54:51"
+                                      "computedAt":  "2026-06-02 20:34:59"
                                   },
                                   {
                                       "source":  "hk",
@@ -206645,7 +206645,7 @@
                                       "stablePoolChangeTime":  "2026-05-31 01:05:33",
                                       "stablePoolLastIssue":  58,
                                       "stablePoolNextRecalcIssue":  68,
-                                      "computedAt":  "2026-06-02 13:54:51"
+                                      "computedAt":  "2026-06-02 20:34:59"
                                   }
                               ]
                 }
@@ -206948,10 +206948,12 @@
       const latest = sourceRows.slice().sort((a, b) => String(b.date || '').localeCompare(String(a.date || '')) || Number(b.issue || 0) - Number(a.issue || 0))[0];
       const currentYear = displayYear(latest);
       const yearRows = sourceRows.filter(row => displayYear(row) === currentYear).sort((a, b) => Number(a.issue || 0) - Number(b.issue || 0));
-      const built = buildThreeHitCombos(yearRows.length ? yearRows : sourceRows);
-      const yearWindows = threeHitWindowCoverage(yearRows, built.combos);
       const latestIssue = Number(latest?.issue || 0);
       const currentStart = Math.floor((latestIssue - 1) / 5) * 5 + 1;
+      const currentEnd = currentStart + 4;
+      const trainingRows = yearRows.filter(row => Number(row.issue || 0) < currentStart || Number(row.issue || 0) > currentEnd);
+      const built = buildThreeHitCombos(trainingRows.length ? trainingRows : yearRows.length ? yearRows : sourceRows);
+      const yearWindows = threeHitWindowCoverage(yearRows, built.combos);
       const currentWindow = yearWindows.find(item => item.start === currentStart) || {start: currentStart, end: currentStart + 4, count: 0, hits: [], covered: false};
       let maxMiss = 0;
       let currentMiss = 0;
