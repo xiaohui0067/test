@@ -1,6 +1,6 @@
 {
     "summary":  {
-                    "generatedAt":  "2026-06-02 20:34:59",
+                    "generatedAt":  "2026-06-02 22:28:31",
                     "totalRecords":  2945,
                     "totalBalls":  20615,
                     "bySource":  {
@@ -979,11 +979,11 @@
                                         "count":  1732
                                     },
                                     {
-                                        "name":  "猴",
+                                        "name":  "猪",
                                         "count":  1716
                                     },
                                     {
-                                        "name":  "猪",
+                                        "name":  "猴",
                                         "count":  1716
                                     },
                                     {
@@ -198429,7 +198429,7 @@
                                                          "05",
                                                          "48"
                                                      ],
-                                         "createdAt":  "2026-06-02 20:35:01",
+                                         "createdAt":  "2026-06-02 22:28:32",
                                          "savedBy":  "fetch"
                                      },
                                      {
@@ -198449,7 +198449,7 @@
                                                          "06",
                                                          "27"
                                                      ],
-                                         "createdAt":  "2026-06-02 20:35:01",
+                                         "createdAt":  "2026-06-02 22:28:32",
                                          "savedBy":  "fetch"
                                      },
                                      {
@@ -198754,7 +198754,7 @@
                                                           },
                                              "verifiedCandidates":  18424,
                                              "method":  "exhaustive-49c3-portfolio",
-                                             "createdAt":  "2026-06-02 20:35:01",
+                                             "createdAt":  "2026-06-02 22:28:32",
                                              "savedBy":  "fetch"
                                          },
                                          {
@@ -198977,7 +198977,7 @@
                                                           },
                                              "verifiedCandidates":  18424,
                                              "method":  "exhaustive-49c3-portfolio",
-                                             "createdAt":  "2026-06-02 20:35:01",
+                                             "createdAt":  "2026-06-02 22:28:32",
                                              "savedBy":  "fetch"
                                          },
                                          {
@@ -199875,7 +199875,7 @@
                                      ]
                     },
     "games":  {
-                  "generatedAt":  "2026-06-02 20:35:39",
+                  "generatedAt":  "2026-06-02 22:28:58",
                   "items":  [
                                 {
                                     "id":  "am-special-number-2026-154-ant-colony",
@@ -203884,7 +203884,7 @@
                             ]
               },
     "forecasts":  {
-                      "generatedAt":  "2026-06-02 20:35:47",
+                      "generatedAt":  "2026-06-02 22:29:09",
                       "items":  [
                                     {
                                         "id":  "am-forecast-special-number-2026-154",
@@ -206477,7 +206477,7 @@
                                 ]
                   },
     "window5":  {
-                    "generatedAt":  "2026-06-02 20:34:59",
+                    "generatedAt":  "2026-06-02 22:28:31",
                     "items":  [
                                   {
                                       "source":  "am",
@@ -206517,7 +206517,7 @@
                                       "stablePoolChangeTime":  "2026-06-01 15:21:30",
                                       "stablePoolLastIssue":  151,
                                       "stablePoolNextRecalcIssue":  171,
-                                      "computedAt":  "2026-06-02 20:34:59"
+                                      "computedAt":  "2026-06-02 22:28:31"
                                   },
                                   {
                                       "source":  "hk",
@@ -206554,7 +206554,7 @@
                                       "stablePoolChangeTime":  "2026-05-31 01:05:33",
                                       "stablePoolLastIssue":  58,
                                       "stablePoolNextRecalcIssue":  68,
-                                      "computedAt":  "2026-06-02 20:34:59"
+                                      "computedAt":  "2026-06-02 22:28:31"
                                   }
                               ]
                 }
