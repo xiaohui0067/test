@@ -2,11 +2,13 @@ $ErrorActionPreference = 'Stop'
 
 $root = Split-Path -Parent $MyInvocation.MyCommand.Path
 $workflowPath = Join-Path $root '.github/workflows/fetch-data.yml'
+$pagesWorkflowPath = Join-Path $root '.github/workflows/static.yml'
 $installTaskPath = Join-Path $root 'install-task.ps1'
 $wrapperPath = Join-Path $root 'run-hidden.vbs'
 $runNowPath = Join-Path $root 'run-now.ps1'
 
 $workflow = [IO.File]::ReadAllText($workflowPath, [Text.Encoding]::UTF8)
+$pagesWorkflow = [IO.File]::ReadAllText($pagesWorkflowPath, [Text.Encoding]::UTF8)
 if ($workflow -notmatch '21:45 / 21:55 / 22:05 Beijing time') {
     throw 'workflow comment does not document the Beijing fallback schedules'
 }
@@ -61,6 +63,18 @@ if ($workflow -notmatch 'git rebase origin/main') {
 }
 if ($workflow -notmatch 'kjjl\.html') {
     throw 'fetch workflow does not commit kjjl.html'
+}
+if ($pagesWorkflow -notmatch 'workflow_run:') {
+    throw 'Pages workflow does not run after fetch workflow completion'
+}
+if ($pagesWorkflow -notmatch 'workflows:\s*\["Fetch lottery data"\]') {
+    throw 'Pages workflow does not listen for the fetch workflow'
+}
+if ($pagesWorkflow -notmatch 'types:\s*\[completed\]') {
+    throw 'Pages workflow does not listen for completed fetch workflow runs'
+}
+if ($pagesWorkflow -notmatch "github\.event_name != 'workflow_run' \|\| github\.event\.workflow_run\.conclusion == 'success'") {
+    throw 'Pages workflow does not skip failed fetch workflow runs'
 }
 
 Write-Host 'PASS'
