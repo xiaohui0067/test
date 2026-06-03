@@ -1,18 +1,18 @@
 {
     "summary":  {
-                    "generatedAt":  "2026-06-02 22:28:31",
-                    "totalRecords":  2945,
-                    "totalBalls":  20615,
+                    "generatedAt":  "2026-06-03 14:53:54",
+                    "totalRecords":  2946,
+                    "totalBalls":  20622,
                     "bySource":  {
                                      "am":  {
                                                 "source":  "am",
                                                 "sourceName":  "澳门",
-                                                "totalRecords":  2202,
-                                                "totalBalls":  15414,
+                                                "totalRecords":  2203,
+                                                "totalBalls":  15421,
                                                 "years":  [
                                                               {
                                                                   "name":  "2025",
-                                                                  "count":  515
+                                                                  "count":  516
                                                               },
                                                               {
                                                                   "name":  "2024",
@@ -74,7 +74,7 @@
                                                                 },
                                                                 {
                                                                     "name":  "42",
-                                                                    "count":  327
+                                                                    "count":  328
                                                                 },
                                                                 {
                                                                     "name":  "43",
@@ -126,14 +126,14 @@
                                                                 },
                                                                 {
                                                                     "name":  "31",
+                                                                    "count":  318
+                                                                },
+                                                                {
+                                                                    "name":  "41",
                                                                     "count":  317
                                                                 },
                                                                 {
                                                                     "name":  "16",
-                                                                    "count":  316
-                                                                },
-                                                                {
-                                                                    "name":  "41",
                                                                     "count":  316
                                                                 },
                                                                 {
@@ -153,11 +153,11 @@
                                                                     "count":  312
                                                                 },
                                                                 {
-                                                                    "name":  "37",
-                                                                    "count":  311
+                                                                    "name":  "46",
+                                                                    "count":  312
                                                                 },
                                                                 {
-                                                                    "name":  "46",
+                                                                    "name":  "37",
                                                                     "count":  311
                                                                 },
                                                                 {
@@ -186,7 +186,7 @@
                                                                 },
                                                                 {
                                                                     "name":  "34",
-                                                                    "count":  303
+                                                                    "count":  304
                                                                 },
                                                                 {
                                                                     "name":  "04",
@@ -206,7 +206,7 @@
                                                                 },
                                                                 {
                                                                     "name":  "23",
-                                                                    "count":  294
+                                                                    "count":  295
                                                                 },
                                                                 {
                                                                     "name":  "18",
@@ -218,7 +218,7 @@
                                                                 },
                                                                 {
                                                                     "name":  "28",
-                                                                    "count":  291
+                                                                    "count":  292
                                                                 },
                                                                 {
                                                                     "name":  "13",
@@ -236,15 +236,15 @@
                                                 "zodiacs":  [
                                                                 {
                                                                     "name":  "兔",
-                                                                    "count":  1381
+                                                                    "count":  1382
                                                                 },
                                                                 {
                                                                     "name":  "鼠",
-                                                                    "count":  1359
+                                                                    "count":  1360
                                                                 },
                                                                 {
                                                                     "name":  "虎",
-                                                                    "count":  1321
+                                                                    "count":  1322
                                                                 },
                                                                 {
                                                                     "name":  "猪",
@@ -252,11 +252,11 @@
                                                                 },
                                                                 {
                                                                     "name":  "牛",
-                                                                    "count":  1294
+                                                                    "count":  1295
                                                                 },
                                                                 {
                                                                     "name":  "猴",
-                                                                    "count":  1273
+                                                                    "count":  1274
                                                                 },
                                                                 {
                                                                     "name":  "蛇",
@@ -276,7 +276,7 @@
                                                                 },
                                                                 {
                                                                     "name":  "鸡",
-                                                                    "count":  1229
+                                                                    "count":  1231
                                                                 },
                                                                 {
                                                                     "name":  "龙",
@@ -286,52 +286,36 @@
                                                 "colors":  [
                                                                {
                                                                    "name":  "红",
-                                                                   "count":  5301
+                                                                   "count":  5304
                                                                },
                                                                {
                                                                    "name":  "绿",
-                                                                   "count":  5076
+                                                                   "count":  5077
                                                                },
                                                                {
                                                                    "name":  "蓝",
-                                                                   "count":  5037
+                                                                   "count":  5040
                                                                }
                                                            ],
                                                 "latest":  {
-                                                               "id":  "am-2026-06-02-153",
+                                                               "id":  "am-2026-06-03-154",
                                                                "source":  "am",
                                                                "sourceName":  "澳门",
                                                                "year":  2025,
-                                                               "issue":  153,
-                                                               "date":  "2026-06-02",
+                                                               "issue":  154,
+                                                               "date":  "2026-06-03",
                                                                "file":  "am50.html",
                                                                "balls":  [
                                                                              {
                                                                                  "index":  0,
-                                                                                 "number":  1,
-                                                                                 "numberText":  "01",
+                                                                                 "number":  46,
+                                                                                 "numberText":  "46",
                                                                                  "color":  "red",
                                                                                  "colorName":  "红",
-                                                                                 "zodiac":  "马"
+                                                                                 "zodiac":  "鸡"
                                                                              },
                                                                              {
                                                                                  "index":  1,
-                                                                                 "number":  38,
-                                                                                 "numberText":  "38",
-                                                                                 "color":  "green",
-                                                                                 "colorName":  "绿",
-                                                                                 "zodiac":  "蛇"
-                                                                             },
-                                                                             {
-                                                                                 "index":  2,
-                                                                                 "number":  33,
-                                                                                 "numberText":  "33",
-                                                                                 "color":  "green",
-                                                                                 "colorName":  "绿",
-                                                                                 "zodiac":  "狗"
-                                                                             },
-                                                                             {
-                                                                                 "index":  3,
                                                                                  "number":  28,
                                                                                  "numberText":  "28",
                                                                                  "color":  "green",
@@ -339,20 +323,36 @@
                                                                                  "zodiac":  "兔"
                                                                              },
                                                                              {
-                                                                                 "index":  4,
-                                                                                 "number":  6,
-                                                                                 "numberText":  "06",
-                                                                                 "color":  "green",
-                                                                                 "colorName":  "绿",
+                                                                                 "index":  2,
+                                                                                 "number":  42,
+                                                                                 "numberText":  "42",
+                                                                                 "color":  "blue",
+                                                                                 "colorName":  "蓝",
                                                                                  "zodiac":  "牛"
                                                                              },
                                                                              {
-                                                                                 "index":  5,
-                                                                                 "number":  40,
-                                                                                 "numberText":  "40",
+                                                                                 "index":  3,
+                                                                                 "number":  31,
+                                                                                 "numberText":  "31",
+                                                                                 "color":  "blue",
+                                                                                 "colorName":  "蓝",
+                                                                                 "zodiac":  "鼠"
+                                                                             },
+                                                                             {
+                                                                                 "index":  4,
+                                                                                 "number":  23,
+                                                                                 "numberText":  "23",
                                                                                  "color":  "red",
                                                                                  "colorName":  "红",
-                                                                                 "zodiac":  "兔"
+                                                                                 "zodiac":  "猴"
+                                                                             },
+                                                                             {
+                                                                                 "index":  5,
+                                                                                 "number":  34,
+                                                                                 "numberText":  "34",
+                                                                                 "color":  "red",
+                                                                                 "colorName":  "红",
+                                                                                 "zodiac":  "鸡"
                                                                              },
                                                                              {
                                                                                  "index":  6,
@@ -730,7 +730,7 @@
                     "sources":  [
                                     {
                                         "name":  "澳门",
-                                        "count":  2202
+                                        "count":  2203
                                     },
                                     {
                                         "name":  "香港",
@@ -740,7 +740,7 @@
                     "years":  [
                                   {
                                       "name":  "2025",
-                                      "count":  708
+                                      "count":  709
                                   },
                                   {
                                       "name":  "2023",
@@ -825,16 +825,16 @@
                                         "count":  428
                                     },
                                     {
+                                        "name":  "46",
+                                        "count":  426
+                                    },
+                                    {
                                         "name":  "36",
                                         "count":  425
                                     },
                                     {
-                                        "name":  "46",
-                                        "count":  425
-                                    },
-                                    {
                                         "name":  "42",
-                                        "count":  423
+                                        "count":  424
                                     },
                                     {
                                         "name":  "08",
@@ -865,6 +865,10 @@
                                         "count":  419
                                     },
                                     {
+                                        "name":  "34",
+                                        "count":  418
+                                    },
+                                    {
                                         "name":  "35",
                                         "count":  418
                                     },
@@ -878,10 +882,6 @@
                                     },
                                     {
                                         "name":  "27",
-                                        "count":  417
-                                    },
-                                    {
-                                        "name":  "34",
                                         "count":  417
                                     },
                                     {
@@ -909,20 +909,20 @@
                                         "count":  411
                                     },
                                     {
+                                        "name":  "31",
+                                        "count":  411
+                                    },
+                                    {
                                         "name":  "40",
                                         "count":  411
                                     },
                                     {
-                                        "name":  "31",
-                                        "count":  410
-                                    },
-                                    {
                                         "name":  "28",
-                                        "count":  408
+                                        "count":  409
                                     },
                                     {
                                         "name":  "41",
-                                        "count":  406
+                                        "count":  407
                                     },
                                     {
                                         "name":  "37",
@@ -954,7 +954,7 @@
                                     },
                                     {
                                         "name":  "23",
-                                        "count":  392
+                                        "count":  393
                                     },
                                     {
                                         "name":  "14",
@@ -964,31 +964,31 @@
                     "zodiacs":  [
                                     {
                                         "name":  "兔",
-                                        "count":  1844
+                                        "count":  1845
                                     },
                                     {
                                         "name":  "鼠",
-                                        "count":  1802
+                                        "count":  1803
                                     },
                                     {
                                         "name":  "虎",
-                                        "count":  1761
+                                        "count":  1762
                                     },
                                     {
                                         "name":  "蛇",
                                         "count":  1732
                                     },
                                     {
+                                        "name":  "猴",
+                                        "count":  1717
+                                    },
+                                    {
                                         "name":  "猪",
                                         "count":  1716
                                     },
                                     {
-                                        "name":  "猴",
-                                        "count":  1716
-                                    },
-                                    {
                                         "name":  "牛",
-                                        "count":  1714
+                                        "count":  1715
                                     },
                                     {
                                         "name":  "狗",
@@ -1004,7 +1004,7 @@
                                     },
                                     {
                                         "name":  "鸡",
-                                        "count":  1657
+                                        "count":  1659
                                     },
                                     {
                                         "name":  "马",
@@ -1014,52 +1014,36 @@
                     "colors":  [
                                    {
                                        "name":  "红",
-                                       "count":  7214
+                                       "count":  7217
                                    },
                                    {
                                        "name":  "绿",
-                                       "count":  6783
+                                       "count":  6784
                                    },
                                    {
                                        "name":  "蓝",
-                                       "count":  6618
+                                       "count":  6621
                                    }
                                ],
                     "latest":  {
-                                   "id":  "am-2026-06-02-153",
+                                   "id":  "am-2026-06-03-154",
                                    "source":  "am",
                                    "sourceName":  "澳门",
                                    "year":  2025,
-                                   "issue":  153,
-                                   "date":  "2026-06-02",
+                                   "issue":  154,
+                                   "date":  "2026-06-03",
                                    "file":  "am50.html",
                                    "balls":  [
                                                  {
                                                      "index":  0,
-                                                     "number":  1,
-                                                     "numberText":  "01",
+                                                     "number":  46,
+                                                     "numberText":  "46",
                                                      "color":  "red",
                                                      "colorName":  "红",
-                                                     "zodiac":  "马"
+                                                     "zodiac":  "鸡"
                                                  },
                                                  {
                                                      "index":  1,
-                                                     "number":  38,
-                                                     "numberText":  "38",
-                                                     "color":  "green",
-                                                     "colorName":  "绿",
-                                                     "zodiac":  "蛇"
-                                                 },
-                                                 {
-                                                     "index":  2,
-                                                     "number":  33,
-                                                     "numberText":  "33",
-                                                     "color":  "green",
-                                                     "colorName":  "绿",
-                                                     "zodiac":  "狗"
-                                                 },
-                                                 {
-                                                     "index":  3,
                                                      "number":  28,
                                                      "numberText":  "28",
                                                      "color":  "green",
@@ -1067,20 +1051,36 @@
                                                      "zodiac":  "兔"
                                                  },
                                                  {
-                                                     "index":  4,
-                                                     "number":  6,
-                                                     "numberText":  "06",
-                                                     "color":  "green",
-                                                     "colorName":  "绿",
+                                                     "index":  2,
+                                                     "number":  42,
+                                                     "numberText":  "42",
+                                                     "color":  "blue",
+                                                     "colorName":  "蓝",
                                                      "zodiac":  "牛"
                                                  },
                                                  {
-                                                     "index":  5,
-                                                     "number":  40,
-                                                     "numberText":  "40",
+                                                     "index":  3,
+                                                     "number":  31,
+                                                     "numberText":  "31",
+                                                     "color":  "blue",
+                                                     "colorName":  "蓝",
+                                                     "zodiac":  "鼠"
+                                                 },
+                                                 {
+                                                     "index":  4,
+                                                     "number":  23,
+                                                     "numberText":  "23",
                                                      "color":  "red",
                                                      "colorName":  "红",
-                                                     "zodiac":  "兔"
+                                                     "zodiac":  "猴"
+                                                 },
+                                                 {
+                                                     "index":  5,
+                                                     "number":  34,
+                                                     "numberText":  "34",
+                                                     "color":  "red",
+                                                     "colorName":  "红",
+                                                     "zodiac":  "鸡"
                                                  },
                                                  {
                                                      "index":  6,
@@ -1094,6 +1094,73 @@
                                }
                 },
     "records":  [
+                    {
+                        "id":  "am-2026-06-03-154",
+                        "source":  "am",
+                        "sourceName":  "澳门",
+                        "year":  2025,
+                        "issue":  154,
+                        "date":  "2026-06-03",
+                        "file":  "am50.html",
+                        "balls":  [
+                                      {
+                                          "index":  0,
+                                          "number":  46,
+                                          "numberText":  "46",
+                                          "color":  "red",
+                                          "colorName":  "红",
+                                          "zodiac":  "鸡"
+                                      },
+                                      {
+                                          "index":  1,
+                                          "number":  28,
+                                          "numberText":  "28",
+                                          "color":  "green",
+                                          "colorName":  "绿",
+                                          "zodiac":  "兔"
+                                      },
+                                      {
+                                          "index":  2,
+                                          "number":  42,
+                                          "numberText":  "42",
+                                          "color":  "blue",
+                                          "colorName":  "蓝",
+                                          "zodiac":  "牛"
+                                      },
+                                      {
+                                          "index":  3,
+                                          "number":  31,
+                                          "numberText":  "31",
+                                          "color":  "blue",
+                                          "colorName":  "蓝",
+                                          "zodiac":  "鼠"
+                                      },
+                                      {
+                                          "index":  4,
+                                          "number":  23,
+                                          "numberText":  "23",
+                                          "color":  "red",
+                                          "colorName":  "红",
+                                          "zodiac":  "猴"
+                                      },
+                                      {
+                                          "index":  5,
+                                          "number":  34,
+                                          "numberText":  "34",
+                                          "color":  "red",
+                                          "colorName":  "红",
+                                          "zodiac":  "鸡"
+                                      },
+                                      {
+                                          "index":  6,
+                                          "number":  41,
+                                          "numberText":  "41",
+                                          "color":  "blue",
+                                          "colorName":  "蓝",
+                                          "zodiac":  "虎"
+                                      }
+                                  ]
+                    },
                     {
                         "id":  "am-2026-06-02-153",
                         "source":  "am",
@@ -5657,7 +5724,7 @@
                         "year":  2025,
                         "issue":  104,
                         "date":  "2026-04-14",
-                        "file":  "am50.html",
+                        "file":  "am200.html",
                         "balls":  [
                                       {
                                           "index":  0,
@@ -198413,23 +198480,23 @@
     "predictions":  {
                         "next":  [
                                      {
-                                         "id":  "am-2026-154-next",
+                                         "id":  "am-2026-155-next",
                                          "source":  "am",
                                          "sourceName":  "澳门",
                                          "year":  2025,
                                          "displayYear":  "2026",
-                                         "issue":  154,
-                                         "targetDate":  "2026-06-03",
+                                         "issue":  155,
+                                         "targetDate":  "2026-06-04",
                                          "numbers":  [
                                                          "49",
                                                          "03",
+                                                         "30",
                                                          "10",
                                                          "39",
                                                          "02",
-                                                         "05",
-                                                         "48"
+                                                         "05"
                                                      ],
-                                         "createdAt":  "2026-06-02 22:28:32",
+                                         "createdAt":  "2026-06-03 14:53:55",
                                          "savedBy":  "fetch"
                                      },
                                      {
@@ -198448,6 +198515,26 @@
                                                          "30",
                                                          "06",
                                                          "27"
+                                                     ],
+                                         "createdAt":  "2026-06-03 14:53:55",
+                                         "savedBy":  "fetch"
+                                     },
+                                     {
+                                         "id":  "am-2026-154-next",
+                                         "source":  "am",
+                                         "sourceName":  "澳门",
+                                         "year":  2025,
+                                         "displayYear":  "2026",
+                                         "issue":  154,
+                                         "targetDate":  "2026-06-03",
+                                         "numbers":  [
+                                                         "49",
+                                                         "03",
+                                                         "10",
+                                                         "39",
+                                                         "02",
+                                                         "05",
+                                                         "48"
                                                      ],
                                          "createdAt":  "2026-06-02 22:28:32",
                                          "savedBy":  "fetch"
@@ -198535,18 +198622,18 @@
                                  ],
                         "sanzhong":  [
                                          {
-                                             "id":  "am-2026-154-sanzhong",
+                                             "id":  "am-2026-155-sanzhong",
                                              "source":  "am",
                                              "sourceName":  "澳门",
                                              "year":  2025,
                                              "displayYear":  "2026",
-                                             "issue":  154,
-                                             "targetDate":  "2026-06-03",
+                                             "issue":  155,
+                                             "targetDate":  "2026-06-04",
                                              "combos":  [
                                                             [
-                                                                "11",
-                                                                "19",
-                                                                "44"
+                                                                "34",
+                                                                "42",
+                                                                "46"
                                                             ],
                                                             [
                                                                 "21",
@@ -198554,9 +198641,14 @@
                                                                 "40"
                                                             ],
                                                             [
-                                                                "36",
+                                                                "01",
                                                                 "41",
                                                                 "45"
+                                                            ],
+                                                            [
+                                                                "11",
+                                                                "19",
+                                                                "44"
                                                             ],
                                                             [
                                                                 "14",
@@ -198564,14 +198656,19 @@
                                                                 "24"
                                                             ],
                                                             [
-                                                                "20",
-                                                                "27",
-                                                                "41"
+                                                                "24",
+                                                                "32",
+                                                                "49"
                                                             ],
                                                             [
                                                                 "01",
                                                                 "09",
                                                                 "15"
+                                                            ],
+                                                            [
+                                                                "20",
+                                                                "27",
+                                                                "41"
                                                             ],
                                                             [
                                                                 "11",
@@ -198582,32 +198679,22 @@
                                                                 "11",
                                                                 "20",
                                                                 "39"
-                                                            ],
-                                                            [
-                                                                "10",
-                                                                "16",
-                                                                "46"
-                                                            ],
-                                                            [
-                                                                "08",
-                                                                "29",
-                                                                "46"
                                                             ]
                                                         ],
                                              "rows":  [
                                                           {
                                                               "combo":  [
-                                                                            "11",
-                                                                            "19",
-                                                                            "44"
+                                                                            "34",
+                                                                            "42",
+                                                                            "46"
                                                                         ],
-                                                              "key":  "11-19-44",
+                                                              "key":  "34-42-46",
                                                               "hits":  2,
-                                                              "miss":  3,
+                                                              "miss":  0,
                                                               "recentHits":  2,
                                                               "recent120Hits":  2,
                                                               "recent240Hits":  2,
-                                                              "score":  21.8
+                                                              "score":  21.9
                                                           },
                                                           {
                                                               "combo":  [
@@ -198617,7 +198704,7 @@
                                                                         ],
                                                               "key":  "21-25-40",
                                                               "hits":  2,
-                                                              "miss":  22,
+                                                              "miss":  23,
                                                               "recentHits":  2,
                                                               "recent120Hits":  2,
                                                               "recent240Hits":  2,
@@ -198625,17 +198712,31 @@
                                                           },
                                                           {
                                                               "combo":  [
-                                                                            "36",
+                                                                            "01",
                                                                             "41",
                                                                             "45"
                                                                         ],
-                                                              "key":  "36-41-45",
+                                                              "key":  "01-41-45",
                                                               "hits":  2,
-                                                              "miss":  14,
+                                                              "miss":  15,
                                                               "recentHits":  2,
                                                               "recent120Hits":  2,
                                                               "recent240Hits":  2,
-                                                              "score":  21.2
+                                                              "score":  21
+                                                          },
+                                                          {
+                                                              "combo":  [
+                                                                            "11",
+                                                                            "19",
+                                                                            "44"
+                                                                        ],
+                                                              "key":  "11-19-44",
+                                                              "hits":  2,
+                                                              "miss":  4,
+                                                              "recentHits":  2,
+                                                              "recent120Hits":  2,
+                                                              "recent240Hits":  2,
+                                                              "score":  22
                                                           },
                                                           {
                                                               "combo":  [
@@ -198645,25 +198746,25 @@
                                                                         ],
                                                               "key":  "14-15-24",
                                                               "hits":  2,
-                                                              "miss":  17,
+                                                              "miss":  18,
                                                               "recentHits":  1,
                                                               "recent120Hits":  2,
                                                               "recent240Hits":  2,
-                                                              "score":  14.8
+                                                              "score":  14.7
                                                           },
                                                           {
                                                               "combo":  [
-                                                                            "20",
-                                                                            "27",
-                                                                            "41"
+                                                                            "24",
+                                                                            "32",
+                                                                            "49"
                                                                         ],
-                                                              "key":  "20-27-41",
+                                                              "key":  "24-32-49",
                                                               "hits":  2,
-                                                              "miss":  2,
+                                                              "miss":  56,
                                                               "recentHits":  1,
                                                               "recent120Hits":  2,
                                                               "recent240Hits":  2,
-                                                              "score":  16
+                                                              "score":  11.8
                                                           },
                                                           {
                                                               "combo":  [
@@ -198673,11 +198774,25 @@
                                                                         ],
                                                               "key":  "01-09-15",
                                                               "hits":  2,
-                                                              "miss":  27,
+                                                              "miss":  28,
                                                               "recentHits":  1,
                                                               "recent120Hits":  2,
                                                               "recent240Hits":  2,
-                                                              "score":  14.1
+                                                              "score":  13.7
+                                                          },
+                                                          {
+                                                              "combo":  [
+                                                                            "20",
+                                                                            "27",
+                                                                            "41"
+                                                                        ],
+                                                              "key":  "20-27-41",
+                                                              "hits":  2,
+                                                              "miss":  3,
+                                                              "recentHits":  1,
+                                                              "recent120Hits":  2,
+                                                              "recent240Hits":  2,
+                                                              "score":  16
                                                           },
                                                           {
                                                               "combo":  [
@@ -198687,11 +198802,11 @@
                                                                         ],
                                                               "key":  "11-19-30",
                                                               "hits":  2,
-                                                              "miss":  7,
+                                                              "miss":  8,
                                                               "recentHits":  1,
                                                               "recent120Hits":  2,
                                                               "recent240Hits":  2,
-                                                              "score":  15.7
+                                                              "score":  15.6
                                                           },
                                                           {
                                                               "combo":  [
@@ -198701,49 +198816,21 @@
                                                                         ],
                                                               "key":  "11-20-39",
                                                               "hits":  3,
-                                                              "miss":  21,
+                                                              "miss":  22,
                                                               "recentHits":  1,
                                                               "recent120Hits":  2,
                                                               "recent240Hits":  3,
-                                                              "score":  16.1
-                                                          },
-                                                          {
-                                                              "combo":  [
-                                                                            "10",
-                                                                            "16",
-                                                                            "46"
-                                                                        ],
-                                                              "key":  "10-16-46",
-                                                              "hits":  3,
-                                                              "miss":  37,
-                                                              "recentHits":  1,
-                                                              "recent120Hits":  2,
-                                                              "recent240Hits":  3,
-                                                              "score":  14.9
-                                                          },
-                                                          {
-                                                              "combo":  [
-                                                                            "08",
-                                                                            "29",
-                                                                            "46"
-                                                                        ],
-                                                              "key":  "08-29-46",
-                                                              "hits":  2,
-                                                              "miss":  56,
-                                                              "recentHits":  1,
-                                                              "recent120Hits":  2,
-                                                              "recent240Hits":  2,
-                                                              "score":  11.8
+                                                              "score":  16.2
                                                           }
                                                       ],
                                              "portfolio":  {
-                                                               "currentMiss":  2,
-                                                               "maxMiss":  12,
-                                                               "hitCount":  22,
+                                                               "currentMiss":  0,
+                                                               "maxMiss":  17,
+                                                               "hitCount":  21,
                                                                "allCoverage":  1,
-                                                               "coverage60":  21.7,
+                                                               "coverage60":  23.3,
                                                                "coverage120":  16.7,
-                                                               "coverage240":  9.2
+                                                               "coverage240":  8.8
                                                            },
                                              "backtest":  {
                                                               "tested":  120,
@@ -198754,7 +198841,7 @@
                                                           },
                                              "verifiedCandidates":  18424,
                                              "method":  "exhaustive-49c3-portfolio",
-                                             "createdAt":  "2026-06-02 22:28:32",
+                                             "createdAt":  "2026-06-03 14:53:55",
                                              "savedBy":  "fetch"
                                          },
                                          {
@@ -198972,6 +199059,229 @@
                                                               "tested":  120,
                                                               "hits":  22,
                                                               "hitRate":  18.3,
+                                                              "window":  120,
+                                                              "mode":  "current-portfolio-window"
+                                                          },
+                                             "verifiedCandidates":  18424,
+                                             "method":  "exhaustive-49c3-portfolio",
+                                             "createdAt":  "2026-06-03 14:53:55",
+                                             "savedBy":  "fetch"
+                                         },
+                                         {
+                                             "id":  "am-2026-154-sanzhong",
+                                             "source":  "am",
+                                             "sourceName":  "澳门",
+                                             "year":  2025,
+                                             "displayYear":  "2026",
+                                             "issue":  154,
+                                             "targetDate":  "2026-06-03",
+                                             "combos":  [
+                                                            [
+                                                                "11",
+                                                                "19",
+                                                                "44"
+                                                            ],
+                                                            [
+                                                                "21",
+                                                                "25",
+                                                                "40"
+                                                            ],
+                                                            [
+                                                                "36",
+                                                                "41",
+                                                                "45"
+                                                            ],
+                                                            [
+                                                                "14",
+                                                                "15",
+                                                                "24"
+                                                            ],
+                                                            [
+                                                                "20",
+                                                                "27",
+                                                                "41"
+                                                            ],
+                                                            [
+                                                                "01",
+                                                                "09",
+                                                                "15"
+                                                            ],
+                                                            [
+                                                                "11",
+                                                                "19",
+                                                                "30"
+                                                            ],
+                                                            [
+                                                                "11",
+                                                                "20",
+                                                                "39"
+                                                            ],
+                                                            [
+                                                                "10",
+                                                                "16",
+                                                                "46"
+                                                            ],
+                                                            [
+                                                                "08",
+                                                                "29",
+                                                                "46"
+                                                            ]
+                                                        ],
+                                             "rows":  [
+                                                          {
+                                                              "combo":  [
+                                                                            "11",
+                                                                            "19",
+                                                                            "44"
+                                                                        ],
+                                                              "key":  "11-19-44",
+                                                              "hits":  2,
+                                                              "miss":  3,
+                                                              "recentHits":  2,
+                                                              "recent120Hits":  2,
+                                                              "recent240Hits":  2,
+                                                              "score":  21.8
+                                                          },
+                                                          {
+                                                              "combo":  [
+                                                                            "21",
+                                                                            "25",
+                                                                            "40"
+                                                                        ],
+                                                              "key":  "21-25-40",
+                                                              "hits":  2,
+                                                              "miss":  22,
+                                                              "recentHits":  2,
+                                                              "recent120Hits":  2,
+                                                              "recent240Hits":  2,
+                                                              "score":  20.2
+                                                          },
+                                                          {
+                                                              "combo":  [
+                                                                            "36",
+                                                                            "41",
+                                                                            "45"
+                                                                        ],
+                                                              "key":  "36-41-45",
+                                                              "hits":  2,
+                                                              "miss":  14,
+                                                              "recentHits":  2,
+                                                              "recent120Hits":  2,
+                                                              "recent240Hits":  2,
+                                                              "score":  21.2
+                                                          },
+                                                          {
+                                                              "combo":  [
+                                                                            "14",
+                                                                            "15",
+                                                                            "24"
+                                                                        ],
+                                                              "key":  "14-15-24",
+                                                              "hits":  2,
+                                                              "miss":  17,
+                                                              "recentHits":  1,
+                                                              "recent120Hits":  2,
+                                                              "recent240Hits":  2,
+                                                              "score":  14.8
+                                                          },
+                                                          {
+                                                              "combo":  [
+                                                                            "20",
+                                                                            "27",
+                                                                            "41"
+                                                                        ],
+                                                              "key":  "20-27-41",
+                                                              "hits":  2,
+                                                              "miss":  2,
+                                                              "recentHits":  1,
+                                                              "recent120Hits":  2,
+                                                              "recent240Hits":  2,
+                                                              "score":  16
+                                                          },
+                                                          {
+                                                              "combo":  [
+                                                                            "01",
+                                                                            "09",
+                                                                            "15"
+                                                                        ],
+                                                              "key":  "01-09-15",
+                                                              "hits":  2,
+                                                              "miss":  27,
+                                                              "recentHits":  1,
+                                                              "recent120Hits":  2,
+                                                              "recent240Hits":  2,
+                                                              "score":  14.1
+                                                          },
+                                                          {
+                                                              "combo":  [
+                                                                            "11",
+                                                                            "19",
+                                                                            "30"
+                                                                        ],
+                                                              "key":  "11-19-30",
+                                                              "hits":  2,
+                                                              "miss":  7,
+                                                              "recentHits":  1,
+                                                              "recent120Hits":  2,
+                                                              "recent240Hits":  2,
+                                                              "score":  15.7
+                                                          },
+                                                          {
+                                                              "combo":  [
+                                                                            "11",
+                                                                            "20",
+                                                                            "39"
+                                                                        ],
+                                                              "key":  "11-20-39",
+                                                              "hits":  3,
+                                                              "miss":  21,
+                                                              "recentHits":  1,
+                                                              "recent120Hits":  2,
+                                                              "recent240Hits":  3,
+                                                              "score":  16.1
+                                                          },
+                                                          {
+                                                              "combo":  [
+                                                                            "10",
+                                                                            "16",
+                                                                            "46"
+                                                                        ],
+                                                              "key":  "10-16-46",
+                                                              "hits":  3,
+                                                              "miss":  37,
+                                                              "recentHits":  1,
+                                                              "recent120Hits":  2,
+                                                              "recent240Hits":  3,
+                                                              "score":  14.9
+                                                          },
+                                                          {
+                                                              "combo":  [
+                                                                            "08",
+                                                                            "29",
+                                                                            "46"
+                                                                        ],
+                                                              "key":  "08-29-46",
+                                                              "hits":  2,
+                                                              "miss":  56,
+                                                              "recentHits":  1,
+                                                              "recent120Hits":  2,
+                                                              "recent240Hits":  2,
+                                                              "score":  11.8
+                                                          }
+                                                      ],
+                                             "portfolio":  {
+                                                               "currentMiss":  2,
+                                                               "maxMiss":  12,
+                                                               "hitCount":  22,
+                                                               "allCoverage":  1,
+                                                               "coverage60":  21.7,
+                                                               "coverage120":  16.7,
+                                                               "coverage240":  9.2
+                                                           },
+                                             "backtest":  {
+                                                              "tested":  120,
+                                                              "hits":  20,
+                                                              "hitRate":  16.7,
                                                               "window":  120,
                                                               "mode":  "current-portfolio-window"
                                                           },
@@ -199875,8 +200185,528 @@
                                      ]
                     },
     "games":  {
-                  "generatedAt":  "2026-06-02 22:28:58",
+                  "generatedAt":  "2026-06-03 14:54:20",
                   "items":  [
+                                {
+                                    "id":  "am-special-number-2026-155-ant-colony",
+                                    "source":  "am",
+                                    "sourceName":  "澳门",
+                                    "game":  "special-number",
+                                    "gameName":  "特别号",
+                                    "algorithmId":  "ant-colony",
+                                    "algorithmName":  "蚁群",
+                                    "year":  2025,
+                                    "displayYear":  "2026",
+                                    "issue":  155,
+                                    "targetDate":  "2026-06-04",
+                                    "numbers":  [
+                                                    "49"
+                                                ],
+                                    "createdAt":  "2026-06-03 14:54:20",
+                                    "status":  "pending",
+                                    "savedBy":  "fetch"
+                                },
+                                {
+                                    "id":  "am-special-number-2026-155-association-rules",
+                                    "source":  "am",
+                                    "sourceName":  "澳门",
+                                    "game":  "special-number",
+                                    "gameName":  "特别号",
+                                    "algorithmId":  "association-rules",
+                                    "algorithmName":  "关联规则",
+                                    "year":  2025,
+                                    "displayYear":  "2026",
+                                    "issue":  155,
+                                    "targetDate":  "2026-06-04",
+                                    "numbers":  [
+                                                    "03"
+                                                ],
+                                    "createdAt":  "2026-06-03 14:54:20",
+                                    "status":  "pending",
+                                    "savedBy":  "fetch"
+                                },
+                                {
+                                    "id":  "am-special-number-2026-155-backtracking",
+                                    "source":  "am",
+                                    "sourceName":  "澳门",
+                                    "game":  "special-number",
+                                    "gameName":  "特别号",
+                                    "algorithmId":  "backtracking",
+                                    "algorithmName":  "回溯",
+                                    "year":  2025,
+                                    "displayYear":  "2026",
+                                    "issue":  155,
+                                    "targetDate":  "2026-06-04",
+                                    "numbers":  [
+                                                    "03"
+                                                ],
+                                    "createdAt":  "2026-06-03 14:54:20",
+                                    "status":  "pending",
+                                    "savedBy":  "fetch"
+                                },
+                                {
+                                    "id":  "am-special-number-2026-155-bayesian",
+                                    "source":  "am",
+                                    "sourceName":  "澳门",
+                                    "game":  "special-number",
+                                    "gameName":  "特别号",
+                                    "algorithmId":  "bayesian",
+                                    "algorithmName":  "贝叶斯推断",
+                                    "year":  2025,
+                                    "displayYear":  "2026",
+                                    "issue":  155,
+                                    "targetDate":  "2026-06-04",
+                                    "numbers":  [
+                                                    "49"
+                                                ],
+                                    "createdAt":  "2026-06-03 14:54:20",
+                                    "status":  "pending",
+                                    "savedBy":  "fetch"
+                                },
+                                {
+                                    "id":  "am-special-number-2026-155-dynamic-programming",
+                                    "source":  "am",
+                                    "sourceName":  "澳门",
+                                    "game":  "special-number",
+                                    "gameName":  "特别号",
+                                    "algorithmId":  "dynamic-programming",
+                                    "algorithmName":  "动态规划",
+                                    "year":  2025,
+                                    "displayYear":  "2026",
+                                    "issue":  155,
+                                    "targetDate":  "2026-06-04",
+                                    "numbers":  [
+                                                    "39"
+                                                ],
+                                    "createdAt":  "2026-06-03 14:54:20",
+                                    "status":  "pending",
+                                    "savedBy":  "fetch"
+                                },
+                                {
+                                    "id":  "am-special-number-2026-155-ensemble",
+                                    "source":  "am",
+                                    "sourceName":  "澳门",
+                                    "game":  "special-number",
+                                    "gameName":  "特别号",
+                                    "algorithmId":  "ensemble",
+                                    "algorithmName":  "综合主推",
+                                    "year":  2025,
+                                    "displayYear":  "2026",
+                                    "issue":  155,
+                                    "targetDate":  "2026-06-04",
+                                    "numbers":  [
+                                                    "49"
+                                                ],
+                                    "createdAt":  "2026-06-03 14:54:20",
+                                    "status":  "pending",
+                                    "savedBy":  "fetch"
+                                },
+                                {
+                                    "id":  "am-special-number-2026-155-genetic",
+                                    "source":  "am",
+                                    "sourceName":  "澳门",
+                                    "game":  "special-number",
+                                    "gameName":  "特别号",
+                                    "algorithmId":  "genetic",
+                                    "algorithmName":  "遗传算法",
+                                    "year":  2025,
+                                    "displayYear":  "2026",
+                                    "issue":  155,
+                                    "targetDate":  "2026-06-04",
+                                    "numbers":  [
+                                                    "49"
+                                                ],
+                                    "createdAt":  "2026-06-03 14:54:20",
+                                    "status":  "pending",
+                                    "savedBy":  "fetch"
+                                },
+                                {
+                                    "id":  "am-special-number-2026-155-greedy",
+                                    "source":  "am",
+                                    "sourceName":  "澳门",
+                                    "game":  "special-number",
+                                    "gameName":  "特别号",
+                                    "algorithmId":  "greedy",
+                                    "algorithmName":  "贪心",
+                                    "year":  2025,
+                                    "displayYear":  "2026",
+                                    "issue":  155,
+                                    "targetDate":  "2026-06-04",
+                                    "numbers":  [
+                                                    "49"
+                                                ],
+                                    "createdAt":  "2026-06-03 14:54:20",
+                                    "status":  "pending",
+                                    "savedBy":  "fetch"
+                                },
+                                {
+                                    "id":  "am-special-number-2026-155-markov-chain",
+                                    "source":  "am",
+                                    "sourceName":  "澳门",
+                                    "game":  "special-number",
+                                    "gameName":  "特别号",
+                                    "algorithmId":  "markov-chain",
+                                    "algorithmName":  "马尔可夫链",
+                                    "year":  2025,
+                                    "displayYear":  "2026",
+                                    "issue":  155,
+                                    "targetDate":  "2026-06-04",
+                                    "numbers":  [
+                                                    "17"
+                                                ],
+                                    "createdAt":  "2026-06-03 14:54:20",
+                                    "status":  "pending",
+                                    "savedBy":  "fetch"
+                                },
+                                {
+                                    "id":  "am-special-number-2026-155-mirofish-sandbox",
+                                    "source":  "am",
+                                    "sourceName":  "澳门",
+                                    "game":  "special-number",
+                                    "gameName":  "特别号",
+                                    "algorithmId":  "mirofish-sandbox",
+                                    "algorithmName":  "MiroFish æ²™ç›˜æŽ¨æ¼”",
+                                    "year":  2025,
+                                    "displayYear":  "2026",
+                                    "issue":  155,
+                                    "targetDate":  "2026-06-04",
+                                    "numbers":  [
+                                                    "47"
+                                                ],
+                                    "createdAt":  "2026-06-03 14:54:20",
+                                    "status":  "pending",
+                                    "savedBy":  "fetch"
+                                },
+                                {
+                                    "id":  "am-special-number-2026-155-monte-carlo",
+                                    "source":  "am",
+                                    "sourceName":  "澳门",
+                                    "game":  "special-number",
+                                    "gameName":  "特别号",
+                                    "algorithmId":  "monte-carlo",
+                                    "algorithmName":  "蒙特卡洛",
+                                    "year":  2025,
+                                    "displayYear":  "2026",
+                                    "issue":  155,
+                                    "targetDate":  "2026-06-04",
+                                    "numbers":  [
+                                                    "49"
+                                                ],
+                                    "createdAt":  "2026-06-03 14:54:20",
+                                    "status":  "pending",
+                                    "savedBy":  "fetch"
+                                },
+                                {
+                                    "id":  "am-special-number-2026-155-particle-swarm",
+                                    "source":  "am",
+                                    "sourceName":  "澳门",
+                                    "game":  "special-number",
+                                    "gameName":  "特别号",
+                                    "algorithmId":  "particle-swarm",
+                                    "algorithmName":  "粒子群",
+                                    "year":  2025,
+                                    "displayYear":  "2026",
+                                    "issue":  155,
+                                    "targetDate":  "2026-06-04",
+                                    "numbers":  [
+                                                    "49"
+                                                ],
+                                    "createdAt":  "2026-06-03 14:54:20",
+                                    "status":  "pending",
+                                    "savedBy":  "fetch"
+                                },
+                                {
+                                    "id":  "am-special-number-2026-155-simulated-annealing",
+                                    "source":  "am",
+                                    "sourceName":  "澳门",
+                                    "game":  "special-number",
+                                    "gameName":  "特别号",
+                                    "algorithmId":  "simulated-annealing",
+                                    "algorithmName":  "模拟退火",
+                                    "year":  2025,
+                                    "displayYear":  "2026",
+                                    "issue":  155,
+                                    "targetDate":  "2026-06-04",
+                                    "numbers":  [
+                                                    "49"
+                                                ],
+                                    "createdAt":  "2026-06-03 14:54:20",
+                                    "status":  "pending",
+                                    "savedBy":  "fetch"
+                                },
+                                {
+                                    "id":  "am-three-hit-three-2026-155-ant-colony",
+                                    "source":  "am",
+                                    "sourceName":  "澳门",
+                                    "game":  "three-hit-three",
+                                    "gameName":  "三中三",
+                                    "algorithmId":  "ant-colony",
+                                    "algorithmName":  "蚁群",
+                                    "year":  2025,
+                                    "displayYear":  "2026",
+                                    "issue":  155,
+                                    "targetDate":  "2026-06-04",
+                                    "numbers":  [
+                                                    "22",
+                                                    "15",
+                                                    "44"
+                                                ],
+                                    "createdAt":  "2026-06-03 14:54:20",
+                                    "status":  "pending",
+                                    "savedBy":  "fetch"
+                                },
+                                {
+                                    "id":  "am-three-hit-three-2026-155-association-rules",
+                                    "source":  "am",
+                                    "sourceName":  "澳门",
+                                    "game":  "three-hit-three",
+                                    "gameName":  "三中三",
+                                    "algorithmId":  "association-rules",
+                                    "algorithmName":  "关联规则",
+                                    "year":  2025,
+                                    "displayYear":  "2026",
+                                    "issue":  155,
+                                    "targetDate":  "2026-06-04",
+                                    "numbers":  [
+                                                    "49",
+                                                    "15",
+                                                    "03"
+                                                ],
+                                    "createdAt":  "2026-06-03 14:54:20",
+                                    "status":  "pending",
+                                    "savedBy":  "fetch"
+                                },
+                                {
+                                    "id":  "am-three-hit-three-2026-155-backtracking",
+                                    "source":  "am",
+                                    "sourceName":  "澳门",
+                                    "game":  "three-hit-three",
+                                    "gameName":  "三中三",
+                                    "algorithmId":  "backtracking",
+                                    "algorithmName":  "回溯",
+                                    "year":  2025,
+                                    "displayYear":  "2026",
+                                    "issue":  155,
+                                    "targetDate":  "2026-06-04",
+                                    "numbers":  [
+                                                    "49",
+                                                    "03",
+                                                    "44"
+                                                ],
+                                    "createdAt":  "2026-06-03 14:54:20",
+                                    "status":  "pending",
+                                    "savedBy":  "fetch"
+                                },
+                                {
+                                    "id":  "am-three-hit-three-2026-155-bayesian",
+                                    "source":  "am",
+                                    "sourceName":  "澳门",
+                                    "game":  "three-hit-three",
+                                    "gameName":  "三中三",
+                                    "algorithmId":  "bayesian",
+                                    "algorithmName":  "贝叶斯推断",
+                                    "year":  2025,
+                                    "displayYear":  "2026",
+                                    "issue":  155,
+                                    "targetDate":  "2026-06-04",
+                                    "numbers":  [
+                                                    "15",
+                                                    "49",
+                                                    "44"
+                                                ],
+                                    "createdAt":  "2026-06-03 14:54:20",
+                                    "status":  "pending",
+                                    "savedBy":  "fetch"
+                                },
+                                {
+                                    "id":  "am-three-hit-three-2026-155-dynamic-programming",
+                                    "source":  "am",
+                                    "sourceName":  "澳门",
+                                    "game":  "three-hit-three",
+                                    "gameName":  "三中三",
+                                    "algorithmId":  "dynamic-programming",
+                                    "algorithmName":  "动态规划",
+                                    "year":  2025,
+                                    "displayYear":  "2026",
+                                    "issue":  155,
+                                    "targetDate":  "2026-06-04",
+                                    "numbers":  [
+                                                    "49",
+                                                    "03",
+                                                    "15"
+                                                ],
+                                    "createdAt":  "2026-06-03 14:54:20",
+                                    "status":  "pending",
+                                    "savedBy":  "fetch"
+                                },
+                                {
+                                    "id":  "am-three-hit-three-2026-155-ensemble",
+                                    "source":  "am",
+                                    "sourceName":  "澳门",
+                                    "game":  "three-hit-three",
+                                    "gameName":  "三中三",
+                                    "algorithmId":  "ensemble",
+                                    "algorithmName":  "综合主推",
+                                    "year":  2025,
+                                    "displayYear":  "2026",
+                                    "issue":  155,
+                                    "targetDate":  "2026-06-04",
+                                    "numbers":  [
+                                                    "15",
+                                                    "44",
+                                                    "49"
+                                                ],
+                                    "createdAt":  "2026-06-03 14:54:20",
+                                    "status":  "pending",
+                                    "savedBy":  "fetch"
+                                },
+                                {
+                                    "id":  "am-three-hit-three-2026-155-genetic",
+                                    "source":  "am",
+                                    "sourceName":  "澳门",
+                                    "game":  "three-hit-three",
+                                    "gameName":  "三中三",
+                                    "algorithmId":  "genetic",
+                                    "algorithmName":  "遗传算法",
+                                    "year":  2025,
+                                    "displayYear":  "2026",
+                                    "issue":  155,
+                                    "targetDate":  "2026-06-04",
+                                    "numbers":  [
+                                                    "15",
+                                                    "22",
+                                                    "44"
+                                                ],
+                                    "createdAt":  "2026-06-03 14:54:20",
+                                    "status":  "pending",
+                                    "savedBy":  "fetch"
+                                },
+                                {
+                                    "id":  "am-three-hit-three-2026-155-greedy",
+                                    "source":  "am",
+                                    "sourceName":  "澳门",
+                                    "game":  "three-hit-three",
+                                    "gameName":  "三中三",
+                                    "algorithmId":  "greedy",
+                                    "algorithmName":  "贪心",
+                                    "year":  2025,
+                                    "displayYear":  "2026",
+                                    "issue":  155,
+                                    "targetDate":  "2026-06-04",
+                                    "numbers":  [
+                                                    "22",
+                                                    "25",
+                                                    "15"
+                                                ],
+                                    "createdAt":  "2026-06-03 14:54:20",
+                                    "status":  "pending",
+                                    "savedBy":  "fetch"
+                                },
+                                {
+                                    "id":  "am-three-hit-three-2026-155-markov-chain",
+                                    "source":  "am",
+                                    "sourceName":  "澳门",
+                                    "game":  "three-hit-three",
+                                    "gameName":  "三中三",
+                                    "algorithmId":  "markov-chain",
+                                    "algorithmName":  "马尔可夫链",
+                                    "year":  2025,
+                                    "displayYear":  "2026",
+                                    "issue":  155,
+                                    "targetDate":  "2026-06-04",
+                                    "numbers":  [
+                                                    "03",
+                                                    "07",
+                                                    "17"
+                                                ],
+                                    "createdAt":  "2026-06-03 14:54:20",
+                                    "status":  "pending",
+                                    "savedBy":  "fetch"
+                                },
+                                {
+                                    "id":  "am-three-hit-three-2026-155-mirofish-sandbox",
+                                    "source":  "am",
+                                    "sourceName":  "澳门",
+                                    "game":  "three-hit-three",
+                                    "gameName":  "三中三",
+                                    "algorithmId":  "mirofish-sandbox",
+                                    "algorithmName":  "MiroFish æ²™ç›˜æŽ¨æ¼”",
+                                    "year":  2025,
+                                    "displayYear":  "2026",
+                                    "issue":  155,
+                                    "targetDate":  "2026-06-04",
+                                    "numbers":  [
+                                                    "03",
+                                                    "48",
+                                                    "49"
+                                                ],
+                                    "createdAt":  "2026-06-03 14:54:20",
+                                    "status":  "pending",
+                                    "savedBy":  "fetch"
+                                },
+                                {
+                                    "id":  "am-three-hit-three-2026-155-monte-carlo",
+                                    "source":  "am",
+                                    "sourceName":  "澳门",
+                                    "game":  "three-hit-three",
+                                    "gameName":  "三中三",
+                                    "algorithmId":  "monte-carlo",
+                                    "algorithmName":  "蒙特卡洛",
+                                    "year":  2025,
+                                    "displayYear":  "2026",
+                                    "issue":  155,
+                                    "targetDate":  "2026-06-04",
+                                    "numbers":  [
+                                                    "15",
+                                                    "44",
+                                                    "49"
+                                                ],
+                                    "createdAt":  "2026-06-03 14:54:20",
+                                    "status":  "pending",
+                                    "savedBy":  "fetch"
+                                },
+                                {
+                                    "id":  "am-three-hit-three-2026-155-particle-swarm",
+                                    "source":  "am",
+                                    "sourceName":  "澳门",
+                                    "game":  "three-hit-three",
+                                    "gameName":  "三中三",
+                                    "algorithmId":  "particle-swarm",
+                                    "algorithmName":  "粒子群",
+                                    "year":  2025,
+                                    "displayYear":  "2026",
+                                    "issue":  155,
+                                    "targetDate":  "2026-06-04",
+                                    "numbers":  [
+                                                    "46",
+                                                    "20",
+                                                    "48"
+                                                ],
+                                    "createdAt":  "2026-06-03 14:54:20",
+                                    "status":  "pending",
+                                    "savedBy":  "fetch"
+                                },
+                                {
+                                    "id":  "am-three-hit-three-2026-155-simulated-annealing",
+                                    "source":  "am",
+                                    "sourceName":  "澳门",
+                                    "game":  "three-hit-three",
+                                    "gameName":  "三中三",
+                                    "algorithmId":  "simulated-annealing",
+                                    "algorithmName":  "模拟退火",
+                                    "year":  2025,
+                                    "displayYear":  "2026",
+                                    "issue":  155,
+                                    "targetDate":  "2026-06-04",
+                                    "numbers":  [
+                                                    "44",
+                                                    "29",
+                                                    "42"
+                                                ],
+                                    "createdAt":  "2026-06-03 14:54:20",
+                                    "status":  "pending",
+                                    "savedBy":  "fetch"
+                                },
                                 {
                                     "id":  "am-special-number-2026-154-ant-colony",
                                     "source":  "am",
@@ -199893,8 +200723,14 @@
                                                     "49"
                                                 ],
                                     "createdAt":  "2026-06-02 13:55:08",
-                                    "status":  "pending",
-                                    "savedBy":  "fetch"
+                                    "savedBy":  "fetch",
+                                    "status":  "settled",
+                                    "hit":  false,
+                                    "actualDate":  "2026-06-03",
+                                    "actualIssue":  154,
+                                    "actualNumbers":  [
+                                                          "41"
+                                                      ]
                                 },
                                 {
                                     "id":  "am-special-number-2026-154-association-rules",
@@ -199912,8 +200748,14 @@
                                                     "03"
                                                 ],
                                     "createdAt":  "2026-06-02 13:55:08",
-                                    "status":  "pending",
-                                    "savedBy":  "fetch"
+                                    "savedBy":  "fetch",
+                                    "status":  "settled",
+                                    "hit":  false,
+                                    "actualDate":  "2026-06-03",
+                                    "actualIssue":  154,
+                                    "actualNumbers":  [
+                                                          "41"
+                                                      ]
                                 },
                                 {
                                     "id":  "am-special-number-2026-154-backtracking",
@@ -199931,8 +200773,14 @@
                                                     "03"
                                                 ],
                                     "createdAt":  "2026-06-02 13:55:08",
-                                    "status":  "pending",
-                                    "savedBy":  "fetch"
+                                    "savedBy":  "fetch",
+                                    "status":  "settled",
+                                    "hit":  false,
+                                    "actualDate":  "2026-06-03",
+                                    "actualIssue":  154,
+                                    "actualNumbers":  [
+                                                          "41"
+                                                      ]
                                 },
                                 {
                                     "id":  "am-special-number-2026-154-bayesian",
@@ -199950,8 +200798,14 @@
                                                     "49"
                                                 ],
                                     "createdAt":  "2026-06-02 13:55:08",
-                                    "status":  "pending",
-                                    "savedBy":  "fetch"
+                                    "savedBy":  "fetch",
+                                    "status":  "settled",
+                                    "hit":  false,
+                                    "actualDate":  "2026-06-03",
+                                    "actualIssue":  154,
+                                    "actualNumbers":  [
+                                                          "41"
+                                                      ]
                                 },
                                 {
                                     "id":  "am-special-number-2026-154-dynamic-programming",
@@ -199969,8 +200823,14 @@
                                                     "39"
                                                 ],
                                     "createdAt":  "2026-06-02 13:55:08",
-                                    "status":  "pending",
-                                    "savedBy":  "fetch"
+                                    "savedBy":  "fetch",
+                                    "status":  "settled",
+                                    "hit":  false,
+                                    "actualDate":  "2026-06-03",
+                                    "actualIssue":  154,
+                                    "actualNumbers":  [
+                                                          "41"
+                                                      ]
                                 },
                                 {
                                     "id":  "am-special-number-2026-154-ensemble",
@@ -199988,8 +200848,14 @@
                                                     "49"
                                                 ],
                                     "createdAt":  "2026-06-02 13:55:08",
-                                    "status":  "pending",
-                                    "savedBy":  "fetch"
+                                    "savedBy":  "fetch",
+                                    "status":  "settled",
+                                    "hit":  false,
+                                    "actualDate":  "2026-06-03",
+                                    "actualIssue":  154,
+                                    "actualNumbers":  [
+                                                          "41"
+                                                      ]
                                 },
                                 {
                                     "id":  "am-special-number-2026-154-genetic",
@@ -200007,8 +200873,14 @@
                                                     "49"
                                                 ],
                                     "createdAt":  "2026-06-02 13:55:08",
-                                    "status":  "pending",
-                                    "savedBy":  "fetch"
+                                    "savedBy":  "fetch",
+                                    "status":  "settled",
+                                    "hit":  false,
+                                    "actualDate":  "2026-06-03",
+                                    "actualIssue":  154,
+                                    "actualNumbers":  [
+                                                          "41"
+                                                      ]
                                 },
                                 {
                                     "id":  "am-special-number-2026-154-greedy",
@@ -200026,8 +200898,14 @@
                                                     "49"
                                                 ],
                                     "createdAt":  "2026-06-02 13:55:08",
-                                    "status":  "pending",
-                                    "savedBy":  "fetch"
+                                    "savedBy":  "fetch",
+                                    "status":  "settled",
+                                    "hit":  false,
+                                    "actualDate":  "2026-06-03",
+                                    "actualIssue":  154,
+                                    "actualNumbers":  [
+                                                          "41"
+                                                      ]
                                 },
                                 {
                                     "id":  "am-special-number-2026-154-markov-chain",
@@ -200045,8 +200923,14 @@
                                                     "01"
                                                 ],
                                     "createdAt":  "2026-06-02 13:55:08",
-                                    "status":  "pending",
-                                    "savedBy":  "fetch"
+                                    "savedBy":  "fetch",
+                                    "status":  "settled",
+                                    "hit":  false,
+                                    "actualDate":  "2026-06-03",
+                                    "actualIssue":  154,
+                                    "actualNumbers":  [
+                                                          "41"
+                                                      ]
                                 },
                                 {
                                     "id":  "am-special-number-2026-154-mirofish-sandbox",
@@ -200064,8 +200948,14 @@
                                                     "47"
                                                 ],
                                     "createdAt":  "2026-06-02 13:55:08",
-                                    "status":  "pending",
-                                    "savedBy":  "fetch"
+                                    "savedBy":  "fetch",
+                                    "status":  "settled",
+                                    "hit":  false,
+                                    "actualDate":  "2026-06-03",
+                                    "actualIssue":  154,
+                                    "actualNumbers":  [
+                                                          "41"
+                                                      ]
                                 },
                                 {
                                     "id":  "am-special-number-2026-154-monte-carlo",
@@ -200083,8 +200973,14 @@
                                                     "49"
                                                 ],
                                     "createdAt":  "2026-06-02 13:55:08",
-                                    "status":  "pending",
-                                    "savedBy":  "fetch"
+                                    "savedBy":  "fetch",
+                                    "status":  "settled",
+                                    "hit":  false,
+                                    "actualDate":  "2026-06-03",
+                                    "actualIssue":  154,
+                                    "actualNumbers":  [
+                                                          "41"
+                                                      ]
                                 },
                                 {
                                     "id":  "am-special-number-2026-154-particle-swarm",
@@ -200102,8 +200998,14 @@
                                                     "27"
                                                 ],
                                     "createdAt":  "2026-06-02 13:55:08",
-                                    "status":  "pending",
-                                    "savedBy":  "fetch"
+                                    "savedBy":  "fetch",
+                                    "status":  "settled",
+                                    "hit":  false,
+                                    "actualDate":  "2026-06-03",
+                                    "actualIssue":  154,
+                                    "actualNumbers":  [
+                                                          "41"
+                                                      ]
                                 },
                                 {
                                     "id":  "am-special-number-2026-154-simulated-annealing",
@@ -200121,8 +201023,14 @@
                                                     "49"
                                                 ],
                                     "createdAt":  "2026-06-02 13:55:08",
-                                    "status":  "pending",
-                                    "savedBy":  "fetch"
+                                    "savedBy":  "fetch",
+                                    "status":  "settled",
+                                    "hit":  false,
+                                    "actualDate":  "2026-06-03",
+                                    "actualIssue":  154,
+                                    "actualNumbers":  [
+                                                          "41"
+                                                      ]
                                 },
                                 {
                                     "id":  "am-three-hit-three-2026-154-ant-colony",
@@ -200142,8 +201050,19 @@
                                                     "25"
                                                 ],
                                     "createdAt":  "2026-06-02 13:55:08",
-                                    "status":  "pending",
-                                    "savedBy":  "fetch"
+                                    "savedBy":  "fetch",
+                                    "status":  "settled",
+                                    "hit":  false,
+                                    "actualDate":  "2026-06-03",
+                                    "actualIssue":  154,
+                                    "actualNumbers":  [
+                                                          "46",
+                                                          "28",
+                                                          "42",
+                                                          "31",
+                                                          "23",
+                                                          "34"
+                                                      ]
                                 },
                                 {
                                     "id":  "am-three-hit-three-2026-154-association-rules",
@@ -200163,8 +201082,19 @@
                                                     "03"
                                                 ],
                                     "createdAt":  "2026-06-02 13:55:08",
-                                    "status":  "pending",
-                                    "savedBy":  "fetch"
+                                    "savedBy":  "fetch",
+                                    "status":  "settled",
+                                    "hit":  false,
+                                    "actualDate":  "2026-06-03",
+                                    "actualIssue":  154,
+                                    "actualNumbers":  [
+                                                          "46",
+                                                          "28",
+                                                          "42",
+                                                          "31",
+                                                          "23",
+                                                          "34"
+                                                      ]
                                 },
                                 {
                                     "id":  "am-three-hit-three-2026-154-backtracking",
@@ -200184,8 +201114,19 @@
                                                     "44"
                                                 ],
                                     "createdAt":  "2026-06-02 13:55:08",
-                                    "status":  "pending",
-                                    "savedBy":  "fetch"
+                                    "savedBy":  "fetch",
+                                    "status":  "settled",
+                                    "hit":  false,
+                                    "actualDate":  "2026-06-03",
+                                    "actualIssue":  154,
+                                    "actualNumbers":  [
+                                                          "46",
+                                                          "28",
+                                                          "42",
+                                                          "31",
+                                                          "23",
+                                                          "34"
+                                                      ]
                                 },
                                 {
                                     "id":  "am-three-hit-three-2026-154-bayesian",
@@ -200205,8 +201146,19 @@
                                                     "44"
                                                 ],
                                     "createdAt":  "2026-06-02 13:55:08",
-                                    "status":  "pending",
-                                    "savedBy":  "fetch"
+                                    "savedBy":  "fetch",
+                                    "status":  "settled",
+                                    "hit":  false,
+                                    "actualDate":  "2026-06-03",
+                                    "actualIssue":  154,
+                                    "actualNumbers":  [
+                                                          "46",
+                                                          "28",
+                                                          "42",
+                                                          "31",
+                                                          "23",
+                                                          "34"
+                                                      ]
                                 },
                                 {
                                     "id":  "am-three-hit-three-2026-154-dynamic-programming",
@@ -200226,8 +201178,19 @@
                                                     "15"
                                                 ],
                                     "createdAt":  "2026-06-02 13:55:08",
-                                    "status":  "pending",
-                                    "savedBy":  "fetch"
+                                    "savedBy":  "fetch",
+                                    "status":  "settled",
+                                    "hit":  false,
+                                    "actualDate":  "2026-06-03",
+                                    "actualIssue":  154,
+                                    "actualNumbers":  [
+                                                          "46",
+                                                          "28",
+                                                          "42",
+                                                          "31",
+                                                          "23",
+                                                          "34"
+                                                      ]
                                 },
                                 {
                                     "id":  "am-three-hit-three-2026-154-ensemble",
@@ -200247,8 +201210,19 @@
                                                     "03"
                                                 ],
                                     "createdAt":  "2026-06-02 13:55:08",
-                                    "status":  "pending",
-                                    "savedBy":  "fetch"
+                                    "savedBy":  "fetch",
+                                    "status":  "settled",
+                                    "hit":  false,
+                                    "actualDate":  "2026-06-03",
+                                    "actualIssue":  154,
+                                    "actualNumbers":  [
+                                                          "46",
+                                                          "28",
+                                                          "42",
+                                                          "31",
+                                                          "23",
+                                                          "34"
+                                                      ]
                                 },
                                 {
                                     "id":  "am-three-hit-three-2026-154-genetic",
@@ -200268,8 +201242,19 @@
                                                     "03"
                                                 ],
                                     "createdAt":  "2026-06-02 13:55:08",
-                                    "status":  "pending",
-                                    "savedBy":  "fetch"
+                                    "savedBy":  "fetch",
+                                    "status":  "settled",
+                                    "hit":  false,
+                                    "actualDate":  "2026-06-03",
+                                    "actualIssue":  154,
+                                    "actualNumbers":  [
+                                                          "46",
+                                                          "28",
+                                                          "42",
+                                                          "31",
+                                                          "23",
+                                                          "34"
+                                                      ]
                                 },
                                 {
                                     "id":  "am-three-hit-three-2026-154-greedy",
@@ -200289,8 +201274,19 @@
                                                     "24"
                                                 ],
                                     "createdAt":  "2026-06-02 13:55:08",
-                                    "status":  "pending",
-                                    "savedBy":  "fetch"
+                                    "savedBy":  "fetch",
+                                    "status":  "settled",
+                                    "hit":  false,
+                                    "actualDate":  "2026-06-03",
+                                    "actualIssue":  154,
+                                    "actualNumbers":  [
+                                                          "46",
+                                                          "28",
+                                                          "42",
+                                                          "31",
+                                                          "23",
+                                                          "34"
+                                                      ]
                                 },
                                 {
                                     "id":  "am-three-hit-three-2026-154-markov-chain",
@@ -200310,8 +201306,19 @@
                                                     "32"
                                                 ],
                                     "createdAt":  "2026-06-02 13:55:08",
-                                    "status":  "pending",
-                                    "savedBy":  "fetch"
+                                    "savedBy":  "fetch",
+                                    "status":  "settled",
+                                    "hit":  false,
+                                    "actualDate":  "2026-06-03",
+                                    "actualIssue":  154,
+                                    "actualNumbers":  [
+                                                          "46",
+                                                          "28",
+                                                          "42",
+                                                          "31",
+                                                          "23",
+                                                          "34"
+                                                      ]
                                 },
                                 {
                                     "id":  "am-three-hit-three-2026-154-mirofish-sandbox",
@@ -200331,8 +201338,19 @@
                                                     "48"
                                                 ],
                                     "createdAt":  "2026-06-02 13:55:08",
-                                    "status":  "pending",
-                                    "savedBy":  "fetch"
+                                    "savedBy":  "fetch",
+                                    "status":  "settled",
+                                    "hit":  false,
+                                    "actualDate":  "2026-06-03",
+                                    "actualIssue":  154,
+                                    "actualNumbers":  [
+                                                          "46",
+                                                          "28",
+                                                          "42",
+                                                          "31",
+                                                          "23",
+                                                          "34"
+                                                      ]
                                 },
                                 {
                                     "id":  "am-three-hit-three-2026-154-monte-carlo",
@@ -200352,8 +201370,19 @@
                                                     "30"
                                                 ],
                                     "createdAt":  "2026-06-02 13:55:08",
-                                    "status":  "pending",
-                                    "savedBy":  "fetch"
+                                    "savedBy":  "fetch",
+                                    "status":  "settled",
+                                    "hit":  false,
+                                    "actualDate":  "2026-06-03",
+                                    "actualIssue":  154,
+                                    "actualNumbers":  [
+                                                          "46",
+                                                          "28",
+                                                          "42",
+                                                          "31",
+                                                          "23",
+                                                          "34"
+                                                      ]
                                 },
                                 {
                                     "id":  "am-three-hit-three-2026-154-particle-swarm",
@@ -200373,8 +201402,19 @@
                                                     "25"
                                                 ],
                                     "createdAt":  "2026-06-02 13:55:08",
-                                    "status":  "pending",
-                                    "savedBy":  "fetch"
+                                    "savedBy":  "fetch",
+                                    "status":  "settled",
+                                    "hit":  false,
+                                    "actualDate":  "2026-06-03",
+                                    "actualIssue":  154,
+                                    "actualNumbers":  [
+                                                          "46",
+                                                          "28",
+                                                          "42",
+                                                          "31",
+                                                          "23",
+                                                          "34"
+                                                      ]
                                 },
                                 {
                                     "id":  "am-three-hit-three-2026-154-simulated-annealing",
@@ -200394,8 +201434,19 @@
                                                     "49"
                                                 ],
                                     "createdAt":  "2026-06-02 13:55:08",
-                                    "status":  "pending",
-                                    "savedBy":  "fetch"
+                                    "savedBy":  "fetch",
+                                    "status":  "settled",
+                                    "hit":  false,
+                                    "actualDate":  "2026-06-03",
+                                    "actualIssue":  154,
+                                    "actualNumbers":  [
+                                                          "46",
+                                                          "28",
+                                                          "42",
+                                                          "31",
+                                                          "23",
+                                                          "34"
+                                                      ]
                                 },
                                 {
                                     "id":  "hk-special-number-2026-60-ant-colony",
@@ -203884,8 +204935,428 @@
                             ]
               },
     "forecasts":  {
-                      "generatedAt":  "2026-06-02 22:29:09",
+                      "generatedAt":  "2026-06-03 14:54:33",
                       "items":  [
+                                    {
+                                        "id":  "am-forecast-special-number-2026-155",
+                                        "source":  "am",
+                                        "sourceName":  "澳门",
+                                        "game":  "special-number",
+                                        "gameName":  "特别号",
+                                        "strategyId":  "hot-recent",
+                                        "strategyName":  "近期热号",
+                                        "selectedStrategy":  "hot-recent",
+                                        "selectedStrategyName":  "近期热号",
+                                        "odds":  47,
+                                        "weekBacktest":  {
+                                                             "tested":  3,
+                                                             "hits":  0,
+                                                             "hitRate":  0,
+                                                             "currentMiss":  3,
+                                                             "maxMiss":  3,
+                                                             "weekStart":  "2026-06-01",
+                                                             "weekEnd":  "2026-06-07",
+                                                             "mode":  "natural-week-current-picks",
+                                                             "odds":  47,
+                                                             "unitCount":  6,
+                                                             "stakePerIssue":  6,
+                                                             "totalStake":  18,
+                                                             "totalPayout":  0,
+                                                             "netProfit":  -18,
+                                                             "roi":  -100
+                                                         },
+                                        "walkForwardBacktest":  {
+                                                                    "tested":  21,
+                                                                    "hits":  1,
+                                                                    "hitRate":  4.76,
+                                                                    "currentMiss":  16,
+                                                                    "maxMiss":  16,
+                                                                    "window":  21,
+                                                                    "minHistory":  30,
+                                                                    "mode":  "walk-forward",
+                                                                    "odds":  47,
+                                                                    "unitCount":  6,
+                                                                    "stakePerIssue":  6,
+                                                                    "totalStake":  126,
+                                                                    "totalPayout":  47,
+                                                                    "netProfit":  -79,
+                                                                    "roi":  -62.7
+                                                                },
+                                        "weeklyProfitGate":  false,
+                                        "recommendationStatus":  "暂停观察",
+                                        "qualityScore":  53,
+                                        "qualityLevel":  "不合格",
+                                        "forecastVersion":  "forecast-v3-no-recent-copy",
+                                        "year":  2025,
+                                        "displayYear":  "2026",
+                                        "issue":  155,
+                                        "targetDate":  "2026-06-04",
+                                        "numbers":  [
+                                                        "39",
+                                                        "49",
+                                                        "06",
+                                                        "46",
+                                                        "01",
+                                                        "09"
+                                                    ],
+                                        "backtest":  {
+                                                         "tested":  120,
+                                                         "hits":  22,
+                                                         "hitRate":  18.33,
+                                                         "currentMiss":  4,
+                                                         "maxMiss":  11,
+                                                         "window":  120,
+                                                         "mode":  "historical-window-current-picks",
+                                                         "odds":  47,
+                                                         "unitCount":  6,
+                                                         "stakePerIssue":  6,
+                                                         "totalStake":  720,
+                                                         "totalPayout":  1034,
+                                                         "netProfit":  314,
+                                                         "roi":  43.61,
+                                                         "edgeVsRandom":  3.33,
+                                                         "roiVsRandom":  26.11
+                                                     },
+                                        "randomBaseline":  {
+                                                               "tested":  120,
+                                                               "hits":  18,
+                                                               "hitRate":  15,
+                                                               "currentMiss":  0,
+                                                               "maxMiss":  18,
+                                                               "window":  120,
+                                                               "mode":  "historical-window-current-picks",
+                                                               "odds":  47,
+                                                               "unitCount":  6,
+                                                               "stakePerIssue":  6,
+                                                               "totalStake":  720,
+                                                               "totalPayout":  846,
+                                                               "netProfit":  126,
+                                                               "roi":  17.5
+                                                           },
+                                        "strategyPool":  [
+                                                             {
+                                                                 "id":  "hot-recent",
+                                                                 "name":  "近期热号",
+                                                                 "score":  682.63,
+                                                                 "tested":  120,
+                                                                 "hits":  22,
+                                                                 "hitRate":  18.33,
+                                                                 "currentMiss":  4,
+                                                                 "maxMiss":  11,
+                                                                 "totalStake":  720,
+                                                                 "totalPayout":  1034,
+                                                                 "netProfit":  314,
+                                                                 "roi":  43.61,
+                                                                 "weekNetProfit":  -18,
+                                                                 "weekRoi":  -100
+                                                             },
+                                                             {
+                                                                 "id":  "weekly-profit-guard",
+                                                                 "name":  "周盈利保护",
+                                                                 "score":  184.27,
+                                                                 "tested":  120,
+                                                                 "hits":  16,
+                                                                 "hitRate":  13.33,
+                                                                 "currentMiss":  16,
+                                                                 "maxMiss":  27,
+                                                                 "totalStake":  720,
+                                                                 "totalPayout":  752,
+                                                                 "netProfit":  32,
+                                                                 "roi":  4.44,
+                                                                 "weekNetProfit":  -18,
+                                                                 "weekRoi":  -100
+                                                             },
+                                                             {
+                                                                 "id":  "algorithm-vote",
+                                                                 "name":  "算法投票",
+                                                                 "score":  -36.37,
+                                                                 "tested":  120,
+                                                                 "hits":  13,
+                                                                 "hitRate":  10.83,
+                                                                 "currentMiss":  16,
+                                                                 "maxMiss":  24,
+                                                                 "totalStake":  720,
+                                                                 "totalPayout":  611,
+                                                                 "netProfit":  -109,
+                                                                 "roi":  -15.14,
+                                                                 "weekNetProfit":  -18,
+                                                                 "weekRoi":  -100
+                                                             },
+                                                             {
+                                                                 "id":  "score-balanced",
+                                                                 "name":  "综合评分",
+                                                                 "score":  -36.37,
+                                                                 "tested":  120,
+                                                                 "hits":  13,
+                                                                 "hitRate":  10.83,
+                                                                 "currentMiss":  16,
+                                                                 "maxMiss":  24,
+                                                                 "totalStake":  720,
+                                                                 "totalPayout":  611,
+                                                                 "netProfit":  -109,
+                                                                 "roi":  -15.14,
+                                                                 "weekNetProfit":  -18,
+                                                                 "weekRoi":  -100
+                                                             },
+                                                             {
+                                                                 "id":  "hot-cold-mix",
+                                                                 "name":  "热冷混合",
+                                                                 "score":  -287.01,
+                                                                 "tested":  120,
+                                                                 "hits":  10,
+                                                                 "hitRate":  8.33,
+                                                                 "currentMiss":  16,
+                                                                 "maxMiss":  41,
+                                                                 "totalStake":  720,
+                                                                 "totalPayout":  470,
+                                                                 "netProfit":  -250,
+                                                                 "roi":  -34.72,
+                                                                 "weekNetProfit":  -18,
+                                                                 "weekRoi":  -100
+                                                             },
+                                                             {
+                                                                 "id":  "cold-miss",
+                                                                 "name":  "遗漏冷号",
+                                                                 "score":  -1065.36,
+                                                                 "tested":  120,
+                                                                 "hits":  3,
+                                                                 "hitRate":  2.5,
+                                                                 "currentMiss":  99,
+                                                                 "maxMiss":  99,
+                                                                 "totalStake":  720,
+                                                                 "totalPayout":  141,
+                                                                 "netProfit":  -579,
+                                                                 "roi":  -80.42,
+                                                                 "weekNetProfit":  -18,
+                                                                 "weekRoi":  -100
+                                                             }
+                                                         ],
+                                        "createdAt":  "2026-06-03 14:54:33",
+                                        "status":  "pending",
+                                        "savedBy":  "fetch"
+                                    },
+                                    {
+                                        "id":  "am-forecast-three-hit-three-2026-155",
+                                        "source":  "am",
+                                        "sourceName":  "澳门",
+                                        "game":  "three-hit-three",
+                                        "gameName":  "三中三",
+                                        "strategyId":  "weekly-profit-guard",
+                                        "strategyName":  "周盈利保护",
+                                        "selectedStrategy":  "weekly-profit-guard",
+                                        "selectedStrategyName":  "周盈利保护",
+                                        "odds":  650,
+                                        "weekBacktest":  {
+                                                             "tested":  3,
+                                                             "hits":  3,
+                                                             "hitRate":  100,
+                                                             "currentMiss":  0,
+                                                             "maxMiss":  0,
+                                                             "weekStart":  "2026-06-01",
+                                                             "weekEnd":  "2026-06-07",
+                                                             "mode":  "natural-week-current-picks",
+                                                             "odds":  650,
+                                                             "unitCount":  6,
+                                                             "stakePerIssue":  6,
+                                                             "totalStake":  18,
+                                                             "totalPayout":  1950,
+                                                             "netProfit":  1932,
+                                                             "roi":  10733.33
+                                                         },
+                                        "walkForwardBacktest":  {
+                                                                    "tested":  21,
+                                                                    "hits":  0,
+                                                                    "hitRate":  0,
+                                                                    "currentMiss":  21,
+                                                                    "maxMiss":  21,
+                                                                    "window":  21,
+                                                                    "minHistory":  30,
+                                                                    "mode":  "walk-forward",
+                                                                    "odds":  650,
+                                                                    "unitCount":  6,
+                                                                    "stakePerIssue":  6,
+                                                                    "totalStake":  126,
+                                                                    "totalPayout":  0,
+                                                                    "netProfit":  -126,
+                                                                    "roi":  -100
+                                                                },
+                                        "weeklyProfitGate":  false,
+                                        "recommendationStatus":  "暂停观察",
+                                        "qualityScore":  80,
+                                        "qualityLevel":  "良",
+                                        "forecastVersion":  "forecast-v3-no-recent-copy",
+                                        "year":  2025,
+                                        "displayYear":  "2026",
+                                        "issue":  155,
+                                        "targetDate":  "2026-06-04",
+                                        "numbers":  [
+                                                        [
+                                                            "28",
+                                                            "42",
+                                                            "46"
+                                                        ],
+                                                        [
+                                                            "01",
+                                                            "33",
+                                                            "38"
+                                                        ],
+                                                        [
+                                                            "16",
+                                                            "34",
+                                                            "47"
+                                                        ],
+                                                        [
+                                                            "15",
+                                                            "27",
+                                                            "29"
+                                                        ],
+                                                        [
+                                                            "04",
+                                                            "11",
+                                                            "22"
+                                                        ],
+                                                        [
+                                                            "28",
+                                                            "30",
+                                                            "44"
+                                                        ]
+                                                    ],
+                                        "backtest":  {
+                                                         "tested":  120,
+                                                         "hits":  6,
+                                                         "hitRate":  5,
+                                                         "currentMiss":  0,
+                                                         "maxMiss":  114,
+                                                         "window":  120,
+                                                         "mode":  "historical-window-current-picks",
+                                                         "odds":  650,
+                                                         "unitCount":  6,
+                                                         "stakePerIssue":  6,
+                                                         "totalStake":  720,
+                                                         "totalPayout":  3900,
+                                                         "netProfit":  3180,
+                                                         "roi":  441.67,
+                                                         "edgeVsRandom":  4.17,
+                                                         "roiVsRandom":  451.39
+                                                     },
+                                        "randomBaseline":  {
+                                                               "tested":  120,
+                                                               "hits":  1,
+                                                               "hitRate":  0.83,
+                                                               "currentMiss":  78,
+                                                               "maxMiss":  78,
+                                                               "window":  120,
+                                                               "mode":  "historical-window-current-picks",
+                                                               "odds":  650,
+                                                               "unitCount":  6,
+                                                               "stakePerIssue":  6,
+                                                               "totalStake":  720,
+                                                               "totalPayout":  650,
+                                                               "netProfit":  -70,
+                                                               "roi":  -9.72
+                                                           },
+                                        "strategyPool":  [
+                                                             {
+                                                                 "id":  "weekly-profit-guard",
+                                                                 "name":  "周盈利保护",
+                                                                 "score":  21955.36,
+                                                                 "tested":  120,
+                                                                 "hits":  6,
+                                                                 "hitRate":  5,
+                                                                 "currentMiss":  0,
+                                                                 "maxMiss":  114,
+                                                                 "totalStake":  720,
+                                                                 "totalPayout":  3900,
+                                                                 "netProfit":  3180,
+                                                                 "roi":  441.67,
+                                                                 "weekNetProfit":  1932,
+                                                                 "weekRoi":  10733.33
+                                                             },
+                                                             {
+                                                                 "id":  "cold-miss",
+                                                                 "name":  "遗漏冷号",
+                                                                 "score":  1169.64,
+                                                                 "tested":  120,
+                                                                 "hits":  3,
+                                                                 "hitRate":  2.5,
+                                                                 "currentMiss":  9,
+                                                                 "maxMiss":  69,
+                                                                 "totalStake":  720,
+                                                                 "totalPayout":  1950,
+                                                                 "netProfit":  1230,
+                                                                 "roi":  170.83,
+                                                                 "weekNetProfit":  -18,
+                                                                 "weekRoi":  -100
+                                                             },
+                                                             {
+                                                                 "id":  "algorithm-vote",
+                                                                 "name":  "算法投票",
+                                                                 "score":  412.23,
+                                                                 "tested":  120,
+                                                                 "hits":  2,
+                                                                 "hitRate":  1.67,
+                                                                 "currentMiss":  25,
+                                                                 "maxMiss":  56,
+                                                                 "totalStake":  720,
+                                                                 "totalPayout":  1300,
+                                                                 "netProfit":  580,
+                                                                 "roi":  80.56,
+                                                                 "weekNetProfit":  -18,
+                                                                 "weekRoi":  -100
+                                                             },
+                                                             {
+                                                                 "id":  "score-balanced",
+                                                                 "name":  "综合评分",
+                                                                 "score":  412.23,
+                                                                 "tested":  120,
+                                                                 "hits":  2,
+                                                                 "hitRate":  1.67,
+                                                                 "currentMiss":  25,
+                                                                 "maxMiss":  56,
+                                                                 "totalStake":  720,
+                                                                 "totalPayout":  1300,
+                                                                 "netProfit":  580,
+                                                                 "roi":  80.56,
+                                                                 "weekNetProfit":  -18,
+                                                                 "weekRoi":  -100
+                                                             },
+                                                             {
+                                                                 "id":  "hot-cold-mix",
+                                                                 "name":  "热冷混合",
+                                                                 "score":  -1364,
+                                                                 "tested":  120,
+                                                                 "hits":  0,
+                                                                 "hitRate":  0,
+                                                                 "currentMiss":  120,
+                                                                 "maxMiss":  120,
+                                                                 "totalStake":  720,
+                                                                 "totalPayout":  0,
+                                                                 "netProfit":  -720,
+                                                                 "roi":  -100,
+                                                                 "weekNetProfit":  -18,
+                                                                 "weekRoi":  -100
+                                                             },
+                                                             {
+                                                                 "id":  "hot-recent",
+                                                                 "name":  "近期热号",
+                                                                 "score":  -1364,
+                                                                 "tested":  120,
+                                                                 "hits":  0,
+                                                                 "hitRate":  0,
+                                                                 "currentMiss":  120,
+                                                                 "maxMiss":  120,
+                                                                 "totalStake":  720,
+                                                                 "totalPayout":  0,
+                                                                 "netProfit":  -720,
+                                                                 "roi":  -100,
+                                                                 "weekNetProfit":  -18,
+                                                                 "weekRoi":  -100
+                                                             }
+                                                         ],
+                                        "createdAt":  "2026-06-03 14:54:33",
+                                        "status":  "pending",
+                                        "savedBy":  "fetch"
+                                    },
                                     {
                                         "id":  "am-forecast-special-number-2026-154",
                                         "source":  "am",
@@ -204081,8 +205552,14 @@
                                                              }
                                                          ],
                                         "createdAt":  "2026-06-02 13:55:18",
-                                        "status":  "pending",
-                                        "savedBy":  "fetch"
+                                        "savedBy":  "fetch",
+                                        "status":  "settled",
+                                        "hit":  false,
+                                        "actualDate":  "2026-06-03",
+                                        "actualIssue":  154,
+                                        "actualNumbers":  [
+                                                              "41"
+                                                          ]
                                     },
                                     {
                                         "id":  "am-forecast-three-hit-three-2026-154",
@@ -204303,8 +205780,19 @@
                                                              }
                                                          ],
                                         "createdAt":  "2026-06-02 13:55:18",
-                                        "status":  "pending",
-                                        "savedBy":  "fetch"
+                                        "savedBy":  "fetch",
+                                        "status":  "settled",
+                                        "hit":  false,
+                                        "actualDate":  "2026-06-03",
+                                        "actualIssue":  154,
+                                        "actualNumbers":  [
+                                                              "46",
+                                                              "28",
+                                                              "42",
+                                                              "31",
+                                                              "23",
+                                                              "34"
+                                                          ]
                                     },
                                     {
                                         "id":  "hk-forecast-special-number-2026-60",
@@ -206477,7 +207965,7 @@
                                 ]
                   },
     "window5":  {
-                    "generatedAt":  "2026-06-02 22:28:31",
+                    "generatedAt":  "2026-06-03 14:53:54",
                     "items":  [
                                   {
                                       "source":  "am",
@@ -206517,7 +208005,7 @@
                                       "stablePoolChangeTime":  "2026-06-01 15:21:30",
                                       "stablePoolLastIssue":  151,
                                       "stablePoolNextRecalcIssue":  171,
-                                      "computedAt":  "2026-06-02 22:28:31"
+                                      "computedAt":  "2026-06-03 14:53:54"
                                   },
                                   {
                                       "source":  "hk",
@@ -206554,7 +208042,7 @@
                                       "stablePoolChangeTime":  "2026-05-31 01:05:33",
                                       "stablePoolLastIssue":  58,
                                       "stablePoolNextRecalcIssue":  68,
-                                      "computedAt":  "2026-06-02 22:28:31"
+                                      "computedAt":  "2026-06-03 14:53:54"
                                   }
                               ]
                 }
