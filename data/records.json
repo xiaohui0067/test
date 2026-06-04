@@ -1,6 +1,6 @@
 {
     "summary":  {
-                    "generatedAt":  "2026-06-04 21:02:04",
+                    "generatedAt":  "2026-06-04 21:08:03",
                     "totalRecords":  2948,
                     "totalBalls":  20636,
                     "bySource":  {
@@ -198630,7 +198630,7 @@
                                                          "02",
                                                          "05"
                                                      ],
-                                         "createdAt":  "2026-06-04 21:02:05",
+                                         "createdAt":  "2026-06-04 21:08:04",
                                          "savedBy":  "fetch"
                                      },
                                      {
@@ -198650,7 +198650,7 @@
                                                          "06",
                                                          "30"
                                                      ],
-                                         "createdAt":  "2026-06-04 21:02:05",
+                                         "createdAt":  "2026-06-04 21:08:04",
                                          "savedBy":  "fetch"
                                      },
                                      {
@@ -199015,7 +199015,7 @@
                                                           },
                                              "verifiedCandidates":  18424,
                                              "method":  "exhaustive-49c3-portfolio",
-                                             "createdAt":  "2026-06-04 21:02:05",
+                                             "createdAt":  "2026-06-04 21:08:04",
                                              "savedBy":  "fetch"
                                          },
                                          {
@@ -199238,7 +199238,7 @@
                                                           },
                                              "verifiedCandidates":  18424,
                                              "method":  "exhaustive-49c3-portfolio",
-                                             "createdAt":  "2026-06-04 21:02:05",
+                                             "createdAt":  "2026-06-04 21:08:04",
                                              "savedBy":  "fetch"
                                          },
                                          {
@@ -200805,7 +200805,7 @@
                                      ]
                     },
     "games":  {
-                  "generatedAt":  "2026-06-04 21:02:26",
+                  "generatedAt":  "2026-06-04 21:08:22",
                   "items":  [
                                 {
                                     "id":  "am-special-number-2026-156-ant-colony",
@@ -207037,7 +207037,7 @@
                             ]
               },
     "forecasts":  {
-                      "generatedAt":  "2026-06-04 21:02:34",
+                      "generatedAt":  "2026-06-04 21:08:29",
                       "items":  [
                                     {
                                         "id":  "am-forecast-special-number-2026-156",
@@ -210941,7 +210941,7 @@
                                 ]
                   },
     "window5":  {
-                    "generatedAt":  "2026-06-04 21:02:04",
+                    "generatedAt":  "2026-06-04 21:08:03",
                     "items":  [
                                   {
                                       "source":  "am",
@@ -210981,7 +210981,7 @@
                                       "stablePoolChangeTime":  "2026-06-01 15:21:30",
                                       "stablePoolLastIssue":  151,
                                       "stablePoolNextRecalcIssue":  171,
-                                      "computedAt":  "2026-06-04 21:02:04"
+                                      "computedAt":  "2026-06-04 21:08:03"
                                   },
                                   {
                                       "source":  "hk",
@@ -211018,7 +211018,7 @@
                                       "stablePoolChangeTime":  "2026-05-31 01:05:33",
                                       "stablePoolLastIssue":  58,
                                       "stablePoolNextRecalcIssue":  68,
-                                      "computedAt":  "2026-06-04 21:02:04"
+                                      "computedAt":  "2026-06-04 21:08:03"
                                   }
                               ]
                 }
