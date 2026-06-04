@@ -1,5 +1,5 @@
 {
-    "generatedAt":  "2026-06-04 18:44:39",
+    "generatedAt":  "2026-06-04 21:02:04",
     "items":  [
                   {
                       "source":  "am",
@@ -14,8 +14,8 @@
                                        "12",
                                        "07"
                                    ],
-                      "adjustmentStatus":  "有变更",
-                      "adjustmentReason":  "最新开奖后当年覆盖池已调整",
+                      "adjustmentStatus":  "无变更",
+                      "adjustmentReason":  "本次重算与上次一致",
                       "changeTime":  "2026-06-04 18:44:39",
                       "stablePool":  [
                                          "03",
@@ -39,7 +39,7 @@
                       "stablePoolChangeTime":  "2026-06-01 15:21:30",
                       "stablePoolLastIssue":  151,
                       "stablePoolNextRecalcIssue":  171,
-                      "computedAt":  "2026-06-04 18:44:39"
+                      "computedAt":  "2026-06-04 21:02:04"
                   },
                   {
                       "source":  "hk",
@@ -76,7 +76,7 @@
                       "stablePoolChangeTime":  "2026-05-31 01:05:33",
                       "stablePoolLastIssue":  58,
                       "stablePoolNextRecalcIssue":  68,
-                      "computedAt":  "2026-06-04 18:44:39"
+                      "computedAt":  "2026-06-04 21:02:04"
                   }
               ]
 }
