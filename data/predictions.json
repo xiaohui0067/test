@@ -1,23 +1,23 @@
 {
     "next":  [
                  {
-                     "id":  "am-2026-156-next",
+                     "id":  "am-2026-157-next",
                      "source":  "am",
                      "sourceName":  "澳门",
                      "year":  2025,
                      "displayYear":  "2026",
-                     "issue":  156,
-                     "targetDate":  "2026-06-05",
+                     "issue":  157,
+                     "targetDate":  "2026-06-06",
                      "numbers":  [
                                      "49",
-                                     "03",
                                      "30",
                                      "10",
                                      "39",
                                      "02",
+                                     "22",
                                      "05"
                                  ],
-                     "createdAt":  "2026-06-04 21:08:04",
+                     "createdAt":  "2026-06-05 19:26:00",
                      "savedBy":  "fetch"
                  },
                  {
@@ -36,6 +36,26 @@
                                      "08",
                                      "06",
                                      "30"
+                                 ],
+                     "createdAt":  "2026-06-05 19:26:00",
+                     "savedBy":  "fetch"
+                 },
+                 {
+                     "id":  "am-2026-156-next",
+                     "source":  "am",
+                     "sourceName":  "澳门",
+                     "year":  2025,
+                     "displayYear":  "2026",
+                     "issue":  156,
+                     "targetDate":  "2026-06-05",
+                     "numbers":  [
+                                     "49",
+                                     "03",
+                                     "30",
+                                     "10",
+                                     "39",
+                                     "02",
+                                     "05"
                                  ],
                      "createdAt":  "2026-06-04 21:08:04",
                      "savedBy":  "fetch"
@@ -183,13 +203,13 @@
              ],
     "sanzhong":  [
                      {
-                         "id":  "am-2026-156-sanzhong",
+                         "id":  "am-2026-157-sanzhong",
                          "source":  "am",
                          "sourceName":  "澳门",
                          "year":  2025,
                          "displayYear":  "2026",
-                         "issue":  156,
-                         "targetDate":  "2026-06-05",
+                         "issue":  157,
+                         "targetDate":  "2026-06-06",
                          "combos":  [
                                         [
                                             "34",
@@ -202,7 +222,7 @@
                                             "40"
                                         ],
                                         [
-                                            "36",
+                                            "01",
                                             "41",
                                             "45"
                                         ],
@@ -232,14 +252,14 @@
                                             "47"
                                         ],
                                         [
-                                            "11",
-                                            "20",
-                                            "39"
-                                        ],
-                                        [
                                             "10",
                                             "16",
                                             "46"
+                                        ],
+                                        [
+                                            "11",
+                                            "19",
+                                            "30"
                                         ]
                                     ],
                          "rows":  [
@@ -251,11 +271,11 @@
                                                     ],
                                           "key":  "34-42-46",
                                           "hits":  2,
-                                          "miss":  1,
+                                          "miss":  2,
                                           "recentHits":  2,
                                           "recent120Hits":  2,
                                           "recent240Hits":  2,
-                                          "score":  22.1
+                                          "score":  21.8
                                       },
                                       {
                                           "combo":  [
@@ -265,25 +285,25 @@
                                                     ],
                                           "key":  "21-25-40",
                                           "hits":  2,
-                                          "miss":  24,
+                                          "miss":  25,
                                           "recentHits":  2,
                                           "recent120Hits":  2,
                                           "recent240Hits":  2,
-                                          "score":  20.4
+                                          "score":  20.1
                                       },
                                       {
                                           "combo":  [
-                                                        "36",
+                                                        "01",
                                                         "41",
                                                         "45"
                                                     ],
-                                          "key":  "36-41-45",
+                                          "key":  "01-41-45",
                                           "hits":  2,
-                                          "miss":  16,
+                                          "miss":  17,
                                           "recentHits":  2,
                                           "recent120Hits":  2,
                                           "recent240Hits":  2,
-                                          "score":  20.9
+                                          "score":  21
                                       },
                                       {
                                           "combo":  [
@@ -293,11 +313,11 @@
                                                     ],
                                           "key":  "11-19-44",
                                           "hits":  2,
-                                          "miss":  5,
+                                          "miss":  6,
                                           "recentHits":  2,
                                           "recent120Hits":  2,
                                           "recent240Hits":  2,
-                                          "score":  21.6
+                                          "score":  21.9
                                       },
                                       {
                                           "combo":  [
@@ -307,11 +327,11 @@
                                                     ],
                                           "key":  "14-15-24",
                                           "hits":  2,
-                                          "miss":  19,
+                                          "miss":  20,
                                           "recentHits":  1,
                                           "recent120Hits":  2,
                                           "recent240Hits":  2,
-                                          "score":  14.9
+                                          "score":  14.6
                                       },
                                       {
                                           "combo":  [
@@ -321,11 +341,11 @@
                                                     ],
                                           "key":  "20-27-41",
                                           "hits":  2,
-                                          "miss":  4,
+                                          "miss":  5,
                                           "recentHits":  1,
                                           "recent120Hits":  2,
                                           "recent240Hits":  2,
-                                          "score":  15.6
+                                          "score":  15.9
                                       },
                                       {
                                           "combo":  [
@@ -335,11 +355,11 @@
                                                     ],
                                           "key":  "01-09-15",
                                           "hits":  2,
-                                          "miss":  29,
+                                          "miss":  30,
                                           "recentHits":  1,
                                           "recent120Hits":  2,
                                           "recent240Hits":  2,
-                                          "score":  13.9
+                                          "score":  13.7
                                       },
                                       {
                                           "combo":  [
@@ -349,24 +369,10 @@
                                                     ],
                                           "key":  "40-46-47",
                                           "hits":  2,
-                                          "miss":  0,
+                                          "miss":  1,
                                           "recentHits":  1,
                                           "recent120Hits":  2,
                                           "recent240Hits":  2,
-                                          "score":  16.3
-                                      },
-                                      {
-                                          "combo":  [
-                                                        "11",
-                                                        "20",
-                                                        "39"
-                                                    ],
-                                          "key":  "11-20-39",
-                                          "hits":  3,
-                                          "miss":  23,
-                                          "recentHits":  1,
-                                          "recent120Hits":  2,
-                                          "recent240Hits":  3,
                                           "score":  15.9
                                       },
                                       {
@@ -377,21 +383,35 @@
                                                     ],
                                           "key":  "10-16-46",
                                           "hits":  3,
-                                          "miss":  39,
+                                          "miss":  40,
                                           "recentHits":  1,
                                           "recent120Hits":  2,
                                           "recent240Hits":  3,
-                                          "score":  14.7
+                                          "score":  14.6
+                                      },
+                                      {
+                                          "combo":  [
+                                                        "11",
+                                                        "19",
+                                                        "30"
+                                                    ],
+                                          "key":  "11-19-30",
+                                          "hits":  2,
+                                          "miss":  10,
+                                          "recentHits":  1,
+                                          "recent120Hits":  2,
+                                          "recent240Hits":  2,
+                                          "score":  15.3
                                       }
                                   ],
                          "portfolio":  {
-                                           "currentMiss":  0,
+                                           "currentMiss":  1,
                                            "maxMiss":  19,
-                                           "hitCount":  22,
+                                           "hitCount":  21,
                                            "allCoverage":  1,
                                            "coverage60":  23.3,
                                            "coverage120":  16.7,
-                                           "coverage240":  9.2
+                                           "coverage240":  8.8
                                        },
                          "backtest":  {
                                           "tested":  120,
@@ -402,7 +422,7 @@
                                       },
                          "verifiedCandidates":  18424,
                          "method":  "exhaustive-49c3-portfolio",
-                         "createdAt":  "2026-06-04 21:08:04",
+                         "createdAt":  "2026-06-05 19:26:00",
                          "savedBy":  "fetch"
                      },
                      {
@@ -620,6 +640,229 @@
                                           "tested":  120,
                                           "hits":  24,
                                           "hitRate":  20,
+                                          "window":  120,
+                                          "mode":  "current-portfolio-window"
+                                      },
+                         "verifiedCandidates":  18424,
+                         "method":  "exhaustive-49c3-portfolio",
+                         "createdAt":  "2026-06-05 19:26:00",
+                         "savedBy":  "fetch"
+                     },
+                     {
+                         "id":  "am-2026-156-sanzhong",
+                         "source":  "am",
+                         "sourceName":  "澳门",
+                         "year":  2025,
+                         "displayYear":  "2026",
+                         "issue":  156,
+                         "targetDate":  "2026-06-05",
+                         "combos":  [
+                                        [
+                                            "34",
+                                            "42",
+                                            "46"
+                                        ],
+                                        [
+                                            "21",
+                                            "25",
+                                            "40"
+                                        ],
+                                        [
+                                            "36",
+                                            "41",
+                                            "45"
+                                        ],
+                                        [
+                                            "11",
+                                            "19",
+                                            "44"
+                                        ],
+                                        [
+                                            "14",
+                                            "15",
+                                            "24"
+                                        ],
+                                        [
+                                            "20",
+                                            "27",
+                                            "41"
+                                        ],
+                                        [
+                                            "01",
+                                            "09",
+                                            "15"
+                                        ],
+                                        [
+                                            "40",
+                                            "46",
+                                            "47"
+                                        ],
+                                        [
+                                            "11",
+                                            "20",
+                                            "39"
+                                        ],
+                                        [
+                                            "10",
+                                            "16",
+                                            "46"
+                                        ]
+                                    ],
+                         "rows":  [
+                                      {
+                                          "combo":  [
+                                                        "34",
+                                                        "42",
+                                                        "46"
+                                                    ],
+                                          "key":  "34-42-46",
+                                          "hits":  2,
+                                          "miss":  1,
+                                          "recentHits":  2,
+                                          "recent120Hits":  2,
+                                          "recent240Hits":  2,
+                                          "score":  22.1
+                                      },
+                                      {
+                                          "combo":  [
+                                                        "21",
+                                                        "25",
+                                                        "40"
+                                                    ],
+                                          "key":  "21-25-40",
+                                          "hits":  2,
+                                          "miss":  24,
+                                          "recentHits":  2,
+                                          "recent120Hits":  2,
+                                          "recent240Hits":  2,
+                                          "score":  20.4
+                                      },
+                                      {
+                                          "combo":  [
+                                                        "36",
+                                                        "41",
+                                                        "45"
+                                                    ],
+                                          "key":  "36-41-45",
+                                          "hits":  2,
+                                          "miss":  16,
+                                          "recentHits":  2,
+                                          "recent120Hits":  2,
+                                          "recent240Hits":  2,
+                                          "score":  20.9
+                                      },
+                                      {
+                                          "combo":  [
+                                                        "11",
+                                                        "19",
+                                                        "44"
+                                                    ],
+                                          "key":  "11-19-44",
+                                          "hits":  2,
+                                          "miss":  5,
+                                          "recentHits":  2,
+                                          "recent120Hits":  2,
+                                          "recent240Hits":  2,
+                                          "score":  21.6
+                                      },
+                                      {
+                                          "combo":  [
+                                                        "14",
+                                                        "15",
+                                                        "24"
+                                                    ],
+                                          "key":  "14-15-24",
+                                          "hits":  2,
+                                          "miss":  19,
+                                          "recentHits":  1,
+                                          "recent120Hits":  2,
+                                          "recent240Hits":  2,
+                                          "score":  14.9
+                                      },
+                                      {
+                                          "combo":  [
+                                                        "20",
+                                                        "27",
+                                                        "41"
+                                                    ],
+                                          "key":  "20-27-41",
+                                          "hits":  2,
+                                          "miss":  4,
+                                          "recentHits":  1,
+                                          "recent120Hits":  2,
+                                          "recent240Hits":  2,
+                                          "score":  15.6
+                                      },
+                                      {
+                                          "combo":  [
+                                                        "01",
+                                                        "09",
+                                                        "15"
+                                                    ],
+                                          "key":  "01-09-15",
+                                          "hits":  2,
+                                          "miss":  29,
+                                          "recentHits":  1,
+                                          "recent120Hits":  2,
+                                          "recent240Hits":  2,
+                                          "score":  13.9
+                                      },
+                                      {
+                                          "combo":  [
+                                                        "40",
+                                                        "46",
+                                                        "47"
+                                                    ],
+                                          "key":  "40-46-47",
+                                          "hits":  2,
+                                          "miss":  0,
+                                          "recentHits":  1,
+                                          "recent120Hits":  2,
+                                          "recent240Hits":  2,
+                                          "score":  16.3
+                                      },
+                                      {
+                                          "combo":  [
+                                                        "11",
+                                                        "20",
+                                                        "39"
+                                                    ],
+                                          "key":  "11-20-39",
+                                          "hits":  3,
+                                          "miss":  23,
+                                          "recentHits":  1,
+                                          "recent120Hits":  2,
+                                          "recent240Hits":  3,
+                                          "score":  15.9
+                                      },
+                                      {
+                                          "combo":  [
+                                                        "10",
+                                                        "16",
+                                                        "46"
+                                                    ],
+                                          "key":  "10-16-46",
+                                          "hits":  3,
+                                          "miss":  39,
+                                          "recentHits":  1,
+                                          "recent120Hits":  2,
+                                          "recent240Hits":  3,
+                                          "score":  14.7
+                                      }
+                                  ],
+                         "portfolio":  {
+                                           "currentMiss":  0,
+                                           "maxMiss":  19,
+                                           "hitCount":  22,
+                                           "allCoverage":  1,
+                                           "coverage60":  23.3,
+                                           "coverage120":  16.7,
+                                           "coverage240":  9.2
+                                       },
+                         "backtest":  {
+                                          "tested":  120,
+                                          "hits":  20,
+                                          "hitRate":  16.7,
                                           "window":  120,
                                           "mode":  "current-portfolio-window"
                                       },
