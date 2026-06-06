@@ -43,12 +43,9 @@ New-Item -ItemType Directory -Path (Join-Path $sourceStaticDir 'css') -Force | O
 try {
     & $scriptPath -SourceUrl $sourceHtml -OutputDir $outDir -BaseUrl $sourceHtml -SkipSnapshot | Out-Null
 
-    $index = Join-Path $outDir 'index.html'
+    $index = Join-Path $outDir 'kjjl.html'
     if (-not (Test-Path -LiteralPath $index)) {
-        throw 'index.html was not created'
-    }
-    if (-not (Test-Path -LiteralPath (Join-Path $outDir 'kjjl.html'))) {
-        throw 'kjjl.html records entry was not created'
+        throw 'kjjl.html was not created'
     }
 
     $html = [IO.File]::ReadAllText($index, [Text.Encoding]::UTF8)

@@ -1,25 +1,24 @@
 $ErrorActionPreference = 'Stop'
 
 $root = Split-Path -Parent $MyInvocation.MyCommand.Path
-$workflowPath = Join-Path $root '.github/workflows/fetch-data.yml'
+$workflowPath = Join-Path $root '.github/workflows/daily-fetch.yml'
+$manualWorkflowPath = Join-Path $root '.github/workflows/manual-fetch.yml'
 $pagesWorkflowPath = Join-Path $root '.github/workflows/static.yml'
 $installTaskPath = Join-Path $root 'install-task.ps1'
 $wrapperPath = Join-Path $root 'run-hidden.vbs'
 $runNowPath = Join-Path $root 'run-now.ps1'
 
 $workflow = [IO.File]::ReadAllText($workflowPath, [Text.Encoding]::UTF8)
+$manualWorkflow = [IO.File]::ReadAllText($manualWorkflowPath, [Text.Encoding]::UTF8)
 $pagesWorkflow = [IO.File]::ReadAllText($pagesWorkflowPath, [Text.Encoding]::UTF8)
-if ($workflow -notmatch '21:45 / 21:55 / 22:05 Beijing time') {
+if ($workflow -notmatch '21:45, 21:55, 22:10') {
     throw 'workflow comment does not document the Beijing fallback schedules'
 }
-if ($workflow -notmatch 'cron:\s*"45 13 \* \* \*"') {
-    throw 'workflow cron is not 13:45 UTC / 21:45 Beijing time'
+if ($workflow -notmatch 'cron:\s*"45,55 13 \* \* \*"') {
+    throw 'workflow cron does not include 13:45 and 13:55 UTC / 21:45 and 21:55 Beijing time'
 }
-if ($workflow -notmatch 'cron:\s*"55 13 \* \* \*"') {
-    throw 'workflow cron is not 13:55 UTC / 21:55 Beijing time'
-}
-if ($workflow -notmatch 'cron:\s*"5 14 \* \* \*"') {
-    throw 'workflow cron is not 14:05 UTC / 22:05 Beijing time'
+if ($workflow -notmatch 'cron:\s*"10 14 \* \* \*"') {
+    throw 'workflow cron is not 14:10 UTC / 22:10 Beijing time'
 }
 
 $installTask = [IO.File]::ReadAllText($installTaskPath, [Text.Encoding]::UTF8)
@@ -61,14 +60,20 @@ if ($workflow -notmatch 'concurrency:') {
 if ($workflow -notmatch 'git rebase origin/main') {
     throw 'fetch workflow does not rebase before pushing generated data'
 }
-if ($workflow -notmatch 'kjjl\.html') {
-    throw 'fetch workflow does not commit kjjl.html'
+if ($workflow -notmatch 'fetch-all\.ps1') {
+    throw 'daily fetch workflow does not run fetch-all.ps1'
+}
+if ($manualWorkflow -notmatch 'fetch-all\.ps1') {
+    throw 'manual fetch workflow does not run fetch-all.ps1'
+}
+if ($workflow -notmatch 'VERCEL_DEPLOY_HOOK_URL' -or $manualWorkflow -notmatch 'VERCEL_DEPLOY_HOOK_URL') {
+    throw 'fetch workflows do not trigger the configured Vercel deploy hook'
 }
 if ($pagesWorkflow -notmatch 'workflow_run:') {
     throw 'Pages workflow does not run after fetch workflow completion'
 }
-if ($pagesWorkflow -notmatch 'workflows:\s*\["Fetch lottery data"\]') {
-    throw 'Pages workflow does not listen for the fetch workflow'
+if ($pagesWorkflow -notmatch 'workflows:\s*\["Daily Fetch",\s*"Manual Fetch"\]') {
+    throw 'Pages workflow does not listen for the fetch workflows'
 }
 if ($pagesWorkflow -notmatch 'types:\s*\[completed\]') {
     throw 'Pages workflow does not listen for completed fetch workflow runs'

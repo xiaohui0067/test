@@ -1,0 +1,99 @@
+name: Manual Fetch
+
+on:
+  workflow_dispatch:
+    inputs:
+      am_source_url:
+        description: "Macau collection URL"
+        required: false
+        default: "https://2025kj.zkclhb.com:2025/am.html"
+        type: string
+      am_base_url:
+        description: "Macau base URL for rewriting assets and links"
+        required: false
+        default: "https://2025kj.zkclhb.com:2025/am.html"
+        type: string
+      hk_source_url:
+        description: "Hong Kong collection URL"
+        required: false
+        default: "https://2025kj.zkclhb.com:2025/hk.html"
+        type: string
+      hk_base_url:
+        description: "Hong Kong base URL for rewriting assets and links"
+        required: false
+        default: "https://2025kj.zkclhb.com:2025/hk.html"
+        type: string
+
+permissions:
+  contents: write
+
+concurrency:
+  group: data-fetch
+  cancel-in-progress: false
+
+jobs:
+  fetch:
+    runs-on: windows-2025
+    timeout-minutes: 15
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          persist-credentials: true
+
+      - name: Configure Git
+        shell: pwsh
+        run: |
+          git config --global --add safe.directory "$env:GITHUB_WORKSPACE"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+      - name: Run manual collector
+        shell: pwsh
+        run: |
+          $amSourceUrl = '${{ inputs.am_source_url }}'
+          $amBaseUrl = '${{ inputs.am_base_url }}'
+          $hkSourceUrl = '${{ inputs.hk_source_url }}'
+          $hkBaseUrl = '${{ inputs.hk_base_url }}'
+          powershell -NoProfile -ExecutionPolicy Bypass -File .\fetch-all.ps1 -AmSourceUrl $amSourceUrl -AmBaseUrl $amBaseUrl -HkSourceUrl $hkSourceUrl -HkBaseUrl $hkBaseUrl -SkipSnapshot
+
+      - name: Commit generated data
+        id: commit
+        shell: pwsh
+        run: |
+          git add .
+          git diff --cached --quiet
+          if ($LASTEXITCODE -eq 0) {
+            Write-Host "No generated changes to commit."
+            "has_changes=false" >> $env:GITHUB_OUTPUT
+            exit 0
+          }
+          $timestamp = Get-Date -Format "yyyy-MM-dd HH:mm:ss"
+          git commit -m "manual fetch $timestamp"
+          "has_changes=true" >> $env:GITHUB_OUTPUT
+
+      - name: Push generated data
+        if: steps.commit.outputs.has_changes == 'true'
+        shell: pwsh
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          git remote set-url origin "https://x-access-token:$env:GH_TOKEN@github.com/${{ github.repository }}.git"
+          git fetch origin main
+          git rebase origin/main
+          git push origin HEAD:main
+
+      - name: Trigger Vercel deployment
+        if: steps.commit.outputs.has_changes == 'true'
+        shell: pwsh
+        env:
+          VERCEL_DEPLOY_HOOK_URL: ${{ secrets.VERCEL_DEPLOY_HOOK_URL }}
+        run: |
+          if ([string]::IsNullOrWhiteSpace($env:VERCEL_DEPLOY_HOOK_URL)) {
+            Write-Host "VERCEL_DEPLOY_HOOK_URL is not configured; skipping Vercel deploy hook."
+            exit 0
+          }
+          Invoke-RestMethod -Method Post -Uri $env:VERCEL_DEPLOY_HOOK_URL | Out-Null
+          Write-Host "Triggered Vercel deployment."

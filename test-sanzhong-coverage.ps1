@@ -82,12 +82,12 @@ try {
         throw "expected 10 combos, got $(@($am.combos).Count)"
     }
 
-    $dashboard = [IO.File]::ReadAllText((Join-Path $outDir 'dashboard.html'), [Text.Encoding]::UTF8)
-    if (-not $dashboard.Contains('sourcePrediction?.backtest')) {
-        throw 'dashboard should render saved rolling backtest metrics'
+    $dashboard = [IO.File]::ReadAllText((Join-Path $outDir 'index.html'), [Text.Encoding]::UTF8)
+    if (-not $dashboard.Contains('data-tab="threeWindow5"')) {
+        throw 'dashboard should render the three-hit five-window tab'
     }
-    if (-not $dashboard.Contains('exhaustive-49c3-portfolio')) {
-        throw 'dashboard should identify exhaustive portfolio method'
+    if (-not $dashboard.Contains('function buildThreeHitCombos(records)')) {
+        throw 'dashboard should include three-hit combo coverage analysis'
     }
 
     Write-Host 'PASS'

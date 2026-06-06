@@ -8,7 +8,7 @@ on:
 
   # Runs after scheduled/manual data collection commits fresh pages.
   workflow_run:
-    workflows: ["Fetch lottery data"]
+    workflows: ["Daily Fetch", "Manual Fetch"]
     types: [completed]
 
   # Allows you to run this workflow manually from the Actions tab

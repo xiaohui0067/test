@@ -1,8 +1,10 @@
 param(
     [string]$SourceUrl = 'https://2025kj.zkclhb.com:2025/am.html',
-    [string]$OutputDir = 'C:\codex\test\am',
+    [string]$OutputDir = $PSScriptRoot,
     [string]$BaseUrl = 'https://2025kj.zkclhb.com:2025/am.html',
-    [switch]$SkipSnapshot
+    [string]$RootPageName = 'am.html',
+    [switch]$SkipSnapshot,
+    [switch]$SkipBuild
 )
 
 $ErrorActionPreference = 'Stop'
@@ -42,109 +44,6 @@ function New-HttpClient {
     return $client
 }
 
-function Get-HttpRequestHeaders {
-    param(
-        [string]$Accept = 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8'
-    )
-
-    return @{
-        'User-Agent'      = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36'
-        'Accept'          = $Accept
-        'Accept-Language' = 'zh-CN,zh;q=0.9,en;q=0.8'
-        'Cache-Control'   = 'no-cache'
-        'Pragma'          = 'no-cache'
-    }
-}
-
-function Test-IsTlsFailure {
-    param([Exception]$Exception)
-
-    $current = $Exception
-    while ($null -ne $current) {
-        if ($current.Message -match '(?i)SSL|TLS|Schannel|security package|credentials') {
-            return $true
-        }
-        $current = $current.InnerException
-    }
-    return $false
-}
-
-function Get-RemoteBytesWithPython {
-    param(
-        [string]$Url,
-        [hashtable]$Headers
-    )
-
-    $python = Get-Command python -ErrorAction SilentlyContinue
-    if ($null -eq $python) {
-        throw 'Python is required for the HTTPS fallback but was not found on PATH.'
-    }
-
-    $tempPath = [IO.Path]::GetTempFileName()
-    $tempScriptPath = [IO.Path]::ChangeExtension([IO.Path]::GetTempFileName(), '.py')
-    $tempHeadersPath = [IO.Path]::GetTempFileName()
-    try {
-        $headerJson = $Headers | ConvertTo-Json -Compress
-        $script = @'
-import sys
-import json
-import urllib.request
-
-url, headers_path, out_path = sys.argv[1], sys.argv[2], sys.argv[3]
-with open(headers_path, "r", encoding="utf-8") as handle:
-    headers = json.load(handle)
-
-request = urllib.request.Request(url, headers=headers)
-with urllib.request.urlopen(request, timeout=30) as response:
-    data = response.read()
-with open(out_path, "wb") as handle:
-    handle.write(data)
-'@
-        [IO.File]::WriteAllText($tempScriptPath, $script, $Utf8NoBom)
-        [IO.File]::WriteAllText($tempHeadersPath, $headerJson, $Utf8NoBom)
-
-        $output = & $python.Source $tempScriptPath $Url $tempHeadersPath $tempPath 2>&1
-        if ($LASTEXITCODE -ne 0) {
-            throw "Python download fallback failed with exit code $LASTEXITCODE. $output"
-        }
-        return [IO.File]::ReadAllBytes($tempPath)
-    }
-    finally {
-        foreach ($path in @($tempPath, $tempScriptPath, $tempHeadersPath)) {
-            if (Test-Path -LiteralPath $path) {
-                Remove-Item -LiteralPath $path -Force
-            }
-        }
-    }
-}
-
-function Get-RemoteBytes {
-    param(
-        [string]$Url,
-        [hashtable]$Headers = (Get-HttpRequestHeaders)
-    )
-
-    if ($env:FETCH_AM_FORCE_DOTNET_DOWNLOAD_FAILURE -eq '1') {
-        Write-Log "Python download fallback: $Url"
-        return Get-RemoteBytesWithPython -Url $Url -Headers $Headers
-    }
-
-    $client = New-HttpClient
-    try {
-        return $client.GetByteArrayAsync($Url).GetAwaiter().GetResult()
-    }
-    catch {
-        if (-not (Test-IsTlsFailure -Exception $_.Exception)) {
-            throw
-        }
-        Write-Log "Python download fallback: $Url"
-        return Get-RemoteBytesWithPython -Url $Url -Headers $Headers
-    }
-    finally {
-        $client.Dispose()
-    }
-}
-
 function Get-SourceContent {
     param([string]$Url)
 
@@ -156,8 +55,14 @@ function Get-SourceContent {
         return [IO.File]::ReadAllText($uri.LocalPath, [Text.Encoding]::UTF8)
     }
 
-    $bytes = Get-RemoteBytes -Url $Url -Headers (Get-HttpRequestHeaders)
-    return [Text.Encoding]::UTF8.GetString($bytes)
+    $client = New-HttpClient
+    try {
+        $bytes = $client.GetByteArrayAsync($Url).GetAwaiter().GetResult()
+        return [Text.Encoding]::UTF8.GetString($bytes)
+    }
+    finally {
+        $client.Dispose()
+    }
 }
 
 function Get-LocalNoticeText {
@@ -179,8 +84,12 @@ function Save-RemoteAsset {
         return
     }
 
-    $bytes = Get-RemoteBytes -Url $AssetUri.AbsoluteUri -Headers (Get-HttpRequestHeaders -Accept '*/*')
-    [IO.File]::WriteAllBytes($LocalPath, $bytes)
+    $headers = @{
+        'User-Agent'      = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36'
+        'Accept'          = '*/*'
+        'Accept-Language' = 'zh-CN,zh;q=0.9,en;q=0.8'
+    }
+    Invoke-WebRequest -Uri $AssetUri.AbsoluteUri -Headers $headers -OutFile $LocalPath -UseBasicParsing -TimeoutSec 30
 }
 
 function Convert-ToLocalViewHtml {
@@ -229,9 +138,6 @@ function Convert-ToLocalViewHtml {
             $localDir = Split-Path -Parent $localPath
             if (-not (Test-Path -LiteralPath $localDir)) {
                 New-Item -ItemType Directory -Path $localDir -Force | Out-Null
-            }
-            if (Test-Path -LiteralPath $localPath) {
-                return $match.Groups[1].Value + $RelativePrefix + $localRelative + $match.Groups[3].Value
             }
 
             try {
@@ -336,7 +242,7 @@ function Get-SiteHtmlPages {
     $pages = [ordered]@{}
     $queue = New-Object 'System.Collections.Generic.Queue[object]'
 
-    $rootPageName = 'am.html'
+    $rootPageName = $RootPageName
     $rootKey = $rootUri.AbsoluteUri
     $pages[$rootKey] = [pscustomobject]@{
         Uri = $rootUri
@@ -416,10 +322,8 @@ try {
 
     $localHtml = Convert-ToLocalViewHtml -Html $html -BaseUrl $baseUrlForRewrite -OutputDir $OutputDir -PageMap $pageMap
 
-    $indexPath = Join-Path $OutputDir 'index.html'
-    [IO.File]::WriteAllText($indexPath, $localHtml, $Utf8NoBom)
-    $recordsEntryPath = Join-Path $OutputDir 'kjjl.html'
-    [IO.File]::WriteAllText($recordsEntryPath, $localHtml, $Utf8NoBom)
+    $recordsPagePath = Join-Path $OutputDir 'kjjl.html'
+    [IO.File]::WriteAllText($recordsPagePath, $localHtml, $Utf8NoBom)
 
     $rootPage = $allPages[([Uri]$baseUrlForRewrite).AbsoluteUri]
     if ($null -ne $rootPage) {
@@ -454,17 +358,17 @@ try {
             New-Item -ItemType Directory -Path $snapshotDir -Force | Out-Null
         }
         $snapshotName = 'am-{0}.html' -f (Get-Date -Format 'yyyyMMdd-HHmmss')
-        Copy-Item -LiteralPath $indexPath -Destination (Join-Path $snapshotDir $snapshotName) -Force
+        Copy-Item -LiteralPath $recordsPagePath -Destination (Join-Path $snapshotDir $snapshotName) -Force
     }
 
     $buildDataScript = Join-Path $OutputDir 'build-data.ps1'
-    if (Test-Path -LiteralPath $buildDataScript) {
+    if ((-not $SkipBuild) -and (Test-Path -LiteralPath $buildDataScript)) {
         & $buildDataScript -RootDir $OutputDir | Out-Null
         Write-Log "Dashboard data refreshed"
     }
 
-    Write-Log "Fetch success: $indexPath"
-    Write-Host "Saved: $indexPath"
+    Write-Log "Fetch success: $recordsPagePath"
+    Write-Host "Saved: $recordsPagePath"
 }
 catch {
     Write-Log $_.Exception.Message 'ERROR'

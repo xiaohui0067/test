@@ -213,46 +213,17 @@ $existingGame = [pscustomobject]@{
 }
 [IO.File]::WriteAllText((Join-Path $dataDir 'game-predictions.json'), ($existingGame | ConvertTo-Json -Depth 8), $utf8NoBom)
 
-$existingForecast = [pscustomobject]@{
-    items = @(
-        [pscustomobject]@{
-            id = 'test-forecast-three-hit'
-            source = 'hk'
-            sourceName = 'hk'
-            game = 'three-hit-three'
-            gameName = 'three-hit-three'
-            strategyId = 'vote-pool-v1'
-            strategyName = 'vote-pool-v1'
-            year = 2025
-            displayYear = '2026'
-            issue = 55
-            targetDate = '2026-05-25'
-            numbers = @(@('12', '23', '37'), @('01', '02', '03'))
-            createdAt = '2026-05-24 21:45:00'
-            status = 'pending'
-        },
-        [pscustomobject]@{
-            id = 'test-forecast-special'
-            source = 'hk'
-            sourceName = 'hk'
-            game = 'special-number'
-            gameName = 'special-number'
-            strategyId = 'vote-pool-v1'
-            strategyName = 'vote-pool-v1'
-            year = 2025
-            displayYear = '2026'
-            issue = 55
-            targetDate = '2026-05-25'
-            numbers = @('03', '18', '22', '27', '31', '44')
-            createdAt = '2026-05-24 21:45:00'
-            status = 'pending'
-        }
-    )
-}
-[IO.File]::WriteAllText((Join-Path $dataDir 'prediction-observations.json'), ($existingForecast | ConvertTo-Json -Depth 8), $utf8NoBom)
-
 try {
     & $scriptPath -RootDir $outDir | Out-Null
+    $firstWindowStatePath = Join-Path $dataDir 'window5-state.json'
+    $firstWindowState = Get-Content -LiteralPath $firstWindowStatePath -Raw -Encoding UTF8 | ConvertFrom-Json
+    $firstAmWindowState = @($firstWindowState.items | Where-Object { $_.source -eq 'am' } | Select-Object -First 1)[0]
+    & $scriptPath -RootDir $outDir | Out-Null
+    $secondWindowState = Get-Content -LiteralPath $firstWindowStatePath -Raw -Encoding UTF8 | ConvertFrom-Json
+    $secondAmWindowState = @($secondWindowState.items | Where-Object { $_.source -eq 'am' } | Select-Object -First 1)[0]
+    if ($firstAmWindowState.adjustmentStatus -eq 'changed' -and @($firstAmWindowState.yearPoolHistory).Count -gt 0 -and [int]$firstAmWindowState.yearPoolHistory[0].issue -eq 134 -and $secondAmWindowState.adjustmentStatus -ne 'changed') {
+        throw 'window5 current-year pool should keep latest-issue changed status across repeated builds'
+    }
 
     $jsonPath = Join-Path $outDir 'data/records.json'
     if (-not (Test-Path -LiteralPath $jsonPath)) {
@@ -282,53 +253,33 @@ try {
     if ($data.summary.totalRecords -ne 4) {
         throw 'summary total mismatch'
     }
-    if (-not (Test-Path -LiteralPath (Join-Path $outDir 'dashboard.html'))) {
-        throw 'dashboard.html was not created'
-    }
-    if (Test-Path -LiteralPath (Join-Path $outDir 'pattern-analysis.html')) {
-        throw 'pattern analysis should stay inside dashboard instead of creating a standalone html file'
-    }
-    $dashboard = [IO.File]::ReadAllText((Join-Path $outDir 'dashboard.html'), [Text.Encoding]::UTF8)
-    $indexHtml = [IO.File]::ReadAllText((Join-Path $outDir 'index.html'), [Text.Encoding]::UTF8)
-    if (-not $indexHtml.Contains('data-tab="overview"') -or -not $indexHtml.Contains('id="manual-collect"')) {
-        throw 'index.html should be the dashboard entry for root directory access'
-    }
-    if ($indexHtml -ne $dashboard) {
-        throw 'index.html should match dashboard.html'
+    if (-not (Test-Path -LiteralPath (Join-Path $outDir 'index.html'))) {
+        throw 'index.html dashboard was not created'
     }
     if (-not (Test-Path -LiteralPath (Join-Path $outDir 'kjjl.html'))) {
-        throw 'kjjl.html lottery records page should be preserved'
+        throw 'kjjl.html lottery records page was not created'
     }
+    if (Test-Path -LiteralPath (Join-Path $outDir 'dashboard.html')) {
+        throw 'dashboard.html should not be generated after renaming dashboard to index.html'
+    }
+    $dashboard = [IO.File]::ReadAllText((Join-Path $outDir 'index.html'), [Text.Encoding]::UTF8)
     if (-not $dashboard.Contains('href="kjjl.html"')) {
         throw 'dashboard should link back to kjjl.html'
     }
-    if (-not $dashboard.Contains('data-tab="overview"') -or -not $dashboard.Contains('data-tab="games"') -or -not $dashboard.Contains('data-tab="daily"') -or -not $dashboard.Contains('data-tab="forecast"') -or -not $dashboard.Contains('data-tab="window5"') -or -not $dashboard.Contains('data-tab="threeWindow5"') -or -not $dashboard.Contains('data-tab="patternWatch"') -or -not $dashboard.Contains('data-tab="patternAnalysis"')) {
-        throw 'dashboard should expose overview, games, forecast, 5-window, three-hit 5-window, coworker pattern watch, new pattern analysis, and daily tabs'
+    $buildScript = [IO.File]::ReadAllText((Join-Path $PSScriptRoot 'build-data.ps1'), [Text.Encoding]::UTF8)
+    if ($buildScript.Contains('C:\codex\test\am')) {
+        throw 'build-data.ps1 should not use a machine-specific default path'
     }
-    if (-not $dashboard.Contains('id="manual-collect"')) {
-        throw 'dashboard should render manual collect button'
+    if (-not $dashboard.Contains('data-tab="betting"') -or -not $dashboard.Contains('data-tab="overview"') -or -not $dashboard.Contains('data-tab="games"') -or -not $dashboard.Contains('data-tab="daily"') -or -not $dashboard.Contains('data-tab="window5"') -or -not $dashboard.Contains('data-tab="threeWindow5"') -or -not $dashboard.Contains('data-tab="patternWatch"') -or -not $dashboard.Contains('data-tab="manualFetch"')) {
+        throw 'dashboard should expose betting, overview, review, 5-window, three-hit 5-window, advanced analysis, manual fetch, and daily tabs'
     }
-    if (-not $dashboard.Contains("fetch('/api/collect'")) {
-        throw 'dashboard should call collect API'
+    if (-not $dashboard.Contains('function showLoading') -or -not $dashboard.Contains('setTimeout(async () =>') -or -not $dashboard.Contains('showLoading(tab)')) {
+        throw 'dashboard tab switches should show loading before expensive renders'
     }
-    if (-not $dashboard.Contains("fetch('/api/data'")) {
-        throw 'dashboard should load online data API when hosted'
+    if ($dashboard.Contains('data-tab="trend"') -or $dashboard.Contains('data-tab="picker"') -or $dashboard.Contains('data-tab="sandbox"') -or $dashboard.Contains('data-tab="forecast"')) {
+        throw 'dashboard should not expose trend, picker, sandbox, or forecast modules'
     }
-    $collectingText = '\u91c7\u96c6\u4e2d...'
-    $collectDoneText = '\u91c7\u96c6\u5b8c\u6210\uff1a'
-    $collectFailedText = '\u91c7\u96c6\u5931\u8d25\uff1a'
-    if (-not $dashboard.Contains($collectingText) -or -not $dashboard.Contains($collectDoneText) -or -not $dashboard.Contains($collectFailedText)) {
-        throw 'manual collect status should use readable Chinese text'
-    }
-    $badSingleQuoteEntity = 'status.textContent = ' + [char]39 + '&#'
-    $badTemplateEntity = 'status.textContent = ' + [char]96 + '&#'
-    if ($dashboard.Contains($badSingleQuoteEntity) -or $dashboard.Contains($badTemplateEntity)) {
-        throw 'manual collect status should not display HTML entities as text'
-    }
-    if ($dashboard.Contains('data-tab="trend"') -or $dashboard.Contains('data-tab="picker"') -or $dashboard.Contains('data-tab="sandbox"')) {
-        throw 'dashboard should not expose trend, picker, or sandbox modules'
-    }
-    if ($dashboard.Contains('function renderTrend') -or $dashboard.Contains('function renderPicker') -or $dashboard.Contains('function renderGame()') -or $dashboard.Contains('function renderSandbox()') -or $dashboard.Contains('function sandboxSection')) {
+    if ($dashboard.Contains('function renderTrend') -or $dashboard.Contains('function renderPicker') -or $dashboard.Contains('function renderGame()') -or $dashboard.Contains('function renderSandbox()') -or $dashboard.Contains('function sandboxSection') -or $dashboard.Contains('function renderForecast()') -or $dashboard.Contains('function forecastSection')) {
         throw 'removed modules should not be emitted'
     }
     if ($dashboard.Contains('trend-source') -or $dashboard.Contains('pick-source') -or $dashboard.Contains('special-source')) {
@@ -349,11 +300,57 @@ try {
     if ($dashboard.Contains('sanzhong-pred-save') -or $dashboard.Contains('pred-save')) {
         throw 'manual prediction save buttons should not be emitted'
     }
-    if (-not $dashboard.Contains('"predictions":')) {
-        throw 'collection-time predictions were not embedded'
+    $dashboardSummaryFile = Join-Path $outDir 'data/dashboard-summary.json'
+    $dashboardSummaryScript = Join-Path $outDir 'data/dashboard-summary.js'
+    if (-not (Test-Path -LiteralPath $dashboardSummaryFile)) {
+        throw 'dashboard-summary.json was not created'
     }
-    if (-not $dashboard.Contains('"forecasts":')) {
-        throw 'prediction observation data should be embedded'
+    if (-not (Test-Path -LiteralPath $dashboardSummaryScript)) {
+        throw 'dashboard-summary.js was not created'
+    }
+    $dashboardSummaryText = Get-Content -LiteralPath $dashboardSummaryFile -Raw
+    if (-not $dashboardSummaryText.Contains('"predictions"')) {
+        throw 'collection-time predictions were not included in dashboard summary'
+    }
+    $dashboardSummaryScriptText = Get-Content -LiteralPath $dashboardSummaryScript -Raw
+    if (-not $dashboardSummaryScriptText.Contains('window.__DASHBOARD_SUMMARY__ = ')) {
+        throw 'dashboard summary script fallback was not generated'
+    }
+    $bettingSnapshotsFile = Join-Path $outDir 'data/betting-snapshots.json'
+    $bettingSnapshotsScript = Join-Path $outDir 'data/betting-snapshots.js'
+    if (-not (Test-Path -LiteralPath $bettingSnapshotsFile)) {
+        throw 'betting-snapshots.json was not created'
+    }
+    if (-not (Test-Path -LiteralPath $bettingSnapshotsScript)) {
+        throw 'betting-snapshots.js script fallback was not generated'
+    }
+    $bettingSnapshotData = Get-Content -LiteralPath $bettingSnapshotsFile -Raw -Encoding UTF8 | ConvertFrom-Json
+    if (@($bettingSnapshotData.items).Count -lt 4) {
+        throw 'betting snapshots should persist at least one special and one three-hit recommendation per source'
+    }
+    foreach ($source in @('am', 'hk')) {
+        foreach ($game in @('special-number', 'three-hit-three')) {
+            $snapshot = @($bettingSnapshotData.items | Where-Object { $_.source -eq $source -and $_.game -eq $game } | Select-Object -First 1)
+            if ($snapshot.Count -eq 0 -or @($snapshot[0].pool).Count -eq 0 -or -not $snapshot[0].status) {
+                throw "expected persisted betting snapshot for $source $game"
+            }
+            if ($game -eq 'special-number' -and (@($snapshot[0].primaryPool).Count -ne 1 -or @($snapshot[0].guardPool).Count -ne 8)) {
+                throw "special-number betting snapshot should persist one primary number and eight guard numbers for $source"
+            }
+            if ($game -eq 'three-hit-three' -and (@($snapshot[0].primaryPool).Count -ne 3 -or @($snapshot[0].guardPool).Count -ne 5)) {
+                throw "three-hit-three betting snapshot should persist three primary numbers and five guard numbers for $source"
+            }
+        }
+    }
+    $bettingSnapshotsScriptText = Get-Content -LiteralPath $bettingSnapshotsScript -Raw
+    if (-not $bettingSnapshotsScriptText.Contains('window.__BETTING_SNAPSHOTS__ = ')) {
+        throw 'betting snapshots script fallback should expose __BETTING_SNAPSHOTS__'
+    }
+    if (-not $dashboard.Contains('__BETTING_SNAPSHOTS__') -or -not $dashboard.Contains('ensureBettingSnapshots')) {
+        throw 'dashboard should load persisted betting snapshots before rendering recommendations'
+    }
+    if ($dashboard.Contains('"forecasts":')) {
+        throw 'prediction observation data should not be embedded'
     }
     if (-not $dashboard.Contains('function displayYear(record)')) {
         throw 'dashboard should display draw year from record date'
@@ -412,22 +409,17 @@ try {
                 $_.displayYear -eq $latestTarget[0].displayYear -and
                 [int]$_.issue -eq [int]$latestTarget[0].issue
             })
-            if ($rows.Count -ne 13) {
-                throw "expected 13 recommendation rows for $source $game"
+            if ($rows.Count -ne 12) {
+                throw "expected 12 recommendation rows for $source $game"
             }
             if (@($rows | Where-Object { $_.algorithmId -eq 'ensemble' }).Count -ne 1) {
                 throw "expected ensemble recommendation for $source $game"
             }
-            if (@($rows | Where-Object { $_.algorithmId -ne 'ensemble' -and $_.algorithmId -ne 'mirofish-sandbox' }).Count -ne 11) {
+            if (@($rows | Where-Object { $_.algorithmId -ne 'ensemble' }).Count -ne 11) {
                 throw "expected eleven algorithm recommendations for $source $game"
             }
-            $miroFishRows = @($rows | Where-Object { $_.algorithmId -eq 'mirofish-sandbox' })
-            if ($miroFishRows.Count -ne 1) {
-                throw "expected one MiroFish sandbox recommendation for $source $game"
-            }
-            $expectedMiroFishCount = if ($game -eq 'three-hit-three') { 3 } else { 1 }
-            if (@($miroFishRows[0].numbers).Count -ne $expectedMiroFishCount) {
-                throw "unexpected MiroFish recommendation number count for $source $game"
+            if (@($rows | Where-Object { $_.algorithmId -eq 'mirofish-sandbox' }).Count -ne 0) {
+                throw "MiroFish sandbox recommendations should not be generated for $source $game"
             }
         }
     }
@@ -455,126 +447,11 @@ try {
     if ($futureThree.status -ne 'pending') {
         throw 'future dated am 145 prediction should remain pending until exact target date is drawn'
     }
-    $forecastFile = Join-Path $outDir 'data/prediction-observations.json'
-    if (-not (Test-Path -LiteralPath $forecastFile)) {
-        throw 'prediction-observations.json was not created'
+    if (Test-Path -LiteralPath (Join-Path $outDir 'data/prediction-observations.json')) {
+        throw 'prediction-observations.json should not be generated after forecast removal'
     }
-    $forecastData = Get-Content -LiteralPath $forecastFile -Raw -Encoding UTF8 | ConvertFrom-Json
-    foreach ($source in @('am', 'hk')) {
-        foreach ($game in @('three-hit-three', 'special-number')) {
-            $latestForecast = @($forecastData.items |
-                Where-Object { $_.source -eq $source -and $_.game -eq $game -and $_.id -notlike 'test-*' } |
-                Sort-Object @{ Expression = 'targetDate'; Descending = $true }, @{ Expression = 'displayYear'; Descending = $true }, @{ Expression = 'issue'; Descending = $true } |
-                Select-Object -First 1)
-            if ($latestForecast.Count -eq 0) {
-                throw "expected generated forecast for $source $game"
-            }
-            if ($game -eq 'three-hit-three' -and @($latestForecast[0].numbers).Count -ne 6) {
-                throw "three-hit-three forecast should emit six groups for $source"
-            }
-            if ($game -eq 'three-hit-three') {
-                foreach ($group in @($latestForecast[0].numbers)) {
-                    $values = if ($null -ne $group.value) { @($group.value) } else { @($group) }
-                    if (@($values).Count -ne 3) {
-                        throw "three-hit-three forecast groups should contain three numbers for $source"
-                    }
-                }
-            }
-            if ($game -eq 'special-number' -and @($latestForecast[0].numbers).Count -ne 6) {
-                throw "special-number forecast should emit six numbers for $source"
-            }
-            if ($game -eq 'special-number') {
-                $sourceRecords = @($data.records | Where-Object { $_.source -eq $source } | Sort-Object @{ Expression = 'date'; Descending = $true }, @{ Expression = 'issue'; Descending = $true })
-                $recentSpecials = @($sourceRecords | Select-Object -First 6 | ForEach-Object { ([int]$_.balls[6].numberText).ToString('00') })
-                $forecastSpecials = @($latestForecast[0].numbers | ForEach-Object { ([int]$_).ToString('00') })
-                if (($forecastSpecials -join ',') -eq ($recentSpecials -join ',')) {
-                    throw "special-number forecast should not copy the latest six special results for $source"
-                }
-            }
-            if ([string]::IsNullOrWhiteSpace([string]$latestForecast[0].selectedStrategy)) {
-                throw "forecast should record selected strategy for $source $game"
-            }
-            if (@($latestForecast[0].strategyPool).Count -lt 5) {
-                throw "forecast should evaluate a strategy pool for $source $game"
-            }
-            if ($null -eq $latestForecast[0].backtest -or [int]$latestForecast[0].backtest.tested -le 0) {
-                throw "forecast should include rolling backtest for $source $game"
-            }
-            if ($null -eq $latestForecast[0].randomBaseline -or [int]$latestForecast[0].randomBaseline.tested -le 0) {
-                throw "forecast should include random baseline for $source $game"
-            }
-            if ($null -eq $latestForecast[0].backtest.edgeVsRandom) {
-                throw "forecast should include edge versus random baseline for $source $game"
-            }
-            $expectedOdds = if ($game -eq 'three-hit-three') { 650 } else { 47 }
-            if ([int]$latestForecast[0].odds -ne $expectedOdds) {
-                throw "forecast should record configured odds for $source $game"
-            }
-            if ($null -eq $latestForecast[0].backtest.netProfit -or $null -eq $latestForecast[0].backtest.roi -or $null -eq $latestForecast[0].backtest.totalStake -or $null -eq $latestForecast[0].backtest.totalPayout) {
-                throw "forecast backtest should include stake, payout, net profit, and ROI for $source $game"
-            }
-            if ($null -eq $latestForecast[0].randomBaseline.netProfit -or $null -eq $latestForecast[0].randomBaseline.roi) {
-                throw "forecast random baseline should include net profit and ROI for $source $game"
-            }
-            if ($null -eq $latestForecast[0].backtest.roiVsRandom) {
-                throw "forecast should include ROI versus random for $source $game"
-            }
-            if ($null -eq $latestForecast[0].weekBacktest -or $null -eq $latestForecast[0].weekBacktest.netProfit -or $null -eq $latestForecast[0].weekBacktest.roi) {
-                throw "forecast should include natural-week profitability backtest for $source $game"
-            }
-            if ([string]$latestForecast[0].weekBacktest.mode -ne 'natural-week-current-picks' -or [string]::IsNullOrWhiteSpace([string]$latestForecast[0].weekBacktest.weekStart) -or [string]::IsNullOrWhiteSpace([string]$latestForecast[0].weekBacktest.weekEnd)) {
-                throw "forecast weekly gate should use natural week boundaries for $source $game"
-            }
-            if ($null -eq $latestForecast[0].walkForwardBacktest -or $null -eq $latestForecast[0].walkForwardBacktest.netProfit -or $null -eq $latestForecast[0].walkForwardBacktest.roi) {
-                throw "forecast should include walk-forward profitability backtest for $source $game"
-            }
-            if ($null -eq $latestForecast[0].weeklyProfitGate -or [string]::IsNullOrWhiteSpace([string]$latestForecast[0].recommendationStatus)) {
-                throw "forecast should include weekly profit gate and recommendation status for $source $game"
-            }
-            if ($latestForecast[0].weeklyProfitGate -and [int]$latestForecast[0].weekBacktest.netProfit -le 0) {
-                throw "weekly profit gate should only pass when natural-week net profit is positive for $source $game"
-            }
-            if ($latestForecast[0].weeklyProfitGate -and [int]$latestForecast[0].walkForwardBacktest.netProfit -le 0) {
-                throw "weekly profit gate should only pass when walk-forward net profit is positive for $source $game"
-            }
-            if (-not (@($latestForecast[0].strategyPool | ForEach-Object { $_.id }) -contains 'weekly-profit-guard')) {
-                throw "forecast should evaluate weekly-profit-guard strategy for $source $game"
-            }
-            if ($null -eq $latestForecast[0].qualityScore -or [string]::IsNullOrWhiteSpace([string]$latestForecast[0].qualityLevel)) {
-                throw "forecast should include quality score and level for $source $game"
-            }
-        }
-    }
-    $settledForecastThree = @($forecastData.items | Where-Object { $_.id -eq 'test-forecast-three-hit' })[0]
-    if ($settledForecastThree.status -ne 'settled' -or -not $settledForecastThree.hit) {
-        throw 'three-hit-three forecast should settle as hit when any observed group hits'
-    }
-    $settledForecastSpecial = @($forecastData.items | Where-Object { $_.id -eq 'test-forecast-special' })[0]
-    if ($settledForecastSpecial.status -ne 'settled' -or -not $settledForecastSpecial.hit) {
-        throw 'special-number forecast should settle as hit when any observed number hits'
-    }
-    foreach ($game in @('three-hit-three', 'special-number')) {
-        $settled = @($forecastData.items | Where-Object { $_.source -eq 'hk' -and $_.game -eq $game -and $_.status -eq 'settled' -and [int]$_.actualIssue -eq 55 })
-        $nextPending = @($forecastData.items | Where-Object { $_.source -eq 'hk' -and $_.game -eq $game -and $_.status -eq 'pending' -and [int]$_.issue -gt 55 } | Select-Object -First 1)
-        if ($settled.Count -eq 0 -or $nextPending.Count -eq 0) {
-            throw "forecast should settle opened issue and generate a new pending recommendation after draw for hk $game"
-        }
-    }
-    $forecastEvalFile = Join-Path $outDir 'data/forecast-evaluation.json'
-    if (-not (Test-Path -LiteralPath $forecastEvalFile)) {
-        throw 'forecast-evaluation.json was not created'
-    }
-    $forecastEval = Get-Content -LiteralPath $forecastEvalFile -Raw -Encoding UTF8 | ConvertFrom-Json
-    if (@($forecastEval.items).Count -ne 4) {
-        throw 'forecast evaluation should summarize four source/game chains'
-    }
-    foreach ($item in @($forecastEval.items)) {
-        if ([string]::IsNullOrWhiteSpace([string]$item.selectedStrategy) -or $null -eq $item.backtest -or $null -eq $item.randomBaseline -or $null -eq $item.edgeVsRandom) {
-            throw 'forecast evaluation item should include selected strategy, backtest, random baseline, and edge'
-        }
-        if ($null -eq $item.odds -or $null -eq $item.backtest.roi -or $null -eq $item.roiVsRandom -or $null -eq $item.weekBacktest -or $null -eq $item.walkForwardBacktest -or $null -eq $item.qualityScore) {
-            throw 'forecast evaluation item should include odds, weekly profit, walk-forward, quality, and ROI metrics'
-        }
+    if (Test-Path -LiteralPath (Join-Path $outDir 'data/forecast-evaluation.json')) {
+        throw 'forecast-evaluation.json should not be generated after forecast removal'
     }
     if ($dashboard.Contains('pick-lines') -or $dashboard.Contains('pick-include') -or $dashboard.Contains('pick-exclude') -or $dashboard.Contains('pick-odd') -or $dashboard.Contains('maxAdjacentRun')) {
         throw 'picker controls should not be emitted'
@@ -587,9 +464,6 @@ try {
     }
     if (-not $dashboard.Contains('normalizeNumberGroup(nums).map')) {
         throw 'number chip renderer should use normalized number groups'
-    }
-    if (-not $dashboard.Contains('normalizeNumberGroup(group).map')) {
-        throw 'forecast copy text should use normalized number groups'
     }
     if (-not $dashboard.Contains('function recommendationSummary(rows)')) {
         throw 'dashboard should summarize duplicate algorithm recommendations'
@@ -615,8 +489,8 @@ try {
     if (-not $dashboard.Contains('function recommendationHistoryHtml(rows)')) {
         throw 'dashboard should render grouped recommendation history'
     }
-    if (-not $dashboard.Contains("const historyRows = rows.filter(row => row.algorithmId !== 'ensemble' && row.algorithmId !== 'mirofish-sandbox')")) {
-        throw 'recommendation history should exclude ensemble and MiroFish rows before grouping'
+    if (-not $dashboard.Contains("const historyRows = rows.filter(row => row.algorithmId !== 'ensemble')")) {
+        throw 'recommendation history should exclude ensemble rows before grouping'
     }
     if (-not $dashboard.Contains('<details class="history-group"')) {
         throw 'recommendation history should use collapsible groups'
@@ -633,60 +507,137 @@ try {
     if (-not $dashboard.Contains('11&#31639;&#27861;&#25972;&#20307;&#25112;&#32489;')) {
         throw 'dashboard should render aggregate stats for eleven algorithms'
     }
-    if (-not $dashboard.Contains('function renderForecast()')) {
-        throw 'dashboard should expose a dedicated forecast renderer'
-    }
     if (-not $dashboard.Contains('function renderWindow5()')) {
         throw 'dashboard should expose a five-issue window coverage renderer'
     }
-    if (-not $dashboard.Contains('data-tab="threeWindow5"')) {
-        throw 'dashboard should expose a three-hit-three five-issue window tab'
-    }
     if (-not $dashboard.Contains('function renderThreeWindow5()')) {
-        throw 'dashboard should expose a three-hit-three five-issue window renderer'
+        throw 'dashboard should expose a three-hit five-issue window renderer'
     }
     if (-not $dashboard.Contains('function renderPatternWatch()')) {
         throw 'dashboard should expose a pattern watch renderer'
     }
-    if (-not $dashboard.Contains('function renderPatternAnalysis()')) {
-        throw 'dashboard should expose the new pattern analysis renderer'
+    if (-not $dashboard.Contains('function renderManualFetch()')) {
+        throw 'dashboard should expose a manual fetch renderer'
     }
-    if (-not $dashboard.Contains('function qualityLevel(item)') -or -not $dashboard.Contains('function riskStatus(item)')) {
-        throw 'new pattern analysis should separate long-term quality from current risk'
+    if (-not $dashboard.Contains('function triggerManualFetch()')) {
+        throw 'dashboard should trigger manual fetch API'
     }
-    if (-not $dashboard.Contains('function patternRiskStats(windows)') -or -not $dashboard.Contains('previousMaxMiss')) {
-        throw 'new pattern analysis should compare current miss against previous historical max miss'
+    if (-not $dashboard.Contains('/api/manual-fetch')) {
+        throw 'manual fetch should call the Vercel API endpoint'
     }
-    if (-not $dashboard.Contains('const completed = windows.filter(item => Number(item.count || 0) >= 5)')) {
-        throw 'pattern stats should only count completed five-issue windows'
-    }
-    if (-not $dashboard.Contains('&#38271;&#26399;&#36136;&#37327;') -or -not $dashboard.Contains('&#24403;&#21069;&#29366;&#24577;')) {
-        throw 'new pattern analysis should expose long-term quality and current status columns'
-    }
-    $patternAnalysisBody = [regex]::Match($dashboard, 'function renderPatternAnalysis\(\) \{[\s\S]*?function renderDaily').Value
-    if (-not $patternAnalysisBody.Contains('analysis.special.structure.colors') -or -not $patternAnalysisBody.Contains('analysis.special.structure.tails') -or -not $patternAnalysisBody.Contains('analysis.three.structure.spans') -or -not $patternAnalysisBody.Contains('analysis.three.structure.parity')) {
-        throw 'new pattern analysis should include structure stats copied from pattern watch'
-    }
-    if (-not $patternAnalysisBody.Contains('&#29305;&#21035;&#21495;&#39068;&#33394;&#32467;&#26500;') -or -not $patternAnalysisBody.Contains('&#29305;&#21035;&#21495;&#23614;&#25968;&#32467;&#26500;') -or -not $patternAnalysisBody.Contains('&#19977;&#20013;&#19977;&#36328;&#24230;&#32467;&#26500;') -or -not $patternAnalysisBody.Contains('&#19977;&#20013;&#19977;&#22855;&#20598;&#32467;&#26500;')) {
-        throw 'new pattern analysis should render the copied structure statistic sections'
+    if (-not $dashboard.Contains('&#25163;&#21160;&#37319;&#38598;') -or -not $dashboard.Contains('&#37319;&#38598;&#32593;&#22336;') -or -not $dashboard.Contains('&#31435;&#21363;&#37319;&#38598;')) {
+        throw 'dashboard should render manual fetch labels'
     }
     if (-not $dashboard.Contains('function patternWatchAnalysis(source)')) {
         throw 'dashboard should calculate pattern watch metrics'
     }
-    if (-not $dashboard.Contains('if (edge < 0 || (maxMiss > 0 && currentMiss > maxMiss))')) {
-        throw 'pattern watch should only mark invalid when current miss exceeds historical max or underperforms baseline'
-    }
     if (-not $dashboard.Contains('function optimizedSpecialPool(rows, basePool, size)')) {
         throw 'pattern watch should calculate optimized special-number pools'
     }
-    if (-not $dashboard.Contains('function optimizedThreeCombos(rows, baseCombos, size)')) {
-        throw 'pattern watch should calculate optimized three-hit combo pools'
+    if (-not $buildScript.Contains('function Get-OptimizedStableWindow5Pool') -or -not $buildScript.Contains('function Compare-Window5PoolScore')) {
+        throw 'build-data.ps1 should optimize stable five-window pools using the same server-side scoring direction'
+    }
+    if ($dashboard.Contains('&#19977;&#20013;&#19977;&#32452;&#21512;&#27744;') -or $dashboard.Contains('&#19977;&#20013;&#19977;12&#32452;&#20248;&#21270;')) {
+        throw 'pattern watch should not render obsolete three-hit combo pool sections'
     }
     if (-not $dashboard.Contains('function optimizationCompareRow(name, original, optimized, baseline)')) {
         throw 'pattern watch should compare original and optimized pool performance'
     }
-    if (-not $dashboard.Contains('&#35268;&#24459;&#20248;&#21270;&#27744;') -or -not $dashboard.Contains('&#21407;&#27744;&#19981;&#21160;')) {
-        throw 'pattern watch should render optimized pool comparison without changing original pools'
+    if (-not $dashboard.Contains('function patternScoreItem(name, original, optimized, baseline, sizeLabel)')) {
+        throw 'pattern watch should calculate score table rows'
+    }
+    if (-not $dashboard.Contains('function patternScoreTable(analysis)')) {
+        throw 'pattern watch should render a score summary table'
+    }
+    if (-not $dashboard.Contains('function patternDiagnosticsTable(analysis)')) {
+        throw 'pattern watch should render pattern diagnostics'
+    }
+    if (-not $dashboard.Contains('function windowRhythmStats(windows)')) {
+        throw 'pattern watch should calculate window rhythm stats'
+    }
+    if (-not $dashboard.Contains('function windowRhythmTable(analysis)')) {
+        throw 'pattern watch should render window rhythm observation'
+    }
+    if (-not $dashboard.Contains('function failureProfileForWindow(item, context)')) {
+        throw 'pattern watch should classify missed windows'
+    }
+    if (-not $dashboard.Contains('function failureProfileTable(analysis)')) {
+        throw 'pattern watch should render failure profile observation'
+    }
+    if (-not $dashboard.Contains('function poolRelationTable(analysis)')) {
+        throw 'pattern watch should render pool relation observation'
+    }
+    if (-not $dashboard.Contains('function triggerDecisionItem(name, item, context)')) {
+        throw 'pattern watch should calculate trigger decision items'
+    }
+    if (-not $dashboard.Contains('function triggerDecisionTable(analysis)')) {
+        throw 'pattern watch should render trigger decision summary'
+    }
+    if (-not $dashboard.Contains('&#26465;&#20214;&#35302;&#21457;&#24635;&#34920;')) {
+        throw 'pattern watch should render trigger decision summary section'
+    }
+    if (-not $dashboard.Contains('&#35302;&#21457;&#35780;&#20998;') -or -not $dashboard.Contains('&#20027;&#35201;&#21152;&#20998;') -or -not $dashboard.Contains('&#20027;&#35201;&#25187;&#20998;') -or -not $dashboard.Contains('&#24378;&#36319;&#36394;')) {
+        throw 'trigger decision summary should include score, plus/minus factors, and strong tracking action'
+    }
+    if (-not $dashboard.Contains('function poolRelationStats(windows)')) {
+        throw 'pattern watch should calculate pool relation stats'
+    }
+    if (-not $dashboard.Contains('&#27744;&#23376;&#20851;&#31995;&#35266;&#23519;')) {
+        throw 'pattern watch should render pool relation section'
+    }
+    if (-not $dashboard.Contains('&#20132;&#38598;&#21306;') -or -not $dashboard.Contains('&#24403;&#24180;&#29420;&#26377;') -or -not $dashboard.Contains('&#31283;&#23450;&#29420;&#26377;')) {
+        throw 'pool relation should include special-number intersection and unique pools'
+    }
+    if (-not $dashboard.Contains('&#22833;&#36133;&#30011;&#20687;&#35266;&#23519;')) {
+        throw 'pattern watch should render failure profile section'
+    }
+    if (-not $dashboard.Contains('&#26368;&#36817;&#28431;&#31383;') -or -not $dashboard.Contains('&#22833;&#36133;&#26631;&#31614;') -or -not $dashboard.Contains('&#26368;&#22823;&#39118;&#38505;&#26631;&#31614;')) {
+        throw 'failure profile should include missed windows, failure tags, and largest risk tag'
+    }
+    if (-not $dashboard.Contains('&#31383;&#21475;&#33410;&#22863;&#35266;&#23519;')) {
+        throw 'pattern watch should render window rhythm section'
+    }
+    if (-not $dashboard.Contains('&#39318;&#23614;&#26399;&#33410;&#22863;') -or -not $dashboard.Contains('&#28431;&#31383;&#21518;&#21453;&#24377;') -or -not $dashboard.Contains('&#36830;&#32493;&#35206;&#30422;&#34928;&#20943;')) {
+        throw 'window rhythm should include hit timing, miss rebound, and consecutive coverage decay'
+    }
+    if ($dashboard.Contains('&#243弱;')) {
+        throw 'window rhythm copy should not contain mixed malformed entity text'
+    }
+    if (-not $dashboard.Contains('function rollingWindowCompare(originalWindows, optimizedWindows)')) {
+        throw 'pattern diagnostics should compare recent original and optimized windows'
+    }
+    if (-not $dashboard.Contains('function structureHealthForPattern(type, analysisItem)')) {
+        throw 'pattern diagnostics should calculate structure health'
+    }
+    if (-not $dashboard.Contains('&#35268;&#24459;&#35786;&#26029;')) {
+        throw 'pattern watch should render diagnostics section'
+    }
+    if (-not $dashboard.Contains('&#32467;&#26500;&#20581;&#24247;') -or -not $dashboard.Contains('&#36817;10&#31383;&#21475;&#32988;&#29575;') -or -not $dashboard.Contains('&#28431;&#31383;&#24674;&#22797;')) {
+        throw 'pattern diagnostics should include structure health, rolling win rate, and miss recovery'
+    }
+    if (-not $dashboard.Contains('&#35268;&#24459;&#35780;&#20998;&#24635;&#34920;')) {
+        throw 'pattern watch should render the pattern score summary'
+    }
+    if (-not $dashboard.Contains('&#24314;&#35758;&#21160;&#20316;')) {
+        throw 'pattern watch score table should include suggested action'
+    }
+    if (-not $dashboard.Contains('&#31561;&#24453;&#31383;&#21475;&#32467;&#26463;') -or -not $dashboard.Contains('&#20248;&#20808;&#35266;&#23519;&#20248;&#21270;&#27744;') -or -not $dashboard.Contains('&#26242;&#20572;&#35813;&#35268;&#24459;')) {
+        throw 'pattern watch score table should include actionable status labels'
+    }
+    if (-not $dashboard.Contains('&#35268;&#24459;&#20248;&#21270;&#27744;')) {
+        throw 'pattern watch should render the optimized pool section'
+    }
+    if (-not $dashboard.Contains('&#21407;&#27744;&#19981;&#21160;')) {
+        throw 'pattern watch should state original pools remain unchanged'
+    }
+    if (-not $dashboard.Contains('&#19977;&#20013;&#19977;&#22797;&#24335;&#27744;&#34920;&#29616;') -or -not $dashboard.Contains('&#22797;&#24335;&#27744;')) {
+        throw 'pattern watch should render three-hit compound pool performance instead of combo pools'
+    }
+    if (-not $dashboard.Contains('function threeCompoundHistoryTable(pools)') -or -not $dashboard.Contains('&#19977;&#20013;&#19977;&#22797;&#24335;&#27744;&#21464;&#26356;&#35760;&#24405;')) {
+        throw 'three-hit five-issue window should render compound pool change history'
+    }
+    if (-not $dashboard.Contains('&#21464;&#21270;&#25688;&#35201;') -or -not $dashboard.Contains('<details class="change-detail"') -or -not $dashboard.Contains('&#20445;&#30041;') -or -not $dashboard.Contains('&#26032;&#22686;') -or -not $dashboard.Contains('&#31227;&#38500;') -or -not $dashboard.Contains('&#26174;&#31034;&#20840;&#37096;&#35760;&#24405;')) {
+        throw 'three-hit compound change history should show compact summaries with expandable kept, added, and removed details'
     }
     if (-not $dashboard.Contains('function randomWindowBaseline(pickCount, totalCount, drawsPerWindow)')) {
         throw 'dashboard should calculate random window baselines'
@@ -694,17 +645,44 @@ try {
     if (-not $dashboard.Contains('function patternLevel(edge, currentMiss, maxMiss)')) {
         throw 'dashboard should classify pattern observation levels'
     }
+    if (-not $dashboard.Contains('const completed = windows.filter(item => Number(item.count || 0) >= 5)')) {
+        throw 'pattern watch stats should only count completed five-issue windows'
+    }
+    if (-not $dashboard.Contains('if (edge < 0 || (maxMiss > 0 && currentMiss > maxMiss))')) {
+        throw 'pattern watch should only mark invalid when current miss exceeds historical max or underperforms baseline'
+    }
     if (-not $dashboard.Contains('function threeWindowAnalysis(source)')) {
-        throw 'dashboard should calculate three-hit-three five-issue window analysis'
+        throw 'dashboard should calculate three-hit five-issue window analysis'
+    }
+    if (-not $dashboard.Contains('function buildThreeHitCompoundPools(records)')) {
+        throw 'dashboard should build three-hit compound pools'
+    }
+    if (-not $dashboard.Contains('function threeHitCompoundWindowCoverage(rows, pool)')) {
+        throw 'dashboard should evaluate three-hit compound pools by five-issue window'
+    }
+    if (-not $dashboard.Contains('function seededShuffleNumbers(seed)') -or -not $dashboard.Contains('function improveThreeHitCompoundPool(rows, startPool)')) {
+        throw 'three-hit compound pools should use seeded multi-start local search instead of plain greedy only'
+    }
+    if (-not $dashboard.Contains('three-compound-local-search') -or -not $dashboard.Contains('randomSeeds.forEach')) {
+        throw 'three-hit compound pool search should include deterministic random seeds'
+    }
+    if (-not $dashboard.Contains('const completedWindows = yearWindows.filter(item => Number(item.count || 0) >= 5)')) {
+        throw 'three-hit five-issue stats should only count completed five-issue windows'
     }
     if (-not $dashboard.Contains('const trainingRows = yearRows.filter') -or -not $dashboard.Contains('Number(row.issue || 0) < currentStart') -or -not $dashboard.Contains('Number(row.issue || 0) > currentEnd')) {
-        throw 'three-hit-three window analysis should build current combos without using current-window draw results'
+        throw 'three-hit five-issue analysis should build compatibility combos without using current-window draw results'
     }
-    if (-not $dashboard.Contains('function buildThreeHitCombos(records)')) {
-        throw 'dashboard should build ranked three-hit-three combinations'
+    if (-not $dashboard.Contains('compoundPools') -or -not $dashboard.Contains('{poolSize: 5}') -or -not $dashboard.Contains('{poolSize: 6}') -or -not $dashboard.Contains('{poolSize: 7}') -or -not $dashboard.Contains('{poolSize: 8}')) {
+        throw 'three-hit five-issue window should compare 5/6/7/8 number compound pools'
     }
-    if (-not $dashboard.Contains('function threeHitWindowCoverage(rows, combos)')) {
-        throw 'dashboard should evaluate three-hit-three five-issue window coverage'
+    if (-not $dashboard.Contains('threeCompoundState') -or -not $dashboard.Contains('stateItem?.pools')) {
+        throw 'three-hit compound pools should be loaded from persisted state'
+    }
+    if (-not (Test-Path -LiteralPath (Join-Path $root 'build-three-compound.py'))) {
+        throw 'three-hit compound pool builder script should exist'
+    }
+    if (-not $dashboard.Contains('&#19977;&#20013;&#19977;&#22797;&#24335;&#27744;&#23545;&#27604;')) {
+        throw 'three-hit five-issue window page should show compound pool comparison'
     }
     if (-not $dashboard.Contains('function fiveWindowAnalysis(source)')) {
         throw 'dashboard should calculate five-issue window coverage analysis'
@@ -713,7 +691,7 @@ try {
         throw 'dashboard should automatically recalculate the current-year five-window pool'
     }
     if (-not $dashboard.Contains('const maxWindow5PoolSize = 8') -or -not $dashboard.Contains('const maxStableWindow5PoolSize = 15') -or -not $dashboard.Contains('selected.length >= maxWindow5PoolSize')) {
-        throw 'five-issue window pools should be capped in dashboard logic'
+        throw 'five-issue window pools should expose current-year and stable caps in the dashboard'
     }
     if ($dashboard.Contains("yearPool: ['40','42','19','34','27']") -or $dashboard.Contains("yearPool: ['01','27','37','16','23','29','12','10']")) {
         throw 'five-issue window current-year pool should not be hard-coded'
@@ -727,6 +705,12 @@ try {
     if (-not $dashboard.Contains('changeTime')) {
         throw 'five-issue window page should show coverage pool change time'
     }
+    if (-not $dashboard.Contains('yearPoolHistory') -or -not $dashboard.Contains('function yearPoolHistoryTable')) {
+        throw 'five-issue window page should expose current-year coverage pool change history'
+    }
+    if (-not $dashboard.Contains('&#35206;&#30422;&#27744;&#21464;&#26356;&#26085;&#24535;')) {
+        throw 'five-issue window page should show coverage pool change log'
+    }
     if ($dashboard.Contains('&#24050;&#37325;&#26032;&#35745;&#31639;')) {
         throw 'five-issue window status should use no-change/changed wording instead of recalculated'
     }
@@ -738,12 +722,54 @@ try {
         throw 'window5-state.json was not created'
     }
     $windowState = Get-Content -LiteralPath $windowStateFile -Raw -Encoding UTF8 | ConvertFrom-Json
+    $threeCompoundFile = Join-Path $outDir 'data/three-compound-state.json'
+    if (-not (Test-Path -LiteralPath $threeCompoundFile)) {
+        throw 'three-compound-state.json was not created'
+    }
+    $threeCompoundState = Get-Content -LiteralPath $threeCompoundFile -Raw -Encoding UTF8 | ConvertFrom-Json
+    foreach ($item in @($threeCompoundState.items)) {
+        if (@($item.pools).Count -ne 4) {
+            throw 'three-compound-state should include 5/6/7/8 pools for each source'
+        }
+        foreach ($poolItem in @($item.pools)) {
+            if ($null -eq $poolItem.poolSize -or $null -eq $poolItem.pool -or $null -eq $poolItem.covered -or $null -eq $poolItem.total -or $null -eq $poolItem.hitRate -or $null -eq $poolItem.status -or $null -eq $poolItem.recentHitRate -or $null -eq $poolItem.currentMiss -or $null -eq $poolItem.maxMiss -or $null -eq $poolItem.healthStatus -or $null -eq $poolItem.changeHistory) {
+                throw 'three-compound pool state should include size, pool, coverage, total, hit rate, status, health metrics, and change history'
+            }
+            foreach ($win in @($poolItem.windows)) {
+                if ($null -eq $win.poolSnapshot) {
+                    throw 'three-compound pool windows should include the effective pool snapshot'
+                }
+            }
+        }
+        foreach ($poolItem in @($item.crossYearPools)) {
+            foreach ($win in @($poolItem.yearWindows)) {
+                if ($null -eq $win.poolSnapshot) {
+                    throw 'three-compound cross-year windows should include the effective pool snapshot'
+                }
+            }
+        }
+    }
+    $threeCompoundScript = [IO.File]::ReadAllText((Join-Path $PSScriptRoot 'build-three-compound.py'), [Text.Encoding]::UTF8)
+    if (-not $threeCompoundScript.Contains('"kept"') -or -not $threeCompoundScript.Contains('"added"') -or -not $threeCompoundScript.Contains('"removed"') -or -not $threeCompoundScript.Contains('"changeLevel"')) {
+        throw 'three-compound builder should persist kept, added, removed, and change level for pool changes'
+    }
+    if (-not $threeCompoundScript.Contains('"normal-observe"') -or -not $threeCompoundScript.Contains('"no-change"') -or $threeCompoundScript.Contains('"正常观察"') -or $threeCompoundScript.Contains('"无变更"')) {
+        throw 'three-compound builder should store ASCII status codes instead of localized text'
+    }
     foreach ($item in @($windowState.items)) {
-        if ($null -eq $item.stablePool -or $null -eq $item.stablePoolStatus -or $null -eq $item.stablePoolChangeTime -or $null -eq $item.stablePoolNextRecalcIssue) {
-            throw 'window5-state item should include stable pool state fields'
+        if ($null -eq $item.stablePool -or $null -eq $item.stablePoolStatus -or $null -eq $item.stablePoolChangeTime -or $null -eq $item.stablePoolNextRecalcIssue -or $null -eq $item.stablePoolOptimizationStatus -or $null -eq $item.stablePoolOptimizationReason) {
+            throw 'window5-state item should include stable pool state and optimization fields'
         }
         if (@($item.yearPool).Count -gt 8) {
-            throw 'window5 year pool should be capped at eight numbers'
+            throw 'window5 current-year pool should be capped at eight numbers'
+        }
+        if ($null -eq $item.yearPoolHistory) {
+            throw 'window5 current-year pool should include change history'
+        }
+        foreach ($historyItem in @($item.yearPoolHistory)) {
+            if ($null -eq $historyItem.changedAt -or $null -eq $historyItem.beforePool -or $null -eq $historyItem.afterPool -or $null -eq $historyItem.added -or $null -eq $historyItem.removed -or $null -eq $historyItem.issue) {
+                throw 'window5 current-year pool history should include time, before/after pools, added/removed numbers, and trigger issue'
+            }
         }
         if (@($item.stablePool).Count -gt 15) {
             throw 'window5 stable pool should be capped at fifteen numbers'
@@ -752,40 +778,24 @@ try {
             throw 'window5 stable pool should not contain placeholder 00'
         }
     }
-    $buildScriptText = [IO.File]::ReadAllText((Join-Path $PSScriptRoot 'build-data.ps1'), [Text.Encoding]::UTF8)
-    if (-not $buildScriptText.Contains('$oldStablePool.Count -lt 15')) {
+    if (-not $buildScript.Contains('$oldStablePool.Count -lt 15')) {
         throw 'window5 stable pool should recalculate when an old pool has fewer than fifteen numbers'
+    }
+    if (-not $buildScript.Contains('yearPoolHistory') -or -not $buildScript.Contains('$addedPoolNumbers') -or -not $buildScript.Contains('$removedPoolNumbers')) {
+        throw 'window5 state should append current-year coverage pool change history'
     }
     if ($dashboard.Contains('<h2>&#35206;&#30422;&#27744;&#29366;&#24577;</h2>')) {
         throw 'five-issue window status should be displayed under current-year pool, not as a separate card'
     }
-    if (-not $dashboard.Contains('function forecastSection(source, game, title)')) {
-        throw 'dashboard should render forecast observations in a dedicated tab'
-    }
-    if (-not $dashboard.Contains('forecastPredictions = data.forecasts')) {
-        throw 'dashboard should load forecast observations separately from games'
-    }
-    if (-not $dashboard.Contains('function forecastBacktestHtml(row)')) {
-        throw 'forecast page should render backtest metrics'
-    }
-    if (-not $dashboard.Contains('function forecastStrategyPoolHtml(row)')) {
-        throw 'forecast page should render evaluated strategy pool'
-    }
-    if (-not $dashboard.Contains('edgeVsRandom')) {
-        throw 'forecast page should expose edge versus random baseline'
-    }
-    if (-not $dashboard.Contains('roiVsRandom') -or -not $dashboard.Contains('netProfit') -or -not $dashboard.Contains('totalPayout')) {
-        throw 'forecast page should expose payout, net profit, ROI, and ROI versus random'
-    }
-    if (-not $dashboard.Contains('weeklyProfitGate') -or -not $dashboard.Contains('qualityScore') -or -not $dashboard.Contains('recommendationStatus')) {
-        throw 'forecast page should expose weekly profit gate, quality score, and recommendation status'
+    if ($dashboard.Contains('forecastPredictions = data.forecasts') -or $dashboard.Contains('function forecastBacktestHtml(row)') -or $dashboard.Contains('function forecastStrategyPoolHtml(row)')) {
+        throw 'forecast page helpers should not be emitted'
     }
     $gameSectionBody = [regex]::Match($dashboard, 'function gameSection\(source, game, title\) \{[\s\S]*?function renderGames').Value
-    if ($gameSectionBody.Contains('MiroFish &#27801;&#30424;&#25512;&#28436;')) {
-        throw 'game module should not render MiroFish prediction cards'
+    if ($dashboard.Contains('mirofish-sandbox') -or $dashboard.Contains('MiroFish') -or $gameSectionBody.Contains('MiroFish &#27801;&#30424;&#25512;&#28436;')) {
+        throw 'dashboard should not include MiroFish sandbox logic or data'
     }
-    if (-not $dashboard.Contains("targetRows.filter(row => row.algorithmId !== 'ensemble' && row.algorithmId !== 'mirofish-sandbox')")) {
-        throw 'dashboard should exclude MiroFish from eleven algorithm stats'
+    if (-not $dashboard.Contains("targetRows.filter(row => row.algorithmId !== 'ensemble')")) {
+        throw 'dashboard should calculate eleven algorithm stats from non-ensemble rows'
     }
     if (-not $dashboard.Contains('function gameGroupStats(rows, historicalMaxMiss = null)')) {
         throw 'dashboard should calculate grouped stats for eleven algorithms'
@@ -802,11 +812,59 @@ try {
     if (-not $dashboard.Contains("maxMiss: historicalMaxMiss ??")) {
         throw 'stats cards should use historical max miss when available'
     }
-    if (-not $dashboard.Contains("const algorithmStats = gameGroupStats(rows.filter(row => row.algorithmId !== 'ensemble' && row.algorithmId !== 'mirofish-sandbox'), algorithmHistoricalMaxMiss)")) {
+    if (-not $dashboard.Contains("const algorithmStats = gameGroupStats(rows.filter(row => row.algorithmId !== 'ensemble'), algorithmHistoricalMaxMiss)")) {
         throw 'algorithm aggregate stats should use issue-level grouped non-ensemble rows'
     }
     if (-not $dashboard.Contains('hit: group.some(row => row.hit)')) {
         throw 'grouped algorithm stats should count an issue as hit when any algorithm hits'
+    }
+    $apiPath = Join-Path $PSScriptRoot 'api/manual-fetch.js'
+    if (-not (Test-Path -LiteralPath $apiPath)) {
+        throw 'manual fetch API endpoint should exist'
+    }
+    $apiScript = [IO.File]::ReadAllText($apiPath, [Text.Encoding]::UTF8)
+    if (-not $apiScript.Contains('GITHUB_TOKEN') -or -not $apiScript.Contains('workflow_dispatch') -or -not $apiScript.Contains('manual-fetch.yml') -or -not $apiScript.Contains('am_source_url') -or -not $apiScript.Contains('hk_source_url')) {
+        throw 'manual fetch API should dispatch the GitHub manual fetch workflow'
+    }
+    $workflowPath = Join-Path $PSScriptRoot '.github/workflows/manual-fetch.yml'
+    if (-not (Test-Path -LiteralPath $workflowPath)) {
+        throw 'manual fetch workflow should exist'
+    }
+    $manualWorkflow = [IO.File]::ReadAllText($workflowPath, [Text.Encoding]::UTF8)
+    if (-not $manualWorkflow.Contains('workflow_dispatch') -or -not $manualWorkflow.Contains('am_source_url') -or -not $manualWorkflow.Contains('hk_source_url') -or -not $manualWorkflow.Contains('fetch-all.ps1')) {
+        throw 'manual fetch workflow should accept Macau/Hong Kong URLs and run the unified fetch script'
+    }
+    if (-not $manualWorkflow.Contains('VERCEL_DEPLOY_HOOK_URL') -or -not $manualWorkflow.Contains('Invoke-RestMethod -Method Post')) {
+        throw 'manual fetch workflow should trigger a Vercel deploy hook after pushing generated data'
+    }
+    $dailyWorkflowPath = Join-Path $PSScriptRoot '.github/workflows/daily-fetch.yml'
+    $dailyWorkflow = [IO.File]::ReadAllText($dailyWorkflowPath, [Text.Encoding]::UTF8)
+    if (-not $dailyWorkflow.Contains('fetch-all.ps1') -or $dailyWorkflow.Contains('-File .\build-data.ps1')) {
+        throw 'daily fetch workflow should fetch both sources before rebuilding data'
+    }
+    if (-not $dailyWorkflow.Contains('VERCEL_DEPLOY_HOOK_URL') -or -not $dailyWorkflow.Contains('Invoke-RestMethod -Method Post')) {
+        throw 'daily fetch workflow should trigger a Vercel deploy hook after pushing generated data'
+    }
+    $vercelConfigPath = Join-Path $PSScriptRoot 'vercel.json'
+    $vercelConfig = Get-Content -LiteralPath $vercelConfigPath -Raw -Encoding UTF8 | ConvertFrom-Json
+    if (@($vercelConfig.crons).Count -gt 1) {
+        throw 'vercel.json should keep at most one cron schedule for Vercel Hobby deployments'
+    }
+    $fetchAllPath = Join-Path $PSScriptRoot 'fetch-all.ps1'
+    if (-not (Test-Path -LiteralPath $fetchAllPath)) {
+        throw 'unified fetch-all.ps1 script should exist'
+    }
+    $fetchAllScript = [IO.File]::ReadAllText($fetchAllPath, [Text.Encoding]::UTF8)
+    if (-not $fetchAllScript.Contains('am.html') -or -not $fetchAllScript.Contains('hk.html') -or -not $fetchAllScript.Contains('build-data.ps1')) {
+        throw 'fetch-all.ps1 should fetch Macau and Hong Kong then rebuild data once'
+    }
+    $fetchScript = [IO.File]::ReadAllText((Join-Path $PSScriptRoot 'fetch-am.ps1'), [Text.Encoding]::UTF8)
+    if (-not $fetchScript.Contains('[switch]$SkipBuild')) {
+        throw 'fetch-am.ps1 should support skipping build so fetch-all can rebuild once'
+    }
+    $installTaskScript = [IO.File]::ReadAllText((Join-Path $PSScriptRoot 'install-task.ps1'), [Text.Encoding]::UTF8)
+    if (-not $installTaskScript.Contains('fetch-all.ps1')) {
+        throw 'local scheduled task should run the unified fetch-all script'
     }
     $mojibakeMarker = [string][char]0x951F
     if ($dashboard.Contains($mojibakeMarker)) {
@@ -814,6 +872,31 @@ try {
     }
     if ($dashboard.Contains('&amp;#30721;') -or $dashboard.Contains('&amp;#32452;') -or $dashboard.Contains('&amp;#22855;') -or $dashboard.Contains('&amp;#20598;')) {
         throw 'pattern watch should not double-escape size or structure labels'
+    }
+    $runtimeCheck = @'
+const fs = require('fs');
+const html = fs.readFileSync(process.argv[2], 'utf8');
+const json = JSON.parse(fs.readFileSync(process.argv[3], 'utf8'));
+const script = html.match(/<script>\s*([\s\S]*?)\s*<\/script>\s*<\/body>/)[1]
+  .replace(/const app = document.getElementById\('app'\);/, "const app = {innerHTML:''};")
+  .replace(/const tabs = document.querySelectorAll\('\.tabs button'\);/, "const tabs = [];")
+  .replace(/loadDashboardData\(\)\.then\([\s\S]*?\.catch\(err => \{\s*app\.innerHTML = `<section class="panel"><h2>&#25968;&#25454;&#21152;&#36733;&#22833;&#36133;<\/h2><p>\$\{esc\(err\.message\)\}<\/p><\/section>`;\s*\}\);/, "recentRecords = (__DATA__.records || []); summary = __DATA__.summary || {}; generatedPredictions = __DATA__.predictions || {next: [], sanzhong: []};")
+  .replace(/document.getElementById\('overview-source'\)\.addEventListener\('change', renderOverview\);/g, '')
+  .replace(/document.getElementById\('window5-source'\)\.addEventListener\('change', renderWindow5\);/g, '')
+  .replace(/document.getElementById\('three-window5-source'\)\.addEventListener\('change', renderThreeWindow5\);/g, '')
+  .replace(/document.getElementById\('pattern-source'\)\.addEventListener\('change', renderPatternWatch\);/g, '')
+  .replace(/document.getElementById\('daily-source'\)\.addEventListener\('change', renderDaily\);/g, '')
+  .replace(/document.getElementById\('game-source'\)\.addEventListener\('change', renderGames\);/g, '')
+  .replace(/renderOverview\(\);/, "renderOverview(); fiveWindowAnalysis('am'); fiveWindowAnalysis('hk');");
+global.__DATA__ = json;
+global.location = { protocol: 'file:' };
+global.document = { getElementById: () => ({ value: 'am', addEventListener() {}, textContent: JSON.stringify(json) }), querySelectorAll: () => [] };
+new Function(script)();
+console.log('RUNTIME_OK');
+'@
+    $runtimeOutput = $runtimeCheck | node - (Join-Path $outDir 'index.html') (Join-Path $outDir 'data/records.json')
+    if ($LASTEXITCODE -ne 0 -or ($runtimeOutput -join "`n") -notmatch 'RUNTIME_OK') {
+        throw "dashboard runtime check failed: $($runtimeOutput -join ' ')"
     }
 
     Write-Host 'PASS'
