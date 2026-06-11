@@ -33,6 +33,14 @@ if ($html -notmatch 'function bettingRecommendationSnapshot' -or $html -notmatch
     throw 'expected betting recommendations to use immutable recommendation snapshots'
 }
 
+if ($html -notmatch 'data-tab="gateChallenge"' -or $html -notmatch '&#38383;&#19977;&#20851;') {
+    throw 'expected dashboard to expose gate challenge as a preserved tab'
+}
+
+if ($html -notmatch 'function renderGateChallenge' -or $html -notmatch 'function gateAnalysis' -or $html -notmatch 'const gatePoolDefs') {
+    throw 'expected dashboard to render the gate challenge formula pools'
+}
+
 if ($html -notmatch 'snapshot\.primaryPool' -or $html -notmatch 'snapshot\.guardPool' -or $html -notmatch 'matched\.length >= 3' -or $html -notmatch '&#20027;&#25512;&#32467;&#26524;' -or $html -notmatch '&#38450;&#30721;&#32467;&#26524;') {
     throw 'expected betting settlement to use primary and guard snapshot pools'
 }

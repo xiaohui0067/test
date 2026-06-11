@@ -110,6 +110,7 @@
       <button data-tab="overview">&#30475;&#26495;</button>
       <button data-tab="worldcupAnalysis">&#19990;&#30028;&#26479;&#20998;&#26512;</button>
       <button data-tab="historyPattern">&#21382;&#21490;&#35268;&#24459;&#35266;&#23519;</button>
+      <button data-tab="gateChallenge">&#38383;&#19977;&#20851;</button>
       <button data-tab="window5">5&#26399;&#31383;&#21475;</button>
       <button data-tab="threeWindow5">&#19977;&#20013;&#19977;5&#26399;&#31383;&#21475;</button>
       <button data-tab="patternWatch">&#39640;&#32423;&#20998;&#26512;</button>
@@ -1550,6 +1551,193 @@
       </div>`;
       document.getElementById('game-source').addEventListener('change', renderGames);
     }
+    function gateNum(value) {
+      return ((Math.round(Number(value || 0)) - 1) % 49 + 49) % 49 + 1;
+    }
+    function gateText(value) {
+      return String(gateNum(value)).padStart(2, '0');
+    }
+    function gateBallValue(record, index) {
+      return Number(record?.balls?.[index]?.number || record?.balls?.[index]?.numberText || 0);
+    }
+    function gateSourceRows(source) {
+      return sourceRecords(source).slice().filter(row => row?.balls?.[6]).sort((a, b) => {
+        const dateCompare = String(a.date || '').localeCompare(String(b.date || ''));
+        return dateCompare || Number(a.issue || 0) - Number(b.issue || 0);
+      });
+    }
+    function gateAddFormula(items, expr, value, calc) {
+      items.push({expr, value: gateNum(value), calc});
+    }
+    function gateFormulaList(rows, index) {
+      const A = rows[index - 1], B = rows[index - 2], C = rows[index - 3], D = rows[index - 4];
+      if (!A || !B || !C || !D) return [];
+      const items = [];
+      const draws = [
+        ['A', A.balls.map(ball => Number(ball.number || ball.numberText || 0))],
+        ['B', B.balls.map(ball => Number(ball.number || ball.numberText || 0))],
+        ['C', C.balls.map(ball => Number(ball.number || ball.numberText || 0))]
+      ];
+      draws.forEach(([prefix, nums]) => {
+        for (let x = 0; x < 7; x++) {
+          for (let y = x + 1; y < 7; y++) {
+            gateAddFormula(items, `${prefix}${x + 1}+${prefix}${y + 1}`, nums[x] + nums[y], `${gateText(nums[x])}+${gateText(nums[y])}`);
+            gateAddFormula(items, `abs(${prefix}${x + 1}-${prefix}${y + 1})`, Math.abs(nums[x] - nums[y]) || 49, `|${gateText(nums[x])}-${gateText(nums[y])}|`);
+          }
+        }
+      });
+      for (let k = 0; k < 7; k++) {
+        const a = gateBallValue(A, k), b = gateBallValue(B, k), c = gateBallValue(C, k);
+        gateAddFormula(items, `A${k + 1}+B${k + 1}`, a + b, `${gateText(a)}+${gateText(b)}`);
+        gateAddFormula(items, `abs(A${k + 1}-B${k + 1})`, Math.abs(a - b) || 49, `|${gateText(a)}-${gateText(b)}|`);
+        gateAddFormula(items, `A${k + 1}+diff`, a + (a - b), `${gateText(a)}+(${gateText(a)}-${gateText(b)})`);
+        gateAddFormula(items, `A${k + 1}+B${k + 1}-C${k + 1}`, a + b - c, `${gateText(a)}+${gateText(b)}-${gateText(c)}`);
+      }
+      [
+        ['A7', gateBallValue(A, 6)],
+        ['B7', gateBallValue(B, 6)],
+        ['C7', gateBallValue(C, 6)],
+        ['D7', gateBallValue(D, 6)]
+      ].forEach(([name, num]) => {
+        [1,2,3,4,5,6,7,8,9,10,11,12,13,14,16,18,20,24].forEach(step => {
+          gateAddFormula(items, `${name}+${step}`, num + step, `${gateText(num)}+${step}`);
+          gateAddFormula(items, `${name}-${step}`, num - step, `${gateText(num)}-${step}`);
+        });
+        gateAddFormula(items, `50-${name}`, 50 - num, `50-${gateText(num)}`);
+      });
+      for (let k = 0; k < 6; k++) {
+        const a = gateBallValue(A, k);
+        const t = gateBallValue(A, 6);
+        gateAddFormula(items, `A${k + 1}+A7`, a + t, `${gateText(a)}+${gateText(t)}`);
+        gateAddFormula(items, `abs(A${k + 1}-A7)`, Math.abs(a - t) || 49, `|${gateText(a)}-${gateText(t)}|`);
+      }
+      return items;
+    }
+    const gatePoolDefs = [
+      {name: '&#24403;&#21069;&#31532;&#19977;&#20851;', exprs: ['A7+6', 'abs(A2-A7)'], note: '&#24403;&#21069;&#24050;&#36830;&#20013;2&#26399;&#30340;2&#30721;&#27744;'},
+      {name: '&#39640;&#36136;&#37327;&#35266;&#23519;', exprs: ['abs(B3-B6)', 'C3+C7'], note: '&#21382;&#21490;&#20108;&#36827;&#19977;&#36739;&#24378;&#65292;&#24403;&#21069;&#26410;&#21551;&#21160;'},
+      {name: '&#39640;&#36136;&#37327;&#35266;&#23519;', exprs: ['abs(A3-A5)', 'B7-18'], note: '&#36817;&#24180;&#34920;&#29616;&#36739;&#31283;&#65292;&#24403;&#21069;&#26410;&#21551;&#21160;'},
+      {name: '&#39640;&#36136;&#37327;&#35266;&#23519;', exprs: ['abs(C2-C7)', 'B7-16'], note: '&#21382;&#21490;&#26377;&#19977;&#36830;&#35760;&#24405;&#65292;&#24403;&#21069;&#26410;&#21551;&#21160;'},
+      {name: '&#39640;&#36136;&#37327;&#35266;&#23519;', exprs: ['B2+B4', 'A2+diff'], note: '&#36817;&#24180;&#20108;&#36827;&#19977;&#34920;&#29616;&#36739;&#22909;&#65292;&#24403;&#21069;&#26410;&#21551;&#21160;'},
+      {name: '&#31532;&#19968;&#20851;&#35266;&#23519;', exprs: ['C7-2', 'abs(A2-A7)'], note: '&#24403;&#21069;&#21482;&#26159;&#31532;&#19968;&#20851;&#29366;&#24577;'},
+      {name: '&#31532;&#19968;&#20851;&#35266;&#23519;', exprs: ['abs(A2-A7)', 'abs(B2-B7)'], note: '&#24403;&#21069;&#21482;&#26159;&#31532;&#19968;&#20851;&#29366;&#24577;'},
+      {name: '&#31532;&#19968;&#20851;&#35266;&#23519;', exprs: ['abs(C2-C6)', 'abs(A2-A7)'], note: '&#24403;&#21069;&#21482;&#26159;&#31532;&#19968;&#20851;&#29366;&#24577;'}
+    ];
+    function gateFormulaMapAt(rows, index, cache) {
+      if (cache?.has(index)) return cache.get(index);
+      const formulaMap = new Map(gateFormulaList(rows, index).map(item => [item.expr, item]));
+      if (cache) cache.set(index, formulaMap);
+      return formulaMap;
+    }
+    function gatePoolAt(rows, index, def, cache) {
+      const formulaMap = gateFormulaMapAt(rows, index, cache);
+      const formulas = def.exprs.map(expr => formulaMap.get(expr)).filter(Boolean);
+      const nums = [...new Set(formulas.map(item => gateText(item.value)))].sort((a, b) => Number(a) - Number(b));
+      return {formulas, nums, hit: index < rows.length && nums.includes(specialNum(rows[index]))};
+    }
+    function gateMetrics(rows, def, fromYear = '', cache) {
+      const hits = [];
+      let total = 0;
+      for (let i = 4; i < rows.length; i++) {
+        if (fromYear && displayYear(rows[i]) < String(fromYear)) continue;
+        const state = gatePoolAt(rows, i, def, cache);
+        hits[i] = state.hit;
+        if (state.hit) total++;
+      }
+      let starts = 0, pass2 = 0, pass3 = 0, best = 0, current = 0, runs = 0;
+      for (let i = 4; i < rows.length - 2; i++) {
+        if (fromYear && displayYear(rows[i]) < String(fromYear)) continue;
+        if (hits[i]) {
+          starts++;
+          if (hits[i + 1]) {
+            pass2++;
+            if (hits[i + 2]) pass3++;
+          }
+        }
+      }
+      for (let i = 4; i < rows.length; i++) {
+        if (fromYear && displayYear(rows[i]) < String(fromYear)) continue;
+        if (hits[i]) {
+          current++;
+          best = Math.max(best, current);
+        } else {
+          if (current >= 3) runs++;
+          current = 0;
+        }
+      }
+      if (current >= 3) runs++;
+      let stage = 0;
+      for (let i = rows.length - 1; i >= 4; i--) {
+        if (gatePoolAt(rows, i, def, cache).hit) stage++;
+        else break;
+      }
+      return {total, starts, pass2, pass3, pass2Rate: starts ? pass2 / starts : 0, pass3Rate: pass2 ? pass3 / pass2 : 0, best, runs, stage};
+    }
+    function gateAnalysis(source) {
+      const rows = gateSourceRows(source);
+      const latest = rows[rows.length - 1] || {};
+      const formulaCache = new Map();
+      const items = gatePoolDefs.map(def => {
+        const current = gatePoolAt(rows, rows.length, def, formulaCache);
+        const all = gateMetrics(rows, def, '', formulaCache);
+        const recent = gateMetrics(rows, def, 2024, formulaCache);
+        const score = (all.stage >= 2 ? 100 : all.stage === 1 ? 20 : 0) + all.runs * 15 + all.pass3 * 8 + all.pass3Rate * 40 + all.pass2Rate * 20;
+        return {...def, current, all, recent, score};
+      }).sort((a, b) => b.all.stage - a.all.stage || b.score - a.score);
+      const active = items.find(item => item.all.stage >= 2);
+      return {source, rows, latest, items, active, formulaCache};
+    }
+    function gateStageText(stage) {
+      if (stage >= 2) return '&#31532;&#19977;&#20851;&#35302;&#21457;';
+      if (stage === 1) return '&#31532;&#19968;&#20851;&#21518;&#35266;&#23519;';
+      return '&#26410;&#21551;&#21160;';
+    }
+    function gateRate(value) {
+      return `${(Number(value || 0) * 100).toFixed(1)}%`;
+    }
+    function gateFormulaHtml(item) {
+      return item.current.formulas.map(formula => `${esc(formula.expr)} = ${esc(formula.calc)} &#8594; ${numberChips([formula.value])}`).join('<br>');
+    }
+    function gateRowsHtml(items) {
+      return items.map(item => `<tr>
+        <td>${item.name}<br><span class="muted">${item.note}</span></td>
+        <td>${numberChips(item.current.nums)}</td>
+        <td class="${item.all.stage >= 2 ? 'result-hit' : item.all.stage === 1 ? '' : 'result-miss'}">${gateStageText(item.all.stage)}<br><span class="muted">${esc(item.all.stage)}&#36830;&#20013;</span></td>
+        <td>${esc(item.all.starts)} / ${esc(item.all.pass2)} / ${esc(item.all.pass3)}<br><span class="muted">&#31532;1&#20851; / &#36827;2&#20851; / &#36827;3&#20851;</span></td>
+        <td>${gateRate(item.all.pass2Rate)} / ${gateRate(item.all.pass3Rate)}</td>
+        <td>${gateRate(item.recent.pass2Rate)} / ${item.recent.pass2 ? gateRate(item.recent.pass3Rate) : '-'}</td>
+        <td>${esc(item.all.best)}&#36830;&#65292;${esc(item.all.runs)}&#27425;3&#36830;</td>
+        <td>${gateFormulaHtml(item)}</td>
+      </tr>`).join('');
+    }
+    function gateTraceRows(rows, def, cache, count = 8) {
+      const start = Math.max(4, rows.length - count);
+      const items = [];
+      for (let i = start; i < rows.length; i++) {
+        const state = gatePoolAt(rows, i, def, cache);
+        items.push(`<tr><td>${esc(rows[i].issue)}&#26399;<br><span class="muted">${esc(rows[i].date || '')}</span></td><td>${numberChips(state.nums)}</td><td>${numberChips([specialNum(rows[i])])}</td><td class="${state.hit ? 'result-hit' : 'result-miss'}">${state.hit ? '&#21629;&#20013;' : '&#26410;&#20013;'}</td><td>${state.formulas.map(formula => `${esc(formula.expr)} = ${esc(formula.calc)} &#8594; ${esc(gateText(formula.value))}`).join('<br>')}</td></tr>`);
+      }
+      return items.join('');
+    }
+    function renderGateChallenge() {
+      const selected = document.getElementById('gate-source')?.value || 'am';
+      const analysis = gateAnalysis(selected);
+      const sourceName = selected === 'hk' ? '&#39321;&#28207;' : '&#28595;&#38376;';
+      const active = analysis.active || analysis.items[0];
+      const decision = active?.all?.stage >= 2 ? '&#24403;&#21069;&#26377;2&#30721;&#31532;&#19977;&#20851;&#35302;&#21457;' : '&#24403;&#21069;&#27809;&#26377;&#31532;&#19977;&#20851;&#35302;&#21457;';
+      app.innerHTML = `<div class="grid">
+        <section class="panel full">
+          <div class="filters"><label>&#26469;&#28304;<select id="gate-source">${sourceOptions(selected)}</select></label></div>
+          <h2>&#38383;&#19977;&#20851;</h2>
+          <p class="muted">${sourceName}&#65292;&#20165;&#35266;&#23519;&#29305;&#21035;&#21495;&#20844;&#24335;&#27744;&#30340;&#36830;&#20013;&#29366;&#24577;&#12290;&#31532;2&#20851;&#36830;&#20013;&#21518;&#25165;&#35270;&#20026;&#31532;3&#20851;&#35302;&#21457;&#65292;&#19981;&#29992;&#20110;&#25237;&#27880;&#20445;&#35777;&#12290;</p>
+        </section>
+        <section class="panel wide"><h2>&#24403;&#21069;&#21028;&#26029;</h2><div class="metric">${decision}</div><p class="muted">&#26368;&#26032;&#24320;&#22870;&#65306;${esc(analysis.latest.issue || '-')}&#26399;&#65292;&#29305;&#21035;&#21495; ${numberChips([specialNum(analysis.latest)])}</p></section>
+        <section class="panel wide"><h2>&#24403;&#21069;&#20027;&#35266;&#23519;&#27744;</h2>${numberChips(active?.current?.nums || [])}<p class="muted">${active?.current?.formulas?.map(formula => `${esc(formula.expr)} = ${esc(formula.calc)} &#8594; ${esc(gateText(formula.value))}`).join('<br>') || '-'}</p></section>
+        <section class="panel full"><h2>&#38383;&#20851;&#27744;&#29366;&#24577;</h2><div class="table-scroll"><table class="compact-table"><thead><tr><th>&#31867;&#22411;</th><th>&#19979;&#26399;&#27744;</th><th>&#24403;&#21069;&#38454;&#27573;</th><th>&#21382;&#21490;&#38383;&#20851;</th><th>&#20840;&#21382;&#21490;&#36827;&#20851;</th><th>2024+&#36827;&#20851;</th><th>&#36830;&#20013;</th><th>&#35745;&#31639;&#36807;&#31243;</th></tr></thead><tbody>${gateRowsHtml(analysis.items)}</tbody></table></div></section>
+        <section class="panel full"><h2>&#20027;&#35266;&#23519;&#27744;&#26368;&#36817;&#36712;&#36857;</h2><div class="table-scroll"><table class="compact-table"><thead><tr><th>&#26399;&#21495;</th><th>&#24403;&#26399;&#27744;</th><th>&#23454;&#38469;&#29305;&#21495;</th><th>&#29366;&#24577;</th><th>&#20844;&#24335;</th></tr></thead><tbody>${gateTraceRows(analysis.rows, active || gatePoolDefs[0], analysis.formulaCache)}</tbody></table></div></section>
+      </div>`;
+      document.getElementById('gate-source').addEventListener('change', renderGateChallenge);
+    }
     function yearPoolHistoryTable(history) {
       const rows = (Array.isArray(history) ? history : []).slice(0, 10);
       if (!rows.length) return `<section class="panel full"><h2>&#35206;&#30422;&#27744;&#21464;&#26356;&#26085;&#24535;</h2><p class="muted">&#26242;&#26080;&#21464;&#26356;&#35760;&#24405;</p></section>`;
@@ -2023,6 +2211,9 @@
       historyPattern: async () => {
         historyPatternState = await ensureHistoryPatternData();
       },
+      gateChallenge: async () => {
+        await ensureRecordsData();
+      },
       patternWatch: async () => {
         await ensureRecordsData();
       },
@@ -2037,6 +2228,7 @@
       window5: renderWindow5,
       threeWindow5: renderThreeWindow5,
       historyPattern: renderHistoryPattern,
+      gateChallenge: renderGateChallenge,
       patternWatch: renderPatternWatch,
       manualFetch: renderManualFetch,
       daily: renderDaily,
