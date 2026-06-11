@@ -3,5 +3,7 @@ snapshots/
 test-output/
 test-data-output/
 test-sanzhong-output/
+worldcup*.png
+worldcup2026-update.log
 sample-source.html
 static/

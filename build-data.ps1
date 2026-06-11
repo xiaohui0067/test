@@ -1553,6 +1553,12 @@ function New-DashboardHtml {
     .betting-reasons li { margin: 3px 0; }
     .result-hit { color: #07860a; font-weight: 800; }
     .result-miss { color: #dc2626; font-weight: 800; }
+    .embedded-page { width: 100%; height: 1200px; border: 0; background: #fff; }
+    .worldcup-embed-panel { padding: 0; overflow: hidden; }
+    .history-year-group { border: 1px solid #e5e7eb; border-radius: 8px; margin-bottom: 10px; background: #fff; overflow: hidden; }
+    .history-year-group summary { cursor: pointer; padding: 10px 12px; font-weight: 700; background: #f8fafc; }
+    .history-year-group[open] summary { border-bottom: 1px solid #e5e7eb; }
+    .latest-draw-grid { display: grid; grid-template-columns: 160px 1fr 220px; gap: 12px; align-items: start; }
     @media (max-width: 820px) { .grid { grid-template-columns: 1fr; } .wide { grid-column: auto; } .copy-qr { grid-template-columns: 1fr; } .history-group summary { grid-template-columns: 1fr; } .change-summary-row { grid-template-columns: 1fr; } }
   </style>
 </head>
@@ -1566,6 +1572,8 @@ function New-DashboardHtml {
       <button class="active" data-tab="betting">&#19979;&#27880;&#25512;&#33616;</button>
       <button data-tab="games">&#25512;&#33616;&#22797;&#30424;</button>
       <button data-tab="overview">&#30475;&#26495;</button>
+      <button data-tab="worldcupAnalysis">&#19990;&#30028;&#26479;&#20998;&#26512;</button>
+      <button data-tab="historyPattern">&#21382;&#21490;&#35268;&#24459;&#35266;&#23519;</button>
       <button data-tab="window5">5&#26399;&#31383;&#21475;</button>
       <button data-tab="threeWindow5">&#19977;&#20013;&#19977;5&#26399;&#31383;&#21475;</button>
       <button data-tab="patternWatch">&#39640;&#32423;&#20998;&#26512;</button>
@@ -1586,6 +1594,7 @@ function New-DashboardHtml {
     let window5State = {items: []};
     let threeCompoundState = {items: []};
     let bettingSnapshots = {items: []};
+    let historyPatternState = {items: []};
     const threeWindowAnalysisCache = new Map();
     const threeWindowHtmlCache = new Map();
     const dashboardCacheVersion = String(Date.now());
@@ -3181,6 +3190,78 @@ function New-DashboardHtml {
       </div>`;
       document.getElementById('pattern-source').addEventListener('change', renderPatternWatch);
     }
+    function historyWindowLabel(win) {
+      return `${String(win.start).padStart(3, '0')}-${String(win.end).padStart(3, '0')}`;
+    }
+    function historyMissWindowsTable(windows, yearPools) {
+      const rows = asArray(windows).slice(0, 80);
+      if (!rows.length && !asArray(yearPools).length) return '<p class="muted">&#26242;&#26080;&#26410;&#35206;&#30422;&#30340;&#23436;&#25972;&#31383;&#21475;&#12290;</p>';
+      const historyYearPoolMap = new Map(asArray(yearPools).map(item => [String(item.year), item.pool || []]));
+      const historyYearGroups = new Map();
+      asArray(yearPools).forEach(item => historyYearGroups.set(String(item.year), []));
+      rows.forEach(win => {
+        const year = String(win.year || '-');
+        if (!historyYearGroups.has(year)) historyYearGroups.set(year, []);
+        historyYearGroups.get(year).push(win);
+      });
+      return [...historyYearGroups.entries()].sort((a, b) => b[0].localeCompare(a[0])).map(([year, items]) => {
+        const body = items.length ? `<div class="table-scroll"><table class="compact-table"><thead><tr><th>&#31383;&#21475;</th><th>&#24320;&#22870;&#25968;</th><th>&#31383;&#21475;&#29305;&#21035;&#21495;</th></tr></thead><tbody>${items.map(win => `<tr><td>${historyWindowLabel(win)}</td><td>${esc(win.count)}</td><td>${numberChips(win.nums)}</td></tr>`).join('')}</tbody></table></div>` : '<p class="muted">&#26242;&#26080;&#28431;&#31383;</p>';
+        return `<details class="history-year-group" open><summary>${esc(year)} &#24180;&#65306;${esc(items.length)} &#20010;&#26410;&#35206;&#30422;&#31383;&#21475; <span class="muted">&#22266;&#23450;8&#30721;</span> ${numberChips(historyYearPoolMap.get(year) || [])}</summary>${body}</details>`;
+      }).join('');
+    }
+    function buildHistorySpecialFixed8Analysis(source, range) {
+      const item = asArray(historyPatternState.items).find(row => row.source === source && row.range === range) || {};
+      return {...item, source, pool: item.pool || [], postWindowOptimalPool: item.postWindowOptimalPool || [], postWindowStats: item.postWindowStats || {}, yearPools: item.yearPools || [], misses: item.misses || [], currentYear: item.currentYear || '', range, rangeLabel: range === 'all' ? '&#20840;&#37096;&#21382;&#21490;' : `${item.currentYear || ''}&#24180;`, method: item.method || 'rolling-before-window-exact-49c8'};
+    }
+    function renderHistoryPattern() {
+      const selected = document.getElementById('history-pattern-source')?.value || 'am';
+      const range = document.getElementById('history-pattern-range')?.value || 'year';
+      const analysis = buildHistorySpecialFixed8Analysis(selected, range);
+      const latestDraw = analysis.latestDraw || {};
+      const currentWindow = analysis.currentWindow || {};
+      const postStats = analysis.postWindowStats || {};
+      const currentWindowLabel = currentWindow.start ? `${String(currentWindow.start).padStart(3, '0')}-${String(currentWindow.end).padStart(3, '0')}` : '-';
+      const currentWindowHits = asArray(currentWindow.hits);
+      const currentWindowDraws = asArray(currentWindow.draws);
+      const postWindowOptimal = currentWindow.postWindowOptimal || {};
+      const postWindowHits = asArray(postWindowOptimal.hits);
+      const reviewWindow = currentWindow.reviewWindow || null;
+      const currentWindowDetail = currentWindowHits.length
+        ? currentWindowHits.map(item => `${String(item.issue).padStart(3, '0')}&#26399; ${esc(item.num)}`).join('&#65292;')
+        : (currentWindowDraws.length ? `&#24050;&#24320;&#29305;&#21495;&#65306;${currentWindowDraws.map(item => `${String(item.issue).padStart(3, '0')}&#26399; ${esc(item.num)}`).join('&#65292;')}` : '&#24403;&#21069;&#31383;&#21475;&#26242;&#26080;&#24320;&#22870;');
+      const postWindowDetail = postWindowHits.length ? postWindowHits.map(item => `${String(item.issue).padStart(3, '0')}&#26399; ${esc(item.num)}`).join('&#65292;') : '-';
+      const reviewPostHits = asArray(reviewWindow?.postWindowOptimal?.hits);
+      const reviewHtml = reviewWindow ? `<p class="muted">&#19978;&#19968;&#31383;&#21475;&#22797;&#30424;&#65306;${String(reviewWindow.start).padStart(3, '0')}-${String(reviewWindow.end).padStart(3, '0')}&#65292;&#24320;&#22870;&#21069;${reviewWindow.covered ? '&#24050;&#35206;&#30422;' : '&#26410;&#35206;&#30422;'}&#65292;&#20107;&#21518;${reviewWindow.postWindowOptimal?.covered ? '&#24050;&#35206;&#30422;' : '&#26410;&#35206;&#30422;'}</p><p class="muted">&#19978;&#19968;&#31383;&#21475;&#20107;&#21518;&#21629;&#20013;&#65306;${reviewPostHits.length ? reviewPostHits.map(item => `${String(item.issue).padStart(3, '0')}&#26399; ${esc(item.num)}`).join('&#65292;') : '-'}</p>` : '';
+      const latestDrawHtml = latestDraw?.balls?.length ? `<section class="panel full latest-draw-board"><h2>&#26368;&#26032;&#24320;&#22870;</h2><div class="latest-draw-grid"><div><div class="metric">${esc(latestDraw.issue)}&#26399;</div><p class="muted">${esc(latestDraw.date)}</p></div><div><h3>&#27491;&#30721;</h3>${ballsHtml(asArray(latestDraw.regular), true)}</div><div><h3>&#29305;&#21035;&#21495;</h3>${ballsHtml(latestDraw.special ? [latestDraw.special] : [], true)}</div></div></section>` : '';
+      app.innerHTML = `<div class="grid">
+        <section class="panel full">
+          <div class="filters">
+            <label>&#26469;&#28304;<select id="history-pattern-source">${sourceOptions(selected)}</select></label>
+            <label>&#35266;&#23519;&#33539;&#22260;<select id="history-pattern-range"><option value="year" ${range === 'year' ? 'selected' : ''}>&#24403;&#24180;</option><option value="all" ${range === 'all' ? 'selected' : ''}>&#20840;&#37096;&#21382;&#21490;</option></select></label>
+          </div>
+        </section>
+        ${latestDrawHtml}
+        <section class="panel full">
+          <h2>&#21382;&#21490;&#35268;&#24459;&#35266;&#23519;</h2>
+          <p class="muted">&#29305;&#21035;&#21495;&#22266;&#23450;8&#30721;&#65292;&#25353;001-005&#12289;006-010&#12289;011-015&#12289;016-020...&#22266;&#23450;5&#26399;&#31383;&#21475;&#22238;&#27979;&#35206;&#30422;&#29575;&#12290;</p>
+        </section>
+        <section class="panel full">
+          <h2>&#29305;&#21035;&#21495;&#24320;&#22870;&#21069;&#28378;&#21160;8&#30721;</h2>
+          <div class="grid">
+            <section class="panel"><h2>&#26368;&#26032;&#24320;&#22870;&#21069;8&#30721;</h2>${numberChips(analysis.pool)}<p class="muted">${analysis.rangeLabel}&#65292;&#27599;&#20010;&#23436;&#25972;5&#26399;&#31383;&#21475;&#37117;&#29992;&#31383;&#21475;&#24320;&#22987;&#21069;&#30340;&#25968;&#25454;&#35745;&#31639;8&#30721;&#39564;&#35777;</p>${analysis.postWindowOptimalPool ? `<p class="muted">&#20107;&#21518;&#26368;&#20248;8&#30721; ${numberChips(analysis.postWindowOptimalPool)}</p>` : ''}</section>
+            <section class="panel"><h2>&#35206;&#30422;&#29575;&#23545;&#27604;</h2><div class="metric">${esc(analysis.hitRate)}%</div><p class="muted">&#28378;&#21160;&#65306;${esc(analysis.covered)} / ${esc(analysis.total)} &#20010;&#23436;&#25972;&#31383;&#21475;</p><p class="muted">&#20107;&#21518;&#35206;&#30422;&#29575;&#65306;${esc(postStats.hitRate ?? 0)}%&#65292;${esc(postStats.covered ?? 0)} / ${esc(postStats.total ?? 0)}</p></section>
+            <section class="panel"><h2>&#28431;&#31383;&#23545;&#27604;</h2><div class="metric">${esc(analysis.misses.length)}</div><p class="muted">&#28378;&#21160;&#65306;&#24403;&#21069; ${esc(analysis.currentMiss)}&#65292;&#26368;&#22823; ${esc(analysis.maxMiss)}</p><p class="muted">&#20107;&#21518;&#28431;&#31383;&#65306;${esc(asArray(postStats.misses).length)}&#65292;&#24403;&#21069; ${esc(postStats.currentMiss ?? 0)}&#65292;&#26368;&#22823; ${esc(postStats.maxMiss ?? 0)}</p></section>
+            <section class="panel"><h2>&#24403;&#21069;&#31383;&#21475;</h2><div class="metric">${esc(currentWindowLabel)}</div><p class="muted">&#24050;&#24320; ${esc(currentWindow.count || 0)} / ${esc(currentWindow.expected || 5)} &#26399;&#65292;${currentWindow.covered ? '&#24050;&#35206;&#30422;' : '&#26410;&#35206;&#30422;'}</p><p class="muted">&#24320;&#22870;&#21069;&#21629;&#20013;&#65306;${currentWindowDetail}</p><p class="muted">&#20107;&#21518;&#35206;&#30422;&#65306;${postWindowOptimal.covered ? '&#24050;&#35206;&#30422;' : '&#26410;&#35206;&#30422;'}</p><p class="muted">&#20107;&#21518;&#21629;&#20013;&#65306;${postWindowDetail}</p>${reviewHtml}</section>
+          </div>
+        </section>
+        <section class="panel full">
+          <h2>&#26410;&#35206;&#30422;&#31383;&#21475;</h2>
+          ${historyMissWindowsTable(analysis.misses, analysis.yearPools)}
+        </section>
+      </div>`;
+      document.getElementById('history-pattern-source').addEventListener('change', renderHistoryPattern);
+      document.getElementById('history-pattern-range').addEventListener('change', renderHistoryPattern);
+    }
     function renderDaily() {
       const selected = document.getElementById('daily-source')?.value || 'am';
       const selectedSummary = sourceSummary(selected);
@@ -3269,11 +3350,31 @@ function New-DashboardHtml {
       document.getElementById('manual-fetch-source').addEventListener('change', renderManualFetch);
       document.getElementById('manual-fetch-submit').addEventListener('click', triggerManualFetch);
     }
+    function renderWorldcupAnalysis() {
+      app.innerHTML = `<section class="panel full worldcup-embed-panel"><iframe id="worldcup-frame" class="embedded-page" src="worldcup2026-dashboard.html" title="2026 World Cup analysis"></iframe></section>`;
+      const frame = document.getElementById('worldcup-frame');
+      const resizeFrame = () => {
+        try {
+          const doc = frame.contentDocument || frame.contentWindow?.document;
+          if (!doc) return;
+          const height = Math.max(doc.documentElement?.scrollHeight || 0, doc.body?.scrollHeight || 0, 720);
+          frame.style.height = `${height}px`;
+        } catch (_) {
+          frame.style.height = '1200px';
+        }
+      };
+      frame.addEventListener('load', () => {
+        resizeFrame();
+        setTimeout(resizeFrame, 300);
+        setTimeout(resizeFrame, 1200);
+      });
+    }
     let recordsDataPromise = null;
     let gamePredictionsPromise = null;
     let window5Promise = null;
     let threeCompoundPromise = null;
     let bettingSnapshotsPromise = null;
+    let historyPatternPromise = null;
     function cacheBustUrl(src) {
       const separator = src.includes('?') ? '&' : '?';
       return `${src}${separator}v=${encodeURIComponent(dashboardCacheVersion)}`;
@@ -3355,6 +3456,16 @@ function New-DashboardHtml {
       }
       return bettingSnapshotsPromise;
     }
+    async function ensureHistoryPatternData() {
+      if (historyPatternState?.items?.length) return historyPatternState;
+      if (!historyPatternPromise) {
+        historyPatternPromise = loadJsonOrScript('data/history-pattern-state.json', 'data/history-pattern-state.js', '__HISTORY_PATTERN_STATE__').then(data => {
+          historyPatternState = data || {items: []};
+          return historyPatternState;
+        });
+      }
+      return historyPatternPromise;
+    }
     const tabDataLoaders = {
       betting: async () => {
         await ensureRecordsData();
@@ -3373,6 +3484,9 @@ function New-DashboardHtml {
       threeWindow5: async () => {
         threeCompoundState = await ensureThreeCompoundData();
       },
+      historyPattern: async () => {
+        historyPatternState = await ensureHistoryPatternData();
+      },
       patternWatch: async () => {
         await ensureRecordsData();
       },
@@ -3386,9 +3500,11 @@ function New-DashboardHtml {
       games: renderGames,
       window5: renderWindow5,
       threeWindow5: renderThreeWindow5,
+      historyPattern: renderHistoryPattern,
       patternWatch: renderPatternWatch,
       manualFetch: renderManualFetch,
-      daily: renderDaily
+      daily: renderDaily,
+      worldcupAnalysis: renderWorldcupAnalysis
     };
     function showLoading(tab) {
       const label = document.querySelector(`.tabs button[data-tab="${tab}"]`)?.textContent || '';
@@ -3571,6 +3687,16 @@ if (Test-Path -LiteralPath $threeCompoundScript) {
     } | Out-Null
     Invoke-Profiled 'write-three-compound-js' {
         Write-DataJsFromJsonFile -JsonPath $threeCompoundPath -GlobalName '__THREE_COMPOUND_STATE__'
+    } | Out-Null
+}
+$historyPatternPath = Join-Path $dataDir 'history-pattern-state.json'
+$historyPatternScript = Join-Path $PSScriptRoot 'build-history-pattern.py'
+if (Test-Path -LiteralPath $historyPatternScript) {
+    Invoke-Profiled 'history-pattern-python' {
+        & python $historyPatternScript $RootDir $summary.generatedAt | Out-Null
+    } | Out-Null
+    Invoke-Profiled 'write-history-pattern-js' {
+        Write-DataJsFromJsonFile -JsonPath $historyPatternPath -GlobalName '__HISTORY_PATTERN_STATE__'
     } | Out-Null
 }
 $threeCompoundStateForSnapshots = [pscustomobject]@{ items = @() }
