@@ -1,12 +1,12 @@
 window.__THREE_COMPOUND_STATE__ = {
-  "generatedAt": "2026-07-01 16:11:16",
+  "generatedAt": "2026-07-01 16:16:34",
   "items": [
     {
       "source": "am",
       "year": "2026",
       "latestIssue": 182,
-      "computedAt": "2026-07-01 16:11:16",
-      "status": "changed",
+      "computedAt": "2026-07-01 16:16:34",
+      "status": "cached",
       "pools": [
         {
           "poolSize": 5,
@@ -649,7 +649,7 @@ window.__THREE_COMPOUND_STATE__ = {
           "healthStatus": "downrank-observe",
           "healthReason": "two-completed-window-misses",
           "computedBy": "python-local-search",
-          "status": "changed",
+          "status": "cached",
           "changeTime": "2026-07-01 16:11:16",
           "changeHistory": [
             {
@@ -1661,7 +1661,7 @@ window.__THREE_COMPOUND_STATE__ = {
           "healthStatus": "downrank-observe",
           "healthReason": "two-completed-window-misses",
           "computedBy": "python-local-search",
-          "status": "changed",
+          "status": "cached",
           "changeTime": "2026-07-01 16:11:16",
           "changeHistory": [
             {
@@ -2836,7 +2836,7 @@ window.__THREE_COMPOUND_STATE__ = {
           "healthStatus": "normal-observe",
           "healthReason": "compound-window-stable",
           "computedBy": "python-local-search",
-          "status": "changed",
+          "status": "cached",
           "changeTime": "2026-07-01 16:11:16",
           "changeHistory": [
             {
@@ -4263,7 +4263,7 @@ window.__THREE_COMPOUND_STATE__ = {
           "healthStatus": "normal-observe",
           "healthReason": "compound-window-stable",
           "computedBy": "python-local-search",
-          "status": "changed",
+          "status": "cached",
           "changeTime": "2026-07-01 16:11:16",
           "changeHistory": [
             {
@@ -7343,7 +7343,7 @@ window.__THREE_COMPOUND_STATE__ = {
             "46"
           ],
           "computedBy": "python-local-search",
-          "status": "no-change",
+          "status": "cached",
           "changeTime": "2026-06-04 23:09:50",
           "changeHistory": [
             {
@@ -10476,7 +10476,7 @@ window.__THREE_COMPOUND_STATE__ = {
             "46"
           ],
           "computedBy": "python-local-search",
-          "status": "no-change",
+          "status": "cached",
           "changeTime": "2026-06-04 23:09:50",
           "changeHistory": [
             {
@@ -14321,7 +14321,7 @@ window.__THREE_COMPOUND_STATE__ = {
             "46"
           ],
           "computedBy": "python-local-search",
-          "status": "changed",
+          "status": "cached",
           "changeTime": "2026-07-01 16:11:16",
           "changeHistory": [
             {
@@ -19621,7 +19621,7 @@ window.__THREE_COMPOUND_STATE__ = {
             "42"
           ],
           "computedBy": "python-local-search",
-          "status": "changed",
+          "status": "cached",
           "changeTime": "2026-07-01 16:11:16",
           "changeHistory": [
             {
@@ -20816,7 +20816,7 @@ window.__THREE_COMPOUND_STATE__ = {
       "source": "hk",
       "year": "2026",
       "latestIssue": 70,
-      "computedAt": "2026-07-01 16:11:16",
+      "computedAt": "2026-07-01 16:16:34",
       "status": "cached",
       "pools": [
         {
