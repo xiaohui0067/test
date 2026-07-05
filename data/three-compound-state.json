@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-07-05 15:02:49",
+  "generatedAt": "2026-07-05 15:21:36",
   "items": [
     {
       "source": "am",
       "year": "2026",
       "latestIssue": 186,
-      "computedAt": "2026-07-05 15:02:49",
-      "status": "changed",
+      "computedAt": "2026-07-05 15:21:36",
+      "status": "cached",
       "pools": [
         {
           "poolSize": 5,
@@ -663,7 +663,7 @@
           "healthStatus": "downrank-observe",
           "healthReason": "recent-coverage-below-year",
           "computedBy": "python-local-search",
-          "status": "changed",
+          "status": "cached",
           "changeTime": "2026-07-05 15:02:49",
           "changeHistory": [
             {
@@ -1831,7 +1831,7 @@
           "healthStatus": "downrank-observe",
           "healthReason": "two-completed-window-misses",
           "computedBy": "python-local-search",
-          "status": "changed",
+          "status": "cached",
           "changeTime": "2026-07-05 15:02:49",
           "changeHistory": [
             {
@@ -3174,7 +3174,7 @@
           "healthStatus": "normal-observe",
           "healthReason": "compound-window-stable",
           "computedBy": "python-local-search",
-          "status": "changed",
+          "status": "cached",
           "changeTime": "2026-07-05 15:02:49",
           "changeHistory": [
             {
@@ -4778,7 +4778,7 @@
           "healthStatus": "normal-observe",
           "healthReason": "compound-window-stable",
           "computedBy": "python-local-search",
-          "status": "changed",
+          "status": "cached",
           "changeTime": "2026-07-05 15:02:49",
           "changeHistory": [
             {
@@ -8066,7 +8066,7 @@
             "46"
           ],
           "computedBy": "python-local-search",
-          "status": "no-change",
+          "status": "cached",
           "changeTime": "2026-06-04 23:09:50",
           "changeHistory": [
             {
@@ -11258,7 +11258,7 @@
             "46"
           ],
           "computedBy": "python-local-search",
-          "status": "no-change",
+          "status": "cached",
           "changeTime": "2026-06-04 23:09:50",
           "changeHistory": [
             {
@@ -15045,7 +15045,7 @@
             "46"
           ],
           "computedBy": "python-local-search",
-          "status": "changed",
+          "status": "cached",
           "changeTime": "2026-07-05 15:02:49",
           "changeHistory": [
             {
@@ -20545,7 +20545,7 @@
             "45"
           ],
           "computedBy": "python-local-search",
-          "status": "changed",
+          "status": "cached",
           "changeTime": "2026-07-05 15:02:49",
           "changeHistory": [
             {
@@ -21948,8 +21948,8 @@
       "source": "hk",
       "year": "2026",
       "latestIssue": 72,
-      "computedAt": "2026-07-05 15:02:49",
-      "status": "changed",
+      "computedAt": "2026-07-05 15:21:36",
+      "status": "cached",
       "pools": [
         {
           "poolSize": 5,
@@ -22254,7 +22254,7 @@
           "healthStatus": "downrank-observe",
           "healthReason": "two-completed-window-misses",
           "computedBy": "python-local-search",
-          "status": "changed",
+          "status": "cached",
           "changeTime": "2026-07-05 15:02:49",
           "changeHistory": [
             {
@@ -23020,7 +23020,7 @@
           "healthStatus": "downrank-observe",
           "healthReason": "two-completed-window-misses",
           "computedBy": "python-local-search",
-          "status": "changed",
+          "status": "cached",
           "changeTime": "2026-07-05 15:02:49",
           "changeHistory": [
             {
@@ -23727,7 +23727,7 @@
           "healthStatus": "normal-observe",
           "healthReason": "compound-window-stable",
           "computedBy": "python-local-search",
-          "status": "changed",
+          "status": "cached",
           "changeTime": "2026-07-05 15:02:49",
           "changeHistory": [
             {
@@ -24651,7 +24651,7 @@
           "healthStatus": "normal-observe",
           "healthReason": "compound-window-stable",
           "computedBy": "python-local-search",
-          "status": "changed",
+          "status": "cached",
           "changeTime": "2026-07-05 15:02:49",
           "changeHistory": [
             {
@@ -26353,7 +26353,7 @@
             "32"
           ],
           "computedBy": "python-local-search",
-          "status": "no-change",
+          "status": "cached",
           "changeTime": "2026-06-12 02:33:00",
           "changeHistory": [
             {
@@ -27792,7 +27792,7 @@
             "32"
           ],
           "computedBy": "python-local-search",
-          "status": "no-change",
+          "status": "cached",
           "changeTime": "2026-06-04 23:09:50",
           "changeHistory": [
             {
@@ -29315,7 +29315,7 @@
             "44"
           ],
           "computedBy": "python-local-search",
-          "status": "no-change",
+          "status": "cached",
           "changeTime": "2026-07-02 15:56:23",
           "changeHistory": [
             {
@@ -31628,7 +31628,7 @@
             "45"
           ],
           "computedBy": "python-local-search",
-          "status": "no-change",
+          "status": "cached",
           "changeTime": "2026-06-12 02:33:00",
           "changeHistory": [
             {
