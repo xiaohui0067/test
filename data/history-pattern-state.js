@@ -1,5 +1,5 @@
 window.__HISTORY_PATTERN_STATE__ = {
-  "generatedAt": "2026-08-08 14:47:28",
+  "generatedAt": "2026-08-09 14:19:37",
   "items": [
     {
       "source": "am",
@@ -703,112 +703,112 @@ window.__HISTORY_PATTERN_STATE__ = {
       "exact": true,
       "method": "rolling-before-window-exact-or-greedy-49c8",
       "validationMode": "rolling-before-window",
-      "computedAt": "2026-08-08 14:47:28",
+      "computedAt": "2026-08-09 14:19:37",
       "latestDraw": {
-        "issue": 220,
-        "date": "2026-08-08",
+        "issue": 221,
+        "date": "2026-08-09",
         "year": "2026",
         "balls": [
           {
             "index": 0,
-            "numberText": "27",
-            "zodiac": "龙",
-            "color": "green",
-            "colorName": "绿"
-          },
-          {
-            "index": 1,
-            "numberText": "39",
-            "zodiac": "龙",
-            "color": "green",
-            "colorName": "绿"
-          },
-          {
-            "index": 2,
-            "numberText": "04",
-            "zodiac": "兔",
-            "color": "blue",
-            "colorName": "蓝"
-          },
-          {
-            "index": 3,
-            "numberText": "12",
+            "numberText": "24",
             "zodiac": "羊",
             "color": "red",
             "colorName": "红"
           },
           {
-            "index": 4,
-            "numberText": "38",
+            "index": 1,
+            "numberText": "14",
             "zodiac": "蛇",
-            "color": "green",
-            "colorName": "绿"
-          },
-          {
-            "index": 5,
-            "numberText": "25",
-            "zodiac": "马",
             "color": "blue",
             "colorName": "蓝"
           },
           {
-            "index": 6,
+            "index": 2,
+            "numberText": "18",
+            "zodiac": "牛",
+            "color": "red",
+            "colorName": "红"
+          },
+          {
+            "index": 3,
             "numberText": "48",
             "zodiac": "羊",
             "color": "blue",
             "colorName": "蓝"
+          },
+          {
+            "index": 4,
+            "numberText": "46",
+            "zodiac": "鸡",
+            "color": "red",
+            "colorName": "红"
+          },
+          {
+            "index": 5,
+            "numberText": "28",
+            "zodiac": "兔",
+            "color": "green",
+            "colorName": "绿"
+          },
+          {
+            "index": 6,
+            "numberText": "01",
+            "zodiac": "马",
+            "color": "red",
+            "colorName": "红"
           }
         ],
         "regular": [
           {
             "index": 0,
-            "numberText": "27",
-            "zodiac": "龙",
-            "color": "green",
-            "colorName": "绿"
-          },
-          {
-            "index": 1,
-            "numberText": "39",
-            "zodiac": "龙",
-            "color": "green",
-            "colorName": "绿"
-          },
-          {
-            "index": 2,
-            "numberText": "04",
-            "zodiac": "兔",
-            "color": "blue",
-            "colorName": "蓝"
-          },
-          {
-            "index": 3,
-            "numberText": "12",
+            "numberText": "24",
             "zodiac": "羊",
             "color": "red",
             "colorName": "红"
           },
           {
-            "index": 4,
-            "numberText": "38",
+            "index": 1,
+            "numberText": "14",
             "zodiac": "蛇",
-            "color": "green",
-            "colorName": "绿"
+            "color": "blue",
+            "colorName": "蓝"
+          },
+          {
+            "index": 2,
+            "numberText": "18",
+            "zodiac": "牛",
+            "color": "red",
+            "colorName": "红"
+          },
+          {
+            "index": 3,
+            "numberText": "48",
+            "zodiac": "羊",
+            "color": "blue",
+            "colorName": "蓝"
+          },
+          {
+            "index": 4,
+            "numberText": "46",
+            "zodiac": "鸡",
+            "color": "red",
+            "colorName": "红"
           },
           {
             "index": 5,
-            "numberText": "25",
-            "zodiac": "马",
-            "color": "blue",
-            "colorName": "蓝"
+            "numberText": "28",
+            "zodiac": "兔",
+            "color": "green",
+            "colorName": "绿"
           }
         ],
         "special": {
           "index": 6,
-          "numberText": "48",
-          "zodiac": "羊",
-          "color": "blue",
-          "colorName": "蓝"
+          "numberText": "01",
+          "zodiac": "马",
+          "color": "red",
+          "colorName": "红"
         }
       },
       "yearPools": [
@@ -836,9 +836,9 @@ window.__HISTORY_PATTERN_STATE__ = {
         "year": "2026",
         "start": 221,
         "end": 225,
-        "count": 0,
+        "count": 1,
         "expected": 5,
-        "covered": false,
+        "covered": true,
         "pool": [
           "01",
           "03",
@@ -850,65 +850,8 @@ window.__HISTORY_PATTERN_STATE__ = {
           "49"
         ],
         "poolBasis": "before-current-window",
-        "displayMode": "next-window",
-        "reviewWindow": {
-          "year": "2026",
-          "start": 216,
-          "end": 220,
-          "count": 5,
-          "expected": 5,
-          "nums": [
-            "17",
-            "26",
-            "37",
-            "43",
-            "48"
-          ],
-          "covered": false,
-          "pool": [
-            "01",
-            "03",
-            "05",
-            "06",
-            "07",
-            "09",
-            "28",
-            "49"
-          ],
-          "poolBasis": "before-review-window",
-          "hits": [],
-          "draws": [
-            {
-              "issue": 216,
-              "date": "2026-08-04",
-              "num": "37"
-            },
-            {
-              "issue": 217,
-              "date": "2026-08-05",
-              "num": "26"
-            },
-            {
-              "issue": 218,
-              "date": "2026-08-06",
-              "num": "17"
-            },
-            {
-              "issue": 219,
-              "date": "2026-08-07",
-              "num": "43"
-            },
-            {
-              "issue": 220,
-              "date": "2026-08-08",
-              "num": "48"
-            }
-          ],
-          "postWindowOptimal": {
-            "covered": false,
-            "hits": []
-          }
-        },
+        "displayMode": "active-window",
+        "reviewWindow": null,
         "postWindowOptimal": {
           "pool": [
             "01",
@@ -920,11 +863,29 @@ window.__HISTORY_PATTERN_STATE__ = {
             "28",
             "49"
           ],
-          "covered": false,
-          "hits": []
+          "covered": true,
+          "hits": [
+            {
+              "issue": 221,
+              "date": "2026-08-09",
+              "num": "01"
+            }
+          ]
         },
-        "hits": [],
-        "draws": []
+        "hits": [
+          {
+            "issue": 221,
+            "date": "2026-08-09",
+            "num": "01"
+          }
+        ],
+        "draws": [
+          {
+            "issue": 221,
+            "date": "2026-08-09",
+            "num": "01"
+          }
+        ]
       },
       "rollingWindows": [
         {
@@ -11832,112 +11793,112 @@ window.__HISTORY_PATTERN_STATE__ = {
       "exact": false,
       "method": "rolling-before-window-exact-or-greedy-49c8",
       "validationMode": "rolling-before-window",
-      "computedAt": "2026-08-08 14:47:28",
+      "computedAt": "2026-08-09 14:19:37",
       "latestDraw": {
-        "issue": 220,
-        "date": "2026-08-08",
+        "issue": 221,
+        "date": "2026-08-09",
         "year": "2026",
         "balls": [
           {
             "index": 0,
-            "numberText": "27",
-            "zodiac": "龙",
-            "color": "green",
-            "colorName": "绿"
-          },
-          {
-            "index": 1,
-            "numberText": "39",
-            "zodiac": "龙",
-            "color": "green",
-            "colorName": "绿"
-          },
-          {
-            "index": 2,
-            "numberText": "04",
-            "zodiac": "兔",
-            "color": "blue",
-            "colorName": "蓝"
-          },
-          {
-            "index": 3,
-            "numberText": "12",
+            "numberText": "24",
             "zodiac": "羊",
             "color": "red",
             "colorName": "红"
           },
           {
-            "index": 4,
-            "numberText": "38",
+            "index": 1,
+            "numberText": "14",
             "zodiac": "蛇",
-            "color": "green",
-            "colorName": "绿"
-          },
-          {
-            "index": 5,
-            "numberText": "25",
-            "zodiac": "马",
             "color": "blue",
             "colorName": "蓝"
           },
           {
-            "index": 6,
+            "index": 2,
+            "numberText": "18",
+            "zodiac": "牛",
+            "color": "red",
+            "colorName": "红"
+          },
+          {
+            "index": 3,
             "numberText": "48",
             "zodiac": "羊",
             "color": "blue",
             "colorName": "蓝"
+          },
+          {
+            "index": 4,
+            "numberText": "46",
+            "zodiac": "鸡",
+            "color": "red",
+            "colorName": "红"
+          },
+          {
+            "index": 5,
+            "numberText": "28",
+            "zodiac": "兔",
+            "color": "green",
+            "colorName": "绿"
+          },
+          {
+            "index": 6,
+            "numberText": "01",
+            "zodiac": "马",
+            "color": "red",
+            "colorName": "红"
           }
         ],
         "regular": [
           {
             "index": 0,
-            "numberText": "27",
-            "zodiac": "龙",
-            "color": "green",
-            "colorName": "绿"
-          },
-          {
-            "index": 1,
-            "numberText": "39",
-            "zodiac": "龙",
-            "color": "green",
-            "colorName": "绿"
-          },
-          {
-            "index": 2,
-            "numberText": "04",
-            "zodiac": "兔",
-            "color": "blue",
-            "colorName": "蓝"
-          },
-          {
-            "index": 3,
-            "numberText": "12",
+            "numberText": "24",
             "zodiac": "羊",
             "color": "red",
             "colorName": "红"
           },
           {
-            "index": 4,
-            "numberText": "38",
+            "index": 1,
+            "numberText": "14",
             "zodiac": "蛇",
-            "color": "green",
-            "colorName": "绿"
+            "color": "blue",
+            "colorName": "蓝"
+          },
+          {
+            "index": 2,
+            "numberText": "18",
+            "zodiac": "牛",
+            "color": "red",
+            "colorName": "红"
+          },
+          {
+            "index": 3,
+            "numberText": "48",
+            "zodiac": "羊",
+            "color": "blue",
+            "colorName": "蓝"
+          },
+          {
+            "index": 4,
+            "numberText": "46",
+            "zodiac": "鸡",
+            "color": "red",
+            "colorName": "红"
           },
           {
             "index": 5,
-            "numberText": "25",
-            "zodiac": "马",
-            "color": "blue",
-            "colorName": "蓝"
+            "numberText": "28",
+            "zodiac": "兔",
+            "color": "green",
+            "colorName": "绿"
           }
         ],
         "special": {
           "index": 6,
-          "numberText": "48",
-          "zodiac": "羊",
-          "color": "blue",
-          "colorName": "蓝"
+          "numberText": "01",
+          "zodiac": "马",
+          "color": "red",
+          "colorName": "红"
         }
       },
       "yearPools": [
@@ -12079,9 +12040,9 @@ window.__HISTORY_PATTERN_STATE__ = {
         "year": "2026",
         "start": 221,
         "end": 225,
-        "count": 0,
+        "count": 1,
         "expected": 5,
-        "covered": false,
+        "covered": true,
         "pool": [
           "39",
           "49",
@@ -12093,77 +12054,8 @@ window.__HISTORY_PATTERN_STATE__ = {
           "03"
         ],
         "poolBasis": "before-current-window",
-        "displayMode": "next-window",
-        "reviewWindow": {
-          "year": "2026",
-          "start": 216,
-          "end": 220,
-          "count": 5,
-          "expected": 5,
-          "nums": [
-            "17",
-            "26",
-            "37",
-            "43",
-            "48"
-          ],
-          "covered": true,
-          "pool": [
-            "39",
-            "49",
-            "01",
-            "06",
-            "48",
-            "14",
-            "05",
-            "03"
-          ],
-          "poolBasis": "before-review-window",
-          "hits": [
-            {
-              "issue": 220,
-              "date": "2026-08-08",
-              "num": "48"
-            }
-          ],
-          "draws": [
-            {
-              "issue": 216,
-              "date": "2026-08-04",
-              "num": "37"
-            },
-            {
-              "issue": 217,
-              "date": "2026-08-05",
-              "num": "26"
-            },
-            {
-              "issue": 218,
-              "date": "2026-08-06",
-              "num": "17"
-            },
-            {
-              "issue": 219,
-              "date": "2026-08-07",
-              "num": "43"
-            },
-            {
-              "issue": 220,
-              "date": "2026-08-08",
-              "num": "48"
-            }
-          ],
-          "postWindowOptimal": {
-            "covered": true,
-            "hits": [
-              {
-                "issue": 220,
-                "date": "2026-08-08",
-                "num": "48"
-              }
-            ]
-          }
-        },
+        "displayMode": "active-window",
+        "reviewWindow": null,
         "postWindowOptimal": {
           "pool": [
             "39",
@@ -12175,11 +12067,29 @@ window.__HISTORY_PATTERN_STATE__ = {
             "05",
             "03"
           ],
-          "covered": false,
-          "hits": []
+          "covered": true,
+          "hits": [
+            {
+              "issue": 221,
+              "date": "2026-08-09",
+              "num": "01"
+            }
+          ]
         },
-        "hits": [],
-        "draws": []
+        "hits": [
+          {
+            "issue": 221,
+            "date": "2026-08-09",
+            "num": "01"
+          }
+        ],
+        "draws": [
+          {
+            "issue": 221,
+            "date": "2026-08-09",
+            "num": "01"
+          }
+        ]
       },
       "rollingWindows": [
         {
@@ -41634,7 +41544,7 @@ window.__HISTORY_PATTERN_STATE__ = {
       "exact": true,
       "method": "rolling-before-window-exact-or-greedy-49c8",
       "validationMode": "rolling-before-window",
-      "computedAt": "2026-08-08 14:47:28",
+      "computedAt": "2026-08-09 14:19:37",
       "latestDraw": {
         "issue": 86,
         "date": "2026-08-08",
@@ -45506,7 +45416,7 @@ window.__HISTORY_PATTERN_STATE__ = {
       "exact": false,
       "method": "rolling-before-window-exact-or-greedy-49c8",
       "validationMode": "rolling-before-window",
-      "computedAt": "2026-08-08 14:47:28",
+      "computedAt": "2026-08-09 14:19:37",
       "latestDraw": {
         "issue": 86,
         "date": "2026-08-08",
