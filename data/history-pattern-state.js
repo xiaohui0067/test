@@ -1,5 +1,5 @@
 window.__HISTORY_PATTERN_STATE__ = {
-  "generatedAt": "2026-08-10 14:50:43",
+  "generatedAt": "2026-08-10 15:09:47",
   "items": [
     {
       "source": "am",
@@ -703,7 +703,7 @@ window.__HISTORY_PATTERN_STATE__ = {
       "exact": true,
       "method": "rolling-before-window-exact-or-greedy-49c8",
       "validationMode": "rolling-before-window",
-      "computedAt": "2026-08-10 14:50:43",
+      "computedAt": "2026-08-10 15:09:47",
       "latestDraw": {
         "issue": 222,
         "date": "2026-08-10",
@@ -11798,7 +11798,7 @@ window.__HISTORY_PATTERN_STATE__ = {
       "exact": false,
       "method": "rolling-before-window-exact-or-greedy-49c8",
       "validationMode": "rolling-before-window",
-      "computedAt": "2026-08-10 14:50:43",
+      "computedAt": "2026-08-10 15:09:47",
       "latestDraw": {
         "issue": 222,
         "date": "2026-08-10",
@@ -41554,7 +41554,7 @@ window.__HISTORY_PATTERN_STATE__ = {
       "exact": true,
       "method": "rolling-before-window-exact-or-greedy-49c8",
       "validationMode": "rolling-before-window",
-      "computedAt": "2026-08-10 14:50:43",
+      "computedAt": "2026-08-10 15:09:47",
       "latestDraw": {
         "issue": 86,
         "date": "2026-08-08",
@@ -45426,7 +45426,7 @@ window.__HISTORY_PATTERN_STATE__ = {
       "exact": false,
       "method": "rolling-before-window-exact-or-greedy-49c8",
       "validationMode": "rolling-before-window",
-      "computedAt": "2026-08-10 14:50:43",
+      "computedAt": "2026-08-10 15:09:47",
       "latestDraw": {
         "issue": 86,
         "date": "2026-08-08",
