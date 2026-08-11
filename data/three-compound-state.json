@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-08-10 15:14:22",
+  "generatedAt": "2026-08-11 14:43:32",
   "items": [
     {
       "source": "am",
       "year": "2026",
-      "latestIssue": 222,
-      "computedAt": "2026-08-10 15:14:22",
-      "status": "cached",
+      "latestIssue": 223,
+      "computedAt": "2026-08-11 14:43:32",
+      "status": "changed",
       "pools": [
         {
           "poolSize": 5,
@@ -25,10 +25,10 @@
               "hits": [],
               "covered": false,
               "poolSnapshot": [
-                "06",
-                "29",
-                "38",
+                "25",
+                "37",
                 "40",
+                "42",
                 "46"
               ]
             },
@@ -39,10 +39,10 @@
               "hits": [],
               "covered": false,
               "poolSnapshot": [
-                "06",
-                "29",
-                "38",
+                "25",
+                "37",
                 "40",
+                "42",
                 "46"
               ]
             },
@@ -53,10 +53,10 @@
               "hits": [],
               "covered": false,
               "poolSnapshot": [
-                "06",
-                "29",
-                "38",
+                "25",
+                "37",
                 "40",
+                "42",
                 "46"
               ]
             },
@@ -64,13 +64,23 @@
               "start": 16,
               "end": 20,
               "count": 5,
-              "hits": [],
-              "covered": false,
+              "hits": [
+                {
+                  "issue": 18,
+                  "date": "2026-01-18",
+                  "matched": [
+                    "25",
+                    "40",
+                    "42"
+                  ]
+                }
+              ],
+              "covered": true,
               "poolSnapshot": [
-                "06",
-                "29",
-                "38",
+                "25",
+                "37",
                 "40",
+                "42",
                 "46"
               ]
             },
@@ -78,23 +88,13 @@
               "start": 21,
               "end": 25,
               "count": 5,
-              "hits": [
-                {
-                  "issue": 23,
-                  "date": "2026-01-23",
-                  "matched": [
-                    "06",
-                    "29",
-                    "38"
-                  ]
-                }
-              ],
-              "covered": true,
+              "hits": [],
+              "covered": false,
               "poolSnapshot": [
-                "06",
-                "29",
-                "38",
+                "25",
+                "37",
                 "40",
+                "42",
                 "46"
               ]
             },
@@ -105,10 +105,10 @@
               "hits": [],
               "covered": false,
               "poolSnapshot": [
-                "06",
-                "29",
-                "38",
+                "25",
+                "37",
                 "40",
+                "42",
                 "46"
               ]
             },
@@ -119,10 +119,10 @@
               "hits": [],
               "covered": false,
               "poolSnapshot": [
-                "06",
-                "29",
-                "38",
+                "25",
+                "37",
                 "40",
+                "42",
                 "46"
               ]
             },
@@ -130,23 +130,13 @@
               "start": 36,
               "end": 40,
               "count": 5,
-              "hits": [
-                {
-                  "issue": 40,
-                  "date": "2026-02-09",
-                  "matched": [
-                    "06",
-                    "29",
-                    "46"
-                  ]
-                }
-              ],
-              "covered": true,
+              "hits": [],
+              "covered": false,
               "poolSnapshot": [
-                "06",
-                "29",
-                "38",
+                "25",
+                "37",
                 "40",
+                "42",
                 "46"
               ]
             },
@@ -157,10 +147,10 @@
               "hits": [],
               "covered": false,
               "poolSnapshot": [
-                "06",
-                "29",
-                "38",
+                "25",
+                "37",
                 "40",
+                "42",
                 "46"
               ]
             },
@@ -170,21 +160,21 @@
               "count": 5,
               "hits": [
                 {
-                  "issue": 48,
-                  "date": "2026-02-17",
+                  "issue": 47,
+                  "date": "2026-02-16",
                   "matched": [
-                    "29",
-                    "38",
+                    "40",
+                    "42",
                     "46"
                   ]
                 }
               ],
               "covered": true,
               "poolSnapshot": [
-                "06",
-                "29",
-                "38",
+                "25",
+                "37",
                 "40",
+                "42",
                 "46"
               ]
             },
@@ -192,23 +182,13 @@
               "start": 51,
               "end": 55,
               "count": 5,
-              "hits": [
-                {
-                  "issue": 51,
-                  "date": "2026-02-20",
-                  "matched": [
-                    "06",
-                    "38",
-                    "40"
-                  ]
-                }
-              ],
-              "covered": true,
+              "hits": [],
+              "covered": false,
               "poolSnapshot": [
-                "06",
-                "29",
-                "38",
+                "25",
+                "37",
                 "40",
+                "42",
                 "46"
               ]
             },
@@ -219,10 +199,10 @@
               "hits": [],
               "covered": false,
               "poolSnapshot": [
-                "06",
-                "29",
-                "38",
+                "25",
+                "37",
                 "40",
+                "42",
                 "46"
               ]
             },
@@ -232,21 +212,21 @@
               "count": 5,
               "hits": [
                 {
-                  "issue": 62,
-                  "date": "2026-03-03",
+                  "issue": 61,
+                  "date": "2026-03-02",
                   "matched": [
-                    "06",
-                    "29",
+                    "25",
+                    "37",
                     "46"
                   ]
                 }
               ],
               "covered": true,
               "poolSnapshot": [
-                "06",
-                "29",
-                "38",
+                "25",
+                "37",
                 "40",
+                "42",
                 "46"
               ]
             },
@@ -257,10 +237,10 @@
               "hits": [],
               "covered": false,
               "poolSnapshot": [
-                "06",
-                "29",
-                "38",
+                "25",
+                "37",
                 "40",
+                "42",
                 "46"
               ]
             },
@@ -271,10 +251,10 @@
               "hits": [],
               "covered": false,
               "poolSnapshot": [
-                "06",
-                "29",
-                "38",
+                "25",
+                "37",
                 "40",
+                "42",
                 "46"
               ]
             },
@@ -282,13 +262,23 @@
               "start": 76,
               "end": 80,
               "count": 5,
-              "hits": [],
-              "covered": false,
+              "hits": [
+                {
+                  "issue": 77,
+                  "date": "2026-03-18",
+                  "matched": [
+                    "25",
+                    "37",
+                    "46"
+                  ]
+                }
+              ],
+              "covered": true,
               "poolSnapshot": [
-                "06",
-                "29",
-                "38",
+                "25",
+                "37",
                 "40",
+                "42",
                 "46"
               ]
             },
@@ -299,10 +289,10 @@
               "hits": [],
               "covered": false,
               "poolSnapshot": [
-                "06",
-                "29",
-                "38",
+                "25",
+                "37",
                 "40",
+                "42",
                 "46"
               ]
             },
@@ -313,10 +303,10 @@
               "hits": [],
               "covered": false,
               "poolSnapshot": [
-                "06",
-                "29",
-                "38",
+                "25",
+                "37",
                 "40",
+                "42",
                 "46"
               ]
             },
@@ -324,13 +314,23 @@
               "start": 91,
               "end": 95,
               "count": 5,
-              "hits": [],
-              "covered": false,
+              "hits": [
+                {
+                  "issue": 92,
+                  "date": "2026-04-02",
+                  "matched": [
+                    "25",
+                    "42",
+                    "46"
+                  ]
+                }
+              ],
+              "covered": true,
               "poolSnapshot": [
-                "06",
-                "29",
-                "38",
+                "25",
+                "37",
                 "40",
+                "42",
                 "46"
               ]
             },
@@ -341,10 +341,10 @@
               "hits": [],
               "covered": false,
               "poolSnapshot": [
-                "06",
-                "29",
-                "38",
+                "25",
+                "37",
                 "40",
+                "42",
                 "46"
               ]
             },
@@ -355,10 +355,10 @@
               "hits": [],
               "covered": false,
               "poolSnapshot": [
-                "06",
-                "29",
-                "38",
+                "25",
+                "37",
                 "40",
+                "42",
                 "46"
               ]
             },
@@ -369,10 +369,10 @@
               "hits": [],
               "covered": false,
               "poolSnapshot": [
-                "06",
-                "29",
-                "38",
+                "25",
+                "37",
                 "40",
+                "42",
                 "46"
               ]
             },
@@ -383,10 +383,10 @@
               "hits": [],
               "covered": false,
               "poolSnapshot": [
-                "06",
-                "29",
-                "38",
+                "25",
+                "37",
                 "40",
+                "42",
                 "46"
               ]
             },
@@ -399,7 +399,7 @@
                   "issue": 118,
                   "date": "2026-04-28",
                   "matched": [
-                    "38",
+                    "37",
                     "40",
                     "46"
                   ]
@@ -407,10 +407,10 @@
               ],
               "covered": true,
               "poolSnapshot": [
-                "06",
-                "29",
-                "38",
+                "25",
+                "37",
                 "40",
+                "42",
                 "46"
               ]
             },
@@ -421,10 +421,10 @@
               "hits": [],
               "covered": false,
               "poolSnapshot": [
-                "06",
-                "29",
-                "38",
+                "25",
+                "37",
                 "40",
+                "42",
                 "46"
               ]
             },
@@ -432,13 +432,23 @@
               "start": 126,
               "end": 130,
               "count": 5,
-              "hits": [],
-              "covered": false,
+              "hits": [
+                {
+                  "issue": 128,
+                  "date": "2026-05-08",
+                  "matched": [
+                    "25",
+                    "42",
+                    "46"
+                  ]
+                }
+              ],
+              "covered": true,
               "poolSnapshot": [
-                "06",
-                "29",
-                "38",
+                "25",
+                "37",
                 "40",
+                "42",
                 "46"
               ]
             },
@@ -449,10 +459,10 @@
               "hits": [],
               "covered": false,
               "poolSnapshot": [
-                "06",
-                "29",
-                "38",
+                "25",
+                "37",
                 "40",
+                "42",
                 "46"
               ]
             },
@@ -460,23 +470,13 @@
               "start": 136,
               "end": 140,
               "count": 5,
-              "hits": [
-                {
-                  "issue": 138,
-                  "date": "2026-05-18",
-                  "matched": [
-                    "06",
-                    "38",
-                    "46"
-                  ]
-                }
-              ],
-              "covered": true,
+              "hits": [],
+              "covered": false,
               "poolSnapshot": [
-                "06",
-                "29",
-                "38",
+                "25",
+                "37",
                 "40",
+                "42",
                 "46"
               ]
             },
@@ -487,10 +487,10 @@
               "hits": [],
               "covered": false,
               "poolSnapshot": [
-                "06",
-                "29",
-                "38",
+                "25",
+                "37",
                 "40",
+                "42",
                 "46"
               ]
             },
@@ -498,23 +498,13 @@
               "start": 146,
               "end": 150,
               "count": 5,
-              "hits": [
-                {
-                  "issue": 147,
-                  "date": "2026-05-27",
-                  "matched": [
-                    "06",
-                    "29",
-                    "40"
-                  ]
-                }
-              ],
-              "covered": true,
+              "hits": [],
+              "covered": false,
               "poolSnapshot": [
-                "06",
-                "29",
-                "38",
+                "25",
+                "37",
                 "40",
+                "42",
                 "46"
               ]
             },
@@ -524,21 +514,21 @@
               "count": 5,
               "hits": [
                 {
-                  "issue": 153,
-                  "date": "2026-06-02",
+                  "issue": 155,
+                  "date": "2026-06-04",
                   "matched": [
-                    "06",
-                    "38",
-                    "40"
+                    "37",
+                    "40",
+                    "46"
                   ]
                 }
               ],
               "covered": true,
               "poolSnapshot": [
-                "06",
-                "29",
-                "38",
+                "25",
+                "37",
                 "40",
+                "42",
                 "46"
               ]
             },
@@ -549,10 +539,10 @@
               "hits": [],
               "covered": false,
               "poolSnapshot": [
-                "06",
-                "29",
-                "38",
+                "25",
+                "37",
                 "40",
+                "42",
                 "46"
               ]
             },
@@ -560,13 +550,23 @@
               "start": 161,
               "end": 165,
               "count": 5,
-              "hits": [],
-              "covered": false,
+              "hits": [
+                {
+                  "issue": 161,
+                  "date": "2026-06-10",
+                  "matched": [
+                    "40",
+                    "42",
+                    "46"
+                  ]
+                }
+              ],
+              "covered": true,
               "poolSnapshot": [
-                "06",
-                "29",
-                "38",
+                "25",
+                "37",
                 "40",
+                "42",
                 "46"
               ]
             },
@@ -574,23 +574,13 @@
               "start": 166,
               "end": 170,
               "count": 5,
-              "hits": [
-                {
-                  "issue": 170,
-                  "date": "2026-06-19",
-                  "matched": [
-                    "06",
-                    "38",
-                    "46"
-                  ]
-                }
-              ],
-              "covered": true,
+              "hits": [],
+              "covered": false,
               "poolSnapshot": [
-                "06",
-                "29",
-                "38",
+                "25",
+                "37",
                 "40",
+                "42",
                 "46"
               ]
             },
@@ -603,18 +593,18 @@
                   "issue": 171,
                   "date": "2026-06-20",
                   "matched": [
-                    "38",
                     "40",
+                    "42",
                     "46"
                   ]
                 }
               ],
               "covered": true,
               "poolSnapshot": [
-                "06",
-                "29",
-                "38",
+                "25",
+                "37",
                 "40",
+                "42",
                 "46"
               ]
             },
@@ -625,10 +615,10 @@
               "hits": [],
               "covered": false,
               "poolSnapshot": [
-                "06",
-                "29",
-                "38",
+                "25",
+                "37",
                 "40",
+                "42",
                 "46"
               ]
             },
@@ -636,13 +626,23 @@
               "start": 181,
               "end": 185,
               "count": 5,
-              "hits": [],
-              "covered": false,
+              "hits": [
+                {
+                  "issue": 183,
+                  "date": "2026-07-02",
+                  "matched": [
+                    "37",
+                    "42",
+                    "46"
+                  ]
+                }
+              ],
+              "covered": true,
               "poolSnapshot": [
-                "06",
-                "29",
-                "38",
+                "25",
+                "37",
                 "40",
+                "42",
                 "46"
               ]
             },
@@ -653,10 +653,10 @@
               "hits": [],
               "covered": false,
               "poolSnapshot": [
-                "06",
-                "29",
-                "38",
+                "25",
+                "37",
                 "40",
+                "42",
                 "46"
               ]
             },
@@ -747,7 +747,7 @@
             {
               "start": 221,
               "end": 225,
-              "count": 2,
+              "count": 3,
               "hits": [],
               "covered": false,
               "poolSnapshot": [
@@ -763,17 +763,51 @@
           "total": 44,
           "hitDraws": 11,
           "hitRate": 25.0,
-          "recentCovered": 1,
+          "recentCovered": 2,
           "recentTotal": 10,
-          "recentHitRate": 10.0,
-          "currentMiss": 9,
-          "maxMiss": 10,
+          "recentHitRate": 20.0,
+          "currentMiss": 7,
+          "maxMiss": 7,
           "healthStatus": "downrank-observe",
           "healthReason": "two-completed-window-misses",
           "computedBy": "python-local-search",
-          "status": "cached",
-          "changeTime": "2026-08-10 14:43:09",
+          "status": "changed",
+          "changeTime": "2026-08-11 14:43:32",
           "changeHistory": [
+            {
+              "changedAt": "2026-08-11 14:43:32",
+              "issue": 223,
+              "beforePool": [
+                "25",
+                "37",
+                "40",
+                "42",
+                "46"
+              ],
+              "afterPool": [
+                "25",
+                "37",
+                "40",
+                "42",
+                "46"
+              ],
+              "beforeCovered": 11,
+              "afterCovered": 12,
+              "beforeHitRate": 25.0,
+              "afterHitRate": 27.27,
+              "kept": [
+                "25",
+                "37",
+                "40",
+                "42",
+                "46"
+              ],
+              "added": [],
+              "removed": [],
+              "changeCount": 0,
+              "changeLevel": "stable",
+              "reason": "better-completed-window-coverage-pool"
+            },
             {
               "changedAt": "2026-08-10 14:43:09",
               "issue": 222,
@@ -1779,45 +1813,6 @@
               "changeCount": 0,
               "changeLevel": "stable",
               "reason": "better-completed-window-coverage-pool"
-            },
-            {
-              "changedAt": "2026-07-08 15:54:40",
-              "issue": 189,
-              "beforePool": [
-                "06",
-                "29",
-                "38",
-                "40",
-                "46"
-              ],
-              "afterPool": [
-                "25",
-                "37",
-                "40",
-                "42",
-                "46"
-              ],
-              "beforeCovered": 10,
-              "afterCovered": 11,
-              "beforeHitRate": 27.03,
-              "afterHitRate": 29.73,
-              "kept": [
-                "40",
-                "46"
-              ],
-              "added": [
-                "25",
-                "37",
-                "42"
-              ],
-              "removed": [
-                "06",
-                "29",
-                "38"
-              ],
-              "changeCount": 6,
-              "changeLevel": "rebuild",
-              "reason": "better-completed-window-coverage-pool"
             }
           ]
         },
@@ -2655,7 +2650,7 @@
             {
               "start": 221,
               "end": 225,
-              "count": 2,
+              "count": 3,
               "hits": [],
               "covered": false,
               "poolSnapshot": [
@@ -2680,9 +2675,46 @@
           "healthStatus": "downrank-observe",
           "healthReason": "two-completed-window-misses",
           "computedBy": "python-local-search",
-          "status": "cached",
-          "changeTime": "2026-08-10 14:43:09",
+          "status": "changed",
+          "changeTime": "2026-08-11 14:43:32",
           "changeHistory": [
+            {
+              "changedAt": "2026-08-11 14:43:32",
+              "issue": 223,
+              "beforePool": [
+                "12",
+                "13",
+                "20",
+                "38",
+                "40",
+                "46"
+              ],
+              "afterPool": [
+                "12",
+                "13",
+                "20",
+                "38",
+                "40",
+                "46"
+              ],
+              "beforeCovered": 16,
+              "afterCovered": 17,
+              "beforeHitRate": 36.36,
+              "afterHitRate": 38.64,
+              "kept": [
+                "12",
+                "13",
+                "20",
+                "38",
+                "40",
+                "46"
+              ],
+              "added": [],
+              "removed": [],
+              "changeCount": 0,
+              "changeLevel": "stable",
+              "reason": "better-completed-window-coverage-pool"
+            },
             {
               "changedAt": "2026-08-10 14:43:09",
               "issue": 222,
@@ -3787,43 +3819,6 @@
               "changeCount": 0,
               "changeLevel": "stable",
               "reason": "better-completed-window-coverage-pool"
-            },
-            {
-              "changedAt": "2026-07-12 14:44:04",
-              "issue": 193,
-              "beforePool": [
-                "25",
-                "37",
-                "40",
-                "42",
-                "44",
-                "46"
-              ],
-              "afterPool": [
-                "25",
-                "37",
-                "40",
-                "42",
-                "44",
-                "46"
-              ],
-              "beforeCovered": 15,
-              "afterCovered": 16,
-              "beforeHitRate": 39.47,
-              "afterHitRate": 42.11,
-              "kept": [
-                "25",
-                "37",
-                "40",
-                "42",
-                "44",
-                "46"
-              ],
-              "added": [],
-              "removed": [],
-              "changeCount": 0,
-              "changeLevel": "stable",
-              "reason": "better-completed-window-coverage-pool"
             }
           ]
         },
@@ -4786,7 +4781,7 @@
             {
               "start": 221,
               "end": 225,
-              "count": 2,
+              "count": 3,
               "hits": [],
               "covered": false,
               "poolSnapshot": [
@@ -4812,7 +4807,7 @@
           "healthStatus": "downrank-observe",
           "healthReason": "two-completed-window-misses",
           "computedBy": "python-local-search",
-          "status": "cached",
+          "status": "no-change",
           "changeTime": "2026-08-09 14:19:37",
           "changeHistory": [
             {
@@ -7118,7 +7113,7 @@
             {
               "start": 221,
               "end": 225,
-              "count": 2,
+              "count": 3,
               "hits": [],
               "covered": false,
               "poolSnapshot": [
@@ -7145,7 +7140,7 @@
           "healthStatus": "normal-observe",
           "healthReason": "compound-window-stable",
           "computedBy": "python-local-search",
-          "status": "cached",
+          "status": "no-change",
           "changeTime": "2026-08-08 14:17:57",
           "changeHistory": [
             {
@@ -9093,7 +9088,7 @@
             {
               "start": 221,
               "end": 225,
-              "count": 2,
+              "count": 3,
               "hits": [],
               "covered": false,
               "poolSnapshot": [
@@ -9757,7 +9752,7 @@
             {
               "start": 221,
               "end": 225,
-              "count": 2,
+              "count": 3,
               "hits": [],
               "covered": false,
               "poolSnapshot": [
@@ -10659,7 +10654,7 @@
             {
               "start": 221,
               "end": 225,
-              "count": 32,
+              "count": 33,
               "hits": [
                 {
                   "issue": 223,
@@ -11302,7 +11297,7 @@
             "46"
           ],
           "computedBy": "python-local-search",
-          "status": "cached",
+          "status": "no-change",
           "changeTime": "2026-06-04 23:09:50",
           "changeHistory": [
             {
@@ -12125,7 +12120,7 @@
             {
               "start": 221,
               "end": 225,
-              "count": 2,
+              "count": 3,
               "hits": [],
               "covered": false,
               "poolSnapshot": [
@@ -12854,7 +12849,7 @@
             {
               "start": 221,
               "end": 225,
-              "count": 2,
+              "count": 3,
               "hits": [],
               "covered": false,
               "poolSnapshot": [
@@ -13981,7 +13976,7 @@
             {
               "start": 221,
               "end": 225,
-              "count": 32,
+              "count": 33,
               "hits": [
                 {
                   "issue": 223,
@@ -14733,7 +14728,7 @@
             "46"
           ],
           "computedBy": "python-local-search",
-          "status": "cached",
+          "status": "no-change",
           "changeTime": "2026-06-04 23:09:50",
           "changeHistory": [
             {
@@ -15606,7 +15601,7 @@
             {
               "start": 221,
               "end": 225,
-              "count": 2,
+              "count": 3,
               "hits": [],
               "covered": false,
               "poolSnapshot": [
@@ -16378,7 +16373,7 @@
             {
               "start": 221,
               "end": 225,
-              "count": 2,
+              "count": 3,
               "hits": [],
               "covered": false,
               "poolSnapshot": [
@@ -17717,7 +17712,7 @@
             {
               "start": 221,
               "end": 225,
-              "count": 32,
+              "count": 33,
               "hits": [
                 {
                   "issue": 223,
@@ -18652,7 +18647,7 @@
             "46"
           ],
           "computedBy": "python-local-search",
-          "status": "cached",
+          "status": "no-change",
           "changeTime": "2026-07-09 16:16:31",
           "changeHistory": [
             {
@@ -20959,7 +20954,7 @@
             {
               "start": 221,
               "end": 225,
-              "count": 2,
+              "count": 3,
               "hits": [],
               "covered": false,
               "poolSnapshot": [
@@ -21968,7 +21963,7 @@
             {
               "start": 221,
               "end": 225,
-              "count": 2,
+              "count": 3,
               "hits": [],
               "covered": false,
               "poolSnapshot": [
@@ -23615,7 +23610,7 @@
             {
               "start": 221,
               "end": 225,
-              "count": 32,
+              "count": 33,
               "hits": [
                 {
                   "issue": 221,
@@ -24758,7 +24753,7 @@
             "46"
           ],
           "computedBy": "python-local-search",
-          "status": "cached",
+          "status": "no-change",
           "changeTime": "2026-08-03 16:08:18",
           "changeHistory": [
             {
@@ -26291,18 +26286,18 @@
     {
       "source": "hk",
       "year": "2026",
-      "latestIssue": 86,
-      "computedAt": "2026-08-10 15:14:22",
-      "status": "cached",
+      "latestIssue": 87,
+      "computedAt": "2026-08-11 14:43:32",
+      "status": "changed",
       "pools": [
         {
           "poolSize": 5,
           "pool": [
-            "16",
-            "20",
-            "22",
-            "28",
-            "32"
+            "05",
+            "07",
+            "12",
+            "15",
+            "37"
           ],
           "windows": [
             {
@@ -26616,7 +26611,7 @@
             {
               "start": 86,
               "end": 90,
-              "count": 1,
+              "count": 2,
               "hits": [],
               "covered": false,
               "poolSnapshot": [
@@ -26640,9 +26635,49 @@
           "healthStatus": "downrank-observe",
           "healthReason": "two-completed-window-misses",
           "computedBy": "python-local-search",
-          "status": "cached",
-          "changeTime": "2026-08-08 14:17:57",
+          "status": "changed",
+          "changeTime": "2026-08-11 14:43:32",
           "changeHistory": [
+            {
+              "changedAt": "2026-08-11 14:43:32",
+              "issue": 87,
+              "beforePool": [
+                "16",
+                "20",
+                "22",
+                "28",
+                "32"
+              ],
+              "afterPool": [
+                "05",
+                "07",
+                "12",
+                "15",
+                "37"
+              ],
+              "beforeCovered": 6,
+              "afterCovered": 7,
+              "beforeHitRate": 35.29,
+              "afterHitRate": 41.18,
+              "kept": [],
+              "added": [
+                "05",
+                "07",
+                "12",
+                "15",
+                "37"
+              ],
+              "removed": [
+                "16",
+                "20",
+                "22",
+                "28",
+                "32"
+              ],
+              "changeCount": 10,
+              "changeLevel": "rebuild",
+              "reason": "better-completed-window-coverage-pool"
+            },
             {
               "changedAt": "2026-08-08 14:17:57",
               "issue": 86,
@@ -27933,7 +27968,7 @@
             {
               "start": 86,
               "end": 90,
-              "count": 1,
+              "count": 2,
               "hits": [],
               "covered": false,
               "poolSnapshot": [
@@ -27958,9 +27993,46 @@
           "healthStatus": "downrank-observe",
           "healthReason": "two-completed-window-misses",
           "computedBy": "python-local-search",
-          "status": "cached",
-          "changeTime": "2026-08-08 14:17:57",
+          "status": "changed",
+          "changeTime": "2026-08-11 14:43:32",
           "changeHistory": [
+            {
+              "changedAt": "2026-08-11 14:43:32",
+              "issue": 87,
+              "beforePool": [
+                "05",
+                "07",
+                "12",
+                "15",
+                "23",
+                "37"
+              ],
+              "afterPool": [
+                "05",
+                "07",
+                "12",
+                "15",
+                "23",
+                "37"
+              ],
+              "beforeCovered": 8,
+              "afterCovered": 10,
+              "beforeHitRate": 47.06,
+              "afterHitRate": 58.82,
+              "kept": [
+                "05",
+                "07",
+                "12",
+                "15",
+                "23",
+                "37"
+              ],
+              "added": [],
+              "removed": [],
+              "changeCount": 0,
+              "changeLevel": "stable",
+              "reason": "better-completed-window-coverage-pool"
+            },
             {
               "changedAt": "2026-08-08 14:17:57",
               "issue": 86,
@@ -29222,7 +29294,7 @@
             {
               "start": 86,
               "end": 90,
-              "count": 1,
+              "count": 2,
               "hits": [],
               "covered": false,
               "poolSnapshot": [
@@ -29248,9 +29320,49 @@
           "healthStatus": "downrank-observe",
           "healthReason": "two-completed-window-misses",
           "computedBy": "python-local-search",
-          "status": "cached",
-          "changeTime": "2026-08-08 14:17:57",
+          "status": "changed",
+          "changeTime": "2026-08-11 14:43:32",
           "changeHistory": [
+            {
+              "changedAt": "2026-08-11 14:43:32",
+              "issue": 87,
+              "beforePool": [
+                "05",
+                "07",
+                "12",
+                "15",
+                "23",
+                "32",
+                "37"
+              ],
+              "afterPool": [
+                "05",
+                "07",
+                "12",
+                "15",
+                "23",
+                "32",
+                "37"
+              ],
+              "beforeCovered": 11,
+              "afterCovered": 12,
+              "beforeHitRate": 64.71,
+              "afterHitRate": 70.59,
+              "kept": [
+                "05",
+                "07",
+                "12",
+                "15",
+                "23",
+                "32",
+                "37"
+              ],
+              "added": [],
+              "removed": [],
+              "changeCount": 0,
+              "changeLevel": "stable",
+              "reason": "better-completed-window-coverage-pool"
+            },
             {
               "changedAt": "2026-08-08 14:17:57",
               "issue": 86,
@@ -30781,7 +30893,7 @@
             {
               "start": 86,
               "end": 90,
-              "count": 1,
+              "count": 2,
               "hits": [],
               "covered": false,
               "poolSnapshot": [
@@ -30808,9 +30920,52 @@
           "healthStatus": "normal-observe",
           "healthReason": "compound-window-stable",
           "computedBy": "python-local-search",
-          "status": "cached",
-          "changeTime": "2026-08-08 14:17:57",
+          "status": "changed",
+          "changeTime": "2026-08-11 14:43:32",
           "changeHistory": [
+            {
+              "changedAt": "2026-08-11 14:43:32",
+              "issue": 87,
+              "beforePool": [
+                "07",
+                "12",
+                "14",
+                "15",
+                "19",
+                "20",
+                "28",
+                "42"
+              ],
+              "afterPool": [
+                "07",
+                "12",
+                "14",
+                "15",
+                "19",
+                "20",
+                "28",
+                "42"
+              ],
+              "beforeCovered": 13,
+              "afterCovered": 15,
+              "beforeHitRate": 76.47,
+              "afterHitRate": 88.24,
+              "kept": [
+                "07",
+                "12",
+                "14",
+                "15",
+                "19",
+                "20",
+                "28",
+                "42"
+              ],
+              "added": [],
+              "removed": [],
+              "changeCount": 0,
+              "changeLevel": "stable",
+              "reason": "better-completed-window-coverage-pool"
+            },
             {
               "changedAt": "2026-08-08 14:17:57",
               "issue": 86,
@@ -32235,7 +32390,7 @@
             {
               "start": 86,
               "end": 90,
-              "count": 1,
+              "count": 2,
               "hits": [],
               "covered": false,
               "poolSnapshot": [
@@ -32520,7 +32675,7 @@
             {
               "start": 86,
               "end": 90,
-              "count": 1,
+              "count": 2,
               "hits": [],
               "covered": false,
               "poolSnapshot": [
@@ -32957,7 +33112,7 @@
             {
               "start": 86,
               "end": 90,
-              "count": 26,
+              "count": 27,
               "hits": [
                 {
                   "issue": 87,
@@ -33205,26 +33360,60 @@
           "historyCurrentMiss": 1,
           "historyMaxMiss": 3,
           "historyHitDraws": 24,
-          "intersection": [
-            "20"
-          ],
-          "intersectionCount": 1,
+          "intersection": [],
+          "intersectionCount": 0,
           "crossYearOnly": [
             "02",
+            "20",
             "21",
             "24",
             "30"
           ],
           "yearOnly": [
-            "16",
-            "22",
-            "28",
-            "32"
+            "05",
+            "07",
+            "12",
+            "15",
+            "37"
           ],
           "computedBy": "python-local-search",
-          "status": "cached",
-          "changeTime": "2026-08-08 14:17:57",
+          "status": "changed",
+          "changeTime": "2026-08-11 14:43:32",
           "changeHistory": [
+            {
+              "changedAt": "2026-08-11 14:43:32",
+              "issue": 87,
+              "beforePool": [
+                "02",
+                "20",
+                "21",
+                "24",
+                "30"
+              ],
+              "afterPool": [
+                "02",
+                "20",
+                "21",
+                "24",
+                "30"
+              ],
+              "beforeCovered": 18,
+              "afterCovered": 19,
+              "beforeHitRate": 62.07,
+              "afterHitRate": 65.52,
+              "kept": [
+                "02",
+                "20",
+                "21",
+                "24",
+                "30"
+              ],
+              "added": [],
+              "removed": [],
+              "changeCount": 0,
+              "changeLevel": "stable",
+              "reason": "better-all-history-compound-pool"
+            },
             {
               "changedAt": "2026-08-08 14:17:57",
               "issue": 86,
@@ -33832,7 +34021,7 @@
             {
               "start": 86,
               "end": 90,
-              "count": 1,
+              "count": 2,
               "hits": [],
               "covered": false,
               "poolSnapshot": [
@@ -34135,7 +34324,7 @@
             {
               "start": 86,
               "end": 90,
-              "count": 1,
+              "count": 2,
               "hits": [],
               "covered": false,
               "poolSnapshot": [
@@ -34604,7 +34793,7 @@
             {
               "start": 86,
               "end": 90,
-              "count": 26,
+              "count": 27,
               "hits": [
                 {
                   "issue": 87,
@@ -34960,7 +35149,7 @@
             "37"
           ],
           "computedBy": "python-local-search",
-          "status": "cached",
+          "status": "no-change",
           "changeTime": "2026-06-04 23:09:50",
           "changeHistory": [
             {
@@ -35330,7 +35519,7 @@
             {
               "start": 86,
               "end": 90,
-              "count": 1,
+              "count": 2,
               "hits": [],
               "covered": false,
               "poolSnapshot": [
@@ -35641,7 +35830,7 @@
             {
               "start": 86,
               "end": 90,
-              "count": 1,
+              "count": 2,
               "hits": [],
               "covered": false,
               "poolSnapshot": [
@@ -36199,7 +36388,7 @@
             {
               "start": 86,
               "end": 90,
-              "count": 26,
+              "count": 27,
               "hits": [
                 {
                   "issue": 87,
@@ -36602,7 +36791,7 @@
             "37"
           ],
           "computedBy": "python-local-search",
-          "status": "cached",
+          "status": "no-change",
           "changeTime": "2026-08-01 14:48:41",
           "changeHistory": [
             {
@@ -37829,7 +38018,7 @@
             {
               "start": 86,
               "end": 90,
-              "count": 1,
+              "count": 2,
               "hits": [],
               "covered": false,
               "poolSnapshot": [
@@ -38220,7 +38409,7 @@
             {
               "start": 86,
               "end": 90,
-              "count": 1,
+              "count": 2,
               "hits": [],
               "covered": false,
               "poolSnapshot": [
@@ -38953,7 +39142,7 @@
             {
               "start": 86,
               "end": 90,
-              "count": 26,
+              "count": 27,
               "hits": [
                 {
                   "issue": 87,
@@ -39462,7 +39651,7 @@
             "42"
           ],
           "computedBy": "python-local-search",
-          "status": "cached",
+          "status": "no-change",
           "changeTime": "2026-06-12 02:33:00",
           "changeHistory": [
             {
