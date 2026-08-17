@@ -1,5 +1,5 @@
 window.__HISTORY_PATTERN_STATE__ = {
-  "generatedAt": "2026-08-16 14:36:24",
+  "generatedAt": "2026-08-17 14:06:19",
   "items": [
     {
       "source": "am",
@@ -8,22 +8,22 @@ window.__HISTORY_PATTERN_STATE__ = {
       "pool": [
         "01",
         "03",
-        "05",
-        "06",
-        "07",
+        "08",
         "09",
+        "24",
         "28",
-        "49"
+        "37",
+        "38"
       ],
       "postWindowOptimalPool": [
         "01",
         "03",
-        "05",
-        "06",
-        "07",
+        "08",
         "09",
-        "28",
-        "49"
+        "24",
+        "27",
+        "37",
+        "38"
       ],
       "postWindowStats": {
         "windows": [
@@ -33,11 +33,11 @@ window.__HISTORY_PATTERN_STATE__ = {
             "end": 5,
             "count": 5,
             "nums": [
+              "02",
               "09",
-              "22",
-              "29",
-              "43",
-              "45"
+              "10",
+              "11",
+              "24"
             ],
             "covered": true
           },
@@ -47,11 +47,10 @@ window.__HISTORY_PATTERN_STATE__ = {
             "end": 10,
             "count": 5,
             "nums": [
-              "13",
+              "04",
+              "19",
               "21",
-              "27",
-              "28",
-              "41"
+              "37"
             ],
             "covered": true
           },
@@ -61,10 +60,11 @@ window.__HISTORY_PATTERN_STATE__ = {
             "end": 15,
             "count": 5,
             "nums": [
-              "01",
-              "11",
-              "26",
-              "31"
+              "27",
+              "28",
+              "32",
+              "41",
+              "49"
             ],
             "covered": true
           },
@@ -74,11 +74,10 @@ window.__HISTORY_PATTERN_STATE__ = {
             "end": 20,
             "count": 5,
             "nums": [
-              "06",
-              "12",
-              "32",
-              "39",
-              "46"
+              "16",
+              "38",
+              "40",
+              "47"
             ],
             "covered": true
           },
@@ -88,11 +87,11 @@ window.__HISTORY_PATTERN_STATE__ = {
             "end": 25,
             "count": 5,
             "nums": [
-              "18",
-              "28",
-              "37",
-              "42",
-              "47"
+              "09",
+              "10",
+              "16",
+              "34",
+              "35"
             ],
             "covered": true
           },
@@ -102,11 +101,11 @@ window.__HISTORY_PATTERN_STATE__ = {
             "end": 30,
             "count": 5,
             "nums": [
-              "01",
-              "03",
-              "19",
-              "41",
-              "45"
+              "02",
+              "29",
+              "30",
+              "38",
+              "46"
             ],
             "covered": true
           },
@@ -116,11 +115,11 @@ window.__HISTORY_PATTERN_STATE__ = {
             "end": 35,
             "count": 5,
             "nums": [
-              "06",
-              "19",
-              "26",
-              "27",
-              "41"
+              "04",
+              "08",
+              "24",
+              "29",
+              "34"
             ],
             "covered": true
           },
@@ -130,11 +129,11 @@ window.__HISTORY_PATTERN_STATE__ = {
             "end": 40,
             "count": 5,
             "nums": [
-              "01",
-              "11",
-              "28",
-              "42",
-              "43"
+              "20",
+              "24",
+              "33",
+              "34",
+              "36"
             ],
             "covered": true
           },
@@ -142,13 +141,12 @@ window.__HISTORY_PATTERN_STATE__ = {
             "year": "2026",
             "start": 41,
             "end": 45,
-            "count": 5,
+            "count": 6,
             "nums": [
               "01",
-              "13",
-              "16",
               "19",
-              "36"
+              "25",
+              "28"
             ],
             "covered": true
           },
@@ -156,12 +154,17 @@ window.__HISTORY_PATTERN_STATE__ = {
             "year": "2026",
             "start": 46,
             "end": 50,
-            "count": 5,
+            "count": 10,
             "nums": [
               "03",
               "13",
+              "14",
+              "17",
               "23",
               "24",
+              "25",
+              "28",
+              "35",
               "39"
             ],
             "covered": true
@@ -170,12 +173,17 @@ window.__HISTORY_PATTERN_STATE__ = {
             "year": "2026",
             "start": 51,
             "end": 55,
-            "count": 5,
+            "count": 10,
             "nums": [
               "01",
+              "08",
               "14",
               "15",
+              "16",
+              "23",
+              "27",
               "38",
+              "39",
               "48"
             ],
             "covered": true
@@ -184,12 +192,16 @@ window.__HISTORY_PATTERN_STATE__ = {
             "year": "2026",
             "start": 56,
             "end": 60,
-            "count": 5,
+            "count": 10,
             "nums": [
+              "01",
               "09",
               "10",
+              "20",
               "23",
               "31",
+              "39",
+              "43",
               "48"
             ],
             "covered": true
@@ -198,13 +210,18 @@ window.__HISTORY_PATTERN_STATE__ = {
             "year": "2026",
             "start": 61,
             "end": 65,
-            "count": 5,
+            "count": 10,
             "nums": [
               "05",
+              "07",
+              "13",
               "18",
               "24",
               "28",
-              "29"
+              "29",
+              "38",
+              "40",
+              "48"
             ],
             "covered": true
           },
@@ -212,13 +229,16 @@ window.__HISTORY_PATTERN_STATE__ = {
             "year": "2026",
             "start": 66,
             "end": 70,
-            "count": 5,
+            "count": 10,
             "nums": [
+              "01",
               "05",
               "23",
               "24",
               "25",
-              "37"
+              "37",
+              "39",
+              "43"
             ],
             "covered": true
           },
@@ -226,26 +246,36 @@ window.__HISTORY_PATTERN_STATE__ = {
             "year": "2026",
             "start": 71,
             "end": 75,
-            "count": 5,
+            "count": 10,
             "nums": [
+              "03",
               "10",
+              "15",
+              "19",
+              "23",
               "33",
               "34",
+              "42",
               "46",
               "48"
             ],
-            "covered": false
+            "covered": true
           },
           {
             "year": "2026",
             "start": 76,
             "end": 80,
-            "count": 5,
+            "count": 10,
             "nums": [
+              "01",
               "02",
               "03",
+              "27",
               "29",
               "35",
+              "38",
+              "39",
+              "45",
               "46"
             ],
             "covered": true
@@ -254,13 +284,16 @@ window.__HISTORY_PATTERN_STATE__ = {
             "year": "2026",
             "start": 81,
             "end": 85,
-            "count": 5,
+            "count": 10,
             "nums": [
               "05",
+              "14",
               "16",
               "17",
               "19",
-              "27"
+              "27",
+              "38",
+              "43"
             ],
             "covered": true
           },
@@ -268,12 +301,16 @@ window.__HISTORY_PATTERN_STATE__ = {
             "year": "2026",
             "start": 86,
             "end": 90,
-            "count": 5,
+            "count": 10,
             "nums": [
+              "03",
               "12",
+              "18",
+              "22",
               "26",
               "27",
               "36",
+              "46",
               "49"
             ],
             "covered": true
@@ -282,13 +319,18 @@ window.__HISTORY_PATTERN_STATE__ = {
             "year": "2026",
             "start": 91,
             "end": 95,
-            "count": 5,
+            "count": 10,
             "nums": [
               "06",
               "17",
+              "20",
+              "26",
               "35",
               "37",
-              "40"
+              "38",
+              "39",
+              "40",
+              "48"
             ],
             "covered": true
           },
@@ -296,27 +338,37 @@ window.__HISTORY_PATTERN_STATE__ = {
             "year": "2026",
             "start": 96,
             "end": 100,
-            "count": 5,
+            "count": 10,
             "nums": [
+              "08",
               "11",
               "12",
+              "13",
               "17",
+              "18",
+              "20",
               "33",
+              "39",
               "43"
             ],
-            "covered": false
+            "covered": true
           },
           {
             "year": "2026",
             "start": 101,
             "end": 105,
-            "count": 5,
+            "count": 10,
             "nums": [
               "01",
               "06",
               "20",
               "28",
-              "39"
+              "34",
+              "37",
+              "39",
+              "45",
+              "46",
+              "48"
             ],
             "covered": true
           },
@@ -324,11 +376,15 @@ window.__HISTORY_PATTERN_STATE__ = {
             "year": "2026",
             "start": 106,
             "end": 110,
-            "count": 5,
+            "count": 10,
             "nums": [
+              "08",
+              "13",
               "16",
               "22",
               "30",
+              "32",
+              "36",
               "45",
               "49"
             ],
@@ -338,13 +394,16 @@ window.__HISTORY_PATTERN_STATE__ = {
             "year": "2026",
             "start": 111,
             "end": 115,
-            "count": 5,
+            "count": 10,
             "nums": [
               "01",
               "02",
               "04",
+              "05",
               "09",
-              "30"
+              "12",
+              "30",
+              "40"
             ],
             "covered": true
           },
@@ -352,13 +411,18 @@ window.__HISTORY_PATTERN_STATE__ = {
             "year": "2026",
             "start": 116,
             "end": 120,
-            "count": 5,
+            "count": 10,
             "nums": [
               "06",
               "08",
+              "09",
               "11",
+              "15",
               "16",
-              "22"
+              "22",
+              "27",
+              "35",
+              "43"
             ],
             "covered": true
           },
@@ -366,11 +430,15 @@ window.__HISTORY_PATTERN_STATE__ = {
             "year": "2026",
             "start": 121,
             "end": 125,
-            "count": 5,
+            "count": 10,
             "nums": [
               "01",
+              "07",
+              "14",
               "31",
+              "37",
               "39",
+              "42",
               "44",
               "46"
             ],
@@ -380,11 +448,15 @@ window.__HISTORY_PATTERN_STATE__ = {
             "year": "2026",
             "start": 126,
             "end": 130,
-            "count": 5,
+            "count": 10,
             "nums": [
+              "03",
+              "10",
               "29",
               "37",
+              "38",
               "41",
+              "43",
               "45",
               "49"
             ],
@@ -394,11 +466,16 @@ window.__HISTORY_PATTERN_STATE__ = {
             "year": "2026",
             "start": 131,
             "end": 135,
-            "count": 5,
+            "count": 10,
             "nums": [
               "07",
+              "13",
+              "16",
+              "20",
               "30",
-              "37"
+              "32",
+              "37",
+              "49"
             ],
             "covered": true
           },
@@ -406,11 +483,15 @@ window.__HISTORY_PATTERN_STATE__ = {
             "year": "2026",
             "start": 136,
             "end": 140,
-            "count": 5,
+            "count": 10,
             "nums": [
+              "08",
               "16",
               "24",
               "26",
+              "37",
+              "39",
+              "40",
               "48",
               "49"
             ],
@@ -420,11 +501,16 @@ window.__HISTORY_PATTERN_STATE__ = {
             "year": "2026",
             "start": 141,
             "end": 145,
-            "count": 5,
+            "count": 10,
             "nums": [
+              "04",
               "05",
+              "06",
+              "10",
               "23",
+              "31",
               "33",
+              "38",
               "43",
               "44"
             ],
@@ -434,11 +520,15 @@ window.__HISTORY_PATTERN_STATE__ = {
             "year": "2026",
             "start": 146,
             "end": 150,
-            "count": 5,
+            "count": 10,
             "nums": [
+              "01",
+              "06",
               "09",
               "13",
               "27",
+              "31",
+              "38",
               "42",
               "48"
             ],
@@ -448,10 +538,13 @@ window.__HISTORY_PATTERN_STATE__ = {
             "year": "2026",
             "start": 151,
             "end": 155,
-            "count": 5,
+            "count": 10,
             "nums": [
               "07",
+              "10",
               "31",
+              "35",
+              "37",
               "41",
               "45"
             ],
@@ -461,13 +554,16 @@ window.__HISTORY_PATTERN_STATE__ = {
             "year": "2026",
             "start": 156,
             "end": 160,
-            "count": 5,
+            "count": 10,
             "nums": [
               "01",
               "02",
               "16",
+              "26",
+              "29",
               "39",
-              "40"
+              "40",
+              "49"
             ],
             "covered": true
           },
@@ -475,13 +571,17 @@ window.__HISTORY_PATTERN_STATE__ = {
             "year": "2026",
             "start": 161,
             "end": 165,
-            "count": 5,
+            "count": 10,
             "nums": [
               "03",
               "08",
+              "18",
               "21",
+              "22",
               "32",
-              "37"
+              "37",
+              "39",
+              "49"
             ],
             "covered": true
           },
@@ -489,13 +589,17 @@ window.__HISTORY_PATTERN_STATE__ = {
             "year": "2026",
             "start": 166,
             "end": 170,
-            "count": 5,
+            "count": 10,
             "nums": [
               "03",
               "06",
+              "08",
               "15",
+              "18",
               "19",
-              "24"
+              "24",
+              "30",
+              "43"
             ],
             "covered": true
           },
@@ -503,8 +607,13 @@ window.__HISTORY_PATTERN_STATE__ = {
             "year": "2026",
             "start": 171,
             "end": 175,
-            "count": 5,
+            "count": 10,
             "nums": [
+              "01",
+              "15",
+              "16",
+              "18",
+              "22",
               "26",
               "28",
               "41",
@@ -516,23 +625,28 @@ window.__HISTORY_PATTERN_STATE__ = {
             "year": "2026",
             "start": 176,
             "end": 180,
-            "count": 5,
+            "count": 10,
             "nums": [
               "10",
+              "12",
               "14",
               "15",
               "18",
-              "21"
+              "21",
+              "29",
+              "37"
             ],
-            "covered": false
+            "covered": true
           },
           {
             "year": "2026",
             "start": 181,
             "end": 185,
-            "count": 5,
+            "count": 10,
             "nums": [
               "01",
+              "06",
+              "10",
               "19",
               "24",
               "36",
@@ -544,12 +658,16 @@ window.__HISTORY_PATTERN_STATE__ = {
             "year": "2026",
             "start": 186,
             "end": 190,
-            "count": 5,
+            "count": 10,
             "nums": [
               "01",
+              "06",
               "15",
               "16",
-              "23"
+              "18",
+              "23",
+              "27",
+              "40"
             ],
             "covered": true
           },
@@ -557,12 +675,16 @@ window.__HISTORY_PATTERN_STATE__ = {
             "year": "2026",
             "start": 191,
             "end": 195,
-            "count": 5,
+            "count": 10,
             "nums": [
+              "02",
               "09",
+              "12",
+              "18",
               "25",
               "26",
-              "29"
+              "29",
+              "37"
             ],
             "covered": true
           },
@@ -570,12 +692,17 @@ window.__HISTORY_PATTERN_STATE__ = {
             "year": "2026",
             "start": 196,
             "end": 200,
-            "count": 5,
+            "count": 10,
             "nums": [
+              "06",
               "07",
               "08",
+              "18",
               "36",
-              "39"
+              "39",
+              "42",
+              "43",
+              "44"
             ],
             "covered": true
           },
@@ -583,13 +710,17 @@ window.__HISTORY_PATTERN_STATE__ = {
             "year": "2026",
             "start": 201,
             "end": 205,
-            "count": 5,
+            "count": 10,
             "nums": [
               "03",
               "05",
+              "17",
+              "24",
               "25",
               "32",
-              "40"
+              "40",
+              "44",
+              "46"
             ],
             "covered": true
           },
@@ -597,11 +728,16 @@ window.__HISTORY_PATTERN_STATE__ = {
             "year": "2026",
             "start": 206,
             "end": 210,
-            "count": 5,
+            "count": 10,
             "nums": [
+              "03",
+              "07",
               "08",
+              "10",
               "19",
+              "25",
               "31",
+              "41",
               "47",
               "49"
             ],
@@ -611,13 +747,18 @@ window.__HISTORY_PATTERN_STATE__ = {
             "year": "2026",
             "start": 211,
             "end": 215,
-            "count": 5,
+            "count": 10,
             "nums": [
               "01",
               "04",
               "06",
+              "12",
               "14",
-              "35"
+              "20",
+              "31",
+              "35",
+              "37",
+              "44"
             ],
             "covered": true
           },
@@ -625,15 +766,19 @@ window.__HISTORY_PATTERN_STATE__ = {
             "year": "2026",
             "start": 216,
             "end": 220,
-            "count": 5,
+            "count": 9,
             "nums": [
+              "02",
               "17",
+              "18",
               "26",
               "37",
+              "39",
+              "41",
               "43",
               "48"
             ],
-            "covered": false
+            "covered": true
           },
           {
             "year": "2026",
@@ -649,179 +794,122 @@ window.__HISTORY_PATTERN_STATE__ = {
             "covered": true
           }
         ],
-        "covered": 41,
-        "misses": [
-          {
-            "year": "2026",
-            "start": 71,
-            "end": 75,
-            "count": 5,
-            "nums": [
-              "10",
-              "33",
-              "34",
-              "46",
-              "48"
-            ],
-            "covered": false
-          },
-          {
-            "year": "2026",
-            "start": 96,
-            "end": 100,
-            "count": 5,
-            "nums": [
-              "11",
-              "12",
-              "17",
-              "33",
-              "43"
-            ],
-            "covered": false
-          },
-          {
-            "year": "2026",
-            "start": 176,
-            "end": 180,
-            "count": 5,
-            "nums": [
-              "10",
-              "14",
-              "15",
-              "18",
-              "21"
-            ],
-            "covered": false
-          },
-          {
-            "year": "2026",
-            "start": 216,
-            "end": 220,
-            "count": 5,
-            "nums": [
-              "17",
-              "26",
-              "37",
-              "43",
-              "48"
-            ],
-            "covered": false
-          }
-        ],
+        "covered": 45,
+        "misses": [],
         "total": 45,
-        "hitRate": 91.11,
+        "hitRate": 100.0,
         "currentMiss": 0,
-        "maxMiss": 1
+        "maxMiss": 0
       },
       "exact": true,
       "method": "rolling-before-window-exact-or-greedy-49c8",
       "validationMode": "rolling-before-window",
-      "computedAt": "2026-08-16 14:36:24",
+      "computedAt": "2026-08-17 14:06:19",
       "latestDraw": {
-        "issue": 228,
-        "date": "2026-08-16",
+        "issue": 229,
+        "date": "2026-08-17",
         "year": "2026",
         "balls": [
           {
             "index": 0,
-            "numberText": "38",
-            "zodiac": "蛇",
+            "numberText": "11",
+            "zodiac": "猴",
             "color": "green",
             "colorName": "绿"
           },
           {
             "index": 1,
-            "numberText": "26",
-            "zodiac": "蛇",
+            "numberText": "07",
+            "zodiac": "鼠",
+            "color": "red",
+            "colorName": "红"
+          },
+          {
+            "index": 2,
+            "numberText": "15",
+            "zodiac": "龙",
             "color": "blue",
             "colorName": "蓝"
           },
           {
-            "index": 2,
-            "numberText": "08",
-            "zodiac": "猪",
+            "index": 3,
+            "numberText": "13",
+            "zodiac": "马",
             "color": "red",
             "colorName": "红"
           },
           {
-            "index": 3,
-            "numberText": "06",
-            "zodiac": "牛",
+            "index": 4,
+            "numberText": "33",
+            "zodiac": "狗",
             "color": "green",
             "colorName": "绿"
           },
           {
-            "index": 4,
-            "numberText": "29",
-            "zodiac": "虎",
-            "color": "red",
-            "colorName": "红"
-          },
-          {
             "index": 5,
-            "numberText": "18",
-            "zodiac": "牛",
-            "color": "red",
-            "colorName": "红"
+            "numberText": "16",
+            "zodiac": "兔",
+            "color": "green",
+            "colorName": "绿"
           },
           {
             "index": 6,
-            "numberText": "23",
-            "zodiac": "猴",
-            "color": "red",
-            "colorName": "红"
+            "numberText": "38",
+            "zodiac": "蛇",
+            "color": "green",
+            "colorName": "绿"
           }
         ],
         "regular": [
           {
             "index": 0,
-            "numberText": "38",
-            "zodiac": "蛇",
+            "numberText": "11",
+            "zodiac": "猴",
             "color": "green",
             "colorName": "绿"
           },
           {
             "index": 1,
-            "numberText": "26",
-            "zodiac": "蛇",
+            "numberText": "07",
+            "zodiac": "鼠",
+            "color": "red",
+            "colorName": "红"
+          },
+          {
+            "index": 2,
+            "numberText": "15",
+            "zodiac": "龙",
             "color": "blue",
             "colorName": "蓝"
           },
           {
-            "index": 2,
-            "numberText": "08",
-            "zodiac": "猪",
+            "index": 3,
+            "numberText": "13",
+            "zodiac": "马",
             "color": "red",
             "colorName": "红"
           },
           {
-            "index": 3,
-            "numberText": "06",
-            "zodiac": "牛",
+            "index": 4,
+            "numberText": "33",
+            "zodiac": "狗",
             "color": "green",
             "colorName": "绿"
           },
           {
-            "index": 4,
-            "numberText": "29",
-            "zodiac": "虎",
-            "color": "red",
-            "colorName": "红"
-          },
-          {
             "index": 5,
-            "numberText": "18",
-            "zodiac": "牛",
-            "color": "red",
-            "colorName": "红"
+            "numberText": "16",
+            "zodiac": "兔",
+            "color": "green",
+            "colorName": "绿"
           }
         ],
         "special": {
           "index": 6,
-          "numberText": "23",
-          "zodiac": "猴",
-          "color": "red",
-          "colorName": "红"
+          "numberText": "38",
+          "zodiac": "蛇",
+          "color": "green",
+          "colorName": "绿"
         }
       },
       "yearPools": [
@@ -830,17 +918,17 @@ window.__HISTORY_PATTERN_STATE__ = {
           "pool": [
             "01",
             "03",
-            "05",
-            "06",
-            "07",
+            "08",
             "09",
-            "28",
-            "49"
+            "24",
+            "27",
+            "37",
+            "38"
           ],
           "exact": true,
-          "covered": 28,
+          "covered": 31,
           "total": 45,
-          "hitRate": 62.22,
+          "hitRate": 68.89,
           "currentMiss": 0,
           "maxMiss": 2
         }
@@ -849,18 +937,18 @@ window.__HISTORY_PATTERN_STATE__ = {
         "year": "2026",
         "start": 226,
         "end": 230,
-        "count": 3,
+        "count": 4,
         "expected": 5,
-        "covered": false,
+        "covered": true,
         "pool": [
           "01",
           "03",
-          "05",
-          "06",
-          "07",
+          "08",
           "09",
-          "28",
-          "49"
+          "24",
+          "27",
+          "37",
+          "38"
         ],
         "poolBasis": "before-current-window",
         "displayMode": "active-window",
@@ -869,17 +957,29 @@ window.__HISTORY_PATTERN_STATE__ = {
           "pool": [
             "01",
             "03",
-            "05",
-            "06",
-            "07",
+            "08",
             "09",
-            "28",
-            "49"
+            "24",
+            "27",
+            "37",
+            "38"
           ],
-          "covered": false,
-          "hits": []
+          "covered": true,
+          "hits": [
+            {
+              "issue": 229,
+              "date": "2026-08-17",
+              "num": "38"
+            }
+          ]
         },
-        "hits": [],
+        "hits": [
+          {
+            "issue": 229,
+            "date": "2026-08-17",
+            "num": "38"
+          }
+        ],
         "draws": [
           {
             "issue": 226,
@@ -895,6 +995,11 @@ window.__HISTORY_PATTERN_STATE__ = {
             "issue": 228,
             "date": "2026-08-16",
             "num": "23"
+          },
+          {
+            "issue": 229,
+            "date": "2026-08-17",
+            "num": "38"
           }
         ]
       },
@@ -905,11 +1010,66 @@ window.__HISTORY_PATTERN_STATE__ = {
           "end": 5,
           "count": 5,
           "nums": [
+            "02",
             "09",
-            "22",
-            "29",
-            "43",
-            "45"
+            "10",
+            "11",
+            "24"
+          ],
+          "pool": [
+            "01",
+            "02",
+            "03",
+            "04",
+            "05",
+            "06",
+            "07",
+            "08"
+          ],
+          "poolBasis": "before-window",
+          "covered": true,
+          "hits": [
+            "02"
+          ]
+        },
+        {
+          "year": "2026",
+          "start": 6,
+          "end": 10,
+          "count": 5,
+          "nums": [
+            "04",
+            "19",
+            "21",
+            "37"
+          ],
+          "pool": [
+            "01",
+            "02",
+            "03",
+            "04",
+            "05",
+            "06",
+            "07",
+            "08"
+          ],
+          "poolBasis": "before-window",
+          "covered": true,
+          "hits": [
+            "04"
+          ]
+        },
+        {
+          "year": "2026",
+          "start": 11,
+          "end": 15,
+          "count": 5,
+          "nums": [
+            "27",
+            "28",
+            "32",
+            "41",
+            "49"
           ],
           "pool": [
             "01",
@@ -927,95 +1087,13 @@ window.__HISTORY_PATTERN_STATE__ = {
         },
         {
           "year": "2026",
-          "start": 6,
-          "end": 10,
-          "count": 5,
-          "nums": [
-            "13",
-            "21",
-            "27",
-            "28",
-            "41"
-          ],
-          "pool": [
-            "01",
-            "02",
-            "03",
-            "04",
-            "05",
-            "06",
-            "07",
-            "09"
-          ],
-          "poolBasis": "before-window",
-          "covered": false,
-          "hits": []
-        },
-        {
-          "year": "2026",
-          "start": 11,
-          "end": 15,
-          "count": 5,
-          "nums": [
-            "01",
-            "11",
-            "26",
-            "31"
-          ],
-          "pool": [
-            "01",
-            "02",
-            "03",
-            "04",
-            "05",
-            "06",
-            "09",
-            "13"
-          ],
-          "poolBasis": "before-window",
-          "covered": true,
-          "hits": [
-            "01"
-          ]
-        },
-        {
-          "year": "2026",
           "start": 16,
           "end": 20,
           "count": 5,
           "nums": [
-            "06",
-            "12",
-            "32",
-            "39",
-            "46"
-          ],
-          "pool": [
-            "01",
-            "02",
-            "03",
-            "04",
-            "05",
-            "06",
-            "09",
-            "13"
-          ],
-          "poolBasis": "before-window",
-          "covered": true,
-          "hits": [
-            "06"
-          ]
-        },
-        {
-          "year": "2026",
-          "start": 21,
-          "end": 25,
-          "count": 5,
-          "nums": [
-            "18",
-            "28",
-            "37",
-            "42",
+            "16",
+            "38",
+            "40",
             "47"
           ],
           "pool": [
@@ -1025,8 +1103,8 @@ window.__HISTORY_PATTERN_STATE__ = {
             "04",
             "05",
             "06",
-            "09",
-            "13"
+            "07",
+            "27"
           ],
           "poolBasis": "before-window",
           "covered": false,
@@ -1034,15 +1112,15 @@ window.__HISTORY_PATTERN_STATE__ = {
         },
         {
           "year": "2026",
-          "start": 26,
-          "end": 30,
+          "start": 21,
+          "end": 25,
           "count": 5,
           "nums": [
-            "01",
-            "03",
-            "19",
-            "41",
-            "45"
+            "09",
+            "10",
+            "16",
+            "34",
+            "35"
           ],
           "pool": [
             "01",
@@ -1051,14 +1129,41 @@ window.__HISTORY_PATTERN_STATE__ = {
             "04",
             "05",
             "06",
-            "09",
-            "28"
+            "16",
+            "27"
           ],
           "poolBasis": "before-window",
           "covered": true,
           "hits": [
+            "16"
+          ]
+        },
+        {
+          "year": "2026",
+          "start": 26,
+          "end": 30,
+          "count": 5,
+          "nums": [
+            "02",
+            "29",
+            "30",
+            "38",
+            "46"
+          ],
+          "pool": [
             "01",
-            "03"
+            "03",
+            "04",
+            "05",
+            "06",
+            "09",
+            "27",
+            "38"
+          ],
+          "poolBasis": "before-window",
+          "covered": true,
+          "hits": [
+            "38"
           ]
         },
         {
@@ -1067,26 +1172,26 @@ window.__HISTORY_PATTERN_STATE__ = {
           "end": 35,
           "count": 5,
           "nums": [
-            "06",
-            "19",
-            "26",
-            "27",
-            "41"
+            "04",
+            "08",
+            "24",
+            "29",
+            "34"
           ],
           "pool": [
             "01",
             "02",
+            "03",
             "04",
             "05",
             "06",
-            "07",
-            "09",
-            "28"
+            "16",
+            "27"
           ],
           "poolBasis": "before-window",
           "covered": true,
           "hits": [
-            "06"
+            "04"
           ]
         },
         {
@@ -1095,78 +1200,21 @@ window.__HISTORY_PATTERN_STATE__ = {
           "end": 40,
           "count": 5,
           "nums": [
-            "01",
-            "11",
-            "28",
-            "42",
-            "43"
-          ],
-          "pool": [
-            "01",
-            "02",
-            "04",
-            "05",
-            "06",
-            "09",
-            "18",
-            "41"
-          ],
-          "poolBasis": "before-window",
-          "covered": true,
-          "hits": [
-            "01"
-          ]
-        },
-        {
-          "year": "2026",
-          "start": 41,
-          "end": 45,
-          "count": 5,
-          "nums": [
-            "01",
-            "13",
-            "16",
-            "19",
+            "20",
+            "24",
+            "33",
+            "34",
             "36"
           ],
           "pool": [
             "01",
             "02",
-            "04",
-            "05",
-            "06",
-            "09",
-            "13",
-            "18"
-          ],
-          "poolBasis": "before-window",
-          "covered": true,
-          "hits": [
-            "01",
-            "13"
-          ]
-        },
-        {
-          "year": "2026",
-          "start": 46,
-          "end": 50,
-          "count": 5,
-          "nums": [
             "03",
-            "13",
-            "23",
-            "24",
-            "39"
-          ],
-          "pool": [
-            "01",
-            "02",
             "04",
             "05",
             "06",
-            "09",
-            "18",
-            "21"
+            "16",
+            "27"
           ],
           "poolBasis": "before-window",
           "covered": false,
@@ -1174,87 +1222,161 @@ window.__HISTORY_PATTERN_STATE__ = {
         },
         {
           "year": "2026",
-          "start": 51,
-          "end": 55,
-          "count": 5,
+          "start": 41,
+          "end": 45,
+          "count": 6,
           "nums": [
             "01",
-            "14",
-            "15",
-            "38",
-            "48"
+            "19",
+            "25",
+            "28"
           ],
           "pool": [
             "01",
-            "02",
-            "04",
-            "06",
-            "09",
-            "18",
-            "21",
-            "23"
+            "03",
+            "05",
+            "16",
+            "19",
+            "24",
+            "27",
+            "30"
           ],
           "poolBasis": "before-window",
           "covered": true,
           "hits": [
-            "01"
+            "01",
+            "19"
+          ]
+        },
+        {
+          "year": "2026",
+          "start": 46,
+          "end": 50,
+          "count": 10,
+          "nums": [
+            "03",
+            "13",
+            "14",
+            "17",
+            "23",
+            "24",
+            "25",
+            "28",
+            "35",
+            "39"
+          ],
+          "pool": [
+            "03",
+            "05",
+            "06",
+            "16",
+            "19",
+            "24",
+            "27",
+            "30"
+          ],
+          "poolBasis": "before-window",
+          "covered": true,
+          "hits": [
+            "03",
+            "24"
+          ]
+        },
+        {
+          "year": "2026",
+          "start": 51,
+          "end": 55,
+          "count": 10,
+          "nums": [
+            "01",
+            "08",
+            "14",
+            "15",
+            "16",
+            "23",
+            "27",
+            "38",
+            "39",
+            "48"
+          ],
+          "pool": [
+            "05",
+            "06",
+            "07",
+            "16",
+            "19",
+            "24",
+            "27",
+            "30"
+          ],
+          "poolBasis": "before-window",
+          "covered": true,
+          "hits": [
+            "16",
+            "27"
           ]
         },
         {
           "year": "2026",
           "start": 56,
           "end": 60,
-          "count": 5,
+          "count": 10,
           "nums": [
+            "01",
             "09",
             "10",
+            "20",
             "23",
             "31",
+            "39",
+            "43",
             "48"
           ],
           "pool": [
-            "01",
-            "02",
-            "04",
+            "03",
+            "05",
             "06",
-            "09",
-            "18",
-            "21",
-            "23"
+            "16",
+            "19",
+            "24",
+            "27",
+            "29"
           ],
           "poolBasis": "before-window",
-          "covered": true,
-          "hits": [
-            "09",
-            "23"
-          ]
+          "covered": false,
+          "hits": []
         },
         {
           "year": "2026",
           "start": 61,
           "end": 65,
-          "count": 5,
+          "count": 10,
           "nums": [
             "05",
+            "07",
+            "13",
             "18",
             "24",
             "28",
-            "29"
+            "29",
+            "38",
+            "40",
+            "48"
           ],
           "pool": [
             "01",
             "02",
+            "03",
             "04",
-            "06",
-            "09",
-            "18",
-            "21",
-            "24"
+            "05",
+            "16",
+            "24",
+            "27"
           ],
           "poolBasis": "before-window",
           "covered": true,
           "hits": [
-            "18",
+            "05",
             "24"
           ]
         },
@@ -1262,105 +1384,127 @@ window.__HISTORY_PATTERN_STATE__ = {
           "year": "2026",
           "start": 66,
           "end": 70,
-          "count": 5,
+          "count": 10,
           "nums": [
+            "01",
             "05",
             "23",
             "24",
             "25",
-            "37"
+            "37",
+            "39",
+            "43"
           ],
           "pool": [
             "01",
             "02",
+            "03",
             "04",
-            "06",
-            "07",
-            "09",
-            "23",
-            "28"
+            "05",
+            "16",
+            "24",
+            "27"
           ],
           "poolBasis": "before-window",
           "covered": true,
           "hits": [
-            "23"
+            "01",
+            "05",
+            "24"
           ]
         },
         {
           "year": "2026",
           "start": 71,
           "end": 75,
-          "count": 5,
+          "count": 10,
           "nums": [
+            "03",
             "10",
+            "15",
+            "19",
+            "23",
             "33",
             "34",
+            "42",
             "46",
             "48"
           ],
           "pool": [
             "01",
             "02",
+            "03",
             "04",
             "06",
-            "18",
-            "21",
-            "22",
-            "23"
+            "16",
+            "24",
+            "27"
           ],
           "poolBasis": "before-window",
-          "covered": false,
-          "hits": []
+          "covered": true,
+          "hits": [
+            "03"
+          ]
         },
         {
           "year": "2026",
           "start": 76,
           "end": 80,
-          "count": 5,
+          "count": 10,
           "nums": [
-            "02",
-            "03",
-            "29",
-            "35",
-            "46"
-          ],
-          "pool": [
             "01",
             "02",
-            "06",
-            "18",
-            "21",
-            "22",
-            "23",
-            "33"
-          ],
-          "poolBasis": "before-window",
-          "covered": true,
-          "hits": [
-            "02"
-          ]
-        },
-        {
-          "year": "2026",
-          "start": 81,
-          "end": 85,
-          "count": 5,
-          "nums": [
-            "05",
-            "16",
-            "17",
-            "19",
-            "27"
+            "03",
+            "27",
+            "29",
+            "35",
+            "38",
+            "39",
+            "45",
+            "46"
           ],
           "pool": [
             "01",
             "04",
             "06",
             "10",
-            "18",
-            "21",
-            "23",
-            "29"
+            "12",
+            "24",
+            "27",
+            "38"
+          ],
+          "poolBasis": "before-window",
+          "covered": true,
+          "hits": [
+            "01",
+            "27",
+            "38"
+          ]
+        },
+        {
+          "year": "2026",
+          "start": 81,
+          "end": 85,
+          "count": 10,
+          "nums": [
+            "05",
+            "14",
+            "16",
+            "17",
+            "19",
+            "27",
+            "38",
+            "43"
+          ],
+          "pool": [
+            "01",
+            "02",
+            "04",
+            "06",
+            "10",
+            "24",
+            "32",
+            "47"
           ],
           "poolBasis": "before-window",
           "covered": false,
@@ -1370,186 +1514,190 @@ window.__HISTORY_PATTERN_STATE__ = {
           "year": "2026",
           "start": 86,
           "end": 90,
-          "count": 5,
+          "count": 10,
           "nums": [
+            "03",
             "12",
+            "18",
+            "22",
             "26",
             "27",
             "36",
+            "46",
             "49"
           ],
           "pool": [
-            "01",
-            "05",
-            "09",
-            "18",
-            "21",
-            "26",
-            "39",
-            "46"
+            "02",
+            "03",
+            "04",
+            "10",
+            "19",
+            "24",
+            "27",
+            "38"
           ],
           "poolBasis": "before-window",
           "covered": true,
           "hits": [
-            "26"
+            "03",
+            "27"
           ]
         },
         {
           "year": "2026",
           "start": 91,
           "end": 95,
-          "count": 5,
+          "count": 10,
           "nums": [
             "06",
             "17",
+            "20",
+            "26",
             "35",
             "37",
-            "40"
+            "38",
+            "39",
+            "40",
+            "48"
           ],
           "pool": [
-            "01",
             "02",
-            "04",
-            "18",
-            "23",
+            "06",
+            "10",
+            "19",
+            "24",
             "27",
-            "29",
-            "46"
+            "40",
+            "44"
           ],
           "poolBasis": "before-window",
-          "covered": false,
-          "hits": []
+          "covered": true,
+          "hits": [
+            "06",
+            "40"
+          ]
         },
         {
           "year": "2026",
           "start": 96,
           "end": 100,
-          "count": 5,
+          "count": 10,
           "nums": [
+            "08",
             "11",
             "12",
+            "13",
             "17",
+            "18",
+            "20",
             "33",
+            "39",
             "43"
           ],
           "pool": [
-            "01",
-            "02",
-            "04",
-            "23",
-            "27",
-            "29",
-            "37",
-            "46"
+            "06",
+            "07",
+            "10",
+            "11",
+            "19",
+            "24",
+            "38",
+            "49"
           ],
           "poolBasis": "before-window",
-          "covered": false,
-          "hits": []
+          "covered": true,
+          "hits": [
+            "11"
+          ]
         },
         {
           "year": "2026",
           "start": 101,
           "end": 105,
-          "count": 5,
+          "count": 10,
           "nums": [
             "01",
             "06",
             "20",
             "28",
-            "39"
+            "34",
+            "37",
+            "39",
+            "45",
+            "46",
+            "48"
           ],
           "pool": [
-            "01",
-            "23",
-            "27",
-            "29",
+            "04",
+            "10",
+            "18",
+            "24",
+            "25",
             "32",
-            "33",
-            "40",
-            "47"
+            "38",
+            "41"
           ],
           "poolBasis": "before-window",
-          "covered": true,
-          "hits": [
-            "01"
-          ]
+          "covered": false,
+          "hits": []
         },
         {
           "year": "2026",
           "start": 106,
           "end": 110,
-          "count": 5,
+          "count": 10,
           "nums": [
+            "08",
+            "13",
             "16",
             "22",
             "30",
+            "32",
+            "36",
             "45",
             "49"
           ],
           "pool": [
-            "01",
-            "23",
-            "27",
+            "09",
+            "19",
             "29",
             "32",
-            "33",
-            "40",
+            "36",
+            "39",
+            "44",
             "47"
           ],
           "poolBasis": "before-window",
-          "covered": false,
-          "hits": []
+          "covered": true,
+          "hits": [
+            "32",
+            "36"
+          ]
         },
         {
           "year": "2026",
           "start": 111,
           "end": 115,
-          "count": 5,
+          "count": 10,
           "nums": [
             "01",
             "02",
             "04",
+            "05",
             "09",
-            "30"
+            "12",
+            "30",
+            "40"
           ],
           "pool": [
-            "01",
-            "23",
-            "27",
-            "29",
-            "30",
-            "32",
-            "33",
-            "37"
-          ],
-          "poolBasis": "before-window",
-          "covered": true,
-          "hits": [
-            "01",
-            "30"
-          ]
-        },
-        {
-          "year": "2026",
-          "start": 116,
-          "end": 120,
-          "count": 5,
-          "nums": [
-            "06",
-            "08",
+            "07",
             "11",
             "16",
-            "22"
-          ],
-          "pool": [
-            "01",
-            "23",
-            "27",
+            "19",
             "29",
             "32",
-            "33",
-            "37",
-            "49"
+            "36",
+            "39"
           ],
           "poolBasis": "before-window",
           "covered": false,
@@ -1557,190 +1705,192 @@ window.__HISTORY_PATTERN_STATE__ = {
         },
         {
           "year": "2026",
-          "start": 121,
-          "end": 125,
-          "count": 5,
+          "start": 116,
+          "end": 120,
+          "count": 10,
           "nums": [
-            "01",
-            "31",
-            "39",
-            "44",
-            "46"
+            "06",
+            "08",
+            "09",
+            "11",
+            "15",
+            "16",
+            "22",
+            "27",
+            "35",
+            "43"
           ],
           "pool": [
-            "01",
-            "06",
-            "23",
-            "27",
+            "02",
+            "07",
+            "16",
+            "19",
             "29",
-            "33",
-            "42",
-            "49"
+            "32",
+            "36",
+            "39"
           ],
           "poolBasis": "before-window",
           "covered": true,
           "hits": [
-            "01"
+            "16"
+          ]
+        },
+        {
+          "year": "2026",
+          "start": 121,
+          "end": 125,
+          "count": 10,
+          "nums": [
+            "01",
+            "07",
+            "14",
+            "31",
+            "37",
+            "39",
+            "42",
+            "44",
+            "46"
+          ],
+          "pool": [
+            "07",
+            "12",
+            "16",
+            "19",
+            "24",
+            "30",
+            "32",
+            "39"
+          ],
+          "poolBasis": "before-window",
+          "covered": true,
+          "hits": [
+            "07",
+            "39"
           ]
         },
         {
           "year": "2026",
           "start": 126,
           "end": 130,
-          "count": 5,
+          "count": 10,
           "nums": [
+            "03",
+            "10",
             "29",
             "37",
+            "38",
             "41",
+            "43",
             "45",
             "49"
           ],
           "pool": [
-            "01",
-            "06",
-            "23",
-            "27",
-            "29",
-            "33",
-            "42",
-            "49"
+            "12",
+            "16",
+            "19",
+            "21",
+            "24",
+            "30",
+            "32",
+            "39"
           ],
           "poolBasis": "before-window",
-          "covered": true,
-          "hits": [
-            "29",
-            "49"
-          ]
+          "covered": false,
+          "hits": []
         },
         {
           "year": "2026",
           "start": 131,
           "end": 135,
-          "count": 5,
+          "count": 10,
           "nums": [
             "07",
+            "13",
+            "16",
+            "20",
             "30",
-            "37"
+            "32",
+            "37",
+            "49"
           ],
           "pool": [
-            "01",
-            "06",
-            "13",
-            "17",
-            "29",
-            "37",
-            "48",
-            "49"
+            "02",
+            "03",
+            "16",
+            "19",
+            "21",
+            "24",
+            "32",
+            "39"
           ],
           "poolBasis": "before-window",
           "covered": true,
           "hits": [
-            "37"
+            "16",
+            "32"
           ]
         },
         {
           "year": "2026",
           "start": 136,
           "end": 140,
-          "count": 5,
+          "count": 10,
           "nums": [
+            "08",
             "16",
             "24",
             "26",
+            "37",
+            "39",
+            "40",
             "48",
             "49"
           ],
           "pool": [
-            "01",
-            "10",
-            "12",
-            "22",
-            "23",
-            "27",
-            "29",
-            "37"
+            "02",
+            "03",
+            "16",
+            "19",
+            "21",
+            "24",
+            "32",
+            "39"
           ],
           "poolBasis": "before-window",
-          "covered": false,
-          "hits": []
+          "covered": true,
+          "hits": [
+            "16",
+            "24",
+            "39"
+          ]
         },
         {
           "year": "2026",
           "start": 141,
           "end": 145,
-          "count": 5,
+          "count": 10,
           "nums": [
+            "04",
             "05",
+            "06",
+            "10",
             "23",
+            "31",
             "33",
+            "38",
             "43",
             "44"
           ],
           "pool": [
-            "01",
-            "12",
-            "22",
-            "23",
-            "27",
-            "29",
-            "37",
-            "48"
-          ],
-          "poolBasis": "before-window",
-          "covered": true,
-          "hits": [
-            "23"
-          ]
-        },
-        {
-          "year": "2026",
-          "start": 146,
-          "end": 150,
-          "count": 5,
-          "nums": [
-            "09",
-            "13",
-            "27",
-            "42",
-            "48"
-          ],
-          "pool": [
-            "01",
-            "22",
-            "27",
-            "29",
-            "33",
-            "37",
-            "39",
-            "48"
-          ],
-          "poolBasis": "before-window",
-          "covered": true,
-          "hits": [
-            "27",
-            "48"
-          ]
-        },
-        {
-          "year": "2026",
-          "start": 151,
-          "end": 155,
-          "count": 5,
-          "nums": [
-            "07",
-            "31",
-            "41",
-            "45"
-          ],
-          "pool": [
-            "01",
-            "22",
-            "23",
+            "02",
+            "03",
+            "16",
+            "19",
+            "21",
             "24",
-            "27",
-            "33",
-            "37",
-            "46"
+            "32",
+            "39"
           ],
           "poolBasis": "before-window",
           "covered": false,
@@ -1748,108 +1898,184 @@ window.__HISTORY_PATTERN_STATE__ = {
         },
         {
           "year": "2026",
-          "start": 156,
-          "end": 160,
-          "count": 5,
+          "start": 146,
+          "end": 150,
+          "count": 10,
           "nums": [
             "01",
-            "02",
-            "16",
-            "39",
-            "40"
-          ],
-          "pool": [
-            "01",
-            "22",
-            "24",
+            "06",
+            "09",
+            "13",
             "27",
             "31",
+            "38",
+            "42",
+            "48"
+          ],
+          "pool": [
+            "04",
+            "10",
+            "16",
+            "21",
+            "28",
+            "30",
+            "36",
+            "39"
+          ],
+          "poolBasis": "before-window",
+          "covered": false,
+          "hits": []
+        },
+        {
+          "year": "2026",
+          "start": 151,
+          "end": 155,
+          "count": 10,
+          "nums": [
+            "07",
+            "10",
+            "31",
+            "35",
             "37",
-            "43",
-            "46"
+            "41",
+            "45"
+          ],
+          "pool": [
+            "07",
+            "09",
+            "11",
+            "19",
+            "34",
+            "38",
+            "39",
+            "49"
           ],
           "poolBasis": "before-window",
           "covered": true,
           "hits": [
-            "01"
+            "07"
           ]
+        },
+        {
+          "year": "2026",
+          "start": 156,
+          "end": 160,
+          "count": 10,
+          "nums": [
+            "01",
+            "02",
+            "16",
+            "26",
+            "29",
+            "39",
+            "40",
+            "49"
+          ],
+          "pool": [
+            "03",
+            "09",
+            "11",
+            "22",
+            "28",
+            "34",
+            "37",
+            "38"
+          ],
+          "poolBasis": "before-window",
+          "covered": false,
+          "hits": []
         },
         {
           "year": "2026",
           "start": 161,
           "end": 165,
-          "count": 5,
+          "count": 10,
           "nums": [
             "03",
             "08",
+            "18",
             "21",
+            "22",
             "32",
-            "37"
+            "37",
+            "39",
+            "49"
           ],
           "pool": [
-            "01",
+            "07",
+            "09",
+            "19",
             "22",
-            "24",
-            "27",
-            "31",
-            "37",
-            "43",
-            "46"
+            "32",
+            "34",
+            "38",
+            "39"
           ],
           "poolBasis": "before-window",
           "covered": true,
           "hits": [
-            "37"
+            "22",
+            "32",
+            "39"
           ]
         },
         {
           "year": "2026",
           "start": 166,
           "end": 170,
-          "count": 5,
+          "count": 10,
           "nums": [
             "03",
             "06",
+            "08",
             "15",
+            "18",
             "19",
-            "24"
+            "24",
+            "30",
+            "43"
           ],
           "pool": [
-            "01",
+            "07",
+            "09",
+            "19",
             "22",
-            "24",
-            "27",
-            "31",
-            "37",
-            "43",
-            "46"
+            "32",
+            "34",
+            "38",
+            "39"
           ],
           "poolBasis": "before-window",
           "covered": true,
           "hits": [
-            "24"
+            "19"
           ]
         },
         {
           "year": "2026",
           "start": 171,
           "end": 175,
-          "count": 5,
+          "count": 10,
           "nums": [
+            "01",
+            "15",
+            "16",
+            "18",
+            "22",
             "26",
             "28",
             "41",
             "44"
           ],
           "pool": [
-            "01",
-            "11",
-            "23",
-            "24",
-            "27",
-            "37",
-            "45",
-            "46"
+            "04",
+            "08",
+            "10",
+            "25",
+            "32",
+            "36",
+            "38",
+            "39"
           ],
           "poolBasis": "before-window",
           "covered": false,
@@ -1859,129 +2085,151 @@ window.__HISTORY_PATTERN_STATE__ = {
           "year": "2026",
           "start": 176,
           "end": 180,
-          "count": 5,
+          "count": 10,
           "nums": [
             "10",
+            "12",
             "14",
             "15",
             "18",
-            "21"
+            "21",
+            "29",
+            "37"
           ],
           "pool": [
-            "01",
-            "03",
-            "05",
-            "12",
-            "22",
-            "37",
-            "41",
-            "48"
+            "07",
+            "10",
+            "16",
+            "19",
+            "27",
+            "30",
+            "34",
+            "39"
           ],
           "poolBasis": "before-window",
-          "covered": false,
-          "hits": []
+          "covered": true,
+          "hits": [
+            "10"
+          ]
         },
         {
           "year": "2026",
           "start": 181,
           "end": 185,
-          "count": 5,
+          "count": 10,
           "nums": [
             "01",
+            "06",
+            "10",
             "19",
             "24",
             "36",
             "41"
           ],
           "pool": [
-            "01",
-            "03",
-            "05",
-            "12",
-            "22",
-            "37",
-            "41",
-            "48"
+            "04",
+            "10",
+            "27",
+            "28",
+            "30",
+            "33",
+            "39",
+            "47"
           ],
           "poolBasis": "before-window",
           "covered": true,
           "hits": [
-            "01",
-            "41"
+            "10"
           ]
         },
         {
           "year": "2026",
           "start": 186,
           "end": 190,
-          "count": 5,
+          "count": 10,
           "nums": [
             "01",
+            "06",
             "15",
             "16",
-            "23"
+            "18",
+            "23",
+            "27",
+            "40"
           ],
           "pool": [
             "01",
-            "03",
-            "05",
-            "12",
-            "22",
+            "24",
+            "27",
+            "30",
+            "33",
+            "34",
             "37",
-            "41",
-            "48"
+            "47"
           ],
           "poolBasis": "before-window",
           "covered": true,
           "hits": [
-            "01"
+            "01",
+            "27"
           ]
         },
         {
           "year": "2026",
           "start": 191,
           "end": 195,
-          "count": 5,
+          "count": 10,
           "nums": [
+            "02",
             "09",
+            "12",
+            "18",
             "25",
             "26",
-            "29"
+            "29",
+            "37"
           ],
           "pool": [
             "01",
-            "03",
-            "05",
-            "12",
-            "22",
+            "24",
+            "27",
+            "30",
+            "33",
+            "34",
             "37",
-            "41",
-            "48"
+            "47"
           ],
           "poolBasis": "before-window",
-          "covered": false,
-          "hits": []
+          "covered": true,
+          "hits": [
+            "37"
+          ]
         },
         {
           "year": "2026",
           "start": 196,
           "end": 200,
-          "count": 5,
+          "count": 10,
           "nums": [
+            "06",
             "07",
             "08",
+            "18",
             "36",
-            "39"
+            "39",
+            "42",
+            "43",
+            "44"
           ],
           "pool": [
             "01",
-            "03",
-            "05",
-            "09",
-            "12",
-            "16",
+            "24",
+            "27",
+            "30",
+            "33",
+            "34",
             "37",
-            "41"
+            "47"
           ],
           "poolBasis": "before-window",
           "covered": false,
@@ -1991,109 +2239,126 @@ window.__HISTORY_PATTERN_STATE__ = {
           "year": "2026",
           "start": 201,
           "end": 205,
-          "count": 5,
+          "count": 10,
           "nums": [
             "03",
             "05",
+            "17",
+            "24",
             "25",
             "32",
-            "40"
+            "40",
+            "44",
+            "46"
           ],
           "pool": [
             "01",
-            "03",
-            "05",
-            "06",
-            "07",
-            "09",
-            "28",
-            "49"
+            "02",
+            "08",
+            "10",
+            "24",
+            "27",
+            "37",
+            "47"
           ],
           "poolBasis": "before-window",
           "covered": true,
           "hits": [
-            "03",
-            "05"
+            "24"
           ]
         },
         {
           "year": "2026",
           "start": 206,
           "end": 210,
-          "count": 5,
+          "count": 10,
           "nums": [
+            "03",
+            "07",
             "08",
+            "10",
             "19",
+            "25",
             "31",
+            "41",
             "47",
             "49"
           ],
           "pool": [
             "01",
-            "03",
-            "05",
-            "06",
-            "07",
-            "09",
-            "28",
-            "49"
+            "24",
+            "32",
+            "34",
+            "37",
+            "43",
+            "46",
+            "47"
           ],
           "poolBasis": "before-window",
           "covered": true,
           "hits": [
-            "49"
+            "47"
           ]
         },
         {
           "year": "2026",
           "start": 211,
           "end": 215,
-          "count": 5,
+          "count": 10,
           "nums": [
             "01",
             "04",
             "06",
+            "12",
             "14",
-            "35"
+            "20",
+            "31",
+            "35",
+            "37",
+            "44"
           ],
           "pool": [
             "01",
-            "03",
-            "05",
-            "06",
-            "07",
-            "09",
-            "28",
-            "49"
+            "04",
+            "08",
+            "10",
+            "25",
+            "32",
+            "36",
+            "38"
           ],
           "poolBasis": "before-window",
           "covered": true,
           "hits": [
             "01",
-            "06"
+            "04"
           ]
         },
         {
           "year": "2026",
           "start": 216,
           "end": 220,
-          "count": 5,
+          "count": 9,
           "nums": [
+            "02",
             "17",
+            "18",
             "26",
             "37",
+            "39",
+            "41",
             "43",
             "48"
           ],
           "pool": [
             "01",
-            "03",
-            "05",
-            "06",
-            "07",
-            "09",
-            "28",
-            "49"
+            "08",
+            "10",
+            "21",
+            "25",
+            "32",
+            "36",
+            "38"
           ],
           "poolBasis": "before-window",
           "covered": false,
@@ -2113,12 +2378,12 @@ window.__HISTORY_PATTERN_STATE__ = {
           "pool": [
             "01",
             "03",
-            "05",
-            "06",
-            "07",
+            "08",
             "09",
+            "24",
             "28",
-            "49"
+            "37",
+            "38"
           ],
           "poolBasis": "before-window",
           "covered": true,
@@ -2135,11 +2400,66 @@ window.__HISTORY_PATTERN_STATE__ = {
           "end": 5,
           "count": 5,
           "nums": [
+            "02",
             "09",
-            "22",
-            "29",
-            "43",
-            "45"
+            "10",
+            "11",
+            "24"
+          ],
+          "pool": [
+            "01",
+            "02",
+            "03",
+            "04",
+            "05",
+            "06",
+            "07",
+            "08"
+          ],
+          "poolBasis": "before-window",
+          "covered": true,
+          "hits": [
+            "02"
+          ]
+        },
+        {
+          "year": "2026",
+          "start": 6,
+          "end": 10,
+          "count": 5,
+          "nums": [
+            "04",
+            "19",
+            "21",
+            "37"
+          ],
+          "pool": [
+            "01",
+            "02",
+            "03",
+            "04",
+            "05",
+            "06",
+            "07",
+            "08"
+          ],
+          "poolBasis": "before-window",
+          "covered": true,
+          "hits": [
+            "04"
+          ]
+        },
+        {
+          "year": "2026",
+          "start": 11,
+          "end": 15,
+          "count": 5,
+          "nums": [
+            "27",
+            "28",
+            "32",
+            "41",
+            "49"
           ],
           "pool": [
             "01",
@@ -2157,95 +2477,13 @@ window.__HISTORY_PATTERN_STATE__ = {
         },
         {
           "year": "2026",
-          "start": 6,
-          "end": 10,
-          "count": 5,
-          "nums": [
-            "13",
-            "21",
-            "27",
-            "28",
-            "41"
-          ],
-          "pool": [
-            "01",
-            "02",
-            "03",
-            "04",
-            "05",
-            "06",
-            "07",
-            "09"
-          ],
-          "poolBasis": "before-window",
-          "covered": false,
-          "hits": []
-        },
-        {
-          "year": "2026",
-          "start": 11,
-          "end": 15,
-          "count": 5,
-          "nums": [
-            "01",
-            "11",
-            "26",
-            "31"
-          ],
-          "pool": [
-            "01",
-            "02",
-            "03",
-            "04",
-            "05",
-            "06",
-            "09",
-            "13"
-          ],
-          "poolBasis": "before-window",
-          "covered": true,
-          "hits": [
-            "01"
-          ]
-        },
-        {
-          "year": "2026",
           "start": 16,
           "end": 20,
           "count": 5,
           "nums": [
-            "06",
-            "12",
-            "32",
-            "39",
-            "46"
-          ],
-          "pool": [
-            "01",
-            "02",
-            "03",
-            "04",
-            "05",
-            "06",
-            "09",
-            "13"
-          ],
-          "poolBasis": "before-window",
-          "covered": true,
-          "hits": [
-            "06"
-          ]
-        },
-        {
-          "year": "2026",
-          "start": 21,
-          "end": 25,
-          "count": 5,
-          "nums": [
-            "18",
-            "28",
-            "37",
-            "42",
+            "16",
+            "38",
+            "40",
             "47"
           ],
           "pool": [
@@ -2255,8 +2493,8 @@ window.__HISTORY_PATTERN_STATE__ = {
             "04",
             "05",
             "06",
-            "09",
-            "13"
+            "07",
+            "27"
           ],
           "poolBasis": "before-window",
           "covered": false,
@@ -2264,15 +2502,15 @@ window.__HISTORY_PATTERN_STATE__ = {
         },
         {
           "year": "2026",
-          "start": 26,
-          "end": 30,
+          "start": 21,
+          "end": 25,
           "count": 5,
           "nums": [
-            "01",
-            "03",
-            "19",
-            "41",
-            "45"
+            "09",
+            "10",
+            "16",
+            "34",
+            "35"
           ],
           "pool": [
             "01",
@@ -2281,14 +2519,41 @@ window.__HISTORY_PATTERN_STATE__ = {
             "04",
             "05",
             "06",
-            "09",
-            "28"
+            "16",
+            "27"
           ],
           "poolBasis": "before-window",
           "covered": true,
           "hits": [
+            "16"
+          ]
+        },
+        {
+          "year": "2026",
+          "start": 26,
+          "end": 30,
+          "count": 5,
+          "nums": [
+            "02",
+            "29",
+            "30",
+            "38",
+            "46"
+          ],
+          "pool": [
             "01",
-            "03"
+            "03",
+            "04",
+            "05",
+            "06",
+            "09",
+            "27",
+            "38"
+          ],
+          "poolBasis": "before-window",
+          "covered": true,
+          "hits": [
+            "38"
           ]
         },
         {
@@ -2297,26 +2562,26 @@ window.__HISTORY_PATTERN_STATE__ = {
           "end": 35,
           "count": 5,
           "nums": [
-            "06",
-            "19",
-            "26",
-            "27",
-            "41"
+            "04",
+            "08",
+            "24",
+            "29",
+            "34"
           ],
           "pool": [
             "01",
             "02",
+            "03",
             "04",
             "05",
             "06",
-            "07",
-            "09",
-            "28"
+            "16",
+            "27"
           ],
           "poolBasis": "before-window",
           "covered": true,
           "hits": [
-            "06"
+            "04"
           ]
         },
         {
@@ -2325,78 +2590,21 @@ window.__HISTORY_PATTERN_STATE__ = {
           "end": 40,
           "count": 5,
           "nums": [
-            "01",
-            "11",
-            "28",
-            "42",
-            "43"
-          ],
-          "pool": [
-            "01",
-            "02",
-            "04",
-            "05",
-            "06",
-            "09",
-            "18",
-            "41"
-          ],
-          "poolBasis": "before-window",
-          "covered": true,
-          "hits": [
-            "01"
-          ]
-        },
-        {
-          "year": "2026",
-          "start": 41,
-          "end": 45,
-          "count": 5,
-          "nums": [
-            "01",
-            "13",
-            "16",
-            "19",
+            "20",
+            "24",
+            "33",
+            "34",
             "36"
           ],
           "pool": [
             "01",
             "02",
-            "04",
-            "05",
-            "06",
-            "09",
-            "13",
-            "18"
-          ],
-          "poolBasis": "before-window",
-          "covered": true,
-          "hits": [
-            "01",
-            "13"
-          ]
-        },
-        {
-          "year": "2026",
-          "start": 46,
-          "end": 50,
-          "count": 5,
-          "nums": [
             "03",
-            "13",
-            "23",
-            "24",
-            "39"
-          ],
-          "pool": [
-            "01",
-            "02",
             "04",
             "05",
             "06",
-            "09",
-            "18",
-            "21"
+            "16",
+            "27"
           ],
           "poolBasis": "before-window",
           "covered": false,
@@ -2404,87 +2612,161 @@ window.__HISTORY_PATTERN_STATE__ = {
         },
         {
           "year": "2026",
-          "start": 51,
-          "end": 55,
-          "count": 5,
+          "start": 41,
+          "end": 45,
+          "count": 6,
           "nums": [
             "01",
-            "14",
-            "15",
-            "38",
-            "48"
+            "19",
+            "25",
+            "28"
           ],
           "pool": [
             "01",
-            "02",
-            "04",
-            "06",
-            "09",
-            "18",
-            "21",
-            "23"
+            "03",
+            "05",
+            "16",
+            "19",
+            "24",
+            "27",
+            "30"
           ],
           "poolBasis": "before-window",
           "covered": true,
           "hits": [
-            "01"
+            "01",
+            "19"
+          ]
+        },
+        {
+          "year": "2026",
+          "start": 46,
+          "end": 50,
+          "count": 10,
+          "nums": [
+            "03",
+            "13",
+            "14",
+            "17",
+            "23",
+            "24",
+            "25",
+            "28",
+            "35",
+            "39"
+          ],
+          "pool": [
+            "03",
+            "05",
+            "06",
+            "16",
+            "19",
+            "24",
+            "27",
+            "30"
+          ],
+          "poolBasis": "before-window",
+          "covered": true,
+          "hits": [
+            "03",
+            "24"
+          ]
+        },
+        {
+          "year": "2026",
+          "start": 51,
+          "end": 55,
+          "count": 10,
+          "nums": [
+            "01",
+            "08",
+            "14",
+            "15",
+            "16",
+            "23",
+            "27",
+            "38",
+            "39",
+            "48"
+          ],
+          "pool": [
+            "05",
+            "06",
+            "07",
+            "16",
+            "19",
+            "24",
+            "27",
+            "30"
+          ],
+          "poolBasis": "before-window",
+          "covered": true,
+          "hits": [
+            "16",
+            "27"
           ]
         },
         {
           "year": "2026",
           "start": 56,
           "end": 60,
-          "count": 5,
+          "count": 10,
           "nums": [
+            "01",
             "09",
             "10",
+            "20",
             "23",
             "31",
+            "39",
+            "43",
             "48"
           ],
           "pool": [
-            "01",
-            "02",
-            "04",
+            "03",
+            "05",
             "06",
-            "09",
-            "18",
-            "21",
-            "23"
+            "16",
+            "19",
+            "24",
+            "27",
+            "29"
           ],
           "poolBasis": "before-window",
-          "covered": true,
-          "hits": [
-            "09",
-            "23"
-          ]
+          "covered": false,
+          "hits": []
         },
         {
           "year": "2026",
           "start": 61,
           "end": 65,
-          "count": 5,
+          "count": 10,
           "nums": [
             "05",
+            "07",
+            "13",
             "18",
             "24",
             "28",
-            "29"
+            "29",
+            "38",
+            "40",
+            "48"
           ],
           "pool": [
             "01",
             "02",
+            "03",
             "04",
-            "06",
-            "09",
-            "18",
-            "21",
-            "24"
+            "05",
+            "16",
+            "24",
+            "27"
           ],
           "poolBasis": "before-window",
           "covered": true,
           "hits": [
-            "18",
+            "05",
             "24"
           ]
         },
@@ -2492,105 +2774,127 @@ window.__HISTORY_PATTERN_STATE__ = {
           "year": "2026",
           "start": 66,
           "end": 70,
-          "count": 5,
+          "count": 10,
           "nums": [
+            "01",
             "05",
             "23",
             "24",
             "25",
-            "37"
+            "37",
+            "39",
+            "43"
           ],
           "pool": [
             "01",
             "02",
+            "03",
             "04",
-            "06",
-            "07",
-            "09",
-            "23",
-            "28"
+            "05",
+            "16",
+            "24",
+            "27"
           ],
           "poolBasis": "before-window",
           "covered": true,
           "hits": [
-            "23"
+            "01",
+            "05",
+            "24"
           ]
         },
         {
           "year": "2026",
           "start": 71,
           "end": 75,
-          "count": 5,
+          "count": 10,
           "nums": [
+            "03",
             "10",
+            "15",
+            "19",
+            "23",
             "33",
             "34",
+            "42",
             "46",
             "48"
           ],
           "pool": [
             "01",
             "02",
+            "03",
             "04",
             "06",
-            "18",
-            "21",
-            "22",
-            "23"
+            "16",
+            "24",
+            "27"
           ],
           "poolBasis": "before-window",
-          "covered": false,
-          "hits": []
+          "covered": true,
+          "hits": [
+            "03"
+          ]
         },
         {
           "year": "2026",
           "start": 76,
           "end": 80,
-          "count": 5,
+          "count": 10,
           "nums": [
-            "02",
-            "03",
-            "29",
-            "35",
-            "46"
-          ],
-          "pool": [
             "01",
             "02",
-            "06",
-            "18",
-            "21",
-            "22",
-            "23",
-            "33"
-          ],
-          "poolBasis": "before-window",
-          "covered": true,
-          "hits": [
-            "02"
-          ]
-        },
-        {
-          "year": "2026",
-          "start": 81,
-          "end": 85,
-          "count": 5,
-          "nums": [
-            "05",
-            "16",
-            "17",
-            "19",
-            "27"
+            "03",
+            "27",
+            "29",
+            "35",
+            "38",
+            "39",
+            "45",
+            "46"
           ],
           "pool": [
             "01",
             "04",
             "06",
             "10",
-            "18",
-            "21",
-            "23",
-            "29"
+            "12",
+            "24",
+            "27",
+            "38"
+          ],
+          "poolBasis": "before-window",
+          "covered": true,
+          "hits": [
+            "01",
+            "27",
+            "38"
+          ]
+        },
+        {
+          "year": "2026",
+          "start": 81,
+          "end": 85,
+          "count": 10,
+          "nums": [
+            "05",
+            "14",
+            "16",
+            "17",
+            "19",
+            "27",
+            "38",
+            "43"
+          ],
+          "pool": [
+            "01",
+            "02",
+            "04",
+            "06",
+            "10",
+            "24",
+            "32",
+            "47"
           ],
           "poolBasis": "before-window",
           "covered": false,
@@ -2600,186 +2904,190 @@ window.__HISTORY_PATTERN_STATE__ = {
           "year": "2026",
           "start": 86,
           "end": 90,
-          "count": 5,
+          "count": 10,
           "nums": [
+            "03",
             "12",
+            "18",
+            "22",
             "26",
             "27",
             "36",
+            "46",
             "49"
           ],
           "pool": [
-            "01",
-            "05",
-            "09",
-            "18",
-            "21",
-            "26",
-            "39",
-            "46"
+            "02",
+            "03",
+            "04",
+            "10",
+            "19",
+            "24",
+            "27",
+            "38"
           ],
           "poolBasis": "before-window",
           "covered": true,
           "hits": [
-            "26"
+            "03",
+            "27"
           ]
         },
         {
           "year": "2026",
           "start": 91,
           "end": 95,
-          "count": 5,
+          "count": 10,
           "nums": [
             "06",
             "17",
+            "20",
+            "26",
             "35",
             "37",
-            "40"
+            "38",
+            "39",
+            "40",
+            "48"
           ],
           "pool": [
-            "01",
             "02",
-            "04",
-            "18",
-            "23",
+            "06",
+            "10",
+            "19",
+            "24",
             "27",
-            "29",
-            "46"
+            "40",
+            "44"
           ],
           "poolBasis": "before-window",
-          "covered": false,
-          "hits": []
+          "covered": true,
+          "hits": [
+            "06",
+            "40"
+          ]
         },
         {
           "year": "2026",
           "start": 96,
           "end": 100,
-          "count": 5,
+          "count": 10,
           "nums": [
+            "08",
             "11",
             "12",
+            "13",
             "17",
+            "18",
+            "20",
             "33",
+            "39",
             "43"
           ],
           "pool": [
-            "01",
-            "02",
-            "04",
-            "23",
-            "27",
-            "29",
-            "37",
-            "46"
+            "06",
+            "07",
+            "10",
+            "11",
+            "19",
+            "24",
+            "38",
+            "49"
           ],
           "poolBasis": "before-window",
-          "covered": false,
-          "hits": []
+          "covered": true,
+          "hits": [
+            "11"
+          ]
         },
         {
           "year": "2026",
           "start": 101,
           "end": 105,
-          "count": 5,
+          "count": 10,
           "nums": [
             "01",
             "06",
             "20",
             "28",
-            "39"
+            "34",
+            "37",
+            "39",
+            "45",
+            "46",
+            "48"
           ],
           "pool": [
-            "01",
-            "23",
-            "27",
-            "29",
+            "04",
+            "10",
+            "18",
+            "24",
+            "25",
             "32",
-            "33",
-            "40",
-            "47"
+            "38",
+            "41"
           ],
           "poolBasis": "before-window",
-          "covered": true,
-          "hits": [
-            "01"
-          ]
+          "covered": false,
+          "hits": []
         },
         {
           "year": "2026",
           "start": 106,
           "end": 110,
-          "count": 5,
+          "count": 10,
           "nums": [
+            "08",
+            "13",
             "16",
             "22",
             "30",
+            "32",
+            "36",
             "45",
             "49"
           ],
           "pool": [
-            "01",
-            "23",
-            "27",
+            "09",
+            "19",
             "29",
             "32",
-            "33",
-            "40",
+            "36",
+            "39",
+            "44",
             "47"
           ],
           "poolBasis": "before-window",
-          "covered": false,
-          "hits": []
+          "covered": true,
+          "hits": [
+            "32",
+            "36"
+          ]
         },
         {
           "year": "2026",
           "start": 111,
           "end": 115,
-          "count": 5,
+          "count": 10,
           "nums": [
             "01",
             "02",
             "04",
+            "05",
             "09",
-            "30"
+            "12",
+            "30",
+            "40"
           ],
           "pool": [
-            "01",
-            "23",
-            "27",
-            "29",
-            "30",
-            "32",
-            "33",
-            "37"
-          ],
-          "poolBasis": "before-window",
-          "covered": true,
-          "hits": [
-            "01",
-            "30"
-          ]
-        },
-        {
-          "year": "2026",
-          "start": 116,
-          "end": 120,
-          "count": 5,
-          "nums": [
-            "06",
-            "08",
+            "07",
             "11",
             "16",
-            "22"
-          ],
-          "pool": [
-            "01",
-            "23",
-            "27",
+            "19",
             "29",
             "32",
-            "33",
-            "37",
-            "49"
+            "36",
+            "39"
           ],
           "poolBasis": "before-window",
           "covered": false,
@@ -2787,190 +3095,192 @@ window.__HISTORY_PATTERN_STATE__ = {
         },
         {
           "year": "2026",
-          "start": 121,
-          "end": 125,
-          "count": 5,
+          "start": 116,
+          "end": 120,
+          "count": 10,
           "nums": [
-            "01",
-            "31",
-            "39",
-            "44",
-            "46"
+            "06",
+            "08",
+            "09",
+            "11",
+            "15",
+            "16",
+            "22",
+            "27",
+            "35",
+            "43"
           ],
           "pool": [
-            "01",
-            "06",
-            "23",
-            "27",
+            "02",
+            "07",
+            "16",
+            "19",
             "29",
-            "33",
-            "42",
-            "49"
+            "32",
+            "36",
+            "39"
           ],
           "poolBasis": "before-window",
           "covered": true,
           "hits": [
-            "01"
+            "16"
+          ]
+        },
+        {
+          "year": "2026",
+          "start": 121,
+          "end": 125,
+          "count": 10,
+          "nums": [
+            "01",
+            "07",
+            "14",
+            "31",
+            "37",
+            "39",
+            "42",
+            "44",
+            "46"
+          ],
+          "pool": [
+            "07",
+            "12",
+            "16",
+            "19",
+            "24",
+            "30",
+            "32",
+            "39"
+          ],
+          "poolBasis": "before-window",
+          "covered": true,
+          "hits": [
+            "07",
+            "39"
           ]
         },
         {
           "year": "2026",
           "start": 126,
           "end": 130,
-          "count": 5,
+          "count": 10,
           "nums": [
+            "03",
+            "10",
             "29",
             "37",
+            "38",
             "41",
+            "43",
             "45",
             "49"
           ],
           "pool": [
-            "01",
-            "06",
-            "23",
-            "27",
-            "29",
-            "33",
-            "42",
-            "49"
+            "12",
+            "16",
+            "19",
+            "21",
+            "24",
+            "30",
+            "32",
+            "39"
           ],
           "poolBasis": "before-window",
-          "covered": true,
-          "hits": [
-            "29",
-            "49"
-          ]
+          "covered": false,
+          "hits": []
         },
         {
           "year": "2026",
           "start": 131,
           "end": 135,
-          "count": 5,
+          "count": 10,
           "nums": [
             "07",
+            "13",
+            "16",
+            "20",
             "30",
-            "37"
+            "32",
+            "37",
+            "49"
           ],
           "pool": [
-            "01",
-            "06",
-            "13",
-            "17",
-            "29",
-            "37",
-            "48",
-            "49"
+            "02",
+            "03",
+            "16",
+            "19",
+            "21",
+            "24",
+            "32",
+            "39"
           ],
           "poolBasis": "before-window",
           "covered": true,
           "hits": [
-            "37"
+            "16",
+            "32"
           ]
         },
         {
           "year": "2026",
           "start": 136,
           "end": 140,
-          "count": 5,
+          "count": 10,
           "nums": [
+            "08",
             "16",
             "24",
             "26",
+            "37",
+            "39",
+            "40",
             "48",
             "49"
           ],
           "pool": [
-            "01",
-            "10",
-            "12",
-            "22",
-            "23",
-            "27",
-            "29",
-            "37"
+            "02",
+            "03",
+            "16",
+            "19",
+            "21",
+            "24",
+            "32",
+            "39"
           ],
           "poolBasis": "before-window",
-          "covered": false,
-          "hits": []
+          "covered": true,
+          "hits": [
+            "16",
+            "24",
+            "39"
+          ]
         },
         {
           "year": "2026",
           "start": 141,
           "end": 145,
-          "count": 5,
+          "count": 10,
           "nums": [
+            "04",
             "05",
+            "06",
+            "10",
             "23",
+            "31",
             "33",
+            "38",
             "43",
             "44"
           ],
           "pool": [
-            "01",
-            "12",
-            "22",
-            "23",
-            "27",
-            "29",
-            "37",
-            "48"
-          ],
-          "poolBasis": "before-window",
-          "covered": true,
-          "hits": [
-            "23"
-          ]
-        },
-        {
-          "year": "2026",
-          "start": 146,
-          "end": 150,
-          "count": 5,
-          "nums": [
-            "09",
-            "13",
-            "27",
-            "42",
-            "48"
-          ],
-          "pool": [
-            "01",
-            "22",
-            "27",
-            "29",
-            "33",
-            "37",
-            "39",
-            "48"
-          ],
-          "poolBasis": "before-window",
-          "covered": true,
-          "hits": [
-            "27",
-            "48"
-          ]
-        },
-        {
-          "year": "2026",
-          "start": 151,
-          "end": 155,
-          "count": 5,
-          "nums": [
-            "07",
-            "31",
-            "41",
-            "45"
-          ],
-          "pool": [
-            "01",
-            "22",
-            "23",
+            "02",
+            "03",
+            "16",
+            "19",
+            "21",
             "24",
-            "27",
-            "33",
-            "37",
-            "46"
+            "32",
+            "39"
           ],
           "poolBasis": "before-window",
           "covered": false,
@@ -2978,108 +3288,184 @@ window.__HISTORY_PATTERN_STATE__ = {
         },
         {
           "year": "2026",
-          "start": 156,
-          "end": 160,
-          "count": 5,
+          "start": 146,
+          "end": 150,
+          "count": 10,
           "nums": [
             "01",
-            "02",
-            "16",
-            "39",
-            "40"
-          ],
-          "pool": [
-            "01",
-            "22",
-            "24",
+            "06",
+            "09",
+            "13",
             "27",
             "31",
+            "38",
+            "42",
+            "48"
+          ],
+          "pool": [
+            "04",
+            "10",
+            "16",
+            "21",
+            "28",
+            "30",
+            "36",
+            "39"
+          ],
+          "poolBasis": "before-window",
+          "covered": false,
+          "hits": []
+        },
+        {
+          "year": "2026",
+          "start": 151,
+          "end": 155,
+          "count": 10,
+          "nums": [
+            "07",
+            "10",
+            "31",
+            "35",
             "37",
-            "43",
-            "46"
+            "41",
+            "45"
+          ],
+          "pool": [
+            "07",
+            "09",
+            "11",
+            "19",
+            "34",
+            "38",
+            "39",
+            "49"
           ],
           "poolBasis": "before-window",
           "covered": true,
           "hits": [
-            "01"
+            "07"
           ]
+        },
+        {
+          "year": "2026",
+          "start": 156,
+          "end": 160,
+          "count": 10,
+          "nums": [
+            "01",
+            "02",
+            "16",
+            "26",
+            "29",
+            "39",
+            "40",
+            "49"
+          ],
+          "pool": [
+            "03",
+            "09",
+            "11",
+            "22",
+            "28",
+            "34",
+            "37",
+            "38"
+          ],
+          "poolBasis": "before-window",
+          "covered": false,
+          "hits": []
         },
         {
           "year": "2026",
           "start": 161,
           "end": 165,
-          "count": 5,
+          "count": 10,
           "nums": [
             "03",
             "08",
+            "18",
             "21",
+            "22",
             "32",
-            "37"
+            "37",
+            "39",
+            "49"
           ],
           "pool": [
-            "01",
+            "07",
+            "09",
+            "19",
             "22",
-            "24",
-            "27",
-            "31",
-            "37",
-            "43",
-            "46"
+            "32",
+            "34",
+            "38",
+            "39"
           ],
           "poolBasis": "before-window",
           "covered": true,
           "hits": [
-            "37"
+            "22",
+            "32",
+            "39"
           ]
         },
         {
           "year": "2026",
           "start": 166,
           "end": 170,
-          "count": 5,
+          "count": 10,
           "nums": [
             "03",
             "06",
+            "08",
             "15",
+            "18",
             "19",
-            "24"
+            "24",
+            "30",
+            "43"
           ],
           "pool": [
-            "01",
+            "07",
+            "09",
+            "19",
             "22",
-            "24",
-            "27",
-            "31",
-            "37",
-            "43",
-            "46"
+            "32",
+            "34",
+            "38",
+            "39"
           ],
           "poolBasis": "before-window",
           "covered": true,
           "hits": [
-            "24"
+            "19"
           ]
         },
         {
           "year": "2026",
           "start": 171,
           "end": 175,
-          "count": 5,
+          "count": 10,
           "nums": [
+            "01",
+            "15",
+            "16",
+            "18",
+            "22",
             "26",
             "28",
             "41",
             "44"
           ],
           "pool": [
-            "01",
-            "11",
-            "23",
-            "24",
-            "27",
-            "37",
-            "45",
-            "46"
+            "04",
+            "08",
+            "10",
+            "25",
+            "32",
+            "36",
+            "38",
+            "39"
           ],
           "poolBasis": "before-window",
           "covered": false,
@@ -3089,129 +3475,151 @@ window.__HISTORY_PATTERN_STATE__ = {
           "year": "2026",
           "start": 176,
           "end": 180,
-          "count": 5,
+          "count": 10,
           "nums": [
             "10",
+            "12",
             "14",
             "15",
             "18",
-            "21"
+            "21",
+            "29",
+            "37"
           ],
           "pool": [
-            "01",
-            "03",
-            "05",
-            "12",
-            "22",
-            "37",
-            "41",
-            "48"
+            "07",
+            "10",
+            "16",
+            "19",
+            "27",
+            "30",
+            "34",
+            "39"
           ],
           "poolBasis": "before-window",
-          "covered": false,
-          "hits": []
+          "covered": true,
+          "hits": [
+            "10"
+          ]
         },
         {
           "year": "2026",
           "start": 181,
           "end": 185,
-          "count": 5,
+          "count": 10,
           "nums": [
             "01",
+            "06",
+            "10",
             "19",
             "24",
             "36",
             "41"
           ],
           "pool": [
-            "01",
-            "03",
-            "05",
-            "12",
-            "22",
-            "37",
-            "41",
-            "48"
+            "04",
+            "10",
+            "27",
+            "28",
+            "30",
+            "33",
+            "39",
+            "47"
           ],
           "poolBasis": "before-window",
           "covered": true,
           "hits": [
-            "01",
-            "41"
+            "10"
           ]
         },
         {
           "year": "2026",
           "start": 186,
           "end": 190,
-          "count": 5,
+          "count": 10,
           "nums": [
             "01",
+            "06",
             "15",
             "16",
-            "23"
+            "18",
+            "23",
+            "27",
+            "40"
           ],
           "pool": [
             "01",
-            "03",
-            "05",
-            "12",
-            "22",
+            "24",
+            "27",
+            "30",
+            "33",
+            "34",
             "37",
-            "41",
-            "48"
+            "47"
           ],
           "poolBasis": "before-window",
           "covered": true,
           "hits": [
-            "01"
+            "01",
+            "27"
           ]
         },
         {
           "year": "2026",
           "start": 191,
           "end": 195,
-          "count": 5,
+          "count": 10,
           "nums": [
+            "02",
             "09",
+            "12",
+            "18",
             "25",
             "26",
-            "29"
+            "29",
+            "37"
           ],
           "pool": [
             "01",
-            "03",
-            "05",
-            "12",
-            "22",
+            "24",
+            "27",
+            "30",
+            "33",
+            "34",
             "37",
-            "41",
-            "48"
+            "47"
           ],
           "poolBasis": "before-window",
-          "covered": false,
-          "hits": []
+          "covered": true,
+          "hits": [
+            "37"
+          ]
         },
         {
           "year": "2026",
           "start": 196,
           "end": 200,
-          "count": 5,
+          "count": 10,
           "nums": [
+            "06",
             "07",
             "08",
+            "18",
             "36",
-            "39"
+            "39",
+            "42",
+            "43",
+            "44"
           ],
           "pool": [
             "01",
-            "03",
-            "05",
-            "09",
-            "12",
-            "16",
+            "24",
+            "27",
+            "30",
+            "33",
+            "34",
             "37",
-            "41"
+            "47"
           ],
           "poolBasis": "before-window",
           "covered": false,
@@ -3221,109 +3629,126 @@ window.__HISTORY_PATTERN_STATE__ = {
           "year": "2026",
           "start": 201,
           "end": 205,
-          "count": 5,
+          "count": 10,
           "nums": [
             "03",
             "05",
+            "17",
+            "24",
             "25",
             "32",
-            "40"
+            "40",
+            "44",
+            "46"
           ],
           "pool": [
             "01",
-            "03",
-            "05",
-            "06",
-            "07",
-            "09",
-            "28",
-            "49"
+            "02",
+            "08",
+            "10",
+            "24",
+            "27",
+            "37",
+            "47"
           ],
           "poolBasis": "before-window",
           "covered": true,
           "hits": [
-            "03",
-            "05"
+            "24"
           ]
         },
         {
           "year": "2026",
           "start": 206,
           "end": 210,
-          "count": 5,
+          "count": 10,
           "nums": [
+            "03",
+            "07",
             "08",
+            "10",
             "19",
+            "25",
             "31",
+            "41",
             "47",
             "49"
           ],
           "pool": [
             "01",
-            "03",
-            "05",
-            "06",
-            "07",
-            "09",
-            "28",
-            "49"
+            "24",
+            "32",
+            "34",
+            "37",
+            "43",
+            "46",
+            "47"
           ],
           "poolBasis": "before-window",
           "covered": true,
           "hits": [
-            "49"
+            "47"
           ]
         },
         {
           "year": "2026",
           "start": 211,
           "end": 215,
-          "count": 5,
+          "count": 10,
           "nums": [
             "01",
             "04",
             "06",
+            "12",
             "14",
-            "35"
+            "20",
+            "31",
+            "35",
+            "37",
+            "44"
           ],
           "pool": [
             "01",
-            "03",
-            "05",
-            "06",
-            "07",
-            "09",
-            "28",
-            "49"
+            "04",
+            "08",
+            "10",
+            "25",
+            "32",
+            "36",
+            "38"
           ],
           "poolBasis": "before-window",
           "covered": true,
           "hits": [
             "01",
-            "06"
+            "04"
           ]
         },
         {
           "year": "2026",
           "start": 216,
           "end": 220,
-          "count": 5,
+          "count": 9,
           "nums": [
+            "02",
             "17",
+            "18",
             "26",
             "37",
+            "39",
+            "41",
             "43",
             "48"
           ],
           "pool": [
             "01",
-            "03",
-            "05",
-            "06",
-            "07",
-            "09",
-            "28",
-            "49"
+            "08",
+            "10",
+            "21",
+            "25",
+            "32",
+            "36",
+            "38"
           ],
           "poolBasis": "before-window",
           "covered": false,
@@ -3343,12 +3768,12 @@ window.__HISTORY_PATTERN_STATE__ = {
           "pool": [
             "01",
             "03",
-            "05",
-            "06",
-            "07",
+            "08",
             "09",
+            "24",
             "28",
-            "49"
+            "37",
+            "38"
           ],
           "poolBasis": "before-window",
           "covered": true,
@@ -3358,19 +3783,19 @@ window.__HISTORY_PATTERN_STATE__ = {
           ]
         }
       ],
-      "covered": 28,
+      "covered": 31,
       "misses": [
         {
           "year": "2026",
-          "start": 1,
-          "end": 5,
+          "start": 11,
+          "end": 15,
           "count": 5,
           "nums": [
-            "09",
-            "22",
-            "29",
-            "43",
-            "45"
+            "27",
+            "28",
+            "32",
+            "41",
+            "49"
           ],
           "pool": [
             "01",
@@ -3388,40 +3813,13 @@ window.__HISTORY_PATTERN_STATE__ = {
         },
         {
           "year": "2026",
-          "start": 6,
-          "end": 10,
+          "start": 16,
+          "end": 20,
           "count": 5,
           "nums": [
-            "13",
-            "21",
-            "27",
-            "28",
-            "41"
-          ],
-          "pool": [
-            "01",
-            "02",
-            "03",
-            "04",
-            "05",
-            "06",
-            "07",
-            "09"
-          ],
-          "poolBasis": "before-window",
-          "covered": false,
-          "hits": []
-        },
-        {
-          "year": "2026",
-          "start": 21,
-          "end": 25,
-          "count": 5,
-          "nums": [
-            "18",
-            "28",
-            "37",
-            "42",
+            "16",
+            "38",
+            "40",
             "47"
           ],
           "pool": [
@@ -3431,8 +3829,8 @@ window.__HISTORY_PATTERN_STATE__ = {
             "04",
             "05",
             "06",
-            "09",
-            "13"
+            "07",
+            "27"
           ],
           "poolBasis": "before-window",
           "covered": false,
@@ -3440,25 +3838,25 @@ window.__HISTORY_PATTERN_STATE__ = {
         },
         {
           "year": "2026",
-          "start": 46,
-          "end": 50,
+          "start": 36,
+          "end": 40,
           "count": 5,
           "nums": [
-            "03",
-            "13",
-            "23",
+            "20",
             "24",
-            "39"
+            "33",
+            "34",
+            "36"
           ],
           "pool": [
             "01",
             "02",
+            "03",
             "04",
             "05",
             "06",
-            "09",
-            "18",
-            "21"
+            "16",
+            "27"
           ],
           "poolBasis": "before-window",
           "covered": false,
@@ -3466,25 +3864,29 @@ window.__HISTORY_PATTERN_STATE__ = {
         },
         {
           "year": "2026",
-          "start": 71,
-          "end": 75,
-          "count": 5,
+          "start": 56,
+          "end": 60,
+          "count": 10,
           "nums": [
+            "01",
+            "09",
             "10",
-            "33",
-            "34",
-            "46",
+            "20",
+            "23",
+            "31",
+            "39",
+            "43",
             "48"
           ],
           "pool": [
-            "01",
-            "02",
-            "04",
+            "03",
+            "05",
             "06",
-            "18",
-            "21",
-            "22",
-            "23"
+            "16",
+            "19",
+            "24",
+            "27",
+            "29"
           ],
           "poolBasis": "before-window",
           "covered": false,
@@ -3494,100 +3896,25 @@ window.__HISTORY_PATTERN_STATE__ = {
           "year": "2026",
           "start": 81,
           "end": 85,
-          "count": 5,
+          "count": 10,
           "nums": [
             "05",
+            "14",
             "16",
             "17",
             "19",
-            "27"
-          ],
-          "pool": [
-            "01",
-            "04",
-            "06",
-            "10",
-            "18",
-            "21",
-            "23",
-            "29"
-          ],
-          "poolBasis": "before-window",
-          "covered": false,
-          "hits": []
-        },
-        {
-          "year": "2026",
-          "start": 91,
-          "end": 95,
-          "count": 5,
-          "nums": [
-            "06",
-            "17",
-            "35",
-            "37",
-            "40"
-          ],
-          "pool": [
-            "01",
-            "02",
-            "04",
-            "18",
-            "23",
             "27",
-            "29",
-            "46"
-          ],
-          "poolBasis": "before-window",
-          "covered": false,
-          "hits": []
-        },
-        {
-          "year": "2026",
-          "start": 96,
-          "end": 100,
-          "count": 5,
-          "nums": [
-            "11",
-            "12",
-            "17",
-            "33",
+            "38",
             "43"
           ],
           "pool": [
             "01",
             "02",
             "04",
-            "23",
-            "27",
-            "29",
-            "37",
-            "46"
-          ],
-          "poolBasis": "before-window",
-          "covered": false,
-          "hits": []
-        },
-        {
-          "year": "2026",
-          "start": 106,
-          "end": 110,
-          "count": 5,
-          "nums": [
-            "16",
-            "22",
-            "30",
-            "45",
-            "49"
-          ],
-          "pool": [
-            "01",
-            "23",
-            "27",
-            "29",
+            "06",
+            "10",
+            "24",
             "32",
-            "33",
-            "40",
             "47"
           ],
           "poolBasis": "before-window",
@@ -3596,25 +3923,59 @@ window.__HISTORY_PATTERN_STATE__ = {
         },
         {
           "year": "2026",
-          "start": 116,
-          "end": 120,
-          "count": 5,
+          "start": 101,
+          "end": 105,
+          "count": 10,
           "nums": [
+            "01",
             "06",
-            "08",
+            "20",
+            "28",
+            "34",
+            "37",
+            "39",
+            "45",
+            "46",
+            "48"
+          ],
+          "pool": [
+            "04",
+            "10",
+            "18",
+            "24",
+            "25",
+            "32",
+            "38",
+            "41"
+          ],
+          "poolBasis": "before-window",
+          "covered": false,
+          "hits": []
+        },
+        {
+          "year": "2026",
+          "start": 111,
+          "end": 115,
+          "count": 10,
+          "nums": [
+            "01",
+            "02",
+            "04",
+            "05",
+            "09",
+            "12",
+            "30",
+            "40"
+          ],
+          "pool": [
+            "07",
             "11",
             "16",
-            "22"
-          ],
-          "pool": [
-            "01",
-            "23",
-            "27",
+            "19",
             "29",
             "32",
-            "33",
-            "37",
-            "49"
+            "36",
+            "39"
           ],
           "poolBasis": "before-window",
           "covered": false,
@@ -3622,25 +3983,29 @@ window.__HISTORY_PATTERN_STATE__ = {
         },
         {
           "year": "2026",
-          "start": 136,
-          "end": 140,
-          "count": 5,
+          "start": 126,
+          "end": 130,
+          "count": 10,
           "nums": [
-            "16",
-            "24",
-            "26",
-            "48",
-            "49"
-          ],
-          "pool": [
-            "01",
+            "03",
             "10",
-            "12",
-            "22",
-            "23",
-            "27",
             "29",
-            "37"
+            "37",
+            "38",
+            "41",
+            "43",
+            "45",
+            "49"
+          ],
+          "pool": [
+            "12",
+            "16",
+            "19",
+            "21",
+            "24",
+            "30",
+            "32",
+            "39"
           ],
           "poolBasis": "before-window",
           "covered": false,
@@ -3648,24 +4013,89 @@ window.__HISTORY_PATTERN_STATE__ = {
         },
         {
           "year": "2026",
-          "start": 151,
-          "end": 155,
-          "count": 5,
+          "start": 141,
+          "end": 145,
+          "count": 10,
           "nums": [
-            "07",
+            "04",
+            "05",
+            "06",
+            "10",
+            "23",
             "31",
-            "41",
-            "45"
+            "33",
+            "38",
+            "43",
+            "44"
           ],
           "pool": [
-            "01",
-            "22",
-            "23",
+            "02",
+            "03",
+            "16",
+            "19",
+            "21",
             "24",
+            "32",
+            "39"
+          ],
+          "poolBasis": "before-window",
+          "covered": false,
+          "hits": []
+        },
+        {
+          "year": "2026",
+          "start": 146,
+          "end": 150,
+          "count": 10,
+          "nums": [
+            "01",
+            "06",
+            "09",
+            "13",
             "27",
-            "33",
+            "31",
+            "38",
+            "42",
+            "48"
+          ],
+          "pool": [
+            "04",
+            "10",
+            "16",
+            "21",
+            "28",
+            "30",
+            "36",
+            "39"
+          ],
+          "poolBasis": "before-window",
+          "covered": false,
+          "hits": []
+        },
+        {
+          "year": "2026",
+          "start": 156,
+          "end": 160,
+          "count": 10,
+          "nums": [
+            "01",
+            "02",
+            "16",
+            "26",
+            "29",
+            "39",
+            "40",
+            "49"
+          ],
+          "pool": [
+            "03",
+            "09",
+            "11",
+            "22",
+            "28",
+            "34",
             "37",
-            "46"
+            "38"
           ],
           "poolBasis": "before-window",
           "covered": false,
@@ -3675,73 +4105,27 @@ window.__HISTORY_PATTERN_STATE__ = {
           "year": "2026",
           "start": 171,
           "end": 175,
-          "count": 5,
+          "count": 10,
           "nums": [
+            "01",
+            "15",
+            "16",
+            "18",
+            "22",
             "26",
             "28",
             "41",
             "44"
           ],
           "pool": [
-            "01",
-            "11",
-            "23",
-            "24",
-            "27",
-            "37",
-            "45",
-            "46"
-          ],
-          "poolBasis": "before-window",
-          "covered": false,
-          "hits": []
-        },
-        {
-          "year": "2026",
-          "start": 176,
-          "end": 180,
-          "count": 5,
-          "nums": [
+            "04",
+            "08",
             "10",
-            "14",
-            "15",
-            "18",
-            "21"
-          ],
-          "pool": [
-            "01",
-            "03",
-            "05",
-            "12",
-            "22",
-            "37",
-            "41",
-            "48"
-          ],
-          "poolBasis": "before-window",
-          "covered": false,
-          "hits": []
-        },
-        {
-          "year": "2026",
-          "start": 191,
-          "end": 195,
-          "count": 5,
-          "nums": [
-            "09",
             "25",
-            "26",
-            "29"
-          ],
-          "pool": [
-            "01",
-            "03",
-            "05",
-            "12",
-            "22",
-            "37",
-            "41",
-            "48"
+            "32",
+            "36",
+            "38",
+            "39"
           ],
           "poolBasis": "before-window",
           "covered": false,
@@ -3751,22 +4135,27 @@ window.__HISTORY_PATTERN_STATE__ = {
           "year": "2026",
           "start": 196,
           "end": 200,
-          "count": 5,
+          "count": 10,
           "nums": [
+            "06",
             "07",
             "08",
+            "18",
             "36",
-            "39"
+            "39",
+            "42",
+            "43",
+            "44"
           ],
           "pool": [
             "01",
-            "03",
-            "05",
-            "09",
-            "12",
-            "16",
+            "24",
+            "27",
+            "30",
+            "33",
+            "34",
             "37",
-            "41"
+            "47"
           ],
           "poolBasis": "before-window",
           "covered": false,
@@ -3776,23 +4165,27 @@ window.__HISTORY_PATTERN_STATE__ = {
           "year": "2026",
           "start": 216,
           "end": 220,
-          "count": 5,
+          "count": 9,
           "nums": [
+            "02",
             "17",
+            "18",
             "26",
             "37",
+            "39",
+            "41",
             "43",
             "48"
           ],
           "pool": [
             "01",
-            "03",
-            "05",
-            "06",
-            "07",
-            "09",
-            "28",
-            "49"
+            "08",
+            "10",
+            "21",
+            "25",
+            "32",
+            "36",
+            "38"
           ],
           "poolBasis": "before-window",
           "covered": false,
@@ -3800,7 +4193,7 @@ window.__HISTORY_PATTERN_STATE__ = {
         }
       ],
       "total": 45,
-      "hitRate": 62.22,
+      "hitRate": 68.89,
       "currentMiss": 0,
       "maxMiss": 2
     },
@@ -3811,22 +4204,22 @@ window.__HISTORY_PATTERN_STATE__ = {
       "pool": [
         "39",
         "49",
+        "46",
         "01",
-        "48",
-        "06",
-        "14",
-        "05",
-        "03"
+        "11",
+        "10",
+        "08",
+        "09"
       ],
       "postWindowOptimalPool": [
         "39",
         "49",
         "01",
-        "48",
-        "06",
-        "14",
-        "05",
-        "03"
+        "46",
+        "11",
+        "10",
+        "08",
+        "09"
       ],
       "postWindowStats": {
         "windows": [
@@ -3842,7 +4235,7 @@ window.__HISTORY_PATTERN_STATE__ = {
               "28",
               "48"
             ],
-            "covered": true
+            "covered": false
           },
           {
             "year": "2020",
@@ -3856,7 +4249,7 @@ window.__HISTORY_PATTERN_STATE__ = {
               "26",
               "47"
             ],
-            "covered": false
+            "covered": true
           },
           {
             "year": "2020",
@@ -3911,7 +4304,7 @@ window.__HISTORY_PATTERN_STATE__ = {
               "33",
               "43"
             ],
-            "covered": true
+            "covered": false
           },
           {
             "year": "2020",
@@ -3924,7 +4317,7 @@ window.__HISTORY_PATTERN_STATE__ = {
               "30",
               "34"
             ],
-            "covered": true
+            "covered": false
           },
           {
             "year": "2020",
@@ -3952,7 +4345,7 @@ window.__HISTORY_PATTERN_STATE__ = {
               "38",
               "44"
             ],
-            "covered": false
+            "covered": true
           },
           {
             "year": "2020",
@@ -3993,7 +4386,7 @@ window.__HISTORY_PATTERN_STATE__ = {
               "25",
               "35"
             ],
-            "covered": false
+            "covered": true
           },
           {
             "year": "2020",
@@ -4020,7 +4413,7 @@ window.__HISTORY_PATTERN_STATE__ = {
               "31",
               "34"
             ],
-            "covered": true
+            "covered": false
           },
           {
             "year": "2020",
@@ -4061,7 +4454,7 @@ window.__HISTORY_PATTERN_STATE__ = {
               "35",
               "48"
             ],
-            "covered": true
+            "covered": false
           },
           {
             "year": "2020",
@@ -4100,7 +4493,7 @@ window.__HISTORY_PATTERN_STATE__ = {
               "37",
               "40"
             ],
-            "covered": true
+            "covered": false
           },
           {
             "year": "2020",
@@ -4154,7 +4547,7 @@ window.__HISTORY_PATTERN_STATE__ = {
               "33",
               "46"
             ],
-            "covered": false
+            "covered": true
           },
           {
             "year": "2020",
@@ -4182,7 +4575,7 @@ window.__HISTORY_PATTERN_STATE__ = {
               "20",
               "31"
             ],
-            "covered": true
+            "covered": false
           },
           {
             "year": "2020",
@@ -4194,7 +4587,7 @@ window.__HISTORY_PATTERN_STATE__ = {
               "08",
               "19"
             ],
-            "covered": false
+            "covered": true
           },
           {
             "year": "2020",
@@ -4221,7 +4614,7 @@ window.__HISTORY_PATTERN_STATE__ = {
               "31",
               "41"
             ],
-            "covered": true
+            "covered": false
           },
           {
             "year": "2020",
@@ -4276,7 +4669,7 @@ window.__HISTORY_PATTERN_STATE__ = {
               "44",
               "46"
             ],
-            "covered": false
+            "covered": true
           },
           {
             "year": "2020",
@@ -4303,7 +4696,7 @@ window.__HISTORY_PATTERN_STATE__ = {
               "44",
               "46"
             ],
-            "covered": false
+            "covered": true
           },
           {
             "year": "2020",
@@ -4371,7 +4764,7 @@ window.__HISTORY_PATTERN_STATE__ = {
               "32",
               "34"
             ],
-            "covered": true
+            "covered": false
           },
           {
             "year": "2020",
@@ -4399,7 +4792,7 @@ window.__HISTORY_PATTERN_STATE__ = {
               "35",
               "41"
             ],
-            "covered": true
+            "covered": false
           },
           {
             "year": "2020",
@@ -4439,7 +4832,7 @@ window.__HISTORY_PATTERN_STATE__ = {
               "30",
               "34"
             ],
-            "covered": false
+            "covered": true
           },
           {
             "year": "2021",
@@ -4453,7 +4846,7 @@ window.__HISTORY_PATTERN_STATE__ = {
               "26",
               "41"
             ],
-            "covered": false
+            "covered": true
           },
           {
             "year": "2021",
@@ -4467,7 +4860,7 @@ window.__HISTORY_PATTERN_STATE__ = {
               "43",
               "45"
             ],
-            "covered": false
+            "covered": true
           },
           {
             "year": "2021",
@@ -4495,7 +4888,7 @@ window.__HISTORY_PATTERN_STATE__ = {
               "33",
               "35"
             ],
-            "covered": false
+            "covered": true
           },
           {
             "year": "2021",
@@ -4509,7 +4902,7 @@ window.__HISTORY_PATTERN_STATE__ = {
               "30",
               "33"
             ],
-            "covered": false
+            "covered": true
           },
           {
             "year": "2021",
@@ -4536,7 +4929,7 @@ window.__HISTORY_PATTERN_STATE__ = {
               "37",
               "42"
             ],
-            "covered": true
+            "covered": false
           },
           {
             "year": "2021",
@@ -4564,7 +4957,7 @@ window.__HISTORY_PATTERN_STATE__ = {
               "42",
               "47"
             ],
-            "covered": true
+            "covered": false
           },
           {
             "year": "2021",
@@ -4605,7 +4998,7 @@ window.__HISTORY_PATTERN_STATE__ = {
               "32",
               "41"
             ],
-            "covered": false
+            "covered": true
           },
           {
             "year": "2021",
@@ -4633,7 +5026,7 @@ window.__HISTORY_PATTERN_STATE__ = {
               "31",
               "37"
             ],
-            "covered": false
+            "covered": true
           },
           {
             "year": "2021",
@@ -4661,7 +5054,7 @@ window.__HISTORY_PATTERN_STATE__ = {
               "20",
               "21"
             ],
-            "covered": false
+            "covered": true
           },
           {
             "year": "2021",
@@ -4758,7 +5151,7 @@ window.__HISTORY_PATTERN_STATE__ = {
               "37",
               "45"
             ],
-            "covered": false
+            "covered": true
           },
           {
             "year": "2021",
@@ -4772,7 +5165,7 @@ window.__HISTORY_PATTERN_STATE__ = {
               "36",
               "48"
             ],
-            "covered": true
+            "covered": false
           },
           {
             "year": "2021",
@@ -4814,7 +5207,7 @@ window.__HISTORY_PATTERN_STATE__ = {
               "31",
               "48"
             ],
-            "covered": true
+            "covered": false
           },
           {
             "year": "2021",
@@ -4869,7 +5262,7 @@ window.__HISTORY_PATTERN_STATE__ = {
               "36",
               "37"
             ],
-            "covered": false
+            "covered": true
           },
           {
             "year": "2021",
@@ -4897,7 +5290,7 @@ window.__HISTORY_PATTERN_STATE__ = {
               "36",
               "48"
             ],
-            "covered": true
+            "covered": false
           },
           {
             "year": "2021",
@@ -4924,7 +5317,7 @@ window.__HISTORY_PATTERN_STATE__ = {
               "34",
               "41"
             ],
-            "covered": false
+            "covered": true
           },
           {
             "year": "2021",
@@ -4979,7 +5372,7 @@ window.__HISTORY_PATTERN_STATE__ = {
               "23",
               "43"
             ],
-            "covered": true
+            "covered": false
           },
           {
             "year": "2021",
@@ -5021,7 +5414,7 @@ window.__HISTORY_PATTERN_STATE__ = {
               "22",
               "48"
             ],
-            "covered": true
+            "covered": false
           },
           {
             "year": "2021",
@@ -5104,7 +5497,7 @@ window.__HISTORY_PATTERN_STATE__ = {
               "22",
               "26"
             ],
-            "covered": false
+            "covered": true
           },
           {
             "year": "2021",
@@ -5118,7 +5511,7 @@ window.__HISTORY_PATTERN_STATE__ = {
               "38",
               "45"
             ],
-            "covered": false
+            "covered": true
           },
           {
             "year": "2021",
@@ -5132,7 +5525,7 @@ window.__HISTORY_PATTERN_STATE__ = {
               "24",
               "40"
             ],
-            "covered": true
+            "covered": false
           },
           {
             "year": "2021",
@@ -5160,7 +5553,7 @@ window.__HISTORY_PATTERN_STATE__ = {
               "28",
               "47"
             ],
-            "covered": true
+            "covered": false
           },
           {
             "year": "2021",
@@ -5215,7 +5608,7 @@ window.__HISTORY_PATTERN_STATE__ = {
               "34",
               "48"
             ],
-            "covered": true
+            "covered": false
           },
           {
             "year": "2021",
@@ -5284,7 +5677,7 @@ window.__HISTORY_PATTERN_STATE__ = {
               "34",
               "42"
             ],
-            "covered": true
+            "covered": false
           },
           {
             "year": "2021",
@@ -5312,7 +5705,7 @@ window.__HISTORY_PATTERN_STATE__ = {
               "41",
               "45"
             ],
-            "covered": true
+            "covered": false
           },
           {
             "year": "2021",
@@ -5354,7 +5747,7 @@ window.__HISTORY_PATTERN_STATE__ = {
               "38",
               "44"
             ],
-            "covered": true
+            "covered": false
           },
           {
             "year": "2021",
@@ -5423,7 +5816,7 @@ window.__HISTORY_PATTERN_STATE__ = {
               "43",
               "45"
             ],
-            "covered": true
+            "covered": false
           },
           {
             "year": "2021",
@@ -5437,7 +5830,7 @@ window.__HISTORY_PATTERN_STATE__ = {
               "44",
               "46"
             ],
-            "covered": false
+            "covered": true
           },
           {
             "year": "2021",
@@ -5463,7 +5856,7 @@ window.__HISTORY_PATTERN_STATE__ = {
               "22",
               "47"
             ],
-            "covered": false
+            "covered": true
           },
           {
             "year": "2022",
@@ -5518,7 +5911,7 @@ window.__HISTORY_PATTERN_STATE__ = {
               "19",
               "33"
             ],
-            "covered": true
+            "covered": false
           },
           {
             "year": "2022",
@@ -5559,7 +5952,7 @@ window.__HISTORY_PATTERN_STATE__ = {
               "32",
               "42"
             ],
-            "covered": true
+            "covered": false
           },
           {
             "year": "2022",
@@ -5601,7 +5994,7 @@ window.__HISTORY_PATTERN_STATE__ = {
               "27",
               "40"
             ],
-            "covered": false
+            "covered": true
           },
           {
             "year": "2022",
@@ -5615,7 +6008,7 @@ window.__HISTORY_PATTERN_STATE__ = {
               "28",
               "29"
             ],
-            "covered": false
+            "covered": true
           },
           {
             "year": "2022",
@@ -5629,7 +6022,7 @@ window.__HISTORY_PATTERN_STATE__ = {
               "24",
               "40"
             ],
-            "covered": false
+            "covered": true
           },
           {
             "year": "2022",
@@ -5671,7 +6064,7 @@ window.__HISTORY_PATTERN_STATE__ = {
               "31",
               "46"
             ],
-            "covered": false
+            "covered": true
           },
           {
             "year": "2022",
@@ -5685,7 +6078,7 @@ window.__HISTORY_PATTERN_STATE__ = {
               "26",
               "45"
             ],
-            "covered": true
+            "covered": false
           },
           {
             "year": "2022",
@@ -5754,7 +6147,7 @@ window.__HISTORY_PATTERN_STATE__ = {
               "40",
               "43"
             ],
-            "covered": true
+            "covered": false
           },
           {
             "year": "2022",
@@ -5768,7 +6161,7 @@ window.__HISTORY_PATTERN_STATE__ = {
               "21",
               "27"
             ],
-            "covered": false
+            "covered": true
           },
           {
             "year": "2022",
@@ -5781,7 +6174,7 @@ window.__HISTORY_PATTERN_STATE__ = {
               "34",
               "46"
             ],
-            "covered": false
+            "covered": true
           },
           {
             "year": "2022",
@@ -5809,7 +6202,7 @@ window.__HISTORY_PATTERN_STATE__ = {
               "47",
               "48"
             ],
-            "covered": true
+            "covered": false
           },
           {
             "year": "2022",
@@ -5823,7 +6216,7 @@ window.__HISTORY_PATTERN_STATE__ = {
               "40",
               "45"
             ],
-            "covered": true
+            "covered": false
           },
           {
             "year": "2022",
@@ -5837,7 +6230,7 @@ window.__HISTORY_PATTERN_STATE__ = {
               "22",
               "48"
             ],
-            "covered": true
+            "covered": false
           },
           {
             "year": "2022",
@@ -5850,7 +6243,7 @@ window.__HISTORY_PATTERN_STATE__ = {
               "27",
               "28"
             ],
-            "covered": true
+            "covered": false
           },
           {
             "year": "2022",
@@ -5892,7 +6285,7 @@ window.__HISTORY_PATTERN_STATE__ = {
               "26",
               "35"
             ],
-            "covered": true
+            "covered": false
           },
           {
             "year": "2022",
@@ -6016,7 +6409,7 @@ window.__HISTORY_PATTERN_STATE__ = {
               "19",
               "44"
             ],
-            "covered": false
+            "covered": true
           },
           {
             "year": "2022",
@@ -6030,7 +6423,7 @@ window.__HISTORY_PATTERN_STATE__ = {
               "30",
               "48"
             ],
-            "covered": true
+            "covered": false
           },
           {
             "year": "2022",
@@ -6071,7 +6464,7 @@ window.__HISTORY_PATTERN_STATE__ = {
               "24",
               "47"
             ],
-            "covered": false
+            "covered": true
           },
           {
             "year": "2022",
@@ -6139,7 +6532,7 @@ window.__HISTORY_PATTERN_STATE__ = {
               "21",
               "46"
             ],
-            "covered": false
+            "covered": true
           },
           {
             "year": "2022",
@@ -6153,7 +6546,7 @@ window.__HISTORY_PATTERN_STATE__ = {
               "38",
               "43"
             ],
-            "covered": true
+            "covered": false
           },
           {
             "year": "2022",
@@ -6167,7 +6560,7 @@ window.__HISTORY_PATTERN_STATE__ = {
               "17",
               "19"
             ],
-            "covered": false
+            "covered": true
           },
           {
             "year": "2022",
@@ -6194,7 +6587,7 @@ window.__HISTORY_PATTERN_STATE__ = {
               "21",
               "45"
             ],
-            "covered": false
+            "covered": true
           },
           {
             "year": "2022",
@@ -6222,7 +6615,7 @@ window.__HISTORY_PATTERN_STATE__ = {
               "18",
               "20"
             ],
-            "covered": true
+            "covered": false
           },
           {
             "year": "2022",
@@ -6250,7 +6643,7 @@ window.__HISTORY_PATTERN_STATE__ = {
               "43",
               "45"
             ],
-            "covered": false
+            "covered": true
           },
           {
             "year": "2022",
@@ -6304,7 +6697,7 @@ window.__HISTORY_PATTERN_STATE__ = {
               "36",
               "46"
             ],
-            "covered": false
+            "covered": true
           },
           {
             "year": "2022",
@@ -6357,7 +6750,7 @@ window.__HISTORY_PATTERN_STATE__ = {
               "31",
               "38"
             ],
-            "covered": false
+            "covered": true
           },
           {
             "year": "2022",
@@ -6398,7 +6791,7 @@ window.__HISTORY_PATTERN_STATE__ = {
               "25",
               "38"
             ],
-            "covered": true
+            "covered": false
           },
           {
             "year": "2022",
@@ -6522,7 +6915,7 @@ window.__HISTORY_PATTERN_STATE__ = {
               "40",
               "45"
             ],
-            "covered": false
+            "covered": true
           },
           {
             "year": "2023",
@@ -6563,7 +6956,7 @@ window.__HISTORY_PATTERN_STATE__ = {
               "30",
               "31"
             ],
-            "covered": false
+            "covered": true
           },
           {
             "year": "2023",
@@ -6632,7 +7025,7 @@ window.__HISTORY_PATTERN_STATE__ = {
               "32",
               "46"
             ],
-            "covered": false
+            "covered": true
           },
           {
             "year": "2023",
@@ -6674,7 +7067,7 @@ window.__HISTORY_PATTERN_STATE__ = {
               "21",
               "37"
             ],
-            "covered": true
+            "covered": false
           },
           {
             "year": "2023",
@@ -6701,7 +7094,7 @@ window.__HISTORY_PATTERN_STATE__ = {
               "30",
               "31"
             ],
-            "covered": true
+            "covered": false
           },
           {
             "year": "2023",
@@ -6812,7 +7205,7 @@ window.__HISTORY_PATTERN_STATE__ = {
               "31",
               "35"
             ],
-            "covered": false
+            "covered": true
           },
           {
             "year": "2023",
@@ -6853,7 +7246,7 @@ window.__HISTORY_PATTERN_STATE__ = {
               "29",
               "37"
             ],
-            "covered": true
+            "covered": false
           },
           {
             "year": "2023",
@@ -6881,7 +7274,7 @@ window.__HISTORY_PATTERN_STATE__ = {
               "19",
               "30"
             ],
-            "covered": true
+            "covered": false
           },
           {
             "year": "2023",
@@ -6895,7 +7288,7 @@ window.__HISTORY_PATTERN_STATE__ = {
               "43",
               "44"
             ],
-            "covered": true
+            "covered": false
           },
           {
             "year": "2023",
@@ -6963,7 +7356,7 @@ window.__HISTORY_PATTERN_STATE__ = {
               "36",
               "43"
             ],
-            "covered": false
+            "covered": true
           },
           {
             "year": "2023",
@@ -7004,7 +7397,7 @@ window.__HISTORY_PATTERN_STATE__ = {
               "44",
               "47"
             ],
-            "covered": false
+            "covered": true
           },
           {
             "year": "2023",
@@ -7059,7 +7452,7 @@ window.__HISTORY_PATTERN_STATE__ = {
               "20",
               "36"
             ],
-            "covered": false
+            "covered": true
           },
           {
             "year": "2023",
@@ -7073,7 +7466,7 @@ window.__HISTORY_PATTERN_STATE__ = {
               "38",
               "45"
             ],
-            "covered": false
+            "covered": true
           },
           {
             "year": "2023",
@@ -7087,7 +7480,7 @@ window.__HISTORY_PATTERN_STATE__ = {
               "33",
               "36"
             ],
-            "covered": true
+            "covered": false
           },
           {
             "year": "2023",
@@ -7114,7 +7507,7 @@ window.__HISTORY_PATTERN_STATE__ = {
               "19",
               "23"
             ],
-            "covered": true
+            "covered": false
           },
           {
             "year": "2023",
@@ -7141,7 +7534,7 @@ window.__HISTORY_PATTERN_STATE__ = {
               "21",
               "29"
             ],
-            "covered": true
+            "covered": false
           },
           {
             "year": "2023",
@@ -7169,7 +7562,7 @@ window.__HISTORY_PATTERN_STATE__ = {
               "34",
               "36"
             ],
-            "covered": false
+            "covered": true
           },
           {
             "year": "2023",
@@ -7239,7 +7632,7 @@ window.__HISTORY_PATTERN_STATE__ = {
               "38",
               "41"
             ],
-            "covered": true
+            "covered": false
           },
           {
             "year": "2023",
@@ -7267,7 +7660,7 @@ window.__HISTORY_PATTERN_STATE__ = {
               "44",
               "48"
             ],
-            "covered": true
+            "covered": false
           },
           {
             "year": "2023",
@@ -7308,7 +7701,7 @@ window.__HISTORY_PATTERN_STATE__ = {
               "28",
               "48"
             ],
-            "covered": true
+            "covered": false
           },
           {
             "year": "2023",
@@ -7391,7 +7784,7 @@ window.__HISTORY_PATTERN_STATE__ = {
               "41",
               "46"
             ],
-            "covered": false
+            "covered": true
           },
           {
             "year": "2023",
@@ -7433,7 +7826,7 @@ window.__HISTORY_PATTERN_STATE__ = {
               "41",
               "44"
             ],
-            "covered": false
+            "covered": true
           },
           {
             "year": "2023",
@@ -7470,9 +7863,10 @@ window.__HISTORY_PATTERN_STATE__ = {
             "count": 5,
             "nums": [
               "06",
-              "19",
-              "26",
-              "40"
+              "10",
+              "16",
+              "31",
+              "32"
             ],
             "covered": true
           },
@@ -7482,11 +7876,11 @@ window.__HISTORY_PATTERN_STATE__ = {
             "end": 10,
             "count": 5,
             "nums": [
-              "06",
-              "19",
-              "20",
-              "23",
-              "36"
+              "13",
+              "28",
+              "36",
+              "46",
+              "47"
             ],
             "covered": true
           },
@@ -7496,11 +7890,11 @@ window.__HISTORY_PATTERN_STATE__ = {
             "end": 15,
             "count": 5,
             "nums": [
-              "18",
-              "20",
-              "22",
-              "39",
-              "43"
+              "11",
+              "12",
+              "17",
+              "33",
+              "37"
             ],
             "covered": true
           },
@@ -7510,8 +7904,8 @@ window.__HISTORY_PATTERN_STATE__ = {
             "end": 20,
             "count": 5,
             "nums": [
-              "17",
-              "23",
+              "18",
+              "20",
               "29",
               "47"
             ],
@@ -7557,7 +7951,7 @@ window.__HISTORY_PATTERN_STATE__ = {
               "40",
               "44"
             ],
-            "covered": false
+            "covered": true
           },
           {
             "year": "2024",
@@ -7612,7 +8006,7 @@ window.__HISTORY_PATTERN_STATE__ = {
               "25",
               "31"
             ],
-            "covered": false
+            "covered": true
           },
           {
             "year": "2024",
@@ -7626,7 +8020,7 @@ window.__HISTORY_PATTERN_STATE__ = {
               "44",
               "46"
             ],
-            "covered": false
+            "covered": true
           },
           {
             "year": "2024",
@@ -7667,7 +8061,7 @@ window.__HISTORY_PATTERN_STATE__ = {
               "19",
               "34"
             ],
-            "covered": true
+            "covered": false
           },
           {
             "year": "2024",
@@ -7681,7 +8075,7 @@ window.__HISTORY_PATTERN_STATE__ = {
               "38",
               "44"
             ],
-            "covered": true
+            "covered": false
           },
           {
             "year": "2024",
@@ -7694,7 +8088,7 @@ window.__HISTORY_PATTERN_STATE__ = {
               "22",
               "35"
             ],
-            "covered": true
+            "covered": false
           },
           {
             "year": "2024",
@@ -7722,7 +8116,7 @@ window.__HISTORY_PATTERN_STATE__ = {
               "41",
               "48"
             ],
-            "covered": true
+            "covered": false
           },
           {
             "year": "2024",
@@ -7742,12 +8136,15 @@ window.__HISTORY_PATTERN_STATE__ = {
             "year": "2024",
             "start": 101,
             "end": 105,
-            "count": 5,
+            "count": 8,
             "nums": [
               "05",
               "19",
               "21",
+              "26",
               "35",
+              "37",
+              "45",
               "49"
             ],
             "covered": true
@@ -7756,10 +8153,13 @@ window.__HISTORY_PATTERN_STATE__ = {
             "year": "2024",
             "start": 106,
             "end": 110,
-            "count": 5,
+            "count": 10,
             "nums": [
+              "15",
               "16",
+              "36",
               "43",
+              "45",
               "46",
               "48"
             ],
@@ -7769,40 +8169,53 @@ window.__HISTORY_PATTERN_STATE__ = {
             "year": "2024",
             "start": 111,
             "end": 115,
-            "count": 5,
+            "count": 10,
             "nums": [
+              "10",
               "18",
+              "19",
+              "20",
               "24",
               "29",
-              "43"
+              "35",
+              "43",
+              "44"
             ],
-            "covered": false
+            "covered": true
           },
           {
             "year": "2024",
             "start": 116,
             "end": 120,
-            "count": 5,
+            "count": 10,
             "nums": [
+              "08",
               "10",
               "21",
+              "24",
               "25",
               "29",
-              "32"
+              "30",
+              "32",
+              "33",
+              "45"
             ],
-            "covered": false
+            "covered": true
           },
           {
             "year": "2024",
             "start": 121,
             "end": 125,
-            "count": 5,
+            "count": 10,
             "nums": [
               "02",
+              "07",
               "12",
+              "15",
               "21",
               "22",
-              "36"
+              "36",
+              "43"
             ],
             "covered": false
           },
@@ -7810,11 +8223,16 @@ window.__HISTORY_PATTERN_STATE__ = {
             "year": "2024",
             "start": 126,
             "end": 130,
-            "count": 5,
+            "count": 10,
             "nums": [
               "02",
               "07",
               "17",
+              "30",
+              "31",
+              "33",
+              "37",
+              "43",
               "48",
               "49"
             ],
@@ -7824,24 +8242,32 @@ window.__HISTORY_PATTERN_STATE__ = {
             "year": "2024",
             "start": 131,
             "end": 135,
-            "count": 5,
+            "count": 10,
             "nums": [
               "04",
+              "05",
               "07",
+              "12",
               "19",
+              "31",
               "37",
               "46"
             ],
-            "covered": false
+            "covered": true
           },
           {
             "year": "2024",
             "start": 136,
             "end": 140,
-            "count": 5,
+            "count": 10,
             "nums": [
+              "01",
+              "09",
               "14",
               "16",
+              "17",
+              "27",
+              "33",
               "35",
               "44"
             ],
@@ -7851,38 +8277,53 @@ window.__HISTORY_PATTERN_STATE__ = {
             "year": "2024",
             "start": 141,
             "end": 145,
-            "count": 5,
+            "count": 10,
             "nums": [
               "02",
+              "08",
               "12",
               "16",
+              "17",
+              "24",
               "27",
+              "30",
+              "33",
               "43"
             ],
-            "covered": false
+            "covered": true
           },
           {
             "year": "2024",
             "start": 146,
             "end": 150,
-            "count": 5,
+            "count": 10,
             "nums": [
               "02",
+              "11",
+              "13",
               "22",
               "27",
+              "29",
               "33",
-              "43"
+              "39",
+              "43",
+              "48"
             ],
-            "covered": false
+            "covered": true
           },
           {
             "year": "2024",
             "start": 151,
             "end": 155,
-            "count": 5,
+            "count": 10,
             "nums": [
+              "19",
               "21",
+              "22",
+              "30",
               "32",
+              "35",
+              "37",
               "44",
               "46",
               "48"
@@ -7893,10 +8334,14 @@ window.__HISTORY_PATTERN_STATE__ = {
             "year": "2024",
             "start": 156,
             "end": 160,
-            "count": 5,
+            "count": 10,
             "nums": [
+              "06",
               "20",
               "27",
+              "30",
+              "31",
+              "40",
               "42",
               "43",
               "45"
@@ -7907,10 +8352,12 @@ window.__HISTORY_PATTERN_STATE__ = {
             "year": "2024",
             "start": 161,
             "end": 165,
-            "count": 5,
+            "count": 10,
             "nums": [
               "01",
               "03",
+              "28",
+              "30",
               "35",
               "40",
               "44"
@@ -7921,12 +8368,16 @@ window.__HISTORY_PATTERN_STATE__ = {
             "year": "2024",
             "start": 166,
             "end": 170,
-            "count": 5,
+            "count": 10,
             "nums": [
               "10",
+              "11",
               "14",
+              "26",
+              "30",
               "32",
-              "45"
+              "45",
+              "48"
             ],
             "covered": true
           },
@@ -7934,11 +8385,15 @@ window.__HISTORY_PATTERN_STATE__ = {
             "year": "2024",
             "start": 171,
             "end": 175,
-            "count": 5,
+            "count": 10,
             "nums": [
               "16",
+              "30",
               "32",
+              "33",
+              "36",
               "40",
+              "47",
               "48",
               "49"
             ],
@@ -7948,13 +8403,18 @@ window.__HISTORY_PATTERN_STATE__ = {
             "year": "2024",
             "start": 176,
             "end": 180,
-            "count": 5,
+            "count": 10,
             "nums": [
               "01",
               "02",
               "03",
               "11",
-              "20"
+              "20",
+              "23",
+              "25",
+              "34",
+              "35",
+              "39"
             ],
             "covered": true
           },
@@ -7962,25 +8422,32 @@ window.__HISTORY_PATTERN_STATE__ = {
             "year": "2024",
             "start": 181,
             "end": 185,
-            "count": 5,
+            "count": 10,
             "nums": [
+              "10",
+              "13",
+              "23",
               "25",
               "27",
-              "42"
+              "42",
+              "47"
             ],
-            "covered": false
+            "covered": true
           },
           {
             "year": "2024",
             "start": 186,
             "end": 190,
-            "count": 5,
+            "count": 10,
             "nums": [
               "29",
+              "35",
               "39",
               "41",
               "43",
-              "46"
+              "44",
+              "46",
+              "48"
             ],
             "covered": true
           },
@@ -7988,13 +8455,18 @@ window.__HISTORY_PATTERN_STATE__ = {
             "year": "2024",
             "start": 191,
             "end": 195,
-            "count": 5,
+            "count": 10,
             "nums": [
               "04",
               "05",
+              "11",
               "21",
+              "24",
               "31",
-              "39"
+              "33",
+              "34",
+              "39",
+              "41"
             ],
             "covered": true
           },
@@ -8002,13 +8474,16 @@ window.__HISTORY_PATTERN_STATE__ = {
             "year": "2024",
             "start": 196,
             "end": 200,
-            "count": 5,
+            "count": 10,
             "nums": [
+              "05",
               "10",
               "15",
               "16",
               "39",
-              "43"
+              "42",
+              "43",
+              "47"
             ],
             "covered": true
           },
@@ -8016,27 +8491,36 @@ window.__HISTORY_PATTERN_STATE__ = {
             "year": "2024",
             "start": 201,
             "end": 205,
-            "count": 5,
+            "count": 10,
             "nums": [
               "05",
+              "15",
+              "16",
               "25",
+              "28",
+              "29",
+              "31",
               "40",
               "43",
               "45"
             ],
-            "covered": true
+            "covered": false
           },
           {
             "year": "2024",
             "start": 206,
             "end": 210,
-            "count": 5,
+            "count": 10,
             "nums": [
               "04",
+              "07",
+              "10",
               "14",
               "18",
               "19",
-              "33"
+              "33",
+              "39",
+              "48"
             ],
             "covered": true
           },
@@ -8044,10 +8528,13 @@ window.__HISTORY_PATTERN_STATE__ = {
             "year": "2024",
             "start": 211,
             "end": 215,
-            "count": 5,
+            "count": 10,
             "nums": [
               "06",
+              "11",
               "20",
+              "25",
+              "27",
               "38",
               "49"
             ],
@@ -8057,25 +8544,34 @@ window.__HISTORY_PATTERN_STATE__ = {
             "year": "2024",
             "start": 216,
             "end": 220,
-            "count": 5,
+            "count": 10,
             "nums": [
               "14",
               "15",
               "21",
+              "26",
+              "29",
+              "31",
+              "34",
+              "35",
               "37"
             ],
-            "covered": true
+            "covered": false
           },
           {
             "year": "2024",
             "start": 221,
             "end": 225,
-            "count": 5,
+            "count": 10,
             "nums": [
               "01",
+              "04",
               "05",
+              "08",
+              "12",
               "19",
               "22",
+              "24",
               "30"
             ],
             "covered": true
@@ -8084,12 +8580,16 @@ window.__HISTORY_PATTERN_STATE__ = {
             "year": "2024",
             "start": 226,
             "end": 230,
-            "count": 5,
+            "count": 10,
             "nums": [
               "05",
+              "11",
               "20",
+              "26",
               "34",
               "37",
+              "40",
+              "42",
               "49"
             ],
             "covered": true
@@ -8098,27 +8598,36 @@ window.__HISTORY_PATTERN_STATE__ = {
             "year": "2024",
             "start": 231,
             "end": 235,
-            "count": 5,
+            "count": 10,
             "nums": [
               "02",
               "07",
+              "09",
+              "11",
               "17",
               "23",
-              "24"
+              "24",
+              "37",
+              "44"
             ],
-            "covered": false
+            "covered": true
           },
           {
             "year": "2024",
             "start": 236,
             "end": 240,
-            "count": 5,
+            "count": 10,
             "nums": [
               "03",
               "06",
+              "09",
+              "10",
+              "16",
               "18",
+              "19",
               "24",
-              "31"
+              "31",
+              "36"
             ],
             "covered": true
           },
@@ -8126,13 +8635,18 @@ window.__HISTORY_PATTERN_STATE__ = {
             "year": "2024",
             "start": 241,
             "end": 245,
-            "count": 5,
+            "count": 10,
             "nums": [
               "01",
               "03",
               "04",
+              "15",
               "17",
-              "30"
+              "21",
+              "27",
+              "30",
+              "38",
+              "46"
             ],
             "covered": true
           },
@@ -8140,37 +8654,48 @@ window.__HISTORY_PATTERN_STATE__ = {
             "year": "2024",
             "start": 246,
             "end": 250,
-            "count": 5,
+            "count": 10,
             "nums": [
               "11",
+              "12",
               "15",
+              "22",
+              "23",
               "24",
+              "28",
+              "29",
               "31",
               "32"
-            ],
-            "covered": false
-          },
-          {
-            "year": "2024",
-            "start": 251,
-            "end": 255,
-            "count": 5,
-            "nums": [
-              "14",
-              "27",
-              "30",
-              "36",
-              "47"
             ],
             "covered": true
           },
           {
             "year": "2024",
+            "start": 251,
+            "end": 255,
+            "count": 10,
+            "nums": [
+              "14",
+              "17",
+              "21",
+              "22",
+              "27",
+              "30",
+              "36",
+              "47"
+            ],
+            "covered": false
+          },
+          {
+            "year": "2024",
             "start": 256,
             "end": 260,
-            "count": 5,
+            "count": 10,
             "nums": [
+              "05",
+              "07",
               "08",
+              "28",
               "29",
               "39",
               "40"
@@ -8181,13 +8706,15 @@ window.__HISTORY_PATTERN_STATE__ = {
             "year": "2024",
             "start": 261,
             "end": 265,
-            "count": 5,
+            "count": 10,
             "nums": [
               "01",
               "13",
               "16",
               "30",
-              "44"
+              "41",
+              "44",
+              "46"
             ],
             "covered": true
           },
@@ -8195,25 +8722,33 @@ window.__HISTORY_PATTERN_STATE__ = {
             "year": "2024",
             "start": 266,
             "end": 270,
-            "count": 5,
+            "count": 10,
             "nums": [
+              "07",
+              "09",
               "11",
               "12",
               "22",
+              "24",
               "27",
-              "42"
+              "41",
+              "42",
+              "49"
             ],
-            "covered": false
+            "covered": true
           },
           {
             "year": "2024",
             "start": 271,
             "end": 275,
-            "count": 5,
+            "count": 10,
             "nums": [
+              "03",
+              "12",
               "30",
               "40",
               "41",
+              "46",
               "49"
             ],
             "covered": true
@@ -8222,53 +8757,71 @@ window.__HISTORY_PATTERN_STATE__ = {
             "year": "2024",
             "start": 276,
             "end": 280,
-            "count": 5,
+            "count": 10,
             "nums": [
               "07",
+              "11",
+              "14",
               "22",
               "26",
+              "28",
               "29",
-              "40"
+              "36",
+              "40",
+              "45"
             ],
-            "covered": false
+            "covered": true
           },
           {
             "year": "2024",
             "start": 281,
             "end": 285,
-            "count": 5,
+            "count": 10,
             "nums": [
+              "07",
               "13",
+              "16",
+              "18",
               "21",
+              "25",
               "27",
               "43",
+              "46",
               "47"
             ],
-            "covered": false
+            "covered": true
           },
           {
             "year": "2024",
             "start": 286,
             "end": 290,
-            "count": 5,
+            "count": 10,
             "nums": [
               "04",
               "11",
               "26",
+              "31",
+              "36",
               "40",
-              "45"
+              "44",
+              "45",
+              "46"
             ],
-            "covered": false
+            "covered": true
           },
           {
             "year": "2024",
             "start": 291,
             "end": 295,
-            "count": 5,
+            "count": 10,
             "nums": [
+              "01",
+              "12",
               "14",
               "24",
               "30",
+              "32",
+              "42",
               "44",
               "48"
             ],
@@ -8278,10 +8831,14 @@ window.__HISTORY_PATTERN_STATE__ = {
             "year": "2024",
             "start": 296,
             "end": 300,
-            "count": 5,
+            "count": 10,
             "nums": [
+              "05",
               "09",
               "21",
+              "23",
+              "36",
+              "37",
               "44",
               "46",
               "49"
@@ -8292,27 +8849,35 @@ window.__HISTORY_PATTERN_STATE__ = {
             "year": "2024",
             "start": 301,
             "end": 305,
-            "count": 5,
+            "count": 10,
             "nums": [
               "16",
               "17",
               "24",
+              "25",
               "32",
-              "38"
+              "34",
+              "38",
+              "39",
+              "49"
             ],
-            "covered": false
+            "covered": true
           },
           {
             "year": "2024",
             "start": 306,
             "end": 310,
-            "count": 5,
+            "count": 10,
             "nums": [
               "03",
               "04",
+              "07",
               "08",
               "09",
-              "22"
+              "22",
+              "26",
+              "27",
+              "45"
             ],
             "covered": true
           },
@@ -8320,10 +8885,14 @@ window.__HISTORY_PATTERN_STATE__ = {
             "year": "2024",
             "start": 311,
             "end": 315,
-            "count": 5,
+            "count": 10,
             "nums": [
+              "03",
+              "08",
               "18",
               "21",
+              "28",
+              "29",
               "35",
               "46",
               "48"
@@ -8334,27 +8903,34 @@ window.__HISTORY_PATTERN_STATE__ = {
             "year": "2024",
             "start": 316,
             "end": 320,
-            "count": 5,
+            "count": 10,
             "nums": [
+              "04",
               "05",
+              "06",
               "12",
               "13",
+              "21",
+              "28",
               "41",
               "44"
             ],
-            "covered": true
+            "covered": false
           },
           {
             "year": "2024",
             "start": 321,
             "end": 325,
-            "count": 5,
+            "count": 10,
             "nums": [
               "01",
+              "03",
               "27",
               "28",
+              "34",
               "36",
-              "39"
+              "39",
+              "42"
             ],
             "covered": true
           },
@@ -8362,12 +8938,16 @@ window.__HISTORY_PATTERN_STATE__ = {
             "year": "2024",
             "start": 326,
             "end": 330,
-            "count": 5,
+            "count": 10,
             "nums": [
+              "06",
               "11",
               "14",
+              "16",
+              "17",
               "19",
               "20",
+              "23",
               "41"
             ],
             "covered": true
@@ -8376,12 +8956,16 @@ window.__HISTORY_PATTERN_STATE__ = {
             "year": "2024",
             "start": 331,
             "end": 335,
-            "count": 5,
+            "count": 10,
             "nums": [
               "04",
               "06",
+              "10",
+              "11",
+              "13",
               "32",
               "34",
+              "39",
               "46"
             ],
             "covered": true
@@ -8390,11 +8974,15 @@ window.__HISTORY_PATTERN_STATE__ = {
             "year": "2024",
             "start": 336,
             "end": 340,
-            "count": 5,
+            "count": 10,
             "nums": [
+              "01",
               "05",
+              "07",
+              "17",
               "38",
               "40",
+              "44",
               "47",
               "48"
             ],
@@ -8404,10 +8992,14 @@ window.__HISTORY_PATTERN_STATE__ = {
             "year": "2024",
             "start": 341,
             "end": 345,
-            "count": 5,
+            "count": 10,
             "nums": [
               "02",
+              "04",
               "18",
+              "26",
+              "33",
+              "44",
               "45",
               "46",
               "49"
@@ -8418,12 +9010,17 @@ window.__HISTORY_PATTERN_STATE__ = {
             "year": "2024",
             "start": 346,
             "end": 350,
-            "count": 5,
+            "count": 10,
             "nums": [
               "01",
               "04",
+              "09",
+              "16",
               "17",
+              "20",
               "28",
+              "31",
+              "32",
               "41"
             ],
             "covered": true
@@ -8432,10 +9029,12 @@ window.__HISTORY_PATTERN_STATE__ = {
             "year": "2024",
             "start": 351,
             "end": 355,
-            "count": 5,
+            "count": 7,
             "nums": [
               "10",
+              "12",
               "25",
+              "26",
               "27",
               "47",
               "49"
@@ -8476,10 +9075,11 @@ window.__HISTORY_PATTERN_STATE__ = {
             "end": 5,
             "count": 5,
             "nums": [
-              "08",
+              "07",
+              "12",
               "22",
-              "33",
-              "37"
+              "24",
+              "30"
             ],
             "covered": false
           },
@@ -8489,13 +9089,13 @@ window.__HISTORY_PATTERN_STATE__ = {
             "end": 10,
             "count": 5,
             "nums": [
-              "04",
-              "15",
-              "25",
-              "30",
-              "46"
+              "24",
+              "26",
+              "33",
+              "39",
+              "43"
             ],
-            "covered": false
+            "covered": true
           },
           {
             "year": "2025",
@@ -8503,11 +9103,11 @@ window.__HISTORY_PATTERN_STATE__ = {
             "end": 15,
             "count": 5,
             "nums": [
-              "06",
-              "07",
-              "27",
-              "36",
-              "39"
+              "01",
+              "03",
+              "33",
+              "40",
+              "42"
             ],
             "covered": true
           },
@@ -8517,13 +9117,13 @@ window.__HISTORY_PATTERN_STATE__ = {
             "end": 20,
             "count": 5,
             "nums": [
-              "06",
-              "10",
-              "21",
-              "34",
-              "38"
+              "16",
+              "22",
+              "32",
+              "37",
+              "43"
             ],
-            "covered": true
+            "covered": false
           },
           {
             "year": "2025",
@@ -8531,36 +9131,44 @@ window.__HISTORY_PATTERN_STATE__ = {
             "end": 25,
             "count": 5,
             "nums": [
-              "04",
-              "14",
-              "30",
-              "41",
-              "45"
-            ],
-            "covered": true
-          },
-          {
-            "year": "2025",
-            "start": 26,
-            "end": 30,
-            "count": 5,
-            "nums": [
-              "13",
+              "06",
               "25",
-              "37",
-              "40"
+              "30",
+              "33",
+              "43"
             ],
             "covered": false
           },
           {
             "year": "2025",
+            "start": 26,
+            "end": 30,
+            "count": 9,
+            "nums": [
+              "09",
+              "12",
+              "13",
+              "18",
+              "25",
+              "38",
+              "40"
+            ],
+            "covered": true
+          },
+          {
+            "year": "2025",
             "start": 31,
             "end": 35,
-            "count": 5,
+            "count": 10,
             "nums": [
+              "09",
+              "11",
+              "12",
+              "13",
               "21",
               "22",
               "23",
+              "27",
               "39",
               "48"
             ],
@@ -8570,38 +9178,51 @@ window.__HISTORY_PATTERN_STATE__ = {
             "year": "2025",
             "start": 36,
             "end": 40,
-            "count": 5,
+            "count": 10,
             "nums": [
+              "06",
+              "08",
               "20",
+              "24",
               "25",
               "29",
+              "35",
               "40"
             ],
-            "covered": false
+            "covered": true
           },
           {
             "year": "2025",
             "start": 41,
             "end": 45,
-            "count": 5,
+            "count": 10,
             "nums": [
               "07",
+              "27",
               "28",
               "30",
               "37",
-              "42"
+              "40",
+              "41",
+              "42",
+              "49"
             ],
-            "covered": false
+            "covered": true
           },
           {
             "year": "2025",
             "start": 46,
             "end": 50,
-            "count": 5,
+            "count": 10,
             "nums": [
               "05",
               "12",
+              "15",
               "18",
+              "30",
+              "36",
+              "37",
+              "39",
               "43"
             ],
             "covered": true
@@ -8610,11 +9231,16 @@ window.__HISTORY_PATTERN_STATE__ = {
             "year": "2025",
             "start": 51,
             "end": 55,
-            "count": 5,
+            "count": 10,
             "nums": [
+              "02",
+              "09",
               "10",
               "11",
               "25",
+              "28",
+              "34",
+              "36",
               "44",
               "49"
             ],
@@ -8624,26 +9250,35 @@ window.__HISTORY_PATTERN_STATE__ = {
             "year": "2025",
             "start": 56,
             "end": 60,
-            "count": 5,
+            "count": 10,
             "nums": [
+              "06",
               "11",
               "20",
+              "23",
               "24",
+              "25",
+              "28",
               "31",
               "42"
             ],
-            "covered": false
+            "covered": true
           },
           {
             "year": "2025",
             "start": 61,
             "end": 65,
-            "count": 5,
+            "count": 10,
             "nums": [
               "10",
+              "14",
               "23",
+              "24",
               "31",
               "35",
+              "37",
+              "38",
+              "39",
               "48"
             ],
             "covered": true
@@ -8652,25 +9287,32 @@ window.__HISTORY_PATTERN_STATE__ = {
             "year": "2025",
             "start": 66,
             "end": 70,
-            "count": 5,
+            "count": 10,
             "nums": [
+              "05",
               "12",
+              "27",
               "29",
               "43",
-              "44"
+              "44",
+              "46"
             ],
-            "covered": false
+            "covered": true
           },
           {
             "year": "2025",
             "start": 71,
             "end": 75,
-            "count": 5,
+            "count": 10,
             "nums": [
+              "01",
               "03",
+              "08",
               "09",
+              "20",
               "35",
               "40",
+              "41",
               "49"
             ],
             "covered": true
@@ -8679,12 +9321,16 @@ window.__HISTORY_PATTERN_STATE__ = {
             "year": "2025",
             "start": 76,
             "end": 80,
-            "count": 5,
+            "count": 10,
             "nums": [
               "10",
+              "14",
+              "21",
               "22",
+              "23",
               "24",
               "28",
+              "35",
               "39"
             ],
             "covered": true
@@ -8693,26 +9339,35 @@ window.__HISTORY_PATTERN_STATE__ = {
             "year": "2025",
             "start": 81,
             "end": 85,
-            "count": 5,
+            "count": 10,
             "nums": [
+              "01",
+              "11",
+              "19",
               "20",
               "28",
+              "32",
               "34",
               "35",
               "38"
             ],
-            "covered": false
+            "covered": true
           },
           {
             "year": "2025",
             "start": 86,
             "end": 90,
-            "count": 5,
+            "count": 10,
             "nums": [
+              "11",
               "14",
               "15",
+              "25",
               "30",
-              "35"
+              "35",
+              "42",
+              "45",
+              "46"
             ],
             "covered": true
           },
@@ -8720,10 +9375,15 @@ window.__HISTORY_PATTERN_STATE__ = {
             "year": "2025",
             "start": 91,
             "end": 95,
-            "count": 5,
+            "count": 10,
             "nums": [
+              "05",
               "10",
+              "16",
               "20",
+              "23",
+              "29",
+              "30",
               "33",
               "39",
               "40"
@@ -8734,12 +9394,16 @@ window.__HISTORY_PATTERN_STATE__ = {
             "year": "2025",
             "start": 96,
             "end": 100,
-            "count": 5,
+            "count": 10,
             "nums": [
+              "01",
               "03",
+              "13",
+              "19",
               "20",
               "31",
               "34",
+              "39",
               "42"
             ],
             "covered": true
@@ -8748,13 +9412,17 @@ window.__HISTORY_PATTERN_STATE__ = {
             "year": "2025",
             "start": 101,
             "end": 105,
-            "count": 5,
+            "count": 10,
             "nums": [
               "01",
+              "03",
               "06",
+              "23",
               "26",
               "32",
-              "38"
+              "34",
+              "38",
+              "39"
             ],
             "covered": true
           },
@@ -8762,11 +9430,16 @@ window.__HISTORY_PATTERN_STATE__ = {
             "year": "2025",
             "start": 106,
             "end": 110,
-            "count": 5,
+            "count": 10,
             "nums": [
               "03",
+              "05",
               "18",
+              "22",
+              "24",
               "27",
+              "40",
+              "42",
               "46",
               "47"
             ],
@@ -8776,12 +9449,17 @@ window.__HISTORY_PATTERN_STATE__ = {
             "year": "2025",
             "start": 111,
             "end": 115,
-            "count": 5,
+            "count": 10,
             "nums": [
+              "02",
               "03",
+              "24",
+              "36",
+              "37",
               "38",
               "45",
-              "46"
+              "46",
+              "48"
             ],
             "covered": true
           },
@@ -8789,12 +9467,16 @@ window.__HISTORY_PATTERN_STATE__ = {
             "year": "2025",
             "start": 116,
             "end": 120,
-            "count": 5,
+            "count": 10,
             "nums": [
+              "05",
+              "12",
               "23",
               "28",
+              "30",
               "36",
               "38",
+              "45",
               "47"
             ],
             "covered": false
@@ -8803,11 +9485,15 @@ window.__HISTORY_PATTERN_STATE__ = {
             "year": "2025",
             "start": 121,
             "end": 125,
-            "count": 5,
+            "count": 10,
             "nums": [
+              "07",
               "10",
+              "13",
               "24",
               "33",
+              "35",
+              "44",
               "45",
               "49"
             ],
@@ -8817,11 +9503,14 @@ window.__HISTORY_PATTERN_STATE__ = {
             "year": "2025",
             "start": 126,
             "end": 130,
-            "count": 5,
+            "count": 10,
             "nums": [
               "02",
               "13",
+              "17",
+              "22",
               "23",
+              "36",
               "40",
               "49"
             ],
@@ -8831,12 +9520,16 @@ window.__HISTORY_PATTERN_STATE__ = {
             "year": "2025",
             "start": 131,
             "end": 135,
-            "count": 5,
+            "count": 10,
             "nums": [
               "02",
               "10",
               "14",
+              "22",
+              "34",
               "37",
+              "42",
+              "45",
               "47"
             ],
             "covered": true
@@ -8845,11 +9538,16 @@ window.__HISTORY_PATTERN_STATE__ = {
             "year": "2025",
             "start": 136,
             "end": 140,
-            "count": 5,
+            "count": 10,
             "nums": [
+              "02",
+              "05",
               "09",
               "11",
               "14",
+              "19",
+              "25",
+              "34",
               "36",
               "41"
             ],
@@ -8859,55 +9557,75 @@ window.__HISTORY_PATTERN_STATE__ = {
             "year": "2025",
             "start": 141,
             "end": 145,
-            "count": 5,
+            "count": 10,
             "nums": [
+              "09",
               "10",
               "13",
               "17",
               "25",
-              "44"
-            ],
-            "covered": false
-          },
-          {
-            "year": "2025",
-            "start": 146,
-            "end": 150,
-            "count": 5,
-            "nums": [
-              "02",
-              "14",
-              "32",
-              "40",
-              "41"
+              "26",
+              "35",
+              "43",
+              "44",
+              "45"
             ],
             "covered": true
           },
           {
             "year": "2025",
-            "start": 151,
-            "end": 155,
-            "count": 5,
+            "start": 146,
+            "end": 150,
+            "count": 10,
             "nums": [
-              "10",
-              "26",
-              "38",
-              "43",
-              "45"
+              "02",
+              "14",
+              "15",
+              "22",
+              "27",
+              "28",
+              "32",
+              "35",
+              "40",
+              "41"
             ],
             "covered": false
           },
           {
             "year": "2025",
+            "start": 151,
+            "end": 155,
+            "count": 10,
+            "nums": [
+              "01",
+              "04",
+              "10",
+              "26",
+              "34",
+              "35",
+              "38",
+              "43",
+              "45",
+              "49"
+            ],
+            "covered": true
+          },
+          {
+            "year": "2025",
             "start": 156,
             "end": 160,
-            "count": 5,
+            "count": 10,
             "nums": [
+              "04",
               "05",
+              "08",
               "11",
               "18",
               "23",
-              "31"
+              "27",
+              "31",
+              "33",
+              "47"
             ],
             "covered": true
           },
@@ -8915,12 +9633,17 @@ window.__HISTORY_PATTERN_STATE__ = {
             "year": "2025",
             "start": 161,
             "end": 165,
-            "count": 5,
+            "count": 10,
             "nums": [
               "01",
+              "03",
               "13",
               "16",
+              "22",
               "23",
+              "31",
+              "38",
+              "44",
               "47"
             ],
             "covered": true
@@ -8929,26 +9652,34 @@ window.__HISTORY_PATTERN_STATE__ = {
             "year": "2025",
             "start": 166,
             "end": 170,
-            "count": 5,
+            "count": 10,
             "nums": [
               "07",
               "09",
               "16",
+              "20",
+              "23",
               "33",
-              "41"
+              "38",
+              "41",
+              "47"
             ],
-            "covered": false
+            "covered": true
           },
           {
             "year": "2025",
             "start": 171,
             "end": 175,
-            "count": 5,
+            "count": 10,
             "nums": [
+              "18",
+              "25",
               "30",
               "36",
               "38",
               "39",
+              "45",
+              "46",
               "47"
             ],
             "covered": true
@@ -8957,68 +9688,91 @@ window.__HISTORY_PATTERN_STATE__ = {
             "year": "2025",
             "start": 176,
             "end": 180,
-            "count": 5,
+            "count": 10,
             "nums": [
+              "01",
               "04",
+              "20",
               "24",
+              "26",
               "27",
               "29",
-              "36"
-            ],
-            "covered": false
-          },
-          {
-            "year": "2025",
-            "start": 181,
-            "end": 185,
-            "count": 5,
-            "nums": [
-              "05",
-              "23",
-              "28",
-              "33",
-              "42"
+              "36",
+              "48",
+              "49"
             ],
             "covered": true
           },
           {
             "year": "2025",
+            "start": 181,
+            "end": 185,
+            "count": 10,
+            "nums": [
+              "05",
+              "23",
+              "28",
+              "33",
+              "35",
+              "42",
+              "45",
+              "48"
+            ],
+            "covered": false
+          },
+          {
+            "year": "2025",
             "start": 186,
             "end": 190,
-            "count": 5,
+            "count": 10,
             "nums": [
               "08",
               "15",
               "17",
               "18",
-              "45"
+              "26",
+              "32",
+              "35",
+              "38",
+              "45",
+              "46"
             ],
-            "covered": false
+            "covered": true
           },
           {
             "year": "2025",
             "start": 191,
             "end": 195,
-            "count": 5,
+            "count": 10,
             "nums": [
+              "01",
               "24",
               "25",
               "29",
+              "33",
+              "35",
+              "40",
+              "44",
               "45"
             ],
-            "covered": false
+            "covered": true
           },
           {
             "year": "2025",
             "start": 196,
             "end": 200,
-            "count": 5,
+            "count": 10,
             "nums": [
+              "02",
               "10",
+              "13",
               "14",
+              "26",
               "34",
               "43",
-              "47"
+              "44",
+              "47",
+              "48"
             ],
             "covered": true
           },
@@ -9026,12 +9780,16 @@ window.__HISTORY_PATTERN_STATE__ = {
             "year": "2025",
             "start": 201,
             "end": 205,
-            "count": 5,
+            "count": 10,
             "nums": [
               "01",
+              "03",
+              "12",
+              "15",
               "18",
               "20",
               "30",
+              "44",
               "47"
             ],
             "covered": true
@@ -9040,68 +9798,91 @@ window.__HISTORY_PATTERN_STATE__ = {
             "year": "2025",
             "start": 206,
             "end": 210,
-            "count": 5,
+            "count": 10,
             "nums": [
               "09",
               "10",
+              "11",
               "13",
               "15",
-              "24"
+              "18",
+              "19",
+              "24",
+              "30",
+              "32"
             ],
-            "covered": false
+            "covered": true
           },
           {
             "year": "2025",
             "start": 211,
             "end": 215,
-            "count": 5,
+            "count": 10,
             "nums": [
               "02",
+              "03",
               "11",
+              "12",
               "15",
               "18",
-              "21"
+              "21",
+              "32",
+              "45"
             ],
-            "covered": false
+            "covered": true
           },
           {
             "year": "2025",
             "start": 216,
             "end": 220,
-            "count": 5,
+            "count": 10,
             "nums": [
               "08",
               "09",
+              "19",
               "23",
-              "46"
+              "28",
+              "44",
+              "46",
+              "49"
             ],
-            "covered": false
+            "covered": true
           },
           {
             "year": "2025",
             "start": 221,
             "end": 225,
-            "count": 5,
+            "count": 10,
             "nums": [
+              "05",
               "08",
+              "12",
               "16",
               "25",
+              "28",
+              "30",
               "32",
-              "43"
+              "43",
+              "46"
             ],
-            "covered": false
+            "covered": true
           },
           {
             "year": "2025",
             "start": 226,
             "end": 230,
-            "count": 5,
+            "count": 10,
             "nums": [
               "02",
               "15",
+              "17",
+              "24",
               "31",
+              "35",
               "39",
-              "40"
+              "40",
+              "47",
+              "49"
             ],
             "covered": true
           },
@@ -9109,25 +9890,70 @@ window.__HISTORY_PATTERN_STATE__ = {
             "year": "2025",
             "start": 231,
             "end": 235,
-            "count": 5,
+            "count": 10,
             "nums": [
+              "06",
+              "08",
               "13",
+              "35",
               "37",
               "38",
-              "42"
+              "42",
+              "43",
+              "46"
             ],
-            "covered": false
+            "covered": true
+          },
+          {
+            "year": "2025",
+            "start": 236,
+            "end": 240,
+            "count": 9,
+            "nums": [
+              "02",
+              "04",
+              "05",
+              "11",
+              "29",
+              "35",
+              "39",
+              "45",
+              "46"
+            ],
+            "covered": true
+          },
+          {
+            "year": "2025",
+            "start": 241,
+            "end": 245,
+            "count": 8,
+            "nums": [
+              "20",
+              "23",
+              "24",
+              "26",
+              "34",
+              "44",
+              "47",
+              "49"
+            ],
+            "covered": true
           },
           {
             "year": "2025",
             "start": 246,
             "end": 250,
-            "count": 5,
+            "count": 10,
             "nums": [
               "02",
+              "05",
               "06",
+              "07",
+              "10",
               "12",
-              "25"
+              "25",
+              "26",
+              "40"
             ],
             "covered": true
           },
@@ -9135,12 +9961,16 @@ window.__HISTORY_PATTERN_STATE__ = {
             "year": "2025",
             "start": 251,
             "end": 255,
-            "count": 5,
+            "count": 10,
             "nums": [
+              "03",
               "17",
+              "21",
               "23",
+              "26",
               "33",
               "35",
+              "41",
               "42"
             ],
             "covered": false
@@ -9149,13 +9979,17 @@ window.__HISTORY_PATTERN_STATE__ = {
             "year": "2025",
             "start": 256,
             "end": 260,
-            "count": 5,
+            "count": 10,
             "nums": [
+              "01",
               "03",
+              "07",
               "28",
+              "34",
               "38",
               "47",
-              "48"
+              "48",
+              "49"
             ],
             "covered": true
           },
@@ -9163,65 +9997,86 @@ window.__HISTORY_PATTERN_STATE__ = {
             "year": "2025",
             "start": 261,
             "end": 265,
-            "count": 5,
+            "count": 10,
             "nums": [
               "10",
+              "18",
+              "23",
+              "24",
               "33",
               "38",
+              "42",
               "43",
-              "44"
-            ],
-            "covered": false
-          },
-          {
-            "year": "2025",
-            "start": 266,
-            "end": 270,
-            "count": 5,
-            "nums": [
-              "10",
-              "29",
-              "31",
-              "35",
-              "41"
-            ],
-            "covered": false
-          },
-          {
-            "year": "2025",
-            "start": 271,
-            "end": 275,
-            "count": 5,
-            "nums": [
-              "04",
-              "06",
-              "36",
               "44",
-              "45"
+              "49"
             ],
             "covered": true
           },
           {
             "year": "2025",
-            "start": 276,
-            "end": 280,
-            "count": 5,
+            "start": 266,
+            "end": 270,
+            "count": 10,
             "nums": [
-              "09",
-              "16",
-              "27",
-              "28",
-              "42"
+              "05",
+              "10",
+              "25",
+              "29",
+              "31",
+              "33",
+              "35",
+              "41"
+            ],
+            "covered": true
+          },
+          {
+            "year": "2025",
+            "start": 271,
+            "end": 275,
+            "count": 10,
+            "nums": [
+              "04",
+              "06",
+              "14",
+              "34",
+              "36",
+              "40",
+              "44",
+              "45",
+              "47",
+              "48"
             ],
             "covered": false
           },
           {
             "year": "2025",
+            "start": 276,
+            "end": 280,
+            "count": 10,
+            "nums": [
+              "05",
+              "09",
+              "13",
+              "16",
+              "22",
+              "27",
+              "28",
+              "30",
+              "36",
+              "42"
+            ],
+            "covered": true
+          },
+          {
+            "year": "2025",
             "start": 281,
             "end": 285,
-            "count": 5,
+            "count": 10,
             "nums": [
+              "15",
+              "16",
               "24",
+              "40",
               "41",
               "45",
               "47"
@@ -9232,13 +10087,18 @@ window.__HISTORY_PATTERN_STATE__ = {
             "year": "2025",
             "start": 286,
             "end": 290,
-            "count": 5,
+            "count": 10,
             "nums": [
+              "01",
               "03",
+              "10",
               "14",
+              "16",
               "19",
               "34",
-              "42"
+              "38",
+              "42",
+              "47"
             ],
             "covered": true
           },
@@ -9246,24 +10106,32 @@ window.__HISTORY_PATTERN_STATE__ = {
             "year": "2025",
             "start": 291,
             "end": 295,
-            "count": 5,
+            "count": 10,
             "nums": [
               "02",
               "05",
+              "12",
               "18",
+              "20",
+              "24",
+              "41",
               "44",
               "47"
             ],
-            "covered": true
+            "covered": false
           },
           {
             "year": "2025",
             "start": 296,
             "end": 300,
-            "count": 5,
+            "count": 10,
             "nums": [
+              "09",
+              "11",
+              "13",
               "22",
               "23",
+              "35",
               "40",
               "44",
               "49"
@@ -9274,11 +10142,15 @@ window.__HISTORY_PATTERN_STATE__ = {
             "year": "2025",
             "start": 301,
             "end": 305,
-            "count": 5,
+            "count": 10,
             "nums": [
               "05",
+              "10",
+              "11",
               "15",
               "22",
+              "27",
+              "33",
               "42",
               "48"
             ],
@@ -9288,13 +10160,18 @@ window.__HISTORY_PATTERN_STATE__ = {
             "year": "2025",
             "start": 306,
             "end": 310,
-            "count": 5,
+            "count": 10,
             "nums": [
+              "01",
               "06",
               "16",
               "17",
               "20",
-              "39"
+              "21",
+              "39",
+              "42",
+              "44",
+              "46"
             ],
             "covered": true
           },
@@ -9302,10 +10179,12 @@ window.__HISTORY_PATTERN_STATE__ = {
             "year": "2025",
             "start": 311,
             "end": 315,
-            "count": 5,
+            "count": 10,
             "nums": [
+              "01",
               "04",
               "14",
+              "15",
               "23",
               "37",
               "38"
@@ -9316,13 +10195,18 @@ window.__HISTORY_PATTERN_STATE__ = {
             "year": "2025",
             "start": 316,
             "end": 320,
-            "count": 5,
+            "count": 10,
             "nums": [
+              "04",
               "06",
+              "09",
+              "10",
               "18",
               "24",
               "28",
-              "45"
+              "41",
+              "45",
+              "46"
             ],
             "covered": true
           },
@@ -9330,25 +10214,33 @@ window.__HISTORY_PATTERN_STATE__ = {
             "year": "2025",
             "start": 321,
             "end": 325,
-            "count": 5,
+            "count": 10,
             "nums": [
               "04",
+              "07",
               "09",
               "15",
+              "17",
               "23",
+              "34",
+              "40",
               "47"
             ],
-            "covered": false
+            "covered": true
           },
           {
             "year": "2025",
             "start": 326,
             "end": 330,
-            "count": 5,
+            "count": 10,
             "nums": [
               "03",
+              "10",
+              "11",
+              "15",
               "17",
               "19",
+              "27",
               "36",
               "37"
             ],
@@ -9358,10 +10250,14 @@ window.__HISTORY_PATTERN_STATE__ = {
             "year": "2025",
             "start": 331,
             "end": 335,
-            "count": 5,
+            "count": 10,
             "nums": [
+              "03",
               "06",
+              "08",
+              "14",
               "26",
+              "41",
               "44",
               "46"
             ],
@@ -9371,13 +10267,17 @@ window.__HISTORY_PATTERN_STATE__ = {
             "year": "2025",
             "start": 336,
             "end": 340,
-            "count": 5,
+            "count": 10,
             "nums": [
+              "03",
               "08",
               "09",
               "16",
               "17",
-              "48"
+              "28",
+              "43",
+              "48",
+              "49"
             ],
             "covered": true
           },
@@ -9385,13 +10285,18 @@ window.__HISTORY_PATTERN_STATE__ = {
             "year": "2025",
             "start": 341,
             "end": 345,
-            "count": 5,
+            "count": 10,
             "nums": [
               "04",
               "06",
+              "11",
               "24",
+              "25",
               "27",
-              "38"
+              "32",
+              "38",
+              "44",
+              "45"
             ],
             "covered": true
           },
@@ -9399,12 +10304,16 @@ window.__HISTORY_PATTERN_STATE__ = {
             "year": "2025",
             "start": 346,
             "end": 350,
-            "count": 5,
+            "count": 10,
             "nums": [
+              "02",
               "03",
+              "06",
               "13",
               "16",
               "22",
+              "40",
+              "45",
               "49"
             ],
             "covered": true
@@ -9413,11 +10322,12 @@ window.__HISTORY_PATTERN_STATE__ = {
             "year": "2025",
             "start": 351,
             "end": 355,
-            "count": 5,
+            "count": 6,
             "nums": [
               "01",
               "04",
               "08",
+              "14",
               "30",
               "44"
             ],
@@ -9456,13 +10366,13 @@ window.__HISTORY_PATTERN_STATE__ = {
             "end": 5,
             "count": 5,
             "nums": [
+              "02",
               "09",
-              "22",
-              "29",
-              "43",
-              "45"
+              "10",
+              "11",
+              "24"
             ],
-            "covered": false
+            "covered": true
           },
           {
             "year": "2026",
@@ -9470,11 +10380,10 @@ window.__HISTORY_PATTERN_STATE__ = {
             "end": 10,
             "count": 5,
             "nums": [
-              "13",
+              "04",
+              "19",
               "21",
-              "27",
-              "28",
-              "41"
+              "37"
             ],
             "covered": false
           },
@@ -9484,10 +10393,11 @@ window.__HISTORY_PATTERN_STATE__ = {
             "end": 15,
             "count": 5,
             "nums": [
-              "01",
-              "11",
-              "26",
-              "31"
+              "27",
+              "28",
+              "32",
+              "41",
+              "49"
             ],
             "covered": true
           },
@@ -9497,13 +10407,12 @@ window.__HISTORY_PATTERN_STATE__ = {
             "end": 20,
             "count": 5,
             "nums": [
-              "06",
-              "12",
-              "32",
-              "39",
-              "46"
+              "16",
+              "38",
+              "40",
+              "47"
             ],
-            "covered": true
+            "covered": false
           },
           {
             "year": "2026",
@@ -9511,13 +10420,13 @@ window.__HISTORY_PATTERN_STATE__ = {
             "end": 25,
             "count": 5,
             "nums": [
-              "18",
-              "28",
-              "37",
-              "42",
-              "47"
+              "09",
+              "10",
+              "16",
+              "34",
+              "35"
             ],
-            "covered": false
+            "covered": true
           },
           {
             "year": "2026",
@@ -9525,11 +10434,11 @@ window.__HISTORY_PATTERN_STATE__ = {
             "end": 30,
             "count": 5,
             "nums": [
-              "01",
-              "03",
-              "19",
-              "41",
-              "45"
+              "02",
+              "29",
+              "30",
+              "38",
+              "46"
             ],
             "covered": true
           },
@@ -9539,11 +10448,11 @@ window.__HISTORY_PATTERN_STATE__ = {
             "end": 35,
             "count": 5,
             "nums": [
-              "06",
-              "19",
-              "26",
-              "27",
-              "41"
+              "04",
+              "08",
+              "24",
+              "29",
+              "34"
             ],
             "covered": true
           },
@@ -9553,25 +10462,24 @@ window.__HISTORY_PATTERN_STATE__ = {
             "end": 40,
             "count": 5,
             "nums": [
-              "01",
-              "11",
-              "28",
-              "42",
-              "43"
+              "20",
+              "24",
+              "33",
+              "34",
+              "36"
             ],
-            "covered": true
+            "covered": false
           },
           {
             "year": "2026",
             "start": 41,
             "end": 45,
-            "count": 5,
+            "count": 6,
             "nums": [
               "01",
-              "13",
-              "16",
               "19",
-              "36"
+              "25",
+              "28"
             ],
             "covered": true
           },
@@ -9579,12 +10487,17 @@ window.__HISTORY_PATTERN_STATE__ = {
             "year": "2026",
             "start": 46,
             "end": 50,
-            "count": 5,
+            "count": 10,
             "nums": [
               "03",
               "13",
+              "14",
+              "17",
               "23",
               "24",
+              "25",
+              "28",
+              "35",
               "39"
             ],
             "covered": true
@@ -9593,12 +10506,17 @@ window.__HISTORY_PATTERN_STATE__ = {
             "year": "2026",
             "start": 51,
             "end": 55,
-            "count": 5,
+            "count": 10,
             "nums": [
               "01",
+              "08",
               "14",
               "15",
+              "16",
+              "23",
+              "27",
               "38",
+              "39",
               "48"
             ],
             "covered": true
@@ -9607,12 +10525,16 @@ window.__HISTORY_PATTERN_STATE__ = {
             "year": "2026",
             "start": 56,
             "end": 60,
-            "count": 5,
+            "count": 10,
             "nums": [
+              "01",
               "09",
               "10",
+              "20",
               "23",
               "31",
+              "39",
+              "43",
               "48"
             ],
             "covered": true
@@ -9621,27 +10543,35 @@ window.__HISTORY_PATTERN_STATE__ = {
             "year": "2026",
             "start": 61,
             "end": 65,
-            "count": 5,
+            "count": 10,
             "nums": [
               "05",
+              "07",
+              "13",
               "18",
               "24",
               "28",
-              "29"
+              "29",
+              "38",
+              "40",
+              "48"
             ],
-            "covered": true
+            "covered": false
           },
           {
             "year": "2026",
             "start": 66,
             "end": 70,
-            "count": 5,
+            "count": 10,
             "nums": [
+              "01",
               "05",
               "23",
               "24",
               "25",
-              "37"
+              "37",
+              "39",
+              "43"
             ],
             "covered": true
           },
@@ -9649,11 +10579,16 @@ window.__HISTORY_PATTERN_STATE__ = {
             "year": "2026",
             "start": 71,
             "end": 75,
-            "count": 5,
+            "count": 10,
             "nums": [
+              "03",
               "10",
+              "15",
+              "19",
+              "23",
               "33",
               "34",
+              "42",
               "46",
               "48"
             ],
@@ -9663,12 +10598,17 @@ window.__HISTORY_PATTERN_STATE__ = {
             "year": "2026",
             "start": 76,
             "end": 80,
-            "count": 5,
+            "count": 10,
             "nums": [
+              "01",
               "02",
               "03",
+              "27",
               "29",
               "35",
+              "38",
+              "39",
+              "45",
               "46"
             ],
             "covered": true
@@ -9677,26 +10617,33 @@ window.__HISTORY_PATTERN_STATE__ = {
             "year": "2026",
             "start": 81,
             "end": 85,
-            "count": 5,
+            "count": 10,
             "nums": [
               "05",
+              "14",
               "16",
               "17",
               "19",
-              "27"
+              "27",
+              "38",
+              "43"
             ],
-            "covered": true
+            "covered": false
           },
           {
             "year": "2026",
             "start": 86,
             "end": 90,
-            "count": 5,
+            "count": 10,
             "nums": [
+              "03",
               "12",
+              "18",
+              "22",
               "26",
               "27",
               "36",
+              "46",
               "49"
             ],
             "covered": true
@@ -9705,13 +10652,18 @@ window.__HISTORY_PATTERN_STATE__ = {
             "year": "2026",
             "start": 91,
             "end": 95,
-            "count": 5,
+            "count": 10,
             "nums": [
               "06",
               "17",
+              "20",
+              "26",
               "35",
               "37",
-              "40"
+              "38",
+              "39",
+              "40",
+              "48"
             ],
             "covered": true
           },
@@ -9719,27 +10671,37 @@ window.__HISTORY_PATTERN_STATE__ = {
             "year": "2026",
             "start": 96,
             "end": 100,
-            "count": 5,
+            "count": 10,
             "nums": [
+              "08",
               "11",
               "12",
+              "13",
               "17",
+              "18",
+              "20",
               "33",
+              "39",
               "43"
             ],
-            "covered": false
+            "covered": true
           },
           {
             "year": "2026",
             "start": 101,
             "end": 105,
-            "count": 5,
+            "count": 10,
             "nums": [
               "01",
               "06",
               "20",
               "28",
-              "39"
+              "34",
+              "37",
+              "39",
+              "45",
+              "46",
+              "48"
             ],
             "covered": true
           },
@@ -9747,11 +10709,15 @@ window.__HISTORY_PATTERN_STATE__ = {
             "year": "2026",
             "start": 106,
             "end": 110,
-            "count": 5,
+            "count": 10,
             "nums": [
+              "08",
+              "13",
               "16",
               "22",
               "30",
+              "32",
+              "36",
               "45",
               "49"
             ],
@@ -9761,13 +10727,16 @@ window.__HISTORY_PATTERN_STATE__ = {
             "year": "2026",
             "start": 111,
             "end": 115,
-            "count": 5,
+            "count": 10,
             "nums": [
               "01",
               "02",
               "04",
+              "05",
               "09",
-              "30"
+              "12",
+              "30",
+              "40"
             ],
             "covered": true
           },
@@ -9775,13 +10744,18 @@ window.__HISTORY_PATTERN_STATE__ = {
             "year": "2026",
             "start": 116,
             "end": 120,
-            "count": 5,
+            "count": 10,
             "nums": [
               "06",
               "08",
+              "09",
               "11",
+              "15",
               "16",
-              "22"
+              "22",
+              "27",
+              "35",
+              "43"
             ],
             "covered": true
           },
@@ -9789,11 +10763,15 @@ window.__HISTORY_PATTERN_STATE__ = {
             "year": "2026",
             "start": 121,
             "end": 125,
-            "count": 5,
+            "count": 10,
             "nums": [
               "01",
+              "07",
+              "14",
               "31",
+              "37",
               "39",
+              "42",
               "44",
               "46"
             ],
@@ -9803,11 +10781,15 @@ window.__HISTORY_PATTERN_STATE__ = {
             "year": "2026",
             "start": 126,
             "end": 130,
-            "count": 5,
+            "count": 10,
             "nums": [
+              "03",
+              "10",
               "29",
               "37",
+              "38",
               "41",
+              "43",
               "45",
               "49"
             ],
@@ -9817,23 +10799,32 @@ window.__HISTORY_PATTERN_STATE__ = {
             "year": "2026",
             "start": 131,
             "end": 135,
-            "count": 5,
+            "count": 10,
             "nums": [
               "07",
+              "13",
+              "16",
+              "20",
               "30",
-              "37"
+              "32",
+              "37",
+              "49"
             ],
-            "covered": false
+            "covered": true
           },
           {
             "year": "2026",
             "start": 136,
             "end": 140,
-            "count": 5,
+            "count": 10,
             "nums": [
+              "08",
               "16",
               "24",
               "26",
+              "37",
+              "39",
+              "40",
               "48",
               "49"
             ],
@@ -9843,11 +10834,16 @@ window.__HISTORY_PATTERN_STATE__ = {
             "year": "2026",
             "start": 141,
             "end": 145,
-            "count": 5,
+            "count": 10,
             "nums": [
+              "04",
               "05",
+              "06",
+              "10",
               "23",
+              "31",
               "33",
+              "38",
               "43",
               "44"
             ],
@@ -9857,11 +10853,15 @@ window.__HISTORY_PATTERN_STATE__ = {
             "year": "2026",
             "start": 146,
             "end": 150,
-            "count": 5,
+            "count": 10,
             "nums": [
+              "01",
+              "06",
               "09",
               "13",
               "27",
+              "31",
+              "38",
               "42",
               "48"
             ],
@@ -9871,26 +10871,32 @@ window.__HISTORY_PATTERN_STATE__ = {
             "year": "2026",
             "start": 151,
             "end": 155,
-            "count": 5,
+            "count": 10,
             "nums": [
               "07",
+              "10",
               "31",
+              "35",
+              "37",
               "41",
               "45"
             ],
-            "covered": false
+            "covered": true
           },
           {
             "year": "2026",
             "start": 156,
             "end": 160,
-            "count": 5,
+            "count": 10,
             "nums": [
               "01",
               "02",
               "16",
+              "26",
+              "29",
               "39",
-              "40"
+              "40",
+              "49"
             ],
             "covered": true
           },
@@ -9898,13 +10904,17 @@ window.__HISTORY_PATTERN_STATE__ = {
             "year": "2026",
             "start": 161,
             "end": 165,
-            "count": 5,
+            "count": 10,
             "nums": [
               "03",
               "08",
+              "18",
               "21",
+              "22",
               "32",
-              "37"
+              "37",
+              "39",
+              "49"
             ],
             "covered": true
           },
@@ -9912,13 +10922,17 @@ window.__HISTORY_PATTERN_STATE__ = {
             "year": "2026",
             "start": 166,
             "end": 170,
-            "count": 5,
+            "count": 10,
             "nums": [
               "03",
               "06",
+              "08",
               "15",
+              "18",
               "19",
-              "24"
+              "24",
+              "30",
+              "43"
             ],
             "covered": true
           },
@@ -9926,26 +10940,34 @@ window.__HISTORY_PATTERN_STATE__ = {
             "year": "2026",
             "start": 171,
             "end": 175,
-            "count": 5,
+            "count": 10,
             "nums": [
+              "01",
+              "15",
+              "16",
+              "18",
+              "22",
               "26",
               "28",
               "41",
               "44"
             ],
-            "covered": false
+            "covered": true
           },
           {
             "year": "2026",
             "start": 176,
             "end": 180,
-            "count": 5,
+            "count": 10,
             "nums": [
               "10",
+              "12",
               "14",
               "15",
               "18",
-              "21"
+              "21",
+              "29",
+              "37"
             ],
             "covered": true
           },
@@ -9953,9 +10975,11 @@ window.__HISTORY_PATTERN_STATE__ = {
             "year": "2026",
             "start": 181,
             "end": 185,
-            "count": 5,
+            "count": 10,
             "nums": [
               "01",
+              "06",
+              "10",
               "19",
               "24",
               "36",
@@ -9967,12 +10991,16 @@ window.__HISTORY_PATTERN_STATE__ = {
             "year": "2026",
             "start": 186,
             "end": 190,
-            "count": 5,
+            "count": 10,
             "nums": [
               "01",
+              "06",
               "15",
               "16",
-              "23"
+              "18",
+              "23",
+              "27",
+              "40"
             ],
             "covered": true
           },
@@ -9980,25 +11008,34 @@ window.__HISTORY_PATTERN_STATE__ = {
             "year": "2026",
             "start": 191,
             "end": 195,
-            "count": 5,
+            "count": 10,
             "nums": [
+              "02",
               "09",
+              "12",
+              "18",
               "25",
               "26",
-              "29"
+              "29",
+              "37"
             ],
-            "covered": false
+            "covered": true
           },
           {
             "year": "2026",
             "start": 196,
             "end": 200,
-            "count": 5,
+            "count": 10,
             "nums": [
+              "06",
               "07",
               "08",
+              "18",
               "36",
-              "39"
+              "39",
+              "42",
+              "43",
+              "44"
             ],
             "covered": true
           },
@@ -10006,13 +11043,17 @@ window.__HISTORY_PATTERN_STATE__ = {
             "year": "2026",
             "start": 201,
             "end": 205,
-            "count": 5,
+            "count": 10,
             "nums": [
               "03",
               "05",
+              "17",
+              "24",
               "25",
               "32",
-              "40"
+              "40",
+              "44",
+              "46"
             ],
             "covered": true
           },
@@ -10020,11 +11061,16 @@ window.__HISTORY_PATTERN_STATE__ = {
             "year": "2026",
             "start": 206,
             "end": 210,
-            "count": 5,
+            "count": 10,
             "nums": [
+              "03",
+              "07",
               "08",
+              "10",
               "19",
+              "25",
               "31",
+              "41",
               "47",
               "49"
             ],
@@ -10034,13 +11080,18 @@ window.__HISTORY_PATTERN_STATE__ = {
             "year": "2026",
             "start": 211,
             "end": 215,
-            "count": 5,
+            "count": 10,
             "nums": [
               "01",
               "04",
               "06",
+              "12",
               "14",
-              "35"
+              "20",
+              "31",
+              "35",
+              "37",
+              "44"
             ],
             "covered": true
           },
@@ -10048,11 +11099,15 @@ window.__HISTORY_PATTERN_STATE__ = {
             "year": "2026",
             "start": 216,
             "end": 220,
-            "count": 5,
+            "count": 9,
             "nums": [
+              "02",
               "17",
+              "18",
               "26",
               "37",
+              "39",
+              "41",
               "43",
               "48"
             ],
@@ -10072,19 +11127,19 @@ window.__HISTORY_PATTERN_STATE__ = {
             "covered": true
           }
         ],
-        "covered": 322,
+        "covered": 350,
         "misses": [
           {
             "year": "2020",
-            "start": 136,
-            "end": 140,
+            "start": 131,
+            "end": 135,
             "count": 5,
             "nums": [
-              "11",
+              "07",
               "16",
-              "24",
-              "26",
-              "47"
+              "17",
+              "28",
+              "48"
             ],
             "covered": false
           },
@@ -10104,29 +11159,40 @@ window.__HISTORY_PATTERN_STATE__ = {
           },
           {
             "year": "2020",
-            "start": 171,
-            "end": 175,
+            "start": 156,
+            "end": 160,
             "count": 5,
             "nums": [
-              "08",
-              "22",
-              "36",
-              "38",
-              "44"
+              "14",
+              "24",
+              "33",
+              "43"
             ],
             "covered": false
           },
           {
             "year": "2020",
-            "start": 186,
-            "end": 190,
+            "start": 161,
+            "end": 165,
             "count": 5,
             "nums": [
-              "10",
-              "20",
-              "23",
-              "25",
-              "35"
+              "05",
+              "27",
+              "30",
+              "34"
+            ],
+            "covered": false
+          },
+          {
+            "year": "2020",
+            "start": 196,
+            "end": 200,
+            "count": 5,
+            "nums": [
+              "04",
+              "14",
+              "31",
+              "34"
             ],
             "covered": false
           },
@@ -10145,6 +11211,20 @@ window.__HISTORY_PATTERN_STATE__ = {
           },
           {
             "year": "2020",
+            "start": 211,
+            "end": 215,
+            "count": 5,
+            "nums": [
+              "03",
+              "15",
+              "17",
+              "35",
+              "48"
+            ],
+            "covered": false
+          },
+          {
+            "year": "2020",
             "start": 216,
             "end": 220,
             "count": 5,
@@ -10153,6 +11233,18 @@ window.__HISTORY_PATTERN_STATE__ = {
               "23",
               "31",
               "37"
+            ],
+            "covered": false
+          },
+          {
+            "year": "2020",
+            "start": 226,
+            "end": 230,
+            "count": 5,
+            "nums": [
+              "05",
+              "37",
+              "40"
             ],
             "covered": false
           },
@@ -10172,27 +11264,28 @@ window.__HISTORY_PATTERN_STATE__ = {
           },
           {
             "year": "2020",
-            "start": 246,
-            "end": 250,
+            "start": 256,
+            "end": 260,
             "count": 5,
             "nums": [
-              "21",
-              "22",
-              "29",
-              "33",
-              "46"
+              "03",
+              "04",
+              "07",
+              "20",
+              "31"
             ],
             "covered": false
           },
           {
             "year": "2020",
-            "start": 261,
-            "end": 265,
+            "start": 271,
+            "end": 275,
             "count": 5,
             "nums": [
-              "04",
-              "08",
-              "19"
+              "05",
+              "28",
+              "31",
+              "41"
             ],
             "covered": false
           },
@@ -10212,32 +11305,6 @@ window.__HISTORY_PATTERN_STATE__ = {
           },
           {
             "year": "2020",
-            "start": 291,
-            "end": 295,
-            "count": 5,
-            "nums": [
-              "24",
-              "25",
-              "44",
-              "46"
-            ],
-            "covered": false
-          },
-          {
-            "year": "2020",
-            "start": 301,
-            "end": 305,
-            "count": 5,
-            "nums": [
-              "23",
-              "24",
-              "44",
-              "46"
-            ],
-            "covered": false
-          },
-          {
-            "year": "2020",
             "start": 321,
             "end": 325,
             "count": 5,
@@ -10252,112 +11319,55 @@ window.__HISTORY_PATTERN_STATE__ = {
           },
           {
             "year": "2020",
-            "start": 351,
-            "end": 355,
+            "start": 326,
+            "end": 330,
             "count": 5,
             "nums": [
-              "10",
-              "26",
-              "30",
+              "05",
+              "25",
+              "32",
               "34"
             ],
             "covered": false
           },
           {
-            "year": "2021",
-            "start": 1,
-            "end": 5,
+            "year": "2020",
+            "start": 336,
+            "end": 340,
             "count": 5,
             "nums": [
-              "02",
-              "09",
-              "22",
-              "26",
-              "41"
-            ],
-            "covered": false
-          },
-          {
-            "year": "2021",
-            "start": 6,
-            "end": 10,
-            "count": 5,
-            "nums": [
-              "02",
-              "08",
-              "10",
-              "43",
-              "45"
-            ],
-            "covered": false
-          },
-          {
-            "year": "2021",
-            "start": 16,
-            "end": 20,
-            "count": 5,
-            "nums": [
+              "03",
               "07",
-              "08",
-              "29",
-              "33",
-              "35"
-            ],
-            "covered": false
-          },
-          {
-            "year": "2021",
-            "start": 21,
-            "end": 25,
-            "count": 5,
-            "nums": [
-              "11",
-              "17",
-              "29",
-              "30",
-              "33"
-            ],
-            "covered": false
-          },
-          {
-            "year": "2021",
-            "start": 56,
-            "end": 60,
-            "count": 5,
-            "nums": [
-              "08",
-              "28",
-              "31",
-              "32",
+              "12",
+              "35",
               "41"
             ],
             "covered": false
           },
           {
             "year": "2021",
-            "start": 66,
-            "end": 70,
+            "start": 31,
+            "end": 35,
             "count": 5,
             "nums": [
-              "10",
-              "16",
-              "27",
-              "31",
-              "37"
+              "03",
+              "21",
+              "37",
+              "42"
             ],
             "covered": false
           },
           {
             "year": "2021",
-            "start": 76,
-            "end": 80,
+            "start": 41,
+            "end": 45,
             "count": 5,
             "nums": [
-              "02",
-              "08",
-              "09",
-              "20",
-              "21"
+              "14",
+              "21",
+              "31",
+              "42",
+              "47"
             ],
             "covered": false
           },
@@ -10376,42 +11386,56 @@ window.__HISTORY_PATTERN_STATE__ = {
           },
           {
             "year": "2021",
-            "start": 111,
-            "end": 115,
+            "start": 116,
+            "end": 120,
             "count": 5,
             "nums": [
-              "09",
-              "23",
-              "26",
-              "37",
-              "45"
-            ],
-            "covered": false
-          },
-          {
-            "year": "2021",
-            "start": 151,
-            "end": 155,
-            "count": 5,
-            "nums": [
-              "09",
               "22",
-              "31",
+              "27",
+              "35",
               "36",
-              "37"
+              "48"
             ],
             "covered": false
           },
           {
             "year": "2021",
-            "start": 171,
-            "end": 175,
+            "start": 131,
+            "end": 135,
             "count": 5,
             "nums": [
-              "09",
-              "12",
-              "34",
-              "41"
+              "03",
+              "07",
+              "30",
+              "31",
+              "48"
+            ],
+            "covered": false
+          },
+          {
+            "year": "2021",
+            "start": 161,
+            "end": 165,
+            "count": 5,
+            "nums": [
+              "02",
+              "18",
+              "25",
+              "36",
+              "48"
+            ],
+            "covered": false
+          },
+          {
+            "year": "2021",
+            "start": 191,
+            "end": 195,
+            "count": 5,
+            "nums": [
+              "03",
+              "14",
+              "23",
+              "43"
             ],
             "covered": false
           },
@@ -10431,6 +11455,20 @@ window.__HISTORY_PATTERN_STATE__ = {
           },
           {
             "year": "2021",
+            "start": 206,
+            "end": 210,
+            "count": 5,
+            "nums": [
+              "07",
+              "14",
+              "21",
+              "22",
+              "48"
+            ],
+            "covered": false
+          },
+          {
+            "year": "2021",
             "start": 226,
             "end": 230,
             "count": 5,
@@ -10444,29 +11482,43 @@ window.__HISTORY_PATTERN_STATE__ = {
           },
           {
             "year": "2021",
-            "start": 236,
-            "end": 240,
+            "start": 246,
+            "end": 250,
             "count": 5,
             "nums": [
-              "08",
-              "13",
-              "20",
-              "22",
-              "26"
+              "14",
+              "15",
+              "19",
+              "24",
+              "40"
             ],
             "covered": false
           },
           {
             "year": "2021",
-            "start": 241,
-            "end": 245,
+            "start": 256,
+            "end": 260,
             "count": 5,
             "nums": [
-              "11",
-              "21",
+              "05",
+              "16",
+              "19",
               "28",
-              "38",
-              "45"
+              "47"
+            ],
+            "covered": false
+          },
+          {
+            "year": "2021",
+            "start": 276,
+            "end": 280,
+            "count": 5,
+            "nums": [
+              "02",
+              "05",
+              "19",
+              "34",
+              "48"
             ],
             "covered": false
           },
@@ -10499,28 +11551,57 @@ window.__HISTORY_PATTERN_STATE__ = {
           },
           {
             "year": "2021",
-            "start": 356,
-            "end": 360,
+            "start": 301,
+            "end": 305,
             "count": 5,
             "nums": [
-              "17",
-              "22",
-              "32",
-              "44",
-              "46"
+              "03",
+              "25",
+              "30",
+              "34",
+              "42"
             ],
             "covered": false
           },
           {
-            "year": "2022",
-            "start": 1,
-            "end": 5,
+            "year": "2021",
+            "start": 311,
+            "end": 315,
             "count": 5,
             "nums": [
-              "10",
-              "21",
-              "22",
-              "47"
+              "06",
+              "17",
+              "25",
+              "41",
+              "45"
+            ],
+            "covered": false
+          },
+          {
+            "year": "2021",
+            "start": 326,
+            "end": 330,
+            "count": 5,
+            "nums": [
+              "06",
+              "30",
+              "35",
+              "38",
+              "44"
+            ],
+            "covered": false
+          },
+          {
+            "year": "2021",
+            "start": 351,
+            "end": 355,
+            "count": 5,
+            "nums": [
+              "14",
+              "18",
+              "25",
+              "43",
+              "45"
             ],
             "covered": false
           },
@@ -10539,43 +11620,28 @@ window.__HISTORY_PATTERN_STATE__ = {
           },
           {
             "year": "2022",
-            "start": 51,
-            "end": 55,
+            "start": 21,
+            "end": 25,
             "count": 5,
             "nums": [
-              "02",
-              "10",
-              "13",
-              "27",
-              "40"
+              "03",
+              "12",
+              "14",
+              "19",
+              "33"
             ],
             "covered": false
           },
           {
             "year": "2022",
-            "start": 56,
-            "end": 60,
+            "start": 36,
+            "end": 40,
             "count": 5,
             "nums": [
-              "08",
-              "16",
-              "27",
-              "28",
-              "29"
-            ],
-            "covered": false
-          },
-          {
-            "year": "2022",
-            "start": 61,
-            "end": 65,
-            "count": 5,
-            "nums": [
-              "02",
-              "07",
-              "08",
-              "24",
-              "40"
+              "03",
+              "21",
+              "32",
+              "42"
             ],
             "covered": false
           },
@@ -10595,42 +11661,84 @@ window.__HISTORY_PATTERN_STATE__ = {
           },
           {
             "year": "2022",
-            "start": 76,
-            "end": 80,
+            "start": 81,
+            "end": 85,
             "count": 5,
             "nums": [
-              "22",
-              "23",
-              "28",
-              "31",
-              "46"
+              "04",
+              "06",
+              "13",
+              "26",
+              "45"
             ],
             "covered": false
           },
           {
             "year": "2022",
-            "start": 111,
-            "end": 115,
+            "start": 106,
+            "end": 110,
             "count": 5,
             "nums": [
-              "09",
-              "10",
-              "11",
-              "21",
-              "27"
-            ],
-            "covered": false
-          },
-          {
-            "year": "2022",
-            "start": 116,
-            "end": 120,
-            "count": 5,
-            "nums": [
+              "14",
               "16",
-              "32",
               "34",
-              "46"
+              "40",
+              "43"
+            ],
+            "covered": false
+          },
+          {
+            "year": "2022",
+            "start": 126,
+            "end": 130,
+            "count": 5,
+            "nums": [
+              "12",
+              "42",
+              "45",
+              "47",
+              "48"
+            ],
+            "covered": false
+          },
+          {
+            "year": "2022",
+            "start": 131,
+            "end": 135,
+            "count": 5,
+            "nums": [
+              "03",
+              "19",
+              "27",
+              "40",
+              "45"
+            ],
+            "covered": false
+          },
+          {
+            "year": "2022",
+            "start": 136,
+            "end": 140,
+            "count": 5,
+            "nums": [
+              "17",
+              "19",
+              "21",
+              "22",
+              "48"
+            ],
+            "covered": false
+          },
+          {
+            "year": "2022",
+            "start": 141,
+            "end": 145,
+            "count": 5,
+            "nums": [
+              "02",
+              "06",
+              "27",
+              "28"
             ],
             "covered": false
           },
@@ -10645,6 +11753,20 @@ window.__HISTORY_PATTERN_STATE__ = {
               "41",
               "42",
               "47"
+            ],
+            "covered": false
+          },
+          {
+            "year": "2022",
+            "start": 156,
+            "end": 160,
+            "count": 5,
+            "nums": [
+              "12",
+              "14",
+              "16",
+              "26",
+              "35"
             ],
             "covered": false
           },
@@ -10678,14 +11800,15 @@ window.__HISTORY_PATTERN_STATE__ = {
           },
           {
             "year": "2022",
-            "start": 201,
-            "end": 205,
+            "start": 206,
+            "end": 210,
             "count": 5,
             "nums": [
-              "08",
-              "11",
+              "12",
+              "18",
               "19",
-              "44"
+              "30",
+              "48"
             ],
             "covered": false
           },
@@ -10705,19 +11828,6 @@ window.__HISTORY_PATTERN_STATE__ = {
           },
           {
             "year": "2022",
-            "start": 221,
-            "end": 225,
-            "count": 5,
-            "nums": [
-              "04",
-              "10",
-              "24",
-              "47"
-            ],
-            "covered": false
-          },
-          {
-            "year": "2022",
             "start": 231,
             "end": 235,
             "count": 5,
@@ -10731,82 +11841,29 @@ window.__HISTORY_PATTERN_STATE__ = {
           },
           {
             "year": "2022",
-            "start": 246,
-            "end": 250,
+            "start": 251,
+            "end": 255,
             "count": 5,
             "nums": [
-              "04",
-              "10",
-              "13",
-              "21",
-              "46"
+              "05",
+              "20",
+              "25",
+              "38",
+              "43"
             ],
             "covered": false
           },
           {
             "year": "2022",
-            "start": 256,
-            "end": 260,
+            "start": 276,
+            "end": 280,
             "count": 5,
             "nums": [
-              "07",
-              "08",
+              "03",
               "12",
-              "17",
-              "19"
-            ],
-            "covered": false
-          },
-          {
-            "year": "2022",
-            "start": 266,
-            "end": 270,
-            "count": 5,
-            "nums": [
-              "04",
-              "09",
-              "21",
-              "45"
-            ],
-            "covered": false
-          },
-          {
-            "year": "2022",
-            "start": 286,
-            "end": 290,
-            "count": 5,
-            "nums": [
-              "09",
-              "19",
-              "26",
-              "43",
-              "45"
-            ],
-            "covered": false
-          },
-          {
-            "year": "2022",
-            "start": 306,
-            "end": 310,
-            "count": 5,
-            "nums": [
-              "30",
-              "33",
-              "36",
-              "46"
-            ],
-            "covered": false
-          },
-          {
-            "year": "2022",
-            "start": 326,
-            "end": 330,
-            "count": 5,
-            "nums": [
-              "11",
-              "30",
-              "31",
-              "38"
+              "14",
+              "18",
+              "20"
             ],
             "covered": false
           },
@@ -10826,6 +11883,19 @@ window.__HISTORY_PATTERN_STATE__ = {
           },
           {
             "year": "2022",
+            "start": 341,
+            "end": 345,
+            "count": 5,
+            "nums": [
+              "03",
+              "07",
+              "25",
+              "38"
+            ],
+            "covered": false
+          },
+          {
+            "year": "2022",
             "start": 346,
             "end": 350,
             "count": 5,
@@ -10834,20 +11904,6 @@ window.__HISTORY_PATTERN_STATE__ = {
               "33",
               "36",
               "41",
-              "45"
-            ],
-            "covered": false
-          },
-          {
-            "year": "2023",
-            "start": 21,
-            "end": 25,
-            "count": 5,
-            "nums": [
-              "07",
-              "09",
-              "36",
-              "40",
               "45"
             ],
             "covered": false
@@ -10868,20 +11924,6 @@ window.__HISTORY_PATTERN_STATE__ = {
           },
           {
             "year": "2023",
-            "start": 36,
-            "end": 40,
-            "count": 5,
-            "nums": [
-              "04",
-              "09",
-              "21",
-              "30",
-              "31"
-            ],
-            "covered": false
-          },
-          {
-            "year": "2023",
             "start": 46,
             "end": 50,
             "count": 5,
@@ -10896,14 +11938,28 @@ window.__HISTORY_PATTERN_STATE__ = {
           },
           {
             "year": "2023",
-            "start": 61,
-            "end": 65,
+            "start": 76,
+            "end": 80,
             "count": 5,
             "nums": [
-              "09",
+              "05",
+              "07",
+              "19",
+              "21",
+              "37"
+            ],
+            "covered": false
+          },
+          {
+            "year": "2023",
+            "start": 86,
+            "end": 90,
+            "count": 5,
+            "nums": [
+              "06",
               "27",
-              "32",
-              "46"
+              "30",
+              "31"
             ],
             "covered": false
           },
@@ -10936,15 +11992,43 @@ window.__HISTORY_PATTERN_STATE__ = {
           },
           {
             "year": "2023",
-            "start": 126,
-            "end": 130,
+            "start": 141,
+            "end": 145,
             "count": 5,
             "nums": [
-              "02",
-              "11",
-              "21",
-              "31",
-              "35"
+              "05",
+              "06",
+              "17",
+              "29",
+              "37"
+            ],
+            "covered": false
+          },
+          {
+            "year": "2023",
+            "start": 151,
+            "end": 155,
+            "count": 5,
+            "nums": [
+              "03",
+              "07",
+              "12",
+              "19",
+              "30"
+            ],
+            "covered": false
+          },
+          {
+            "year": "2023",
+            "start": 156,
+            "end": 160,
+            "count": 5,
+            "nums": [
+              "04",
+              "14",
+              "42",
+              "43",
+              "44"
             ],
             "covered": false
           },
@@ -10964,56 +12048,15 @@ window.__HISTORY_PATTERN_STATE__ = {
           },
           {
             "year": "2023",
-            "start": 181,
-            "end": 185,
+            "start": 226,
+            "end": 230,
             "count": 5,
             "nums": [
-              "08",
-              "23",
-              "36",
-              "43"
-            ],
-            "covered": false
-          },
-          {
-            "year": "2023",
-            "start": 196,
-            "end": 200,
-            "count": 5,
-            "nums": [
-              "08",
-              "18",
-              "32",
-              "44",
-              "47"
-            ],
-            "covered": false
-          },
-          {
-            "year": "2023",
-            "start": 216,
-            "end": 220,
-            "count": 5,
-            "nums": [
-              "10",
-              "18",
-              "19",
+              "03",
               "20",
-              "36"
-            ],
-            "covered": false
-          },
-          {
-            "year": "2023",
-            "start": 221,
-            "end": 225,
-            "count": 5,
-            "nums": [
-              "09",
               "29",
-              "31",
-              "38",
-              "45"
+              "33",
+              "36"
             ],
             "covered": false
           },
@@ -11032,6 +12075,20 @@ window.__HISTORY_PATTERN_STATE__ = {
           },
           {
             "year": "2023",
+            "start": 236,
+            "end": 240,
+            "count": 5,
+            "nums": [
+              "14",
+              "15",
+              "17",
+              "19",
+              "23"
+            ],
+            "covered": false
+          },
+          {
+            "year": "2023",
             "start": 241,
             "end": 245,
             "count": 5,
@@ -11045,15 +12102,43 @@ window.__HISTORY_PATTERN_STATE__ = {
           },
           {
             "year": "2023",
-            "start": 256,
-            "end": 260,
+            "start": 246,
+            "end": 250,
             "count": 5,
             "nums": [
-              "09",
-              "17",
-              "29",
-              "34",
-              "36"
+              "03",
+              "13",
+              "14",
+              "21",
+              "29"
+            ],
+            "covered": false
+          },
+          {
+            "year": "2023",
+            "start": 281,
+            "end": 285,
+            "count": 5,
+            "nums": [
+              "06",
+              "16",
+              "33",
+              "38",
+              "41"
+            ],
+            "covered": false
+          },
+          {
+            "year": "2023",
+            "start": 291,
+            "end": 295,
+            "count": 5,
+            "nums": [
+              "20",
+              "25",
+              "35",
+              "44",
+              "48"
             ],
             "covered": false
           },
@@ -11073,6 +12158,19 @@ window.__HISTORY_PATTERN_STATE__ = {
           },
           {
             "year": "2023",
+            "start": 306,
+            "end": 310,
+            "count": 5,
+            "nums": [
+              "13",
+              "16",
+              "28",
+              "48"
+            ],
+            "covered": false
+          },
+          {
+            "year": "2023",
             "start": 321,
             "end": 325,
             "count": 5,
@@ -11082,34 +12180,6 @@ window.__HISTORY_PATTERN_STATE__ = {
               "19",
               "26",
               "32"
-            ],
-            "covered": false
-          },
-          {
-            "year": "2023",
-            "start": 336,
-            "end": 340,
-            "count": 5,
-            "nums": [
-              "10",
-              "16",
-              "31",
-              "41",
-              "46"
-            ],
-            "covered": false
-          },
-          {
-            "year": "2023",
-            "start": 351,
-            "end": 355,
-            "count": 5,
-            "nums": [
-              "10",
-              "13",
-              "18",
-              "41",
-              "44"
             ],
             "covered": false
           },
@@ -11119,24 +12189,10 @@ window.__HISTORY_PATTERN_STATE__ = {
             "end": 20,
             "count": 5,
             "nums": [
-              "17",
-              "23",
+              "18",
+              "20",
               "29",
               "47"
-            ],
-            "covered": false
-          },
-          {
-            "year": "2024",
-            "start": 31,
-            "end": 35,
-            "count": 5,
-            "nums": [
-              "07",
-              "11",
-              "30",
-              "40",
-              "44"
             ],
             "covered": false
           },
@@ -11156,55 +12212,55 @@ window.__HISTORY_PATTERN_STATE__ = {
           },
           {
             "year": "2024",
-            "start": 51,
-            "end": 55,
+            "start": 71,
+            "end": 75,
             "count": 5,
             "nums": [
-              "09",
-              "12",
-              "25",
-              "31"
+              "03",
+              "16",
+              "19",
+              "34"
             ],
             "covered": false
           },
           {
             "year": "2024",
-            "start": 56,
-            "end": 60,
+            "start": 76,
+            "end": 80,
             "count": 5,
             "nums": [
-              "11",
-              "23",
-              "30",
-              "44",
-              "46"
+              "05",
+              "17",
+              "32",
+              "38",
+              "44"
             ],
             "covered": false
           },
           {
             "year": "2024",
-            "start": 111,
-            "end": 115,
+            "start": 81,
+            "end": 85,
             "count": 5,
             "nums": [
-              "18",
+              "05",
+              "13",
+              "22",
+              "35"
+            ],
+            "covered": false
+          },
+          {
+            "year": "2024",
+            "start": 91,
+            "end": 95,
+            "count": 5,
+            "nums": [
               "24",
-              "29",
-              "43"
-            ],
-            "covered": false
-          },
-          {
-            "year": "2024",
-            "start": 116,
-            "end": 120,
-            "count": 5,
-            "nums": [
-              "10",
-              "21",
-              "25",
-              "29",
-              "32"
+              "33",
+              "34",
+              "41",
+              "48"
             ],
             "covered": false
           },
@@ -11212,54 +12268,15 @@ window.__HISTORY_PATTERN_STATE__ = {
             "year": "2024",
             "start": 121,
             "end": 125,
-            "count": 5,
+            "count": 10,
             "nums": [
               "02",
+              "07",
               "12",
+              "15",
               "21",
               "22",
-              "36"
-            ],
-            "covered": false
-          },
-          {
-            "year": "2024",
-            "start": 131,
-            "end": 135,
-            "count": 5,
-            "nums": [
-              "04",
-              "07",
-              "19",
-              "37",
-              "46"
-            ],
-            "covered": false
-          },
-          {
-            "year": "2024",
-            "start": 141,
-            "end": 145,
-            "count": 5,
-            "nums": [
-              "02",
-              "12",
-              "16",
-              "27",
-              "43"
-            ],
-            "covered": false
-          },
-          {
-            "year": "2024",
-            "start": 146,
-            "end": 150,
-            "count": 5,
-            "nums": [
-              "02",
-              "22",
-              "27",
-              "33",
+              "36",
               "43"
             ],
             "covered": false
@@ -11268,10 +12285,14 @@ window.__HISTORY_PATTERN_STATE__ = {
             "year": "2024",
             "start": 156,
             "end": 160,
-            "count": 5,
+            "count": 10,
             "nums": [
+              "06",
               "20",
               "27",
+              "30",
+              "31",
+              "40",
               "42",
               "43",
               "45"
@@ -11280,111 +12301,73 @@ window.__HISTORY_PATTERN_STATE__ = {
           },
           {
             "year": "2024",
-            "start": 181,
-            "end": 185,
-            "count": 5,
+            "start": 201,
+            "end": 205,
+            "count": 10,
             "nums": [
-              "25",
-              "27",
-              "42"
-            ],
-            "covered": false
-          },
-          {
-            "year": "2024",
-            "start": 231,
-            "end": 235,
-            "count": 5,
-            "nums": [
-              "02",
-              "07",
-              "17",
-              "23",
-              "24"
-            ],
-            "covered": false
-          },
-          {
-            "year": "2024",
-            "start": 246,
-            "end": 250,
-            "count": 5,
-            "nums": [
-              "11",
+              "05",
               "15",
-              "24",
-              "31",
-              "32"
-            ],
-            "covered": false
-          },
-          {
-            "year": "2024",
-            "start": 266,
-            "end": 270,
-            "count": 5,
-            "nums": [
-              "11",
-              "12",
-              "22",
-              "27",
-              "42"
-            ],
-            "covered": false
-          },
-          {
-            "year": "2024",
-            "start": 276,
-            "end": 280,
-            "count": 5,
-            "nums": [
-              "07",
-              "22",
-              "26",
+              "16",
+              "25",
+              "28",
               "29",
-              "40"
-            ],
-            "covered": false
-          },
-          {
-            "year": "2024",
-            "start": 281,
-            "end": 285,
-            "count": 5,
-            "nums": [
-              "13",
-              "21",
-              "27",
-              "43",
-              "47"
-            ],
-            "covered": false
-          },
-          {
-            "year": "2024",
-            "start": 286,
-            "end": 290,
-            "count": 5,
-            "nums": [
-              "04",
-              "11",
-              "26",
+              "31",
               "40",
+              "43",
               "45"
             ],
             "covered": false
           },
           {
             "year": "2024",
-            "start": 301,
-            "end": 305,
-            "count": 5,
+            "start": 216,
+            "end": 220,
+            "count": 10,
             "nums": [
-              "16",
+              "14",
+              "15",
+              "21",
+              "26",
+              "29",
+              "31",
+              "34",
+              "35",
+              "37"
+            ],
+            "covered": false
+          },
+          {
+            "year": "2024",
+            "start": 251,
+            "end": 255,
+            "count": 10,
+            "nums": [
+              "14",
               "17",
-              "24",
-              "32",
-              "38"
+              "21",
+              "22",
+              "27",
+              "30",
+              "36",
+              "47"
+            ],
+            "covered": false
+          },
+          {
+            "year": "2024",
+            "start": 316,
+            "end": 320,
+            "count": 10,
+            "nums": [
+              "04",
+              "05",
+              "06",
+              "12",
+              "13",
+              "21",
+              "28",
+              "41",
+              "44"
             ],
             "covered": false
           },
@@ -11394,105 +12377,39 @@ window.__HISTORY_PATTERN_STATE__ = {
             "end": 5,
             "count": 5,
             "nums": [
-              "08",
-              "22",
-              "33",
-              "37"
-            ],
-            "covered": false
-          },
-          {
-            "year": "2025",
-            "start": 6,
-            "end": 10,
-            "count": 5,
-            "nums": [
-              "04",
-              "15",
-              "25",
-              "30",
-              "46"
-            ],
-            "covered": false
-          },
-          {
-            "year": "2025",
-            "start": 26,
-            "end": 30,
-            "count": 5,
-            "nums": [
-              "13",
-              "25",
-              "37",
-              "40"
-            ],
-            "covered": false
-          },
-          {
-            "year": "2025",
-            "start": 36,
-            "end": 40,
-            "count": 5,
-            "nums": [
-              "20",
-              "25",
-              "29",
-              "40"
-            ],
-            "covered": false
-          },
-          {
-            "year": "2025",
-            "start": 41,
-            "end": 45,
-            "count": 5,
-            "nums": [
               "07",
-              "28",
-              "30",
-              "37",
-              "42"
-            ],
-            "covered": false
-          },
-          {
-            "year": "2025",
-            "start": 56,
-            "end": 60,
-            "count": 5,
-            "nums": [
-              "11",
-              "20",
-              "24",
-              "31",
-              "42"
-            ],
-            "covered": false
-          },
-          {
-            "year": "2025",
-            "start": 66,
-            "end": 70,
-            "count": 5,
-            "nums": [
               "12",
-              "29",
-              "43",
-              "44"
+              "22",
+              "24",
+              "30"
             ],
             "covered": false
           },
           {
             "year": "2025",
-            "start": 81,
-            "end": 85,
+            "start": 16,
+            "end": 20,
             "count": 5,
             "nums": [
-              "20",
-              "28",
-              "34",
-              "35",
-              "38"
+              "16",
+              "22",
+              "32",
+              "37",
+              "43"
+            ],
+            "covered": false
+          },
+          {
+            "year": "2025",
+            "start": 21,
+            "end": 25,
+            "count": 5,
+            "nums": [
+              "06",
+              "25",
+              "30",
+              "33",
+              "43"
             ],
             "covered": false
           },
@@ -11500,164 +12417,53 @@ window.__HISTORY_PATTERN_STATE__ = {
             "year": "2025",
             "start": 116,
             "end": 120,
-            "count": 5,
+            "count": 10,
             "nums": [
+              "05",
+              "12",
               "23",
               "28",
+              "30",
               "36",
               "38",
+              "45",
               "47"
             ],
             "covered": false
           },
           {
             "year": "2025",
-            "start": 141,
-            "end": 145,
-            "count": 5,
+            "start": 146,
+            "end": 150,
+            "count": 10,
             "nums": [
-              "10",
-              "13",
-              "17",
-              "25",
-              "44"
-            ],
-            "covered": false
-          },
-          {
-            "year": "2025",
-            "start": 151,
-            "end": 155,
-            "count": 5,
-            "nums": [
-              "10",
-              "26",
-              "38",
-              "43",
-              "45"
-            ],
-            "covered": false
-          },
-          {
-            "year": "2025",
-            "start": 166,
-            "end": 170,
-            "count": 5,
-            "nums": [
-              "07",
-              "09",
-              "16",
-              "33",
+              "02",
+              "14",
+              "15",
+              "22",
+              "27",
+              "28",
+              "32",
+              "35",
+              "40",
               "41"
             ],
             "covered": false
           },
           {
             "year": "2025",
-            "start": 176,
-            "end": 180,
-            "count": 5,
+            "start": 181,
+            "end": 185,
+            "count": 10,
             "nums": [
-              "04",
-              "24",
-              "27",
-              "29",
-              "36"
-            ],
-            "covered": false
-          },
-          {
-            "year": "2025",
-            "start": 186,
-            "end": 190,
-            "count": 5,
-            "nums": [
-              "08",
-              "15",
-              "17",
-              "18",
-              "45"
-            ],
-            "covered": false
-          },
-          {
-            "year": "2025",
-            "start": 191,
-            "end": 195,
-            "count": 5,
-            "nums": [
-              "24",
-              "25",
-              "29",
-              "45"
-            ],
-            "covered": false
-          },
-          {
-            "year": "2025",
-            "start": 206,
-            "end": 210,
-            "count": 5,
-            "nums": [
-              "09",
-              "10",
-              "13",
-              "15",
-              "24"
-            ],
-            "covered": false
-          },
-          {
-            "year": "2025",
-            "start": 211,
-            "end": 215,
-            "count": 5,
-            "nums": [
-              "02",
-              "11",
-              "15",
-              "18",
-              "21"
-            ],
-            "covered": false
-          },
-          {
-            "year": "2025",
-            "start": 216,
-            "end": 220,
-            "count": 5,
-            "nums": [
-              "08",
-              "09",
+              "05",
               "23",
-              "46"
-            ],
-            "covered": false
-          },
-          {
-            "year": "2025",
-            "start": 221,
-            "end": 225,
-            "count": 5,
-            "nums": [
-              "08",
-              "16",
-              "25",
-              "32",
-              "43"
-            ],
-            "covered": false
-          },
-          {
-            "year": "2025",
-            "start": 231,
-            "end": 235,
-            "count": 5,
-            "nums": [
-              "13",
-              "37",
-              "38",
-              "42"
+              "28",
+              "33",
+              "35",
+              "42",
+              "45",
+              "48"
             ],
             "covered": false
           },
@@ -11665,55 +12471,36 @@ window.__HISTORY_PATTERN_STATE__ = {
             "year": "2025",
             "start": 251,
             "end": 255,
-            "count": 5,
+            "count": 10,
             "nums": [
+              "03",
               "17",
+              "21",
               "23",
+              "26",
               "33",
               "35",
+              "41",
               "42"
             ],
             "covered": false
           },
           {
             "year": "2025",
-            "start": 261,
-            "end": 265,
-            "count": 5,
+            "start": 271,
+            "end": 275,
+            "count": 10,
             "nums": [
-              "10",
-              "33",
-              "38",
-              "43",
-              "44"
-            ],
-            "covered": false
-          },
-          {
-            "year": "2025",
-            "start": 266,
-            "end": 270,
-            "count": 5,
-            "nums": [
-              "10",
-              "29",
-              "31",
-              "35",
-              "41"
-            ],
-            "covered": false
-          },
-          {
-            "year": "2025",
-            "start": 276,
-            "end": 280,
-            "count": 5,
-            "nums": [
-              "09",
-              "16",
-              "27",
-              "28",
-              "42"
+              "04",
+              "06",
+              "14",
+              "34",
+              "36",
+              "40",
+              "44",
+              "45",
+              "47",
+              "48"
             ],
             "covered": false
           },
@@ -11721,9 +12508,12 @@ window.__HISTORY_PATTERN_STATE__ = {
             "year": "2025",
             "start": 281,
             "end": 285,
-            "count": 5,
+            "count": 10,
             "nums": [
+              "15",
+              "16",
               "24",
+              "40",
               "41",
               "45",
               "47"
@@ -11732,14 +12522,18 @@ window.__HISTORY_PATTERN_STATE__ = {
           },
           {
             "year": "2025",
-            "start": 321,
-            "end": 325,
-            "count": 5,
+            "start": 291,
+            "end": 295,
+            "count": 10,
             "nums": [
-              "04",
-              "09",
-              "15",
-              "23",
+              "02",
+              "05",
+              "12",
+              "18",
+              "20",
+              "24",
+              "41",
+              "44",
               "47"
             ],
             "covered": false
@@ -11759,226 +12553,195 @@ window.__HISTORY_PATTERN_STATE__ = {
           },
           {
             "year": "2026",
-            "start": 1,
-            "end": 5,
-            "count": 5,
-            "nums": [
-              "09",
-              "22",
-              "29",
-              "43",
-              "45"
-            ],
-            "covered": false
-          },
-          {
-            "year": "2026",
             "start": 6,
             "end": 10,
             "count": 5,
             "nums": [
-              "13",
+              "04",
+              "19",
               "21",
-              "27",
-              "28",
-              "41"
-            ],
-            "covered": false
-          },
-          {
-            "year": "2026",
-            "start": 21,
-            "end": 25,
-            "count": 5,
-            "nums": [
-              "18",
-              "28",
-              "37",
-              "42",
-              "47"
-            ],
-            "covered": false
-          },
-          {
-            "year": "2026",
-            "start": 96,
-            "end": 100,
-            "count": 5,
-            "nums": [
-              "11",
-              "12",
-              "17",
-              "33",
-              "43"
-            ],
-            "covered": false
-          },
-          {
-            "year": "2026",
-            "start": 131,
-            "end": 135,
-            "count": 5,
-            "nums": [
-              "07",
-              "30",
               "37"
             ],
             "covered": false
           },
           {
             "year": "2026",
-            "start": 151,
-            "end": 155,
+            "start": 16,
+            "end": 20,
             "count": 5,
             "nums": [
+              "16",
+              "38",
+              "40",
+              "47"
+            ],
+            "covered": false
+          },
+          {
+            "year": "2026",
+            "start": 36,
+            "end": 40,
+            "count": 5,
+            "nums": [
+              "20",
+              "24",
+              "33",
+              "34",
+              "36"
+            ],
+            "covered": false
+          },
+          {
+            "year": "2026",
+            "start": 61,
+            "end": 65,
+            "count": 10,
+            "nums": [
+              "05",
               "07",
-              "31",
-              "41",
-              "45"
-            ],
-            "covered": false
-          },
-          {
-            "year": "2026",
-            "start": 171,
-            "end": 175,
-            "count": 5,
-            "nums": [
-              "26",
+              "13",
+              "18",
+              "24",
               "28",
-              "41",
-              "44"
+              "29",
+              "38",
+              "40",
+              "48"
             ],
             "covered": false
           },
           {
             "year": "2026",
-            "start": 191,
-            "end": 195,
-            "count": 5,
+            "start": 81,
+            "end": 85,
+            "count": 10,
             "nums": [
-              "09",
-              "25",
-              "26",
-              "29"
+              "05",
+              "14",
+              "16",
+              "17",
+              "19",
+              "27",
+              "38",
+              "43"
             ],
             "covered": false
           }
         ],
-        "total": 453,
-        "hitRate": 71.08,
+        "total": 455,
+        "hitRate": 76.92,
         "currentMiss": 0,
-        "maxMiss": 4
+        "maxMiss": 5
       },
       "exact": false,
       "method": "rolling-before-window-exact-or-greedy-49c8",
       "validationMode": "rolling-before-window",
-      "computedAt": "2026-08-16 14:36:24",
+      "computedAt": "2026-08-17 14:06:19",
       "latestDraw": {
-        "issue": 228,
-        "date": "2026-08-16",
+        "issue": 229,
+        "date": "2026-08-17",
         "year": "2026",
         "balls": [
           {
             "index": 0,
-            "numberText": "38",
-            "zodiac": "蛇",
+            "numberText": "11",
+            "zodiac": "猴",
             "color": "green",
             "colorName": "绿"
           },
           {
             "index": 1,
-            "numberText": "26",
-            "zodiac": "蛇",
+            "numberText": "07",
+            "zodiac": "鼠",
+            "color": "red",
+            "colorName": "红"
+          },
+          {
+            "index": 2,
+            "numberText": "15",
+            "zodiac": "龙",
             "color": "blue",
             "colorName": "蓝"
           },
           {
-            "index": 2,
-            "numberText": "08",
-            "zodiac": "猪",
+            "index": 3,
+            "numberText": "13",
+            "zodiac": "马",
             "color": "red",
             "colorName": "红"
           },
           {
-            "index": 3,
-            "numberText": "06",
-            "zodiac": "牛",
+            "index": 4,
+            "numberText": "33",
+            "zodiac": "狗",
             "color": "green",
             "colorName": "绿"
           },
           {
-            "index": 4,
-            "numberText": "29",
-            "zodiac": "虎",
-            "color": "red",
-            "colorName": "红"
-          },
-          {
             "index": 5,
-            "numberText": "18",
-            "zodiac": "牛",
-            "color": "red",
-            "colorName": "红"
+            "numberText": "16",
+            "zodiac": "兔",
+            "color": "green",
+            "colorName": "绿"
           },
           {
             "index": 6,
-            "numberText": "23",
-            "zodiac": "猴",
-            "color": "red",
-            "colorName": "红"
+            "numberText": "38",
+            "zodiac": "蛇",
+            "color": "green",
+            "colorName": "绿"
           }
         ],
         "regular": [
           {
             "index": 0,
-            "numberText": "38",
-            "zodiac": "蛇",
+            "numberText": "11",
+            "zodiac": "猴",
             "color": "green",
             "colorName": "绿"
           },
           {
             "index": 1,
-            "numberText": "26",
-            "zodiac": "蛇",
+            "numberText": "07",
+            "zodiac": "鼠",
+            "color": "red",
+            "colorName": "红"
+          },
+          {
+            "index": 2,
+            "numberText": "15",
+            "zodiac": "龙",
             "color": "blue",
             "colorName": "蓝"
           },
           {
-            "index": 2,
-            "numberText": "08",
-            "zodiac": "猪",
+            "index": 3,
+            "numberText": "13",
+            "zodiac": "马",
             "color": "red",
             "colorName": "红"
           },
           {
-            "index": 3,
-            "numberText": "06",
-            "zodiac": "牛",
+            "index": 4,
+            "numberText": "33",
+            "zodiac": "狗",
             "color": "green",
             "colorName": "绿"
           },
           {
-            "index": 4,
-            "numberText": "29",
-            "zodiac": "虎",
-            "color": "red",
-            "colorName": "红"
-          },
-          {
             "index": 5,
-            "numberText": "18",
-            "zodiac": "牛",
-            "color": "red",
-            "colorName": "红"
+            "numberText": "16",
+            "zodiac": "兔",
+            "color": "green",
+            "colorName": "绿"
           }
         ],
         "special": {
           "index": 6,
-          "numberText": "23",
-          "zodiac": "猴",
-          "color": "red",
-          "colorName": "红"
+          "numberText": "38",
+          "zodiac": "蛇",
+          "color": "green",
+          "colorName": "绿"
         }
       },
       "yearPools": [
@@ -11987,57 +12750,57 @@ window.__HISTORY_PATTERN_STATE__ = {
           "pool": [
             "01",
             "03",
-            "05",
-            "06",
-            "07",
+            "08",
             "09",
-            "28",
-            "49"
+            "24",
+            "27",
+            "37",
+            "38"
           ],
           "exact": true,
-          "covered": 28,
+          "covered": 31,
           "total": 45,
-          "hitRate": 62.22,
+          "hitRate": 68.89,
           "currentMiss": 0,
           "maxMiss": 2
         },
         {
           "year": "2025",
           "pool": [
-            "10",
-            "23",
-            "06",
-            "03",
-            "30",
             "24",
-            "09",
-            "15"
+            "23",
+            "03",
+            "25",
+            "35",
+            "44",
+            "42",
+            "43"
           ],
           "exact": false,
-          "covered": 42,
-          "total": 71,
-          "hitRate": 59.15,
+          "covered": 60,
+          "total": 73,
+          "hitRate": 82.19,
           "currentMiss": 0,
-          "maxMiss": 5
+          "maxMiss": 2
         },
         {
           "year": "2024",
           "pool": [
-            "46",
-            "40",
-            "20",
-            "27",
-            "17",
             "30",
-            "21",
-            "24"
+            "11",
+            "46",
+            "16",
+            "05",
+            "10",
+            "34",
+            "07"
           ],
           "exact": false,
-          "covered": 42,
+          "covered": 56,
           "total": 73,
-          "hitRate": 57.53,
+          "hitRate": 76.71,
           "currentMiss": 0,
-          "maxMiss": 5
+          "maxMiss": 3
         },
         {
           "year": "2023",
@@ -12120,18 +12883,18 @@ window.__HISTORY_PATTERN_STATE__ = {
         "year": "2026",
         "start": 226,
         "end": 230,
-        "count": 3,
+        "count": 4,
         "expected": 5,
         "covered": false,
         "pool": [
           "39",
           "49",
           "01",
-          "48",
-          "06",
-          "14",
-          "05",
-          "03"
+          "46",
+          "11",
+          "10",
+          "08",
+          "09"
         ],
         "poolBasis": "before-current-window",
         "displayMode": "active-window",
@@ -12141,11 +12904,11 @@ window.__HISTORY_PATTERN_STATE__ = {
             "39",
             "49",
             "01",
-            "48",
-            "06",
-            "14",
-            "05",
-            "03"
+            "46",
+            "11",
+            "10",
+            "08",
+            "09"
           ],
           "covered": false,
           "hits": []
@@ -12166,6 +12929,11 @@ window.__HISTORY_PATTERN_STATE__ = {
             "issue": 228,
             "date": "2026-08-16",
             "num": "23"
+          },
+          {
+            "issue": 229,
+            "date": "2026-08-17",
+            "num": "38"
           }
         ]
       },
@@ -19344,9 +20112,10 @@ window.__HISTORY_PATTERN_STATE__ = {
           "count": 5,
           "nums": [
             "06",
-            "19",
-            "26",
-            "40"
+            "10",
+            "16",
+            "31",
+            "32"
           ],
           "pool": [
             "39",
@@ -19368,21 +20137,21 @@ window.__HISTORY_PATTERN_STATE__ = {
           "end": 10,
           "count": 5,
           "nums": [
-            "06",
-            "19",
-            "20",
-            "23",
-            "36"
+            "13",
+            "28",
+            "36",
+            "46",
+            "47"
           ],
           "pool": [
             "39",
             "08",
             "49",
+            "31",
             "14",
-            "30",
-            "09",
-            "46",
-            "47"
+            "48",
+            "06",
+            "05"
           ],
           "poolBasis": "before-window",
           "covered": false,
@@ -19394,27 +20163,25 @@ window.__HISTORY_PATTERN_STATE__ = {
           "end": 15,
           "count": 5,
           "nums": [
-            "18",
-            "20",
-            "22",
-            "39",
-            "43"
+            "11",
+            "12",
+            "17",
+            "33",
+            "37"
           ],
           "pool": [
             "39",
             "08",
-            "06",
-            "48",
+            "49",
+            "46",
             "14",
+            "30",
             "09",
-            "03",
-            "05"
+            "47"
           ],
           "poolBasis": "before-window",
-          "covered": true,
-          "hits": [
-            "39"
-          ]
+          "covered": false,
+          "hits": []
         },
         {
           "year": "2024",
@@ -19422,24 +20189,26 @@ window.__HISTORY_PATTERN_STATE__ = {
           "end": 20,
           "count": 5,
           "nums": [
-            "17",
-            "23",
+            "18",
+            "20",
             "29",
             "47"
           ],
           "pool": [
             "39",
             "08",
-            "06",
-            "48",
+            "49",
+            "46",
             "14",
+            "30",
             "09",
-            "03",
-            "05"
+            "47"
           ],
           "poolBasis": "before-window",
-          "covered": false,
-          "hits": []
+          "covered": true,
+          "hits": [
+            "47"
+          ]
         },
         {
           "year": "2024",
@@ -19456,12 +20225,12 @@ window.__HISTORY_PATTERN_STATE__ = {
           "pool": [
             "39",
             "08",
-            "06",
-            "48",
+            "49",
+            "46",
             "14",
-            "09",
-            "03",
-            "05"
+            "30",
+            "47",
+            "37"
           ],
           "poolBasis": "before-window",
           "covered": false,
@@ -19482,17 +20251,17 @@ window.__HISTORY_PATTERN_STATE__ = {
           "pool": [
             "39",
             "08",
-            "06",
-            "48",
+            "49",
+            "46",
             "14",
-            "09",
-            "20",
-            "05"
+            "30",
+            "47",
+            "37"
           ],
           "poolBasis": "before-window",
           "covered": true,
           "hits": [
-            "09"
+            "30"
           ]
         },
         {
@@ -19510,16 +20279,18 @@ window.__HISTORY_PATTERN_STATE__ = {
           "pool": [
             "39",
             "08",
-            "06",
-            "48",
-            "03",
-            "09",
-            "05",
-            "01"
+            "49",
+            "46",
+            "14",
+            "30",
+            "47",
+            "37"
           ],
           "poolBasis": "before-window",
-          "covered": false,
-          "hits": []
+          "covered": true,
+          "hits": [
+            "30"
+          ]
         },
         {
           "year": "2024",
@@ -19536,18 +20307,16 @@ window.__HISTORY_PATTERN_STATE__ = {
           "pool": [
             "39",
             "08",
-            "06",
-            "48",
-            "03",
-            "09",
-            "05",
-            "01"
+            "49",
+            "46",
+            "30",
+            "14",
+            "47",
+            "37"
           ],
           "poolBasis": "before-window",
-          "covered": true,
-          "hits": [
-            "06"
-          ]
+          "covered": false,
+          "hits": []
         },
         {
           "year": "2024",
@@ -19569,7 +20338,7 @@ window.__HISTORY_PATTERN_STATE__ = {
             "03",
             "09",
             "05",
-            "01"
+            "20"
           ],
           "poolBasis": "before-window",
           "covered": false,
@@ -19594,8 +20363,8 @@ window.__HISTORY_PATTERN_STATE__ = {
             "48",
             "03",
             "09",
-            "05",
-            "41"
+            "28",
+            "20"
           ],
           "poolBasis": "before-window",
           "covered": true,
@@ -19622,8 +20391,8 @@ window.__HISTORY_PATTERN_STATE__ = {
             "48",
             "03",
             "09",
-            "05",
-            "41"
+            "28",
+            "20"
           ],
           "poolBasis": "before-window",
           "covered": true,
@@ -19650,12 +20419,14 @@ window.__HISTORY_PATTERN_STATE__ = {
             "48",
             "09",
             "14",
-            "41",
-            "03"
+            "20",
+            "46"
           ],
           "poolBasis": "before-window",
-          "covered": false,
-          "hits": []
+          "covered": true,
+          "hits": [
+            "46"
+          ]
         },
         {
           "year": "2024",
@@ -19698,17 +20469,16 @@ window.__HISTORY_PATTERN_STATE__ = {
           "pool": [
             "39",
             "08",
-            "06",
-            "48",
-            "09",
-            "14",
+            "49",
+            "46",
             "30",
-            "31"
+            "14",
+            "09",
+            "47"
           ],
           "poolBasis": "before-window",
           "covered": true,
           "hits": [
-            "06",
             "08"
           ]
         },
@@ -19726,12 +20496,12 @@ window.__HISTORY_PATTERN_STATE__ = {
           "pool": [
             "39",
             "08",
-            "06",
-            "48",
-            "09",
-            "14",
+            "49",
+            "46",
             "30",
-            "20"
+            "14",
+            "09",
+            "47"
           ],
           "poolBasis": "before-window",
           "covered": false,
@@ -19752,18 +20522,16 @@ window.__HISTORY_PATTERN_STATE__ = {
           "pool": [
             "39",
             "08",
+            "49",
+            "46",
+            "19",
+            "31",
             "06",
-            "03",
-            "48",
-            "09",
-            "05",
-            "31"
+            "20"
           ],
           "poolBasis": "before-window",
-          "covered": true,
-          "hits": [
-            "05"
-          ]
+          "covered": false,
+          "hits": []
         },
         {
           "year": "2024",
@@ -19779,18 +20547,16 @@ window.__HISTORY_PATTERN_STATE__ = {
           "pool": [
             "39",
             "08",
+            "49",
+            "46",
+            "19",
+            "31",
             "06",
-            "03",
-            "48",
-            "09",
-            "05",
-            "31"
+            "20"
           ],
           "poolBasis": "before-window",
-          "covered": true,
-          "hits": [
-            "05"
-          ]
+          "covered": false,
+          "hits": []
         },
         {
           "year": "2024",
@@ -19807,12 +20573,12 @@ window.__HISTORY_PATTERN_STATE__ = {
           "pool": [
             "39",
             "08",
-            "06",
-            "03",
-            "48",
-            "05",
+            "49",
+            "46",
+            "19",
             "31",
-            "49"
+            "06",
+            "20"
           ],
           "poolBasis": "before-window",
           "covered": true,
@@ -19880,12 +20646,15 @@ window.__HISTORY_PATTERN_STATE__ = {
           "year": "2024",
           "start": 101,
           "end": 105,
-          "count": 5,
+          "count": 8,
           "nums": [
             "05",
             "19",
             "21",
+            "26",
             "35",
+            "37",
+            "45",
             "49"
           ],
           "pool": [
@@ -19909,26 +20678,30 @@ window.__HISTORY_PATTERN_STATE__ = {
           "year": "2024",
           "start": 106,
           "end": 110,
-          "count": 5,
+          "count": 10,
           "nums": [
+            "15",
             "16",
+            "36",
             "43",
+            "45",
             "46",
             "48"
           ],
           "pool": [
             "39",
             "08",
-            "06",
-            "48",
-            "03",
-            "05",
+            "49",
+            "46",
+            "19",
             "31",
-            "49"
+            "06",
+            "48"
           ],
           "poolBasis": "before-window",
           "covered": true,
           "hits": [
+            "46",
             "48"
           ]
         },
@@ -19936,278 +20709,16 @@ window.__HISTORY_PATTERN_STATE__ = {
           "year": "2024",
           "start": 111,
           "end": 115,
-          "count": 5,
+          "count": 10,
           "nums": [
+            "10",
             "18",
+            "19",
+            "20",
             "24",
             "29",
-            "43"
-          ],
-          "pool": [
-            "39",
-            "08",
-            "06",
-            "48",
-            "03",
-            "05",
-            "31",
-            "49"
-          ],
-          "poolBasis": "before-window",
-          "covered": false,
-          "hits": []
-        },
-        {
-          "year": "2024",
-          "start": 116,
-          "end": 120,
-          "count": 5,
-          "nums": [
-            "10",
-            "21",
-            "25",
-            "29",
-            "32"
-          ],
-          "pool": [
-            "39",
-            "08",
-            "06",
-            "48",
-            "03",
-            "05",
-            "31",
-            "49"
-          ],
-          "poolBasis": "before-window",
-          "covered": false,
-          "hits": []
-        },
-        {
-          "year": "2024",
-          "start": 121,
-          "end": 125,
-          "count": 5,
-          "nums": [
-            "02",
-            "12",
-            "21",
-            "22",
-            "36"
-          ],
-          "pool": [
-            "39",
-            "08",
-            "06",
-            "48",
-            "03",
-            "05",
-            "31",
-            "49"
-          ],
-          "poolBasis": "before-window",
-          "covered": false,
-          "hits": []
-        },
-        {
-          "year": "2024",
-          "start": 126,
-          "end": 130,
-          "count": 5,
-          "nums": [
-            "02",
-            "07",
-            "17",
-            "48",
-            "49"
-          ],
-          "pool": [
-            "39",
-            "08",
-            "06",
-            "48",
-            "03",
-            "05",
-            "31",
-            "49"
-          ],
-          "poolBasis": "before-window",
-          "covered": true,
-          "hits": [
-            "48",
-            "49"
-          ]
-        },
-        {
-          "year": "2024",
-          "start": 131,
-          "end": 135,
-          "count": 5,
-          "nums": [
-            "04",
-            "07",
-            "19",
-            "37",
-            "46"
-          ],
-          "pool": [
-            "39",
-            "08",
-            "49",
-            "46",
-            "19",
-            "41",
-            "21",
-            "48"
-          ],
-          "poolBasis": "before-window",
-          "covered": true,
-          "hits": [
-            "19",
-            "46"
-          ]
-        },
-        {
-          "year": "2024",
-          "start": 136,
-          "end": 140,
-          "count": 5,
-          "nums": [
-            "14",
-            "16",
             "35",
-            "44"
-          ],
-          "pool": [
-            "39",
-            "08",
-            "49",
-            "46",
-            "19",
-            "41",
-            "21",
-            "48"
-          ],
-          "poolBasis": "before-window",
-          "covered": false,
-          "hits": []
-        },
-        {
-          "year": "2024",
-          "start": 141,
-          "end": 145,
-          "count": 5,
-          "nums": [
-            "02",
-            "12",
-            "16",
-            "27",
-            "43"
-          ],
-          "pool": [
-            "39",
-            "08",
-            "49",
-            "46",
-            "19",
-            "41",
-            "14",
-            "09"
-          ],
-          "poolBasis": "before-window",
-          "covered": false,
-          "hits": []
-        },
-        {
-          "year": "2024",
-          "start": 146,
-          "end": 150,
-          "count": 5,
-          "nums": [
-            "02",
-            "22",
-            "27",
-            "33",
-            "43"
-          ],
-          "pool": [
-            "39",
-            "08",
-            "49",
-            "46",
-            "19",
-            "41",
-            "14",
-            "09"
-          ],
-          "poolBasis": "before-window",
-          "covered": false,
-          "hits": []
-        },
-        {
-          "year": "2024",
-          "start": 151,
-          "end": 155,
-          "count": 5,
-          "nums": [
-            "21",
-            "32",
-            "44",
-            "46",
-            "48"
-          ],
-          "pool": [
-            "39",
-            "08",
-            "49",
-            "46",
-            "19",
-            "41",
-            "14",
-            "09"
-          ],
-          "poolBasis": "before-window",
-          "covered": true,
-          "hits": [
-            "46"
-          ]
-        },
-        {
-          "year": "2024",
-          "start": 156,
-          "end": 160,
-          "count": 5,
-          "nums": [
-            "20",
-            "27",
-            "42",
             "43",
-            "45"
-          ],
-          "pool": [
-            "39",
-            "08",
-            "46",
-            "49",
-            "19",
-            "41",
-            "14",
-            "09"
-          ],
-          "poolBasis": "before-window",
-          "covered": false,
-          "hits": []
-        },
-        {
-          "year": "2024",
-          "start": 161,
-          "end": 165,
-          "count": 5,
-          "nums": [
-            "01",
-            "03",
-            "35",
-            "40",
             "44"
           ],
           "pool": [
@@ -20216,252 +20727,9 @@ window.__HISTORY_PATTERN_STATE__ = {
             "46",
             "49",
             "19",
-            "41",
-            "14",
-            "09"
-          ],
-          "poolBasis": "before-window",
-          "covered": false,
-          "hits": []
-        },
-        {
-          "year": "2024",
-          "start": 166,
-          "end": 170,
-          "count": 5,
-          "nums": [
-            "10",
-            "14",
-            "32",
-            "45"
-          ],
-          "pool": [
-            "39",
-            "08",
-            "46",
-            "49",
-            "19",
-            "41",
-            "14",
-            "09"
-          ],
-          "poolBasis": "before-window",
-          "covered": true,
-          "hits": [
-            "14"
-          ]
-        },
-        {
-          "year": "2024",
-          "start": 171,
-          "end": 175,
-          "count": 5,
-          "nums": [
-            "16",
-            "32",
-            "40",
-            "48",
-            "49"
-          ],
-          "pool": [
-            "39",
-            "08",
-            "46",
-            "49",
-            "19",
-            "14",
-            "41",
-            "09"
-          ],
-          "poolBasis": "before-window",
-          "covered": true,
-          "hits": [
-            "49"
-          ]
-        },
-        {
-          "year": "2024",
-          "start": 176,
-          "end": 180,
-          "count": 5,
-          "nums": [
-            "01",
-            "02",
-            "03",
-            "11",
-            "20"
-          ],
-          "pool": [
-            "39",
-            "49",
-            "08",
-            "46",
-            "19",
-            "14",
-            "41",
-            "09"
-          ],
-          "poolBasis": "before-window",
-          "covered": false,
-          "hits": []
-        },
-        {
-          "year": "2024",
-          "start": 181,
-          "end": 185,
-          "count": 5,
-          "nums": [
-            "25",
-            "27",
-            "42"
-          ],
-          "pool": [
-            "39",
-            "49",
-            "08",
-            "46",
-            "19",
-            "14",
-            "41",
-            "09"
-          ],
-          "poolBasis": "before-window",
-          "covered": false,
-          "hits": []
-        },
-        {
-          "year": "2024",
-          "start": 186,
-          "end": 190,
-          "count": 5,
-          "nums": [
-            "29",
-            "39",
-            "41",
-            "43",
-            "46"
-          ],
-          "pool": [
-            "39",
-            "49",
-            "08",
-            "46",
-            "19",
-            "14",
-            "41",
-            "09"
-          ],
-          "poolBasis": "before-window",
-          "covered": true,
-          "hits": [
-            "39",
-            "41",
-            "46"
-          ]
-        },
-        {
-          "year": "2024",
-          "start": 191,
-          "end": 195,
-          "count": 5,
-          "nums": [
-            "04",
-            "05",
-            "21",
             "31",
-            "39"
-          ],
-          "pool": [
-            "39",
-            "49",
-            "08",
-            "46",
-            "19",
-            "14",
-            "41",
-            "09"
-          ],
-          "poolBasis": "before-window",
-          "covered": true,
-          "hits": [
-            "39"
-          ]
-        },
-        {
-          "year": "2024",
-          "start": 196,
-          "end": 200,
-          "count": 5,
-          "nums": [
-            "10",
-            "15",
-            "16",
-            "39",
-            "43"
-          ],
-          "pool": [
-            "39",
-            "49",
-            "08",
-            "46",
-            "19",
-            "14",
-            "41",
-            "09"
-          ],
-          "poolBasis": "before-window",
-          "covered": true,
-          "hits": [
-            "39"
-          ]
-        },
-        {
-          "year": "2024",
-          "start": 201,
-          "end": 205,
-          "count": 5,
-          "nums": [
-            "05",
-            "25",
-            "40",
-            "43",
-            "45"
-          ],
-          "pool": [
-            "39",
-            "49",
-            "08",
-            "46",
-            "19",
-            "14",
-            "41",
-            "09"
-          ],
-          "poolBasis": "before-window",
-          "covered": false,
-          "hits": []
-        },
-        {
-          "year": "2024",
-          "start": 206,
-          "end": 210,
-          "count": 5,
-          "nums": [
-            "04",
-            "14",
-            "18",
-            "19",
-            "33"
-          ],
-          "pool": [
-            "39",
-            "49",
-            "08",
-            "46",
-            "19",
-            "45",
-            "03",
-            "10"
+            "06",
+            "48"
           ],
           "poolBasis": "before-window",
           "covered": true,
@@ -20471,24 +20739,633 @@ window.__HISTORY_PATTERN_STATE__ = {
         },
         {
           "year": "2024",
-          "start": 211,
-          "end": 215,
-          "count": 5,
+          "start": 116,
+          "end": 120,
+          "count": 10,
+          "nums": [
+            "08",
+            "10",
+            "21",
+            "24",
+            "25",
+            "29",
+            "30",
+            "32",
+            "33",
+            "45"
+          ],
+          "pool": [
+            "39",
+            "08",
+            "46",
+            "49",
+            "19",
+            "31",
+            "06",
+            "48"
+          ],
+          "poolBasis": "before-window",
+          "covered": true,
+          "hits": [
+            "08"
+          ]
+        },
+        {
+          "year": "2024",
+          "start": 121,
+          "end": 125,
+          "count": 10,
+          "nums": [
+            "02",
+            "07",
+            "12",
+            "15",
+            "21",
+            "22",
+            "36",
+            "43"
+          ],
+          "pool": [
+            "39",
+            "08",
+            "46",
+            "49",
+            "19",
+            "31",
+            "06",
+            "48"
+          ],
+          "poolBasis": "before-window",
+          "covered": false,
+          "hits": []
+        },
+        {
+          "year": "2024",
+          "start": 126,
+          "end": 130,
+          "count": 10,
+          "nums": [
+            "02",
+            "07",
+            "17",
+            "30",
+            "31",
+            "33",
+            "37",
+            "43",
+            "48",
+            "49"
+          ],
+          "pool": [
+            "39",
+            "08",
+            "46",
+            "49",
+            "19",
+            "31",
+            "06",
+            "48"
+          ],
+          "poolBasis": "before-window",
+          "covered": true,
+          "hits": [
+            "31",
+            "48",
+            "49"
+          ]
+        },
+        {
+          "year": "2024",
+          "start": 131,
+          "end": 135,
+          "count": 10,
+          "nums": [
+            "04",
+            "05",
+            "07",
+            "12",
+            "19",
+            "31",
+            "37",
+            "46"
+          ],
+          "pool": [
+            "39",
+            "08",
+            "49",
+            "46",
+            "19",
+            "31",
+            "06",
+            "48"
+          ],
+          "poolBasis": "before-window",
+          "covered": true,
+          "hits": [
+            "19",
+            "31",
+            "46"
+          ]
+        },
+        {
+          "year": "2024",
+          "start": 136,
+          "end": 140,
+          "count": 10,
+          "nums": [
+            "01",
+            "09",
+            "14",
+            "16",
+            "17",
+            "27",
+            "33",
+            "35",
+            "44"
+          ],
+          "pool": [
+            "39",
+            "08",
+            "46",
+            "49",
+            "19",
+            "31",
+            "06",
+            "48"
+          ],
+          "poolBasis": "before-window",
+          "covered": false,
+          "hits": []
+        },
+        {
+          "year": "2024",
+          "start": 141,
+          "end": 145,
+          "count": 10,
+          "nums": [
+            "02",
+            "08",
+            "12",
+            "16",
+            "17",
+            "24",
+            "27",
+            "30",
+            "33",
+            "43"
+          ],
+          "pool": [
+            "39",
+            "08",
+            "46",
+            "49",
+            "19",
+            "09",
+            "14",
+            "41"
+          ],
+          "poolBasis": "before-window",
+          "covered": true,
+          "hits": [
+            "08"
+          ]
+        },
+        {
+          "year": "2024",
+          "start": 146,
+          "end": 150,
+          "count": 10,
+          "nums": [
+            "02",
+            "11",
+            "13",
+            "22",
+            "27",
+            "29",
+            "33",
+            "39",
+            "43",
+            "48"
+          ],
+          "pool": [
+            "39",
+            "08",
+            "46",
+            "49",
+            "19",
+            "09",
+            "14",
+            "41"
+          ],
+          "poolBasis": "before-window",
+          "covered": true,
+          "hits": [
+            "39"
+          ]
+        },
+        {
+          "year": "2024",
+          "start": 151,
+          "end": 155,
+          "count": 10,
+          "nums": [
+            "19",
+            "21",
+            "22",
+            "30",
+            "32",
+            "35",
+            "37",
+            "44",
+            "46",
+            "48"
+          ],
+          "pool": [
+            "39",
+            "08",
+            "46",
+            "49",
+            "19",
+            "09",
+            "14",
+            "41"
+          ],
+          "poolBasis": "before-window",
+          "covered": true,
+          "hits": [
+            "19",
+            "46"
+          ]
+        },
+        {
+          "year": "2024",
+          "start": 156,
+          "end": 160,
+          "count": 10,
           "nums": [
             "06",
             "20",
+            "27",
+            "30",
+            "31",
+            "40",
+            "42",
+            "43",
+            "45"
+          ],
+          "pool": [
+            "39",
+            "08",
+            "46",
+            "49",
+            "19",
+            "09",
+            "14",
+            "41"
+          ],
+          "poolBasis": "before-window",
+          "covered": false,
+          "hits": []
+        },
+        {
+          "year": "2024",
+          "start": 161,
+          "end": 165,
+          "count": 10,
+          "nums": [
+            "01",
+            "03",
+            "28",
+            "30",
+            "35",
+            "40",
+            "44"
+          ],
+          "pool": [
+            "39",
+            "08",
+            "46",
+            "49",
+            "19",
+            "31",
+            "06",
+            "48"
+          ],
+          "poolBasis": "before-window",
+          "covered": false,
+          "hits": []
+        },
+        {
+          "year": "2024",
+          "start": 166,
+          "end": 170,
+          "count": 10,
+          "nums": [
+            "10",
+            "11",
+            "14",
+            "26",
+            "30",
+            "32",
+            "45",
+            "48"
+          ],
+          "pool": [
+            "39",
+            "08",
+            "46",
+            "49",
+            "30",
+            "14",
+            "09",
+            "35"
+          ],
+          "poolBasis": "before-window",
+          "covered": true,
+          "hits": [
+            "14",
+            "30"
+          ]
+        },
+        {
+          "year": "2024",
+          "start": 171,
+          "end": 175,
+          "count": 10,
+          "nums": [
+            "16",
+            "30",
+            "32",
+            "33",
+            "36",
+            "40",
+            "47",
+            "48",
+            "49"
+          ],
+          "pool": [
+            "39",
+            "08",
+            "30",
+            "46",
+            "49",
+            "14",
+            "09",
+            "35"
+          ],
+          "poolBasis": "before-window",
+          "covered": true,
+          "hits": [
+            "30",
+            "49"
+          ]
+        },
+        {
+          "year": "2024",
+          "start": 176,
+          "end": 180,
+          "count": 10,
+          "nums": [
+            "01",
+            "02",
+            "03",
+            "11",
+            "20",
+            "23",
+            "25",
+            "34",
+            "35",
+            "39"
+          ],
+          "pool": [
+            "39",
+            "08",
+            "30",
+            "46",
+            "49",
+            "14",
+            "09",
+            "35"
+          ],
+          "poolBasis": "before-window",
+          "covered": true,
+          "hits": [
+            "35",
+            "39"
+          ]
+        },
+        {
+          "year": "2024",
+          "start": 181,
+          "end": 185,
+          "count": 10,
+          "nums": [
+            "10",
+            "13",
+            "23",
+            "25",
+            "27",
+            "42",
+            "47"
+          ],
+          "pool": [
+            "39",
+            "08",
+            "30",
+            "46",
+            "49",
+            "14",
+            "09",
+            "35"
+          ],
+          "poolBasis": "before-window",
+          "covered": false,
+          "hits": []
+        },
+        {
+          "year": "2024",
+          "start": 186,
+          "end": 190,
+          "count": 10,
+          "nums": [
+            "29",
+            "35",
+            "39",
+            "41",
+            "43",
+            "44",
+            "46",
+            "48"
+          ],
+          "pool": [
+            "39",
+            "08",
+            "30",
+            "46",
+            "49",
+            "14",
+            "47",
+            "37"
+          ],
+          "poolBasis": "before-window",
+          "covered": true,
+          "hits": [
+            "39",
+            "46"
+          ]
+        },
+        {
+          "year": "2024",
+          "start": 191,
+          "end": 195,
+          "count": 10,
+          "nums": [
+            "04",
+            "05",
+            "11",
+            "21",
+            "24",
+            "31",
+            "33",
+            "34",
+            "39",
+            "41"
+          ],
+          "pool": [
+            "39",
+            "08",
+            "30",
+            "46",
+            "49",
+            "14",
+            "47",
+            "37"
+          ],
+          "poolBasis": "before-window",
+          "covered": true,
+          "hits": [
+            "39"
+          ]
+        },
+        {
+          "year": "2024",
+          "start": 196,
+          "end": 200,
+          "count": 10,
+          "nums": [
+            "05",
+            "10",
+            "15",
+            "16",
+            "39",
+            "42",
+            "43",
+            "47"
+          ],
+          "pool": [
+            "39",
+            "08",
+            "30",
+            "46",
+            "49",
+            "14",
+            "47",
+            "37"
+          ],
+          "poolBasis": "before-window",
+          "covered": true,
+          "hits": [
+            "39",
+            "47"
+          ]
+        },
+        {
+          "year": "2024",
+          "start": 201,
+          "end": 205,
+          "count": 10,
+          "nums": [
+            "05",
+            "15",
+            "16",
+            "25",
+            "28",
+            "29",
+            "31",
+            "40",
+            "43",
+            "45"
+          ],
+          "pool": [
+            "39",
+            "08",
+            "30",
+            "46",
+            "49",
+            "14",
+            "47",
+            "37"
+          ],
+          "poolBasis": "before-window",
+          "covered": false,
+          "hits": []
+        },
+        {
+          "year": "2024",
+          "start": 206,
+          "end": 210,
+          "count": 10,
+          "nums": [
+            "04",
+            "07",
+            "10",
+            "14",
+            "18",
+            "19",
+            "33",
+            "39",
+            "48"
+          ],
+          "pool": [
+            "39",
+            "08",
+            "30",
+            "46",
+            "49",
+            "14",
+            "45",
+            "05"
+          ],
+          "poolBasis": "before-window",
+          "covered": true,
+          "hits": [
+            "14",
+            "39"
+          ]
+        },
+        {
+          "year": "2024",
+          "start": 211,
+          "end": 215,
+          "count": 10,
+          "nums": [
+            "06",
+            "11",
+            "20",
+            "25",
+            "27",
             "38",
             "49"
           ],
           "pool": [
             "39",
-            "49",
             "08",
+            "30",
             "46",
-            "19",
+            "49",
+            "14",
             "45",
-            "03",
-            "10"
+            "05"
           ],
           "poolBasis": "before-window",
           "covered": true,
@@ -20500,22 +21377,27 @@ window.__HISTORY_PATTERN_STATE__ = {
           "year": "2024",
           "start": 216,
           "end": 220,
-          "count": 5,
+          "count": 10,
           "nums": [
             "14",
             "15",
             "21",
+            "26",
+            "29",
+            "31",
+            "34",
+            "35",
             "37"
           ],
           "pool": [
             "39",
+            "08",
+            "30",
             "49",
-            "06",
-            "48",
-            "03",
-            "05",
-            "31",
-            "14"
+            "46",
+            "14",
+            "45",
+            "05"
           ],
           "poolBasis": "before-window",
           "covered": true,
@@ -20527,55 +21409,66 @@ window.__HISTORY_PATTERN_STATE__ = {
           "year": "2024",
           "start": 221,
           "end": 225,
-          "count": 5,
+          "count": 10,
           "nums": [
             "01",
+            "04",
             "05",
+            "08",
+            "12",
             "19",
             "22",
+            "24",
             "30"
           ],
           "pool": [
             "39",
+            "08",
+            "30",
             "49",
-            "06",
-            "48",
-            "03",
-            "05",
+            "46",
             "14",
-            "02"
+            "45",
+            "05"
           ],
           "poolBasis": "before-window",
           "covered": true,
           "hits": [
-            "05"
+            "05",
+            "08",
+            "30"
           ]
         },
         {
           "year": "2024",
           "start": 226,
           "end": 230,
-          "count": 5,
+          "count": 10,
           "nums": [
             "05",
+            "11",
             "20",
+            "26",
             "34",
             "37",
+            "40",
+            "42",
             "49"
           ],
           "pool": [
             "39",
-            "49",
-            "19",
-            "46",
             "08",
+            "30",
+            "49",
+            "46",
             "14",
-            "41",
-            "09"
+            "45",
+            "05"
           ],
           "poolBasis": "before-window",
           "covered": true,
           "hits": [
+            "05",
             "49"
           ]
         },
@@ -20583,23 +21476,27 @@ window.__HISTORY_PATTERN_STATE__ = {
           "year": "2024",
           "start": 231,
           "end": 235,
-          "count": 5,
+          "count": 10,
           "nums": [
             "02",
             "07",
+            "09",
+            "11",
             "17",
             "23",
-            "24"
+            "24",
+            "37",
+            "44"
           ],
           "pool": [
             "39",
-            "49",
-            "19",
-            "46",
             "08",
+            "30",
+            "49",
+            "46",
             "14",
-            "41",
-            "09"
+            "45",
+            "05"
           ],
           "poolBasis": "before-window",
           "covered": false,
@@ -20609,89 +21506,111 @@ window.__HISTORY_PATTERN_STATE__ = {
           "year": "2024",
           "start": 236,
           "end": 240,
-          "count": 5,
+          "count": 10,
           "nums": [
             "03",
             "06",
+            "09",
+            "10",
+            "16",
             "18",
+            "19",
             "24",
-            "31"
+            "31",
+            "36"
           ],
           "pool": [
             "39",
-            "49",
-            "19",
-            "46",
             "08",
+            "30",
+            "49",
+            "46",
             "14",
-            "41",
-            "09"
+            "09",
+            "47"
           ],
           "poolBasis": "before-window",
-          "covered": false,
-          "hits": []
+          "covered": true,
+          "hits": [
+            "09"
+          ]
         },
         {
           "year": "2024",
           "start": 241,
           "end": 245,
-          "count": 5,
+          "count": 10,
           "nums": [
             "01",
             "03",
             "04",
+            "15",
             "17",
-            "30"
+            "21",
+            "27",
+            "30",
+            "38",
+            "46"
           ],
           "pool": [
             "39",
+            "08",
+            "30",
             "49",
-            "06",
-            "48",
-            "03",
-            "05",
+            "31",
             "14",
-            "02"
+            "05",
+            "36"
           ],
           "poolBasis": "before-window",
           "covered": true,
           "hits": [
-            "03"
+            "30"
           ]
         },
         {
           "year": "2024",
           "start": 246,
           "end": 250,
-          "count": 5,
+          "count": 10,
           "nums": [
             "11",
+            "12",
             "15",
+            "22",
+            "23",
             "24",
+            "28",
+            "29",
             "31",
             "32"
           ],
           "pool": [
             "39",
+            "08",
+            "30",
             "49",
-            "06",
-            "03",
-            "48",
-            "05",
+            "31",
             "14",
-            "02"
+            "05",
+            "36"
           ],
           "poolBasis": "before-window",
-          "covered": false,
-          "hits": []
+          "covered": true,
+          "hits": [
+            "31"
+          ]
         },
         {
           "year": "2024",
           "start": 251,
           "end": 255,
-          "count": 5,
+          "count": 10,
           "nums": [
             "14",
+            "17",
+            "21",
+            "22",
             "27",
             "30",
             "36",
@@ -20699,44 +21618,51 @@ window.__HISTORY_PATTERN_STATE__ = {
           ],
           "pool": [
             "39",
+            "08",
+            "30",
             "49",
-            "06",
-            "03",
-            "48",
-            "05",
             "31",
-            "14"
+            "14",
+            "05",
+            "36"
           ],
           "poolBasis": "before-window",
           "covered": true,
           "hits": [
-            "14"
+            "14",
+            "30",
+            "36"
           ]
         },
         {
           "year": "2024",
           "start": 256,
           "end": 260,
-          "count": 5,
+          "count": 10,
           "nums": [
+            "05",
+            "07",
             "08",
+            "28",
             "29",
             "39",
             "40"
           ],
           "pool": [
             "39",
+            "30",
+            "08",
             "49",
-            "06",
-            "03",
-            "48",
-            "05",
+            "31",
             "14",
-            "02"
+            "05",
+            "36"
           ],
           "poolBasis": "before-window",
           "covered": true,
           "hits": [
+            "05",
+            "08",
             "39"
           ]
         },
@@ -20744,74 +21670,58 @@ window.__HISTORY_PATTERN_STATE__ = {
           "year": "2024",
           "start": 261,
           "end": 265,
-          "count": 5,
+          "count": 10,
           "nums": [
             "01",
             "13",
             "16",
             "30",
-            "44"
+            "41",
+            "44",
+            "46"
           ],
           "pool": [
             "39",
+            "30",
+            "08",
             "49",
-            "06",
-            "03",
-            "48",
-            "05",
+            "31",
             "14",
-            "02"
+            "05",
+            "36"
           ],
           "poolBasis": "before-window",
-          "covered": false,
-          "hits": []
+          "covered": true,
+          "hits": [
+            "30"
+          ]
         },
         {
           "year": "2024",
           "start": 266,
           "end": 270,
-          "count": 5,
+          "count": 10,
           "nums": [
+            "07",
+            "09",
             "11",
             "12",
             "22",
+            "24",
             "27",
-            "42"
-          ],
-          "pool": [
-            "39",
-            "49",
-            "06",
-            "03",
-            "48",
-            "05",
-            "14",
-            "02"
-          ],
-          "poolBasis": "before-window",
-          "covered": false,
-          "hits": []
-        },
-        {
-          "year": "2024",
-          "start": 271,
-          "end": 275,
-          "count": 5,
-          "nums": [
-            "30",
-            "40",
             "41",
+            "42",
             "49"
           ],
           "pool": [
             "39",
+            "30",
+            "08",
             "49",
-            "06",
-            "03",
-            "48",
-            "05",
+            "31",
             "14",
-            "02"
+            "05",
+            "36"
           ],
           "poolBasis": "before-window",
           "covered": true,
@@ -20821,51 +21731,95 @@ window.__HISTORY_PATTERN_STATE__ = {
         },
         {
           "year": "2024",
-          "start": 276,
-          "end": 280,
-          "count": 5,
+          "start": 271,
+          "end": 275,
+          "count": 10,
           "nums": [
-            "07",
-            "22",
-            "26",
-            "29",
-            "40"
+            "03",
+            "12",
+            "30",
+            "40",
+            "41",
+            "46",
+            "49"
           ],
           "pool": [
             "39",
+            "30",
+            "08",
             "49",
-            "06",
-            "03",
-            "48",
-            "05",
+            "31",
             "14",
-            "02"
+            "05",
+            "36"
           ],
           "poolBasis": "before-window",
-          "covered": false,
-          "hits": []
+          "covered": true,
+          "hits": [
+            "30",
+            "49"
+          ]
+        },
+        {
+          "year": "2024",
+          "start": 276,
+          "end": 280,
+          "count": 10,
+          "nums": [
+            "07",
+            "11",
+            "14",
+            "22",
+            "26",
+            "28",
+            "29",
+            "36",
+            "40",
+            "45"
+          ],
+          "pool": [
+            "39",
+            "30",
+            "08",
+            "49",
+            "31",
+            "14",
+            "05",
+            "36"
+          ],
+          "poolBasis": "before-window",
+          "covered": true,
+          "hits": [
+            "14",
+            "36"
+          ]
         },
         {
           "year": "2024",
           "start": 281,
           "end": 285,
-          "count": 5,
+          "count": 10,
           "nums": [
+            "07",
             "13",
+            "16",
+            "18",
             "21",
+            "25",
             "27",
             "43",
+            "46",
             "47"
           ],
           "pool": [
             "39",
+            "30",
+            "08",
             "49",
-            "06",
-            "03",
-            "48",
-            "05",
+            "31",
             "14",
-            "02"
+            "05",
+            "36"
           ],
           "poolBasis": "before-window",
           "covered": false,
@@ -20875,160 +21829,27 @@ window.__HISTORY_PATTERN_STATE__ = {
           "year": "2024",
           "start": 286,
           "end": 290,
-          "count": 5,
+          "count": 10,
           "nums": [
             "04",
             "11",
             "26",
+            "31",
+            "36",
             "40",
-            "45"
-          ],
-          "pool": [
-            "39",
-            "49",
-            "06",
-            "03",
-            "48",
-            "05",
-            "14",
-            "02"
-          ],
-          "poolBasis": "before-window",
-          "covered": false,
-          "hits": []
-        },
-        {
-          "year": "2024",
-          "start": 291,
-          "end": 295,
-          "count": 5,
-          "nums": [
-            "14",
-            "24",
-            "30",
             "44",
-            "48"
-          ],
-          "pool": [
-            "39",
-            "49",
-            "06",
-            "03",
-            "48",
-            "05",
-            "14",
-            "02"
-          ],
-          "poolBasis": "before-window",
-          "covered": true,
-          "hits": [
-            "14",
-            "48"
-          ]
-        },
-        {
-          "year": "2024",
-          "start": 296,
-          "end": 300,
-          "count": 5,
-          "nums": [
-            "09",
-            "21",
-            "44",
-            "46",
-            "49"
-          ],
-          "pool": [
-            "39",
-            "49",
-            "06",
-            "48",
-            "03",
-            "05",
-            "14",
-            "02"
-          ],
-          "poolBasis": "before-window",
-          "covered": true,
-          "hits": [
-            "49"
-          ]
-        },
-        {
-          "year": "2024",
-          "start": 301,
-          "end": 305,
-          "count": 5,
-          "nums": [
-            "16",
-            "17",
-            "24",
-            "32",
-            "38"
-          ],
-          "pool": [
-            "39",
-            "49",
-            "06",
-            "48",
-            "03",
-            "05",
-            "14",
-            "02"
-          ],
-          "poolBasis": "before-window",
-          "covered": false,
-          "hits": []
-        },
-        {
-          "year": "2024",
-          "start": 306,
-          "end": 310,
-          "count": 5,
-          "nums": [
-            "03",
-            "04",
-            "08",
-            "09",
-            "22"
-          ],
-          "pool": [
-            "39",
-            "49",
-            "06",
-            "48",
-            "03",
-            "05",
-            "14",
-            "02"
-          ],
-          "poolBasis": "before-window",
-          "covered": true,
-          "hits": [
-            "03"
-          ]
-        },
-        {
-          "year": "2024",
-          "start": 311,
-          "end": 315,
-          "count": 5,
-          "nums": [
-            "18",
-            "21",
-            "35",
-            "46",
-            "48"
-          ],
-          "pool": [
-            "39",
-            "49",
-            "08",
-            "30",
-            "14",
-            "46",
             "45",
-            "02"
+            "46"
+          ],
+          "pool": [
+            "39",
+            "30",
+            "08",
+            "49",
+            "46",
+            "14",
+            "09",
+            "47"
           ],
           "poolBasis": "before-window",
           "covered": true,
@@ -21038,25 +21859,195 @@ window.__HISTORY_PATTERN_STATE__ = {
         },
         {
           "year": "2024",
-          "start": 316,
-          "end": 320,
-          "count": 5,
+          "start": 291,
+          "end": 295,
+          "count": 10,
+          "nums": [
+            "01",
+            "12",
+            "14",
+            "24",
+            "30",
+            "32",
+            "42",
+            "44",
+            "48"
+          ],
+          "pool": [
+            "39",
+            "30",
+            "08",
+            "49",
+            "46",
+            "14",
+            "09",
+            "47"
+          ],
+          "poolBasis": "before-window",
+          "covered": true,
+          "hits": [
+            "14",
+            "30"
+          ]
+        },
+        {
+          "year": "2024",
+          "start": 296,
+          "end": 300,
+          "count": 10,
           "nums": [
             "05",
+            "09",
+            "21",
+            "23",
+            "36",
+            "37",
+            "44",
+            "46",
+            "49"
+          ],
+          "pool": [
+            "39",
+            "30",
+            "08",
+            "49",
+            "46",
+            "14",
+            "09",
+            "47"
+          ],
+          "poolBasis": "before-window",
+          "covered": true,
+          "hits": [
+            "09",
+            "46",
+            "49"
+          ]
+        },
+        {
+          "year": "2024",
+          "start": 301,
+          "end": 305,
+          "count": 10,
+          "nums": [
+            "16",
+            "17",
+            "24",
+            "25",
+            "32",
+            "34",
+            "38",
+            "39",
+            "49"
+          ],
+          "pool": [
+            "39",
+            "30",
+            "49",
+            "08",
+            "46",
+            "14",
+            "09",
+            "47"
+          ],
+          "poolBasis": "before-window",
+          "covered": true,
+          "hits": [
+            "39",
+            "49"
+          ]
+        },
+        {
+          "year": "2024",
+          "start": 306,
+          "end": 310,
+          "count": 10,
+          "nums": [
+            "03",
+            "04",
+            "07",
+            "08",
+            "09",
+            "22",
+            "26",
+            "27",
+            "45"
+          ],
+          "pool": [
+            "39",
+            "30",
+            "49",
+            "08",
+            "46",
+            "14",
+            "09",
+            "47"
+          ],
+          "poolBasis": "before-window",
+          "covered": true,
+          "hits": [
+            "08",
+            "09"
+          ]
+        },
+        {
+          "year": "2024",
+          "start": 311,
+          "end": 315,
+          "count": 10,
+          "nums": [
+            "03",
+            "08",
+            "18",
+            "21",
+            "28",
+            "29",
+            "35",
+            "46",
+            "48"
+          ],
+          "pool": [
+            "39",
+            "30",
+            "08",
+            "49",
+            "46",
+            "14",
+            "09",
+            "47"
+          ],
+          "poolBasis": "before-window",
+          "covered": true,
+          "hits": [
+            "08",
+            "46"
+          ]
+        },
+        {
+          "year": "2024",
+          "start": 316,
+          "end": 320,
+          "count": 10,
+          "nums": [
+            "04",
+            "05",
+            "06",
             "12",
             "13",
+            "21",
+            "28",
             "41",
             "44"
           ],
           "pool": [
             "39",
-            "49",
-            "08",
             "30",
-            "14",
+            "08",
+            "49",
             "46",
-            "45",
-            "02"
+            "14",
+            "09",
+            "47"
           ],
           "poolBasis": "before-window",
           "covered": false,
@@ -21066,23 +22057,26 @@ window.__HISTORY_PATTERN_STATE__ = {
           "year": "2024",
           "start": 321,
           "end": 325,
-          "count": 5,
+          "count": 10,
           "nums": [
             "01",
+            "03",
             "27",
             "28",
+            "34",
             "36",
-            "39"
+            "39",
+            "42"
           ],
           "pool": [
             "39",
-            "49",
-            "08",
             "30",
-            "14",
+            "08",
+            "49",
             "46",
-            "45",
-            "02"
+            "14",
+            "09",
+            "05"
           ],
           "poolBasis": "before-window",
           "covered": true,
@@ -21094,23 +22088,27 @@ window.__HISTORY_PATTERN_STATE__ = {
           "year": "2024",
           "start": 326,
           "end": 330,
-          "count": 5,
+          "count": 10,
           "nums": [
+            "06",
             "11",
             "14",
+            "16",
+            "17",
             "19",
             "20",
+            "23",
             "41"
           ],
           "pool": [
             "39",
-            "49",
-            "08",
             "30",
-            "14",
+            "08",
+            "49",
             "46",
-            "45",
-            "02"
+            "14",
+            "09",
+            "05"
           ],
           "poolBasis": "before-window",
           "covered": true,
@@ -21122,27 +22120,32 @@ window.__HISTORY_PATTERN_STATE__ = {
           "year": "2024",
           "start": 331,
           "end": 335,
-          "count": 5,
+          "count": 10,
           "nums": [
             "04",
             "06",
+            "10",
+            "11",
+            "13",
             "32",
             "34",
+            "39",
             "46"
           ],
           "pool": [
             "39",
-            "49",
-            "19",
-            "46",
-            "08",
-            "14",
             "30",
-            "45"
+            "08",
+            "49",
+            "46",
+            "14",
+            "09",
+            "05"
           ],
           "poolBasis": "before-window",
           "covered": true,
           "hits": [
+            "39",
             "46"
           ]
         },
@@ -21150,57 +22153,64 @@ window.__HISTORY_PATTERN_STATE__ = {
           "year": "2024",
           "start": 336,
           "end": 340,
-          "count": 5,
+          "count": 10,
           "nums": [
+            "01",
             "05",
+            "07",
+            "17",
             "38",
             "40",
+            "44",
             "47",
             "48"
           ],
           "pool": [
             "39",
+            "30",
+            "08",
             "49",
-            "06",
-            "48",
-            "03",
-            "05",
+            "46",
             "14",
-            "02"
+            "09",
+            "05"
           ],
           "poolBasis": "before-window",
           "covered": true,
           "hits": [
-            "05",
-            "48"
+            "05"
           ]
         },
         {
           "year": "2024",
           "start": 341,
           "end": 345,
-          "count": 5,
+          "count": 10,
           "nums": [
             "02",
+            "04",
             "18",
+            "26",
+            "33",
+            "44",
             "45",
             "46",
             "49"
           ],
           "pool": [
             "39",
+            "30",
+            "08",
             "49",
-            "06",
-            "48",
-            "03",
-            "05",
+            "46",
             "14",
-            "02"
+            "05",
+            "09"
           ],
           "poolBasis": "before-window",
           "covered": true,
           "hits": [
-            "02",
+            "46",
             "49"
           ]
         },
@@ -21208,49 +22218,58 @@ window.__HISTORY_PATTERN_STATE__ = {
           "year": "2024",
           "start": 346,
           "end": 350,
-          "count": 5,
+          "count": 10,
           "nums": [
             "01",
             "04",
+            "09",
+            "16",
             "17",
+            "20",
             "28",
+            "31",
+            "32",
             "41"
           ],
           "pool": [
             "39",
+            "46",
+            "08",
             "49",
-            "06",
-            "48",
-            "03",
-            "05",
             "14",
-            "02"
+            "30",
+            "05",
+            "09"
           ],
           "poolBasis": "before-window",
-          "covered": false,
-          "hits": []
+          "covered": true,
+          "hits": [
+            "09"
+          ]
         },
         {
           "year": "2024",
           "start": 351,
           "end": 355,
-          "count": 5,
+          "count": 7,
           "nums": [
             "10",
+            "12",
             "25",
+            "26",
             "27",
             "47",
             "49"
           ],
           "pool": [
             "39",
+            "46",
+            "08",
             "49",
-            "06",
-            "48",
-            "03",
-            "05",
             "14",
-            "02"
+            "30",
+            "09",
+            "05"
           ],
           "poolBasis": "before-window",
           "covered": true,
@@ -21273,17 +22292,19 @@ window.__HISTORY_PATTERN_STATE__ = {
           "pool": [
             "39",
             "49",
-            "06",
-            "48",
-            "03",
-            "05",
+            "46",
+            "08",
             "14",
-            "02"
+            "30",
+            "09",
+            "05"
           ],
           "poolBasis": "before-window",
           "covered": true,
           "hits": [
-            "14"
+            "09",
+            "14",
+            "46"
           ]
         },
         {
@@ -21300,13 +22321,13 @@ window.__HISTORY_PATTERN_STATE__ = {
           ],
           "pool": [
             "39",
-            "49",
             "46",
-            "19",
+            "49",
             "08",
             "14",
-            "41",
-            "30"
+            "30",
+            "09",
+            "05"
           ],
           "poolBasis": "before-window",
           "covered": true,
@@ -21320,25 +22341,26 @@ window.__HISTORY_PATTERN_STATE__ = {
           "end": 5,
           "count": 5,
           "nums": [
-            "08",
+            "07",
+            "12",
             "22",
-            "33",
-            "37"
+            "24",
+            "30"
           ],
           "pool": [
             "39",
-            "49",
             "46",
-            "19",
-            "01",
+            "49",
             "08",
-            "45",
-            "30"
+            "30",
+            "14",
+            "09",
+            "05"
           ],
           "poolBasis": "before-window",
           "covered": true,
           "hits": [
-            "08"
+            "30"
           ]
         },
         {
@@ -21347,27 +22369,26 @@ window.__HISTORY_PATTERN_STATE__ = {
           "end": 10,
           "count": 5,
           "nums": [
-            "04",
-            "15",
-            "25",
-            "30",
-            "46"
+            "24",
+            "26",
+            "33",
+            "39",
+            "43"
           ],
           "pool": [
             "39",
-            "49",
-            "46",
-            "08",
-            "14",
             "30",
-            "45",
-            "02"
+            "49",
+            "08",
+            "46",
+            "14",
+            "09",
+            "05"
           ],
           "poolBasis": "before-window",
           "covered": true,
           "hits": [
-            "30",
-            "46"
+            "39"
           ]
         },
         {
@@ -21376,27 +22397,25 @@ window.__HISTORY_PATTERN_STATE__ = {
           "end": 15,
           "count": 5,
           "nums": [
-            "06",
-            "07",
-            "27",
-            "36",
-            "39"
+            "01",
+            "03",
+            "33",
+            "40",
+            "42"
           ],
           "pool": [
             "39",
-            "49",
-            "46",
-            "08",
-            "14",
             "30",
-            "45",
-            "02"
+            "49",
+            "08",
+            "46",
+            "14",
+            "09",
+            "05"
           ],
           "poolBasis": "before-window",
-          "covered": true,
-          "hits": [
-            "39"
-          ]
+          "covered": false,
+          "hits": []
         },
         {
           "year": "2025",
@@ -21404,21 +22423,21 @@ window.__HISTORY_PATTERN_STATE__ = {
           "end": 20,
           "count": 5,
           "nums": [
-            "06",
-            "10",
-            "21",
-            "34",
-            "38"
+            "16",
+            "22",
+            "32",
+            "37",
+            "43"
           ],
           "pool": [
             "39",
-            "49",
-            "46",
-            "08",
-            "14",
             "30",
-            "45",
-            "02"
+            "49",
+            "08",
+            "46",
+            "14",
+            "09",
+            "05"
           ],
           "poolBasis": "before-window",
           "covered": false,
@@ -21430,129 +22449,21 @@ window.__HISTORY_PATTERN_STATE__ = {
           "end": 25,
           "count": 5,
           "nums": [
-            "04",
-            "14",
-            "30",
-            "41",
-            "45"
-          ],
-          "pool": [
-            "39",
-            "49",
-            "46",
-            "08",
-            "14",
-            "30",
-            "45",
-            "02"
-          ],
-          "poolBasis": "before-window",
-          "covered": true,
-          "hits": [
-            "14",
-            "30",
-            "45"
-          ]
-        },
-        {
-          "year": "2025",
-          "start": 26,
-          "end": 30,
-          "count": 5,
-          "nums": [
-            "13",
+            "06",
             "25",
-            "37",
-            "40"
+            "30",
+            "33",
+            "43"
           ],
           "pool": [
             "39",
+            "30",
             "49",
-            "46",
             "08",
-            "14",
-            "30",
-            "45",
-            "02"
-          ],
-          "poolBasis": "before-window",
-          "covered": false,
-          "hits": []
-        },
-        {
-          "year": "2025",
-          "start": 31,
-          "end": 35,
-          "count": 5,
-          "nums": [
-            "21",
-            "22",
-            "23",
-            "39",
-            "48"
-          ],
-          "pool": [
-            "39",
-            "49",
             "46",
-            "08",
             "14",
-            "30",
-            "45",
-            "02"
-          ],
-          "poolBasis": "before-window",
-          "covered": true,
-          "hits": [
-            "39"
-          ]
-        },
-        {
-          "year": "2025",
-          "start": 36,
-          "end": 40,
-          "count": 5,
-          "nums": [
-            "20",
-            "25",
-            "29",
-            "40"
-          ],
-          "pool": [
-            "39",
-            "49",
-            "46",
-            "08",
-            "14",
-            "30",
-            "45",
-            "02"
-          ],
-          "poolBasis": "before-window",
-          "covered": false,
-          "hits": []
-        },
-        {
-          "year": "2025",
-          "start": 41,
-          "end": 45,
-          "count": 5,
-          "nums": [
-            "07",
-            "28",
-            "30",
-            "37",
-            "42"
-          ],
-          "pool": [
-            "39",
-            "49",
-            "46",
-            "08",
-            "14",
-            "30",
-            "45",
-            "02"
+            "09",
+            "05"
           ],
           "poolBasis": "before-window",
           "covered": true,
@@ -21562,78 +22473,224 @@ window.__HISTORY_PATTERN_STATE__ = {
         },
         {
           "year": "2025",
+          "start": 26,
+          "end": 30,
+          "count": 9,
+          "nums": [
+            "09",
+            "12",
+            "13",
+            "18",
+            "25",
+            "38",
+            "40"
+          ],
+          "pool": [
+            "39",
+            "30",
+            "49",
+            "08",
+            "46",
+            "14",
+            "09",
+            "05"
+          ],
+          "poolBasis": "before-window",
+          "covered": true,
+          "hits": [
+            "09"
+          ]
+        },
+        {
+          "year": "2025",
+          "start": 31,
+          "end": 35,
+          "count": 10,
+          "nums": [
+            "09",
+            "11",
+            "12",
+            "13",
+            "21",
+            "22",
+            "23",
+            "27",
+            "39",
+            "48"
+          ],
+          "pool": [
+            "39",
+            "30",
+            "49",
+            "08",
+            "46",
+            "14",
+            "09",
+            "05"
+          ],
+          "poolBasis": "before-window",
+          "covered": true,
+          "hits": [
+            "09",
+            "39"
+          ]
+        },
+        {
+          "year": "2025",
+          "start": 36,
+          "end": 40,
+          "count": 10,
+          "nums": [
+            "06",
+            "08",
+            "20",
+            "24",
+            "25",
+            "29",
+            "35",
+            "40"
+          ],
+          "pool": [
+            "39",
+            "30",
+            "49",
+            "08",
+            "46",
+            "14",
+            "09",
+            "05"
+          ],
+          "poolBasis": "before-window",
+          "covered": true,
+          "hits": [
+            "08"
+          ]
+        },
+        {
+          "year": "2025",
+          "start": 41,
+          "end": 45,
+          "count": 10,
+          "nums": [
+            "07",
+            "27",
+            "28",
+            "30",
+            "37",
+            "40",
+            "41",
+            "42",
+            "49"
+          ],
+          "pool": [
+            "39",
+            "30",
+            "08",
+            "09",
+            "28",
+            "46",
+            "14",
+            "20"
+          ],
+          "poolBasis": "before-window",
+          "covered": true,
+          "hits": [
+            "28",
+            "30"
+          ]
+        },
+        {
+          "year": "2025",
           "start": 46,
           "end": 50,
-          "count": 5,
+          "count": 10,
           "nums": [
             "05",
             "12",
+            "15",
             "18",
+            "30",
+            "36",
+            "37",
+            "39",
             "43"
           ],
           "pool": [
             "39",
-            "49",
-            "46",
-            "08",
             "30",
+            "08",
+            "09",
+            "28",
+            "46",
             "14",
-            "45",
-            "02"
+            "20"
           ],
           "poolBasis": "before-window",
-          "covered": false,
-          "hits": []
+          "covered": true,
+          "hits": [
+            "30",
+            "39"
+          ]
         },
         {
           "year": "2025",
           "start": 51,
           "end": 55,
-          "count": 5,
+          "count": 10,
           "nums": [
+            "02",
+            "09",
             "10",
             "11",
             "25",
+            "28",
+            "34",
+            "36",
             "44",
             "49"
           ],
           "pool": [
             "39",
-            "49",
-            "46",
-            "08",
             "30",
+            "08",
+            "09",
+            "28",
+            "46",
             "14",
-            "05",
-            "45"
+            "20"
           ],
           "poolBasis": "before-window",
           "covered": true,
           "hits": [
-            "49"
+            "09",
+            "28"
           ]
         },
         {
           "year": "2025",
           "start": 56,
           "end": 60,
-          "count": 5,
+          "count": 10,
           "nums": [
+            "06",
             "11",
             "20",
+            "23",
             "24",
+            "25",
+            "28",
             "31",
             "42"
           ],
           "pool": [
             "39",
-            "49",
-            "46",
-            "08",
             "30",
+            "49",
+            "08",
+            "46",
             "14",
-            "05",
-            "45"
+            "09",
+            "05"
           ],
           "poolBasis": "before-window",
           "covered": false,
@@ -21643,78 +22700,98 @@ window.__HISTORY_PATTERN_STATE__ = {
           "year": "2025",
           "start": 61,
           "end": 65,
-          "count": 5,
+          "count": 10,
           "nums": [
             "10",
+            "14",
             "23",
+            "24",
             "31",
             "35",
+            "37",
+            "38",
+            "39",
             "48"
           ],
           "pool": [
             "39",
-            "49",
-            "46",
-            "08",
             "30",
+            "49",
+            "08",
+            "31",
             "14",
             "05",
-            "45"
+            "36"
           ],
           "poolBasis": "before-window",
-          "covered": false,
-          "hits": []
+          "covered": true,
+          "hits": [
+            "14",
+            "31",
+            "39"
+          ]
         },
         {
           "year": "2025",
           "start": 66,
           "end": 70,
-          "count": 5,
+          "count": 10,
           "nums": [
+            "05",
             "12",
+            "27",
             "29",
             "43",
-            "44"
+            "44",
+            "46"
           ],
           "pool": [
             "39",
-            "49",
-            "46",
-            "08",
             "30",
+            "49",
+            "08",
+            "31",
             "14",
             "05",
-            "45"
+            "36"
           ],
           "poolBasis": "before-window",
-          "covered": false,
-          "hits": []
+          "covered": true,
+          "hits": [
+            "05"
+          ]
         },
         {
           "year": "2025",
           "start": 71,
           "end": 75,
-          "count": 5,
+          "count": 10,
           "nums": [
+            "01",
             "03",
+            "08",
             "09",
+            "20",
             "35",
             "40",
+            "41",
             "49"
           ],
           "pool": [
             "39",
-            "49",
-            "46",
-            "08",
             "30",
+            "49",
+            "08",
+            "46",
             "14",
-            "05",
-            "45"
+            "09",
+            "05"
           ],
           "poolBasis": "before-window",
           "covered": true,
           "hits": [
+            "08",
+            "09",
             "49"
           ]
         },
@@ -21722,27 +22799,32 @@ window.__HISTORY_PATTERN_STATE__ = {
           "year": "2025",
           "start": 76,
           "end": 80,
-          "count": 5,
+          "count": 10,
           "nums": [
             "10",
+            "14",
+            "21",
             "22",
+            "23",
             "24",
             "28",
+            "35",
             "39"
           ],
           "pool": [
             "39",
-            "49",
-            "46",
-            "08",
             "30",
+            "49",
+            "08",
+            "46",
             "14",
-            "05",
-            "45"
+            "09",
+            "05"
           ],
           "poolBasis": "before-window",
           "covered": true,
           "hits": [
+            "14",
             "39"
           ]
         },
@@ -21750,23 +22832,27 @@ window.__HISTORY_PATTERN_STATE__ = {
           "year": "2025",
           "start": 81,
           "end": 85,
-          "count": 5,
+          "count": 10,
           "nums": [
+            "01",
+            "11",
+            "19",
             "20",
             "28",
+            "32",
             "34",
             "35",
             "38"
           ],
           "pool": [
             "39",
-            "49",
-            "46",
-            "08",
             "30",
+            "49",
+            "08",
+            "46",
             "14",
-            "05",
-            "45"
+            "09",
+            "05"
           ],
           "poolBasis": "before-window",
           "covered": false,
@@ -21776,56 +22862,67 @@ window.__HISTORY_PATTERN_STATE__ = {
           "year": "2025",
           "start": 86,
           "end": 90,
-          "count": 5,
+          "count": 10,
           "nums": [
+            "11",
             "14",
             "15",
+            "25",
             "30",
-            "35"
+            "35",
+            "42",
+            "45",
+            "46"
           ],
           "pool": [
             "39",
-            "49",
-            "46",
-            "08",
             "30",
+            "49",
+            "08",
+            "46",
             "14",
-            "05",
-            "20"
+            "09",
+            "28"
           ],
           "poolBasis": "before-window",
           "covered": true,
           "hits": [
             "14",
-            "30"
+            "30",
+            "46"
           ]
         },
         {
           "year": "2025",
           "start": 91,
           "end": 95,
-          "count": 5,
+          "count": 10,
           "nums": [
+            "05",
             "10",
+            "16",
             "20",
+            "23",
+            "29",
+            "30",
             "33",
             "39",
             "40"
           ],
           "pool": [
             "39",
-            "49",
             "30",
+            "49",
             "08",
-            "14",
             "46",
-            "05",
-            "20"
+            "14",
+            "09",
+            "28"
           ],
           "poolBasis": "before-window",
           "covered": true,
           "hits": [
-            "20",
+            "30",
             "39"
           ]
         },
@@ -21833,102 +22930,125 @@ window.__HISTORY_PATTERN_STATE__ = {
           "year": "2025",
           "start": 96,
           "end": 100,
-          "count": 5,
+          "count": 10,
           "nums": [
+            "01",
             "03",
+            "13",
+            "19",
             "20",
             "31",
             "34",
+            "39",
             "42"
           ],
           "pool": [
             "39",
-            "49",
             "30",
+            "49",
             "08",
-            "14",
             "46",
-            "05",
-            "20"
+            "14",
+            "09",
+            "05"
           ],
           "poolBasis": "before-window",
           "covered": true,
           "hits": [
-            "20"
+            "39"
           ]
         },
         {
           "year": "2025",
           "start": 101,
           "end": 105,
-          "count": 5,
+          "count": 10,
           "nums": [
             "01",
+            "03",
             "06",
+            "23",
             "26",
             "32",
-            "38"
+            "34",
+            "38",
+            "39"
           ],
           "pool": [
             "39",
-            "49",
             "30",
+            "49",
             "08",
-            "14",
             "46",
-            "20",
-            "47"
+            "14",
+            "09",
+            "05"
           ],
           "poolBasis": "before-window",
-          "covered": false,
-          "hits": []
+          "covered": true,
+          "hits": [
+            "39"
+          ]
         },
         {
           "year": "2025",
           "start": 106,
           "end": 110,
-          "count": 5,
+          "count": 10,
           "nums": [
             "03",
+            "05",
             "18",
+            "22",
+            "24",
             "27",
+            "40",
+            "42",
             "46",
             "47"
           ],
           "pool": [
             "39",
-            "49",
             "30",
-            "06",
-            "48",
+            "49",
+            "08",
+            "46",
             "14",
-            "05",
-            "20"
+            "09",
+            "05"
           ],
           "poolBasis": "before-window",
-          "covered": false,
-          "hits": []
+          "covered": true,
+          "hits": [
+            "05",
+            "46"
+          ]
         },
         {
           "year": "2025",
           "start": 111,
           "end": 115,
-          "count": 5,
+          "count": 10,
           "nums": [
+            "02",
             "03",
+            "24",
+            "36",
+            "37",
             "38",
             "45",
-            "46"
+            "46",
+            "48"
           ],
           "pool": [
             "39",
+            "30",
             "49",
             "46",
-            "20",
-            "30",
             "08",
             "14",
-            "47"
+            "09",
+            "05"
           ],
           "poolBasis": "before-window",
           "covered": true,
@@ -21940,51 +23060,60 @@ window.__HISTORY_PATTERN_STATE__ = {
           "year": "2025",
           "start": 116,
           "end": 120,
-          "count": 5,
+          "count": 10,
           "nums": [
+            "05",
+            "12",
             "23",
             "28",
+            "30",
             "36",
             "38",
+            "45",
             "47"
           ],
           "pool": [
             "39",
-            "49",
             "46",
-            "20",
+            "49",
             "30",
             "08",
             "14",
-            "47"
+            "09",
+            "05"
           ],
           "poolBasis": "before-window",
           "covered": true,
           "hits": [
-            "47"
+            "05",
+            "30"
           ]
         },
         {
           "year": "2025",
           "start": 121,
           "end": 125,
-          "count": 5,
+          "count": 10,
           "nums": [
+            "07",
             "10",
+            "13",
             "24",
             "33",
+            "35",
+            "44",
             "45",
             "49"
           ],
           "pool": [
             "39",
+            "30",
             "49",
             "46",
-            "20",
-            "30",
             "08",
             "14",
-            "47"
+            "09",
+            "05"
           ],
           "poolBasis": "before-window",
           "covered": true,
@@ -21996,23 +23125,26 @@ window.__HISTORY_PATTERN_STATE__ = {
           "year": "2025",
           "start": 126,
           "end": 130,
-          "count": 5,
+          "count": 10,
           "nums": [
             "02",
             "13",
+            "17",
+            "22",
             "23",
+            "36",
             "40",
             "49"
           ],
           "pool": [
             "39",
+            "30",
             "49",
             "46",
-            "20",
-            "30",
             "08",
             "14",
-            "47"
+            "09",
+            "05"
           ],
           "poolBasis": "before-window",
           "covered": true,
@@ -22024,52 +23156,27 @@ window.__HISTORY_PATTERN_STATE__ = {
           "year": "2025",
           "start": 131,
           "end": 135,
-          "count": 5,
+          "count": 10,
           "nums": [
             "02",
             "10",
             "14",
+            "22",
+            "34",
             "37",
+            "42",
+            "45",
             "47"
           ],
           "pool": [
             "39",
+            "30",
             "49",
             "46",
-            "20",
-            "30",
             "08",
             "14",
-            "47"
-          ],
-          "poolBasis": "before-window",
-          "covered": true,
-          "hits": [
-            "14",
-            "47"
-          ]
-        },
-        {
-          "year": "2025",
-          "start": 136,
-          "end": 140,
-          "count": 5,
-          "nums": [
             "09",
-            "11",
-            "14",
-            "36",
-            "41"
-          ],
-          "pool": [
-            "39",
-            "49",
-            "46",
-            "14",
-            "08",
-            "30",
-            "20",
-            "47"
+            "05"
           ],
           "poolBasis": "before-window",
           "covered": true,
@@ -22079,51 +23186,98 @@ window.__HISTORY_PATTERN_STATE__ = {
         },
         {
           "year": "2025",
+          "start": 136,
+          "end": 140,
+          "count": 10,
+          "nums": [
+            "02",
+            "05",
+            "09",
+            "11",
+            "14",
+            "19",
+            "25",
+            "34",
+            "36",
+            "41"
+          ],
+          "pool": [
+            "39",
+            "30",
+            "49",
+            "46",
+            "08",
+            "14",
+            "09",
+            "05"
+          ],
+          "poolBasis": "before-window",
+          "covered": true,
+          "hits": [
+            "05",
+            "09",
+            "14"
+          ]
+        },
+        {
+          "year": "2025",
           "start": 141,
           "end": 145,
-          "count": 5,
+          "count": 10,
           "nums": [
+            "09",
             "10",
             "13",
             "17",
             "25",
-            "44"
+            "26",
+            "35",
+            "43",
+            "44",
+            "45"
           ],
           "pool": [
             "39",
+            "30",
             "49",
             "46",
-            "14",
             "08",
-            "30",
-            "20",
-            "47"
+            "14",
+            "09",
+            "05"
           ],
           "poolBasis": "before-window",
-          "covered": false,
-          "hits": []
+          "covered": true,
+          "hits": [
+            "09"
+          ]
         },
         {
           "year": "2025",
           "start": 146,
           "end": 150,
-          "count": 5,
+          "count": 10,
           "nums": [
             "02",
             "14",
+            "15",
+            "22",
+            "27",
+            "28",
             "32",
+            "35",
             "40",
             "41"
           ],
           "pool": [
             "39",
+            "30",
             "49",
             "46",
-            "14",
             "08",
-            "30",
-            "20",
-            "47"
+            "14",
+            "09",
+            "05"
           ],
           "poolBasis": "before-window",
           "covered": true,
@@ -22135,75 +23289,95 @@ window.__HISTORY_PATTERN_STATE__ = {
           "year": "2025",
           "start": 151,
           "end": 155,
-          "count": 5,
+          "count": 10,
           "nums": [
+            "01",
+            "04",
             "10",
             "26",
+            "34",
+            "35",
             "38",
             "43",
-            "45"
+            "45",
+            "49"
           ],
           "pool": [
             "39",
+            "30",
             "49",
-            "14",
             "46",
             "08",
-            "30",
-            "20",
-            "47"
+            "14",
+            "09",
+            "05"
           ],
           "poolBasis": "before-window",
-          "covered": false,
-          "hits": []
+          "covered": true,
+          "hits": [
+            "49"
+          ]
         },
         {
           "year": "2025",
           "start": 156,
           "end": 160,
-          "count": 5,
+          "count": 10,
           "nums": [
+            "04",
             "05",
+            "08",
             "11",
             "18",
             "23",
-            "31"
+            "27",
+            "31",
+            "33",
+            "47"
           ],
           "pool": [
             "39",
             "49",
-            "14",
+            "30",
             "46",
             "08",
-            "30",
-            "20",
-            "47"
+            "14",
+            "09",
+            "05"
           ],
           "poolBasis": "before-window",
-          "covered": false,
-          "hits": []
+          "covered": true,
+          "hits": [
+            "05",
+            "08"
+          ]
         },
         {
           "year": "2025",
           "start": 161,
           "end": 165,
-          "count": 5,
+          "count": 10,
           "nums": [
             "01",
+            "03",
             "13",
             "16",
+            "22",
             "23",
+            "31",
+            "38",
+            "44",
             "47"
           ],
           "pool": [
             "39",
             "49",
-            "14",
+            "30",
             "46",
             "08",
-            "30",
-            "05",
-            "20"
+            "14",
+            "09",
+            "05"
           ],
           "poolBasis": "before-window",
           "covered": false,
@@ -22213,78 +23387,127 @@ window.__HISTORY_PATTERN_STATE__ = {
           "year": "2025",
           "start": 166,
           "end": 170,
-          "count": 5,
+          "count": 10,
           "nums": [
             "07",
             "09",
             "16",
+            "20",
+            "23",
             "33",
-            "41"
-          ],
-          "pool": [
-            "39",
-            "49",
-            "14",
-            "46",
-            "08",
-            "30",
-            "05",
-            "20"
-          ],
-          "poolBasis": "before-window",
-          "covered": false,
-          "hits": []
-        },
-        {
-          "year": "2025",
-          "start": 171,
-          "end": 175,
-          "count": 5,
-          "nums": [
-            "30",
-            "36",
             "38",
-            "39",
+            "41",
             "47"
           ],
           "pool": [
             "39",
             "49",
-            "14",
+            "30",
             "46",
             "08",
+            "14",
+            "09",
+            "47"
+          ],
+          "poolBasis": "before-window",
+          "covered": true,
+          "hits": [
+            "09",
+            "47"
+          ]
+        },
+        {
+          "year": "2025",
+          "start": 171,
+          "end": 175,
+          "count": 10,
+          "nums": [
+            "18",
+            "25",
             "30",
-            "05",
-            "20"
+            "36",
+            "38",
+            "39",
+            "45",
+            "46",
+            "47"
+          ],
+          "pool": [
+            "39",
+            "49",
+            "30",
+            "46",
+            "08",
+            "14",
+            "09",
+            "47"
           ],
           "poolBasis": "before-window",
           "covered": true,
           "hits": [
             "30",
-            "39"
+            "39",
+            "46",
+            "47"
           ]
         },
         {
           "year": "2025",
           "start": 176,
           "end": 180,
-          "count": 5,
+          "count": 10,
           "nums": [
+            "01",
             "04",
+            "20",
             "24",
+            "26",
             "27",
             "29",
-            "36"
+            "36",
+            "48",
+            "49"
           ],
           "pool": [
             "39",
             "49",
-            "14",
+            "30",
             "46",
             "08",
-            "30",
+            "14",
+            "09",
+            "47"
+          ],
+          "poolBasis": "before-window",
+          "covered": true,
+          "hits": [
+            "49"
+          ]
+        },
+        {
+          "year": "2025",
+          "start": 181,
+          "end": 185,
+          "count": 10,
+          "nums": [
             "05",
-            "20"
+            "23",
+            "28",
+            "33",
+            "35",
+            "42",
+            "45",
+            "48"
+          ],
+          "pool": [
+            "39",
+            "49",
+            "30",
+            "46",
+            "08",
+            "14",
+            "09",
+            "47"
           ],
           "poolBasis": "before-window",
           "covered": false,
@@ -22292,80 +23515,63 @@ window.__HISTORY_PATTERN_STATE__ = {
         },
         {
           "year": "2025",
-          "start": 181,
-          "end": 185,
-          "count": 5,
-          "nums": [
-            "05",
-            "23",
-            "28",
-            "33",
-            "42"
-          ],
-          "pool": [
-            "39",
-            "49",
-            "14",
-            "46",
-            "08",
-            "30",
-            "05",
-            "20"
-          ],
-          "poolBasis": "before-window",
-          "covered": true,
-          "hits": [
-            "05"
-          ]
-        },
-        {
-          "year": "2025",
           "start": 186,
           "end": 190,
-          "count": 5,
+          "count": 10,
           "nums": [
             "08",
             "15",
             "17",
             "18",
-            "45"
+            "26",
+            "32",
+            "35",
+            "38",
+            "45",
+            "46"
           ],
           "pool": [
             "39",
             "49",
-            "14",
-            "46",
-            "05",
-            "08",
             "30",
-            "20"
+            "46",
+            "08",
+            "14",
+            "09",
+            "05"
           ],
           "poolBasis": "before-window",
           "covered": true,
           "hits": [
-            "08"
+            "08",
+            "46"
           ]
         },
         {
           "year": "2025",
           "start": 191,
           "end": 195,
-          "count": 5,
+          "count": 10,
           "nums": [
+            "01",
             "24",
             "25",
             "29",
+            "33",
+            "35",
+            "40",
+            "44",
             "45"
           ],
           "pool": [
             "39",
             "49",
-            "14",
             "46",
-            "08",
             "30",
-            "05",
-            "20"
+            "08",
+            "14",
+            "09",
+            "05"
           ],
           "poolBasis": "before-window",
           "covered": false,
@@ -22375,23 +23581,28 @@ window.__HISTORY_PATTERN_STATE__ = {
           "year": "2025",
           "start": 196,
           "end": 200,
-          "count": 5,
+          "count": 10,
           "nums": [
+            "02",
             "10",
+            "13",
             "14",
+            "26",
             "34",
             "43",
-            "47"
+            "44",
+            "47",
+            "48"
           ],
           "pool": [
             "39",
             "49",
-            "14",
             "46",
-            "08",
             "30",
-            "05",
-            "45"
+            "08",
+            "14",
+            "09",
+            "35"
           ],
           "poolBasis": "before-window",
           "covered": true,
@@ -22403,23 +23614,27 @@ window.__HISTORY_PATTERN_STATE__ = {
           "year": "2025",
           "start": 201,
           "end": 205,
-          "count": 5,
+          "count": 10,
           "nums": [
             "01",
+            "03",
+            "12",
+            "15",
             "18",
             "20",
             "30",
+            "44",
             "47"
           ],
           "pool": [
             "39",
             "49",
-            "14",
             "46",
-            "08",
             "30",
-            "05",
-            "45"
+            "08",
+            "14",
+            "09",
+            "35"
           ],
           "poolBasis": "before-window",
           "covered": true,
@@ -22431,49 +23646,61 @@ window.__HISTORY_PATTERN_STATE__ = {
           "year": "2025",
           "start": 206,
           "end": 210,
-          "count": 5,
+          "count": 10,
           "nums": [
             "09",
             "10",
+            "11",
             "13",
             "15",
-            "24"
+            "18",
+            "19",
+            "24",
+            "30",
+            "32"
           ],
           "pool": [
             "39",
             "49",
-            "14",
+            "30",
             "46",
             "08",
-            "30",
-            "05",
-            "45"
+            "14",
+            "09",
+            "35"
           ],
           "poolBasis": "before-window",
-          "covered": false,
-          "hits": []
+          "covered": true,
+          "hits": [
+            "09",
+            "30"
+          ]
         },
         {
           "year": "2025",
           "start": 211,
           "end": 215,
-          "count": 5,
+          "count": 10,
           "nums": [
             "02",
+            "03",
             "11",
+            "12",
             "15",
             "18",
-            "21"
+            "21",
+            "32",
+            "45"
           ],
           "pool": [
             "39",
+            "30",
             "49",
-            "14",
             "46",
             "08",
-            "30",
-            "05",
-            "45"
+            "14",
+            "09",
+            "35"
           ],
           "poolBasis": "before-window",
           "covered": false,
@@ -22483,131 +23710,230 @@ window.__HISTORY_PATTERN_STATE__ = {
           "year": "2025",
           "start": 216,
           "end": 220,
-          "count": 5,
+          "count": 10,
           "nums": [
             "08",
             "09",
+            "19",
             "23",
-            "46"
+            "28",
+            "44",
+            "46",
+            "49"
           ],
           "pool": [
             "39",
+            "30",
             "49",
-            "14",
             "46",
             "08",
-            "30",
-            "05",
-            "45"
+            "14",
+            "09",
+            "35"
           ],
           "poolBasis": "before-window",
           "covered": true,
           "hits": [
             "08",
-            "46"
+            "09",
+            "46",
+            "49"
           ]
         },
         {
           "year": "2025",
           "start": 221,
           "end": 225,
-          "count": 5,
+          "count": 10,
           "nums": [
+            "05",
             "08",
+            "12",
             "16",
             "25",
+            "28",
+            "30",
             "32",
-            "43"
+            "43",
+            "46"
           ],
           "pool": [
             "39",
             "49",
-            "14",
+            "30",
             "46",
             "08",
-            "30",
-            "05",
-            "45"
+            "14",
+            "09",
+            "35"
           ],
           "poolBasis": "before-window",
           "covered": true,
           "hits": [
-            "08"
+            "08",
+            "30",
+            "46"
           ]
         },
         {
           "year": "2025",
           "start": 226,
           "end": 230,
-          "count": 5,
+          "count": 10,
           "nums": [
             "02",
             "15",
+            "17",
+            "24",
             "31",
+            "35",
             "39",
-            "40"
+            "40",
+            "47",
+            "49"
           ],
           "pool": [
             "39",
+            "30",
             "49",
-            "14",
             "46",
             "08",
-            "30",
-            "05",
-            "45"
+            "14",
+            "09",
+            "35"
           ],
           "poolBasis": "before-window",
           "covered": true,
           "hits": [
-            "39"
+            "35",
+            "39",
+            "49"
           ]
         },
         {
           "year": "2025",
           "start": 231,
           "end": 235,
-          "count": 5,
+          "count": 10,
           "nums": [
+            "06",
+            "08",
             "13",
+            "35",
             "37",
             "38",
-            "42"
+            "42",
+            "43",
+            "46"
           ],
           "pool": [
             "39",
+            "30",
             "49",
-            "14",
             "46",
             "08",
-            "30",
-            "05",
-            "45"
+            "14",
+            "09",
+            "35"
           ],
           "poolBasis": "before-window",
-          "covered": false,
-          "hits": []
+          "covered": true,
+          "hits": [
+            "08",
+            "35",
+            "46"
+          ]
+        },
+        {
+          "year": "2025",
+          "start": 236,
+          "end": 240,
+          "count": 9,
+          "nums": [
+            "02",
+            "04",
+            "05",
+            "11",
+            "29",
+            "35",
+            "39",
+            "45",
+            "46"
+          ],
+          "pool": [
+            "39",
+            "46",
+            "49",
+            "30",
+            "08",
+            "14",
+            "09",
+            "35"
+          ],
+          "poolBasis": "before-window",
+          "covered": true,
+          "hits": [
+            "35",
+            "39",
+            "46"
+          ]
+        },
+        {
+          "year": "2025",
+          "start": 241,
+          "end": 245,
+          "count": 8,
+          "nums": [
+            "20",
+            "23",
+            "24",
+            "26",
+            "34",
+            "44",
+            "47",
+            "49"
+          ],
+          "pool": [
+            "39",
+            "46",
+            "49",
+            "30",
+            "08",
+            "14",
+            "09",
+            "35"
+          ],
+          "poolBasis": "before-window",
+          "covered": true,
+          "hits": [
+            "49"
+          ]
         },
         {
           "year": "2025",
           "start": 246,
           "end": 250,
-          "count": 5,
+          "count": 10,
           "nums": [
             "02",
+            "05",
             "06",
+            "07",
+            "10",
             "12",
-            "25"
+            "25",
+            "26",
+            "40"
           ],
           "pool": [
             "39",
             "49",
-            "14",
             "46",
-            "08",
             "30",
-            "05",
-            "45"
+            "08",
+            "14",
+            "09",
+            "35"
           ],
           "poolBasis": "before-window",
           "covered": false,
@@ -22617,23 +23943,27 @@ window.__HISTORY_PATTERN_STATE__ = {
           "year": "2025",
           "start": 251,
           "end": 255,
-          "count": 5,
+          "count": 10,
           "nums": [
+            "03",
             "17",
+            "21",
             "23",
+            "26",
             "33",
             "35",
+            "41",
             "42"
           ],
           "pool": [
             "39",
             "49",
-            "14",
             "46",
-            "08",
             "30",
-            "05",
-            "45"
+            "08",
+            "14",
+            "09",
+            "05"
           ],
           "poolBasis": "before-window",
           "covered": false,
@@ -22643,141 +23973,175 @@ window.__HISTORY_PATTERN_STATE__ = {
           "year": "2025",
           "start": 256,
           "end": 260,
-          "count": 5,
+          "count": 10,
           "nums": [
+            "01",
             "03",
+            "07",
             "28",
+            "34",
             "38",
             "47",
-            "48"
+            "48",
+            "49"
           ],
           "pool": [
             "39",
             "49",
-            "14",
             "46",
-            "08",
             "30",
-            "05",
-            "45"
+            "08",
+            "14",
+            "09",
+            "35"
           ],
           "poolBasis": "before-window",
-          "covered": false,
-          "hits": []
+          "covered": true,
+          "hits": [
+            "49"
+          ]
         },
         {
           "year": "2025",
           "start": 261,
           "end": 265,
-          "count": 5,
+          "count": 10,
           "nums": [
             "10",
+            "18",
+            "23",
+            "24",
             "33",
             "38",
+            "42",
             "43",
-            "44"
+            "44",
+            "49"
           ],
           "pool": [
             "39",
             "49",
-            "14",
             "46",
-            "08",
             "30",
-            "05",
-            "45"
+            "08",
+            "14",
+            "09",
+            "35"
           ],
           "poolBasis": "before-window",
-          "covered": false,
-          "hits": []
+          "covered": true,
+          "hits": [
+            "49"
+          ]
         },
         {
           "year": "2025",
           "start": 266,
           "end": 270,
-          "count": 5,
+          "count": 10,
           "nums": [
+            "05",
             "10",
+            "25",
             "29",
             "31",
+            "33",
             "35",
             "41"
           ],
           "pool": [
             "39",
             "49",
-            "14",
             "46",
-            "08",
             "30",
-            "05",
-            "45"
+            "08",
+            "14",
+            "09",
+            "35"
           ],
           "poolBasis": "before-window",
-          "covered": false,
-          "hits": []
+          "covered": true,
+          "hits": [
+            "35"
+          ]
         },
         {
           "year": "2025",
           "start": 271,
           "end": 275,
-          "count": 5,
+          "count": 10,
           "nums": [
             "04",
             "06",
+            "14",
+            "34",
             "36",
+            "40",
             "44",
-            "45"
+            "45",
+            "47",
+            "48"
           ],
           "pool": [
             "39",
             "49",
-            "14",
             "46",
-            "08",
             "30",
-            "05",
-            "45"
+            "08",
+            "14",
+            "09",
+            "35"
           ],
           "poolBasis": "before-window",
           "covered": true,
           "hits": [
-            "45"
+            "14"
           ]
         },
         {
           "year": "2025",
           "start": 276,
           "end": 280,
-          "count": 5,
+          "count": 10,
           "nums": [
+            "05",
             "09",
+            "13",
             "16",
+            "22",
             "27",
             "28",
+            "30",
+            "36",
             "42"
           ],
           "pool": [
             "39",
             "49",
-            "14",
             "46",
-            "08",
             "30",
-            "45",
-            "05"
+            "08",
+            "14",
+            "09",
+            "35"
           ],
           "poolBasis": "before-window",
-          "covered": false,
-          "hits": []
+          "covered": true,
+          "hits": [
+            "09",
+            "30"
+          ]
         },
         {
           "year": "2025",
           "start": 281,
           "end": 285,
-          "count": 5,
+          "count": 10,
           "nums": [
+            "15",
+            "16",
             "24",
+            "40",
             "41",
             "45",
             "47"
@@ -22785,39 +24149,42 @@ window.__HISTORY_PATTERN_STATE__ = {
           "pool": [
             "39",
             "49",
-            "14",
+            "30",
             "46",
             "08",
-            "30",
-            "45",
-            "05"
+            "14",
+            "09",
+            "35"
           ],
           "poolBasis": "before-window",
-          "covered": true,
-          "hits": [
-            "45"
-          ]
+          "covered": false,
+          "hits": []
         },
         {
           "year": "2025",
           "start": 286,
           "end": 290,
-          "count": 5,
+          "count": 10,
           "nums": [
+            "01",
             "03",
+            "10",
             "14",
+            "16",
             "19",
             "34",
-            "42"
+            "38",
+            "42",
+            "47"
           ],
           "pool": [
             "39",
             "49",
-            "14",
-            "46",
-            "08",
             "30",
             "45",
+            "46",
+            "08",
+            "14",
             "05"
           ],
           "poolBasis": "before-window",
@@ -22830,22 +24197,26 @@ window.__HISTORY_PATTERN_STATE__ = {
           "year": "2025",
           "start": 291,
           "end": 295,
-          "count": 5,
+          "count": 10,
           "nums": [
             "02",
             "05",
+            "12",
             "18",
+            "20",
+            "24",
+            "41",
             "44",
             "47"
           ],
           "pool": [
             "39",
             "49",
-            "14",
-            "46",
-            "08",
             "30",
             "45",
+            "46",
+            "08",
+            "14",
             "05"
           ],
           "poolBasis": "before-window",
@@ -22858,10 +24229,14 @@ window.__HISTORY_PATTERN_STATE__ = {
           "year": "2025",
           "start": 296,
           "end": 300,
-          "count": 5,
+          "count": 10,
           "nums": [
+            "09",
+            "11",
+            "13",
             "22",
             "23",
+            "35",
             "40",
             "44",
             "49"
@@ -22869,12 +24244,12 @@ window.__HISTORY_PATTERN_STATE__ = {
           "pool": [
             "39",
             "49",
-            "14",
-            "46",
-            "08",
             "30",
             "45",
-            "05"
+            "05",
+            "14",
+            "08",
+            "31"
           ],
           "poolBasis": "before-window",
           "covered": true,
@@ -22886,23 +24261,27 @@ window.__HISTORY_PATTERN_STATE__ = {
           "year": "2025",
           "start": 301,
           "end": 305,
-          "count": 5,
+          "count": 10,
           "nums": [
             "05",
+            "10",
+            "11",
             "15",
             "22",
+            "27",
+            "33",
             "42",
             "48"
           ],
           "pool": [
             "39",
             "49",
-            "14",
-            "46",
-            "08",
             "30",
             "45",
-            "05"
+            "05",
+            "14",
+            "08",
+            "31"
           ],
           "poolBasis": "before-window",
           "covered": true,
@@ -22914,23 +24293,28 @@ window.__HISTORY_PATTERN_STATE__ = {
           "year": "2025",
           "start": 306,
           "end": 310,
-          "count": 5,
+          "count": 10,
           "nums": [
+            "01",
             "06",
             "16",
             "17",
             "20",
-            "39"
+            "21",
+            "39",
+            "42",
+            "44",
+            "46"
           ],
           "pool": [
             "39",
             "49",
-            "14",
-            "05",
-            "46",
-            "08",
             "30",
-            "45"
+            "45",
+            "05",
+            "14",
+            "08",
+            "31"
           ],
           "poolBasis": "before-window",
           "covered": true,
@@ -22942,10 +24326,12 @@ window.__HISTORY_PATTERN_STATE__ = {
           "year": "2025",
           "start": 311,
           "end": 315,
-          "count": 5,
+          "count": 10,
           "nums": [
+            "01",
             "04",
             "14",
+            "15",
             "23",
             "37",
             "38"
@@ -22953,12 +24339,12 @@ window.__HISTORY_PATTERN_STATE__ = {
           "pool": [
             "39",
             "49",
-            "14",
-            "05",
-            "46",
-            "08",
             "30",
-            "45"
+            "45",
+            "05",
+            "14",
+            "08",
+            "31"
           ],
           "poolBasis": "before-window",
           "covered": true,
@@ -22970,23 +24356,28 @@ window.__HISTORY_PATTERN_STATE__ = {
           "year": "2025",
           "start": 316,
           "end": 320,
-          "count": 5,
+          "count": 10,
           "nums": [
+            "04",
             "06",
+            "09",
+            "10",
             "18",
             "24",
             "28",
-            "45"
+            "41",
+            "45",
+            "46"
           ],
           "pool": [
             "39",
             "49",
-            "14",
-            "05",
-            "46",
-            "08",
             "30",
-            "45"
+            "45",
+            "05",
+            "14",
+            "08",
+            "31"
           ],
           "poolBasis": "before-window",
           "covered": true,
@@ -22998,23 +24389,59 @@ window.__HISTORY_PATTERN_STATE__ = {
           "year": "2025",
           "start": 321,
           "end": 325,
-          "count": 5,
+          "count": 10,
           "nums": [
             "04",
+            "07",
             "09",
             "15",
+            "17",
             "23",
+            "34",
+            "40",
             "47"
           ],
           "pool": [
             "39",
             "49",
+            "46",
+            "30",
             "14",
-            "06",
-            "48",
+            "08",
             "05",
+            "09"
+          ],
+          "poolBasis": "before-window",
+          "covered": true,
+          "hits": [
+            "09"
+          ]
+        },
+        {
+          "year": "2025",
+          "start": 326,
+          "end": 330,
+          "count": 10,
+          "nums": [
             "03",
-            "02"
+            "10",
+            "11",
+            "15",
+            "17",
+            "19",
+            "27",
+            "36",
+            "37"
+          ],
+          "pool": [
+            "39",
+            "49",
+            "46",
+            "30",
+            "47",
+            "08",
+            "14",
+            "09"
           ],
           "poolBasis": "before-window",
           "covered": false,
@@ -23022,142 +24449,132 @@ window.__HISTORY_PATTERN_STATE__ = {
         },
         {
           "year": "2025",
-          "start": 326,
-          "end": 330,
-          "count": 5,
-          "nums": [
-            "03",
-            "17",
-            "19",
-            "36",
-            "37"
-          ],
-          "pool": [
-            "39",
-            "49",
-            "14",
-            "06",
-            "48",
-            "05",
-            "03",
-            "09"
-          ],
-          "poolBasis": "before-window",
-          "covered": true,
-          "hits": [
-            "03"
-          ]
-        },
-        {
-          "year": "2025",
           "start": 331,
           "end": 335,
-          "count": 5,
+          "count": 10,
           "nums": [
+            "03",
             "06",
+            "08",
+            "14",
             "26",
+            "41",
             "44",
             "46"
           ],
           "pool": [
             "39",
             "49",
+            "46",
+            "30",
+            "47",
+            "08",
             "14",
-            "06",
-            "48",
-            "05",
-            "03",
             "09"
           ],
           "poolBasis": "before-window",
           "covered": true,
           "hits": [
-            "06"
+            "08",
+            "14",
+            "46"
           ]
         },
         {
           "year": "2025",
           "start": 336,
           "end": 340,
-          "count": 5,
+          "count": 10,
           "nums": [
+            "03",
             "08",
             "09",
             "16",
             "17",
-            "48"
+            "28",
+            "43",
+            "48",
+            "49"
           ],
           "pool": [
             "39",
             "49",
+            "46",
+            "30",
             "14",
-            "06",
-            "48",
+            "08",
             "05",
-            "03",
             "09"
           ],
           "poolBasis": "before-window",
           "covered": true,
           "hits": [
+            "08",
             "09",
-            "48"
+            "49"
           ]
         },
         {
           "year": "2025",
           "start": 341,
           "end": 345,
-          "count": 5,
+          "count": 10,
           "nums": [
             "04",
             "06",
+            "11",
             "24",
+            "25",
             "27",
-            "38"
+            "32",
+            "38",
+            "44",
+            "45"
           ],
           "pool": [
             "39",
             "49",
+            "46",
+            "30",
             "14",
-            "06",
-            "48",
+            "08",
             "05",
-            "03",
             "09"
           ],
           "poolBasis": "before-window",
-          "covered": true,
-          "hits": [
-            "06"
-          ]
+          "covered": false,
+          "hits": []
         },
         {
           "year": "2025",
           "start": 346,
           "end": 350,
-          "count": 5,
+          "count": 10,
           "nums": [
+            "02",
             "03",
+            "06",
             "13",
             "16",
             "22",
+            "40",
+            "45",
             "49"
           ],
           "pool": [
             "39",
             "49",
+            "46",
+            "30",
+            "45",
+            "20",
             "14",
-            "06",
-            "48",
-            "05",
-            "03",
-            "09"
+            "05"
           ],
           "poolBasis": "before-window",
           "covered": true,
           "hits": [
-            "03",
+            "45",
             "49"
           ]
         },
@@ -23165,27 +24582,31 @@ window.__HISTORY_PATTERN_STATE__ = {
           "year": "2025",
           "start": 351,
           "end": 355,
-          "count": 5,
+          "count": 6,
           "nums": [
             "01",
             "04",
             "08",
+            "14",
             "30",
             "44"
           ],
           "pool": [
             "39",
             "49",
+            "46",
+            "30",
+            "45",
+            "20",
             "14",
-            "06",
-            "48",
-            "05",
-            "03",
-            "09"
+            "05"
           ],
           "poolBasis": "before-window",
-          "covered": false,
-          "hits": []
+          "covered": true,
+          "hits": [
+            "14",
+            "30"
+          ]
         },
         {
           "year": "2025",
@@ -23202,12 +24623,12 @@ window.__HISTORY_PATTERN_STATE__ = {
           "pool": [
             "39",
             "49",
+            "46",
+            "30",
+            "45",
+            "20",
             "14",
-            "06",
-            "48",
-            "05",
-            "03",
-            "08"
+            "05"
           ],
           "poolBasis": "before-window",
           "covered": true,
@@ -23227,14 +24648,14 @@ window.__HISTORY_PATTERN_STATE__ = {
             "26"
           ],
           "pool": [
-            "39",
             "49",
+            "39",
+            "46",
+            "30",
+            "45",
+            "20",
             "14",
-            "06",
-            "48",
-            "05",
-            "03",
-            "08"
+            "05"
           ],
           "poolBasis": "before-window",
           "covered": false,
@@ -23246,21 +24667,21 @@ window.__HISTORY_PATTERN_STATE__ = {
           "end": 5,
           "count": 5,
           "nums": [
+            "02",
             "09",
-            "22",
-            "29",
-            "43",
-            "45"
+            "10",
+            "11",
+            "24"
           ],
           "pool": [
-            "39",
             "49",
+            "39",
+            "46",
+            "30",
+            "45",
+            "20",
             "14",
-            "06",
-            "48",
-            "05",
-            "03",
-            "08"
+            "05"
           ],
           "poolBasis": "before-window",
           "covered": false,
@@ -23272,21 +24693,20 @@ window.__HISTORY_PATTERN_STATE__ = {
           "end": 10,
           "count": 5,
           "nums": [
-            "13",
+            "04",
+            "19",
             "21",
-            "27",
-            "28",
-            "41"
+            "37"
           ],
           "pool": [
-            "39",
             "49",
-            "14",
-            "06",
-            "48",
-            "05",
-            "03",
-            "09"
+            "39",
+            "46",
+            "30",
+            "11",
+            "47",
+            "35",
+            "08"
           ],
           "poolBasis": "before-window",
           "covered": false,
@@ -23298,24 +24718,27 @@ window.__HISTORY_PATTERN_STATE__ = {
           "end": 15,
           "count": 5,
           "nums": [
-            "01",
-            "11",
-            "26",
-            "31"
+            "27",
+            "28",
+            "32",
+            "41",
+            "49"
           ],
           "pool": [
-            "39",
             "49",
-            "14",
-            "06",
-            "48",
-            "05",
-            "03",
-            "09"
+            "39",
+            "46",
+            "30",
+            "11",
+            "47",
+            "35",
+            "08"
           ],
           "poolBasis": "before-window",
-          "covered": false,
-          "hits": []
+          "covered": true,
+          "hits": [
+            "49"
+          ]
         },
         {
           "year": "2026",
@@ -23323,27 +24746,25 @@ window.__HISTORY_PATTERN_STATE__ = {
           "end": 20,
           "count": 5,
           "nums": [
-            "06",
-            "12",
-            "32",
-            "39",
-            "46"
+            "16",
+            "38",
+            "40",
+            "47"
           ],
           "pool": [
-            "39",
             "49",
-            "14",
-            "06",
-            "48",
-            "01",
-            "05",
-            "09"
+            "39",
+            "46",
+            "30",
+            "11",
+            "47",
+            "35",
+            "08"
           ],
           "poolBasis": "before-window",
           "covered": true,
           "hits": [
-            "06",
-            "39"
+            "47"
           ]
         },
         {
@@ -23352,25 +24773,27 @@ window.__HISTORY_PATTERN_STATE__ = {
           "end": 25,
           "count": 5,
           "nums": [
-            "18",
-            "28",
-            "37",
-            "42",
-            "47"
+            "09",
+            "10",
+            "16",
+            "34",
+            "35"
           ],
           "pool": [
-            "39",
             "49",
-            "14",
-            "06",
-            "48",
-            "01",
-            "05",
-            "09"
+            "39",
+            "46",
+            "30",
+            "47",
+            "11",
+            "35",
+            "08"
           ],
           "poolBasis": "before-window",
-          "covered": false,
-          "hits": []
+          "covered": true,
+          "hits": [
+            "35"
+          ]
         },
         {
           "year": "2026",
@@ -23378,26 +24801,27 @@ window.__HISTORY_PATTERN_STATE__ = {
           "end": 30,
           "count": 5,
           "nums": [
-            "01",
-            "03",
-            "19",
-            "41",
-            "45"
+            "02",
+            "29",
+            "30",
+            "38",
+            "46"
           ],
           "pool": [
-            "39",
             "49",
-            "14",
-            "06",
-            "48",
-            "01",
-            "05",
-            "09"
+            "39",
+            "46",
+            "30",
+            "47",
+            "11",
+            "35",
+            "08"
           ],
           "poolBasis": "before-window",
           "covered": true,
           "hits": [
-            "01"
+            "30",
+            "46"
           ]
         },
         {
@@ -23406,26 +24830,26 @@ window.__HISTORY_PATTERN_STATE__ = {
           "end": 35,
           "count": 5,
           "nums": [
-            "06",
-            "19",
-            "26",
-            "27",
-            "41"
+            "04",
+            "08",
+            "24",
+            "29",
+            "34"
           ],
           "pool": [
-            "39",
             "49",
-            "14",
-            "06",
-            "48",
-            "01",
-            "05",
-            "09"
+            "39",
+            "46",
+            "30",
+            "47",
+            "11",
+            "35",
+            "08"
           ],
           "poolBasis": "before-window",
           "covered": true,
           "hits": [
-            "06"
+            "08"
           ]
         },
         {
@@ -23434,21 +24858,21 @@ window.__HISTORY_PATTERN_STATE__ = {
           "end": 40,
           "count": 5,
           "nums": [
-            "01",
-            "11",
-            "28",
-            "42",
-            "43"
+            "20",
+            "24",
+            "33",
+            "34",
+            "36"
           ],
           "pool": [
-            "39",
             "49",
-            "06",
-            "03",
-            "48",
-            "14",
-            "05",
-            "09"
+            "39",
+            "46",
+            "30",
+            "47",
+            "11",
+            "35",
+            "08"
           ],
           "poolBasis": "before-window",
           "covered": false,
@@ -23458,23 +24882,22 @@ window.__HISTORY_PATTERN_STATE__ = {
           "year": "2026",
           "start": 41,
           "end": 45,
-          "count": 5,
+          "count": 6,
           "nums": [
             "01",
-            "13",
-            "16",
             "19",
-            "36"
+            "25",
+            "28"
           ],
           "pool": [
-            "39",
             "49",
-            "06",
-            "03",
-            "48",
-            "14",
-            "05",
-            "09"
+            "39",
+            "46",
+            "30",
+            "47",
+            "11",
+            "35",
+            "08"
           ],
           "poolBasis": "before-window",
           "covered": false,
@@ -23484,28 +24907,33 @@ window.__HISTORY_PATTERN_STATE__ = {
           "year": "2026",
           "start": 46,
           "end": 50,
-          "count": 5,
+          "count": 10,
           "nums": [
             "03",
             "13",
+            "14",
+            "17",
             "23",
             "24",
+            "25",
+            "28",
+            "35",
             "39"
           ],
           "pool": [
-            "39",
             "49",
-            "06",
-            "03",
-            "48",
-            "14",
-            "05",
-            "01"
+            "39",
+            "46",
+            "30",
+            "47",
+            "11",
+            "35",
+            "08"
           ],
           "poolBasis": "before-window",
           "covered": true,
           "hits": [
-            "03",
+            "35",
             "39"
           ]
         },
@@ -23513,165 +24941,94 @@ window.__HISTORY_PATTERN_STATE__ = {
           "year": "2026",
           "start": 51,
           "end": 55,
-          "count": 5,
+          "count": 10,
           "nums": [
             "01",
+            "08",
             "14",
             "15",
+            "16",
+            "23",
+            "27",
             "38",
+            "39",
             "48"
           ],
           "pool": [
-            "39",
             "49",
-            "06",
-            "03",
-            "48",
-            "14",
-            "05",
-            "01"
+            "39",
+            "46",
+            "30",
+            "47",
+            "11",
+            "35",
+            "08"
           ],
           "poolBasis": "before-window",
           "covered": true,
           "hits": [
-            "01",
-            "14",
-            "48"
+            "08",
+            "39"
           ]
         },
         {
           "year": "2026",
           "start": 56,
           "end": 60,
-          "count": 5,
+          "count": 10,
           "nums": [
+            "01",
             "09",
             "10",
+            "20",
             "23",
             "31",
+            "39",
+            "43",
             "48"
           ],
           "pool": [
             "39",
             "49",
+            "46",
+            "30",
+            "47",
+            "08",
             "14",
-            "06",
-            "48",
-            "01",
-            "05",
             "09"
           ],
           "poolBasis": "before-window",
           "covered": true,
           "hits": [
             "09",
-            "48"
+            "39"
           ]
         },
         {
           "year": "2026",
           "start": 61,
           "end": 65,
-          "count": 5,
+          "count": 10,
           "nums": [
             "05",
+            "07",
+            "13",
             "18",
             "24",
             "28",
-            "29"
-          ],
-          "pool": [
-            "39",
-            "49",
-            "14",
-            "06",
-            "48",
-            "01",
-            "05",
-            "09"
-          ],
-          "poolBasis": "before-window",
-          "covered": true,
-          "hits": [
-            "05"
-          ]
-        },
-        {
-          "year": "2026",
-          "start": 66,
-          "end": 70,
-          "count": 5,
-          "nums": [
-            "05",
-            "23",
-            "24",
-            "25",
-            "37"
-          ],
-          "pool": [
-            "39",
-            "49",
-            "14",
-            "06",
-            "48",
-            "01",
-            "05",
-            "09"
-          ],
-          "poolBasis": "before-window",
-          "covered": true,
-          "hits": [
-            "05"
-          ]
-        },
-        {
-          "year": "2026",
-          "start": 71,
-          "end": 75,
-          "count": 5,
-          "nums": [
-            "10",
-            "33",
-            "34",
-            "46",
-            "48"
-          ],
-          "pool": [
-            "39",
-            "49",
-            "14",
-            "06",
-            "48",
-            "01",
-            "05",
-            "09"
-          ],
-          "poolBasis": "before-window",
-          "covered": true,
-          "hits": [
-            "48"
-          ]
-        },
-        {
-          "year": "2026",
-          "start": 76,
-          "end": 80,
-          "count": 5,
-          "nums": [
-            "02",
-            "03",
             "29",
-            "35",
-            "46"
+            "38",
+            "40",
+            "48"
           ],
           "pool": [
             "39",
             "49",
+            "46",
+            "30",
+            "47",
+            "08",
             "14",
-            "06",
-            "48",
-            "01",
-            "05",
             "09"
           ],
           "poolBasis": "before-window",
@@ -23680,57 +25037,163 @@ window.__HISTORY_PATTERN_STATE__ = {
         },
         {
           "year": "2026",
-          "start": 81,
-          "end": 85,
-          "count": 5,
+          "start": 66,
+          "end": 70,
+          "count": 10,
           "nums": [
+            "01",
             "05",
-            "16",
-            "17",
-            "19",
-            "27"
+            "23",
+            "24",
+            "25",
+            "37",
+            "39",
+            "43"
           ],
           "pool": [
             "39",
             "49",
+            "46",
+            "30",
+            "47",
+            "08",
             "14",
-            "06",
-            "48",
-            "01",
-            "05",
-            "03"
+            "09"
           ],
           "poolBasis": "before-window",
           "covered": true,
           "hits": [
-            "05"
+            "39"
+          ]
+        },
+        {
+          "year": "2026",
+          "start": 71,
+          "end": 75,
+          "count": 10,
+          "nums": [
+            "03",
+            "10",
+            "15",
+            "19",
+            "23",
+            "33",
+            "34",
+            "42",
+            "46",
+            "48"
+          ],
+          "pool": [
+            "39",
+            "49",
+            "46",
+            "30",
+            "47",
+            "08",
+            "14",
+            "09"
+          ],
+          "poolBasis": "before-window",
+          "covered": true,
+          "hits": [
+            "46"
+          ]
+        },
+        {
+          "year": "2026",
+          "start": 76,
+          "end": 80,
+          "count": 10,
+          "nums": [
+            "01",
+            "02",
+            "03",
+            "27",
+            "29",
+            "35",
+            "38",
+            "39",
+            "45",
+            "46"
+          ],
+          "pool": [
+            "39",
+            "49",
+            "46",
+            "30",
+            "47",
+            "08",
+            "14",
+            "09"
+          ],
+          "poolBasis": "before-window",
+          "covered": true,
+          "hits": [
+            "39",
+            "46"
+          ]
+        },
+        {
+          "year": "2026",
+          "start": 81,
+          "end": 85,
+          "count": 10,
+          "nums": [
+            "05",
+            "14",
+            "16",
+            "17",
+            "19",
+            "27",
+            "38",
+            "43"
+          ],
+          "pool": [
+            "39",
+            "49",
+            "46",
+            "30",
+            "47",
+            "08",
+            "14",
+            "09"
+          ],
+          "poolBasis": "before-window",
+          "covered": true,
+          "hits": [
+            "14"
           ]
         },
         {
           "year": "2026",
           "start": 86,
           "end": 90,
-          "count": 5,
+          "count": 10,
           "nums": [
+            "03",
             "12",
+            "18",
+            "22",
             "26",
             "27",
             "36",
+            "46",
             "49"
           ],
           "pool": [
             "39",
             "49",
+            "46",
+            "30",
             "14",
-            "06",
-            "48",
-            "01",
-            "05",
-            "03"
+            "08",
+            "09",
+            "05"
           ],
           "poolBasis": "before-window",
           "covered": true,
           "hits": [
+            "46",
             "49"
           ]
         },
@@ -23738,111 +25201,134 @@ window.__HISTORY_PATTERN_STATE__ = {
           "year": "2026",
           "start": 91,
           "end": 95,
-          "count": 5,
+          "count": 10,
           "nums": [
             "06",
             "17",
+            "20",
+            "26",
             "35",
             "37",
-            "40"
+            "38",
+            "39",
+            "40",
+            "48"
           ],
           "pool": [
             "39",
             "49",
+            "46",
+            "30",
             "14",
-            "06",
-            "48",
-            "01",
-            "05",
-            "03"
+            "08",
+            "09",
+            "05"
           ],
           "poolBasis": "before-window",
           "covered": true,
           "hits": [
-            "06"
+            "39"
           ]
         },
         {
           "year": "2026",
           "start": 96,
           "end": 100,
-          "count": 5,
+          "count": 10,
           "nums": [
+            "08",
             "11",
             "12",
+            "13",
             "17",
+            "18",
+            "20",
             "33",
+            "39",
             "43"
           ],
           "pool": [
             "39",
             "49",
-            "06",
-            "48",
-            "03",
-            "05",
+            "46",
+            "30",
             "14",
-            "01"
+            "08",
+            "09",
+            "05"
           ],
           "poolBasis": "before-window",
-          "covered": false,
-          "hits": []
+          "covered": true,
+          "hits": [
+            "08",
+            "39"
+          ]
         },
         {
           "year": "2026",
           "start": 101,
           "end": 105,
-          "count": 5,
+          "count": 10,
           "nums": [
             "01",
             "06",
             "20",
             "28",
-            "39"
+            "34",
+            "37",
+            "39",
+            "45",
+            "46",
+            "48"
           ],
           "pool": [
             "39",
             "49",
-            "06",
-            "48",
-            "03",
-            "05",
+            "46",
+            "30",
             "14",
-            "01"
+            "08",
+            "09",
+            "05"
           ],
           "poolBasis": "before-window",
           "covered": true,
           "hits": [
-            "01",
-            "06",
-            "39"
+            "39",
+            "46"
           ]
         },
         {
           "year": "2026",
           "start": 106,
           "end": 110,
-          "count": 5,
+          "count": 10,
           "nums": [
+            "08",
+            "13",
             "16",
             "22",
             "30",
+            "32",
+            "36",
             "45",
             "49"
           ],
           "pool": [
             "39",
             "49",
-            "06",
-            "48",
-            "03",
-            "05",
+            "46",
+            "30",
             "14",
-            "01"
+            "08",
+            "09",
+            "05"
           ],
           "poolBasis": "before-window",
           "covered": true,
           "hits": [
+            "08",
+            "30",
             "49"
           ]
         },
@@ -23850,108 +25336,127 @@ window.__HISTORY_PATTERN_STATE__ = {
           "year": "2026",
           "start": 111,
           "end": 115,
-          "count": 5,
+          "count": 10,
           "nums": [
             "01",
             "02",
             "04",
+            "05",
             "09",
-            "30"
+            "12",
+            "30",
+            "40"
           ],
           "pool": [
             "39",
             "49",
-            "06",
-            "48",
-            "03",
-            "05",
+            "46",
+            "30",
             "14",
-            "01"
+            "08",
+            "09",
+            "05"
           ],
           "poolBasis": "before-window",
           "covered": true,
           "hits": [
-            "01"
+            "05",
+            "09",
+            "30"
           ]
         },
         {
           "year": "2026",
           "start": 116,
           "end": 120,
-          "count": 5,
+          "count": 10,
           "nums": [
             "06",
             "08",
+            "09",
             "11",
+            "15",
             "16",
-            "22"
+            "22",
+            "27",
+            "35",
+            "43"
           ],
           "pool": [
             "39",
             "49",
-            "06",
-            "48",
-            "03",
-            "05",
+            "46",
+            "30",
             "14",
-            "01"
+            "08",
+            "09",
+            "05"
           ],
           "poolBasis": "before-window",
           "covered": true,
           "hits": [
-            "06"
+            "08",
+            "09"
           ]
         },
         {
           "year": "2026",
           "start": 121,
           "end": 125,
-          "count": 5,
+          "count": 10,
           "nums": [
             "01",
+            "07",
+            "14",
             "31",
+            "37",
             "39",
+            "42",
             "44",
             "46"
           ],
           "pool": [
             "39",
             "49",
-            "06",
-            "48",
-            "03",
-            "05",
-            "14",
-            "01"
+            "46",
+            "30",
+            "11",
+            "47",
+            "35",
+            "08"
           ],
           "poolBasis": "before-window",
           "covered": true,
           "hits": [
-            "01",
-            "39"
+            "39",
+            "46"
           ]
         },
         {
           "year": "2026",
           "start": 126,
           "end": 130,
-          "count": 5,
+          "count": 10,
           "nums": [
+            "03",
+            "10",
             "29",
             "37",
+            "38",
             "41",
+            "43",
             "45",
             "49"
           ],
           "pool": [
             "39",
             "49",
-            "06",
-            "48",
-            "03",
-            "05",
-            "14",
-            "01"
+            "46",
+            "30",
+            "11",
+            "47",
+            "35",
+            "08"
           ],
           "poolBasis": "before-window",
           "covered": true,
@@ -23963,52 +25468,65 @@ window.__HISTORY_PATTERN_STATE__ = {
           "year": "2026",
           "start": 131,
           "end": 135,
-          "count": 5,
+          "count": 10,
           "nums": [
             "07",
+            "13",
+            "16",
+            "20",
             "30",
-            "37"
+            "32",
+            "37",
+            "49"
           ],
           "pool": [
             "39",
             "49",
-            "06",
-            "48",
-            "03",
-            "05",
-            "14",
-            "01"
+            "46",
+            "30",
+            "11",
+            "47",
+            "35",
+            "08"
           ],
           "poolBasis": "before-window",
-          "covered": false,
-          "hits": []
+          "covered": true,
+          "hits": [
+            "30",
+            "49"
+          ]
         },
         {
           "year": "2026",
           "start": 136,
           "end": 140,
-          "count": 5,
+          "count": 10,
           "nums": [
+            "08",
             "16",
             "24",
             "26",
+            "37",
+            "39",
+            "40",
             "48",
             "49"
           ],
           "pool": [
             "39",
             "49",
-            "06",
-            "48",
-            "03",
-            "05",
-            "14",
-            "01"
+            "46",
+            "30",
+            "11",
+            "47",
+            "35",
+            "08"
           ],
           "poolBasis": "before-window",
           "covered": true,
           "hits": [
-            "48",
+            "08",
+            "39",
             "49"
           ]
         },
@@ -24016,78 +25534,28 @@ window.__HISTORY_PATTERN_STATE__ = {
           "year": "2026",
           "start": 141,
           "end": 145,
-          "count": 5,
+          "count": 10,
           "nums": [
+            "04",
             "05",
+            "06",
+            "10",
             "23",
+            "31",
             "33",
+            "38",
             "43",
             "44"
           ],
           "pool": [
             "39",
             "49",
-            "06",
-            "48",
-            "03",
-            "05",
-            "14",
-            "01"
-          ],
-          "poolBasis": "before-window",
-          "covered": true,
-          "hits": [
-            "05"
-          ]
-        },
-        {
-          "year": "2026",
-          "start": 146,
-          "end": 150,
-          "count": 5,
-          "nums": [
-            "09",
-            "13",
-            "27",
-            "42",
-            "48"
-          ],
-          "pool": [
-            "39",
-            "49",
-            "06",
-            "48",
-            "03",
-            "05",
-            "14",
-            "01"
-          ],
-          "poolBasis": "before-window",
-          "covered": true,
-          "hits": [
-            "48"
-          ]
-        },
-        {
-          "year": "2026",
-          "start": 151,
-          "end": 155,
-          "count": 5,
-          "nums": [
-            "07",
-            "31",
-            "41",
-            "45"
-          ],
-          "pool": [
-            "39",
-            "49",
-            "06",
-            "48",
-            "03",
-            "05",
-            "14",
-            "01"
+            "46",
+            "30",
+            "11",
+            "47",
+            "35",
+            "08"
           ],
           "poolBasis": "before-window",
           "covered": false,
@@ -24095,96 +25563,176 @@ window.__HISTORY_PATTERN_STATE__ = {
         },
         {
           "year": "2026",
-          "start": 156,
-          "end": 160,
-          "count": 5,
+          "start": 146,
+          "end": 150,
+          "count": 10,
           "nums": [
             "01",
-            "02",
-            "16",
-            "39",
-            "40"
+            "06",
+            "09",
+            "13",
+            "27",
+            "31",
+            "38",
+            "42",
+            "48"
           ],
           "pool": [
             "39",
             "49",
-            "06",
-            "48",
-            "03",
+            "46",
             "05",
             "14",
-            "01"
+            "09",
+            "08",
+            "30"
+          ],
+          "poolBasis": "before-window",
+          "covered": true,
+          "hits": [
+            "09"
+          ]
+        },
+        {
+          "year": "2026",
+          "start": 151,
+          "end": 155,
+          "count": 10,
+          "nums": [
+            "07",
+            "10",
+            "31",
+            "35",
+            "37",
+            "41",
+            "45"
+          ],
+          "pool": [
+            "39",
+            "49",
+            "46",
+            "01",
+            "11",
+            "10",
+            "09",
+            "08"
+          ],
+          "poolBasis": "before-window",
+          "covered": true,
+          "hits": [
+            "10"
+          ]
+        },
+        {
+          "year": "2026",
+          "start": 156,
+          "end": 160,
+          "count": 10,
+          "nums": [
+            "01",
+            "02",
+            "16",
+            "26",
+            "29",
+            "39",
+            "40",
+            "49"
+          ],
+          "pool": [
+            "39",
+            "49",
+            "46",
+            "01",
+            "11",
+            "10",
+            "09",
+            "08"
           ],
           "poolBasis": "before-window",
           "covered": true,
           "hits": [
             "01",
-            "39"
+            "39",
+            "49"
           ]
         },
         {
           "year": "2026",
           "start": 161,
           "end": 165,
-          "count": 5,
+          "count": 10,
           "nums": [
             "03",
             "08",
+            "18",
             "21",
+            "22",
             "32",
-            "37"
+            "37",
+            "39",
+            "49"
           ],
           "pool": [
             "39",
             "49",
-            "06",
-            "48",
-            "03",
-            "05",
-            "14",
-            "01"
+            "46",
+            "01",
+            "11",
+            "10",
+            "09",
+            "08"
           ],
           "poolBasis": "before-window",
           "covered": true,
           "hits": [
-            "03"
+            "08",
+            "39",
+            "49"
           ]
         },
         {
           "year": "2026",
           "start": 166,
           "end": 170,
-          "count": 5,
+          "count": 10,
           "nums": [
             "03",
             "06",
+            "08",
             "15",
+            "18",
             "19",
-            "24"
+            "24",
+            "30",
+            "43"
           ],
           "pool": [
             "39",
             "49",
-            "06",
-            "48",
-            "03",
-            "05",
-            "14",
-            "01"
+            "46",
+            "01",
+            "11",
+            "10",
+            "09",
+            "08"
           ],
           "poolBasis": "before-window",
           "covered": true,
           "hits": [
-            "03",
-            "06"
+            "08"
           ]
         },
         {
           "year": "2026",
           "start": 171,
           "end": 175,
-          "count": 5,
+          "count": 10,
           "nums": [
+            "01",
+            "15",
+            "16",
+            "18",
+            "22",
             "26",
             "28",
             "41",
@@ -24193,12 +25741,12 @@ window.__HISTORY_PATTERN_STATE__ = {
           "pool": [
             "39",
             "49",
+            "30",
             "06",
-            "48",
-            "03",
             "05",
-            "14",
-            "01"
+            "03",
+            "09",
+            "08"
           ],
           "poolBasis": "before-window",
           "covered": false,
@@ -24208,37 +25756,40 @@ window.__HISTORY_PATTERN_STATE__ = {
           "year": "2026",
           "start": 176,
           "end": 180,
-          "count": 5,
+          "count": 10,
           "nums": [
             "10",
+            "12",
             "14",
             "15",
             "18",
-            "21"
+            "21",
+            "29",
+            "37"
           ],
           "pool": [
             "39",
             "49",
+            "30",
             "06",
-            "48",
-            "03",
             "05",
-            "14",
-            "41"
+            "03",
+            "09",
+            "28"
           ],
           "poolBasis": "before-window",
-          "covered": true,
-          "hits": [
-            "14"
-          ]
+          "covered": false,
+          "hits": []
         },
         {
           "year": "2026",
           "start": 181,
           "end": 185,
-          "count": 5,
+          "count": 10,
           "nums": [
             "01",
+            "06",
+            "10",
             "19",
             "24",
             "36",
@@ -24247,93 +25798,111 @@ window.__HISTORY_PATTERN_STATE__ = {
           "pool": [
             "39",
             "49",
+            "30",
             "06",
-            "48",
-            "03",
             "05",
-            "14",
-            "41"
+            "03",
+            "09",
+            "28"
           ],
           "poolBasis": "before-window",
           "covered": true,
           "hits": [
-            "41"
+            "06"
           ]
         },
         {
           "year": "2026",
           "start": 186,
           "end": 190,
-          "count": 5,
+          "count": 10,
           "nums": [
             "01",
+            "06",
             "15",
             "16",
-            "23"
+            "18",
+            "23",
+            "27",
+            "40"
           ],
           "pool": [
             "39",
             "49",
+            "30",
             "06",
-            "48",
-            "03",
             "05",
-            "14",
-            "41"
+            "03",
+            "09",
+            "28"
           ],
           "poolBasis": "before-window",
-          "covered": false,
-          "hits": []
+          "covered": true,
+          "hits": [
+            "06"
+          ]
         },
         {
           "year": "2026",
           "start": 191,
           "end": 195,
-          "count": 5,
+          "count": 10,
           "nums": [
+            "02",
             "09",
+            "12",
+            "18",
             "25",
             "26",
-            "29"
+            "29",
+            "37"
           ],
           "pool": [
             "39",
             "49",
-            "01",
+            "30",
             "06",
-            "48",
-            "14",
             "05",
-            "03"
+            "03",
+            "09",
+            "28"
           ],
           "poolBasis": "before-window",
-          "covered": false,
-          "hits": []
+          "covered": true,
+          "hits": [
+            "09"
+          ]
         },
         {
           "year": "2026",
           "start": 196,
           "end": 200,
-          "count": 5,
+          "count": 10,
           "nums": [
+            "06",
             "07",
             "08",
+            "18",
             "36",
-            "39"
+            "39",
+            "42",
+            "43",
+            "44"
           ],
           "pool": [
             "39",
             "49",
-            "01",
+            "30",
             "06",
-            "48",
-            "14",
             "05",
-            "03"
+            "03",
+            "09",
+            "28"
           ],
           "poolBasis": "before-window",
           "covered": true,
           "hits": [
+            "06",
             "39"
           ]
         },
@@ -24341,23 +25910,27 @@ window.__HISTORY_PATTERN_STATE__ = {
           "year": "2026",
           "start": 201,
           "end": 205,
-          "count": 5,
+          "count": 10,
           "nums": [
             "03",
             "05",
+            "17",
+            "24",
             "25",
             "32",
-            "40"
+            "40",
+            "44",
+            "46"
           ],
           "pool": [
             "39",
             "49",
-            "01",
+            "30",
             "06",
-            "48",
-            "14",
             "05",
-            "03"
+            "03",
+            "09",
+            "28"
           ],
           "poolBasis": "before-window",
           "covered": true,
@@ -24370,27 +25943,34 @@ window.__HISTORY_PATTERN_STATE__ = {
           "year": "2026",
           "start": 206,
           "end": 210,
-          "count": 5,
+          "count": 10,
           "nums": [
+            "03",
+            "07",
             "08",
+            "10",
             "19",
+            "25",
             "31",
+            "41",
             "47",
             "49"
           ],
           "pool": [
             "39",
             "49",
+            "46",
             "01",
-            "06",
-            "48",
-            "14",
-            "05",
-            "03"
+            "11",
+            "10",
+            "08",
+            "09"
           ],
           "poolBasis": "before-window",
           "covered": true,
           "hits": [
+            "08",
+            "10",
             "49"
           ]
         },
@@ -24398,58 +25978,65 @@ window.__HISTORY_PATTERN_STATE__ = {
           "year": "2026",
           "start": 211,
           "end": 215,
-          "count": 5,
+          "count": 10,
           "nums": [
             "01",
             "04",
             "06",
+            "12",
             "14",
-            "35"
+            "20",
+            "31",
+            "35",
+            "37",
+            "44"
           ],
           "pool": [
             "39",
             "49",
+            "46",
             "01",
-            "06",
-            "48",
-            "14",
-            "05",
-            "03"
+            "11",
+            "10",
+            "08",
+            "09"
           ],
           "poolBasis": "before-window",
           "covered": true,
           "hits": [
-            "01",
-            "06",
-            "14"
+            "01"
           ]
         },
         {
           "year": "2026",
           "start": 216,
           "end": 220,
-          "count": 5,
+          "count": 9,
           "nums": [
+            "02",
             "17",
+            "18",
             "26",
             "37",
+            "39",
+            "41",
             "43",
             "48"
           ],
           "pool": [
             "39",
             "49",
+            "46",
             "01",
-            "06",
-            "48",
-            "14",
-            "05",
-            "03"
+            "11",
+            "10",
+            "08",
+            "09"
           ],
           "poolBasis": "before-window",
           "covered": true,
           "hits": [
-            "48"
+            "39"
           ]
         },
         {
@@ -24466,17 +26053,18 @@ window.__HISTORY_PATTERN_STATE__ = {
           "pool": [
             "39",
             "49",
+            "46",
             "01",
-            "48",
-            "06",
-            "14",
-            "05",
-            "03"
+            "11",
+            "10",
+            "08",
+            "09"
           ],
           "poolBasis": "before-window",
           "covered": true,
           "hits": [
-            "01"
+            "01",
+            "09"
           ]
         }
       ],
@@ -31655,9 +33243,10 @@ window.__HISTORY_PATTERN_STATE__ = {
           "count": 5,
           "nums": [
             "06",
-            "19",
-            "26",
-            "40"
+            "10",
+            "16",
+            "31",
+            "32"
           ],
           "pool": [
             "39",
@@ -31679,21 +33268,21 @@ window.__HISTORY_PATTERN_STATE__ = {
           "end": 10,
           "count": 5,
           "nums": [
-            "06",
-            "19",
-            "20",
-            "23",
-            "36"
+            "13",
+            "28",
+            "36",
+            "46",
+            "47"
           ],
           "pool": [
             "39",
             "08",
             "49",
+            "31",
             "14",
-            "30",
-            "09",
-            "46",
-            "47"
+            "48",
+            "06",
+            "05"
           ],
           "poolBasis": "before-window",
           "covered": false,
@@ -31705,27 +33294,25 @@ window.__HISTORY_PATTERN_STATE__ = {
           "end": 15,
           "count": 5,
           "nums": [
-            "18",
-            "20",
-            "22",
-            "39",
-            "43"
+            "11",
+            "12",
+            "17",
+            "33",
+            "37"
           ],
           "pool": [
             "39",
             "08",
-            "06",
-            "48",
+            "49",
+            "46",
             "14",
+            "30",
             "09",
-            "03",
-            "05"
+            "47"
           ],
           "poolBasis": "before-window",
-          "covered": true,
-          "hits": [
-            "39"
-          ]
+          "covered": false,
+          "hits": []
         },
         {
           "year": "2024",
@@ -31733,24 +33320,26 @@ window.__HISTORY_PATTERN_STATE__ = {
           "end": 20,
           "count": 5,
           "nums": [
-            "17",
-            "23",
+            "18",
+            "20",
             "29",
             "47"
           ],
           "pool": [
             "39",
             "08",
-            "06",
-            "48",
+            "49",
+            "46",
             "14",
+            "30",
             "09",
-            "03",
-            "05"
+            "47"
           ],
           "poolBasis": "before-window",
-          "covered": false,
-          "hits": []
+          "covered": true,
+          "hits": [
+            "47"
+          ]
         },
         {
           "year": "2024",
@@ -31767,12 +33356,12 @@ window.__HISTORY_PATTERN_STATE__ = {
           "pool": [
             "39",
             "08",
-            "06",
-            "48",
+            "49",
+            "46",
             "14",
-            "09",
-            "03",
-            "05"
+            "30",
+            "47",
+            "37"
           ],
           "poolBasis": "before-window",
           "covered": false,
@@ -31793,17 +33382,17 @@ window.__HISTORY_PATTERN_STATE__ = {
           "pool": [
             "39",
             "08",
-            "06",
-            "48",
+            "49",
+            "46",
             "14",
-            "09",
-            "20",
-            "05"
+            "30",
+            "47",
+            "37"
           ],
           "poolBasis": "before-window",
           "covered": true,
           "hits": [
-            "09"
+            "30"
           ]
         },
         {
@@ -31821,16 +33410,18 @@ window.__HISTORY_PATTERN_STATE__ = {
           "pool": [
             "39",
             "08",
-            "06",
-            "48",
-            "03",
-            "09",
-            "05",
-            "01"
+            "49",
+            "46",
+            "14",
+            "30",
+            "47",
+            "37"
           ],
           "poolBasis": "before-window",
-          "covered": false,
-          "hits": []
+          "covered": true,
+          "hits": [
+            "30"
+          ]
         },
         {
           "year": "2024",
@@ -31847,18 +33438,16 @@ window.__HISTORY_PATTERN_STATE__ = {
           "pool": [
             "39",
             "08",
-            "06",
-            "48",
-            "03",
-            "09",
-            "05",
-            "01"
+            "49",
+            "46",
+            "30",
+            "14",
+            "47",
+            "37"
           ],
           "poolBasis": "before-window",
-          "covered": true,
-          "hits": [
-            "06"
-          ]
+          "covered": false,
+          "hits": []
         },
         {
           "year": "2024",
@@ -31880,7 +33469,7 @@ window.__HISTORY_PATTERN_STATE__ = {
             "03",
             "09",
             "05",
-            "01"
+            "20"
           ],
           "poolBasis": "before-window",
           "covered": false,
@@ -31905,8 +33494,8 @@ window.__HISTORY_PATTERN_STATE__ = {
             "48",
             "03",
             "09",
-            "05",
-            "41"
+            "28",
+            "20"
           ],
           "poolBasis": "before-window",
           "covered": true,
@@ -31933,8 +33522,8 @@ window.__HISTORY_PATTERN_STATE__ = {
             "48",
             "03",
             "09",
-            "05",
-            "41"
+            "28",
+            "20"
           ],
           "poolBasis": "before-window",
           "covered": true,
@@ -31961,12 +33550,14 @@ window.__HISTORY_PATTERN_STATE__ = {
             "48",
             "09",
             "14",
-            "41",
-            "03"
+            "20",
+            "46"
           ],
           "poolBasis": "before-window",
-          "covered": false,
-          "hits": []
+          "covered": true,
+          "hits": [
+            "46"
+          ]
         },
         {
           "year": "2024",
@@ -32009,17 +33600,16 @@ window.__HISTORY_PATTERN_STATE__ = {
           "pool": [
             "39",
             "08",
-            "06",
-            "48",
-            "09",
-            "14",
+            "49",
+            "46",
             "30",
-            "31"
+            "14",
+            "09",
+            "47"
           ],
           "poolBasis": "before-window",
           "covered": true,
           "hits": [
-            "06",
             "08"
           ]
         },
@@ -32037,12 +33627,12 @@ window.__HISTORY_PATTERN_STATE__ = {
           "pool": [
             "39",
             "08",
-            "06",
-            "48",
-            "09",
-            "14",
+            "49",
+            "46",
             "30",
-            "20"
+            "14",
+            "09",
+            "47"
           ],
           "poolBasis": "before-window",
           "covered": false,
@@ -32063,18 +33653,16 @@ window.__HISTORY_PATTERN_STATE__ = {
           "pool": [
             "39",
             "08",
+            "49",
+            "46",
+            "19",
+            "31",
             "06",
-            "03",
-            "48",
-            "09",
-            "05",
-            "31"
+            "20"
           ],
           "poolBasis": "before-window",
-          "covered": true,
-          "hits": [
-            "05"
-          ]
+          "covered": false,
+          "hits": []
         },
         {
           "year": "2024",
@@ -32090,18 +33678,16 @@ window.__HISTORY_PATTERN_STATE__ = {
           "pool": [
             "39",
             "08",
+            "49",
+            "46",
+            "19",
+            "31",
             "06",
-            "03",
-            "48",
-            "09",
-            "05",
-            "31"
+            "20"
           ],
           "poolBasis": "before-window",
-          "covered": true,
-          "hits": [
-            "05"
-          ]
+          "covered": false,
+          "hits": []
         },
         {
           "year": "2024",
@@ -32118,12 +33704,12 @@ window.__HISTORY_PATTERN_STATE__ = {
           "pool": [
             "39",
             "08",
-            "06",
-            "03",
-            "48",
-            "05",
+            "49",
+            "46",
+            "19",
             "31",
-            "49"
+            "06",
+            "20"
           ],
           "poolBasis": "before-window",
           "covered": true,
@@ -32191,12 +33777,15 @@ window.__HISTORY_PATTERN_STATE__ = {
           "year": "2024",
           "start": 101,
           "end": 105,
-          "count": 5,
+          "count": 8,
           "nums": [
             "05",
             "19",
             "21",
+            "26",
             "35",
+            "37",
+            "45",
             "49"
           ],
           "pool": [
@@ -32220,26 +33809,30 @@ window.__HISTORY_PATTERN_STATE__ = {
           "year": "2024",
           "start": 106,
           "end": 110,
-          "count": 5,
+          "count": 10,
           "nums": [
+            "15",
             "16",
+            "36",
             "43",
+            "45",
             "46",
             "48"
           ],
           "pool": [
             "39",
             "08",
-            "06",
-            "48",
-            "03",
-            "05",
+            "49",
+            "46",
+            "19",
             "31",
-            "49"
+            "06",
+            "48"
           ],
           "poolBasis": "before-window",
           "covered": true,
           "hits": [
+            "46",
             "48"
           ]
         },
@@ -32247,278 +33840,16 @@ window.__HISTORY_PATTERN_STATE__ = {
           "year": "2024",
           "start": 111,
           "end": 115,
-          "count": 5,
+          "count": 10,
           "nums": [
+            "10",
             "18",
+            "19",
+            "20",
             "24",
             "29",
-            "43"
-          ],
-          "pool": [
-            "39",
-            "08",
-            "06",
-            "48",
-            "03",
-            "05",
-            "31",
-            "49"
-          ],
-          "poolBasis": "before-window",
-          "covered": false,
-          "hits": []
-        },
-        {
-          "year": "2024",
-          "start": 116,
-          "end": 120,
-          "count": 5,
-          "nums": [
-            "10",
-            "21",
-            "25",
-            "29",
-            "32"
-          ],
-          "pool": [
-            "39",
-            "08",
-            "06",
-            "48",
-            "03",
-            "05",
-            "31",
-            "49"
-          ],
-          "poolBasis": "before-window",
-          "covered": false,
-          "hits": []
-        },
-        {
-          "year": "2024",
-          "start": 121,
-          "end": 125,
-          "count": 5,
-          "nums": [
-            "02",
-            "12",
-            "21",
-            "22",
-            "36"
-          ],
-          "pool": [
-            "39",
-            "08",
-            "06",
-            "48",
-            "03",
-            "05",
-            "31",
-            "49"
-          ],
-          "poolBasis": "before-window",
-          "covered": false,
-          "hits": []
-        },
-        {
-          "year": "2024",
-          "start": 126,
-          "end": 130,
-          "count": 5,
-          "nums": [
-            "02",
-            "07",
-            "17",
-            "48",
-            "49"
-          ],
-          "pool": [
-            "39",
-            "08",
-            "06",
-            "48",
-            "03",
-            "05",
-            "31",
-            "49"
-          ],
-          "poolBasis": "before-window",
-          "covered": true,
-          "hits": [
-            "48",
-            "49"
-          ]
-        },
-        {
-          "year": "2024",
-          "start": 131,
-          "end": 135,
-          "count": 5,
-          "nums": [
-            "04",
-            "07",
-            "19",
-            "37",
-            "46"
-          ],
-          "pool": [
-            "39",
-            "08",
-            "49",
-            "46",
-            "19",
-            "41",
-            "21",
-            "48"
-          ],
-          "poolBasis": "before-window",
-          "covered": true,
-          "hits": [
-            "19",
-            "46"
-          ]
-        },
-        {
-          "year": "2024",
-          "start": 136,
-          "end": 140,
-          "count": 5,
-          "nums": [
-            "14",
-            "16",
             "35",
-            "44"
-          ],
-          "pool": [
-            "39",
-            "08",
-            "49",
-            "46",
-            "19",
-            "41",
-            "21",
-            "48"
-          ],
-          "poolBasis": "before-window",
-          "covered": false,
-          "hits": []
-        },
-        {
-          "year": "2024",
-          "start": 141,
-          "end": 145,
-          "count": 5,
-          "nums": [
-            "02",
-            "12",
-            "16",
-            "27",
-            "43"
-          ],
-          "pool": [
-            "39",
-            "08",
-            "49",
-            "46",
-            "19",
-            "41",
-            "14",
-            "09"
-          ],
-          "poolBasis": "before-window",
-          "covered": false,
-          "hits": []
-        },
-        {
-          "year": "2024",
-          "start": 146,
-          "end": 150,
-          "count": 5,
-          "nums": [
-            "02",
-            "22",
-            "27",
-            "33",
-            "43"
-          ],
-          "pool": [
-            "39",
-            "08",
-            "49",
-            "46",
-            "19",
-            "41",
-            "14",
-            "09"
-          ],
-          "poolBasis": "before-window",
-          "covered": false,
-          "hits": []
-        },
-        {
-          "year": "2024",
-          "start": 151,
-          "end": 155,
-          "count": 5,
-          "nums": [
-            "21",
-            "32",
-            "44",
-            "46",
-            "48"
-          ],
-          "pool": [
-            "39",
-            "08",
-            "49",
-            "46",
-            "19",
-            "41",
-            "14",
-            "09"
-          ],
-          "poolBasis": "before-window",
-          "covered": true,
-          "hits": [
-            "46"
-          ]
-        },
-        {
-          "year": "2024",
-          "start": 156,
-          "end": 160,
-          "count": 5,
-          "nums": [
-            "20",
-            "27",
-            "42",
             "43",
-            "45"
-          ],
-          "pool": [
-            "39",
-            "08",
-            "46",
-            "49",
-            "19",
-            "41",
-            "14",
-            "09"
-          ],
-          "poolBasis": "before-window",
-          "covered": false,
-          "hits": []
-        },
-        {
-          "year": "2024",
-          "start": 161,
-          "end": 165,
-          "count": 5,
-          "nums": [
-            "01",
-            "03",
-            "35",
-            "40",
             "44"
           ],
           "pool": [
@@ -32527,252 +33858,9 @@ window.__HISTORY_PATTERN_STATE__ = {
             "46",
             "49",
             "19",
-            "41",
-            "14",
-            "09"
-          ],
-          "poolBasis": "before-window",
-          "covered": false,
-          "hits": []
-        },
-        {
-          "year": "2024",
-          "start": 166,
-          "end": 170,
-          "count": 5,
-          "nums": [
-            "10",
-            "14",
-            "32",
-            "45"
-          ],
-          "pool": [
-            "39",
-            "08",
-            "46",
-            "49",
-            "19",
-            "41",
-            "14",
-            "09"
-          ],
-          "poolBasis": "before-window",
-          "covered": true,
-          "hits": [
-            "14"
-          ]
-        },
-        {
-          "year": "2024",
-          "start": 171,
-          "end": 175,
-          "count": 5,
-          "nums": [
-            "16",
-            "32",
-            "40",
-            "48",
-            "49"
-          ],
-          "pool": [
-            "39",
-            "08",
-            "46",
-            "49",
-            "19",
-            "14",
-            "41",
-            "09"
-          ],
-          "poolBasis": "before-window",
-          "covered": true,
-          "hits": [
-            "49"
-          ]
-        },
-        {
-          "year": "2024",
-          "start": 176,
-          "end": 180,
-          "count": 5,
-          "nums": [
-            "01",
-            "02",
-            "03",
-            "11",
-            "20"
-          ],
-          "pool": [
-            "39",
-            "49",
-            "08",
-            "46",
-            "19",
-            "14",
-            "41",
-            "09"
-          ],
-          "poolBasis": "before-window",
-          "covered": false,
-          "hits": []
-        },
-        {
-          "year": "2024",
-          "start": 181,
-          "end": 185,
-          "count": 5,
-          "nums": [
-            "25",
-            "27",
-            "42"
-          ],
-          "pool": [
-            "39",
-            "49",
-            "08",
-            "46",
-            "19",
-            "14",
-            "41",
-            "09"
-          ],
-          "poolBasis": "before-window",
-          "covered": false,
-          "hits": []
-        },
-        {
-          "year": "2024",
-          "start": 186,
-          "end": 190,
-          "count": 5,
-          "nums": [
-            "29",
-            "39",
-            "41",
-            "43",
-            "46"
-          ],
-          "pool": [
-            "39",
-            "49",
-            "08",
-            "46",
-            "19",
-            "14",
-            "41",
-            "09"
-          ],
-          "poolBasis": "before-window",
-          "covered": true,
-          "hits": [
-            "39",
-            "41",
-            "46"
-          ]
-        },
-        {
-          "year": "2024",
-          "start": 191,
-          "end": 195,
-          "count": 5,
-          "nums": [
-            "04",
-            "05",
-            "21",
             "31",
-            "39"
-          ],
-          "pool": [
-            "39",
-            "49",
-            "08",
-            "46",
-            "19",
-            "14",
-            "41",
-            "09"
-          ],
-          "poolBasis": "before-window",
-          "covered": true,
-          "hits": [
-            "39"
-          ]
-        },
-        {
-          "year": "2024",
-          "start": 196,
-          "end": 200,
-          "count": 5,
-          "nums": [
-            "10",
-            "15",
-            "16",
-            "39",
-            "43"
-          ],
-          "pool": [
-            "39",
-            "49",
-            "08",
-            "46",
-            "19",
-            "14",
-            "41",
-            "09"
-          ],
-          "poolBasis": "before-window",
-          "covered": true,
-          "hits": [
-            "39"
-          ]
-        },
-        {
-          "year": "2024",
-          "start": 201,
-          "end": 205,
-          "count": 5,
-          "nums": [
-            "05",
-            "25",
-            "40",
-            "43",
-            "45"
-          ],
-          "pool": [
-            "39",
-            "49",
-            "08",
-            "46",
-            "19",
-            "14",
-            "41",
-            "09"
-          ],
-          "poolBasis": "before-window",
-          "covered": false,
-          "hits": []
-        },
-        {
-          "year": "2024",
-          "start": 206,
-          "end": 210,
-          "count": 5,
-          "nums": [
-            "04",
-            "14",
-            "18",
-            "19",
-            "33"
-          ],
-          "pool": [
-            "39",
-            "49",
-            "08",
-            "46",
-            "19",
-            "45",
-            "03",
-            "10"
+            "06",
+            "48"
           ],
           "poolBasis": "before-window",
           "covered": true,
@@ -32782,24 +33870,633 @@ window.__HISTORY_PATTERN_STATE__ = {
         },
         {
           "year": "2024",
-          "start": 211,
-          "end": 215,
-          "count": 5,
+          "start": 116,
+          "end": 120,
+          "count": 10,
+          "nums": [
+            "08",
+            "10",
+            "21",
+            "24",
+            "25",
+            "29",
+            "30",
+            "32",
+            "33",
+            "45"
+          ],
+          "pool": [
+            "39",
+            "08",
+            "46",
+            "49",
+            "19",
+            "31",
+            "06",
+            "48"
+          ],
+          "poolBasis": "before-window",
+          "covered": true,
+          "hits": [
+            "08"
+          ]
+        },
+        {
+          "year": "2024",
+          "start": 121,
+          "end": 125,
+          "count": 10,
+          "nums": [
+            "02",
+            "07",
+            "12",
+            "15",
+            "21",
+            "22",
+            "36",
+            "43"
+          ],
+          "pool": [
+            "39",
+            "08",
+            "46",
+            "49",
+            "19",
+            "31",
+            "06",
+            "48"
+          ],
+          "poolBasis": "before-window",
+          "covered": false,
+          "hits": []
+        },
+        {
+          "year": "2024",
+          "start": 126,
+          "end": 130,
+          "count": 10,
+          "nums": [
+            "02",
+            "07",
+            "17",
+            "30",
+            "31",
+            "33",
+            "37",
+            "43",
+            "48",
+            "49"
+          ],
+          "pool": [
+            "39",
+            "08",
+            "46",
+            "49",
+            "19",
+            "31",
+            "06",
+            "48"
+          ],
+          "poolBasis": "before-window",
+          "covered": true,
+          "hits": [
+            "31",
+            "48",
+            "49"
+          ]
+        },
+        {
+          "year": "2024",
+          "start": 131,
+          "end": 135,
+          "count": 10,
+          "nums": [
+            "04",
+            "05",
+            "07",
+            "12",
+            "19",
+            "31",
+            "37",
+            "46"
+          ],
+          "pool": [
+            "39",
+            "08",
+            "49",
+            "46",
+            "19",
+            "31",
+            "06",
+            "48"
+          ],
+          "poolBasis": "before-window",
+          "covered": true,
+          "hits": [
+            "19",
+            "31",
+            "46"
+          ]
+        },
+        {
+          "year": "2024",
+          "start": 136,
+          "end": 140,
+          "count": 10,
+          "nums": [
+            "01",
+            "09",
+            "14",
+            "16",
+            "17",
+            "27",
+            "33",
+            "35",
+            "44"
+          ],
+          "pool": [
+            "39",
+            "08",
+            "46",
+            "49",
+            "19",
+            "31",
+            "06",
+            "48"
+          ],
+          "poolBasis": "before-window",
+          "covered": false,
+          "hits": []
+        },
+        {
+          "year": "2024",
+          "start": 141,
+          "end": 145,
+          "count": 10,
+          "nums": [
+            "02",
+            "08",
+            "12",
+            "16",
+            "17",
+            "24",
+            "27",
+            "30",
+            "33",
+            "43"
+          ],
+          "pool": [
+            "39",
+            "08",
+            "46",
+            "49",
+            "19",
+            "09",
+            "14",
+            "41"
+          ],
+          "poolBasis": "before-window",
+          "covered": true,
+          "hits": [
+            "08"
+          ]
+        },
+        {
+          "year": "2024",
+          "start": 146,
+          "end": 150,
+          "count": 10,
+          "nums": [
+            "02",
+            "11",
+            "13",
+            "22",
+            "27",
+            "29",
+            "33",
+            "39",
+            "43",
+            "48"
+          ],
+          "pool": [
+            "39",
+            "08",
+            "46",
+            "49",
+            "19",
+            "09",
+            "14",
+            "41"
+          ],
+          "poolBasis": "before-window",
+          "covered": true,
+          "hits": [
+            "39"
+          ]
+        },
+        {
+          "year": "2024",
+          "start": 151,
+          "end": 155,
+          "count": 10,
+          "nums": [
+            "19",
+            "21",
+            "22",
+            "30",
+            "32",
+            "35",
+            "37",
+            "44",
+            "46",
+            "48"
+          ],
+          "pool": [
+            "39",
+            "08",
+            "46",
+            "49",
+            "19",
+            "09",
+            "14",
+            "41"
+          ],
+          "poolBasis": "before-window",
+          "covered": true,
+          "hits": [
+            "19",
+            "46"
+          ]
+        },
+        {
+          "year": "2024",
+          "start": 156,
+          "end": 160,
+          "count": 10,
           "nums": [
             "06",
             "20",
+            "27",
+            "30",
+            "31",
+            "40",
+            "42",
+            "43",
+            "45"
+          ],
+          "pool": [
+            "39",
+            "08",
+            "46",
+            "49",
+            "19",
+            "09",
+            "14",
+            "41"
+          ],
+          "poolBasis": "before-window",
+          "covered": false,
+          "hits": []
+        },
+        {
+          "year": "2024",
+          "start": 161,
+          "end": 165,
+          "count": 10,
+          "nums": [
+            "01",
+            "03",
+            "28",
+            "30",
+            "35",
+            "40",
+            "44"
+          ],
+          "pool": [
+            "39",
+            "08",
+            "46",
+            "49",
+            "19",
+            "31",
+            "06",
+            "48"
+          ],
+          "poolBasis": "before-window",
+          "covered": false,
+          "hits": []
+        },
+        {
+          "year": "2024",
+          "start": 166,
+          "end": 170,
+          "count": 10,
+          "nums": [
+            "10",
+            "11",
+            "14",
+            "26",
+            "30",
+            "32",
+            "45",
+            "48"
+          ],
+          "pool": [
+            "39",
+            "08",
+            "46",
+            "49",
+            "30",
+            "14",
+            "09",
+            "35"
+          ],
+          "poolBasis": "before-window",
+          "covered": true,
+          "hits": [
+            "14",
+            "30"
+          ]
+        },
+        {
+          "year": "2024",
+          "start": 171,
+          "end": 175,
+          "count": 10,
+          "nums": [
+            "16",
+            "30",
+            "32",
+            "33",
+            "36",
+            "40",
+            "47",
+            "48",
+            "49"
+          ],
+          "pool": [
+            "39",
+            "08",
+            "30",
+            "46",
+            "49",
+            "14",
+            "09",
+            "35"
+          ],
+          "poolBasis": "before-window",
+          "covered": true,
+          "hits": [
+            "30",
+            "49"
+          ]
+        },
+        {
+          "year": "2024",
+          "start": 176,
+          "end": 180,
+          "count": 10,
+          "nums": [
+            "01",
+            "02",
+            "03",
+            "11",
+            "20",
+            "23",
+            "25",
+            "34",
+            "35",
+            "39"
+          ],
+          "pool": [
+            "39",
+            "08",
+            "30",
+            "46",
+            "49",
+            "14",
+            "09",
+            "35"
+          ],
+          "poolBasis": "before-window",
+          "covered": true,
+          "hits": [
+            "35",
+            "39"
+          ]
+        },
+        {
+          "year": "2024",
+          "start": 181,
+          "end": 185,
+          "count": 10,
+          "nums": [
+            "10",
+            "13",
+            "23",
+            "25",
+            "27",
+            "42",
+            "47"
+          ],
+          "pool": [
+            "39",
+            "08",
+            "30",
+            "46",
+            "49",
+            "14",
+            "09",
+            "35"
+          ],
+          "poolBasis": "before-window",
+          "covered": false,
+          "hits": []
+        },
+        {
+          "year": "2024",
+          "start": 186,
+          "end": 190,
+          "count": 10,
+          "nums": [
+            "29",
+            "35",
+            "39",
+            "41",
+            "43",
+            "44",
+            "46",
+            "48"
+          ],
+          "pool": [
+            "39",
+            "08",
+            "30",
+            "46",
+            "49",
+            "14",
+            "47",
+            "37"
+          ],
+          "poolBasis": "before-window",
+          "covered": true,
+          "hits": [
+            "39",
+            "46"
+          ]
+        },
+        {
+          "year": "2024",
+          "start": 191,
+          "end": 195,
+          "count": 10,
+          "nums": [
+            "04",
+            "05",
+            "11",
+            "21",
+            "24",
+            "31",
+            "33",
+            "34",
+            "39",
+            "41"
+          ],
+          "pool": [
+            "39",
+            "08",
+            "30",
+            "46",
+            "49",
+            "14",
+            "47",
+            "37"
+          ],
+          "poolBasis": "before-window",
+          "covered": true,
+          "hits": [
+            "39"
+          ]
+        },
+        {
+          "year": "2024",
+          "start": 196,
+          "end": 200,
+          "count": 10,
+          "nums": [
+            "05",
+            "10",
+            "15",
+            "16",
+            "39",
+            "42",
+            "43",
+            "47"
+          ],
+          "pool": [
+            "39",
+            "08",
+            "30",
+            "46",
+            "49",
+            "14",
+            "47",
+            "37"
+          ],
+          "poolBasis": "before-window",
+          "covered": true,
+          "hits": [
+            "39",
+            "47"
+          ]
+        },
+        {
+          "year": "2024",
+          "start": 201,
+          "end": 205,
+          "count": 10,
+          "nums": [
+            "05",
+            "15",
+            "16",
+            "25",
+            "28",
+            "29",
+            "31",
+            "40",
+            "43",
+            "45"
+          ],
+          "pool": [
+            "39",
+            "08",
+            "30",
+            "46",
+            "49",
+            "14",
+            "47",
+            "37"
+          ],
+          "poolBasis": "before-window",
+          "covered": false,
+          "hits": []
+        },
+        {
+          "year": "2024",
+          "start": 206,
+          "end": 210,
+          "count": 10,
+          "nums": [
+            "04",
+            "07",
+            "10",
+            "14",
+            "18",
+            "19",
+            "33",
+            "39",
+            "48"
+          ],
+          "pool": [
+            "39",
+            "08",
+            "30",
+            "46",
+            "49",
+            "14",
+            "45",
+            "05"
+          ],
+          "poolBasis": "before-window",
+          "covered": true,
+          "hits": [
+            "14",
+            "39"
+          ]
+        },
+        {
+          "year": "2024",
+          "start": 211,
+          "end": 215,
+          "count": 10,
+          "nums": [
+            "06",
+            "11",
+            "20",
+            "25",
+            "27",
             "38",
             "49"
           ],
           "pool": [
             "39",
-            "49",
             "08",
+            "30",
             "46",
-            "19",
+            "49",
+            "14",
             "45",
-            "03",
-            "10"
+            "05"
           ],
           "poolBasis": "before-window",
           "covered": true,
@@ -32811,22 +34508,27 @@ window.__HISTORY_PATTERN_STATE__ = {
           "year": "2024",
           "start": 216,
           "end": 220,
-          "count": 5,
+          "count": 10,
           "nums": [
             "14",
             "15",
             "21",
+            "26",
+            "29",
+            "31",
+            "34",
+            "35",
             "37"
           ],
           "pool": [
             "39",
+            "08",
+            "30",
             "49",
-            "06",
-            "48",
-            "03",
-            "05",
-            "31",
-            "14"
+            "46",
+            "14",
+            "45",
+            "05"
           ],
           "poolBasis": "before-window",
           "covered": true,
@@ -32838,55 +34540,66 @@ window.__HISTORY_PATTERN_STATE__ = {
           "year": "2024",
           "start": 221,
           "end": 225,
-          "count": 5,
+          "count": 10,
           "nums": [
             "01",
+            "04",
             "05",
+            "08",
+            "12",
             "19",
             "22",
+            "24",
             "30"
           ],
           "pool": [
             "39",
+            "08",
+            "30",
             "49",
-            "06",
-            "48",
-            "03",
-            "05",
+            "46",
             "14",
-            "02"
+            "45",
+            "05"
           ],
           "poolBasis": "before-window",
           "covered": true,
           "hits": [
-            "05"
+            "05",
+            "08",
+            "30"
           ]
         },
         {
           "year": "2024",
           "start": 226,
           "end": 230,
-          "count": 5,
+          "count": 10,
           "nums": [
             "05",
+            "11",
             "20",
+            "26",
             "34",
             "37",
+            "40",
+            "42",
             "49"
           ],
           "pool": [
             "39",
-            "49",
-            "19",
-            "46",
             "08",
+            "30",
+            "49",
+            "46",
             "14",
-            "41",
-            "09"
+            "45",
+            "05"
           ],
           "poolBasis": "before-window",
           "covered": true,
           "hits": [
+            "05",
             "49"
           ]
         },
@@ -32894,23 +34607,27 @@ window.__HISTORY_PATTERN_STATE__ = {
           "year": "2024",
           "start": 231,
           "end": 235,
-          "count": 5,
+          "count": 10,
           "nums": [
             "02",
             "07",
+            "09",
+            "11",
             "17",
             "23",
-            "24"
+            "24",
+            "37",
+            "44"
           ],
           "pool": [
             "39",
-            "49",
-            "19",
-            "46",
             "08",
+            "30",
+            "49",
+            "46",
             "14",
-            "41",
-            "09"
+            "45",
+            "05"
           ],
           "poolBasis": "before-window",
           "covered": false,
@@ -32920,89 +34637,111 @@ window.__HISTORY_PATTERN_STATE__ = {
           "year": "2024",
           "start": 236,
           "end": 240,
-          "count": 5,
+          "count": 10,
           "nums": [
             "03",
             "06",
+            "09",
+            "10",
+            "16",
             "18",
+            "19",
             "24",
-            "31"
+            "31",
+            "36"
           ],
           "pool": [
             "39",
-            "49",
-            "19",
-            "46",
             "08",
+            "30",
+            "49",
+            "46",
             "14",
-            "41",
-            "09"
+            "09",
+            "47"
           ],
           "poolBasis": "before-window",
-          "covered": false,
-          "hits": []
+          "covered": true,
+          "hits": [
+            "09"
+          ]
         },
         {
           "year": "2024",
           "start": 241,
           "end": 245,
-          "count": 5,
+          "count": 10,
           "nums": [
             "01",
             "03",
             "04",
+            "15",
             "17",
-            "30"
+            "21",
+            "27",
+            "30",
+            "38",
+            "46"
           ],
           "pool": [
             "39",
+            "08",
+            "30",
             "49",
-            "06",
-            "48",
-            "03",
-            "05",
+            "31",
             "14",
-            "02"
+            "05",
+            "36"
           ],
           "poolBasis": "before-window",
           "covered": true,
           "hits": [
-            "03"
+            "30"
           ]
         },
         {
           "year": "2024",
           "start": 246,
           "end": 250,
-          "count": 5,
+          "count": 10,
           "nums": [
             "11",
+            "12",
             "15",
+            "22",
+            "23",
             "24",
+            "28",
+            "29",
             "31",
             "32"
           ],
           "pool": [
             "39",
+            "08",
+            "30",
             "49",
-            "06",
-            "03",
-            "48",
-            "05",
+            "31",
             "14",
-            "02"
+            "05",
+            "36"
           ],
           "poolBasis": "before-window",
-          "covered": false,
-          "hits": []
+          "covered": true,
+          "hits": [
+            "31"
+          ]
         },
         {
           "year": "2024",
           "start": 251,
           "end": 255,
-          "count": 5,
+          "count": 10,
           "nums": [
             "14",
+            "17",
+            "21",
+            "22",
             "27",
             "30",
             "36",
@@ -33010,44 +34749,51 @@ window.__HISTORY_PATTERN_STATE__ = {
           ],
           "pool": [
             "39",
+            "08",
+            "30",
             "49",
-            "06",
-            "03",
-            "48",
-            "05",
             "31",
-            "14"
+            "14",
+            "05",
+            "36"
           ],
           "poolBasis": "before-window",
           "covered": true,
           "hits": [
-            "14"
+            "14",
+            "30",
+            "36"
           ]
         },
         {
           "year": "2024",
           "start": 256,
           "end": 260,
-          "count": 5,
+          "count": 10,
           "nums": [
+            "05",
+            "07",
             "08",
+            "28",
             "29",
             "39",
             "40"
           ],
           "pool": [
             "39",
+            "30",
+            "08",
             "49",
-            "06",
-            "03",
-            "48",
-            "05",
+            "31",
             "14",
-            "02"
+            "05",
+            "36"
           ],
           "poolBasis": "before-window",
           "covered": true,
           "hits": [
+            "05",
+            "08",
             "39"
           ]
         },
@@ -33055,74 +34801,58 @@ window.__HISTORY_PATTERN_STATE__ = {
           "year": "2024",
           "start": 261,
           "end": 265,
-          "count": 5,
+          "count": 10,
           "nums": [
             "01",
             "13",
             "16",
             "30",
-            "44"
+            "41",
+            "44",
+            "46"
           ],
           "pool": [
             "39",
+            "30",
+            "08",
             "49",
-            "06",
-            "03",
-            "48",
-            "05",
+            "31",
             "14",
-            "02"
+            "05",
+            "36"
           ],
           "poolBasis": "before-window",
-          "covered": false,
-          "hits": []
+          "covered": true,
+          "hits": [
+            "30"
+          ]
         },
         {
           "year": "2024",
           "start": 266,
           "end": 270,
-          "count": 5,
+          "count": 10,
           "nums": [
+            "07",
+            "09",
             "11",
             "12",
             "22",
+            "24",
             "27",
-            "42"
-          ],
-          "pool": [
-            "39",
-            "49",
-            "06",
-            "03",
-            "48",
-            "05",
-            "14",
-            "02"
-          ],
-          "poolBasis": "before-window",
-          "covered": false,
-          "hits": []
-        },
-        {
-          "year": "2024",
-          "start": 271,
-          "end": 275,
-          "count": 5,
-          "nums": [
-            "30",
-            "40",
             "41",
+            "42",
             "49"
           ],
           "pool": [
             "39",
+            "30",
+            "08",
             "49",
-            "06",
-            "03",
-            "48",
-            "05",
+            "31",
             "14",
-            "02"
+            "05",
+            "36"
           ],
           "poolBasis": "before-window",
           "covered": true,
@@ -33132,51 +34862,95 @@ window.__HISTORY_PATTERN_STATE__ = {
         },
         {
           "year": "2024",
-          "start": 276,
-          "end": 280,
-          "count": 5,
+          "start": 271,
+          "end": 275,
+          "count": 10,
           "nums": [
-            "07",
-            "22",
-            "26",
-            "29",
-            "40"
+            "03",
+            "12",
+            "30",
+            "40",
+            "41",
+            "46",
+            "49"
           ],
           "pool": [
             "39",
+            "30",
+            "08",
             "49",
-            "06",
-            "03",
-            "48",
-            "05",
+            "31",
             "14",
-            "02"
+            "05",
+            "36"
           ],
           "poolBasis": "before-window",
-          "covered": false,
-          "hits": []
+          "covered": true,
+          "hits": [
+            "30",
+            "49"
+          ]
+        },
+        {
+          "year": "2024",
+          "start": 276,
+          "end": 280,
+          "count": 10,
+          "nums": [
+            "07",
+            "11",
+            "14",
+            "22",
+            "26",
+            "28",
+            "29",
+            "36",
+            "40",
+            "45"
+          ],
+          "pool": [
+            "39",
+            "30",
+            "08",
+            "49",
+            "31",
+            "14",
+            "05",
+            "36"
+          ],
+          "poolBasis": "before-window",
+          "covered": true,
+          "hits": [
+            "14",
+            "36"
+          ]
         },
         {
           "year": "2024",
           "start": 281,
           "end": 285,
-          "count": 5,
+          "count": 10,
           "nums": [
+            "07",
             "13",
+            "16",
+            "18",
             "21",
+            "25",
             "27",
             "43",
+            "46",
             "47"
           ],
           "pool": [
             "39",
+            "30",
+            "08",
             "49",
-            "06",
-            "03",
-            "48",
-            "05",
+            "31",
             "14",
-            "02"
+            "05",
+            "36"
           ],
           "poolBasis": "before-window",
           "covered": false,
@@ -33186,160 +34960,27 @@ window.__HISTORY_PATTERN_STATE__ = {
           "year": "2024",
           "start": 286,
           "end": 290,
-          "count": 5,
+          "count": 10,
           "nums": [
             "04",
             "11",
             "26",
+            "31",
+            "36",
             "40",
-            "45"
-          ],
-          "pool": [
-            "39",
-            "49",
-            "06",
-            "03",
-            "48",
-            "05",
-            "14",
-            "02"
-          ],
-          "poolBasis": "before-window",
-          "covered": false,
-          "hits": []
-        },
-        {
-          "year": "2024",
-          "start": 291,
-          "end": 295,
-          "count": 5,
-          "nums": [
-            "14",
-            "24",
-            "30",
             "44",
-            "48"
-          ],
-          "pool": [
-            "39",
-            "49",
-            "06",
-            "03",
-            "48",
-            "05",
-            "14",
-            "02"
-          ],
-          "poolBasis": "before-window",
-          "covered": true,
-          "hits": [
-            "14",
-            "48"
-          ]
-        },
-        {
-          "year": "2024",
-          "start": 296,
-          "end": 300,
-          "count": 5,
-          "nums": [
-            "09",
-            "21",
-            "44",
-            "46",
-            "49"
-          ],
-          "pool": [
-            "39",
-            "49",
-            "06",
-            "48",
-            "03",
-            "05",
-            "14",
-            "02"
-          ],
-          "poolBasis": "before-window",
-          "covered": true,
-          "hits": [
-            "49"
-          ]
-        },
-        {
-          "year": "2024",
-          "start": 301,
-          "end": 305,
-          "count": 5,
-          "nums": [
-            "16",
-            "17",
-            "24",
-            "32",
-            "38"
-          ],
-          "pool": [
-            "39",
-            "49",
-            "06",
-            "48",
-            "03",
-            "05",
-            "14",
-            "02"
-          ],
-          "poolBasis": "before-window",
-          "covered": false,
-          "hits": []
-        },
-        {
-          "year": "2024",
-          "start": 306,
-          "end": 310,
-          "count": 5,
-          "nums": [
-            "03",
-            "04",
-            "08",
-            "09",
-            "22"
-          ],
-          "pool": [
-            "39",
-            "49",
-            "06",
-            "48",
-            "03",
-            "05",
-            "14",
-            "02"
-          ],
-          "poolBasis": "before-window",
-          "covered": true,
-          "hits": [
-            "03"
-          ]
-        },
-        {
-          "year": "2024",
-          "start": 311,
-          "end": 315,
-          "count": 5,
-          "nums": [
-            "18",
-            "21",
-            "35",
-            "46",
-            "48"
-          ],
-          "pool": [
-            "39",
-            "49",
-            "08",
-            "30",
-            "14",
-            "46",
             "45",
-            "02"
+            "46"
+          ],
+          "pool": [
+            "39",
+            "30",
+            "08",
+            "49",
+            "46",
+            "14",
+            "09",
+            "47"
           ],
           "poolBasis": "before-window",
           "covered": true,
@@ -33349,25 +34990,195 @@ window.__HISTORY_PATTERN_STATE__ = {
         },
         {
           "year": "2024",
-          "start": 316,
-          "end": 320,
-          "count": 5,
+          "start": 291,
+          "end": 295,
+          "count": 10,
+          "nums": [
+            "01",
+            "12",
+            "14",
+            "24",
+            "30",
+            "32",
+            "42",
+            "44",
+            "48"
+          ],
+          "pool": [
+            "39",
+            "30",
+            "08",
+            "49",
+            "46",
+            "14",
+            "09",
+            "47"
+          ],
+          "poolBasis": "before-window",
+          "covered": true,
+          "hits": [
+            "14",
+            "30"
+          ]
+        },
+        {
+          "year": "2024",
+          "start": 296,
+          "end": 300,
+          "count": 10,
           "nums": [
             "05",
+            "09",
+            "21",
+            "23",
+            "36",
+            "37",
+            "44",
+            "46",
+            "49"
+          ],
+          "pool": [
+            "39",
+            "30",
+            "08",
+            "49",
+            "46",
+            "14",
+            "09",
+            "47"
+          ],
+          "poolBasis": "before-window",
+          "covered": true,
+          "hits": [
+            "09",
+            "46",
+            "49"
+          ]
+        },
+        {
+          "year": "2024",
+          "start": 301,
+          "end": 305,
+          "count": 10,
+          "nums": [
+            "16",
+            "17",
+            "24",
+            "25",
+            "32",
+            "34",
+            "38",
+            "39",
+            "49"
+          ],
+          "pool": [
+            "39",
+            "30",
+            "49",
+            "08",
+            "46",
+            "14",
+            "09",
+            "47"
+          ],
+          "poolBasis": "before-window",
+          "covered": true,
+          "hits": [
+            "39",
+            "49"
+          ]
+        },
+        {
+          "year": "2024",
+          "start": 306,
+          "end": 310,
+          "count": 10,
+          "nums": [
+            "03",
+            "04",
+            "07",
+            "08",
+            "09",
+            "22",
+            "26",
+            "27",
+            "45"
+          ],
+          "pool": [
+            "39",
+            "30",
+            "49",
+            "08",
+            "46",
+            "14",
+            "09",
+            "47"
+          ],
+          "poolBasis": "before-window",
+          "covered": true,
+          "hits": [
+            "08",
+            "09"
+          ]
+        },
+        {
+          "year": "2024",
+          "start": 311,
+          "end": 315,
+          "count": 10,
+          "nums": [
+            "03",
+            "08",
+            "18",
+            "21",
+            "28",
+            "29",
+            "35",
+            "46",
+            "48"
+          ],
+          "pool": [
+            "39",
+            "30",
+            "08",
+            "49",
+            "46",
+            "14",
+            "09",
+            "47"
+          ],
+          "poolBasis": "before-window",
+          "covered": true,
+          "hits": [
+            "08",
+            "46"
+          ]
+        },
+        {
+          "year": "2024",
+          "start": 316,
+          "end": 320,
+          "count": 10,
+          "nums": [
+            "04",
+            "05",
+            "06",
             "12",
             "13",
+            "21",
+            "28",
             "41",
             "44"
           ],
           "pool": [
             "39",
-            "49",
-            "08",
             "30",
-            "14",
+            "08",
+            "49",
             "46",
-            "45",
-            "02"
+            "14",
+            "09",
+            "47"
           ],
           "poolBasis": "before-window",
           "covered": false,
@@ -33377,23 +35188,26 @@ window.__HISTORY_PATTERN_STATE__ = {
           "year": "2024",
           "start": 321,
           "end": 325,
-          "count": 5,
+          "count": 10,
           "nums": [
             "01",
+            "03",
             "27",
             "28",
+            "34",
             "36",
-            "39"
+            "39",
+            "42"
           ],
           "pool": [
             "39",
-            "49",
-            "08",
             "30",
-            "14",
+            "08",
+            "49",
             "46",
-            "45",
-            "02"
+            "14",
+            "09",
+            "05"
           ],
           "poolBasis": "before-window",
           "covered": true,
@@ -33405,23 +35219,27 @@ window.__HISTORY_PATTERN_STATE__ = {
           "year": "2024",
           "start": 326,
           "end": 330,
-          "count": 5,
+          "count": 10,
           "nums": [
+            "06",
             "11",
             "14",
+            "16",
+            "17",
             "19",
             "20",
+            "23",
             "41"
           ],
           "pool": [
             "39",
-            "49",
-            "08",
             "30",
-            "14",
+            "08",
+            "49",
             "46",
-            "45",
-            "02"
+            "14",
+            "09",
+            "05"
           ],
           "poolBasis": "before-window",
           "covered": true,
@@ -33433,27 +35251,32 @@ window.__HISTORY_PATTERN_STATE__ = {
           "year": "2024",
           "start": 331,
           "end": 335,
-          "count": 5,
+          "count": 10,
           "nums": [
             "04",
             "06",
+            "10",
+            "11",
+            "13",
             "32",
             "34",
+            "39",
             "46"
           ],
           "pool": [
             "39",
-            "49",
-            "19",
-            "46",
-            "08",
-            "14",
             "30",
-            "45"
+            "08",
+            "49",
+            "46",
+            "14",
+            "09",
+            "05"
           ],
           "poolBasis": "before-window",
           "covered": true,
           "hits": [
+            "39",
             "46"
           ]
         },
@@ -33461,57 +35284,64 @@ window.__HISTORY_PATTERN_STATE__ = {
           "year": "2024",
           "start": 336,
           "end": 340,
-          "count": 5,
+          "count": 10,
           "nums": [
+            "01",
             "05",
+            "07",
+            "17",
             "38",
             "40",
+            "44",
             "47",
             "48"
           ],
           "pool": [
             "39",
+            "30",
+            "08",
             "49",
-            "06",
-            "48",
-            "03",
-            "05",
+            "46",
             "14",
-            "02"
+            "09",
+            "05"
           ],
           "poolBasis": "before-window",
           "covered": true,
           "hits": [
-            "05",
-            "48"
+            "05"
           ]
         },
         {
           "year": "2024",
           "start": 341,
           "end": 345,
-          "count": 5,
+          "count": 10,
           "nums": [
             "02",
+            "04",
             "18",
+            "26",
+            "33",
+            "44",
             "45",
             "46",
             "49"
           ],
           "pool": [
             "39",
+            "30",
+            "08",
             "49",
-            "06",
-            "48",
-            "03",
-            "05",
+            "46",
             "14",
-            "02"
+            "05",
+            "09"
           ],
           "poolBasis": "before-window",
           "covered": true,
           "hits": [
-            "02",
+            "46",
             "49"
           ]
         },
@@ -33519,49 +35349,58 @@ window.__HISTORY_PATTERN_STATE__ = {
           "year": "2024",
           "start": 346,
           "end": 350,
-          "count": 5,
+          "count": 10,
           "nums": [
             "01",
             "04",
+            "09",
+            "16",
             "17",
+            "20",
             "28",
+            "31",
+            "32",
             "41"
           ],
           "pool": [
             "39",
+            "46",
+            "08",
             "49",
-            "06",
-            "48",
-            "03",
-            "05",
             "14",
-            "02"
+            "30",
+            "05",
+            "09"
           ],
           "poolBasis": "before-window",
-          "covered": false,
-          "hits": []
+          "covered": true,
+          "hits": [
+            "09"
+          ]
         },
         {
           "year": "2024",
           "start": 351,
           "end": 355,
-          "count": 5,
+          "count": 7,
           "nums": [
             "10",
+            "12",
             "25",
+            "26",
             "27",
             "47",
             "49"
           ],
           "pool": [
             "39",
+            "46",
+            "08",
             "49",
-            "06",
-            "48",
-            "03",
-            "05",
             "14",
-            "02"
+            "30",
+            "09",
+            "05"
           ],
           "poolBasis": "before-window",
           "covered": true,
@@ -33584,17 +35423,19 @@ window.__HISTORY_PATTERN_STATE__ = {
           "pool": [
             "39",
             "49",
-            "06",
-            "48",
-            "03",
-            "05",
+            "46",
+            "08",
             "14",
-            "02"
+            "30",
+            "09",
+            "05"
           ],
           "poolBasis": "before-window",
           "covered": true,
           "hits": [
-            "14"
+            "09",
+            "14",
+            "46"
           ]
         },
         {
@@ -33611,13 +35452,13 @@ window.__HISTORY_PATTERN_STATE__ = {
           ],
           "pool": [
             "39",
-            "49",
             "46",
-            "19",
+            "49",
             "08",
             "14",
-            "41",
-            "30"
+            "30",
+            "09",
+            "05"
           ],
           "poolBasis": "before-window",
           "covered": true,
@@ -33631,25 +35472,26 @@ window.__HISTORY_PATTERN_STATE__ = {
           "end": 5,
           "count": 5,
           "nums": [
-            "08",
+            "07",
+            "12",
             "22",
-            "33",
-            "37"
+            "24",
+            "30"
           ],
           "pool": [
             "39",
-            "49",
             "46",
-            "19",
-            "01",
+            "49",
             "08",
-            "45",
-            "30"
+            "30",
+            "14",
+            "09",
+            "05"
           ],
           "poolBasis": "before-window",
           "covered": true,
           "hits": [
-            "08"
+            "30"
           ]
         },
         {
@@ -33658,27 +35500,26 @@ window.__HISTORY_PATTERN_STATE__ = {
           "end": 10,
           "count": 5,
           "nums": [
-            "04",
-            "15",
-            "25",
-            "30",
-            "46"
+            "24",
+            "26",
+            "33",
+            "39",
+            "43"
           ],
           "pool": [
             "39",
-            "49",
-            "46",
-            "08",
-            "14",
             "30",
-            "45",
-            "02"
+            "49",
+            "08",
+            "46",
+            "14",
+            "09",
+            "05"
           ],
           "poolBasis": "before-window",
           "covered": true,
           "hits": [
-            "30",
-            "46"
+            "39"
           ]
         },
         {
@@ -33687,27 +35528,25 @@ window.__HISTORY_PATTERN_STATE__ = {
           "end": 15,
           "count": 5,
           "nums": [
-            "06",
-            "07",
-            "27",
-            "36",
-            "39"
+            "01",
+            "03",
+            "33",
+            "40",
+            "42"
           ],
           "pool": [
             "39",
-            "49",
-            "46",
-            "08",
-            "14",
             "30",
-            "45",
-            "02"
+            "49",
+            "08",
+            "46",
+            "14",
+            "09",
+            "05"
           ],
           "poolBasis": "before-window",
-          "covered": true,
-          "hits": [
-            "39"
-          ]
+          "covered": false,
+          "hits": []
         },
         {
           "year": "2025",
@@ -33715,21 +35554,21 @@ window.__HISTORY_PATTERN_STATE__ = {
           "end": 20,
           "count": 5,
           "nums": [
-            "06",
-            "10",
-            "21",
-            "34",
-            "38"
+            "16",
+            "22",
+            "32",
+            "37",
+            "43"
           ],
           "pool": [
             "39",
-            "49",
-            "46",
-            "08",
-            "14",
             "30",
-            "45",
-            "02"
+            "49",
+            "08",
+            "46",
+            "14",
+            "09",
+            "05"
           ],
           "poolBasis": "before-window",
           "covered": false,
@@ -33741,129 +35580,21 @@ window.__HISTORY_PATTERN_STATE__ = {
           "end": 25,
           "count": 5,
           "nums": [
-            "04",
-            "14",
-            "30",
-            "41",
-            "45"
-          ],
-          "pool": [
-            "39",
-            "49",
-            "46",
-            "08",
-            "14",
-            "30",
-            "45",
-            "02"
-          ],
-          "poolBasis": "before-window",
-          "covered": true,
-          "hits": [
-            "14",
-            "30",
-            "45"
-          ]
-        },
-        {
-          "year": "2025",
-          "start": 26,
-          "end": 30,
-          "count": 5,
-          "nums": [
-            "13",
+            "06",
             "25",
-            "37",
-            "40"
+            "30",
+            "33",
+            "43"
           ],
           "pool": [
             "39",
+            "30",
             "49",
-            "46",
             "08",
-            "14",
-            "30",
-            "45",
-            "02"
-          ],
-          "poolBasis": "before-window",
-          "covered": false,
-          "hits": []
-        },
-        {
-          "year": "2025",
-          "start": 31,
-          "end": 35,
-          "count": 5,
-          "nums": [
-            "21",
-            "22",
-            "23",
-            "39",
-            "48"
-          ],
-          "pool": [
-            "39",
-            "49",
             "46",
-            "08",
             "14",
-            "30",
-            "45",
-            "02"
-          ],
-          "poolBasis": "before-window",
-          "covered": true,
-          "hits": [
-            "39"
-          ]
-        },
-        {
-          "year": "2025",
-          "start": 36,
-          "end": 40,
-          "count": 5,
-          "nums": [
-            "20",
-            "25",
-            "29",
-            "40"
-          ],
-          "pool": [
-            "39",
-            "49",
-            "46",
-            "08",
-            "14",
-            "30",
-            "45",
-            "02"
-          ],
-          "poolBasis": "before-window",
-          "covered": false,
-          "hits": []
-        },
-        {
-          "year": "2025",
-          "start": 41,
-          "end": 45,
-          "count": 5,
-          "nums": [
-            "07",
-            "28",
-            "30",
-            "37",
-            "42"
-          ],
-          "pool": [
-            "39",
-            "49",
-            "46",
-            "08",
-            "14",
-            "30",
-            "45",
-            "02"
+            "09",
+            "05"
           ],
           "poolBasis": "before-window",
           "covered": true,
@@ -33873,78 +35604,224 @@ window.__HISTORY_PATTERN_STATE__ = {
         },
         {
           "year": "2025",
+          "start": 26,
+          "end": 30,
+          "count": 9,
+          "nums": [
+            "09",
+            "12",
+            "13",
+            "18",
+            "25",
+            "38",
+            "40"
+          ],
+          "pool": [
+            "39",
+            "30",
+            "49",
+            "08",
+            "46",
+            "14",
+            "09",
+            "05"
+          ],
+          "poolBasis": "before-window",
+          "covered": true,
+          "hits": [
+            "09"
+          ]
+        },
+        {
+          "year": "2025",
+          "start": 31,
+          "end": 35,
+          "count": 10,
+          "nums": [
+            "09",
+            "11",
+            "12",
+            "13",
+            "21",
+            "22",
+            "23",
+            "27",
+            "39",
+            "48"
+          ],
+          "pool": [
+            "39",
+            "30",
+            "49",
+            "08",
+            "46",
+            "14",
+            "09",
+            "05"
+          ],
+          "poolBasis": "before-window",
+          "covered": true,
+          "hits": [
+            "09",
+            "39"
+          ]
+        },
+        {
+          "year": "2025",
+          "start": 36,
+          "end": 40,
+          "count": 10,
+          "nums": [
+            "06",
+            "08",
+            "20",
+            "24",
+            "25",
+            "29",
+            "35",
+            "40"
+          ],
+          "pool": [
+            "39",
+            "30",
+            "49",
+            "08",
+            "46",
+            "14",
+            "09",
+            "05"
+          ],
+          "poolBasis": "before-window",
+          "covered": true,
+          "hits": [
+            "08"
+          ]
+        },
+        {
+          "year": "2025",
+          "start": 41,
+          "end": 45,
+          "count": 10,
+          "nums": [
+            "07",
+            "27",
+            "28",
+            "30",
+            "37",
+            "40",
+            "41",
+            "42",
+            "49"
+          ],
+          "pool": [
+            "39",
+            "30",
+            "08",
+            "09",
+            "28",
+            "46",
+            "14",
+            "20"
+          ],
+          "poolBasis": "before-window",
+          "covered": true,
+          "hits": [
+            "28",
+            "30"
+          ]
+        },
+        {
+          "year": "2025",
           "start": 46,
           "end": 50,
-          "count": 5,
+          "count": 10,
           "nums": [
             "05",
             "12",
+            "15",
             "18",
+            "30",
+            "36",
+            "37",
+            "39",
             "43"
           ],
           "pool": [
             "39",
-            "49",
-            "46",
-            "08",
             "30",
+            "08",
+            "09",
+            "28",
+            "46",
             "14",
-            "45",
-            "02"
+            "20"
           ],
           "poolBasis": "before-window",
-          "covered": false,
-          "hits": []
+          "covered": true,
+          "hits": [
+            "30",
+            "39"
+          ]
         },
         {
           "year": "2025",
           "start": 51,
           "end": 55,
-          "count": 5,
+          "count": 10,
           "nums": [
+            "02",
+            "09",
             "10",
             "11",
             "25",
+            "28",
+            "34",
+            "36",
             "44",
             "49"
           ],
           "pool": [
             "39",
-            "49",
-            "46",
-            "08",
             "30",
+            "08",
+            "09",
+            "28",
+            "46",
             "14",
-            "05",
-            "45"
+            "20"
           ],
           "poolBasis": "before-window",
           "covered": true,
           "hits": [
-            "49"
+            "09",
+            "28"
           ]
         },
         {
           "year": "2025",
           "start": 56,
           "end": 60,
-          "count": 5,
+          "count": 10,
           "nums": [
+            "06",
             "11",
             "20",
+            "23",
             "24",
+            "25",
+            "28",
             "31",
             "42"
           ],
           "pool": [
             "39",
-            "49",
-            "46",
-            "08",
             "30",
+            "49",
+            "08",
+            "46",
             "14",
-            "05",
-            "45"
+            "09",
+            "05"
           ],
           "poolBasis": "before-window",
           "covered": false,
@@ -33954,78 +35831,98 @@ window.__HISTORY_PATTERN_STATE__ = {
           "year": "2025",
           "start": 61,
           "end": 65,
-          "count": 5,
+          "count": 10,
           "nums": [
             "10",
+            "14",
             "23",
+            "24",
             "31",
             "35",
+            "37",
+            "38",
+            "39",
             "48"
           ],
           "pool": [
             "39",
-            "49",
-            "46",
-            "08",
             "30",
+            "49",
+            "08",
+            "31",
             "14",
             "05",
-            "45"
+            "36"
           ],
           "poolBasis": "before-window",
-          "covered": false,
-          "hits": []
+          "covered": true,
+          "hits": [
+            "14",
+            "31",
+            "39"
+          ]
         },
         {
           "year": "2025",
           "start": 66,
           "end": 70,
-          "count": 5,
+          "count": 10,
           "nums": [
+            "05",
             "12",
+            "27",
             "29",
             "43",
-            "44"
+            "44",
+            "46"
           ],
           "pool": [
             "39",
-            "49",
-            "46",
-            "08",
             "30",
+            "49",
+            "08",
+            "31",
             "14",
             "05",
-            "45"
+            "36"
           ],
           "poolBasis": "before-window",
-          "covered": false,
-          "hits": []
+          "covered": true,
+          "hits": [
+            "05"
+          ]
         },
         {
           "year": "2025",
           "start": 71,
           "end": 75,
-          "count": 5,
+          "count": 10,
           "nums": [
+            "01",
             "03",
+            "08",
             "09",
+            "20",
             "35",
             "40",
+            "41",
             "49"
           ],
           "pool": [
             "39",
-            "49",
-            "46",
-            "08",
             "30",
+            "49",
+            "08",
+            "46",
             "14",
-            "05",
-            "45"
+            "09",
+            "05"
           ],
           "poolBasis": "before-window",
           "covered": true,
           "hits": [
+            "08",
+            "09",
             "49"
           ]
         },
@@ -34033,27 +35930,32 @@ window.__HISTORY_PATTERN_STATE__ = {
           "year": "2025",
           "start": 76,
           "end": 80,
-          "count": 5,
+          "count": 10,
           "nums": [
             "10",
+            "14",
+            "21",
             "22",
+            "23",
             "24",
             "28",
+            "35",
             "39"
           ],
           "pool": [
             "39",
-            "49",
-            "46",
-            "08",
             "30",
+            "49",
+            "08",
+            "46",
             "14",
-            "05",
-            "45"
+            "09",
+            "05"
           ],
           "poolBasis": "before-window",
           "covered": true,
           "hits": [
+            "14",
             "39"
           ]
         },
@@ -34061,23 +35963,27 @@ window.__HISTORY_PATTERN_STATE__ = {
           "year": "2025",
           "start": 81,
           "end": 85,
-          "count": 5,
+          "count": 10,
           "nums": [
+            "01",
+            "11",
+            "19",
             "20",
             "28",
+            "32",
             "34",
             "35",
             "38"
           ],
           "pool": [
             "39",
-            "49",
-            "46",
-            "08",
             "30",
+            "49",
+            "08",
+            "46",
             "14",
-            "05",
-            "45"
+            "09",
+            "05"
           ],
           "poolBasis": "before-window",
           "covered": false,
@@ -34087,56 +35993,67 @@ window.__HISTORY_PATTERN_STATE__ = {
           "year": "2025",
           "start": 86,
           "end": 90,
-          "count": 5,
+          "count": 10,
           "nums": [
+            "11",
             "14",
             "15",
+            "25",
             "30",
-            "35"
+            "35",
+            "42",
+            "45",
+            "46"
           ],
           "pool": [
             "39",
-            "49",
-            "46",
-            "08",
             "30",
+            "49",
+            "08",
+            "46",
             "14",
-            "05",
-            "20"
+            "09",
+            "28"
           ],
           "poolBasis": "before-window",
           "covered": true,
           "hits": [
             "14",
-            "30"
+            "30",
+            "46"
           ]
         },
         {
           "year": "2025",
           "start": 91,
           "end": 95,
-          "count": 5,
+          "count": 10,
           "nums": [
+            "05",
             "10",
+            "16",
             "20",
+            "23",
+            "29",
+            "30",
             "33",
             "39",
             "40"
           ],
           "pool": [
             "39",
-            "49",
             "30",
+            "49",
             "08",
-            "14",
             "46",
-            "05",
-            "20"
+            "14",
+            "09",
+            "28"
           ],
           "poolBasis": "before-window",
           "covered": true,
           "hits": [
-            "20",
+            "30",
             "39"
           ]
         },
@@ -34144,102 +36061,125 @@ window.__HISTORY_PATTERN_STATE__ = {
           "year": "2025",
           "start": 96,
           "end": 100,
-          "count": 5,
+          "count": 10,
           "nums": [
+            "01",
             "03",
+            "13",
+            "19",
             "20",
             "31",
             "34",
+            "39",
             "42"
           ],
           "pool": [
             "39",
-            "49",
             "30",
+            "49",
             "08",
-            "14",
             "46",
-            "05",
-            "20"
+            "14",
+            "09",
+            "05"
           ],
           "poolBasis": "before-window",
           "covered": true,
           "hits": [
-            "20"
+            "39"
           ]
         },
         {
           "year": "2025",
           "start": 101,
           "end": 105,
-          "count": 5,
+          "count": 10,
           "nums": [
             "01",
+            "03",
             "06",
+            "23",
             "26",
             "32",
-            "38"
+            "34",
+            "38",
+            "39"
           ],
           "pool": [
             "39",
-            "49",
             "30",
+            "49",
             "08",
-            "14",
             "46",
-            "20",
-            "47"
+            "14",
+            "09",
+            "05"
           ],
           "poolBasis": "before-window",
-          "covered": false,
-          "hits": []
+          "covered": true,
+          "hits": [
+            "39"
+          ]
         },
         {
           "year": "2025",
           "start": 106,
           "end": 110,
-          "count": 5,
+          "count": 10,
           "nums": [
             "03",
+            "05",
             "18",
+            "22",
+            "24",
             "27",
+            "40",
+            "42",
             "46",
             "47"
           ],
           "pool": [
             "39",
-            "49",
             "30",
-            "06",
-            "48",
+            "49",
+            "08",
+            "46",
             "14",
-            "05",
-            "20"
+            "09",
+            "05"
           ],
           "poolBasis": "before-window",
-          "covered": false,
-          "hits": []
+          "covered": true,
+          "hits": [
+            "05",
+            "46"
+          ]
         },
         {
           "year": "2025",
           "start": 111,
           "end": 115,
-          "count": 5,
+          "count": 10,
           "nums": [
+            "02",
             "03",
+            "24",
+            "36",
+            "37",
             "38",
             "45",
-            "46"
+            "46",
+            "48"
           ],
           "pool": [
             "39",
+            "30",
             "49",
             "46",
-            "20",
-            "30",
             "08",
             "14",
-            "47"
+            "09",
+            "05"
           ],
           "poolBasis": "before-window",
           "covered": true,
@@ -34251,51 +36191,60 @@ window.__HISTORY_PATTERN_STATE__ = {
           "year": "2025",
           "start": 116,
           "end": 120,
-          "count": 5,
+          "count": 10,
           "nums": [
+            "05",
+            "12",
             "23",
             "28",
+            "30",
             "36",
             "38",
+            "45",
             "47"
           ],
           "pool": [
             "39",
-            "49",
             "46",
-            "20",
+            "49",
             "30",
             "08",
             "14",
-            "47"
+            "09",
+            "05"
           ],
           "poolBasis": "before-window",
           "covered": true,
           "hits": [
-            "47"
+            "05",
+            "30"
           ]
         },
         {
           "year": "2025",
           "start": 121,
           "end": 125,
-          "count": 5,
+          "count": 10,
           "nums": [
+            "07",
             "10",
+            "13",
             "24",
             "33",
+            "35",
+            "44",
             "45",
             "49"
           ],
           "pool": [
             "39",
+            "30",
             "49",
             "46",
-            "20",
-            "30",
             "08",
             "14",
-            "47"
+            "09",
+            "05"
           ],
           "poolBasis": "before-window",
           "covered": true,
@@ -34307,23 +36256,26 @@ window.__HISTORY_PATTERN_STATE__ = {
           "year": "2025",
           "start": 126,
           "end": 130,
-          "count": 5,
+          "count": 10,
           "nums": [
             "02",
             "13",
+            "17",
+            "22",
             "23",
+            "36",
             "40",
             "49"
           ],
           "pool": [
             "39",
+            "30",
             "49",
             "46",
-            "20",
-            "30",
             "08",
             "14",
-            "47"
+            "09",
+            "05"
           ],
           "poolBasis": "before-window",
           "covered": true,
@@ -34335,52 +36287,27 @@ window.__HISTORY_PATTERN_STATE__ = {
           "year": "2025",
           "start": 131,
           "end": 135,
-          "count": 5,
+          "count": 10,
           "nums": [
             "02",
             "10",
             "14",
+            "22",
+            "34",
             "37",
+            "42",
+            "45",
             "47"
           ],
           "pool": [
             "39",
+            "30",
             "49",
             "46",
-            "20",
-            "30",
             "08",
             "14",
-            "47"
-          ],
-          "poolBasis": "before-window",
-          "covered": true,
-          "hits": [
-            "14",
-            "47"
-          ]
-        },
-        {
-          "year": "2025",
-          "start": 136,
-          "end": 140,
-          "count": 5,
-          "nums": [
             "09",
-            "11",
-            "14",
-            "36",
-            "41"
-          ],
-          "pool": [
-            "39",
-            "49",
-            "46",
-            "14",
-            "08",
-            "30",
-            "20",
-            "47"
+            "05"
           ],
           "poolBasis": "before-window",
           "covered": true,
@@ -34390,51 +36317,98 @@ window.__HISTORY_PATTERN_STATE__ = {
         },
         {
           "year": "2025",
+          "start": 136,
+          "end": 140,
+          "count": 10,
+          "nums": [
+            "02",
+            "05",
+            "09",
+            "11",
+            "14",
+            "19",
+            "25",
+            "34",
+            "36",
+            "41"
+          ],
+          "pool": [
+            "39",
+            "30",
+            "49",
+            "46",
+            "08",
+            "14",
+            "09",
+            "05"
+          ],
+          "poolBasis": "before-window",
+          "covered": true,
+          "hits": [
+            "05",
+            "09",
+            "14"
+          ]
+        },
+        {
+          "year": "2025",
           "start": 141,
           "end": 145,
-          "count": 5,
+          "count": 10,
           "nums": [
+            "09",
             "10",
             "13",
             "17",
             "25",
-            "44"
+            "26",
+            "35",
+            "43",
+            "44",
+            "45"
           ],
           "pool": [
             "39",
+            "30",
             "49",
             "46",
-            "14",
             "08",
-            "30",
-            "20",
-            "47"
+            "14",
+            "09",
+            "05"
           ],
           "poolBasis": "before-window",
-          "covered": false,
-          "hits": []
+          "covered": true,
+          "hits": [
+            "09"
+          ]
         },
         {
           "year": "2025",
           "start": 146,
           "end": 150,
-          "count": 5,
+          "count": 10,
           "nums": [
             "02",
             "14",
+            "15",
+            "22",
+            "27",
+            "28",
             "32",
+            "35",
             "40",
             "41"
           ],
           "pool": [
             "39",
+            "30",
             "49",
             "46",
-            "14",
             "08",
-            "30",
-            "20",
-            "47"
+            "14",
+            "09",
+            "05"
           ],
           "poolBasis": "before-window",
           "covered": true,
@@ -34446,75 +36420,95 @@ window.__HISTORY_PATTERN_STATE__ = {
           "year": "2025",
           "start": 151,
           "end": 155,
-          "count": 5,
+          "count": 10,
           "nums": [
+            "01",
+            "04",
             "10",
             "26",
+            "34",
+            "35",
             "38",
             "43",
-            "45"
+            "45",
+            "49"
           ],
           "pool": [
             "39",
+            "30",
             "49",
-            "14",
             "46",
             "08",
-            "30",
-            "20",
-            "47"
+            "14",
+            "09",
+            "05"
           ],
           "poolBasis": "before-window",
-          "covered": false,
-          "hits": []
+          "covered": true,
+          "hits": [
+            "49"
+          ]
         },
         {
           "year": "2025",
           "start": 156,
           "end": 160,
-          "count": 5,
+          "count": 10,
           "nums": [
+            "04",
             "05",
+            "08",
             "11",
             "18",
             "23",
-            "31"
+            "27",
+            "31",
+            "33",
+            "47"
           ],
           "pool": [
             "39",
             "49",
-            "14",
+            "30",
             "46",
             "08",
-            "30",
-            "20",
-            "47"
+            "14",
+            "09",
+            "05"
           ],
           "poolBasis": "before-window",
-          "covered": false,
-          "hits": []
+          "covered": true,
+          "hits": [
+            "05",
+            "08"
+          ]
         },
         {
           "year": "2025",
           "start": 161,
           "end": 165,
-          "count": 5,
+          "count": 10,
           "nums": [
             "01",
+            "03",
             "13",
             "16",
+            "22",
             "23",
+            "31",
+            "38",
+            "44",
             "47"
           ],
           "pool": [
             "39",
             "49",
-            "14",
+            "30",
             "46",
             "08",
-            "30",
-            "05",
-            "20"
+            "14",
+            "09",
+            "05"
           ],
           "poolBasis": "before-window",
           "covered": false,
@@ -34524,78 +36518,127 @@ window.__HISTORY_PATTERN_STATE__ = {
           "year": "2025",
           "start": 166,
           "end": 170,
-          "count": 5,
+          "count": 10,
           "nums": [
             "07",
             "09",
             "16",
+            "20",
+            "23",
             "33",
-            "41"
-          ],
-          "pool": [
-            "39",
-            "49",
-            "14",
-            "46",
-            "08",
-            "30",
-            "05",
-            "20"
-          ],
-          "poolBasis": "before-window",
-          "covered": false,
-          "hits": []
-        },
-        {
-          "year": "2025",
-          "start": 171,
-          "end": 175,
-          "count": 5,
-          "nums": [
-            "30",
-            "36",
             "38",
-            "39",
+            "41",
             "47"
           ],
           "pool": [
             "39",
             "49",
-            "14",
+            "30",
             "46",
             "08",
+            "14",
+            "09",
+            "47"
+          ],
+          "poolBasis": "before-window",
+          "covered": true,
+          "hits": [
+            "09",
+            "47"
+          ]
+        },
+        {
+          "year": "2025",
+          "start": 171,
+          "end": 175,
+          "count": 10,
+          "nums": [
+            "18",
+            "25",
             "30",
-            "05",
-            "20"
+            "36",
+            "38",
+            "39",
+            "45",
+            "46",
+            "47"
+          ],
+          "pool": [
+            "39",
+            "49",
+            "30",
+            "46",
+            "08",
+            "14",
+            "09",
+            "47"
           ],
           "poolBasis": "before-window",
           "covered": true,
           "hits": [
             "30",
-            "39"
+            "39",
+            "46",
+            "47"
           ]
         },
         {
           "year": "2025",
           "start": 176,
           "end": 180,
-          "count": 5,
+          "count": 10,
           "nums": [
+            "01",
             "04",
+            "20",
             "24",
+            "26",
             "27",
             "29",
-            "36"
+            "36",
+            "48",
+            "49"
           ],
           "pool": [
             "39",
             "49",
-            "14",
+            "30",
             "46",
             "08",
-            "30",
+            "14",
+            "09",
+            "47"
+          ],
+          "poolBasis": "before-window",
+          "covered": true,
+          "hits": [
+            "49"
+          ]
+        },
+        {
+          "year": "2025",
+          "start": 181,
+          "end": 185,
+          "count": 10,
+          "nums": [
             "05",
-            "20"
+            "23",
+            "28",
+            "33",
+            "35",
+            "42",
+            "45",
+            "48"
+          ],
+          "pool": [
+            "39",
+            "49",
+            "30",
+            "46",
+            "08",
+            "14",
+            "09",
+            "47"
           ],
           "poolBasis": "before-window",
           "covered": false,
@@ -34603,80 +36646,63 @@ window.__HISTORY_PATTERN_STATE__ = {
         },
         {
           "year": "2025",
-          "start": 181,
-          "end": 185,
-          "count": 5,
-          "nums": [
-            "05",
-            "23",
-            "28",
-            "33",
-            "42"
-          ],
-          "pool": [
-            "39",
-            "49",
-            "14",
-            "46",
-            "08",
-            "30",
-            "05",
-            "20"
-          ],
-          "poolBasis": "before-window",
-          "covered": true,
-          "hits": [
-            "05"
-          ]
-        },
-        {
-          "year": "2025",
           "start": 186,
           "end": 190,
-          "count": 5,
+          "count": 10,
           "nums": [
             "08",
             "15",
             "17",
             "18",
-            "45"
+            "26",
+            "32",
+            "35",
+            "38",
+            "45",
+            "46"
           ],
           "pool": [
             "39",
             "49",
-            "14",
-            "46",
-            "05",
-            "08",
             "30",
-            "20"
+            "46",
+            "08",
+            "14",
+            "09",
+            "05"
           ],
           "poolBasis": "before-window",
           "covered": true,
           "hits": [
-            "08"
+            "08",
+            "46"
           ]
         },
         {
           "year": "2025",
           "start": 191,
           "end": 195,
-          "count": 5,
+          "count": 10,
           "nums": [
+            "01",
             "24",
             "25",
             "29",
+            "33",
+            "35",
+            "40",
+            "44",
             "45"
           ],
           "pool": [
             "39",
             "49",
-            "14",
             "46",
-            "08",
             "30",
-            "05",
-            "20"
+            "08",
+            "14",
+            "09",
+            "05"
           ],
           "poolBasis": "before-window",
           "covered": false,
@@ -34686,23 +36712,28 @@ window.__HISTORY_PATTERN_STATE__ = {
           "year": "2025",
           "start": 196,
           "end": 200,
-          "count": 5,
+          "count": 10,
           "nums": [
+            "02",
             "10",
+            "13",
             "14",
+            "26",
             "34",
             "43",
-            "47"
+            "44",
+            "47",
+            "48"
           ],
           "pool": [
             "39",
             "49",
-            "14",
             "46",
-            "08",
             "30",
-            "05",
-            "45"
+            "08",
+            "14",
+            "09",
+            "35"
           ],
           "poolBasis": "before-window",
           "covered": true,
@@ -34714,23 +36745,27 @@ window.__HISTORY_PATTERN_STATE__ = {
           "year": "2025",
           "start": 201,
           "end": 205,
-          "count": 5,
+          "count": 10,
           "nums": [
             "01",
+            "03",
+            "12",
+            "15",
             "18",
             "20",
             "30",
+            "44",
             "47"
           ],
           "pool": [
             "39",
             "49",
-            "14",
             "46",
-            "08",
             "30",
-            "05",
-            "45"
+            "08",
+            "14",
+            "09",
+            "35"
           ],
           "poolBasis": "before-window",
           "covered": true,
@@ -34742,49 +36777,61 @@ window.__HISTORY_PATTERN_STATE__ = {
           "year": "2025",
           "start": 206,
           "end": 210,
-          "count": 5,
+          "count": 10,
           "nums": [
             "09",
             "10",
+            "11",
             "13",
             "15",
-            "24"
+            "18",
+            "19",
+            "24",
+            "30",
+            "32"
           ],
           "pool": [
             "39",
             "49",
-            "14",
+            "30",
             "46",
             "08",
-            "30",
-            "05",
-            "45"
+            "14",
+            "09",
+            "35"
           ],
           "poolBasis": "before-window",
-          "covered": false,
-          "hits": []
+          "covered": true,
+          "hits": [
+            "09",
+            "30"
+          ]
         },
         {
           "year": "2025",
           "start": 211,
           "end": 215,
-          "count": 5,
+          "count": 10,
           "nums": [
             "02",
+            "03",
             "11",
+            "12",
             "15",
             "18",
-            "21"
+            "21",
+            "32",
+            "45"
           ],
           "pool": [
             "39",
+            "30",
             "49",
-            "14",
             "46",
             "08",
-            "30",
-            "05",
-            "45"
+            "14",
+            "09",
+            "35"
           ],
           "poolBasis": "before-window",
           "covered": false,
@@ -34794,131 +36841,230 @@ window.__HISTORY_PATTERN_STATE__ = {
           "year": "2025",
           "start": 216,
           "end": 220,
-          "count": 5,
+          "count": 10,
           "nums": [
             "08",
             "09",
+            "19",
             "23",
-            "46"
+            "28",
+            "44",
+            "46",
+            "49"
           ],
           "pool": [
             "39",
+            "30",
             "49",
-            "14",
             "46",
             "08",
-            "30",
-            "05",
-            "45"
+            "14",
+            "09",
+            "35"
           ],
           "poolBasis": "before-window",
           "covered": true,
           "hits": [
             "08",
-            "46"
+            "09",
+            "46",
+            "49"
           ]
         },
         {
           "year": "2025",
           "start": 221,
           "end": 225,
-          "count": 5,
+          "count": 10,
           "nums": [
+            "05",
             "08",
+            "12",
             "16",
             "25",
+            "28",
+            "30",
             "32",
-            "43"
+            "43",
+            "46"
           ],
           "pool": [
             "39",
             "49",
-            "14",
+            "30",
             "46",
             "08",
-            "30",
-            "05",
-            "45"
+            "14",
+            "09",
+            "35"
           ],
           "poolBasis": "before-window",
           "covered": true,
           "hits": [
-            "08"
+            "08",
+            "30",
+            "46"
           ]
         },
         {
           "year": "2025",
           "start": 226,
           "end": 230,
-          "count": 5,
+          "count": 10,
           "nums": [
             "02",
             "15",
+            "17",
+            "24",
             "31",
+            "35",
             "39",
-            "40"
+            "40",
+            "47",
+            "49"
           ],
           "pool": [
             "39",
+            "30",
             "49",
-            "14",
             "46",
             "08",
-            "30",
-            "05",
-            "45"
+            "14",
+            "09",
+            "35"
           ],
           "poolBasis": "before-window",
           "covered": true,
           "hits": [
-            "39"
+            "35",
+            "39",
+            "49"
           ]
         },
         {
           "year": "2025",
           "start": 231,
           "end": 235,
-          "count": 5,
+          "count": 10,
           "nums": [
+            "06",
+            "08",
             "13",
+            "35",
             "37",
             "38",
-            "42"
+            "42",
+            "43",
+            "46"
           ],
           "pool": [
             "39",
+            "30",
             "49",
-            "14",
             "46",
             "08",
-            "30",
-            "05",
-            "45"
+            "14",
+            "09",
+            "35"
           ],
           "poolBasis": "before-window",
-          "covered": false,
-          "hits": []
+          "covered": true,
+          "hits": [
+            "08",
+            "35",
+            "46"
+          ]
+        },
+        {
+          "year": "2025",
+          "start": 236,
+          "end": 240,
+          "count": 9,
+          "nums": [
+            "02",
+            "04",
+            "05",
+            "11",
+            "29",
+            "35",
+            "39",
+            "45",
+            "46"
+          ],
+          "pool": [
+            "39",
+            "46",
+            "49",
+            "30",
+            "08",
+            "14",
+            "09",
+            "35"
+          ],
+          "poolBasis": "before-window",
+          "covered": true,
+          "hits": [
+            "35",
+            "39",
+            "46"
+          ]
+        },
+        {
+          "year": "2025",
+          "start": 241,
+          "end": 245,
+          "count": 8,
+          "nums": [
+            "20",
+            "23",
+            "24",
+            "26",
+            "34",
+            "44",
+            "47",
+            "49"
+          ],
+          "pool": [
+            "39",
+            "46",
+            "49",
+            "30",
+            "08",
+            "14",
+            "09",
+            "35"
+          ],
+          "poolBasis": "before-window",
+          "covered": true,
+          "hits": [
+            "49"
+          ]
         },
         {
           "year": "2025",
           "start": 246,
           "end": 250,
-          "count": 5,
+          "count": 10,
           "nums": [
             "02",
+            "05",
             "06",
+            "07",
+            "10",
             "12",
-            "25"
+            "25",
+            "26",
+            "40"
           ],
           "pool": [
             "39",
             "49",
-            "14",
             "46",
-            "08",
             "30",
-            "05",
-            "45"
+            "08",
+            "14",
+            "09",
+            "35"
           ],
           "poolBasis": "before-window",
           "covered": false,
@@ -34928,23 +37074,27 @@ window.__HISTORY_PATTERN_STATE__ = {
           "year": "2025",
           "start": 251,
           "end": 255,
-          "count": 5,
+          "count": 10,
           "nums": [
+            "03",
             "17",
+            "21",
             "23",
+            "26",
             "33",
             "35",
+            "41",
             "42"
           ],
           "pool": [
             "39",
             "49",
-            "14",
             "46",
-            "08",
             "30",
-            "05",
-            "45"
+            "08",
+            "14",
+            "09",
+            "05"
           ],
           "poolBasis": "before-window",
           "covered": false,
@@ -34954,141 +37104,175 @@ window.__HISTORY_PATTERN_STATE__ = {
           "year": "2025",
           "start": 256,
           "end": 260,
-          "count": 5,
+          "count": 10,
           "nums": [
+            "01",
             "03",
+            "07",
             "28",
+            "34",
             "38",
             "47",
-            "48"
+            "48",
+            "49"
           ],
           "pool": [
             "39",
             "49",
-            "14",
             "46",
-            "08",
             "30",
-            "05",
-            "45"
+            "08",
+            "14",
+            "09",
+            "35"
           ],
           "poolBasis": "before-window",
-          "covered": false,
-          "hits": []
+          "covered": true,
+          "hits": [
+            "49"
+          ]
         },
         {
           "year": "2025",
           "start": 261,
           "end": 265,
-          "count": 5,
+          "count": 10,
           "nums": [
             "10",
+            "18",
+            "23",
+            "24",
             "33",
             "38",
+            "42",
             "43",
-            "44"
+            "44",
+            "49"
           ],
           "pool": [
             "39",
             "49",
-            "14",
             "46",
-            "08",
             "30",
-            "05",
-            "45"
+            "08",
+            "14",
+            "09",
+            "35"
           ],
           "poolBasis": "before-window",
-          "covered": false,
-          "hits": []
+          "covered": true,
+          "hits": [
+            "49"
+          ]
         },
         {
           "year": "2025",
           "start": 266,
           "end": 270,
-          "count": 5,
+          "count": 10,
           "nums": [
+            "05",
             "10",
+            "25",
             "29",
             "31",
+            "33",
             "35",
             "41"
           ],
           "pool": [
             "39",
             "49",
-            "14",
             "46",
-            "08",
             "30",
-            "05",
-            "45"
+            "08",
+            "14",
+            "09",
+            "35"
           ],
           "poolBasis": "before-window",
-          "covered": false,
-          "hits": []
+          "covered": true,
+          "hits": [
+            "35"
+          ]
         },
         {
           "year": "2025",
           "start": 271,
           "end": 275,
-          "count": 5,
+          "count": 10,
           "nums": [
             "04",
             "06",
+            "14",
+            "34",
             "36",
+            "40",
             "44",
-            "45"
+            "45",
+            "47",
+            "48"
           ],
           "pool": [
             "39",
             "49",
-            "14",
             "46",
-            "08",
             "30",
-            "05",
-            "45"
+            "08",
+            "14",
+            "09",
+            "35"
           ],
           "poolBasis": "before-window",
           "covered": true,
           "hits": [
-            "45"
+            "14"
           ]
         },
         {
           "year": "2025",
           "start": 276,
           "end": 280,
-          "count": 5,
+          "count": 10,
           "nums": [
+            "05",
             "09",
+            "13",
             "16",
+            "22",
             "27",
             "28",
+            "30",
+            "36",
             "42"
           ],
           "pool": [
             "39",
             "49",
-            "14",
             "46",
-            "08",
             "30",
-            "45",
-            "05"
+            "08",
+            "14",
+            "09",
+            "35"
           ],
           "poolBasis": "before-window",
-          "covered": false,
-          "hits": []
+          "covered": true,
+          "hits": [
+            "09",
+            "30"
+          ]
         },
         {
           "year": "2025",
           "start": 281,
           "end": 285,
-          "count": 5,
+          "count": 10,
           "nums": [
+            "15",
+            "16",
             "24",
+            "40",
             "41",
             "45",
             "47"
@@ -35096,39 +37280,42 @@ window.__HISTORY_PATTERN_STATE__ = {
           "pool": [
             "39",
             "49",
-            "14",
+            "30",
             "46",
             "08",
-            "30",
-            "45",
-            "05"
+            "14",
+            "09",
+            "35"
           ],
           "poolBasis": "before-window",
-          "covered": true,
-          "hits": [
-            "45"
-          ]
+          "covered": false,
+          "hits": []
         },
         {
           "year": "2025",
           "start": 286,
           "end": 290,
-          "count": 5,
+          "count": 10,
           "nums": [
+            "01",
             "03",
+            "10",
             "14",
+            "16",
             "19",
             "34",
-            "42"
+            "38",
+            "42",
+            "47"
           ],
           "pool": [
             "39",
             "49",
-            "14",
-            "46",
-            "08",
             "30",
             "45",
+            "46",
+            "08",
+            "14",
             "05"
           ],
           "poolBasis": "before-window",
@@ -35141,22 +37328,26 @@ window.__HISTORY_PATTERN_STATE__ = {
           "year": "2025",
           "start": 291,
           "end": 295,
-          "count": 5,
+          "count": 10,
           "nums": [
             "02",
             "05",
+            "12",
             "18",
+            "20",
+            "24",
+            "41",
             "44",
             "47"
           ],
           "pool": [
             "39",
             "49",
-            "14",
-            "46",
-            "08",
             "30",
             "45",
+            "46",
+            "08",
+            "14",
             "05"
           ],
           "poolBasis": "before-window",
@@ -35169,10 +37360,14 @@ window.__HISTORY_PATTERN_STATE__ = {
           "year": "2025",
           "start": 296,
           "end": 300,
-          "count": 5,
+          "count": 10,
           "nums": [
+            "09",
+            "11",
+            "13",
             "22",
             "23",
+            "35",
             "40",
             "44",
             "49"
@@ -35180,12 +37375,12 @@ window.__HISTORY_PATTERN_STATE__ = {
           "pool": [
             "39",
             "49",
-            "14",
-            "46",
-            "08",
             "30",
             "45",
-            "05"
+            "05",
+            "14",
+            "08",
+            "31"
           ],
           "poolBasis": "before-window",
           "covered": true,
@@ -35197,23 +37392,27 @@ window.__HISTORY_PATTERN_STATE__ = {
           "year": "2025",
           "start": 301,
           "end": 305,
-          "count": 5,
+          "count": 10,
           "nums": [
             "05",
+            "10",
+            "11",
             "15",
             "22",
+            "27",
+            "33",
             "42",
             "48"
           ],
           "pool": [
             "39",
             "49",
-            "14",
-            "46",
-            "08",
             "30",
             "45",
-            "05"
+            "05",
+            "14",
+            "08",
+            "31"
           ],
           "poolBasis": "before-window",
           "covered": true,
@@ -35225,23 +37424,28 @@ window.__HISTORY_PATTERN_STATE__ = {
           "year": "2025",
           "start": 306,
           "end": 310,
-          "count": 5,
+          "count": 10,
           "nums": [
+            "01",
             "06",
             "16",
             "17",
             "20",
-            "39"
+            "21",
+            "39",
+            "42",
+            "44",
+            "46"
           ],
           "pool": [
             "39",
             "49",
-            "14",
-            "05",
-            "46",
-            "08",
             "30",
-            "45"
+            "45",
+            "05",
+            "14",
+            "08",
+            "31"
           ],
           "poolBasis": "before-window",
           "covered": true,
@@ -35253,10 +37457,12 @@ window.__HISTORY_PATTERN_STATE__ = {
           "year": "2025",
           "start": 311,
           "end": 315,
-          "count": 5,
+          "count": 10,
           "nums": [
+            "01",
             "04",
             "14",
+            "15",
             "23",
             "37",
             "38"
@@ -35264,12 +37470,12 @@ window.__HISTORY_PATTERN_STATE__ = {
           "pool": [
             "39",
             "49",
-            "14",
-            "05",
-            "46",
-            "08",
             "30",
-            "45"
+            "45",
+            "05",
+            "14",
+            "08",
+            "31"
           ],
           "poolBasis": "before-window",
           "covered": true,
@@ -35281,23 +37487,28 @@ window.__HISTORY_PATTERN_STATE__ = {
           "year": "2025",
           "start": 316,
           "end": 320,
-          "count": 5,
+          "count": 10,
           "nums": [
+            "04",
             "06",
+            "09",
+            "10",
             "18",
             "24",
             "28",
-            "45"
+            "41",
+            "45",
+            "46"
           ],
           "pool": [
             "39",
             "49",
-            "14",
-            "05",
-            "46",
-            "08",
             "30",
-            "45"
+            "45",
+            "05",
+            "14",
+            "08",
+            "31"
           ],
           "poolBasis": "before-window",
           "covered": true,
@@ -35309,23 +37520,59 @@ window.__HISTORY_PATTERN_STATE__ = {
           "year": "2025",
           "start": 321,
           "end": 325,
-          "count": 5,
+          "count": 10,
           "nums": [
             "04",
+            "07",
             "09",
             "15",
+            "17",
             "23",
+            "34",
+            "40",
             "47"
           ],
           "pool": [
             "39",
             "49",
+            "46",
+            "30",
             "14",
-            "06",
-            "48",
+            "08",
             "05",
+            "09"
+          ],
+          "poolBasis": "before-window",
+          "covered": true,
+          "hits": [
+            "09"
+          ]
+        },
+        {
+          "year": "2025",
+          "start": 326,
+          "end": 330,
+          "count": 10,
+          "nums": [
             "03",
-            "02"
+            "10",
+            "11",
+            "15",
+            "17",
+            "19",
+            "27",
+            "36",
+            "37"
+          ],
+          "pool": [
+            "39",
+            "49",
+            "46",
+            "30",
+            "47",
+            "08",
+            "14",
+            "09"
           ],
           "poolBasis": "before-window",
           "covered": false,
@@ -35333,142 +37580,132 @@ window.__HISTORY_PATTERN_STATE__ = {
         },
         {
           "year": "2025",
-          "start": 326,
-          "end": 330,
-          "count": 5,
-          "nums": [
-            "03",
-            "17",
-            "19",
-            "36",
-            "37"
-          ],
-          "pool": [
-            "39",
-            "49",
-            "14",
-            "06",
-            "48",
-            "05",
-            "03",
-            "09"
-          ],
-          "poolBasis": "before-window",
-          "covered": true,
-          "hits": [
-            "03"
-          ]
-        },
-        {
-          "year": "2025",
           "start": 331,
           "end": 335,
-          "count": 5,
+          "count": 10,
           "nums": [
+            "03",
             "06",
+            "08",
+            "14",
             "26",
+            "41",
             "44",
             "46"
           ],
           "pool": [
             "39",
             "49",
+            "46",
+            "30",
+            "47",
+            "08",
             "14",
-            "06",
-            "48",
-            "05",
-            "03",
             "09"
           ],
           "poolBasis": "before-window",
           "covered": true,
           "hits": [
-            "06"
+            "08",
+            "14",
+            "46"
           ]
         },
         {
           "year": "2025",
           "start": 336,
           "end": 340,
-          "count": 5,
+          "count": 10,
           "nums": [
+            "03",
             "08",
             "09",
             "16",
             "17",
-            "48"
+            "28",
+            "43",
+            "48",
+            "49"
           ],
           "pool": [
             "39",
             "49",
+            "46",
+            "30",
             "14",
-            "06",
-            "48",
+            "08",
             "05",
-            "03",
             "09"
           ],
           "poolBasis": "before-window",
           "covered": true,
           "hits": [
+            "08",
             "09",
-            "48"
+            "49"
           ]
         },
         {
           "year": "2025",
           "start": 341,
           "end": 345,
-          "count": 5,
+          "count": 10,
           "nums": [
             "04",
             "06",
+            "11",
             "24",
+            "25",
             "27",
-            "38"
+            "32",
+            "38",
+            "44",
+            "45"
           ],
           "pool": [
             "39",
             "49",
+            "46",
+            "30",
             "14",
-            "06",
-            "48",
+            "08",
             "05",
-            "03",
             "09"
           ],
           "poolBasis": "before-window",
-          "covered": true,
-          "hits": [
-            "06"
-          ]
+          "covered": false,
+          "hits": []
         },
         {
           "year": "2025",
           "start": 346,
           "end": 350,
-          "count": 5,
+          "count": 10,
           "nums": [
+            "02",
             "03",
+            "06",
             "13",
             "16",
             "22",
+            "40",
+            "45",
             "49"
           ],
           "pool": [
             "39",
             "49",
+            "46",
+            "30",
+            "45",
+            "20",
             "14",
-            "06",
-            "48",
-            "05",
-            "03",
-            "09"
+            "05"
           ],
           "poolBasis": "before-window",
           "covered": true,
           "hits": [
-            "03",
+            "45",
             "49"
           ]
         },
@@ -35476,27 +37713,31 @@ window.__HISTORY_PATTERN_STATE__ = {
           "year": "2025",
           "start": 351,
           "end": 355,
-          "count": 5,
+          "count": 6,
           "nums": [
             "01",
             "04",
             "08",
+            "14",
             "30",
             "44"
           ],
           "pool": [
             "39",
             "49",
+            "46",
+            "30",
+            "45",
+            "20",
             "14",
-            "06",
-            "48",
-            "05",
-            "03",
-            "09"
+            "05"
           ],
           "poolBasis": "before-window",
-          "covered": false,
-          "hits": []
+          "covered": true,
+          "hits": [
+            "14",
+            "30"
+          ]
         },
         {
           "year": "2025",
@@ -35513,12 +37754,12 @@ window.__HISTORY_PATTERN_STATE__ = {
           "pool": [
             "39",
             "49",
+            "46",
+            "30",
+            "45",
+            "20",
             "14",
-            "06",
-            "48",
-            "05",
-            "03",
-            "08"
+            "05"
           ],
           "poolBasis": "before-window",
           "covered": true,
@@ -35538,14 +37779,14 @@ window.__HISTORY_PATTERN_STATE__ = {
             "26"
           ],
           "pool": [
-            "39",
             "49",
+            "39",
+            "46",
+            "30",
+            "45",
+            "20",
             "14",
-            "06",
-            "48",
-            "05",
-            "03",
-            "08"
+            "05"
           ],
           "poolBasis": "before-window",
           "covered": false,
@@ -35557,21 +37798,21 @@ window.__HISTORY_PATTERN_STATE__ = {
           "end": 5,
           "count": 5,
           "nums": [
+            "02",
             "09",
-            "22",
-            "29",
-            "43",
-            "45"
+            "10",
+            "11",
+            "24"
           ],
           "pool": [
-            "39",
             "49",
+            "39",
+            "46",
+            "30",
+            "45",
+            "20",
             "14",
-            "06",
-            "48",
-            "05",
-            "03",
-            "08"
+            "05"
           ],
           "poolBasis": "before-window",
           "covered": false,
@@ -35583,21 +37824,20 @@ window.__HISTORY_PATTERN_STATE__ = {
           "end": 10,
           "count": 5,
           "nums": [
-            "13",
+            "04",
+            "19",
             "21",
-            "27",
-            "28",
-            "41"
+            "37"
           ],
           "pool": [
-            "39",
             "49",
-            "14",
-            "06",
-            "48",
-            "05",
-            "03",
-            "09"
+            "39",
+            "46",
+            "30",
+            "11",
+            "47",
+            "35",
+            "08"
           ],
           "poolBasis": "before-window",
           "covered": false,
@@ -35609,24 +37849,27 @@ window.__HISTORY_PATTERN_STATE__ = {
           "end": 15,
           "count": 5,
           "nums": [
-            "01",
-            "11",
-            "26",
-            "31"
+            "27",
+            "28",
+            "32",
+            "41",
+            "49"
           ],
           "pool": [
-            "39",
             "49",
-            "14",
-            "06",
-            "48",
-            "05",
-            "03",
-            "09"
+            "39",
+            "46",
+            "30",
+            "11",
+            "47",
+            "35",
+            "08"
           ],
           "poolBasis": "before-window",
-          "covered": false,
-          "hits": []
+          "covered": true,
+          "hits": [
+            "49"
+          ]
         },
         {
           "year": "2026",
@@ -35634,27 +37877,25 @@ window.__HISTORY_PATTERN_STATE__ = {
           "end": 20,
           "count": 5,
           "nums": [
-            "06",
-            "12",
-            "32",
-            "39",
-            "46"
+            "16",
+            "38",
+            "40",
+            "47"
           ],
           "pool": [
-            "39",
             "49",
-            "14",
-            "06",
-            "48",
-            "01",
-            "05",
-            "09"
+            "39",
+            "46",
+            "30",
+            "11",
+            "47",
+            "35",
+            "08"
           ],
           "poolBasis": "before-window",
           "covered": true,
           "hits": [
-            "06",
-            "39"
+            "47"
           ]
         },
         {
@@ -35663,25 +37904,27 @@ window.__HISTORY_PATTERN_STATE__ = {
           "end": 25,
           "count": 5,
           "nums": [
-            "18",
-            "28",
-            "37",
-            "42",
-            "47"
+            "09",
+            "10",
+            "16",
+            "34",
+            "35"
           ],
           "pool": [
-            "39",
             "49",
-            "14",
-            "06",
-            "48",
-            "01",
-            "05",
-            "09"
+            "39",
+            "46",
+            "30",
+            "47",
+            "11",
+            "35",
+            "08"
           ],
           "poolBasis": "before-window",
-          "covered": false,
-          "hits": []
+          "covered": true,
+          "hits": [
+            "35"
+          ]
         },
         {
           "year": "2026",
@@ -35689,26 +37932,27 @@ window.__HISTORY_PATTERN_STATE__ = {
           "end": 30,
           "count": 5,
           "nums": [
-            "01",
-            "03",
-            "19",
-            "41",
-            "45"
+            "02",
+            "29",
+            "30",
+            "38",
+            "46"
           ],
           "pool": [
-            "39",
             "49",
-            "14",
-            "06",
-            "48",
-            "01",
-            "05",
-            "09"
+            "39",
+            "46",
+            "30",
+            "47",
+            "11",
+            "35",
+            "08"
           ],
           "poolBasis": "before-window",
           "covered": true,
           "hits": [
-            "01"
+            "30",
+            "46"
           ]
         },
         {
@@ -35717,26 +37961,26 @@ window.__HISTORY_PATTERN_STATE__ = {
           "end": 35,
           "count": 5,
           "nums": [
-            "06",
-            "19",
-            "26",
-            "27",
-            "41"
+            "04",
+            "08",
+            "24",
+            "29",
+            "34"
           ],
           "pool": [
-            "39",
             "49",
-            "14",
-            "06",
-            "48",
-            "01",
-            "05",
-            "09"
+            "39",
+            "46",
+            "30",
+            "47",
+            "11",
+            "35",
+            "08"
           ],
           "poolBasis": "before-window",
           "covered": true,
           "hits": [
-            "06"
+            "08"
           ]
         },
         {
@@ -35745,21 +37989,21 @@ window.__HISTORY_PATTERN_STATE__ = {
           "end": 40,
           "count": 5,
           "nums": [
-            "01",
-            "11",
-            "28",
-            "42",
-            "43"
+            "20",
+            "24",
+            "33",
+            "34",
+            "36"
           ],
           "pool": [
-            "39",
             "49",
-            "06",
-            "03",
-            "48",
-            "14",
-            "05",
-            "09"
+            "39",
+            "46",
+            "30",
+            "47",
+            "11",
+            "35",
+            "08"
           ],
           "poolBasis": "before-window",
           "covered": false,
@@ -35769,23 +38013,22 @@ window.__HISTORY_PATTERN_STATE__ = {
           "year": "2026",
           "start": 41,
           "end": 45,
-          "count": 5,
+          "count": 6,
           "nums": [
             "01",
-            "13",
-            "16",
             "19",
-            "36"
+            "25",
+            "28"
           ],
           "pool": [
-            "39",
             "49",
-            "06",
-            "03",
-            "48",
-            "14",
-            "05",
-            "09"
+            "39",
+            "46",
+            "30",
+            "47",
+            "11",
+            "35",
+            "08"
           ],
           "poolBasis": "before-window",
           "covered": false,
@@ -35795,28 +38038,33 @@ window.__HISTORY_PATTERN_STATE__ = {
           "year": "2026",
           "start": 46,
           "end": 50,
-          "count": 5,
+          "count": 10,
           "nums": [
             "03",
             "13",
+            "14",
+            "17",
             "23",
             "24",
+            "25",
+            "28",
+            "35",
             "39"
           ],
           "pool": [
-            "39",
             "49",
-            "06",
-            "03",
-            "48",
-            "14",
-            "05",
-            "01"
+            "39",
+            "46",
+            "30",
+            "47",
+            "11",
+            "35",
+            "08"
           ],
           "poolBasis": "before-window",
           "covered": true,
           "hits": [
-            "03",
+            "35",
             "39"
           ]
         },
@@ -35824,165 +38072,94 @@ window.__HISTORY_PATTERN_STATE__ = {
           "year": "2026",
           "start": 51,
           "end": 55,
-          "count": 5,
+          "count": 10,
           "nums": [
             "01",
+            "08",
             "14",
             "15",
+            "16",
+            "23",
+            "27",
             "38",
+            "39",
             "48"
           ],
           "pool": [
-            "39",
             "49",
-            "06",
-            "03",
-            "48",
-            "14",
-            "05",
-            "01"
+            "39",
+            "46",
+            "30",
+            "47",
+            "11",
+            "35",
+            "08"
           ],
           "poolBasis": "before-window",
           "covered": true,
           "hits": [
-            "01",
-            "14",
-            "48"
+            "08",
+            "39"
           ]
         },
         {
           "year": "2026",
           "start": 56,
           "end": 60,
-          "count": 5,
+          "count": 10,
           "nums": [
+            "01",
             "09",
             "10",
+            "20",
             "23",
             "31",
+            "39",
+            "43",
             "48"
           ],
           "pool": [
             "39",
             "49",
+            "46",
+            "30",
+            "47",
+            "08",
             "14",
-            "06",
-            "48",
-            "01",
-            "05",
             "09"
           ],
           "poolBasis": "before-window",
           "covered": true,
           "hits": [
             "09",
-            "48"
+            "39"
           ]
         },
         {
           "year": "2026",
           "start": 61,
           "end": 65,
-          "count": 5,
+          "count": 10,
           "nums": [
             "05",
+            "07",
+            "13",
             "18",
             "24",
             "28",
-            "29"
-          ],
-          "pool": [
-            "39",
-            "49",
-            "14",
-            "06",
-            "48",
-            "01",
-            "05",
-            "09"
-          ],
-          "poolBasis": "before-window",
-          "covered": true,
-          "hits": [
-            "05"
-          ]
-        },
-        {
-          "year": "2026",
-          "start": 66,
-          "end": 70,
-          "count": 5,
-          "nums": [
-            "05",
-            "23",
-            "24",
-            "25",
-            "37"
-          ],
-          "pool": [
-            "39",
-            "49",
-            "14",
-            "06",
-            "48",
-            "01",
-            "05",
-            "09"
-          ],
-          "poolBasis": "before-window",
-          "covered": true,
-          "hits": [
-            "05"
-          ]
-        },
-        {
-          "year": "2026",
-          "start": 71,
-          "end": 75,
-          "count": 5,
-          "nums": [
-            "10",
-            "33",
-            "34",
-            "46",
-            "48"
-          ],
-          "pool": [
-            "39",
-            "49",
-            "14",
-            "06",
-            "48",
-            "01",
-            "05",
-            "09"
-          ],
-          "poolBasis": "before-window",
-          "covered": true,
-          "hits": [
-            "48"
-          ]
-        },
-        {
-          "year": "2026",
-          "start": 76,
-          "end": 80,
-          "count": 5,
-          "nums": [
-            "02",
-            "03",
             "29",
-            "35",
-            "46"
+            "38",
+            "40",
+            "48"
           ],
           "pool": [
             "39",
             "49",
+            "46",
+            "30",
+            "47",
+            "08",
             "14",
-            "06",
-            "48",
-            "01",
-            "05",
             "09"
           ],
           "poolBasis": "before-window",
@@ -35991,57 +38168,163 @@ window.__HISTORY_PATTERN_STATE__ = {
         },
         {
           "year": "2026",
-          "start": 81,
-          "end": 85,
-          "count": 5,
+          "start": 66,
+          "end": 70,
+          "count": 10,
           "nums": [
+            "01",
             "05",
-            "16",
-            "17",
-            "19",
-            "27"
+            "23",
+            "24",
+            "25",
+            "37",
+            "39",
+            "43"
           ],
           "pool": [
             "39",
             "49",
+            "46",
+            "30",
+            "47",
+            "08",
             "14",
-            "06",
-            "48",
-            "01",
-            "05",
-            "03"
+            "09"
           ],
           "poolBasis": "before-window",
           "covered": true,
           "hits": [
-            "05"
+            "39"
+          ]
+        },
+        {
+          "year": "2026",
+          "start": 71,
+          "end": 75,
+          "count": 10,
+          "nums": [
+            "03",
+            "10",
+            "15",
+            "19",
+            "23",
+            "33",
+            "34",
+            "42",
+            "46",
+            "48"
+          ],
+          "pool": [
+            "39",
+            "49",
+            "46",
+            "30",
+            "47",
+            "08",
+            "14",
+            "09"
+          ],
+          "poolBasis": "before-window",
+          "covered": true,
+          "hits": [
+            "46"
+          ]
+        },
+        {
+          "year": "2026",
+          "start": 76,
+          "end": 80,
+          "count": 10,
+          "nums": [
+            "01",
+            "02",
+            "03",
+            "27",
+            "29",
+            "35",
+            "38",
+            "39",
+            "45",
+            "46"
+          ],
+          "pool": [
+            "39",
+            "49",
+            "46",
+            "30",
+            "47",
+            "08",
+            "14",
+            "09"
+          ],
+          "poolBasis": "before-window",
+          "covered": true,
+          "hits": [
+            "39",
+            "46"
+          ]
+        },
+        {
+          "year": "2026",
+          "start": 81,
+          "end": 85,
+          "count": 10,
+          "nums": [
+            "05",
+            "14",
+            "16",
+            "17",
+            "19",
+            "27",
+            "38",
+            "43"
+          ],
+          "pool": [
+            "39",
+            "49",
+            "46",
+            "30",
+            "47",
+            "08",
+            "14",
+            "09"
+          ],
+          "poolBasis": "before-window",
+          "covered": true,
+          "hits": [
+            "14"
           ]
         },
         {
           "year": "2026",
           "start": 86,
           "end": 90,
-          "count": 5,
+          "count": 10,
           "nums": [
+            "03",
             "12",
+            "18",
+            "22",
             "26",
             "27",
             "36",
+            "46",
             "49"
           ],
           "pool": [
             "39",
             "49",
+            "46",
+            "30",
             "14",
-            "06",
-            "48",
-            "01",
-            "05",
-            "03"
+            "08",
+            "09",
+            "05"
           ],
           "poolBasis": "before-window",
           "covered": true,
           "hits": [
+            "46",
             "49"
           ]
         },
@@ -36049,111 +38332,134 @@ window.__HISTORY_PATTERN_STATE__ = {
           "year": "2026",
           "start": 91,
           "end": 95,
-          "count": 5,
+          "count": 10,
           "nums": [
             "06",
             "17",
+            "20",
+            "26",
             "35",
             "37",
-            "40"
+            "38",
+            "39",
+            "40",
+            "48"
           ],
           "pool": [
             "39",
             "49",
+            "46",
+            "30",
             "14",
-            "06",
-            "48",
-            "01",
-            "05",
-            "03"
+            "08",
+            "09",
+            "05"
           ],
           "poolBasis": "before-window",
           "covered": true,
           "hits": [
-            "06"
+            "39"
           ]
         },
         {
           "year": "2026",
           "start": 96,
           "end": 100,
-          "count": 5,
+          "count": 10,
           "nums": [
+            "08",
             "11",
             "12",
+            "13",
             "17",
+            "18",
+            "20",
             "33",
+            "39",
             "43"
           ],
           "pool": [
             "39",
             "49",
-            "06",
-            "48",
-            "03",
-            "05",
+            "46",
+            "30",
             "14",
-            "01"
+            "08",
+            "09",
+            "05"
           ],
           "poolBasis": "before-window",
-          "covered": false,
-          "hits": []
+          "covered": true,
+          "hits": [
+            "08",
+            "39"
+          ]
         },
         {
           "year": "2026",
           "start": 101,
           "end": 105,
-          "count": 5,
+          "count": 10,
           "nums": [
             "01",
             "06",
             "20",
             "28",
-            "39"
+            "34",
+            "37",
+            "39",
+            "45",
+            "46",
+            "48"
           ],
           "pool": [
             "39",
             "49",
-            "06",
-            "48",
-            "03",
-            "05",
+            "46",
+            "30",
             "14",
-            "01"
+            "08",
+            "09",
+            "05"
           ],
           "poolBasis": "before-window",
           "covered": true,
           "hits": [
-            "01",
-            "06",
-            "39"
+            "39",
+            "46"
           ]
         },
         {
           "year": "2026",
           "start": 106,
           "end": 110,
-          "count": 5,
+          "count": 10,
           "nums": [
+            "08",
+            "13",
             "16",
             "22",
             "30",
+            "32",
+            "36",
             "45",
             "49"
           ],
           "pool": [
             "39",
             "49",
-            "06",
-            "48",
-            "03",
-            "05",
+            "46",
+            "30",
             "14",
-            "01"
+            "08",
+            "09",
+            "05"
           ],
           "poolBasis": "before-window",
           "covered": true,
           "hits": [
+            "08",
+            "30",
             "49"
           ]
         },
@@ -36161,108 +38467,127 @@ window.__HISTORY_PATTERN_STATE__ = {
           "year": "2026",
           "start": 111,
           "end": 115,
-          "count": 5,
+          "count": 10,
           "nums": [
             "01",
             "02",
             "04",
+            "05",
             "09",
-            "30"
+            "12",
+            "30",
+            "40"
           ],
           "pool": [
             "39",
             "49",
-            "06",
-            "48",
-            "03",
-            "05",
+            "46",
+            "30",
             "14",
-            "01"
+            "08",
+            "09",
+            "05"
           ],
           "poolBasis": "before-window",
           "covered": true,
           "hits": [
-            "01"
+            "05",
+            "09",
+            "30"
           ]
         },
         {
           "year": "2026",
           "start": 116,
           "end": 120,
-          "count": 5,
+          "count": 10,
           "nums": [
             "06",
             "08",
+            "09",
             "11",
+            "15",
             "16",
-            "22"
+            "22",
+            "27",
+            "35",
+            "43"
           ],
           "pool": [
             "39",
             "49",
-            "06",
-            "48",
-            "03",
-            "05",
+            "46",
+            "30",
             "14",
-            "01"
+            "08",
+            "09",
+            "05"
           ],
           "poolBasis": "before-window",
           "covered": true,
           "hits": [
-            "06"
+            "08",
+            "09"
           ]
         },
         {
           "year": "2026",
           "start": 121,
           "end": 125,
-          "count": 5,
+          "count": 10,
           "nums": [
             "01",
+            "07",
+            "14",
             "31",
+            "37",
             "39",
+            "42",
             "44",
             "46"
           ],
           "pool": [
             "39",
             "49",
-            "06",
-            "48",
-            "03",
-            "05",
-            "14",
-            "01"
+            "46",
+            "30",
+            "11",
+            "47",
+            "35",
+            "08"
           ],
           "poolBasis": "before-window",
           "covered": true,
           "hits": [
-            "01",
-            "39"
+            "39",
+            "46"
           ]
         },
         {
           "year": "2026",
           "start": 126,
           "end": 130,
-          "count": 5,
+          "count": 10,
           "nums": [
+            "03",
+            "10",
             "29",
             "37",
+            "38",
             "41",
+            "43",
             "45",
             "49"
           ],
           "pool": [
             "39",
             "49",
-            "06",
-            "48",
-            "03",
-            "05",
-            "14",
-            "01"
+            "46",
+            "30",
+            "11",
+            "47",
+            "35",
+            "08"
           ],
           "poolBasis": "before-window",
           "covered": true,
@@ -36274,52 +38599,65 @@ window.__HISTORY_PATTERN_STATE__ = {
           "year": "2026",
           "start": 131,
           "end": 135,
-          "count": 5,
+          "count": 10,
           "nums": [
             "07",
+            "13",
+            "16",
+            "20",
             "30",
-            "37"
+            "32",
+            "37",
+            "49"
           ],
           "pool": [
             "39",
             "49",
-            "06",
-            "48",
-            "03",
-            "05",
-            "14",
-            "01"
+            "46",
+            "30",
+            "11",
+            "47",
+            "35",
+            "08"
           ],
           "poolBasis": "before-window",
-          "covered": false,
-          "hits": []
+          "covered": true,
+          "hits": [
+            "30",
+            "49"
+          ]
         },
         {
           "year": "2026",
           "start": 136,
           "end": 140,
-          "count": 5,
+          "count": 10,
           "nums": [
+            "08",
             "16",
             "24",
             "26",
+            "37",
+            "39",
+            "40",
             "48",
             "49"
           ],
           "pool": [
             "39",
             "49",
-            "06",
-            "48",
-            "03",
-            "05",
-            "14",
-            "01"
+            "46",
+            "30",
+            "11",
+            "47",
+            "35",
+            "08"
           ],
           "poolBasis": "before-window",
           "covered": true,
           "hits": [
-            "48",
+            "08",
+            "39",
             "49"
           ]
         },
@@ -36327,78 +38665,28 @@ window.__HISTORY_PATTERN_STATE__ = {
           "year": "2026",
           "start": 141,
           "end": 145,
-          "count": 5,
+          "count": 10,
           "nums": [
+            "04",
             "05",
+            "06",
+            "10",
             "23",
+            "31",
             "33",
+            "38",
             "43",
             "44"
           ],
           "pool": [
             "39",
             "49",
-            "06",
-            "48",
-            "03",
-            "05",
-            "14",
-            "01"
-          ],
-          "poolBasis": "before-window",
-          "covered": true,
-          "hits": [
-            "05"
-          ]
-        },
-        {
-          "year": "2026",
-          "start": 146,
-          "end": 150,
-          "count": 5,
-          "nums": [
-            "09",
-            "13",
-            "27",
-            "42",
-            "48"
-          ],
-          "pool": [
-            "39",
-            "49",
-            "06",
-            "48",
-            "03",
-            "05",
-            "14",
-            "01"
-          ],
-          "poolBasis": "before-window",
-          "covered": true,
-          "hits": [
-            "48"
-          ]
-        },
-        {
-          "year": "2026",
-          "start": 151,
-          "end": 155,
-          "count": 5,
-          "nums": [
-            "07",
-            "31",
-            "41",
-            "45"
-          ],
-          "pool": [
-            "39",
-            "49",
-            "06",
-            "48",
-            "03",
-            "05",
-            "14",
-            "01"
+            "46",
+            "30",
+            "11",
+            "47",
+            "35",
+            "08"
           ],
           "poolBasis": "before-window",
           "covered": false,
@@ -36406,96 +38694,176 @@ window.__HISTORY_PATTERN_STATE__ = {
         },
         {
           "year": "2026",
-          "start": 156,
-          "end": 160,
-          "count": 5,
+          "start": 146,
+          "end": 150,
+          "count": 10,
           "nums": [
             "01",
-            "02",
-            "16",
-            "39",
-            "40"
+            "06",
+            "09",
+            "13",
+            "27",
+            "31",
+            "38",
+            "42",
+            "48"
           ],
           "pool": [
             "39",
             "49",
-            "06",
-            "48",
-            "03",
+            "46",
             "05",
             "14",
-            "01"
+            "09",
+            "08",
+            "30"
+          ],
+          "poolBasis": "before-window",
+          "covered": true,
+          "hits": [
+            "09"
+          ]
+        },
+        {
+          "year": "2026",
+          "start": 151,
+          "end": 155,
+          "count": 10,
+          "nums": [
+            "07",
+            "10",
+            "31",
+            "35",
+            "37",
+            "41",
+            "45"
+          ],
+          "pool": [
+            "39",
+            "49",
+            "46",
+            "01",
+            "11",
+            "10",
+            "09",
+            "08"
+          ],
+          "poolBasis": "before-window",
+          "covered": true,
+          "hits": [
+            "10"
+          ]
+        },
+        {
+          "year": "2026",
+          "start": 156,
+          "end": 160,
+          "count": 10,
+          "nums": [
+            "01",
+            "02",
+            "16",
+            "26",
+            "29",
+            "39",
+            "40",
+            "49"
+          ],
+          "pool": [
+            "39",
+            "49",
+            "46",
+            "01",
+            "11",
+            "10",
+            "09",
+            "08"
           ],
           "poolBasis": "before-window",
           "covered": true,
           "hits": [
             "01",
-            "39"
+            "39",
+            "49"
           ]
         },
         {
           "year": "2026",
           "start": 161,
           "end": 165,
-          "count": 5,
+          "count": 10,
           "nums": [
             "03",
             "08",
+            "18",
             "21",
+            "22",
             "32",
-            "37"
+            "37",
+            "39",
+            "49"
           ],
           "pool": [
             "39",
             "49",
-            "06",
-            "48",
-            "03",
-            "05",
-            "14",
-            "01"
+            "46",
+            "01",
+            "11",
+            "10",
+            "09",
+            "08"
           ],
           "poolBasis": "before-window",
           "covered": true,
           "hits": [
-            "03"
+            "08",
+            "39",
+            "49"
           ]
         },
         {
           "year": "2026",
           "start": 166,
           "end": 170,
-          "count": 5,
+          "count": 10,
           "nums": [
             "03",
             "06",
+            "08",
             "15",
+            "18",
             "19",
-            "24"
+            "24",
+            "30",
+            "43"
           ],
           "pool": [
             "39",
             "49",
-            "06",
-            "48",
-            "03",
-            "05",
-            "14",
-            "01"
+            "46",
+            "01",
+            "11",
+            "10",
+            "09",
+            "08"
           ],
           "poolBasis": "before-window",
           "covered": true,
           "hits": [
-            "03",
-            "06"
+            "08"
           ]
         },
         {
           "year": "2026",
           "start": 171,
           "end": 175,
-          "count": 5,
+          "count": 10,
           "nums": [
+            "01",
+            "15",
+            "16",
+            "18",
+            "22",
             "26",
             "28",
             "41",
@@ -36504,12 +38872,12 @@ window.__HISTORY_PATTERN_STATE__ = {
           "pool": [
             "39",
             "49",
+            "30",
             "06",
-            "48",
-            "03",
             "05",
-            "14",
-            "01"
+            "03",
+            "09",
+            "08"
           ],
           "poolBasis": "before-window",
           "covered": false,
@@ -36519,37 +38887,40 @@ window.__HISTORY_PATTERN_STATE__ = {
           "year": "2026",
           "start": 176,
           "end": 180,
-          "count": 5,
+          "count": 10,
           "nums": [
             "10",
+            "12",
             "14",
             "15",
             "18",
-            "21"
+            "21",
+            "29",
+            "37"
           ],
           "pool": [
             "39",
             "49",
+            "30",
             "06",
-            "48",
-            "03",
             "05",
-            "14",
-            "41"
+            "03",
+            "09",
+            "28"
           ],
           "poolBasis": "before-window",
-          "covered": true,
-          "hits": [
-            "14"
-          ]
+          "covered": false,
+          "hits": []
         },
         {
           "year": "2026",
           "start": 181,
           "end": 185,
-          "count": 5,
+          "count": 10,
           "nums": [
             "01",
+            "06",
+            "10",
             "19",
             "24",
             "36",
@@ -36558,93 +38929,111 @@ window.__HISTORY_PATTERN_STATE__ = {
           "pool": [
             "39",
             "49",
+            "30",
             "06",
-            "48",
-            "03",
             "05",
-            "14",
-            "41"
+            "03",
+            "09",
+            "28"
           ],
           "poolBasis": "before-window",
           "covered": true,
           "hits": [
-            "41"
+            "06"
           ]
         },
         {
           "year": "2026",
           "start": 186,
           "end": 190,
-          "count": 5,
+          "count": 10,
           "nums": [
             "01",
+            "06",
             "15",
             "16",
-            "23"
+            "18",
+            "23",
+            "27",
+            "40"
           ],
           "pool": [
             "39",
             "49",
+            "30",
             "06",
-            "48",
-            "03",
             "05",
-            "14",
-            "41"
+            "03",
+            "09",
+            "28"
           ],
           "poolBasis": "before-window",
-          "covered": false,
-          "hits": []
+          "covered": true,
+          "hits": [
+            "06"
+          ]
         },
         {
           "year": "2026",
           "start": 191,
           "end": 195,
-          "count": 5,
+          "count": 10,
           "nums": [
+            "02",
             "09",
+            "12",
+            "18",
             "25",
             "26",
-            "29"
+            "29",
+            "37"
           ],
           "pool": [
             "39",
             "49",
-            "01",
+            "30",
             "06",
-            "48",
-            "14",
             "05",
-            "03"
+            "03",
+            "09",
+            "28"
           ],
           "poolBasis": "before-window",
-          "covered": false,
-          "hits": []
+          "covered": true,
+          "hits": [
+            "09"
+          ]
         },
         {
           "year": "2026",
           "start": 196,
           "end": 200,
-          "count": 5,
+          "count": 10,
           "nums": [
+            "06",
             "07",
             "08",
+            "18",
             "36",
-            "39"
+            "39",
+            "42",
+            "43",
+            "44"
           ],
           "pool": [
             "39",
             "49",
-            "01",
+            "30",
             "06",
-            "48",
-            "14",
             "05",
-            "03"
+            "03",
+            "09",
+            "28"
           ],
           "poolBasis": "before-window",
           "covered": true,
           "hits": [
+            "06",
             "39"
           ]
         },
@@ -36652,23 +39041,27 @@ window.__HISTORY_PATTERN_STATE__ = {
           "year": "2026",
           "start": 201,
           "end": 205,
-          "count": 5,
+          "count": 10,
           "nums": [
             "03",
             "05",
+            "17",
+            "24",
             "25",
             "32",
-            "40"
+            "40",
+            "44",
+            "46"
           ],
           "pool": [
             "39",
             "49",
-            "01",
+            "30",
             "06",
-            "48",
-            "14",
             "05",
-            "03"
+            "03",
+            "09",
+            "28"
           ],
           "poolBasis": "before-window",
           "covered": true,
@@ -36681,27 +39074,34 @@ window.__HISTORY_PATTERN_STATE__ = {
           "year": "2026",
           "start": 206,
           "end": 210,
-          "count": 5,
+          "count": 10,
           "nums": [
+            "03",
+            "07",
             "08",
+            "10",
             "19",
+            "25",
             "31",
+            "41",
             "47",
             "49"
           ],
           "pool": [
             "39",
             "49",
+            "46",
             "01",
-            "06",
-            "48",
-            "14",
-            "05",
-            "03"
+            "11",
+            "10",
+            "08",
+            "09"
           ],
           "poolBasis": "before-window",
           "covered": true,
           "hits": [
+            "08",
+            "10",
             "49"
           ]
         },
@@ -36709,58 +39109,65 @@ window.__HISTORY_PATTERN_STATE__ = {
           "year": "2026",
           "start": 211,
           "end": 215,
-          "count": 5,
+          "count": 10,
           "nums": [
             "01",
             "04",
             "06",
+            "12",
             "14",
-            "35"
+            "20",
+            "31",
+            "35",
+            "37",
+            "44"
           ],
           "pool": [
             "39",
             "49",
+            "46",
             "01",
-            "06",
-            "48",
-            "14",
-            "05",
-            "03"
+            "11",
+            "10",
+            "08",
+            "09"
           ],
           "poolBasis": "before-window",
           "covered": true,
           "hits": [
-            "01",
-            "06",
-            "14"
+            "01"
           ]
         },
         {
           "year": "2026",
           "start": 216,
           "end": 220,
-          "count": 5,
+          "count": 9,
           "nums": [
+            "02",
             "17",
+            "18",
             "26",
             "37",
+            "39",
+            "41",
             "43",
             "48"
           ],
           "pool": [
             "39",
             "49",
+            "46",
             "01",
-            "06",
-            "48",
-            "14",
-            "05",
-            "03"
+            "11",
+            "10",
+            "08",
+            "09"
           ],
           "poolBasis": "before-window",
           "covered": true,
           "hits": [
-            "48"
+            "39"
           ]
         },
         {
@@ -36777,21 +39184,22 @@ window.__HISTORY_PATTERN_STATE__ = {
           "pool": [
             "39",
             "49",
+            "46",
             "01",
-            "48",
-            "06",
-            "14",
-            "05",
-            "03"
+            "11",
+            "10",
+            "08",
+            "09"
           ],
           "poolBasis": "before-window",
           "covered": true,
           "hits": [
-            "01"
+            "01",
+            "09"
           ]
         }
       ],
-      "covered": 274,
+      "covered": 308,
       "misses": [
         {
           "year": "2020",
@@ -39528,9 +41936,10 @@ window.__HISTORY_PATTERN_STATE__ = {
           "count": 5,
           "nums": [
             "06",
-            "19",
-            "26",
-            "40"
+            "10",
+            "16",
+            "31",
+            "32"
           ],
           "pool": [
             "39",
@@ -39552,21 +41961,21 @@ window.__HISTORY_PATTERN_STATE__ = {
           "end": 10,
           "count": 5,
           "nums": [
-            "06",
-            "19",
-            "20",
-            "23",
-            "36"
+            "13",
+            "28",
+            "36",
+            "46",
+            "47"
           ],
           "pool": [
             "39",
             "08",
             "49",
+            "31",
             "14",
-            "30",
-            "09",
-            "46",
-            "47"
+            "48",
+            "06",
+            "05"
           ],
           "poolBasis": "before-window",
           "covered": false,
@@ -39574,24 +41983,25 @@ window.__HISTORY_PATTERN_STATE__ = {
         },
         {
           "year": "2024",
-          "start": 16,
-          "end": 20,
+          "start": 11,
+          "end": 15,
           "count": 5,
           "nums": [
+            "11",
+            "12",
             "17",
-            "23",
-            "29",
-            "47"
+            "33",
+            "37"
           ],
           "pool": [
             "39",
             "08",
-            "06",
-            "48",
+            "49",
+            "46",
             "14",
+            "30",
             "09",
-            "03",
-            "05"
+            "47"
           ],
           "poolBasis": "before-window",
           "covered": false,
@@ -39612,12 +42022,12 @@ window.__HISTORY_PATTERN_STATE__ = {
           "pool": [
             "39",
             "08",
-            "06",
-            "48",
+            "49",
+            "46",
             "14",
-            "09",
-            "03",
-            "05"
+            "30",
+            "47",
+            "37"
           ],
           "poolBasis": "before-window",
           "covered": false,
@@ -39625,25 +42035,25 @@ window.__HISTORY_PATTERN_STATE__ = {
         },
         {
           "year": "2024",
-          "start": 31,
-          "end": 35,
+          "start": 36,
+          "end": 40,
           "count": 5,
           "nums": [
-            "07",
-            "11",
-            "30",
-            "40",
-            "44"
+            "06",
+            "10",
+            "19",
+            "29",
+            "40"
           ],
           "pool": [
             "39",
             "08",
-            "06",
-            "48",
-            "03",
-            "09",
-            "05",
-            "01"
+            "49",
+            "46",
+            "30",
+            "14",
+            "47",
+            "37"
           ],
           "poolBasis": "before-window",
           "covered": false,
@@ -39669,33 +42079,7 @@ window.__HISTORY_PATTERN_STATE__ = {
             "03",
             "09",
             "05",
-            "01"
-          ],
-          "poolBasis": "before-window",
-          "covered": false,
-          "hits": []
-        },
-        {
-          "year": "2024",
-          "start": 56,
-          "end": 60,
-          "count": 5,
-          "nums": [
-            "11",
-            "23",
-            "30",
-            "44",
-            "46"
-          ],
-          "pool": [
-            "39",
-            "08",
-            "06",
-            "48",
-            "09",
-            "14",
-            "41",
-            "03"
+            "20"
           ],
           "poolBasis": "before-window",
           "covered": false,
@@ -39741,11 +42125,37 @@ window.__HISTORY_PATTERN_STATE__ = {
           "pool": [
             "39",
             "08",
-            "06",
-            "48",
-            "09",
-            "14",
+            "49",
+            "46",
             "30",
+            "14",
+            "09",
+            "47"
+          ],
+          "poolBasis": "before-window",
+          "covered": false,
+          "hits": []
+        },
+        {
+          "year": "2024",
+          "start": 76,
+          "end": 80,
+          "count": 5,
+          "nums": [
+            "05",
+            "17",
+            "32",
+            "38",
+            "44"
+          ],
+          "pool": [
+            "39",
+            "08",
+            "49",
+            "46",
+            "19",
+            "31",
+            "06",
             "20"
           ],
           "poolBasis": "before-window",
@@ -39754,50 +42164,24 @@ window.__HISTORY_PATTERN_STATE__ = {
         },
         {
           "year": "2024",
-          "start": 111,
-          "end": 115,
+          "start": 81,
+          "end": 85,
           "count": 5,
           "nums": [
-            "18",
-            "24",
-            "29",
-            "43"
+            "05",
+            "13",
+            "22",
+            "35"
           ],
           "pool": [
             "39",
             "08",
-            "06",
-            "48",
-            "03",
-            "05",
+            "49",
+            "46",
+            "19",
             "31",
-            "49"
-          ],
-          "poolBasis": "before-window",
-          "covered": false,
-          "hits": []
-        },
-        {
-          "year": "2024",
-          "start": 116,
-          "end": 120,
-          "count": 5,
-          "nums": [
-            "10",
-            "21",
-            "25",
-            "29",
-            "32"
-          ],
-          "pool": [
-            "39",
-            "08",
             "06",
-            "48",
-            "03",
-            "05",
-            "31",
-            "49"
+            "20"
           ],
           "poolBasis": "before-window",
           "covered": false,
@@ -39807,23 +42191,26 @@ window.__HISTORY_PATTERN_STATE__ = {
           "year": "2024",
           "start": 121,
           "end": 125,
-          "count": 5,
+          "count": 10,
           "nums": [
             "02",
+            "07",
             "12",
+            "15",
             "21",
             "22",
-            "36"
+            "36",
+            "43"
           ],
           "pool": [
             "39",
             "08",
-            "06",
-            "48",
-            "03",
-            "05",
+            "46",
+            "49",
+            "19",
             "31",
-            "49"
+            "06",
+            "48"
           ],
           "poolBasis": "before-window",
           "covered": false,
@@ -39833,74 +42220,27 @@ window.__HISTORY_PATTERN_STATE__ = {
           "year": "2024",
           "start": 136,
           "end": 140,
-          "count": 5,
+          "count": 10,
           "nums": [
+            "01",
+            "09",
             "14",
             "16",
+            "17",
+            "27",
+            "33",
             "35",
             "44"
           ],
           "pool": [
             "39",
             "08",
-            "49",
             "46",
+            "49",
             "19",
-            "41",
-            "21",
+            "31",
+            "06",
             "48"
-          ],
-          "poolBasis": "before-window",
-          "covered": false,
-          "hits": []
-        },
-        {
-          "year": "2024",
-          "start": 141,
-          "end": 145,
-          "count": 5,
-          "nums": [
-            "02",
-            "12",
-            "16",
-            "27",
-            "43"
-          ],
-          "pool": [
-            "39",
-            "08",
-            "49",
-            "46",
-            "19",
-            "41",
-            "14",
-            "09"
-          ],
-          "poolBasis": "before-window",
-          "covered": false,
-          "hits": []
-        },
-        {
-          "year": "2024",
-          "start": 146,
-          "end": 150,
-          "count": 5,
-          "nums": [
-            "02",
-            "22",
-            "27",
-            "33",
-            "43"
-          ],
-          "pool": [
-            "39",
-            "08",
-            "49",
-            "46",
-            "19",
-            "41",
-            "14",
-            "09"
           ],
           "poolBasis": "before-window",
           "covered": false,
@@ -39910,10 +42250,14 @@ window.__HISTORY_PATTERN_STATE__ = {
           "year": "2024",
           "start": 156,
           "end": 160,
-          "count": 5,
+          "count": 10,
           "nums": [
+            "06",
             "20",
             "27",
+            "30",
+            "31",
+            "40",
             "42",
             "43",
             "45"
@@ -39924,9 +42268,9 @@ window.__HISTORY_PATTERN_STATE__ = {
             "46",
             "49",
             "19",
-            "41",
+            "09",
             "14",
-            "09"
+            "41"
           ],
           "poolBasis": "before-window",
           "covered": false,
@@ -39936,10 +42280,12 @@ window.__HISTORY_PATTERN_STATE__ = {
           "year": "2024",
           "start": 161,
           "end": 165,
-          "count": 5,
+          "count": 10,
           "nums": [
             "01",
             "03",
+            "28",
+            "30",
             "35",
             "40",
             "44"
@@ -39950,35 +42296,9 @@ window.__HISTORY_PATTERN_STATE__ = {
             "46",
             "49",
             "19",
-            "41",
-            "14",
-            "09"
-          ],
-          "poolBasis": "before-window",
-          "covered": false,
-          "hits": []
-        },
-        {
-          "year": "2024",
-          "start": 176,
-          "end": 180,
-          "count": 5,
-          "nums": [
-            "01",
-            "02",
-            "03",
-            "11",
-            "20"
-          ],
-          "pool": [
-            "39",
-            "49",
-            "08",
-            "46",
-            "19",
-            "14",
-            "41",
-            "09"
+            "31",
+            "06",
+            "48"
           ],
           "poolBasis": "before-window",
           "covered": false,
@@ -39988,21 +42308,25 @@ window.__HISTORY_PATTERN_STATE__ = {
           "year": "2024",
           "start": 181,
           "end": 185,
-          "count": 5,
+          "count": 10,
           "nums": [
+            "10",
+            "13",
+            "23",
             "25",
             "27",
-            "42"
+            "42",
+            "47"
           ],
           "pool": [
             "39",
-            "49",
             "08",
+            "30",
             "46",
-            "19",
+            "49",
             "14",
-            "41",
-            "09"
+            "09",
+            "35"
           ],
           "poolBasis": "before-window",
           "covered": false,
@@ -40012,23 +42336,28 @@ window.__HISTORY_PATTERN_STATE__ = {
           "year": "2024",
           "start": 201,
           "end": 205,
-          "count": 5,
+          "count": 10,
           "nums": [
             "05",
+            "15",
+            "16",
             "25",
+            "28",
+            "29",
+            "31",
             "40",
             "43",
             "45"
           ],
           "pool": [
             "39",
-            "49",
             "08",
+            "30",
             "46",
-            "19",
+            "49",
             "14",
-            "41",
-            "09"
+            "47",
+            "37"
           ],
           "poolBasis": "before-window",
           "covered": false,
@@ -40038,153 +42367,27 @@ window.__HISTORY_PATTERN_STATE__ = {
           "year": "2024",
           "start": 231,
           "end": 235,
-          "count": 5,
+          "count": 10,
           "nums": [
             "02",
             "07",
+            "09",
+            "11",
             "17",
             "23",
-            "24"
-          ],
-          "pool": [
-            "39",
-            "49",
-            "19",
-            "46",
-            "08",
-            "14",
-            "41",
-            "09"
-          ],
-          "poolBasis": "before-window",
-          "covered": false,
-          "hits": []
-        },
-        {
-          "year": "2024",
-          "start": 236,
-          "end": 240,
-          "count": 5,
-          "nums": [
-            "03",
-            "06",
-            "18",
             "24",
-            "31"
-          ],
-          "pool": [
-            "39",
-            "49",
-            "19",
-            "46",
-            "08",
-            "14",
-            "41",
-            "09"
-          ],
-          "poolBasis": "before-window",
-          "covered": false,
-          "hits": []
-        },
-        {
-          "year": "2024",
-          "start": 246,
-          "end": 250,
-          "count": 5,
-          "nums": [
-            "11",
-            "15",
-            "24",
-            "31",
-            "32"
-          ],
-          "pool": [
-            "39",
-            "49",
-            "06",
-            "03",
-            "48",
-            "05",
-            "14",
-            "02"
-          ],
-          "poolBasis": "before-window",
-          "covered": false,
-          "hits": []
-        },
-        {
-          "year": "2024",
-          "start": 261,
-          "end": 265,
-          "count": 5,
-          "nums": [
-            "01",
-            "13",
-            "16",
-            "30",
+            "37",
             "44"
           ],
           "pool": [
             "39",
+            "08",
+            "30",
             "49",
-            "06",
-            "03",
-            "48",
-            "05",
+            "46",
             "14",
-            "02"
-          ],
-          "poolBasis": "before-window",
-          "covered": false,
-          "hits": []
-        },
-        {
-          "year": "2024",
-          "start": 266,
-          "end": 270,
-          "count": 5,
-          "nums": [
-            "11",
-            "12",
-            "22",
-            "27",
-            "42"
-          ],
-          "pool": [
-            "39",
-            "49",
-            "06",
-            "03",
-            "48",
-            "05",
-            "14",
-            "02"
-          ],
-          "poolBasis": "before-window",
-          "covered": false,
-          "hits": []
-        },
-        {
-          "year": "2024",
-          "start": 276,
-          "end": 280,
-          "count": 5,
-          "nums": [
-            "07",
-            "22",
-            "26",
-            "29",
-            "40"
-          ],
-          "pool": [
-            "39",
-            "49",
-            "06",
-            "03",
-            "48",
-            "05",
-            "14",
-            "02"
+            "45",
+            "05"
           ],
           "poolBasis": "before-window",
           "covered": false,
@@ -40194,75 +42397,28 @@ window.__HISTORY_PATTERN_STATE__ = {
           "year": "2024",
           "start": 281,
           "end": 285,
-          "count": 5,
+          "count": 10,
           "nums": [
+            "07",
             "13",
+            "16",
+            "18",
             "21",
+            "25",
             "27",
             "43",
+            "46",
             "47"
           ],
           "pool": [
             "39",
+            "30",
+            "08",
             "49",
-            "06",
-            "03",
-            "48",
-            "05",
+            "31",
             "14",
-            "02"
-          ],
-          "poolBasis": "before-window",
-          "covered": false,
-          "hits": []
-        },
-        {
-          "year": "2024",
-          "start": 286,
-          "end": 290,
-          "count": 5,
-          "nums": [
-            "04",
-            "11",
-            "26",
-            "40",
-            "45"
-          ],
-          "pool": [
-            "39",
-            "49",
-            "06",
-            "03",
-            "48",
             "05",
-            "14",
-            "02"
-          ],
-          "poolBasis": "before-window",
-          "covered": false,
-          "hits": []
-        },
-        {
-          "year": "2024",
-          "start": 301,
-          "end": 305,
-          "count": 5,
-          "nums": [
-            "16",
-            "17",
-            "24",
-            "32",
-            "38"
-          ],
-          "pool": [
-            "39",
-            "49",
-            "06",
-            "48",
-            "03",
-            "05",
-            "14",
-            "02"
+            "36"
           ],
           "poolBasis": "before-window",
           "covered": false,
@@ -40272,49 +42428,53 @@ window.__HISTORY_PATTERN_STATE__ = {
           "year": "2024",
           "start": 316,
           "end": 320,
-          "count": 5,
+          "count": 10,
           "nums": [
+            "04",
             "05",
+            "06",
             "12",
             "13",
+            "21",
+            "28",
             "41",
             "44"
           ],
           "pool": [
             "39",
-            "49",
-            "08",
             "30",
-            "14",
+            "08",
+            "49",
             "46",
-            "45",
-            "02"
+            "14",
+            "09",
+            "47"
           ],
           "poolBasis": "before-window",
           "covered": false,
           "hits": []
         },
         {
-          "year": "2024",
-          "start": 346,
-          "end": 350,
+          "year": "2025",
+          "start": 11,
+          "end": 15,
           "count": 5,
           "nums": [
             "01",
-            "04",
-            "17",
-            "28",
-            "41"
+            "03",
+            "33",
+            "40",
+            "42"
           ],
           "pool": [
             "39",
+            "30",
             "49",
-            "06",
-            "48",
-            "03",
-            "05",
+            "08",
+            "46",
             "14",
-            "02"
+            "09",
+            "05"
           ],
           "poolBasis": "before-window",
           "covered": false,
@@ -40326,96 +42486,21 @@ window.__HISTORY_PATTERN_STATE__ = {
           "end": 20,
           "count": 5,
           "nums": [
-            "06",
-            "10",
-            "21",
-            "34",
-            "38"
-          ],
-          "pool": [
-            "39",
-            "49",
-            "46",
-            "08",
-            "14",
-            "30",
-            "45",
-            "02"
-          ],
-          "poolBasis": "before-window",
-          "covered": false,
-          "hits": []
-        },
-        {
-          "year": "2025",
-          "start": 26,
-          "end": 30,
-          "count": 5,
-          "nums": [
-            "13",
-            "25",
+            "16",
+            "22",
+            "32",
             "37",
-            "40"
-          ],
-          "pool": [
-            "39",
-            "49",
-            "46",
-            "08",
-            "14",
-            "30",
-            "45",
-            "02"
-          ],
-          "poolBasis": "before-window",
-          "covered": false,
-          "hits": []
-        },
-        {
-          "year": "2025",
-          "start": 36,
-          "end": 40,
-          "count": 5,
-          "nums": [
-            "20",
-            "25",
-            "29",
-            "40"
-          ],
-          "pool": [
-            "39",
-            "49",
-            "46",
-            "08",
-            "14",
-            "30",
-            "45",
-            "02"
-          ],
-          "poolBasis": "before-window",
-          "covered": false,
-          "hits": []
-        },
-        {
-          "year": "2025",
-          "start": 46,
-          "end": 50,
-          "count": 5,
-          "nums": [
-            "05",
-            "12",
-            "18",
             "43"
           ],
           "pool": [
             "39",
-            "49",
-            "46",
-            "08",
             "30",
+            "49",
+            "08",
+            "46",
             "14",
-            "45",
-            "02"
+            "09",
+            "05"
           ],
           "poolBasis": "before-window",
           "covered": false,
@@ -40425,74 +42510,27 @@ window.__HISTORY_PATTERN_STATE__ = {
           "year": "2025",
           "start": 56,
           "end": 60,
-          "count": 5,
+          "count": 10,
           "nums": [
+            "06",
             "11",
             "20",
+            "23",
             "24",
+            "25",
+            "28",
             "31",
             "42"
           ],
           "pool": [
             "39",
-            "49",
-            "46",
-            "08",
             "30",
-            "14",
-            "05",
-            "45"
-          ],
-          "poolBasis": "before-window",
-          "covered": false,
-          "hits": []
-        },
-        {
-          "year": "2025",
-          "start": 61,
-          "end": 65,
-          "count": 5,
-          "nums": [
-            "10",
-            "23",
-            "31",
-            "35",
-            "48"
-          ],
-          "pool": [
-            "39",
             "49",
-            "46",
             "08",
-            "30",
-            "14",
-            "05",
-            "45"
-          ],
-          "poolBasis": "before-window",
-          "covered": false,
-          "hits": []
-        },
-        {
-          "year": "2025",
-          "start": 66,
-          "end": 70,
-          "count": 5,
-          "nums": [
-            "12",
-            "29",
-            "43",
-            "44"
-          ],
-          "pool": [
-            "39",
-            "49",
             "46",
-            "08",
-            "30",
             "14",
-            "05",
-            "45"
+            "09",
+            "05"
           ],
           "poolBasis": "before-window",
           "covered": false,
@@ -40502,153 +42540,27 @@ window.__HISTORY_PATTERN_STATE__ = {
           "year": "2025",
           "start": 81,
           "end": 85,
-          "count": 5,
+          "count": 10,
           "nums": [
+            "01",
+            "11",
+            "19",
             "20",
             "28",
+            "32",
             "34",
             "35",
             "38"
           ],
           "pool": [
             "39",
+            "30",
             "49",
-            "46",
             "08",
-            "30",
-            "14",
-            "05",
-            "45"
-          ],
-          "poolBasis": "before-window",
-          "covered": false,
-          "hits": []
-        },
-        {
-          "year": "2025",
-          "start": 101,
-          "end": 105,
-          "count": 5,
-          "nums": [
-            "01",
-            "06",
-            "26",
-            "32",
-            "38"
-          ],
-          "pool": [
-            "39",
-            "49",
-            "30",
-            "08",
-            "14",
-            "46",
-            "20",
-            "47"
-          ],
-          "poolBasis": "before-window",
-          "covered": false,
-          "hits": []
-        },
-        {
-          "year": "2025",
-          "start": 106,
-          "end": 110,
-          "count": 5,
-          "nums": [
-            "03",
-            "18",
-            "27",
-            "46",
-            "47"
-          ],
-          "pool": [
-            "39",
-            "49",
-            "30",
-            "06",
-            "48",
-            "14",
-            "05",
-            "20"
-          ],
-          "poolBasis": "before-window",
-          "covered": false,
-          "hits": []
-        },
-        {
-          "year": "2025",
-          "start": 141,
-          "end": 145,
-          "count": 5,
-          "nums": [
-            "10",
-            "13",
-            "17",
-            "25",
-            "44"
-          ],
-          "pool": [
-            "39",
-            "49",
             "46",
             "14",
-            "08",
-            "30",
-            "20",
-            "47"
-          ],
-          "poolBasis": "before-window",
-          "covered": false,
-          "hits": []
-        },
-        {
-          "year": "2025",
-          "start": 151,
-          "end": 155,
-          "count": 5,
-          "nums": [
-            "10",
-            "26",
-            "38",
-            "43",
-            "45"
-          ],
-          "pool": [
-            "39",
-            "49",
-            "14",
-            "46",
-            "08",
-            "30",
-            "20",
-            "47"
-          ],
-          "poolBasis": "before-window",
-          "covered": false,
-          "hits": []
-        },
-        {
-          "year": "2025",
-          "start": 156,
-          "end": 160,
-          "count": 5,
-          "nums": [
-            "05",
-            "11",
-            "18",
-            "23",
-            "31"
-          ],
-          "pool": [
-            "39",
-            "49",
-            "14",
-            "46",
-            "08",
-            "30",
-            "20",
-            "47"
+            "09",
+            "05"
           ],
           "poolBasis": "before-window",
           "covered": false,
@@ -40658,49 +42570,28 @@ window.__HISTORY_PATTERN_STATE__ = {
           "year": "2025",
           "start": 161,
           "end": 165,
-          "count": 5,
+          "count": 10,
           "nums": [
             "01",
+            "03",
             "13",
             "16",
+            "22",
             "23",
+            "31",
+            "38",
+            "44",
             "47"
           ],
           "pool": [
             "39",
             "49",
-            "14",
+            "30",
             "46",
             "08",
-            "30",
-            "05",
-            "20"
-          ],
-          "poolBasis": "before-window",
-          "covered": false,
-          "hits": []
-        },
-        {
-          "year": "2025",
-          "start": 166,
-          "end": 170,
-          "count": 5,
-          "nums": [
-            "07",
+            "14",
             "09",
-            "16",
-            "33",
-            "41"
-          ],
-          "pool": [
-            "39",
-            "49",
-            "14",
-            "46",
-            "08",
-            "30",
-            "05",
-            "20"
+            "05"
           ],
           "poolBasis": "before-window",
           "covered": false,
@@ -40708,25 +42599,28 @@ window.__HISTORY_PATTERN_STATE__ = {
         },
         {
           "year": "2025",
-          "start": 176,
-          "end": 180,
-          "count": 5,
+          "start": 181,
+          "end": 185,
+          "count": 10,
           "nums": [
-            "04",
-            "24",
-            "27",
-            "29",
-            "36"
+            "05",
+            "23",
+            "28",
+            "33",
+            "35",
+            "42",
+            "45",
+            "48"
           ],
           "pool": [
             "39",
             "49",
-            "14",
+            "30",
             "46",
             "08",
-            "30",
-            "05",
-            "20"
+            "14",
+            "09",
+            "47"
           ],
           "poolBasis": "before-window",
           "covered": false,
@@ -40736,48 +42630,27 @@ window.__HISTORY_PATTERN_STATE__ = {
           "year": "2025",
           "start": 191,
           "end": 195,
-          "count": 5,
+          "count": 10,
           "nums": [
+            "01",
             "24",
             "25",
             "29",
+            "33",
+            "35",
+            "40",
+            "44",
             "45"
           ],
           "pool": [
             "39",
             "49",
-            "14",
             "46",
-            "08",
             "30",
-            "05",
-            "20"
-          ],
-          "poolBasis": "before-window",
-          "covered": false,
-          "hits": []
-        },
-        {
-          "year": "2025",
-          "start": 206,
-          "end": 210,
-          "count": 5,
-          "nums": [
+            "08",
+            "14",
             "09",
-            "10",
-            "13",
-            "15",
-            "24"
-          ],
-          "pool": [
-            "39",
-            "49",
-            "14",
-            "46",
-            "08",
-            "30",
-            "05",
-            "45"
+            "05"
           ],
           "poolBasis": "before-window",
           "covered": false,
@@ -40787,48 +42660,27 @@ window.__HISTORY_PATTERN_STATE__ = {
           "year": "2025",
           "start": 211,
           "end": 215,
-          "count": 5,
+          "count": 10,
           "nums": [
             "02",
+            "03",
             "11",
+            "12",
             "15",
             "18",
-            "21"
+            "21",
+            "32",
+            "45"
           ],
           "pool": [
             "39",
+            "30",
             "49",
-            "14",
             "46",
             "08",
-            "30",
-            "05",
-            "45"
-          ],
-          "poolBasis": "before-window",
-          "covered": false,
-          "hits": []
-        },
-        {
-          "year": "2025",
-          "start": 231,
-          "end": 235,
-          "count": 5,
-          "nums": [
-            "13",
-            "37",
-            "38",
-            "42"
-          ],
-          "pool": [
-            "39",
-            "49",
             "14",
-            "46",
-            "08",
-            "30",
-            "05",
-            "45"
+            "09",
+            "35"
           ],
           "poolBasis": "before-window",
           "covered": false,
@@ -40838,22 +42690,27 @@ window.__HISTORY_PATTERN_STATE__ = {
           "year": "2025",
           "start": 246,
           "end": 250,
-          "count": 5,
+          "count": 10,
           "nums": [
             "02",
+            "05",
             "06",
+            "07",
+            "10",
             "12",
-            "25"
+            "25",
+            "26",
+            "40"
           ],
           "pool": [
             "39",
             "49",
-            "14",
             "46",
-            "08",
             "30",
-            "05",
-            "45"
+            "08",
+            "14",
+            "09",
+            "35"
           ],
           "poolBasis": "before-window",
           "covered": false,
@@ -40863,126 +42720,26 @@ window.__HISTORY_PATTERN_STATE__ = {
           "year": "2025",
           "start": 251,
           "end": 255,
-          "count": 5,
-          "nums": [
-            "17",
-            "23",
-            "33",
-            "35",
-            "42"
-          ],
-          "pool": [
-            "39",
-            "49",
-            "14",
-            "46",
-            "08",
-            "30",
-            "05",
-            "45"
-          ],
-          "poolBasis": "before-window",
-          "covered": false,
-          "hits": []
-        },
-        {
-          "year": "2025",
-          "start": 256,
-          "end": 260,
-          "count": 5,
+          "count": 10,
           "nums": [
             "03",
-            "28",
-            "38",
-            "47",
-            "48"
-          ],
-          "pool": [
-            "39",
-            "49",
-            "14",
-            "46",
-            "08",
-            "30",
-            "05",
-            "45"
-          ],
-          "poolBasis": "before-window",
-          "covered": false,
-          "hits": []
-        },
-        {
-          "year": "2025",
-          "start": 261,
-          "end": 265,
-          "count": 5,
-          "nums": [
-            "10",
+            "17",
+            "21",
+            "23",
+            "26",
             "33",
-            "38",
-            "43",
-            "44"
-          ],
-          "pool": [
-            "39",
-            "49",
-            "14",
-            "46",
-            "08",
-            "30",
-            "05",
-            "45"
-          ],
-          "poolBasis": "before-window",
-          "covered": false,
-          "hits": []
-        },
-        {
-          "year": "2025",
-          "start": 266,
-          "end": 270,
-          "count": 5,
-          "nums": [
-            "10",
-            "29",
-            "31",
             "35",
-            "41"
-          ],
-          "pool": [
-            "39",
-            "49",
-            "14",
-            "46",
-            "08",
-            "30",
-            "05",
-            "45"
-          ],
-          "poolBasis": "before-window",
-          "covered": false,
-          "hits": []
-        },
-        {
-          "year": "2025",
-          "start": 276,
-          "end": 280,
-          "count": 5,
-          "nums": [
-            "09",
-            "16",
-            "27",
-            "28",
+            "41",
             "42"
           ],
           "pool": [
             "39",
             "49",
-            "14",
             "46",
-            "08",
             "30",
-            "45",
+            "08",
+            "14",
+            "09",
             "05"
           ],
           "poolBasis": "before-window",
@@ -40991,25 +42748,27 @@ window.__HISTORY_PATTERN_STATE__ = {
         },
         {
           "year": "2025",
-          "start": 321,
-          "end": 325,
-          "count": 5,
+          "start": 281,
+          "end": 285,
+          "count": 10,
           "nums": [
-            "04",
-            "09",
             "15",
-            "23",
+            "16",
+            "24",
+            "40",
+            "41",
+            "45",
             "47"
           ],
           "pool": [
             "39",
             "49",
+            "30",
+            "46",
+            "08",
             "14",
-            "06",
-            "48",
-            "05",
-            "03",
-            "02"
+            "09",
+            "35"
           ],
           "poolBasis": "before-window",
           "covered": false,
@@ -41017,24 +42776,59 @@ window.__HISTORY_PATTERN_STATE__ = {
         },
         {
           "year": "2025",
-          "start": 351,
-          "end": 355,
-          "count": 5,
+          "start": 326,
+          "end": 330,
+          "count": 10,
           "nums": [
-            "01",
-            "04",
-            "08",
-            "30",
-            "44"
+            "03",
+            "10",
+            "11",
+            "15",
+            "17",
+            "19",
+            "27",
+            "36",
+            "37"
           ],
           "pool": [
             "39",
             "49",
+            "46",
+            "30",
+            "47",
+            "08",
             "14",
+            "09"
+          ],
+          "poolBasis": "before-window",
+          "covered": false,
+          "hits": []
+        },
+        {
+          "year": "2025",
+          "start": 341,
+          "end": 345,
+          "count": 10,
+          "nums": [
+            "04",
             "06",
-            "48",
+            "11",
+            "24",
+            "25",
+            "27",
+            "32",
+            "38",
+            "44",
+            "45"
+          ],
+          "pool": [
+            "39",
+            "49",
+            "46",
+            "30",
+            "14",
+            "08",
             "05",
-            "03",
             "09"
           ],
           "poolBasis": "before-window",
@@ -41053,14 +42847,14 @@ window.__HISTORY_PATTERN_STATE__ = {
             "26"
           ],
           "pool": [
-            "39",
             "49",
+            "39",
+            "46",
+            "30",
+            "45",
+            "20",
             "14",
-            "06",
-            "48",
-            "05",
-            "03",
-            "08"
+            "05"
           ],
           "poolBasis": "before-window",
           "covered": false,
@@ -41072,21 +42866,21 @@ window.__HISTORY_PATTERN_STATE__ = {
           "end": 5,
           "count": 5,
           "nums": [
+            "02",
             "09",
-            "22",
-            "29",
-            "43",
-            "45"
+            "10",
+            "11",
+            "24"
           ],
           "pool": [
-            "39",
             "49",
+            "39",
+            "46",
+            "30",
+            "45",
+            "20",
             "14",
-            "06",
-            "48",
-            "05",
-            "03",
-            "08"
+            "05"
           ],
           "poolBasis": "before-window",
           "covered": false,
@@ -41098,72 +42892,20 @@ window.__HISTORY_PATTERN_STATE__ = {
           "end": 10,
           "count": 5,
           "nums": [
-            "13",
+            "04",
+            "19",
             "21",
-            "27",
-            "28",
-            "41"
+            "37"
           ],
           "pool": [
-            "39",
             "49",
-            "14",
-            "06",
-            "48",
-            "05",
-            "03",
-            "09"
-          ],
-          "poolBasis": "before-window",
-          "covered": false,
-          "hits": []
-        },
-        {
-          "year": "2026",
-          "start": 11,
-          "end": 15,
-          "count": 5,
-          "nums": [
-            "01",
+            "39",
+            "46",
+            "30",
             "11",
-            "26",
-            "31"
-          ],
-          "pool": [
-            "39",
-            "49",
-            "14",
-            "06",
-            "48",
-            "05",
-            "03",
-            "09"
-          ],
-          "poolBasis": "before-window",
-          "covered": false,
-          "hits": []
-        },
-        {
-          "year": "2026",
-          "start": 21,
-          "end": 25,
-          "count": 5,
-          "nums": [
-            "18",
-            "28",
-            "37",
-            "42",
-            "47"
-          ],
-          "pool": [
-            "39",
-            "49",
-            "14",
-            "06",
-            "48",
-            "01",
-            "05",
-            "09"
+            "47",
+            "35",
+            "08"
           ],
           "poolBasis": "before-window",
           "covered": false,
@@ -41175,21 +42917,21 @@ window.__HISTORY_PATTERN_STATE__ = {
           "end": 40,
           "count": 5,
           "nums": [
-            "01",
-            "11",
-            "28",
-            "42",
-            "43"
+            "20",
+            "24",
+            "33",
+            "34",
+            "36"
           ],
           "pool": [
-            "39",
             "49",
-            "06",
-            "03",
-            "48",
-            "14",
-            "05",
-            "09"
+            "39",
+            "46",
+            "30",
+            "47",
+            "11",
+            "35",
+            "08"
           ],
           "poolBasis": "before-window",
           "covered": false,
@@ -41199,99 +42941,22 @@ window.__HISTORY_PATTERN_STATE__ = {
           "year": "2026",
           "start": 41,
           "end": 45,
-          "count": 5,
+          "count": 6,
           "nums": [
             "01",
-            "13",
-            "16",
             "19",
-            "36"
+            "25",
+            "28"
           ],
           "pool": [
-            "39",
             "49",
-            "06",
-            "03",
-            "48",
-            "14",
-            "05",
-            "09"
-          ],
-          "poolBasis": "before-window",
-          "covered": false,
-          "hits": []
-        },
-        {
-          "year": "2026",
-          "start": 76,
-          "end": 80,
-          "count": 5,
-          "nums": [
-            "02",
-            "03",
-            "29",
-            "35",
-            "46"
-          ],
-          "pool": [
             "39",
-            "49",
-            "14",
-            "06",
-            "48",
-            "01",
-            "05",
-            "09"
-          ],
-          "poolBasis": "before-window",
-          "covered": false,
-          "hits": []
-        },
-        {
-          "year": "2026",
-          "start": 96,
-          "end": 100,
-          "count": 5,
-          "nums": [
-            "11",
-            "12",
-            "17",
-            "33",
-            "43"
-          ],
-          "pool": [
-            "39",
-            "49",
-            "06",
-            "48",
-            "03",
-            "05",
-            "14",
-            "01"
-          ],
-          "poolBasis": "before-window",
-          "covered": false,
-          "hits": []
-        },
-        {
-          "year": "2026",
-          "start": 131,
-          "end": 135,
-          "count": 5,
-          "nums": [
-            "07",
+            "46",
             "30",
-            "37"
-          ],
-          "pool": [
-            "39",
-            "49",
-            "06",
-            "48",
-            "03",
-            "05",
-            "14",
-            "01"
+            "47",
+            "11",
+            "35",
+            "08"
           ],
           "poolBasis": "before-window",
           "covered": false,
@@ -41299,24 +42964,61 @@ window.__HISTORY_PATTERN_STATE__ = {
         },
         {
           "year": "2026",
-          "start": 151,
-          "end": 155,
-          "count": 5,
+          "start": 61,
+          "end": 65,
+          "count": 10,
           "nums": [
+            "05",
             "07",
-            "31",
-            "41",
-            "45"
+            "13",
+            "18",
+            "24",
+            "28",
+            "29",
+            "38",
+            "40",
+            "48"
           ],
           "pool": [
             "39",
             "49",
-            "06",
-            "48",
-            "03",
-            "05",
+            "46",
+            "30",
+            "47",
+            "08",
             "14",
-            "01"
+            "09"
+          ],
+          "poolBasis": "before-window",
+          "covered": false,
+          "hits": []
+        },
+        {
+          "year": "2026",
+          "start": 141,
+          "end": 145,
+          "count": 10,
+          "nums": [
+            "04",
+            "05",
+            "06",
+            "10",
+            "23",
+            "31",
+            "33",
+            "38",
+            "43",
+            "44"
+          ],
+          "pool": [
+            "39",
+            "49",
+            "46",
+            "30",
+            "11",
+            "47",
+            "35",
+            "08"
           ],
           "poolBasis": "before-window",
           "covered": false,
@@ -41326,8 +43028,13 @@ window.__HISTORY_PATTERN_STATE__ = {
           "year": "2026",
           "start": 171,
           "end": 175,
-          "count": 5,
+          "count": 10,
           "nums": [
+            "01",
+            "15",
+            "16",
+            "18",
+            "22",
             "26",
             "28",
             "41",
@@ -41336,72 +43043,51 @@ window.__HISTORY_PATTERN_STATE__ = {
           "pool": [
             "39",
             "49",
+            "30",
             "06",
-            "48",
-            "03",
             "05",
-            "14",
-            "01"
-          ],
-          "poolBasis": "before-window",
-          "covered": false,
-          "hits": []
-        },
-        {
-          "year": "2026",
-          "start": 186,
-          "end": 190,
-          "count": 5,
-          "nums": [
-            "01",
-            "15",
-            "16",
-            "23"
-          ],
-          "pool": [
-            "39",
-            "49",
-            "06",
-            "48",
             "03",
-            "05",
-            "14",
-            "41"
-          ],
-          "poolBasis": "before-window",
-          "covered": false,
-          "hits": []
-        },
-        {
-          "year": "2026",
-          "start": 191,
-          "end": 195,
-          "count": 5,
-          "nums": [
             "09",
-            "25",
-            "26",
-            "29"
+            "08"
+          ],
+          "poolBasis": "before-window",
+          "covered": false,
+          "hits": []
+        },
+        {
+          "year": "2026",
+          "start": 176,
+          "end": 180,
+          "count": 10,
+          "nums": [
+            "10",
+            "12",
+            "14",
+            "15",
+            "18",
+            "21",
+            "29",
+            "37"
           ],
           "pool": [
             "39",
             "49",
-            "01",
+            "30",
             "06",
-            "48",
-            "14",
             "05",
-            "03"
+            "03",
+            "09",
+            "28"
           ],
           "poolBasis": "before-window",
           "covered": false,
           "hits": []
         }
       ],
-      "total": 453,
-      "hitRate": 60.49,
+      "total": 455,
+      "hitRate": 67.69,
       "currentMiss": 0,
-      "maxMiss": 6
+      "maxMiss": 5
     },
     {
       "source": "hk",
@@ -41676,7 +43362,7 @@ window.__HISTORY_PATTERN_STATE__ = {
       "exact": true,
       "method": "rolling-before-window-exact-or-greedy-49c8",
       "validationMode": "rolling-before-window",
-      "computedAt": "2026-08-16 14:36:24",
+      "computedAt": "2026-08-17 14:06:19",
       "latestDraw": {
         "issue": 89,
         "date": "2026-08-15",
@@ -45563,7 +47249,7 @@ window.__HISTORY_PATTERN_STATE__ = {
       "exact": false,
       "method": "rolling-before-window-exact-or-greedy-49c8",
       "validationMode": "rolling-before-window",
-      "computedAt": "2026-08-16 14:36:24",
+      "computedAt": "2026-08-17 14:06:19",
       "latestDraw": {
         "issue": 89,
         "date": "2026-08-15",
