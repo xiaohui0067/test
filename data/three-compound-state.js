@@ -1,12 +1,12 @@
 window.__THREE_COMPOUND_STATE__ = {
-  "generatedAt": "2026-08-24 14:24:57",
+  "generatedAt": "2026-08-24 14:32:35",
   "items": [
     {
       "source": "am",
       "year": "2026",
       "latestIssue": 236,
-      "computedAt": "2026-08-24 14:24:57",
-      "status": "changed",
+      "computedAt": "2026-08-24 14:32:35",
+      "status": "cached",
       "pools": [
         {
           "poolSize": 5,
@@ -803,7 +803,7 @@ window.__THREE_COMPOUND_STATE__ = {
           "healthStatus": "downrank-observe",
           "healthReason": "two-completed-window-misses",
           "computedBy": "python-local-search",
-          "status": "changed",
+          "status": "cached",
           "changeTime": "2026-08-24 14:24:57",
           "changeHistory": [
             {
@@ -2781,7 +2781,7 @@ window.__THREE_COMPOUND_STATE__ = {
           "healthStatus": "downrank-observe",
           "healthReason": "two-completed-window-misses",
           "computedBy": "python-local-search",
-          "status": "changed",
+          "status": "cached",
           "changeTime": "2026-08-24 14:24:57",
           "changeHistory": [
             {
@@ -4973,7 +4973,7 @@ window.__THREE_COMPOUND_STATE__ = {
           "healthStatus": "downrank-observe",
           "healthReason": "two-completed-window-misses",
           "computedBy": "python-local-search",
-          "status": "changed",
+          "status": "cached",
           "changeTime": "2026-08-24 14:24:57",
           "changeHistory": [
             {
@@ -7391,7 +7391,7 @@ window.__THREE_COMPOUND_STATE__ = {
           "healthStatus": "normal-observe",
           "healthReason": "compound-window-stable",
           "computedBy": "python-local-search",
-          "status": "changed",
+          "status": "cached",
           "changeTime": "2026-08-24 14:24:57",
           "changeHistory": [
             {
@@ -11803,7 +11803,7 @@ window.__THREE_COMPOUND_STATE__ = {
             "42"
           ],
           "computedBy": "python-local-search",
-          "status": "changed",
+          "status": "cached",
           "changeTime": "2026-08-24 14:24:57",
           "changeHistory": [
             {
@@ -16015,7 +16015,7 @@ window.__THREE_COMPOUND_STATE__ = {
             "45"
           ],
           "computedBy": "python-local-search",
-          "status": "no-change",
+          "status": "cached",
           "changeTime": "2026-08-18 14:17:44",
           "changeHistory": [
             {
@@ -20580,7 +20580,7 @@ window.__THREE_COMPOUND_STATE__ = {
             "45"
           ],
           "computedBy": "python-local-search",
-          "status": "changed",
+          "status": "cached",
           "changeTime": "2026-08-24 14:24:57",
           "changeHistory": [
             {
@@ -27148,7 +27148,7 @@ window.__THREE_COMPOUND_STATE__ = {
             "46"
           ],
           "computedBy": "python-local-search",
-          "status": "changed",
+          "status": "cached",
           "changeTime": "2026-08-24 14:24:57",
           "changeHistory": [
             {
@@ -28657,7 +28657,7 @@ window.__THREE_COMPOUND_STATE__ = {
       "source": "hk",
       "year": "2026",
       "latestIssue": 92,
-      "computedAt": "2026-08-24 14:24:57",
+      "computedAt": "2026-08-24 14:32:35",
       "status": "cached",
       "pools": [
         {
