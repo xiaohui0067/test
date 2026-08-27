@@ -27344,3 +27344,90 @@
 2026-08-26 14:59:26 [INFO] Start saving linked page: https://2025kj.zkclhb.com:2025/am1.html
 2026-08-26 14:59:26 [INFO] Linked page saved: D:\a\test\test\pages\am1.html
 2026-08-26 14:59:26 [INFO] Fetch success: D:\a\test\test\kjjl.html
+2026-08-27 23:03:12 [INFO] Start fetching: https://2025kj.zkclhb.com:2025/am.html
+2026-08-27 23:03:14 [INFO] Start discovering linked page: https://2025kj.zkclhb.com:2025/hk.html
+2026-08-27 23:03:15 [INFO] Start discovering linked page: https://2025kj.zkclhb.com:2025/kl.html
+2026-08-27 23:03:16 [INFO] Start discovering linked page: https://2025kj.zkclhb.com:2025/am2.html
+2026-08-27 23:03:17 [INFO] Start discovering linked page: https://2025kj.zkclhb.com:2025/am20.html
+2026-08-27 23:03:18 [INFO] Start discovering linked page: https://2025kj.zkclhb.com:2025/am50.html
+2026-08-27 23:03:19 [INFO] Start discovering linked page: https://2025kj.zkclhb.com:2025/am100.html
+2026-08-27 23:03:20 [INFO] Start discovering linked page: https://2025kj.zkclhb.com:2025/am200.html
+2026-08-27 23:03:21 [INFO] Start discovering linked page: https://2025kj.zkclhb.com:2025/2025.html
+2026-08-27 23:03:23 [INFO] Start discovering linked page: https://2025kj.zkclhb.com:2025/2024.html
+2026-08-27 23:03:24 [INFO] Start discovering linked page: https://2025kj.zkclhb.com:2025/2023.html
+2026-08-27 23:03:26 [INFO] Start discovering linked page: https://2025kj.zkclhb.com:2025/2022.html
+2026-08-27 23:03:27 [INFO] Start discovering linked page: https://2025kj.zkclhb.com:2025/2021.html
+2026-08-27 23:03:29 [INFO] Start discovering linked page: https://2025kj.zkclhb.com:2025/2020.html
+2026-08-27 23:03:30 [INFO] Start discovering linked page: https://2025kj.zkclhb.com:2025/hk1.html
+2026-08-27 23:03:31 [INFO] Start discovering linked page: https://2025kj.zkclhb.com:2025/hk2.html
+2026-08-27 23:03:31 [INFO] Start discovering linked page: https://2025kj.zkclhb.com:2025/hk20.html
+2026-08-27 23:03:32 [INFO] Start discovering linked page: https://2025kj.zkclhb.com:2025/hk50.html
+2026-08-27 23:03:33 [INFO] Start discovering linked page: https://2025kj.zkclhb.com:2025/hk100.html
+2026-08-27 23:03:34 [INFO] Start discovering linked page: https://2025kj.zkclhb.com:2025/hk200.html
+2026-08-27 23:03:35 [INFO] Start discovering linked page: https://2025kj.zkclhb.com:2025/20251.html
+2026-08-27 23:03:36 [INFO] Start discovering linked page: https://2025kj.zkclhb.com:2025/20241.html
+2026-08-27 23:03:38 [INFO] Start discovering linked page: https://2025kj.zkclhb.com:2025/20231.html
+2026-08-27 23:03:39 [INFO] Start discovering linked page: https://2025kj.zkclhb.com:2025/20221.html
+2026-08-27 23:03:40 [INFO] Start discovering linked page: https://2025kj.zkclhb.com:2025/20211.html
+2026-08-27 23:03:42 [INFO] Start discovering linked page: https://2025kj.zkclhb.com:2025/20201.html
+2026-08-27 23:03:42 [INFO] Start discovering linked page: https://2025kj.zkclhb.com:2025/kl2025.html
+2026-08-27 23:03:44 [INFO] Start discovering linked page: https://2025kj.zkclhb.com:2025/kl2024.html
+2026-08-27 23:03:45 [INFO] Start discovering linked page: https://2025kj.zkclhb.com:2025/am1.html
+2026-08-27 23:03:47 [INFO] Start saving linked page: https://2025kj.zkclhb.com:2025/hk.html
+2026-08-27 23:03:48 [INFO] Linked page saved: .\pages\hk.html
+2026-08-27 23:03:48 [INFO] Start saving linked page: https://2025kj.zkclhb.com:2025/kl.html
+2026-08-27 23:03:48 [INFO] Linked page saved: .\pages\kl.html
+2026-08-27 23:03:48 [INFO] Start saving linked page: https://2025kj.zkclhb.com:2025/am2.html
+2026-08-27 23:03:49 [INFO] Linked page saved: .\pages\am2.html
+2026-08-27 23:03:49 [INFO] Start saving linked page: https://2025kj.zkclhb.com:2025/am20.html
+2026-08-27 23:03:49 [INFO] Linked page saved: .\pages\am20.html
+2026-08-27 23:03:49 [INFO] Start saving linked page: https://2025kj.zkclhb.com:2025/am50.html
+2026-08-27 23:03:50 [INFO] Linked page saved: .\pages\am50.html
+2026-08-27 23:03:50 [INFO] Start saving linked page: https://2025kj.zkclhb.com:2025/am100.html
+2026-08-27 23:03:50 [INFO] Linked page saved: .\pages\am100.html
+2026-08-27 23:03:50 [INFO] Start saving linked page: https://2025kj.zkclhb.com:2025/am200.html
+2026-08-27 23:03:50 [INFO] Linked page saved: .\pages\am200.html
+2026-08-27 23:03:50 [INFO] Start saving linked page: https://2025kj.zkclhb.com:2025/2025.html
+2026-08-27 23:03:51 [INFO] Linked page saved: .\pages\2025.html
+2026-08-27 23:03:51 [INFO] Start saving linked page: https://2025kj.zkclhb.com:2025/2024.html
+2026-08-27 23:03:51 [INFO] Linked page saved: .\pages\2024.html
+2026-08-27 23:03:51 [INFO] Start saving linked page: https://2025kj.zkclhb.com:2025/2023.html
+2026-08-27 23:03:52 [INFO] Linked page saved: .\pages\2023.html
+2026-08-27 23:03:52 [INFO] Start saving linked page: https://2025kj.zkclhb.com:2025/2022.html
+2026-08-27 23:03:52 [INFO] Linked page saved: .\pages\2022.html
+2026-08-27 23:03:52 [INFO] Start saving linked page: https://2025kj.zkclhb.com:2025/2021.html
+2026-08-27 23:03:53 [INFO] Linked page saved: .\pages\2021.html
+2026-08-27 23:03:53 [INFO] Start saving linked page: https://2025kj.zkclhb.com:2025/2020.html
+2026-08-27 23:03:53 [INFO] Linked page saved: .\pages\2020.html
+2026-08-27 23:03:53 [INFO] Start saving linked page: https://2025kj.zkclhb.com:2025/hk1.html
+2026-08-27 23:03:54 [INFO] Linked page saved: .\pages\hk1.html
+2026-08-27 23:03:54 [INFO] Start saving linked page: https://2025kj.zkclhb.com:2025/hk2.html
+2026-08-27 23:03:54 [INFO] Linked page saved: .\pages\hk2.html
+2026-08-27 23:03:54 [INFO] Start saving linked page: https://2025kj.zkclhb.com:2025/hk20.html
+2026-08-27 23:03:55 [INFO] Linked page saved: .\pages\hk20.html
+2026-08-27 23:03:55 [INFO] Start saving linked page: https://2025kj.zkclhb.com:2025/hk50.html
+2026-08-27 23:03:55 [INFO] Linked page saved: .\pages\hk50.html
+2026-08-27 23:03:55 [INFO] Start saving linked page: https://2025kj.zkclhb.com:2025/hk100.html
+2026-08-27 23:03:56 [INFO] Linked page saved: .\pages\hk100.html
+2026-08-27 23:03:56 [INFO] Start saving linked page: https://2025kj.zkclhb.com:2025/hk200.html
+2026-08-27 23:03:56 [INFO] Linked page saved: .\pages\hk200.html
+2026-08-27 23:03:56 [INFO] Start saving linked page: https://2025kj.zkclhb.com:2025/20251.html
+2026-08-27 23:03:57 [INFO] Linked page saved: .\pages\20251.html
+2026-08-27 23:03:57 [INFO] Start saving linked page: https://2025kj.zkclhb.com:2025/20241.html
+2026-08-27 23:03:57 [INFO] Linked page saved: .\pages\20241.html
+2026-08-27 23:03:57 [INFO] Start saving linked page: https://2025kj.zkclhb.com:2025/20231.html
+2026-08-27 23:03:57 [INFO] Linked page saved: .\pages\20231.html
+2026-08-27 23:03:57 [INFO] Start saving linked page: https://2025kj.zkclhb.com:2025/20221.html
+2026-08-27 23:03:58 [INFO] Linked page saved: .\pages\20221.html
+2026-08-27 23:03:58 [INFO] Start saving linked page: https://2025kj.zkclhb.com:2025/20211.html
+2026-08-27 23:03:58 [INFO] Linked page saved: .\pages\20211.html
+2026-08-27 23:03:58 [INFO] Start saving linked page: https://2025kj.zkclhb.com:2025/20201.html
+2026-08-27 23:03:59 [INFO] Linked page saved: .\pages\20201.html
+2026-08-27 23:03:59 [INFO] Start saving linked page: https://2025kj.zkclhb.com:2025/kl2025.html
+2026-08-27 23:03:59 [INFO] Linked page saved: .\pages\kl2025.html
+2026-08-27 23:03:59 [INFO] Start saving linked page: https://2025kj.zkclhb.com:2025/kl2024.html
+2026-08-27 23:04:00 [INFO] Linked page saved: .\pages\kl2024.html
+2026-08-27 23:04:00 [INFO] Start saving linked page: https://2025kj.zkclhb.com:2025/am1.html
+2026-08-27 23:04:00 [INFO] Linked page saved: .\pages\am1.html
+2026-08-27 23:07:48 [INFO] Dashboard data refreshed
+2026-08-27 23:07:48 [INFO] Fetch success: .\kjjl.html
