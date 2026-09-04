@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-03 17:49:10",
+  "generatedAt": "2026-09-04 17:06:18",
   "items": [
     {
       "source": "am",
@@ -840,14 +840,15 @@
             "year": "2026",
             "start": 236,
             "end": 240,
-            "count": 6,
+            "count": 7,
             "nums": [
               "05",
               "11",
               "12",
               "17",
               "27",
-              "29"
+              "29",
+              "30"
             ],
             "covered": true
           },
@@ -876,58 +877,58 @@
       "exact": false,
       "method": "rolling-before-window-exact-or-greedy-49c8",
       "validationMode": "rolling-before-window",
-      "computedAt": "2026-09-03 17:49:10",
+      "computedAt": "2026-09-04 17:06:18",
       "latestDraw": {
-        "issue": 246,
-        "date": "2026-09-03",
+        "issue": 247,
+        "date": "2026-09-04",
         "year": "2026",
         "balls": [
           {
             "index": 0,
-            "numberText": "22",
-            "zodiac": "鸡",
+            "numberText": "03",
+            "zodiac": "龙",
+            "color": "blue",
+            "colorName": "蓝"
+          },
+          {
+            "index": 1,
+            "numberText": "09",
+            "zodiac": "狗",
+            "color": "blue",
+            "colorName": "蓝"
+          },
+          {
+            "index": 2,
+            "numberText": "43",
+            "zodiac": "鼠",
             "color": "green",
             "colorName": "绿"
           },
           {
-            "index": 1,
-            "numberText": "24",
-            "zodiac": "羊",
-            "color": "red",
-            "colorName": "红"
-          },
-          {
-            "index": 2,
-            "numberText": "19",
-            "zodiac": "鼠",
-            "color": "red",
-            "colorName": "红"
-          },
-          {
             "index": 3,
-            "numberText": "10",
-            "zodiac": "鸡",
-            "color": "blue",
-            "colorName": "蓝"
+            "numberText": "29",
+            "zodiac": "虎",
+            "color": "red",
+            "colorName": "红"
           },
           {
             "index": 4,
-            "numberText": "20",
-            "zodiac": "猪",
-            "color": "blue",
-            "colorName": "蓝"
-          },
-          {
-            "index": 5,
-            "numberText": "01",
-            "zodiac": "马",
+            "numberText": "46",
+            "zodiac": "鸡",
             "color": "red",
             "colorName": "红"
           },
           {
+            "index": 5,
+            "numberText": "04",
+            "zodiac": "兔",
+            "color": "blue",
+            "colorName": "蓝"
+          },
+          {
             "index": 6,
-            "numberText": "30",
-            "zodiac": "牛",
+            "numberText": "40",
+            "zodiac": "兔",
             "color": "red",
             "colorName": "红"
           }
@@ -935,51 +936,51 @@
         "regular": [
           {
             "index": 0,
-            "numberText": "22",
-            "zodiac": "鸡",
+            "numberText": "03",
+            "zodiac": "龙",
+            "color": "blue",
+            "colorName": "蓝"
+          },
+          {
+            "index": 1,
+            "numberText": "09",
+            "zodiac": "狗",
+            "color": "blue",
+            "colorName": "蓝"
+          },
+          {
+            "index": 2,
+            "numberText": "43",
+            "zodiac": "鼠",
             "color": "green",
             "colorName": "绿"
           },
           {
-            "index": 1,
-            "numberText": "24",
-            "zodiac": "羊",
-            "color": "red",
-            "colorName": "红"
-          },
-          {
-            "index": 2,
-            "numberText": "19",
-            "zodiac": "鼠",
-            "color": "red",
-            "colorName": "红"
-          },
-          {
             "index": 3,
-            "numberText": "10",
-            "zodiac": "鸡",
-            "color": "blue",
-            "colorName": "蓝"
+            "numberText": "29",
+            "zodiac": "虎",
+            "color": "red",
+            "colorName": "红"
           },
           {
             "index": 4,
-            "numberText": "20",
-            "zodiac": "猪",
-            "color": "blue",
-            "colorName": "蓝"
+            "numberText": "46",
+            "zodiac": "鸡",
+            "color": "red",
+            "colorName": "红"
           },
           {
             "index": 5,
-            "numberText": "01",
-            "zodiac": "马",
-            "color": "red",
-            "colorName": "红"
+            "numberText": "04",
+            "zodiac": "兔",
+            "color": "blue",
+            "colorName": "蓝"
           }
         ],
         "special": {
           "index": 6,
-          "numberText": "30",
-          "zodiac": "牛",
+          "numberText": "40",
+          "zodiac": "兔",
           "color": "red",
           "colorName": "红"
         }
@@ -1009,7 +1010,7 @@
         "year": "2026",
         "start": 246,
         "end": 250,
-        "count": 1,
+        "count": 2,
         "expected": 5,
         "covered": false,
         "pool": [
@@ -1045,6 +1046,11 @@
             "issue": 246,
             "date": "2026-09-03",
             "num": "30"
+          },
+          {
+            "issue": 247,
+            "date": "2026-09-04",
+            "num": "40"
           }
         ]
       },
@@ -2513,14 +2519,15 @@
           "year": "2026",
           "start": 236,
           "end": 240,
-          "count": 6,
+          "count": 7,
           "nums": [
             "05",
             "11",
             "12",
             "17",
             "27",
-            "29"
+            "29",
+            "30"
           ],
           "pool": [
             "01",
@@ -4028,14 +4035,15 @@
           "year": "2026",
           "start": 236,
           "end": 240,
-          "count": 6,
+          "count": 7,
           "nums": [
             "05",
             "11",
             "12",
             "17",
             "27",
-            "29"
+            "29",
+            "30"
           ],
           "pool": [
             "01",
@@ -4491,14 +4499,15 @@
           "year": "2026",
           "start": 236,
           "end": 240,
-          "count": 6,
+          "count": 7,
           "nums": [
             "05",
             "11",
             "12",
             "17",
             "27",
-            "29"
+            "29",
+            "30"
           ],
           "pool": [
             "01",
@@ -4553,22 +4562,22 @@
       "pool": [
         "39",
         "49",
-        "01",
-        "46",
-        "11",
-        "10",
-        "08",
-        "09"
+        "30",
+        "06",
+        "35",
+        "47",
+        "09",
+        "03"
       ],
       "postWindowOptimalPool": [
         "39",
         "49",
-        "01",
-        "46",
-        "11",
-        "10",
-        "08",
-        "09"
+        "30",
+        "06",
+        "35",
+        "47",
+        "09",
+        "03"
       ],
       "postWindowStats": {
         "windows": [
@@ -4666,7 +4675,7 @@
               "30",
               "34"
             ],
-            "covered": false
+            "covered": true
           },
           {
             "year": "2020",
@@ -4694,7 +4703,7 @@
               "38",
               "44"
             ],
-            "covered": true
+            "covered": false
           },
           {
             "year": "2020",
@@ -4775,7 +4784,7 @@
               "35",
               "41"
             ],
-            "covered": false
+            "covered": true
           },
           {
             "year": "2020",
@@ -4803,7 +4812,7 @@
               "35",
               "48"
             ],
-            "covered": false
+            "covered": true
           },
           {
             "year": "2020",
@@ -4869,7 +4878,7 @@
               "18",
               "19"
             ],
-            "covered": true
+            "covered": false
           },
           {
             "year": "2020",
@@ -4896,7 +4905,7 @@
               "33",
               "46"
             ],
-            "covered": true
+            "covered": false
           },
           {
             "year": "2020",
@@ -4924,7 +4933,7 @@
               "20",
               "31"
             ],
-            "covered": false
+            "covered": true
           },
           {
             "year": "2020",
@@ -4936,7 +4945,7 @@
               "08",
               "19"
             ],
-            "covered": true
+            "covered": false
           },
           {
             "year": "2020",
@@ -4977,7 +4986,7 @@
               "41",
               "45"
             ],
-            "covered": false
+            "covered": true
           },
           {
             "year": "2020",
@@ -5018,7 +5027,7 @@
               "44",
               "46"
             ],
-            "covered": true
+            "covered": false
           },
           {
             "year": "2020",
@@ -5045,7 +5054,7 @@
               "44",
               "46"
             ],
-            "covered": true
+            "covered": false
           },
           {
             "year": "2020",
@@ -5100,7 +5109,7 @@
               "36",
               "41"
             ],
-            "covered": false
+            "covered": true
           },
           {
             "year": "2020",
@@ -5141,7 +5150,7 @@
               "35",
               "41"
             ],
-            "covered": false
+            "covered": true
           },
           {
             "year": "2020",
@@ -5209,7 +5218,7 @@
               "43",
               "45"
             ],
-            "covered": true
+            "covered": false
           },
           {
             "year": "2021",
@@ -5278,7 +5287,7 @@
               "37",
               "42"
             ],
-            "covered": false
+            "covered": true
           },
           {
             "year": "2021",
@@ -5306,7 +5315,7 @@
               "42",
               "47"
             ],
-            "covered": false
+            "covered": true
           },
           {
             "year": "2021",
@@ -5320,7 +5329,7 @@
               "33",
               "48"
             ],
-            "covered": true
+            "covered": false
           },
           {
             "year": "2021",
@@ -5347,7 +5356,7 @@
               "32",
               "41"
             ],
-            "covered": true
+            "covered": false
           },
           {
             "year": "2021",
@@ -5375,7 +5384,7 @@
               "31",
               "37"
             ],
-            "covered": true
+            "covered": false
           },
           {
             "year": "2021",
@@ -5514,7 +5523,7 @@
               "36",
               "48"
             ],
-            "covered": false
+            "covered": true
           },
           {
             "year": "2021",
@@ -5542,7 +5551,7 @@
               "38",
               "42"
             ],
-            "covered": true
+            "covered": false
           },
           {
             "year": "2021",
@@ -5556,7 +5565,7 @@
               "31",
               "48"
             ],
-            "covered": false
+            "covered": true
           },
           {
             "year": "2021",
@@ -5583,7 +5592,7 @@
               "46",
               "48"
             ],
-            "covered": true
+            "covered": false
           },
           {
             "year": "2021",
@@ -5653,7 +5662,7 @@
               "28",
               "45"
             ],
-            "covered": true
+            "covered": false
           },
           {
             "year": "2021",
@@ -5708,7 +5717,7 @@
               "18",
               "20"
             ],
-            "covered": true
+            "covered": false
           },
           {
             "year": "2021",
@@ -5721,7 +5730,7 @@
               "23",
               "43"
             ],
-            "covered": false
+            "covered": true
           },
           {
             "year": "2021",
@@ -5735,7 +5744,7 @@
               "28",
               "42"
             ],
-            "covered": true
+            "covered": false
           },
           {
             "year": "2021",
@@ -5749,7 +5758,7 @@
               "36",
               "47"
             ],
-            "covered": false
+            "covered": true
           },
           {
             "year": "2021",
@@ -5846,7 +5855,7 @@
               "22",
               "26"
             ],
-            "covered": true
+            "covered": false
           },
           {
             "year": "2021",
@@ -5860,7 +5869,7 @@
               "38",
               "45"
             ],
-            "covered": true
+            "covered": false
           },
           {
             "year": "2021",
@@ -5888,7 +5897,7 @@
               "43",
               "44"
             ],
-            "covered": true
+            "covered": false
           },
           {
             "year": "2021",
@@ -5902,7 +5911,7 @@
               "28",
               "47"
             ],
-            "covered": false
+            "covered": true
           },
           {
             "year": "2021",
@@ -5916,7 +5925,7 @@
               "33",
               "40"
             ],
-            "covered": true
+            "covered": false
           },
           {
             "year": "2021",
@@ -5930,7 +5939,7 @@
               "22",
               "46"
             ],
-            "covered": true
+            "covered": false
           },
           {
             "year": "2021",
@@ -5999,7 +6008,7 @@
               "37",
               "41"
             ],
-            "covered": false
+            "covered": true
           },
           {
             "year": "2021",
@@ -6026,7 +6035,7 @@
               "34",
               "42"
             ],
-            "covered": false
+            "covered": true
           },
           {
             "year": "2021",
@@ -6054,7 +6063,7 @@
               "41",
               "45"
             ],
-            "covered": false
+            "covered": true
           },
           {
             "year": "2021",
@@ -6096,7 +6105,7 @@
               "38",
               "44"
             ],
-            "covered": false
+            "covered": true
           },
           {
             "year": "2021",
@@ -6151,7 +6160,7 @@
               "38",
               "48"
             ],
-            "covered": true
+            "covered": false
           },
           {
             "year": "2021",
@@ -6179,7 +6188,7 @@
               "44",
               "46"
             ],
-            "covered": true
+            "covered": false
           },
           {
             "year": "2021",
@@ -6260,7 +6269,7 @@
               "19",
               "33"
             ],
-            "covered": false
+            "covered": true
           },
           {
             "year": "2022",
@@ -6301,7 +6310,7 @@
               "32",
               "42"
             ],
-            "covered": false
+            "covered": true
           },
           {
             "year": "2022",
@@ -6343,7 +6352,7 @@
               "27",
               "40"
             ],
-            "covered": true
+            "covered": false
           },
           {
             "year": "2022",
@@ -6357,7 +6366,7 @@
               "28",
               "29"
             ],
-            "covered": true
+            "covered": false
           },
           {
             "year": "2022",
@@ -6371,7 +6380,7 @@
               "24",
               "40"
             ],
-            "covered": true
+            "covered": false
           },
           {
             "year": "2022",
@@ -6399,7 +6408,7 @@
               "32",
               "42"
             ],
-            "covered": false
+            "covered": true
           },
           {
             "year": "2022",
@@ -6413,7 +6422,7 @@
               "31",
               "46"
             ],
-            "covered": true
+            "covered": false
           },
           {
             "year": "2022",
@@ -6427,7 +6436,7 @@
               "26",
               "45"
             ],
-            "covered": false
+            "covered": true
           },
           {
             "year": "2022",
@@ -6482,7 +6491,7 @@
               "22",
               "36"
             ],
-            "covered": true
+            "covered": false
           },
           {
             "year": "2022",
@@ -6523,7 +6532,7 @@
               "34",
               "46"
             ],
-            "covered": true
+            "covered": false
           },
           {
             "year": "2022",
@@ -6537,7 +6546,7 @@
               "46",
               "48"
             ],
-            "covered": true
+            "covered": false
           },
           {
             "year": "2022",
@@ -6551,7 +6560,7 @@
               "47",
               "48"
             ],
-            "covered": false
+            "covered": true
           },
           {
             "year": "2022",
@@ -6565,7 +6574,7 @@
               "40",
               "45"
             ],
-            "covered": false
+            "covered": true
           },
           {
             "year": "2022",
@@ -6592,7 +6601,7 @@
               "27",
               "28"
             ],
-            "covered": false
+            "covered": true
           },
           {
             "year": "2022",
@@ -6606,7 +6615,7 @@
               "42",
               "47"
             ],
-            "covered": false
+            "covered": true
           },
           {
             "year": "2022",
@@ -6634,7 +6643,7 @@
               "26",
               "35"
             ],
-            "covered": false
+            "covered": true
           },
           {
             "year": "2022",
@@ -6704,7 +6713,7 @@
               "26",
               "48"
             ],
-            "covered": true
+            "covered": false
           },
           {
             "year": "2022",
@@ -6718,7 +6727,7 @@
               "35",
               "44"
             ],
-            "covered": false
+            "covered": true
           },
           {
             "year": "2022",
@@ -6758,7 +6767,7 @@
               "19",
               "44"
             ],
-            "covered": true
+            "covered": false
           },
           {
             "year": "2022",
@@ -6772,7 +6781,7 @@
               "30",
               "48"
             ],
-            "covered": false
+            "covered": true
           },
           {
             "year": "2022",
@@ -6800,7 +6809,7 @@
               "41",
               "47"
             ],
-            "covered": false
+            "covered": true
           },
           {
             "year": "2022",
@@ -6881,7 +6890,7 @@
               "21",
               "46"
             ],
-            "covered": true
+            "covered": false
           },
           {
             "year": "2022",
@@ -6909,7 +6918,7 @@
               "17",
               "19"
             ],
-            "covered": true
+            "covered": false
           },
           {
             "year": "2022",
@@ -6964,7 +6973,7 @@
               "18",
               "20"
             ],
-            "covered": false
+            "covered": true
           },
           {
             "year": "2022",
@@ -7060,7 +7069,7 @@
               "15",
               "20"
             ],
-            "covered": true
+            "covered": false
           },
           {
             "year": "2022",
@@ -7086,7 +7095,7 @@
               "08",
               "17"
             ],
-            "covered": true
+            "covered": false
           },
           {
             "year": "2022",
@@ -7140,7 +7149,7 @@
               "25",
               "38"
             ],
-            "covered": false
+            "covered": true
           },
           {
             "year": "2022",
@@ -7168,7 +7177,7 @@
               "26",
               "48"
             ],
-            "covered": true
+            "covered": false
           },
           {
             "year": "2022",
@@ -7278,7 +7287,7 @@
               "35",
               "36"
             ],
-            "covered": false
+            "covered": true
           },
           {
             "year": "2023",
@@ -7333,7 +7342,7 @@
               "23",
               "30"
             ],
-            "covered": false
+            "covered": true
           },
           {
             "year": "2023",
@@ -7388,7 +7397,7 @@
               "42",
               "48"
             ],
-            "covered": true
+            "covered": false
           },
           {
             "year": "2023",
@@ -7443,7 +7452,7 @@
               "30",
               "31"
             ],
-            "covered": false
+            "covered": true
           },
           {
             "year": "2023",
@@ -7512,7 +7521,7 @@
               "18",
               "43"
             ],
-            "covered": true
+            "covered": false
           },
           {
             "year": "2023",
@@ -7540,7 +7549,7 @@
               "35",
               "42"
             ],
-            "covered": false
+            "covered": true
           },
           {
             "year": "2023",
@@ -7595,7 +7604,7 @@
               "29",
               "37"
             ],
-            "covered": false
+            "covered": true
           },
           {
             "year": "2023",
@@ -7623,7 +7632,7 @@
               "19",
               "30"
             ],
-            "covered": false
+            "covered": true
           },
           {
             "year": "2023",
@@ -7650,7 +7659,7 @@
               "17",
               "37"
             ],
-            "covered": true
+            "covered": false
           },
           {
             "year": "2023",
@@ -7705,7 +7714,7 @@
               "36",
               "43"
             ],
-            "covered": true
+            "covered": false
           },
           {
             "year": "2023",
@@ -7732,7 +7741,7 @@
               "44",
               "48"
             ],
-            "covered": true
+            "covered": false
           },
           {
             "year": "2023",
@@ -7801,7 +7810,7 @@
               "20",
               "36"
             ],
-            "covered": true
+            "covered": false
           },
           {
             "year": "2023",
@@ -7829,7 +7838,7 @@
               "33",
               "36"
             ],
-            "covered": false
+            "covered": true
           },
           {
             "year": "2023",
@@ -7883,7 +7892,7 @@
               "21",
               "29"
             ],
-            "covered": false
+            "covered": true
           },
           {
             "year": "2023",
@@ -7981,7 +7990,7 @@
               "38",
               "41"
             ],
-            "covered": false
+            "covered": true
           },
           {
             "year": "2023",
@@ -8009,7 +8018,7 @@
               "44",
               "48"
             ],
-            "covered": false
+            "covered": true
           },
           {
             "year": "2023",
@@ -8133,7 +8142,7 @@
               "41",
               "46"
             ],
-            "covered": true
+            "covered": false
           },
           {
             "year": "2023",
@@ -8175,7 +8184,7 @@
               "41",
               "44"
             ],
-            "covered": true
+            "covered": false
           },
           {
             "year": "2023",
@@ -8189,7 +8198,7 @@
               "29",
               "42"
             ],
-            "covered": true
+            "covered": false
           },
           {
             "year": "2023",
@@ -8203,7 +8212,7 @@
               "36",
               "43"
             ],
-            "covered": true
+            "covered": false
           },
           {
             "year": "2024",
@@ -8245,7 +8254,7 @@
               "33",
               "37"
             ],
-            "covered": true
+            "covered": false
           },
           {
             "year": "2024",
@@ -8258,7 +8267,7 @@
               "29",
               "47"
             ],
-            "covered": false
+            "covered": true
           },
           {
             "year": "2024",
@@ -8410,7 +8419,7 @@
               "19",
               "34"
             ],
-            "covered": false
+            "covered": true
           },
           {
             "year": "2024",
@@ -8437,7 +8446,7 @@
               "22",
               "35"
             ],
-            "covered": false
+            "covered": true
           },
           {
             "year": "2024",
@@ -8479,7 +8488,7 @@
               "28",
               "46"
             ],
-            "covered": true
+            "covered": false
           },
           {
             "year": "2024",
@@ -8512,7 +8521,7 @@
               "46",
               "48"
             ],
-            "covered": true
+            "covered": false
           },
           {
             "year": "2024",
@@ -8602,7 +8611,7 @@
               "37",
               "46"
             ],
-            "covered": true
+            "covered": false
           },
           {
             "year": "2024",
@@ -8695,7 +8704,7 @@
               "43",
               "45"
             ],
-            "covered": false
+            "covered": true
           },
           {
             "year": "2024",
@@ -8905,7 +8914,7 @@
               "35",
               "37"
             ],
-            "covered": false
+            "covered": true
           },
           {
             "year": "2024",
@@ -9016,7 +9025,7 @@
               "31",
               "32"
             ],
-            "covered": true
+            "covered": false
           },
           {
             "year": "2024",
@@ -9033,7 +9042,7 @@
               "36",
               "47"
             ],
-            "covered": false
+            "covered": true
           },
           {
             "year": "2024",
@@ -9119,7 +9128,7 @@
               "40",
               "45"
             ],
-            "covered": true
+            "covered": false
           },
           {
             "year": "2024",
@@ -9156,7 +9165,7 @@
               "45",
               "46"
             ],
-            "covered": true
+            "covered": false
           },
           {
             "year": "2024",
@@ -9264,7 +9273,7 @@
               "41",
               "44"
             ],
-            "covered": false
+            "covered": true
           },
           {
             "year": "2024",
@@ -9430,7 +9439,7 @@
               "24",
               "30"
             ],
-            "covered": false
+            "covered": true
           },
           {
             "year": "2025",
@@ -9486,7 +9495,7 @@
               "33",
               "43"
             ],
-            "covered": false
+            "covered": true
           },
           {
             "year": "2025",
@@ -9646,7 +9655,7 @@
               "44",
               "46"
             ],
-            "covered": true
+            "covered": false
           },
           {
             "year": "2025",
@@ -9828,7 +9837,7 @@
               "45",
               "47"
             ],
-            "covered": false
+            "covered": true
           },
           {
             "year": "2025",
@@ -9938,7 +9947,7 @@
               "40",
               "41"
             ],
-            "covered": false
+            "covered": true
           },
           {
             "year": "2025",
@@ -10067,7 +10076,7 @@
               "45",
               "48"
             ],
-            "covered": false
+            "covered": true
           },
           {
             "year": "2025",
@@ -10322,7 +10331,7 @@
               "41",
               "42"
             ],
-            "covered": false
+            "covered": true
           },
           {
             "year": "2025",
@@ -10395,7 +10404,7 @@
               "47",
               "48"
             ],
-            "covered": false
+            "covered": true
           },
           {
             "year": "2025",
@@ -10430,7 +10439,7 @@
               "45",
               "47"
             ],
-            "covered": false
+            "covered": true
           },
           {
             "year": "2025",
@@ -10467,7 +10476,7 @@
               "44",
               "47"
             ],
-            "covered": false
+            "covered": true
           },
           {
             "year": "2025",
@@ -10503,7 +10512,7 @@
               "42",
               "48"
             ],
-            "covered": true
+            "covered": false
           },
           {
             "year": "2025",
@@ -10538,7 +10547,7 @@
               "37",
               "38"
             ],
-            "covered": true
+            "covered": false
           },
           {
             "year": "2025",
@@ -10761,7 +10770,7 @@
               "40",
               "47"
             ],
-            "covered": false
+            "covered": true
           },
           {
             "year": "2026",
@@ -10803,7 +10812,7 @@
               "29",
               "34"
             ],
-            "covered": true
+            "covered": false
           },
           {
             "year": "2026",
@@ -10830,7 +10839,7 @@
               "25",
               "28"
             ],
-            "covered": true
+            "covered": false
           },
           {
             "year": "2026",
@@ -11301,7 +11310,7 @@
               "41",
               "44"
             ],
-            "covered": true
+            "covered": false
           },
           {
             "year": "2026",
@@ -11318,7 +11327,7 @@
               "29",
               "37"
             ],
-            "covered": true
+            "covered": false
           },
           {
             "year": "2026",
@@ -11522,14 +11531,15 @@
             "year": "2026",
             "start": 236,
             "end": 240,
-            "count": 6,
+            "count": 7,
             "nums": [
               "05",
               "11",
               "12",
               "17",
               "27",
-              "29"
+              "29",
+              "30"
             ],
             "covered": true
           },
@@ -11548,7 +11558,7 @@
             "covered": true
           }
         ],
-        "covered": 354,
+        "covered": 353,
         "misses": [
           {
             "year": "2020",
@@ -11593,14 +11603,15 @@
           },
           {
             "year": "2020",
-            "start": 161,
-            "end": 165,
+            "start": 171,
+            "end": 175,
             "count": 5,
             "nums": [
-              "05",
-              "27",
-              "30",
-              "34"
+              "08",
+              "22",
+              "36",
+              "38",
+              "44"
             ],
             "covered": false
           },
@@ -11614,33 +11625,6 @@
               "14",
               "31",
               "34"
-            ],
-            "covered": false
-          },
-          {
-            "year": "2020",
-            "start": 201,
-            "end": 205,
-            "count": 5,
-            "nums": [
-              "17",
-              "30",
-              "35",
-              "41"
-            ],
-            "covered": false
-          },
-          {
-            "year": "2020",
-            "start": 211,
-            "end": 215,
-            "count": 5,
-            "nums": [
-              "03",
-              "15",
-              "17",
-              "35",
-              "48"
             ],
             "covered": false
           },
@@ -11685,15 +11669,40 @@
           },
           {
             "year": "2020",
-            "start": 256,
-            "end": 260,
+            "start": 236,
+            "end": 240,
             "count": 5,
             "nums": [
-              "03",
+              "05",
+              "11",
+              "18",
+              "19"
+            ],
+            "covered": false
+          },
+          {
+            "year": "2020",
+            "start": 246,
+            "end": 250,
+            "count": 5,
+            "nums": [
+              "21",
+              "22",
+              "29",
+              "33",
+              "46"
+            ],
+            "covered": false
+          },
+          {
+            "year": "2020",
+            "start": 261,
+            "end": 265,
+            "count": 5,
+            "nums": [
               "04",
-              "07",
-              "20",
-              "31"
+              "08",
+              "19"
             ],
             "covered": false
           },
@@ -11712,29 +11721,27 @@
           },
           {
             "year": "2020",
-            "start": 276,
-            "end": 280,
+            "start": 291,
+            "end": 295,
             "count": 5,
             "nums": [
-              "28",
-              "31",
-              "35",
-              "41",
-              "45"
+              "24",
+              "25",
+              "44",
+              "46"
             ],
             "covered": false
           },
           {
             "year": "2020",
-            "start": 321,
-            "end": 325,
+            "start": 301,
+            "end": 305,
             "count": 5,
             "nums": [
-              "20",
-              "29",
-              "30",
-              "36",
-              "41"
+              "23",
+              "24",
+              "44",
+              "46"
             ],
             "covered": false
           },
@@ -11752,43 +11759,58 @@
             "covered": false
           },
           {
-            "year": "2020",
-            "start": 336,
-            "end": 340,
+            "year": "2021",
+            "start": 6,
+            "end": 10,
             "count": 5,
             "nums": [
-              "03",
-              "07",
-              "12",
-              "35",
+              "02",
+              "08",
+              "10",
+              "43",
+              "45"
+            ],
+            "covered": false
+          },
+          {
+            "year": "2021",
+            "start": 46,
+            "end": 50,
+            "count": 5,
+            "nums": [
+              "11",
+              "24",
+              "28",
+              "33",
+              "48"
+            ],
+            "covered": false
+          },
+          {
+            "year": "2021",
+            "start": 56,
+            "end": 60,
+            "count": 5,
+            "nums": [
+              "08",
+              "28",
+              "31",
+              "32",
               "41"
             ],
             "covered": false
           },
           {
             "year": "2021",
-            "start": 31,
-            "end": 35,
+            "start": 66,
+            "end": 70,
             "count": 5,
             "nums": [
-              "03",
-              "21",
-              "37",
-              "42"
-            ],
-            "covered": false
-          },
-          {
-            "year": "2021",
-            "start": 41,
-            "end": 45,
-            "count": 5,
-            "nums": [
-              "14",
-              "21",
+              "10",
+              "16",
+              "27",
               "31",
-              "42",
-              "47"
+              "37"
             ],
             "covered": false
           },
@@ -11807,28 +11829,28 @@
           },
           {
             "year": "2021",
-            "start": 116,
-            "end": 120,
+            "start": 126,
+            "end": 130,
             "count": 5,
             "nums": [
-              "22",
-              "27",
-              "35",
-              "36",
-              "48"
+              "01",
+              "23",
+              "37",
+              "38",
+              "42"
             ],
             "covered": false
           },
           {
             "year": "2021",
-            "start": 131,
-            "end": 135,
+            "start": 141,
+            "end": 145,
             "count": 5,
             "nums": [
-              "03",
-              "07",
-              "30",
+              "28",
               "31",
+              "42",
+              "46",
               "48"
             ],
             "covered": false
@@ -11849,28 +11871,43 @@
           },
           {
             "year": "2021",
-            "start": 191,
-            "end": 195,
+            "start": 166,
+            "end": 170,
             "count": 5,
             "nums": [
-              "03",
+              "11",
+              "13",
               "14",
-              "23",
-              "43"
+              "28",
+              "45"
             ],
             "covered": false
           },
           {
             "year": "2021",
-            "start": 201,
-            "end": 205,
+            "start": 186,
+            "end": 190,
             "count": 5,
             "nums": [
-              "19",
-              "29",
-              "33",
-              "36",
-              "47"
+              "01",
+              "02",
+              "17",
+              "18",
+              "20"
+            ],
+            "covered": false
+          },
+          {
+            "year": "2021",
+            "start": 196,
+            "end": 200,
+            "count": 5,
+            "nums": [
+              "07",
+              "11",
+              "14",
+              "28",
+              "42"
             ],
             "covered": false
           },
@@ -11898,6 +11935,34 @@
               "15",
               "17",
               "37"
+            ],
+            "covered": false
+          },
+          {
+            "year": "2021",
+            "start": 236,
+            "end": 240,
+            "count": 5,
+            "nums": [
+              "08",
+              "13",
+              "20",
+              "22",
+              "26"
+            ],
+            "covered": false
+          },
+          {
+            "year": "2021",
+            "start": 241,
+            "end": 245,
+            "count": 5,
+            "nums": [
+              "11",
+              "21",
+              "28",
+              "38",
+              "45"
             ],
             "covered": false
           },
@@ -11917,15 +11982,43 @@
           },
           {
             "year": "2021",
-            "start": 256,
-            "end": 260,
+            "start": 251,
+            "end": 255,
+            "count": 5,
+            "nums": [
+              "01",
+              "02",
+              "31",
+              "43",
+              "44"
+            ],
+            "covered": false
+          },
+          {
+            "year": "2021",
+            "start": 261,
+            "end": 265,
+            "count": 5,
+            "nums": [
+              "01",
+              "08",
+              "10",
+              "33",
+              "40"
+            ],
+            "covered": false
+          },
+          {
+            "year": "2021",
+            "start": 266,
+            "end": 270,
             "count": 5,
             "nums": [
               "05",
+              "12",
               "16",
-              "19",
-              "28",
-              "47"
+              "22",
+              "46"
             ],
             "covered": false
           },
@@ -11945,20 +12038,6 @@
           },
           {
             "year": "2021",
-            "start": 291,
-            "end": 295,
-            "count": 5,
-            "nums": [
-              "24",
-              "30",
-              "32",
-              "37",
-              "41"
-            ],
-            "covered": false
-          },
-          {
-            "year": "2021",
             "start": 296,
             "end": 300,
             "count": 5,
@@ -11972,43 +12051,15 @@
           },
           {
             "year": "2021",
-            "start": 301,
-            "end": 305,
+            "start": 346,
+            "end": 350,
             "count": 5,
             "nums": [
-              "03",
-              "25",
-              "30",
-              "34",
-              "42"
-            ],
-            "covered": false
-          },
-          {
-            "year": "2021",
-            "start": 311,
-            "end": 315,
-            "count": 5,
-            "nums": [
-              "06",
-              "17",
-              "25",
-              "41",
-              "45"
-            ],
-            "covered": false
-          },
-          {
-            "year": "2021",
-            "start": 326,
-            "end": 330,
-            "count": 5,
-            "nums": [
-              "06",
-              "30",
-              "35",
+              "08",
+              "11",
+              "37",
               "38",
-              "44"
+              "48"
             ],
             "covered": false
           },
@@ -12027,6 +12078,20 @@
             "covered": false
           },
           {
+            "year": "2021",
+            "start": 356,
+            "end": 360,
+            "count": 5,
+            "nums": [
+              "17",
+              "22",
+              "32",
+              "44",
+              "46"
+            ],
+            "covered": false
+          },
+          {
             "year": "2022",
             "start": 11,
             "end": 15,
@@ -12041,56 +12106,70 @@
           },
           {
             "year": "2022",
-            "start": 21,
-            "end": 25,
-            "count": 5,
-            "nums": [
-              "03",
-              "12",
-              "14",
-              "19",
-              "33"
-            ],
-            "covered": false
-          },
-          {
-            "year": "2022",
-            "start": 36,
-            "end": 40,
-            "count": 5,
-            "nums": [
-              "03",
-              "21",
-              "32",
-              "42"
-            ],
-            "covered": false
-          },
-          {
-            "year": "2022",
-            "start": 71,
-            "end": 75,
+            "start": 51,
+            "end": 55,
             "count": 5,
             "nums": [
               "02",
-              "19",
-              "30",
-              "32",
-              "42"
+              "10",
+              "13",
+              "27",
+              "40"
             ],
             "covered": false
           },
           {
             "year": "2022",
-            "start": 81,
-            "end": 85,
+            "start": 56,
+            "end": 60,
             "count": 5,
             "nums": [
-              "04",
-              "06",
-              "13",
-              "26",
-              "45"
+              "08",
+              "16",
+              "27",
+              "28",
+              "29"
+            ],
+            "covered": false
+          },
+          {
+            "year": "2022",
+            "start": 61,
+            "end": 65,
+            "count": 5,
+            "nums": [
+              "02",
+              "07",
+              "08",
+              "24",
+              "40"
+            ],
+            "covered": false
+          },
+          {
+            "year": "2022",
+            "start": 76,
+            "end": 80,
+            "count": 5,
+            "nums": [
+              "22",
+              "23",
+              "28",
+              "31",
+              "46"
+            ],
+            "covered": false
+          },
+          {
+            "year": "2022",
+            "start": 101,
+            "end": 105,
+            "count": 5,
+            "nums": [
+              "05",
+              "08",
+              "22",
+              "36"
             ],
             "covered": false
           },
@@ -12110,29 +12189,28 @@
           },
           {
             "year": "2022",
-            "start": 126,
-            "end": 130,
+            "start": 116,
+            "end": 120,
             "count": 5,
             "nums": [
-              "12",
-              "42",
-              "45",
-              "47",
-              "48"
+              "16",
+              "32",
+              "34",
+              "46"
             ],
             "covered": false
           },
           {
             "year": "2022",
-            "start": 131,
-            "end": 135,
+            "start": 121,
+            "end": 125,
             "count": 5,
             "nums": [
-              "03",
-              "19",
-              "27",
-              "40",
-              "45"
+              "16",
+              "17",
+              "36",
+              "46",
+              "48"
             ],
             "covered": false
           },
@@ -12152,47 +12230,6 @@
           },
           {
             "year": "2022",
-            "start": 141,
-            "end": 145,
-            "count": 5,
-            "nums": [
-              "02",
-              "06",
-              "27",
-              "28"
-            ],
-            "covered": false
-          },
-          {
-            "year": "2022",
-            "start": 146,
-            "end": 150,
-            "count": 5,
-            "nums": [
-              "04",
-              "17",
-              "41",
-              "42",
-              "47"
-            ],
-            "covered": false
-          },
-          {
-            "year": "2022",
-            "start": 156,
-            "end": 160,
-            "count": 5,
-            "nums": [
-              "12",
-              "14",
-              "16",
-              "26",
-              "35"
-            ],
-            "covered": false
-          },
-          {
-            "year": "2022",
             "start": 176,
             "end": 180,
             "count": 5,
@@ -12207,43 +12244,28 @@
           },
           {
             "year": "2022",
-            "start": 186,
-            "end": 190,
+            "start": 181,
+            "end": 185,
             "count": 5,
             "nums": [
-              "19",
-              "25",
-              "31",
-              "35",
-              "44"
-            ],
-            "covered": false
-          },
-          {
-            "year": "2022",
-            "start": 206,
-            "end": 210,
-            "count": 5,
-            "nums": [
-              "12",
-              "18",
-              "19",
-              "30",
+              "04",
+              "08",
+              "16",
+              "26",
               "48"
             ],
             "covered": false
           },
           {
             "year": "2022",
-            "start": 216,
-            "end": 220,
+            "start": 201,
+            "end": 205,
             "count": 5,
             "nums": [
-              "15",
-              "18",
-              "25",
-              "41",
-              "47"
+              "08",
+              "11",
+              "19",
+              "44"
             ],
             "covered": false
           },
@@ -12257,6 +12279,20 @@
               "22",
               "31",
               "41"
+            ],
+            "covered": false
+          },
+          {
+            "year": "2022",
+            "start": 246,
+            "end": 250,
+            "count": 5,
+            "nums": [
+              "04",
+              "10",
+              "13",
+              "21",
+              "46"
             ],
             "covered": false
           },
@@ -12276,15 +12312,42 @@
           },
           {
             "year": "2022",
-            "start": 276,
-            "end": 280,
+            "start": 256,
+            "end": 260,
             "count": 5,
             "nums": [
-              "03",
+              "07",
+              "08",
               "12",
+              "17",
+              "19"
+            ],
+            "covered": false
+          },
+          {
+            "year": "2022",
+            "start": 311,
+            "end": 315,
+            "count": 5,
+            "nums": [
+              "01",
+              "10",
               "14",
-              "18",
+              "15",
               "20"
+            ],
+            "covered": false
+          },
+          {
+            "year": "2022",
+            "start": 321,
+            "end": 325,
+            "count": 5,
+            "nums": [
+              "01",
+              "05",
+              "08",
+              "17"
             ],
             "covered": false
           },
@@ -12304,19 +12367,6 @@
           },
           {
             "year": "2022",
-            "start": 341,
-            "end": 345,
-            "count": 5,
-            "nums": [
-              "03",
-              "07",
-              "25",
-              "38"
-            ],
-            "covered": false
-          },
-          {
-            "year": "2022",
             "start": 346,
             "end": 350,
             "count": 5,
@@ -12330,30 +12380,30 @@
             "covered": false
           },
           {
-            "year": "2023",
-            "start": 26,
-            "end": 30,
+            "year": "2022",
+            "start": 351,
+            "end": 355,
             "count": 5,
             "nums": [
               "02",
-              "18",
-              "32",
-              "35",
-              "36"
+              "10",
+              "13",
+              "26",
+              "48"
             ],
             "covered": false
           },
           {
             "year": "2023",
-            "start": 46,
-            "end": 50,
+            "start": 66,
+            "end": 70,
             "count": 5,
             "nums": [
-              "02",
-              "12",
-              "13",
-              "23",
-              "30"
+              "08",
+              "20",
+              "40",
+              "42",
+              "48"
             ],
             "covered": false
           },
@@ -12373,19 +12423,6 @@
           },
           {
             "year": "2023",
-            "start": 86,
-            "end": 90,
-            "count": 5,
-            "nums": [
-              "06",
-              "27",
-              "30",
-              "31"
-            ],
-            "covered": false
-          },
-          {
-            "year": "2023",
             "start": 106,
             "end": 110,
             "count": 5,
@@ -12399,43 +12436,15 @@
           },
           {
             "year": "2023",
-            "start": 121,
-            "end": 125,
+            "start": 111,
+            "end": 115,
             "count": 5,
             "nums": [
-              "21",
-              "22",
-              "30",
-              "35",
-              "42"
-            ],
-            "covered": false
-          },
-          {
-            "year": "2023",
-            "start": 141,
-            "end": 145,
-            "count": 5,
-            "nums": [
-              "05",
-              "06",
-              "17",
-              "29",
-              "37"
-            ],
-            "covered": false
-          },
-          {
-            "year": "2023",
-            "start": 151,
-            "end": 155,
-            "count": 5,
-            "nums": [
-              "03",
-              "07",
-              "12",
-              "19",
-              "30"
+              "01",
+              "14",
+              "15",
+              "18",
+              "43"
             ],
             "covered": false
           },
@@ -12455,6 +12464,19 @@
           },
           {
             "year": "2023",
+            "start": 161,
+            "end": 165,
+            "count": 5,
+            "nums": [
+              "05",
+              "10",
+              "17",
+              "37"
+            ],
+            "covered": false
+          },
+          {
+            "year": "2023",
             "start": 176,
             "end": 180,
             "count": 5,
@@ -12469,14 +12491,41 @@
           },
           {
             "year": "2023",
-            "start": 226,
-            "end": 230,
+            "start": 181,
+            "end": 185,
             "count": 5,
             "nums": [
-              "03",
-              "20",
+              "08",
+              "23",
+              "36",
+              "43"
+            ],
+            "covered": false
+          },
+          {
+            "year": "2023",
+            "start": 191,
+            "end": 195,
+            "count": 5,
+            "nums": [
+              "08",
               "29",
-              "33",
+              "31",
+              "44",
+              "48"
+            ],
+            "covered": false
+          },
+          {
+            "year": "2023",
+            "start": 216,
+            "end": 220,
+            "count": 5,
+            "nums": [
+              "10",
+              "18",
+              "19",
+              "20",
               "36"
             ],
             "covered": false
@@ -12523,48 +12572,6 @@
           },
           {
             "year": "2023",
-            "start": 246,
-            "end": 250,
-            "count": 5,
-            "nums": [
-              "03",
-              "13",
-              "14",
-              "21",
-              "29"
-            ],
-            "covered": false
-          },
-          {
-            "year": "2023",
-            "start": 281,
-            "end": 285,
-            "count": 5,
-            "nums": [
-              "06",
-              "16",
-              "33",
-              "38",
-              "41"
-            ],
-            "covered": false
-          },
-          {
-            "year": "2023",
-            "start": 291,
-            "end": 295,
-            "count": 5,
-            "nums": [
-              "20",
-              "25",
-              "35",
-              "44",
-              "48"
-            ],
-            "covered": false
-          },
-          {
-            "year": "2023",
             "start": 301,
             "end": 305,
             "count": 5,
@@ -12605,15 +12612,72 @@
             "covered": false
           },
           {
-            "year": "2024",
-            "start": 16,
-            "end": 20,
+            "year": "2023",
+            "start": 336,
+            "end": 340,
             "count": 5,
             "nums": [
+              "10",
+              "16",
+              "31",
+              "41",
+              "46"
+            ],
+            "covered": false
+          },
+          {
+            "year": "2023",
+            "start": 351,
+            "end": 355,
+            "count": 5,
+            "nums": [
+              "10",
+              "13",
               "18",
-              "20",
+              "41",
+              "44"
+            ],
+            "covered": false
+          },
+          {
+            "year": "2023",
+            "start": 356,
+            "end": 360,
+            "count": 5,
+            "nums": [
+              "01",
+              "08",
+              "26",
               "29",
-              "47"
+              "42"
+            ],
+            "covered": false
+          },
+          {
+            "year": "2023",
+            "start": 361,
+            "end": 365,
+            "count": 5,
+            "nums": [
+              "01",
+              "12",
+              "19",
+              "36",
+              "43"
+            ],
+            "covered": false
+          },
+          {
+            "year": "2024",
+            "start": 11,
+            "end": 15,
+            "count": 5,
+            "nums": [
+              "11",
+              "12",
+              "17",
+              "33",
+              "37"
             ],
             "covered": false
           },
@@ -12633,19 +12697,6 @@
           },
           {
             "year": "2024",
-            "start": 71,
-            "end": 75,
-            "count": 5,
-            "nums": [
-              "03",
-              "16",
-              "19",
-              "34"
-            ],
-            "covered": false
-          },
-          {
-            "year": "2024",
             "start": 76,
             "end": 80,
             "count": 5,
@@ -12660,19 +12711,6 @@
           },
           {
             "year": "2024",
-            "start": 81,
-            "end": 85,
-            "count": 5,
-            "nums": [
-              "05",
-              "13",
-              "22",
-              "35"
-            ],
-            "covered": false
-          },
-          {
-            "year": "2024",
             "start": 91,
             "end": 95,
             "count": 5,
@@ -12681,6 +12719,36 @@
               "33",
               "34",
               "41",
+              "48"
+            ],
+            "covered": false
+          },
+          {
+            "year": "2024",
+            "start": 96,
+            "end": 100,
+            "count": 5,
+            "nums": [
+              "05",
+              "10",
+              "17",
+              "28",
+              "46"
+            ],
+            "covered": false
+          },
+          {
+            "year": "2024",
+            "start": 106,
+            "end": 110,
+            "count": 10,
+            "nums": [
+              "15",
+              "16",
+              "36",
+              "43",
+              "45",
+              "46",
               "48"
             ],
             "covered": false
@@ -12704,19 +12772,18 @@
           },
           {
             "year": "2024",
-            "start": 156,
-            "end": 160,
+            "start": 131,
+            "end": 135,
             "count": 10,
             "nums": [
-              "06",
-              "20",
-              "27",
-              "30",
+              "04",
+              "05",
+              "07",
+              "12",
+              "19",
               "31",
-              "40",
-              "42",
-              "43",
-              "45"
+              "37",
+              "46"
             ],
             "covered": false
           },
@@ -12741,68 +12808,57 @@
           },
           {
             "year": "2024",
-            "start": 216,
-            "end": 220,
+            "start": 246,
+            "end": 250,
             "count": 10,
             "nums": [
-              "14",
+              "11",
+              "12",
               "15",
-              "21",
-              "26",
+              "22",
+              "23",
+              "24",
+              "28",
               "29",
               "31",
-              "34",
-              "35",
-              "37"
+              "32"
             ],
             "covered": false
           },
           {
             "year": "2024",
-            "start": 251,
-            "end": 255,
+            "start": 276,
+            "end": 280,
             "count": 10,
             "nums": [
+              "07",
+              "11",
               "14",
-              "17",
-              "21",
               "22",
-              "27",
-              "30",
+              "26",
+              "28",
+              "29",
               "36",
-              "47"
+              "40",
+              "45"
             ],
             "covered": false
           },
           {
             "year": "2024",
-            "start": 316,
-            "end": 320,
+            "start": 286,
+            "end": 290,
             "count": 10,
             "nums": [
               "04",
-              "05",
-              "06",
-              "12",
-              "13",
-              "21",
-              "28",
-              "41",
-              "44"
-            ],
-            "covered": false
-          },
-          {
-            "year": "2025",
-            "start": 1,
-            "end": 5,
-            "count": 5,
-            "nums": [
-              "07",
-              "12",
-              "22",
-              "24",
-              "30"
+              "11",
+              "26",
+              "31",
+              "36",
+              "40",
+              "44",
+              "45",
+              "46"
             ],
             "covered": false
           },
@@ -12822,140 +12878,51 @@
           },
           {
             "year": "2025",
-            "start": 21,
-            "end": 25,
-            "count": 5,
-            "nums": [
-              "06",
-              "25",
-              "30",
-              "33",
-              "43"
-            ],
-            "covered": false
-          },
-          {
-            "year": "2025",
-            "start": 116,
-            "end": 120,
+            "start": 66,
+            "end": 70,
             "count": 10,
             "nums": [
               "05",
               "12",
-              "23",
-              "28",
-              "30",
-              "36",
-              "38",
-              "45",
-              "47"
+              "27",
+              "29",
+              "43",
+              "44",
+              "46"
             ],
             "covered": false
           },
           {
             "year": "2025",
-            "start": 146,
-            "end": 150,
+            "start": 301,
+            "end": 305,
             "count": 10,
             "nums": [
-              "02",
-              "14",
+              "05",
+              "10",
+              "11",
               "15",
               "22",
               "27",
-              "28",
-              "32",
-              "35",
-              "40",
-              "41"
-            ],
-            "covered": false
-          },
-          {
-            "year": "2025",
-            "start": 181,
-            "end": 185,
-            "count": 10,
-            "nums": [
-              "05",
-              "23",
-              "28",
               "33",
-              "35",
               "42",
-              "45",
               "48"
             ],
             "covered": false
           },
           {
             "year": "2025",
-            "start": 251,
-            "end": 255,
+            "start": 311,
+            "end": 315,
             "count": 10,
             "nums": [
-              "03",
-              "17",
-              "21",
-              "23",
-              "26",
-              "33",
-              "35",
-              "41",
-              "42"
-            ],
-            "covered": false
-          },
-          {
-            "year": "2025",
-            "start": 271,
-            "end": 275,
-            "count": 10,
-            "nums": [
+              "01",
               "04",
-              "06",
               "14",
-              "34",
-              "36",
-              "40",
-              "44",
-              "45",
-              "47",
-              "48"
-            ],
-            "covered": false
-          },
-          {
-            "year": "2025",
-            "start": 281,
-            "end": 285,
-            "count": 10,
-            "nums": [
               "15",
-              "16",
-              "24",
-              "40",
-              "41",
-              "45",
-              "47"
-            ],
-            "covered": false
-          },
-          {
-            "year": "2025",
-            "start": 291,
-            "end": 295,
-            "count": 10,
-            "nums": [
-              "02",
-              "05",
-              "12",
-              "18",
-              "20",
-              "24",
-              "41",
-              "44",
-              "47"
+              "23",
+              "37",
+              "38"
             ],
             "covered": false
           },
@@ -12987,14 +12954,15 @@
           },
           {
             "year": "2026",
-            "start": 16,
-            "end": 20,
+            "start": 31,
+            "end": 35,
             "count": 5,
             "nums": [
-              "16",
-              "38",
-              "40",
-              "47"
+              "04",
+              "08",
+              "24",
+              "29",
+              "34"
             ],
             "covered": false
           },
@@ -13009,6 +12977,19 @@
               "33",
               "34",
               "36"
+            ],
+            "covered": false
+          },
+          {
+            "year": "2026",
+            "start": 41,
+            "end": 45,
+            "count": 6,
+            "nums": [
+              "01",
+              "19",
+              "25",
+              "28"
             ],
             "covered": false
           },
@@ -13047,68 +13028,103 @@
               "43"
             ],
             "covered": false
+          },
+          {
+            "year": "2026",
+            "start": 171,
+            "end": 175,
+            "count": 10,
+            "nums": [
+              "01",
+              "15",
+              "16",
+              "18",
+              "22",
+              "26",
+              "28",
+              "41",
+              "44"
+            ],
+            "covered": false
+          },
+          {
+            "year": "2026",
+            "start": 176,
+            "end": 180,
+            "count": 10,
+            "nums": [
+              "10",
+              "12",
+              "14",
+              "15",
+              "18",
+              "21",
+              "29",
+              "37"
+            ],
+            "covered": false
           }
         ],
         "total": 459,
-        "hitRate": 77.12,
+        "hitRate": 76.91,
         "currentMiss": 0,
-        "maxMiss": 5
+        "maxMiss": 4
       },
       "exact": false,
       "method": "rolling-before-window-exact-or-greedy-49c8",
       "validationMode": "rolling-before-window",
-      "computedAt": "2026-09-03 17:49:10",
+      "computedAt": "2026-09-04 17:06:18",
       "latestDraw": {
-        "issue": 246,
-        "date": "2026-09-03",
+        "issue": 247,
+        "date": "2026-09-04",
         "year": "2026",
         "balls": [
           {
             "index": 0,
-            "numberText": "22",
-            "zodiac": "鸡",
+            "numberText": "03",
+            "zodiac": "龙",
+            "color": "blue",
+            "colorName": "蓝"
+          },
+          {
+            "index": 1,
+            "numberText": "09",
+            "zodiac": "狗",
+            "color": "blue",
+            "colorName": "蓝"
+          },
+          {
+            "index": 2,
+            "numberText": "43",
+            "zodiac": "鼠",
             "color": "green",
             "colorName": "绿"
           },
           {
-            "index": 1,
-            "numberText": "24",
-            "zodiac": "羊",
-            "color": "red",
-            "colorName": "红"
-          },
-          {
-            "index": 2,
-            "numberText": "19",
-            "zodiac": "鼠",
-            "color": "red",
-            "colorName": "红"
-          },
-          {
             "index": 3,
-            "numberText": "10",
-            "zodiac": "鸡",
-            "color": "blue",
-            "colorName": "蓝"
+            "numberText": "29",
+            "zodiac": "虎",
+            "color": "red",
+            "colorName": "红"
           },
           {
             "index": 4,
-            "numberText": "20",
-            "zodiac": "猪",
-            "color": "blue",
-            "colorName": "蓝"
-          },
-          {
-            "index": 5,
-            "numberText": "01",
-            "zodiac": "马",
+            "numberText": "46",
+            "zodiac": "鸡",
             "color": "red",
             "colorName": "红"
           },
           {
+            "index": 5,
+            "numberText": "04",
+            "zodiac": "兔",
+            "color": "blue",
+            "colorName": "蓝"
+          },
+          {
             "index": 6,
-            "numberText": "30",
-            "zodiac": "牛",
+            "numberText": "40",
+            "zodiac": "兔",
             "color": "red",
             "colorName": "红"
           }
@@ -13116,51 +13132,51 @@
         "regular": [
           {
             "index": 0,
-            "numberText": "22",
-            "zodiac": "鸡",
+            "numberText": "03",
+            "zodiac": "龙",
+            "color": "blue",
+            "colorName": "蓝"
+          },
+          {
+            "index": 1,
+            "numberText": "09",
+            "zodiac": "狗",
+            "color": "blue",
+            "colorName": "蓝"
+          },
+          {
+            "index": 2,
+            "numberText": "43",
+            "zodiac": "鼠",
             "color": "green",
             "colorName": "绿"
           },
           {
-            "index": 1,
-            "numberText": "24",
-            "zodiac": "羊",
-            "color": "red",
-            "colorName": "红"
-          },
-          {
-            "index": 2,
-            "numberText": "19",
-            "zodiac": "鼠",
-            "color": "red",
-            "colorName": "红"
-          },
-          {
             "index": 3,
-            "numberText": "10",
-            "zodiac": "鸡",
-            "color": "blue",
-            "colorName": "蓝"
+            "numberText": "29",
+            "zodiac": "虎",
+            "color": "red",
+            "colorName": "红"
           },
           {
             "index": 4,
-            "numberText": "20",
-            "zodiac": "猪",
-            "color": "blue",
-            "colorName": "蓝"
+            "numberText": "46",
+            "zodiac": "鸡",
+            "color": "red",
+            "colorName": "红"
           },
           {
             "index": 5,
-            "numberText": "01",
-            "zodiac": "马",
-            "color": "red",
-            "colorName": "红"
+            "numberText": "04",
+            "zodiac": "兔",
+            "color": "blue",
+            "colorName": "蓝"
           }
         ],
         "special": {
           "index": 6,
-          "numberText": "30",
-          "zodiac": "牛",
+          "numberText": "40",
+          "zodiac": "兔",
           "color": "red",
           "colorName": "红"
         }
@@ -13304,18 +13320,18 @@
         "year": "2026",
         "start": 246,
         "end": 250,
-        "count": 1,
+        "count": 2,
         "expected": 5,
-        "covered": false,
+        "covered": true,
         "pool": [
           "39",
           "49",
-          "01",
-          "46",
-          "11",
-          "10",
-          "08",
-          "09"
+          "30",
+          "06",
+          "35",
+          "47",
+          "09",
+          "03"
         ],
         "poolBasis": "before-current-window",
         "displayMode": "active-window",
@@ -13324,22 +13340,39 @@
           "pool": [
             "39",
             "49",
-            "01",
-            "46",
-            "11",
-            "10",
-            "08",
-            "09"
+            "30",
+            "06",
+            "35",
+            "47",
+            "09",
+            "03"
           ],
-          "covered": false,
-          "hits": []
+          "covered": true,
+          "hits": [
+            {
+              "issue": 246,
+              "date": "2026-09-03",
+              "num": "30"
+            }
+          ]
         },
-        "hits": [],
+        "hits": [
+          {
+            "issue": 246,
+            "date": "2026-09-03",
+            "num": "30"
+          }
+        ],
         "draws": [
           {
             "issue": 246,
             "date": "2026-09-03",
             "num": "30"
+          },
+          {
+            "issue": 247,
+            "date": "2026-09-04",
+            "num": "40"
           }
         ]
       },
@@ -26548,14 +26581,15 @@
           "year": "2026",
           "start": 236,
           "end": 240,
-          "count": 6,
+          "count": 7,
           "nums": [
             "05",
             "11",
             "12",
             "17",
             "27",
-            "29"
+            "29",
+            "30"
           ],
           "pool": [
             "39",
@@ -26588,18 +26622,17 @@
           "pool": [
             "39",
             "49",
-            "01",
-            "46",
-            "11",
-            "10",
-            "08",
-            "09"
+            "30",
+            "06",
+            "35",
+            "47",
+            "09",
+            "03"
           ],
           "poolBasis": "before-window",
           "covered": true,
           "hits": [
             "09",
-            "46",
             "49"
           ]
         }
@@ -39809,14 +39842,15 @@
           "year": "2026",
           "start": 236,
           "end": 240,
-          "count": 6,
+          "count": 7,
           "nums": [
             "05",
             "11",
             "12",
             "17",
             "27",
-            "29"
+            "29",
+            "30"
           ],
           "pool": [
             "39",
@@ -39849,18 +39883,17 @@
           "pool": [
             "39",
             "49",
-            "01",
-            "46",
-            "11",
-            "10",
-            "08",
-            "09"
+            "30",
+            "06",
+            "35",
+            "47",
+            "09",
+            "03"
           ],
           "poolBasis": "before-window",
           "covered": true,
           "hits": [
             "09",
-            "46",
             "49"
           ]
         }
@@ -44056,7 +44089,7 @@
       "exact": true,
       "method": "rolling-before-window-exact-or-greedy-49c8",
       "validationMode": "rolling-before-window",
-      "computedAt": "2026-09-03 17:49:10",
+      "computedAt": "2026-09-04 17:06:18",
       "latestDraw": {
         "issue": 95,
         "date": "2026-08-29",
@@ -48145,7 +48178,7 @@
       "exact": false,
       "method": "rolling-before-window-exact-or-greedy-49c8",
       "validationMode": "rolling-before-window",
-      "computedAt": "2026-09-03 17:49:10",
+      "computedAt": "2026-09-04 17:06:18",
       "latestDraw": {
         "issue": 95,
         "date": "2026-08-29",
