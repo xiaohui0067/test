@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-22 18:04:56",
+  "generatedAt": "2026-09-23 18:00:55",
   "items": [
     {
       "source": "am",
@@ -912,9 +912,10 @@
             "year": "2026",
             "start": 256,
             "end": 260,
-            "count": 5,
+            "count": 6,
             "nums": [
               "01",
+              "06",
               "07",
               "20",
               "22",
@@ -947,112 +948,112 @@
       "exact": false,
       "method": "rolling-before-window-exact-or-greedy-49c8",
       "validationMode": "rolling-before-window",
-      "computedAt": "2026-09-22 18:04:56",
+      "computedAt": "2026-09-23 18:00:55",
       "latestDraw": {
-        "issue": 265,
-        "date": "2026-09-22",
+        "issue": 266,
+        "date": "2026-09-23",
         "year": "2026",
         "balls": [
           {
             "index": 0,
-            "numberText": "05",
-            "zodiac": "虎",
+            "numberText": "38",
+            "zodiac": "蛇",
             "color": "green",
             "colorName": "绿"
           },
           {
             "index": 1,
-            "numberText": "46",
-            "zodiac": "鸡",
-            "color": "red",
-            "colorName": "红"
+            "numberText": "42",
+            "zodiac": "牛",
+            "color": "blue",
+            "colorName": "蓝"
           },
           {
             "index": 2,
-            "numberText": "40",
-            "zodiac": "兔",
-            "color": "red",
-            "colorName": "红"
+            "numberText": "37",
+            "zodiac": "马",
+            "color": "blue",
+            "colorName": "蓝"
           },
           {
             "index": 3,
-            "numberText": "23",
-            "zodiac": "猴",
+            "numberText": "29",
+            "zodiac": "虎",
             "color": "red",
             "colorName": "红"
           },
           {
             "index": 4,
-            "numberText": "26",
-            "zodiac": "蛇",
-            "color": "blue",
-            "colorName": "蓝"
+            "numberText": "45",
+            "zodiac": "狗",
+            "color": "red",
+            "colorName": "红"
           },
           {
             "index": 5,
-            "numberText": "44",
-            "zodiac": "猪",
-            "color": "green",
-            "colorName": "绿"
+            "numberText": "18",
+            "zodiac": "牛",
+            "color": "red",
+            "colorName": "红"
           },
           {
             "index": 6,
-            "numberText": "49",
-            "zodiac": "马",
-            "color": "green",
-            "colorName": "绿"
+            "numberText": "08",
+            "zodiac": "猪",
+            "color": "red",
+            "colorName": "红"
           }
         ],
         "regular": [
           {
             "index": 0,
-            "numberText": "05",
-            "zodiac": "虎",
+            "numberText": "38",
+            "zodiac": "蛇",
             "color": "green",
             "colorName": "绿"
           },
           {
             "index": 1,
-            "numberText": "46",
-            "zodiac": "鸡",
-            "color": "red",
-            "colorName": "红"
+            "numberText": "42",
+            "zodiac": "牛",
+            "color": "blue",
+            "colorName": "蓝"
           },
           {
             "index": 2,
-            "numberText": "40",
-            "zodiac": "兔",
-            "color": "red",
-            "colorName": "红"
+            "numberText": "37",
+            "zodiac": "马",
+            "color": "blue",
+            "colorName": "蓝"
           },
           {
             "index": 3,
-            "numberText": "23",
-            "zodiac": "猴",
+            "numberText": "29",
+            "zodiac": "虎",
             "color": "red",
             "colorName": "红"
           },
           {
             "index": 4,
-            "numberText": "26",
-            "zodiac": "蛇",
-            "color": "blue",
-            "colorName": "蓝"
+            "numberText": "45",
+            "zodiac": "狗",
+            "color": "red",
+            "colorName": "红"
           },
           {
             "index": 5,
-            "numberText": "44",
-            "zodiac": "猪",
-            "color": "green",
-            "colorName": "绿"
+            "numberText": "18",
+            "zodiac": "牛",
+            "color": "red",
+            "colorName": "红"
           }
         ],
         "special": {
           "index": 6,
-          "numberText": "49",
-          "zodiac": "马",
-          "color": "green",
-          "colorName": "绿"
+          "numberText": "08",
+          "zodiac": "猪",
+          "color": "red",
+          "colorName": "红"
         }
       },
       "yearPools": [
@@ -1080,9 +1081,9 @@
         "year": "2026",
         "start": 266,
         "end": 270,
-        "count": 0,
+        "count": 1,
         "expected": 5,
-        "covered": false,
+        "covered": true,
         "pool": [
           "01",
           "08",
@@ -1094,77 +1095,8 @@
           "39"
         ],
         "poolBasis": "before-current-window",
-        "displayMode": "next-window",
-        "reviewWindow": {
-          "year": "2026",
-          "start": 261,
-          "end": 265,
-          "count": 5,
-          "expected": 5,
-          "nums": [
-            "09",
-            "21",
-            "24",
-            "30",
-            "49"
-          ],
-          "covered": true,
-          "pool": [
-            "01",
-            "08",
-            "37",
-            "38",
-            "24",
-            "27",
-            "10",
-            "39"
-          ],
-          "poolBasis": "before-review-window",
-          "hits": [
-            {
-              "issue": 261,
-              "date": "2026-09-18",
-              "num": "24"
-            }
-          ],
-          "draws": [
-            {
-              "issue": 261,
-              "date": "2026-09-18",
-              "num": "24"
-            },
-            {
-              "issue": 262,
-              "date": "2026-09-19",
-              "num": "30"
-            },
-            {
-              "issue": 263,
-              "date": "2026-09-20",
-              "num": "09"
-            },
-            {
-              "issue": 264,
-              "date": "2026-09-21",
-              "num": "21"
-            },
-            {
-              "issue": 265,
-              "date": "2026-09-22",
-              "num": "49"
-            }
-          ],
-          "postWindowOptimal": {
-            "covered": true,
-            "hits": [
-              {
-                "issue": 261,
-                "date": "2026-09-18",
-                "num": "24"
-              }
-            ]
-          }
-        },
+        "displayMode": "active-window",
+        "reviewWindow": null,
         "postWindowOptimal": {
           "pool": [
             "01",
@@ -1176,11 +1108,29 @@
             "10",
             "39"
           ],
-          "covered": false,
-          "hits": []
+          "covered": true,
+          "hits": [
+            {
+              "issue": 266,
+              "date": "2026-09-23",
+              "num": "08"
+            }
+          ]
         },
-        "hits": [],
-        "draws": []
+        "hits": [
+          {
+            "issue": 266,
+            "date": "2026-09-23",
+            "num": "08"
+          }
+        ],
+        "draws": [
+          {
+            "issue": 266,
+            "date": "2026-09-23",
+            "num": "08"
+          }
+        ]
       },
       "rollingWindows": [
         {
@@ -2778,9 +2728,10 @@
           "year": "2026",
           "start": 256,
           "end": 260,
-          "count": 5,
+          "count": 6,
           "nums": [
             "01",
+            "06",
             "07",
             "20",
             "22",
@@ -4427,9 +4378,10 @@
           "year": "2026",
           "start": 256,
           "end": 260,
-          "count": 5,
+          "count": 6,
           "nums": [
             "01",
+            "06",
             "07",
             "20",
             "22",
@@ -4937,8 +4889,8 @@
         "06",
         "35",
         "47",
-        "46",
-        "08"
+        "09",
+        "03"
       ],
       "postWindowOptimalPool": [
         "39",
@@ -4947,8 +4899,8 @@
         "06",
         "35",
         "47",
-        "46",
-        "09"
+        "09",
+        "03"
       ],
       "postWindowStats": {
         "windows": [
@@ -5276,7 +5228,7 @@
               "33",
               "46"
             ],
-            "covered": true
+            "covered": false
           },
           {
             "year": "2020",
@@ -5304,7 +5256,7 @@
               "20",
               "31"
             ],
-            "covered": false
+            "covered": true
           },
           {
             "year": "2020",
@@ -5398,7 +5350,7 @@
               "44",
               "46"
             ],
-            "covered": true
+            "covered": false
           },
           {
             "year": "2020",
@@ -5425,7 +5377,7 @@
               "44",
               "46"
             ],
-            "covered": true
+            "covered": false
           },
           {
             "year": "2020",
@@ -5658,7 +5610,7 @@
               "37",
               "42"
             ],
-            "covered": false
+            "covered": true
           },
           {
             "year": "2021",
@@ -5963,7 +5915,7 @@
               "46",
               "48"
             ],
-            "covered": true
+            "covered": false
           },
           {
             "year": "2021",
@@ -6101,7 +6053,7 @@
               "23",
               "43"
             ],
-            "covered": false
+            "covered": true
           },
           {
             "year": "2021",
@@ -6310,7 +6262,7 @@
               "22",
               "46"
             ],
-            "covered": true
+            "covered": false
           },
           {
             "year": "2021",
@@ -6559,7 +6511,7 @@
               "44",
               "46"
             ],
-            "covered": true
+            "covered": false
           },
           {
             "year": "2021",
@@ -6640,7 +6592,7 @@
               "19",
               "33"
             ],
-            "covered": false
+            "covered": true
           },
           {
             "year": "2022",
@@ -6681,7 +6633,7 @@
               "32",
               "42"
             ],
-            "covered": false
+            "covered": true
           },
           {
             "year": "2022",
@@ -6793,7 +6745,7 @@
               "31",
               "46"
             ],
-            "covered": true
+            "covered": false
           },
           {
             "year": "2022",
@@ -6903,7 +6855,7 @@
               "34",
               "46"
             ],
-            "covered": true
+            "covered": false
           },
           {
             "year": "2022",
@@ -6917,7 +6869,7 @@
               "46",
               "48"
             ],
-            "covered": true
+            "covered": false
           },
           {
             "year": "2022",
@@ -6945,7 +6897,7 @@
               "40",
               "45"
             ],
-            "covered": false
+            "covered": true
           },
           {
             "year": "2022",
@@ -7112,7 +7064,7 @@
               "08",
               "25"
             ],
-            "covered": false
+            "covered": true
           },
           {
             "year": "2022",
@@ -7261,7 +7213,7 @@
               "21",
               "46"
             ],
-            "covered": true
+            "covered": false
           },
           {
             "year": "2022",
@@ -7344,7 +7296,7 @@
               "18",
               "20"
             ],
-            "covered": false
+            "covered": true
           },
           {
             "year": "2022",
@@ -7453,7 +7405,7 @@
               "38",
               "44"
             ],
-            "covered": false
+            "covered": true
           },
           {
             "year": "2022",
@@ -7520,7 +7472,7 @@
               "25",
               "38"
             ],
-            "covered": false
+            "covered": true
           },
           {
             "year": "2022",
@@ -8139,7 +8091,7 @@
               "11",
               "25"
             ],
-            "covered": false
+            "covered": true
           },
           {
             "year": "2023",
@@ -8209,7 +8161,7 @@
               "33",
               "36"
             ],
-            "covered": false
+            "covered": true
           },
           {
             "year": "2023",
@@ -8263,7 +8215,7 @@
               "21",
               "29"
             ],
-            "covered": false
+            "covered": true
           },
           {
             "year": "2023",
@@ -8319,7 +8271,7 @@
               "13",
               "32"
             ],
-            "covered": false
+            "covered": true
           },
           {
             "year": "2023",
@@ -8513,7 +8465,7 @@
               "41",
               "46"
             ],
-            "covered": true
+            "covered": false
           },
           {
             "year": "2023",
@@ -8790,7 +8742,7 @@
               "19",
               "34"
             ],
-            "covered": false
+            "covered": true
           },
           {
             "year": "2024",
@@ -8859,7 +8811,7 @@
               "28",
               "46"
             ],
-            "covered": true
+            "covered": false
           },
           {
             "year": "2024",
@@ -8892,7 +8844,7 @@
               "46",
               "48"
             ],
-            "covered": true
+            "covered": false
           },
           {
             "year": "2024",
@@ -8982,7 +8934,7 @@
               "37",
               "46"
             ],
-            "covered": true
+            "covered": false
           },
           {
             "year": "2024",
@@ -9536,7 +9488,7 @@
               "45",
               "46"
             ],
-            "covered": true
+            "covered": false
           },
           {
             "year": "2024",
@@ -9838,7 +9790,7 @@
               "40",
               "42"
             ],
-            "covered": false
+            "covered": true
           },
           {
             "year": "2025",
@@ -10026,7 +9978,7 @@
               "44",
               "46"
             ],
-            "covered": true
+            "covered": false
           },
           {
             "year": "2025",
@@ -10558,7 +10510,7 @@
               "32",
               "45"
             ],
-            "covered": false
+            "covered": true
           },
           {
             "year": "2025",
@@ -10973,7 +10925,7 @@
               "36",
               "37"
             ],
-            "covered": false
+            "covered": true
           },
           {
             "year": "2025",
@@ -11974,9 +11926,10 @@
             "year": "2026",
             "start": 256,
             "end": 260,
-            "count": 5,
+            "count": 6,
             "nums": [
               "01",
+              "06",
               "07",
               "20",
               "22",
@@ -11999,7 +11952,7 @@
             "covered": true
           }
         ],
-        "covered": 355,
+        "covered": 357,
         "misses": [
           {
             "year": "2020",
@@ -12123,15 +12076,15 @@
           },
           {
             "year": "2020",
-            "start": 256,
-            "end": 260,
+            "start": 246,
+            "end": 250,
             "count": 5,
             "nums": [
-              "03",
-              "04",
-              "07",
-              "20",
-              "31"
+              "21",
+              "22",
+              "29",
+              "33",
+              "46"
             ],
             "covered": false
           },
@@ -12162,6 +12115,32 @@
           },
           {
             "year": "2020",
+            "start": 291,
+            "end": 295,
+            "count": 5,
+            "nums": [
+              "24",
+              "25",
+              "44",
+              "46"
+            ],
+            "covered": false
+          },
+          {
+            "year": "2020",
+            "start": 301,
+            "end": 305,
+            "count": 5,
+            "nums": [
+              "23",
+              "24",
+              "44",
+              "46"
+            ],
+            "covered": false
+          },
+          {
+            "year": "2020",
             "start": 326,
             "end": 330,
             "count": 5,
@@ -12184,19 +12163,6 @@
               "10",
               "43",
               "45"
-            ],
-            "covered": false
-          },
-          {
-            "year": "2021",
-            "start": 31,
-            "end": 35,
-            "count": 5,
-            "nums": [
-              "03",
-              "21",
-              "37",
-              "42"
             ],
             "covered": false
           },
@@ -12271,6 +12237,20 @@
           },
           {
             "year": "2021",
+            "start": 141,
+            "end": 145,
+            "count": 5,
+            "nums": [
+              "28",
+              "31",
+              "42",
+              "46",
+              "48"
+            ],
+            "covered": false
+          },
+          {
+            "year": "2021",
             "start": 161,
             "end": 165,
             "count": 5,
@@ -12308,19 +12288,6 @@
               "17",
               "18",
               "20"
-            ],
-            "covered": false
-          },
-          {
-            "year": "2021",
-            "start": 191,
-            "end": 195,
-            "count": 5,
-            "nums": [
-              "03",
-              "14",
-              "23",
-              "43"
             ],
             "covered": false
           },
@@ -12437,6 +12404,20 @@
           },
           {
             "year": "2021",
+            "start": 266,
+            "end": 270,
+            "count": 5,
+            "nums": [
+              "05",
+              "12",
+              "16",
+              "22",
+              "46"
+            ],
+            "covered": false
+          },
+          {
+            "year": "2021",
             "start": 276,
             "end": 280,
             "count": 5,
@@ -12491,6 +12472,20 @@
             "covered": false
           },
           {
+            "year": "2021",
+            "start": 356,
+            "end": 360,
+            "count": 5,
+            "nums": [
+              "17",
+              "22",
+              "32",
+              "44",
+              "46"
+            ],
+            "covered": false
+          },
+          {
             "year": "2022",
             "start": 11,
             "end": 15,
@@ -12500,33 +12495,6 @@
               "32",
               "33",
               "38"
-            ],
-            "covered": false
-          },
-          {
-            "year": "2022",
-            "start": 21,
-            "end": 25,
-            "count": 5,
-            "nums": [
-              "03",
-              "12",
-              "14",
-              "19",
-              "33"
-            ],
-            "covered": false
-          },
-          {
-            "year": "2022",
-            "start": 36,
-            "end": 40,
-            "count": 5,
-            "nums": [
-              "03",
-              "21",
-              "32",
-              "42"
             ],
             "covered": false
           },
@@ -12574,6 +12542,20 @@
           },
           {
             "year": "2022",
+            "start": 76,
+            "end": 80,
+            "count": 5,
+            "nums": [
+              "22",
+              "23",
+              "28",
+              "31",
+              "46"
+            ],
+            "covered": false
+          },
+          {
+            "year": "2022",
             "start": 101,
             "end": 105,
             "count": 5,
@@ -12601,15 +12583,28 @@
           },
           {
             "year": "2022",
-            "start": 131,
-            "end": 135,
+            "start": 116,
+            "end": 120,
             "count": 5,
             "nums": [
-              "03",
-              "19",
-              "27",
-              "40",
-              "45"
+              "16",
+              "32",
+              "34",
+              "46"
+            ],
+            "covered": false
+          },
+          {
+            "year": "2022",
+            "start": 121,
+            "end": 125,
+            "count": 5,
+            "nums": [
+              "16",
+              "17",
+              "36",
+              "46",
+              "48"
             ],
             "covered": false
           },
@@ -12657,20 +12652,6 @@
           },
           {
             "year": "2022",
-            "start": 191,
-            "end": 195,
-            "count": 5,
-            "nums": [
-              "02",
-              "03",
-              "04",
-              "08",
-              "25"
-            ],
-            "covered": false
-          },
-          {
-            "year": "2022",
             "start": 201,
             "end": 205,
             "count": 5,
@@ -12692,6 +12673,20 @@
               "22",
               "31",
               "41"
+            ],
+            "covered": false
+          },
+          {
+            "year": "2022",
+            "start": 246,
+            "end": 250,
+            "count": 5,
+            "nums": [
+              "04",
+              "10",
+              "13",
+              "21",
+              "46"
             ],
             "covered": false
           },
@@ -12725,20 +12720,6 @@
           },
           {
             "year": "2022",
-            "start": 276,
-            "end": 280,
-            "count": 5,
-            "nums": [
-              "03",
-              "12",
-              "14",
-              "18",
-              "20"
-            ],
-            "covered": false
-          },
-          {
-            "year": "2022",
             "start": 311,
             "end": 315,
             "count": 5,
@@ -12748,19 +12729,6 @@
               "14",
               "15",
               "20"
-            ],
-            "covered": false
-          },
-          {
-            "year": "2022",
-            "start": 316,
-            "end": 320,
-            "count": 5,
-            "nums": [
-              "03",
-              "11",
-              "38",
-              "44"
             ],
             "covered": false
           },
@@ -12788,19 +12756,6 @@
               "26",
               "29",
               "45"
-            ],
-            "covered": false
-          },
-          {
-            "year": "2022",
-            "start": 341,
-            "end": 345,
-            "count": 5,
-            "nums": [
-              "03",
-              "07",
-              "25",
-              "38"
             ],
             "covered": false
           },
@@ -12957,19 +12912,6 @@
           },
           {
             "year": "2023",
-            "start": 201,
-            "end": 205,
-            "count": 5,
-            "nums": [
-              "03",
-              "04",
-              "11",
-              "25"
-            ],
-            "covered": false
-          },
-          {
-            "year": "2023",
             "start": 216,
             "end": 220,
             "count": 5,
@@ -12978,20 +12920,6 @@
               "18",
               "19",
               "20",
-              "36"
-            ],
-            "covered": false
-          },
-          {
-            "year": "2023",
-            "start": 226,
-            "end": 230,
-            "count": 5,
-            "nums": [
-              "03",
-              "20",
-              "29",
-              "33",
               "36"
             ],
             "covered": false
@@ -13038,34 +12966,6 @@
           },
           {
             "year": "2023",
-            "start": 246,
-            "end": 250,
-            "count": 5,
-            "nums": [
-              "03",
-              "13",
-              "14",
-              "21",
-              "29"
-            ],
-            "covered": false
-          },
-          {
-            "year": "2023",
-            "start": 266,
-            "end": 270,
-            "count": 5,
-            "nums": [
-              "02",
-              "03",
-              "08",
-              "13",
-              "32"
-            ],
-            "covered": false
-          },
-          {
-            "year": "2023",
             "start": 301,
             "end": 305,
             "count": 5,
@@ -13102,6 +13002,20 @@
               "19",
               "26",
               "32"
+            ],
+            "covered": false
+          },
+          {
+            "year": "2023",
+            "start": 336,
+            "end": 340,
+            "count": 5,
+            "nums": [
+              "10",
+              "16",
+              "31",
+              "41",
+              "46"
             ],
             "covered": false
           },
@@ -13177,19 +13091,6 @@
           },
           {
             "year": "2024",
-            "start": 71,
-            "end": 75,
-            "count": 5,
-            "nums": [
-              "03",
-              "16",
-              "19",
-              "34"
-            ],
-            "covered": false
-          },
-          {
-            "year": "2024",
             "start": 76,
             "end": 80,
             "count": 5,
@@ -13218,6 +13119,36 @@
           },
           {
             "year": "2024",
+            "start": 96,
+            "end": 100,
+            "count": 5,
+            "nums": [
+              "05",
+              "10",
+              "17",
+              "28",
+              "46"
+            ],
+            "covered": false
+          },
+          {
+            "year": "2024",
+            "start": 106,
+            "end": 110,
+            "count": 10,
+            "nums": [
+              "15",
+              "16",
+              "36",
+              "43",
+              "45",
+              "46",
+              "48"
+            ],
+            "covered": false
+          },
+          {
+            "year": "2024",
             "start": 121,
             "end": 125,
             "count": 10,
@@ -13230,6 +13161,23 @@
               "22",
               "36",
               "43"
+            ],
+            "covered": false
+          },
+          {
+            "year": "2024",
+            "start": 131,
+            "end": 135,
+            "count": 10,
+            "nums": [
+              "04",
+              "05",
+              "07",
+              "12",
+              "19",
+              "31",
+              "37",
+              "46"
             ],
             "covered": false
           },
@@ -13291,16 +13239,20 @@
             "covered": false
           },
           {
-            "year": "2025",
-            "start": 11,
-            "end": 15,
-            "count": 5,
+            "year": "2024",
+            "start": 286,
+            "end": 290,
+            "count": 10,
             "nums": [
-              "01",
-              "03",
-              "33",
+              "04",
+              "11",
+              "26",
+              "31",
+              "36",
               "40",
-              "42"
+              "44",
+              "45",
+              "46"
             ],
             "covered": false
           },
@@ -13320,19 +13272,17 @@
           },
           {
             "year": "2025",
-            "start": 211,
-            "end": 215,
+            "start": 66,
+            "end": 70,
             "count": 10,
             "nums": [
-              "02",
-              "03",
-              "11",
+              "05",
               "12",
-              "15",
-              "18",
-              "21",
-              "32",
-              "45"
+              "27",
+              "29",
+              "43",
+              "44",
+              "46"
             ],
             "covered": false
           },
@@ -13367,24 +13317,6 @@
               "23",
               "37",
               "38"
-            ],
-            "covered": false
-          },
-          {
-            "year": "2025",
-            "start": 326,
-            "end": 330,
-            "count": 10,
-            "nums": [
-              "03",
-              "10",
-              "11",
-              "15",
-              "17",
-              "19",
-              "27",
-              "36",
-              "37"
             ],
             "covered": false
           },
@@ -13528,119 +13460,119 @@
           }
         ],
         "total": 463,
-        "hitRate": 76.67,
+        "hitRate": 77.11,
         "currentMiss": 0,
-        "maxMiss": 5
+        "maxMiss": 4
       },
       "exact": false,
       "method": "rolling-before-window-exact-or-greedy-49c8",
       "validationMode": "rolling-before-window",
-      "computedAt": "2026-09-22 18:04:56",
+      "computedAt": "2026-09-23 18:00:55",
       "latestDraw": {
-        "issue": 265,
-        "date": "2026-09-22",
+        "issue": 266,
+        "date": "2026-09-23",
         "year": "2026",
         "balls": [
           {
             "index": 0,
-            "numberText": "05",
-            "zodiac": "虎",
+            "numberText": "38",
+            "zodiac": "蛇",
             "color": "green",
             "colorName": "绿"
           },
           {
             "index": 1,
-            "numberText": "46",
-            "zodiac": "鸡",
-            "color": "red",
-            "colorName": "红"
+            "numberText": "42",
+            "zodiac": "牛",
+            "color": "blue",
+            "colorName": "蓝"
           },
           {
             "index": 2,
-            "numberText": "40",
-            "zodiac": "兔",
-            "color": "red",
-            "colorName": "红"
+            "numberText": "37",
+            "zodiac": "马",
+            "color": "blue",
+            "colorName": "蓝"
           },
           {
             "index": 3,
-            "numberText": "23",
-            "zodiac": "猴",
+            "numberText": "29",
+            "zodiac": "虎",
             "color": "red",
             "colorName": "红"
           },
           {
             "index": 4,
-            "numberText": "26",
-            "zodiac": "蛇",
-            "color": "blue",
-            "colorName": "蓝"
+            "numberText": "45",
+            "zodiac": "狗",
+            "color": "red",
+            "colorName": "红"
           },
           {
             "index": 5,
-            "numberText": "44",
-            "zodiac": "猪",
-            "color": "green",
-            "colorName": "绿"
+            "numberText": "18",
+            "zodiac": "牛",
+            "color": "red",
+            "colorName": "红"
           },
           {
             "index": 6,
-            "numberText": "49",
-            "zodiac": "马",
-            "color": "green",
-            "colorName": "绿"
+            "numberText": "08",
+            "zodiac": "猪",
+            "color": "red",
+            "colorName": "红"
           }
         ],
         "regular": [
           {
             "index": 0,
-            "numberText": "05",
-            "zodiac": "虎",
+            "numberText": "38",
+            "zodiac": "蛇",
             "color": "green",
             "colorName": "绿"
           },
           {
             "index": 1,
-            "numberText": "46",
-            "zodiac": "鸡",
-            "color": "red",
-            "colorName": "红"
+            "numberText": "42",
+            "zodiac": "牛",
+            "color": "blue",
+            "colorName": "蓝"
           },
           {
             "index": 2,
-            "numberText": "40",
-            "zodiac": "兔",
-            "color": "red",
-            "colorName": "红"
+            "numberText": "37",
+            "zodiac": "马",
+            "color": "blue",
+            "colorName": "蓝"
           },
           {
             "index": 3,
-            "numberText": "23",
-            "zodiac": "猴",
+            "numberText": "29",
+            "zodiac": "虎",
             "color": "red",
             "colorName": "红"
           },
           {
             "index": 4,
-            "numberText": "26",
-            "zodiac": "蛇",
-            "color": "blue",
-            "colorName": "蓝"
+            "numberText": "45",
+            "zodiac": "狗",
+            "color": "red",
+            "colorName": "红"
           },
           {
             "index": 5,
-            "numberText": "44",
-            "zodiac": "猪",
-            "color": "green",
-            "colorName": "绿"
+            "numberText": "18",
+            "zodiac": "牛",
+            "color": "red",
+            "colorName": "红"
           }
         ],
         "special": {
           "index": 6,
-          "numberText": "49",
-          "zodiac": "马",
-          "color": "green",
-          "colorName": "绿"
+          "numberText": "08",
+          "zodiac": "猪",
+          "color": "red",
+          "colorName": "红"
         }
       },
       "yearPools": [
@@ -13782,7 +13714,7 @@
         "year": "2026",
         "start": 266,
         "end": 270,
-        "count": 0,
+        "count": 1,
         "expected": 5,
         "covered": false,
         "pool": [
@@ -13792,96 +13724,12 @@
           "06",
           "35",
           "47",
-          "46",
-          "09"
+          "09",
+          "03"
         ],
         "poolBasis": "before-current-window",
-        "displayMode": "next-window",
-        "reviewWindow": {
-          "year": "2026",
-          "start": 261,
-          "end": 265,
-          "count": 5,
-          "expected": 5,
-          "nums": [
-            "09",
-            "21",
-            "24",
-            "30",
-            "49"
-          ],
-          "covered": true,
-          "pool": [
-            "39",
-            "49",
-            "30",
-            "06",
-            "35",
-            "47",
-            "46",
-            "08"
-          ],
-          "poolBasis": "before-review-window",
-          "hits": [
-            {
-              "issue": 262,
-              "date": "2026-09-19",
-              "num": "30"
-            },
-            {
-              "issue": 265,
-              "date": "2026-09-22",
-              "num": "49"
-            }
-          ],
-          "draws": [
-            {
-              "issue": 261,
-              "date": "2026-09-18",
-              "num": "24"
-            },
-            {
-              "issue": 262,
-              "date": "2026-09-19",
-              "num": "30"
-            },
-            {
-              "issue": 263,
-              "date": "2026-09-20",
-              "num": "09"
-            },
-            {
-              "issue": 264,
-              "date": "2026-09-21",
-              "num": "21"
-            },
-            {
-              "issue": 265,
-              "date": "2026-09-22",
-              "num": "49"
-            }
-          ],
-          "postWindowOptimal": {
-            "covered": true,
-            "hits": [
-              {
-                "issue": 262,
-                "date": "2026-09-19",
-                "num": "30"
-              },
-              {
-                "issue": 263,
-                "date": "2026-09-20",
-                "num": "09"
-              },
-              {
-                "issue": 265,
-                "date": "2026-09-22",
-                "num": "49"
-              }
-            ]
-          }
-        },
+        "displayMode": "active-window",
+        "reviewWindow": null,
         "postWindowOptimal": {
           "pool": [
             "39",
@@ -13890,14 +13738,20 @@
             "06",
             "35",
             "47",
-            "46",
-            "09"
+            "09",
+            "03"
           ],
           "covered": false,
           "hits": []
         },
         "hits": [],
-        "draws": []
+        "draws": [
+          {
+            "issue": 266,
+            "date": "2026-09-23",
+            "num": "08"
+          }
+        ]
       },
       "rollingWindows": [
         {
@@ -27234,9 +27088,10 @@
           "year": "2026",
           "start": 256,
           "end": 260,
-          "count": 5,
+          "count": 6,
           "nums": [
             "01",
+            "06",
             "07",
             "20",
             "22",
@@ -27253,8 +27108,10 @@
             "03"
           ],
           "poolBasis": "before-window",
-          "covered": false,
-          "hits": []
+          "covered": true,
+          "hits": [
+            "06"
+          ]
         },
         {
           "year": "2026",
@@ -27275,12 +27132,13 @@
             "06",
             "35",
             "47",
-            "46",
-            "08"
+            "09",
+            "03"
           ],
           "poolBasis": "before-window",
           "covered": true,
           "hits": [
+            "09",
             "30",
             "49"
           ]
@@ -40621,9 +40479,10 @@
           "year": "2026",
           "start": 256,
           "end": 260,
-          "count": 5,
+          "count": 6,
           "nums": [
             "01",
+            "06",
             "07",
             "20",
             "22",
@@ -40640,8 +40499,10 @@
             "03"
           ],
           "poolBasis": "before-window",
-          "covered": false,
-          "hits": []
+          "covered": true,
+          "hits": [
+            "06"
+          ]
         },
         {
           "year": "2026",
@@ -40662,18 +40523,19 @@
             "06",
             "35",
             "47",
-            "46",
-            "08"
+            "09",
+            "03"
           ],
           "poolBasis": "before-window",
           "covered": true,
           "hits": [
+            "09",
             "30",
             "49"
           ]
         }
       ],
-      "covered": 315,
+      "covered": 316,
       "misses": [
         {
           "year": "2020",
@@ -44556,36 +44418,10 @@
           "poolBasis": "before-window",
           "covered": false,
           "hits": []
-        },
-        {
-          "year": "2026",
-          "start": 256,
-          "end": 260,
-          "count": 5,
-          "nums": [
-            "01",
-            "07",
-            "20",
-            "22",
-            "46"
-          ],
-          "pool": [
-            "39",
-            "49",
-            "30",
-            "06",
-            "35",
-            "47",
-            "09",
-            "03"
-          ],
-          "poolBasis": "before-window",
-          "covered": false,
-          "hits": []
         }
       ],
       "total": 463,
-      "hitRate": 68.03,
+      "hitRate": 68.25,
       "currentMiss": 0,
       "maxMiss": 5
     },
@@ -44904,7 +44740,7 @@
       "exact": true,
       "method": "rolling-before-window-exact-or-greedy-49c8",
       "validationMode": "rolling-before-window",
-      "computedAt": "2026-09-22 18:04:56",
+      "computedAt": "2026-09-23 18:00:55",
       "latestDraw": {
         "issue": 103,
         "date": "2026-09-22",
@@ -49016,7 +48852,7 @@
       "exact": false,
       "method": "rolling-before-window-exact-or-greedy-49c8",
       "validationMode": "rolling-before-window",
-      "computedAt": "2026-09-22 18:04:56",
+      "computedAt": "2026-09-23 18:00:55",
       "latestDraw": {
         "issue": 103,
         "date": "2026-09-22",
