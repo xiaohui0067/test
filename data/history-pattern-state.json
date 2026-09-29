@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-29 18:54:20",
+  "generatedAt": "2026-09-29 19:00:30",
   "items": [
     {
       "source": "am",
@@ -966,7 +966,7 @@
       "exact": false,
       "method": "rolling-before-window-exact-or-greedy-49c8",
       "validationMode": "rolling-before-window",
-      "computedAt": "2026-09-29 18:54:20",
+      "computedAt": "2026-09-29 19:00:30",
       "latestDraw": {
         "issue": 272,
         "date": "2026-09-29",
@@ -13575,7 +13575,7 @@
       "exact": false,
       "method": "rolling-before-window-exact-or-greedy-49c8",
       "validationMode": "rolling-before-window",
-      "computedAt": "2026-09-29 18:54:20",
+      "computedAt": "2026-09-29 19:00:30",
       "latestDraw": {
         "issue": 272,
         "date": "2026-09-29",
@@ -44950,7 +44950,7 @@
       "exact": true,
       "method": "rolling-before-window-exact-or-greedy-49c8",
       "validationMode": "rolling-before-window",
-      "computedAt": "2026-09-29 18:54:20",
+      "computedAt": "2026-09-29 19:00:30",
       "latestDraw": {
         "issue": 104,
         "date": "2026-09-26",
@@ -49079,7 +49079,7 @@
       "exact": false,
       "method": "rolling-before-window-exact-or-greedy-49c8",
       "validationMode": "rolling-before-window",
-      "computedAt": "2026-09-29 18:54:20",
+      "computedAt": "2026-09-29 19:00:30",
       "latestDraw": {
         "issue": 104,
         "date": "2026-09-26",
