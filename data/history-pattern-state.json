@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-01 19:29:16",
+  "generatedAt": "2026-10-02 18:44:01",
   "items": [
     {
       "source": "am",
@@ -20,10 +20,10 @@
         "08",
         "37",
         "24",
-        "38",
-        "27",
-        "10",
-        "39"
+        "05",
+        "46",
+        "16",
+        "49"
       ],
       "postWindowStats": {
         "windows": [
@@ -955,11 +955,25 @@
               "40"
             ],
             "covered": true
+          },
+          {
+            "year": "2026",
+            "start": 271,
+            "end": 275,
+            "count": 5,
+            "nums": [
+              "02",
+              "05",
+              "17",
+              "33",
+              "35"
+            ],
+            "covered": true
           }
         ],
-        "covered": 54,
+        "covered": 55,
         "misses": [],
-        "total": 54,
+        "total": 55,
         "hitRate": 100.0,
         "currentMiss": 0,
         "maxMiss": 0
@@ -967,7 +981,7 @@
       "exact": false,
       "method": "rolling-before-window-exact-or-greedy-49c8",
       "validationMode": "rolling-before-window",
-      "computedAt": "2026-10-01 19:29:16",
+      "computedAt": "2026-10-02 18:44:01",
       "latestDraw": {
         "issue": 263,
         "date": "2026-10-05",
@@ -1083,24 +1097,24 @@
             "08",
             "37",
             "24",
-            "38",
-            "27",
-            "10",
-            "39"
+            "05",
+            "46",
+            "16",
+            "49"
           ],
           "exact": false,
           "covered": 39,
-          "total": 54,
-          "hitRate": 72.22,
-          "currentMiss": 0,
+          "total": 55,
+          "hitRate": 70.91,
+          "currentMiss": 1,
           "maxMiss": 2
         }
       ],
       "currentWindow": {
         "year": "2026",
-        "start": 271,
-        "end": 275,
-        "count": 4,
+        "start": 276,
+        "end": 280,
+        "count": 0,
         "expected": 5,
         "covered": false,
         "pool": [
@@ -1108,15 +1122,27 @@
           "08",
           "37",
           "24",
-          "38",
-          "27",
-          "10",
-          "39"
+          "05",
+          "46",
+          "16",
+          "49"
         ],
         "poolBasis": "before-current-window",
-        "displayMode": "active-window",
-        "reviewWindow": null,
-        "postWindowOptimal": {
+        "displayMode": "next-window",
+        "reviewWindow": {
+          "year": "2026",
+          "start": 271,
+          "end": 275,
+          "count": 5,
+          "expected": 5,
+          "nums": [
+            "02",
+            "05",
+            "17",
+            "33",
+            "35"
+          ],
+          "covered": false,
           "pool": [
             "01",
             "08",
@@ -1127,32 +1153,62 @@
             "10",
             "39"
           ],
+          "poolBasis": "before-review-window",
+          "hits": [],
+          "draws": [
+            {
+              "issue": 271,
+              "date": "2026-09-28",
+              "num": "35"
+            },
+            {
+              "issue": 272,
+              "date": "2026-09-29",
+              "num": "02"
+            },
+            {
+              "issue": 273,
+              "date": "2026-09-30",
+              "num": "05"
+            },
+            {
+              "issue": 274,
+              "date": "2026-10-01",
+              "num": "33"
+            },
+            {
+              "issue": 275,
+              "date": "2026-10-02",
+              "num": "17"
+            }
+          ],
+          "postWindowOptimal": {
+            "covered": true,
+            "hits": [
+              {
+                "issue": 273,
+                "date": "2026-09-30",
+                "num": "05"
+              }
+            ]
+          }
+        },
+        "postWindowOptimal": {
+          "pool": [
+            "01",
+            "08",
+            "37",
+            "24",
+            "05",
+            "46",
+            "16",
+            "49"
+          ],
           "covered": false,
           "hits": []
         },
         "hits": [],
-        "draws": [
-          {
-            "issue": 271,
-            "date": "2026-09-28",
-            "num": "35"
-          },
-          {
-            "issue": 272,
-            "date": "2026-09-29",
-            "num": "02"
-          },
-          {
-            "issue": 273,
-            "date": "2026-09-30",
-            "num": "05"
-          },
-          {
-            "issue": 274,
-            "date": "2026-10-01",
-            "num": "33"
-          }
-        ]
+        "draws": []
       },
       "rollingWindows": [
         {
@@ -2836,6 +2892,32 @@
           "hits": [
             "08"
           ]
+        },
+        {
+          "year": "2026",
+          "start": 271,
+          "end": 275,
+          "count": 5,
+          "nums": [
+            "02",
+            "05",
+            "17",
+            "33",
+            "35"
+          ],
+          "pool": [
+            "01",
+            "08",
+            "37",
+            "24",
+            "38",
+            "27",
+            "10",
+            "39"
+          ],
+          "poolBasis": "before-window",
+          "covered": false,
+          "hits": []
         }
       ],
       "windows": [
@@ -4520,6 +4602,32 @@
           "hits": [
             "08"
           ]
+        },
+        {
+          "year": "2026",
+          "start": 271,
+          "end": 275,
+          "count": 5,
+          "nums": [
+            "02",
+            "05",
+            "17",
+            "33",
+            "35"
+          ],
+          "pool": [
+            "01",
+            "08",
+            "37",
+            "24",
+            "38",
+            "27",
+            "10",
+            "39"
+          ],
+          "poolBasis": "before-window",
+          "covered": false,
+          "hits": []
         }
       ],
       "covered": 39,
@@ -4961,11 +5069,37 @@
           "poolBasis": "before-window",
           "covered": false,
           "hits": []
+        },
+        {
+          "year": "2026",
+          "start": 271,
+          "end": 275,
+          "count": 5,
+          "nums": [
+            "02",
+            "05",
+            "17",
+            "33",
+            "35"
+          ],
+          "pool": [
+            "01",
+            "08",
+            "37",
+            "24",
+            "38",
+            "27",
+            "10",
+            "39"
+          ],
+          "poolBasis": "before-window",
+          "covered": false,
+          "hits": []
         }
       ],
-      "total": 54,
-      "hitRate": 72.22,
-      "currentMiss": 0,
+      "total": 55,
+      "hitRate": 70.91,
+      "currentMiss": 1,
       "maxMiss": 2
     },
     {
@@ -12059,9 +12193,23 @@
               "40"
             ],
             "covered": false
+          },
+          {
+            "year": "2026",
+            "start": 271,
+            "end": 275,
+            "count": 5,
+            "nums": [
+              "02",
+              "05",
+              "17",
+              "33",
+              "35"
+            ],
+            "covered": true
           }
         ],
-        "covered": 357,
+        "covered": 358,
         "misses": [
           {
             "year": "2020",
@@ -13581,15 +13729,15 @@
             "covered": false
           }
         ],
-        "total": 464,
-        "hitRate": 76.94,
-        "currentMiss": 1,
+        "total": 465,
+        "hitRate": 76.99,
+        "currentMiss": 0,
         "maxMiss": 4
       },
       "exact": false,
       "method": "rolling-before-window-exact-or-greedy-49c8",
       "validationMode": "rolling-before-window",
-      "computedAt": "2026-10-01 19:29:16",
+      "computedAt": "2026-10-02 18:44:01",
       "latestDraw": {
         "issue": 263,
         "date": "2026-10-05",
@@ -13705,16 +13853,16 @@
             "08",
             "37",
             "24",
-            "38",
-            "27",
-            "10",
-            "39"
+            "05",
+            "46",
+            "16",
+            "49"
           ],
           "exact": false,
           "covered": 39,
-          "total": 54,
-          "hitRate": 72.22,
-          "currentMiss": 0,
+          "total": 55,
+          "hitRate": 70.91,
+          "currentMiss": 1,
           "maxMiss": 2
         },
         {
@@ -13834,11 +13982,11 @@
       ],
       "currentWindow": {
         "year": "2026",
-        "start": 271,
-        "end": 275,
-        "count": 4,
+        "start": 276,
+        "end": 280,
+        "count": 0,
         "expected": 5,
-        "covered": true,
+        "covered": false,
         "pool": [
           "39",
           "49",
@@ -13850,8 +13998,77 @@
           "03"
         ],
         "poolBasis": "before-current-window",
-        "displayMode": "active-window",
-        "reviewWindow": null,
+        "displayMode": "next-window",
+        "reviewWindow": {
+          "year": "2026",
+          "start": 271,
+          "end": 275,
+          "count": 5,
+          "expected": 5,
+          "nums": [
+            "02",
+            "05",
+            "17",
+            "33",
+            "35"
+          ],
+          "covered": true,
+          "pool": [
+            "39",
+            "49",
+            "30",
+            "06",
+            "35",
+            "47",
+            "09",
+            "03"
+          ],
+          "poolBasis": "before-review-window",
+          "hits": [
+            {
+              "issue": 271,
+              "date": "2026-09-28",
+              "num": "35"
+            }
+          ],
+          "draws": [
+            {
+              "issue": 271,
+              "date": "2026-09-28",
+              "num": "35"
+            },
+            {
+              "issue": 272,
+              "date": "2026-09-29",
+              "num": "02"
+            },
+            {
+              "issue": 273,
+              "date": "2026-09-30",
+              "num": "05"
+            },
+            {
+              "issue": 274,
+              "date": "2026-10-01",
+              "num": "33"
+            },
+            {
+              "issue": 275,
+              "date": "2026-10-02",
+              "num": "17"
+            }
+          ],
+          "postWindowOptimal": {
+            "covered": true,
+            "hits": [
+              {
+                "issue": 271,
+                "date": "2026-09-28",
+                "num": "35"
+              }
+            ]
+          }
+        },
         "postWindowOptimal": {
           "pool": [
             "39",
@@ -13863,44 +14080,11 @@
             "09",
             "03"
           ],
-          "covered": true,
-          "hits": [
-            {
-              "issue": 271,
-              "date": "2026-09-28",
-              "num": "35"
-            }
-          ]
+          "covered": false,
+          "hits": []
         },
-        "hits": [
-          {
-            "issue": 271,
-            "date": "2026-09-28",
-            "num": "35"
-          }
-        ],
-        "draws": [
-          {
-            "issue": 271,
-            "date": "2026-09-28",
-            "num": "35"
-          },
-          {
-            "issue": 272,
-            "date": "2026-09-29",
-            "num": "02"
-          },
-          {
-            "issue": 273,
-            "date": "2026-09-30",
-            "num": "05"
-          },
-          {
-            "issue": 274,
-            "date": "2026-10-01",
-            "num": "33"
-          }
-        ]
+        "hits": [],
+        "draws": []
       },
       "rollingWindows": [
         {
@@ -27322,6 +27506,34 @@
           "poolBasis": "before-window",
           "covered": false,
           "hits": []
+        },
+        {
+          "year": "2026",
+          "start": 271,
+          "end": 275,
+          "count": 5,
+          "nums": [
+            "02",
+            "05",
+            "17",
+            "33",
+            "35"
+          ],
+          "pool": [
+            "39",
+            "49",
+            "30",
+            "06",
+            "35",
+            "47",
+            "09",
+            "03"
+          ],
+          "poolBasis": "before-window",
+          "covered": true,
+          "hits": [
+            "35"
+          ]
         }
       ],
       "windows": [
@@ -40744,9 +40956,37 @@
           "poolBasis": "before-window",
           "covered": false,
           "hits": []
+        },
+        {
+          "year": "2026",
+          "start": 271,
+          "end": 275,
+          "count": 5,
+          "nums": [
+            "02",
+            "05",
+            "17",
+            "33",
+            "35"
+          ],
+          "pool": [
+            "39",
+            "49",
+            "30",
+            "06",
+            "35",
+            "47",
+            "09",
+            "03"
+          ],
+          "poolBasis": "before-window",
+          "covered": true,
+          "hits": [
+            "35"
+          ]
         }
       ],
-      "covered": 316,
+      "covered": 317,
       "misses": [
         {
           "year": "2020",
@@ -44656,9 +44896,9 @@
           "hits": []
         }
       ],
-      "total": 464,
-      "hitRate": 68.1,
-      "currentMiss": 1,
+      "total": 465,
+      "hitRate": 68.17,
+      "currentMiss": 0,
       "maxMiss": 5
     },
     {
@@ -44976,7 +45216,7 @@
       "exact": true,
       "method": "rolling-before-window-exact-or-greedy-49c8",
       "validationMode": "rolling-before-window",
-      "computedAt": "2026-10-01 19:29:16",
+      "computedAt": "2026-10-02 18:44:01",
       "latestDraw": {
         "issue": 104,
         "date": "2026-09-26",
@@ -49105,7 +49345,7 @@
       "exact": false,
       "method": "rolling-before-window-exact-or-greedy-49c8",
       "validationMode": "rolling-before-window",
-      "computedAt": "2026-10-01 19:29:16",
+      "computedAt": "2026-10-02 18:44:01",
       "latestDraw": {
         "issue": 104,
         "date": "2026-09-26",
