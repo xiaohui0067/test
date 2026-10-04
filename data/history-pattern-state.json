@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-03 17:54:20",
+  "generatedAt": "2026-10-04 17:52:31",
   "items": [
     {
       "source": "am",
@@ -981,7 +981,7 @@
       "exact": false,
       "method": "rolling-before-window-exact-or-greedy-49c8",
       "validationMode": "rolling-before-window",
-      "computedAt": "2026-10-03 17:54:20",
+      "computedAt": "2026-10-04 17:52:31",
       "latestDraw": {
         "issue": 263,
         "date": "2026-10-05",
@@ -1114,7 +1114,7 @@
         "year": "2026",
         "start": 276,
         "end": 280,
-        "count": 1,
+        "count": 2,
         "expected": 5,
         "covered": false,
         "pool": [
@@ -1150,6 +1150,11 @@
             "issue": 276,
             "date": "2026-10-03",
             "num": "14"
+          },
+          {
+            "issue": 277,
+            "date": "2026-10-04",
+            "num": "11"
           }
         ]
       },
@@ -13680,7 +13685,7 @@
       "exact": false,
       "method": "rolling-before-window-exact-or-greedy-49c8",
       "validationMode": "rolling-before-window",
-      "computedAt": "2026-10-03 17:54:20",
+      "computedAt": "2026-10-04 17:52:31",
       "latestDraw": {
         "issue": 263,
         "date": "2026-10-05",
@@ -13927,7 +13932,7 @@
         "year": "2026",
         "start": 276,
         "end": 280,
-        "count": 1,
+        "count": 2,
         "expected": 5,
         "covered": false,
         "pool": [
@@ -13963,6 +13968,11 @@
             "issue": 276,
             "date": "2026-10-03",
             "num": "14"
+          },
+          {
+            "issue": 277,
+            "date": "2026-10-04",
+            "num": "11"
           }
         ]
       },
@@ -45110,7 +45120,7 @@
       "exact": true,
       "method": "rolling-before-window-exact-or-greedy-49c8",
       "validationMode": "rolling-before-window",
-      "computedAt": "2026-10-03 17:54:20",
+      "computedAt": "2026-10-04 17:52:31",
       "latestDraw": {
         "issue": 105,
         "date": "2026-10-03",
@@ -49345,7 +49355,7 @@
       "exact": false,
       "method": "rolling-before-window-exact-or-greedy-49c8",
       "validationMode": "rolling-before-window",
-      "computedAt": "2026-10-03 17:54:20",
+      "computedAt": "2026-10-04 17:52:31",
       "latestDraw": {
         "issue": 105,
         "date": "2026-10-03",
