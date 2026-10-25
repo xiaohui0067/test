@@ -1,12 +1,12 @@
 window.__THREE_COMPOUND_STATE__ = {
-  "generatedAt": "2026-10-24 17:25:59",
+  "generatedAt": "2026-10-25 17:15:03",
   "items": [
     {
       "source": "am",
       "year": "2026",
-      "latestIssue": 297,
-      "computedAt": "2026-10-24 17:25:59",
-      "status": "cached",
+      "latestIssue": 298,
+      "computedAt": "2026-10-25 17:15:03",
+      "status": "changed",
       "pools": [
         {
           "poolSize": 5,
@@ -996,7 +996,7 @@ window.__THREE_COMPOUND_STATE__ = {
             {
               "start": 281,
               "end": 285,
-              "count": 8,
+              "count": 9,
               "hits": [],
               "covered": false,
               "poolSnapshot": [
@@ -1038,7 +1038,7 @@ window.__THREE_COMPOUND_STATE__ = {
             {
               "start": 296,
               "end": 300,
-              "count": 2,
+              "count": 3,
               "hits": [],
               "covered": false,
               "poolSnapshot": [
@@ -1062,7 +1062,7 @@ window.__THREE_COMPOUND_STATE__ = {
           "healthStatus": "downrank-observe",
           "healthReason": "recent-coverage-below-year",
           "computedBy": "python-local-search",
-          "status": "cached",
+          "status": "no-change",
           "changeTime": "2026-09-16 17:46:30",
           "changeHistory": [
             {
@@ -2108,9 +2108,9 @@ window.__THREE_COMPOUND_STATE__ = {
                 "11",
                 "12",
                 "16",
-                "21",
-                "42",
-                "45"
+                "17",
+                "26",
+                "42"
               ]
             },
             {
@@ -2123,9 +2123,9 @@ window.__THREE_COMPOUND_STATE__ = {
                 "11",
                 "12",
                 "16",
-                "21",
-                "42",
-                "45"
+                "17",
+                "26",
+                "42"
               ]
             },
             {
@@ -2133,6 +2133,15 @@ window.__THREE_COMPOUND_STATE__ = {
               "end": 15,
               "count": 5,
               "hits": [
+                {
+                  "issue": 12,
+                  "date": "2026-01-12",
+                  "matched": [
+                    "12",
+                    "16",
+                    "26"
+                  ]
+                },
                 {
                   "issue": 13,
                   "date": "2026-01-13",
@@ -2148,9 +2157,9 @@ window.__THREE_COMPOUND_STATE__ = {
                 "11",
                 "12",
                 "16",
-                "21",
-                "42",
-                "45"
+                "17",
+                "26",
+                "42"
               ]
             },
             {
@@ -2163,9 +2172,9 @@ window.__THREE_COMPOUND_STATE__ = {
                 "11",
                 "12",
                 "16",
-                "21",
-                "42",
-                "45"
+                "17",
+                "26",
+                "42"
               ]
             },
             {
@@ -2178,9 +2187,9 @@ window.__THREE_COMPOUND_STATE__ = {
                 "11",
                 "12",
                 "16",
-                "21",
-                "42",
-                "45"
+                "17",
+                "26",
+                "42"
               ]
             },
             {
@@ -2193,9 +2202,9 @@ window.__THREE_COMPOUND_STATE__ = {
                 "11",
                 "12",
                 "16",
-                "21",
-                "42",
-                "45"
+                "17",
+                "26",
+                "42"
               ]
             },
             {
@@ -2208,9 +2217,9 @@ window.__THREE_COMPOUND_STATE__ = {
                 "11",
                 "12",
                 "16",
-                "21",
-                "42",
-                "45"
+                "17",
+                "26",
+                "42"
               ]
             },
             {
@@ -2223,9 +2232,9 @@ window.__THREE_COMPOUND_STATE__ = {
                 "11",
                 "12",
                 "16",
-                "21",
-                "42",
-                "45"
+                "17",
+                "26",
+                "42"
               ]
             },
             {
@@ -2238,9 +2247,9 @@ window.__THREE_COMPOUND_STATE__ = {
                 "11",
                 "12",
                 "16",
-                "21",
-                "42",
-                "45"
+                "17",
+                "26",
+                "42"
               ]
             },
             {
@@ -2254,7 +2263,7 @@ window.__THREE_COMPOUND_STATE__ = {
                   "matched": [
                     "12",
                     "16",
-                    "21"
+                    "17"
                   ]
                 }
               ],
@@ -2263,9 +2272,9 @@ window.__THREE_COMPOUND_STATE__ = {
                 "11",
                 "12",
                 "16",
-                "21",
-                "42",
-                "45"
+                "17",
+                "26",
+                "42"
               ]
             },
             {
@@ -2274,12 +2283,12 @@ window.__THREE_COMPOUND_STATE__ = {
               "count": 10,
               "hits": [
                 {
-                  "issue": 54,
-                  "date": "2026-03-05",
+                  "issue": 53,
+                  "date": "2026-02-22",
                   "matched": [
-                    "11",
-                    "21",
-                    "42"
+                    "12",
+                    "16",
+                    "17"
                   ]
                 }
               ],
@@ -2288,9 +2297,9 @@ window.__THREE_COMPOUND_STATE__ = {
                 "11",
                 "12",
                 "16",
-                "21",
-                "42",
-                "45"
+                "17",
+                "26",
+                "42"
               ]
             },
             {
@@ -2303,34 +2312,24 @@ window.__THREE_COMPOUND_STATE__ = {
                 "11",
                 "12",
                 "16",
-                "21",
-                "42",
-                "45"
+                "17",
+                "26",
+                "42"
               ]
             },
             {
               "start": 61,
               "end": 65,
               "count": 10,
-              "hits": [
-                {
-                  "issue": 64,
-                  "date": "2026-03-15",
-                  "matched": [
-                    "16",
-                    "21",
-                    "45"
-                  ]
-                }
-              ],
-              "covered": true,
+              "hits": [],
+              "covered": false,
               "poolSnapshot": [
                 "11",
                 "12",
                 "16",
-                "21",
-                "42",
-                "45"
+                "17",
+                "26",
+                "42"
               ]
             },
             {
@@ -2339,12 +2338,12 @@ window.__THREE_COMPOUND_STATE__ = {
               "count": 10,
               "hits": [
                 {
-                  "issue": 70,
-                  "date": "2026-03-21",
+                  "issue": 67,
+                  "date": "2026-03-18",
                   "matched": [
-                    "11",
-                    "42",
-                    "45"
+                    "12",
+                    "26",
+                    "42"
                   ]
                 }
               ],
@@ -2353,9 +2352,9 @@ window.__THREE_COMPOUND_STATE__ = {
                 "11",
                 "12",
                 "16",
-                "21",
-                "42",
-                "45"
+                "17",
+                "26",
+                "42"
               ]
             },
             {
@@ -2368,34 +2367,24 @@ window.__THREE_COMPOUND_STATE__ = {
                 "11",
                 "12",
                 "16",
-                "21",
-                "42",
-                "45"
+                "17",
+                "26",
+                "42"
               ]
             },
             {
               "start": 76,
               "end": 80,
               "count": 10,
-              "hits": [
-                {
-                  "issue": 76,
-                  "date": "2026-03-27",
-                  "matched": [
-                    "12",
-                    "16",
-                    "21"
-                  ]
-                }
-              ],
-              "covered": true,
+              "hits": [],
+              "covered": false,
               "poolSnapshot": [
                 "11",
                 "12",
                 "16",
-                "21",
-                "42",
-                "45"
+                "17",
+                "26",
+                "42"
               ]
             },
             {
@@ -2418,9 +2407,9 @@ window.__THREE_COMPOUND_STATE__ = {
                 "11",
                 "12",
                 "16",
-                "21",
-                "42",
-                "45"
+                "17",
+                "26",
+                "42"
               ]
             },
             {
@@ -2436,15 +2425,6 @@ window.__THREE_COMPOUND_STATE__ = {
                     "16",
                     "42"
                   ]
-                },
-                {
-                  "issue": 89,
-                  "date": "2026-04-09",
-                  "matched": [
-                    "12",
-                    "42",
-                    "45"
-                  ]
                 }
               ],
               "covered": true,
@@ -2452,9 +2432,9 @@ window.__THREE_COMPOUND_STATE__ = {
                 "11",
                 "12",
                 "16",
-                "21",
-                "42",
-                "45"
+                "17",
+                "26",
+                "42"
               ]
             },
             {
@@ -2463,12 +2443,21 @@ window.__THREE_COMPOUND_STATE__ = {
               "count": 10,
               "hits": [
                 {
-                  "issue": 93,
-                  "date": "2026-04-13",
+                  "issue": 91,
+                  "date": "2026-04-11",
                   "matched": [
-                    "21",
-                    "42",
-                    "45"
+                    "12",
+                    "17",
+                    "26"
+                  ]
+                },
+                {
+                  "issue": 94,
+                  "date": "2026-04-14",
+                  "matched": [
+                    "11",
+                    "26",
+                    "42"
                   ]
                 }
               ],
@@ -2477,14 +2466,39 @@ window.__THREE_COMPOUND_STATE__ = {
                 "11",
                 "12",
                 "16",
-                "21",
-                "42",
-                "45"
+                "17",
+                "26",
+                "42"
               ]
             },
             {
               "start": 96,
               "end": 100,
+              "count": 10,
+              "hits": [
+                {
+                  "issue": 97,
+                  "date": "2026-04-17",
+                  "matched": [
+                    "12",
+                    "16",
+                    "17"
+                  ]
+                }
+              ],
+              "covered": true,
+              "poolSnapshot": [
+                "11",
+                "12",
+                "16",
+                "17",
+                "26",
+                "42"
+              ]
+            },
+            {
+              "start": 101,
+              "end": 105,
               "count": 10,
               "hits": [],
               "covered": false,
@@ -2492,34 +2506,9 @@ window.__THREE_COMPOUND_STATE__ = {
                 "11",
                 "12",
                 "16",
-                "21",
-                "42",
-                "45"
-              ]
-            },
-            {
-              "start": 101,
-              "end": 105,
-              "count": 10,
-              "hits": [
-                {
-                  "issue": 101,
-                  "date": "2026-04-21",
-                  "matched": [
-                    "11",
-                    "21",
-                    "45"
-                  ]
-                }
-              ],
-              "covered": true,
-              "poolSnapshot": [
-                "11",
-                "12",
-                "16",
-                "21",
-                "42",
-                "45"
+                "17",
+                "26",
+                "42"
               ]
             },
             {
@@ -2532,9 +2521,9 @@ window.__THREE_COMPOUND_STATE__ = {
                 "11",
                 "12",
                 "16",
-                "21",
-                "42",
-                "45"
+                "17",
+                "26",
+                "42"
               ]
             },
             {
@@ -2547,9 +2536,9 @@ window.__THREE_COMPOUND_STATE__ = {
                 "11",
                 "12",
                 "16",
-                "21",
-                "42",
-                "45"
+                "17",
+                "26",
+                "42"
               ]
             },
             {
@@ -2562,9 +2551,9 @@ window.__THREE_COMPOUND_STATE__ = {
                 "11",
                 "12",
                 "16",
-                "21",
-                "42",
-                "45"
+                "17",
+                "26",
+                "42"
               ]
             },
             {
@@ -2577,9 +2566,9 @@ window.__THREE_COMPOUND_STATE__ = {
                 "11",
                 "12",
                 "16",
-                "21",
-                "42",
-                "45"
+                "17",
+                "26",
+                "42"
               ]
             },
             {
@@ -2602,9 +2591,9 @@ window.__THREE_COMPOUND_STATE__ = {
                 "11",
                 "12",
                 "16",
-                "21",
-                "42",
-                "45"
+                "17",
+                "26",
+                "42"
               ]
             },
             {
@@ -2628,9 +2617,9 @@ window.__THREE_COMPOUND_STATE__ = {
                 "11",
                 "12",
                 "16",
-                "21",
-                "42",
-                "45"
+                "17",
+                "26",
+                "42"
               ]
             },
             {
@@ -2643,9 +2632,9 @@ window.__THREE_COMPOUND_STATE__ = {
                 "11",
                 "12",
                 "16",
-                "21",
-                "42",
-                "45"
+                "17",
+                "26",
+                "42"
               ]
             },
             {
@@ -2658,24 +2647,34 @@ window.__THREE_COMPOUND_STATE__ = {
                 "11",
                 "12",
                 "16",
-                "21",
-                "42",
-                "45"
+                "17",
+                "26",
+                "42"
               ]
             },
             {
               "start": 146,
               "end": 150,
               "count": 10,
-              "hits": [],
-              "covered": false,
+              "hits": [
+                {
+                  "issue": 148,
+                  "date": "2026-06-07",
+                  "matched": [
+                    "11",
+                    "17",
+                    "26"
+                  ]
+                }
+              ],
+              "covered": true,
               "poolSnapshot": [
                 "11",
                 "12",
                 "16",
-                "21",
-                "42",
-                "45"
+                "17",
+                "26",
+                "42"
               ]
             },
             {
@@ -2684,11 +2683,21 @@ window.__THREE_COMPOUND_STATE__ = {
               "count": 10,
               "hits": [
                 {
+                  "issue": 154,
+                  "date": "2026-06-13",
+                  "matched": [
+                    "12",
+                    "17",
+                    "26"
+                  ]
+                },
+                {
                   "issue": 155,
                   "date": "2026-06-14",
                   "matched": [
                     "11",
                     "12",
+                    "17",
                     "42"
                   ]
                 }
@@ -2698,9 +2707,9 @@ window.__THREE_COMPOUND_STATE__ = {
                 "11",
                 "12",
                 "16",
-                "21",
-                "42",
-                "45"
+                "17",
+                "26",
+                "42"
               ]
             },
             {
@@ -2716,15 +2725,6 @@ window.__THREE_COMPOUND_STATE__ = {
                     "12",
                     "16"
                   ]
-                },
-                {
-                  "issue": 158,
-                  "date": "2026-06-17",
-                  "matched": [
-                    "11",
-                    "12",
-                    "45"
-                  ]
                 }
               ],
               "covered": true,
@@ -2732,9 +2732,9 @@ window.__THREE_COMPOUND_STATE__ = {
                 "11",
                 "12",
                 "16",
-                "21",
-                "42",
-                "45"
+                "17",
+                "26",
+                "42"
               ]
             },
             {
@@ -2747,9 +2747,9 @@ window.__THREE_COMPOUND_STATE__ = {
                 "11",
                 "12",
                 "16",
-                "21",
-                "42",
-                "45"
+                "17",
+                "26",
+                "42"
               ]
             },
             {
@@ -2763,7 +2763,7 @@ window.__THREE_COMPOUND_STATE__ = {
                   "matched": [
                     "12",
                     "16",
-                    "45"
+                    "17"
                   ]
                 }
               ],
@@ -2772,24 +2772,34 @@ window.__THREE_COMPOUND_STATE__ = {
                 "11",
                 "12",
                 "16",
-                "21",
-                "42",
-                "45"
+                "17",
+                "26",
+                "42"
               ]
             },
             {
               "start": 171,
               "end": 175,
               "count": 10,
-              "hits": [],
-              "covered": false,
+              "hits": [
+                {
+                  "issue": 172,
+                  "date": "2026-07-01",
+                  "matched": [
+                    "11",
+                    "17",
+                    "26"
+                  ]
+                }
+              ],
+              "covered": true,
               "poolSnapshot": [
                 "11",
                 "12",
                 "16",
-                "21",
-                "42",
-                "45"
+                "17",
+                "26",
+                "42"
               ]
             },
             {
@@ -2812,68 +2822,39 @@ window.__THREE_COMPOUND_STATE__ = {
                 "11",
                 "12",
                 "16",
-                "21",
-                "42",
-                "45"
+                "17",
+                "26",
+                "42"
               ]
             },
             {
               "start": 181,
               "end": 185,
               "count": 10,
-              "hits": [
-                {
-                  "issue": 183,
-                  "date": "2026-07-12",
-                  "matched": [
-                    "11",
-                    "42",
-                    "45"
-                  ]
-                },
-                {
-                  "issue": 185,
-                  "date": "2026-07-14",
-                  "matched": [
-                    "12",
-                    "42",
-                    "45"
-                  ]
-                }
-              ],
-              "covered": true,
+              "hits": [],
+              "covered": false,
               "poolSnapshot": [
                 "11",
                 "12",
                 "16",
-                "21",
-                "42",
-                "45"
+                "17",
+                "26",
+                "42"
               ]
             },
             {
               "start": 186,
               "end": 190,
               "count": 10,
-              "hits": [
-                {
-                  "issue": 186,
-                  "date": "2026-07-15",
-                  "matched": [
-                    "11",
-                    "21",
-                    "45"
-                  ]
-                }
-              ],
-              "covered": true,
+              "hits": [],
+              "covered": false,
               "poolSnapshot": [
                 "11",
                 "12",
                 "16",
-                "21",
-                "42",
-                "45"
+                "17",
+                "26",
+                "42"
               ]
             },
             {
@@ -2886,9 +2867,9 @@ window.__THREE_COMPOUND_STATE__ = {
                 "11",
                 "12",
                 "16",
-                "21",
-                "42",
-                "45"
+                "17",
+                "26",
+                "42"
               ]
             },
             {
@@ -2901,17 +2882,8 @@ window.__THREE_COMPOUND_STATE__ = {
                   "date": "2026-07-26",
                   "matched": [
                     "12",
-                    "42",
-                    "45"
-                  ]
-                },
-                {
-                  "issue": 198,
-                  "date": "2026-07-17",
-                  "matched": [
-                    "12",
-                    "21",
-                    "45"
+                    "17",
+                    "42"
                   ]
                 }
               ],
@@ -2920,24 +2892,44 @@ window.__THREE_COMPOUND_STATE__ = {
                 "11",
                 "12",
                 "16",
-                "21",
-                "42",
-                "45"
+                "17",
+                "26",
+                "42"
               ]
             },
             {
               "start": 201,
               "end": 205,
               "count": 10,
-              "hits": [],
-              "covered": false,
+              "hits": [
+                {
+                  "issue": 204,
+                  "date": "2026-07-23",
+                  "matched": [
+                    "11",
+                    "12",
+                    "17",
+                    "26"
+                  ]
+                },
+                {
+                  "issue": 205,
+                  "date": "2026-07-24",
+                  "matched": [
+                    "11",
+                    "12",
+                    "17"
+                  ]
+                }
+              ],
+              "covered": true,
               "poolSnapshot": [
                 "11",
                 "12",
                 "16",
-                "21",
-                "42",
-                "45"
+                "17",
+                "26",
+                "42"
               ]
             },
             {
@@ -2960,9 +2952,9 @@ window.__THREE_COMPOUND_STATE__ = {
                 "11",
                 "12",
                 "16",
-                "21",
-                "42",
-                "45"
+                "17",
+                "26",
+                "42"
               ]
             },
             {
@@ -2985,9 +2977,9 @@ window.__THREE_COMPOUND_STATE__ = {
                 "11",
                 "12",
                 "16",
-                "21",
-                "42",
-                "45"
+                "17",
+                "26",
+                "42"
               ]
             },
             {
@@ -3010,9 +3002,9 @@ window.__THREE_COMPOUND_STATE__ = {
                 "11",
                 "12",
                 "16",
-                "21",
-                "42",
-                "45"
+                "17",
+                "26",
+                "42"
               ]
             },
             {
@@ -3025,9 +3017,9 @@ window.__THREE_COMPOUND_STATE__ = {
                 "11",
                 "12",
                 "16",
-                "21",
-                "42",
-                "45"
+                "17",
+                "26",
+                "42"
               ]
             },
             {
@@ -3040,9 +3032,9 @@ window.__THREE_COMPOUND_STATE__ = {
                 "11",
                 "12",
                 "16",
-                "21",
-                "42",
-                "45"
+                "17",
+                "26",
+                "42"
               ]
             },
             {
@@ -3055,24 +3047,34 @@ window.__THREE_COMPOUND_STATE__ = {
                 "11",
                 "12",
                 "16",
-                "21",
-                "42",
-                "45"
+                "17",
+                "26",
+                "42"
               ]
             },
             {
               "start": 236,
               "end": 240,
               "count": 10,
-              "hits": [],
-              "covered": false,
+              "hits": [
+                {
+                  "issue": 236,
+                  "date": "2026-08-24",
+                  "matched": [
+                    "17",
+                    "26",
+                    "42"
+                  ]
+                }
+              ],
+              "covered": true,
               "poolSnapshot": [
                 "11",
                 "12",
                 "16",
-                "21",
-                "42",
-                "45"
+                "17",
+                "26",
+                "42"
               ]
             },
             {
@@ -3218,7 +3220,7 @@ window.__THREE_COMPOUND_STATE__ = {
             {
               "start": 281,
               "end": 285,
-              "count": 8,
+              "count": 9,
               "hits": [],
               "covered": false,
               "poolSnapshot": [
@@ -3263,7 +3265,7 @@ window.__THREE_COMPOUND_STATE__ = {
             {
               "start": 296,
               "end": 300,
-              "count": 2,
+              "count": 3,
               "hits": [],
               "covered": false,
               "poolSnapshot": [
@@ -3288,9 +3290,46 @@ window.__THREE_COMPOUND_STATE__ = {
           "healthStatus": "downrank-observe",
           "healthReason": "recent-coverage-below-year",
           "computedBy": "python-local-search",
-          "status": "cached",
-          "changeTime": "2026-10-24 16:58:24",
+          "status": "changed",
+          "changeTime": "2026-10-25 17:15:03",
           "changeHistory": [
+            {
+              "changedAt": "2026-10-25 17:15:03",
+              "issue": 298,
+              "beforePool": [
+                "12",
+                "16",
+                "17",
+                "37",
+                "39",
+                "42"
+              ],
+              "afterPool": [
+                "12",
+                "16",
+                "17",
+                "37",
+                "39",
+                "42"
+              ],
+              "beforeCovered": 24,
+              "afterCovered": 25,
+              "beforeHitRate": 40.68,
+              "afterHitRate": 42.37,
+              "kept": [
+                "12",
+                "16",
+                "17",
+                "37",
+                "39",
+                "42"
+              ],
+              "added": [],
+              "removed": [],
+              "changeCount": 0,
+              "changeLevel": "stable",
+              "reason": "better-completed-window-coverage-pool"
+            },
             {
               "changedAt": "2026-10-24 16:58:24",
               "issue": 297,
@@ -4385,58 +4424,17 @@ window.__THREE_COMPOUND_STATE__ = {
               "changeCount": 0,
               "changeLevel": "stable",
               "reason": "better-completed-window-coverage-pool"
-            },
-            {
-              "changedAt": "2026-08-28 23:13:33",
-              "issue": 240,
-              "beforePool": [
-                "11",
-                "12",
-                "16",
-                "21",
-                "42",
-                "45"
-              ],
-              "afterPool": [
-                "11",
-                "12",
-                "16",
-                "17",
-                "26",
-                "42"
-              ],
-              "beforeCovered": 16,
-              "afterCovered": 22,
-              "beforeHitRate": 34.04,
-              "afterHitRate": 45.83,
-              "kept": [
-                "11",
-                "12",
-                "16",
-                "42"
-              ],
-              "added": [
-                "17",
-                "26"
-              ],
-              "removed": [
-                "21",
-                "45"
-              ],
-              "changeCount": 4,
-              "changeLevel": "medium-change",
-              "reason": "better-completed-window-coverage-pool"
             }
           ]
         },
         {
           "poolSize": 7,
           "pool": [
-            "08",
-            "17",
-            "22",
-            "29",
+            "11",
+            "16",
+            "19",
             "37",
+            "39",
             "46",
             "47"
           ],
@@ -5688,7 +5686,7 @@ window.__THREE_COMPOUND_STATE__ = {
             {
               "start": 281,
               "end": 285,
-              "count": 8,
+              "count": 9,
               "hits": [],
               "covered": false,
               "poolSnapshot": [
@@ -5736,7 +5734,7 @@ window.__THREE_COMPOUND_STATE__ = {
             {
               "start": 296,
               "end": 300,
-              "count": 2,
+              "count": 3,
               "hits": [],
               "covered": false,
               "poolSnapshot": [
@@ -5762,9 +5760,55 @@ window.__THREE_COMPOUND_STATE__ = {
           "healthStatus": "downrank-observe",
           "healthReason": "recent-coverage-below-year",
           "computedBy": "python-local-search",
-          "status": "cached",
-          "changeTime": "2026-10-24 16:58:24",
+          "status": "changed",
+          "changeTime": "2026-10-25 17:15:03",
           "changeHistory": [
+            {
+              "changedAt": "2026-10-25 17:15:03",
+              "issue": 298,
+              "beforePool": [
+                "08",
+                "17",
+                "22",
+                "29",
+                "37",
+                "46",
+                "47"
+              ],
+              "afterPool": [
+                "11",
+                "16",
+                "19",
+                "37",
+                "39",
+                "46",
+                "47"
+              ],
+              "beforeCovered": 30,
+              "afterCovered": 32,
+              "beforeHitRate": 50.85,
+              "afterHitRate": 54.24,
+              "kept": [
+                "37",
+                "46",
+                "47"
+              ],
+              "added": [
+                "11",
+                "16",
+                "19",
+                "39"
+              ],
+              "removed": [
+                "08",
+                "17",
+                "22",
+                "29"
+              ],
+              "changeCount": 8,
+              "changeLevel": "rebuild",
+              "reason": "better-completed-window-coverage-pool"
+            },
             {
               "changedAt": "2026-10-24 16:58:24",
               "issue": 297,
@@ -6981,54 +7025,6 @@ window.__THREE_COMPOUND_STATE__ = {
               "removed": [],
               "changeCount": 0,
               "changeLevel": "stable",
-              "reason": "better-completed-window-coverage-pool"
-            },
-            {
-              "changedAt": "2026-09-22 17:48:20",
-              "issue": 265,
-              "beforePool": [
-                "11",
-                "16",
-                "19",
-                "37",
-                "39",
-                "46",
-                "47"
-              ],
-              "afterPool": [
-                "11",
-                "12",
-                "17",
-                "22",
-                "24",
-                "31",
-                "42"
-              ],
-              "beforeCovered": 29,
-              "afterCovered": 30,
-              "beforeHitRate": 55.77,
-              "afterHitRate": 56.6,
-              "kept": [
-                "11"
-              ],
-              "added": [
-                "12",
-                "17",
-                "22",
-                "24",
-                "31",
-                "42"
-              ],
-              "removed": [
-                "16",
-                "19",
-                "37",
-                "39",
-                "46",
-                "47"
-              ],
-              "changeCount": 12,
-              "changeLevel": "rebuild",
               "reason": "better-completed-window-coverage-pool"
             }
           ]
@@ -8470,7 +8466,7 @@ window.__THREE_COMPOUND_STATE__ = {
             {
               "start": 281,
               "end": 285,
-              "count": 8,
+              "count": 9,
               "hits": [
                 {
                   "issue": 281,
@@ -8550,7 +8546,7 @@ window.__THREE_COMPOUND_STATE__ = {
             {
               "start": 296,
               "end": 300,
-              "count": 2,
+              "count": 3,
               "hits": [],
               "covered": false,
               "poolSnapshot": [
@@ -8577,9 +8573,52 @@ window.__THREE_COMPOUND_STATE__ = {
           "healthStatus": "normal-observe",
           "healthReason": "compound-window-stable",
           "computedBy": "python-local-search",
-          "status": "cached",
-          "changeTime": "2026-10-24 16:58:24",
+          "status": "changed",
+          "changeTime": "2026-10-25 17:15:03",
           "changeHistory": [
+            {
+              "changedAt": "2026-10-25 17:15:03",
+              "issue": 298,
+              "beforePool": [
+                "12",
+                "17",
+                "22",
+                "24",
+                "28",
+                "31",
+                "34",
+                "42"
+              ],
+              "afterPool": [
+                "12",
+                "17",
+                "22",
+                "24",
+                "28",
+                "31",
+                "34",
+                "42"
+              ],
+              "beforeCovered": 41,
+              "afterCovered": 42,
+              "beforeHitRate": 69.49,
+              "afterHitRate": 71.19,
+              "kept": [
+                "12",
+                "17",
+                "22",
+                "24",
+                "28",
+                "31",
+                "34",
+                "42"
+              ],
+              "added": [],
+              "removed": [],
+              "changeCount": 0,
+              "changeLevel": "stable",
+              "reason": "better-completed-window-coverage-pool"
+            },
             {
               "changedAt": "2026-10-24 16:58:24",
               "issue": 297,
@@ -9921,49 +9960,6 @@ window.__THREE_COMPOUND_STATE__ = {
               "changeCount": 0,
               "changeLevel": "stable",
               "reason": "better-completed-window-coverage-pool"
-            },
-            {
-              "changedAt": "2026-09-22 17:48:20",
-              "issue": 265,
-              "beforePool": [
-                "11",
-                "16",
-                "19",
-                "23",
-                "37",
-                "39",
-                "46",
-                "47"
-              ],
-              "afterPool": [
-                "11",
-                "16",
-                "19",
-                "23",
-                "37",
-                "39",
-                "46",
-                "47"
-              ],
-              "beforeCovered": 36,
-              "afterCovered": 38,
-              "beforeHitRate": 69.23,
-              "afterHitRate": 71.7,
-              "kept": [
-                "11",
-                "16",
-                "19",
-                "23",
-                "37",
-                "39",
-                "46",
-                "47"
-              ],
-              "added": [],
-              "removed": [],
-              "changeCount": 0,
-              "changeLevel": "stable",
-              "reason": "better-completed-window-coverage-pool"
             }
           ]
         }
@@ -10828,7 +10824,7 @@ window.__THREE_COMPOUND_STATE__ = {
             {
               "start": 281,
               "end": 285,
-              "count": 8,
+              "count": 9,
               "hits": [],
               "covered": false,
               "poolSnapshot": [
@@ -10870,7 +10866,7 @@ window.__THREE_COMPOUND_STATE__ = {
             {
               "start": 296,
               "end": 300,
-              "count": 2,
+              "count": 3,
               "hits": [],
               "covered": false,
               "poolSnapshot": [
@@ -11742,7 +11738,7 @@ window.__THREE_COMPOUND_STATE__ = {
             {
               "start": 281,
               "end": 285,
-              "count": 8,
+              "count": 9,
               "hits": [],
               "covered": false,
               "poolSnapshot": [
@@ -11784,7 +11780,7 @@ window.__THREE_COMPOUND_STATE__ = {
             {
               "start": 296,
               "end": 300,
-              "count": 2,
+              "count": 3,
               "hits": [],
               "covered": false,
               "poolSnapshot": [
@@ -13064,7 +13060,7 @@ window.__THREE_COMPOUND_STATE__ = {
             {
               "start": 281,
               "end": 285,
-              "count": 48,
+              "count": 49,
               "hits": [
                 {
                   "issue": 282,
@@ -13126,7 +13122,7 @@ window.__THREE_COMPOUND_STATE__ = {
             {
               "start": 296,
               "end": 300,
-              "count": 42,
+              "count": 43,
               "hits": [],
               "covered": false,
               "poolSnapshot": [
@@ -13439,7 +13435,7 @@ window.__THREE_COMPOUND_STATE__ = {
             "42"
           ],
           "computedBy": "python-local-search",
-          "status": "cached",
+          "status": "no-change",
           "changeTime": "2026-09-25 18:06:39",
           "changeHistory": [
             {
@@ -15551,7 +15547,7 @@ window.__THREE_COMPOUND_STATE__ = {
             {
               "start": 281,
               "end": 285,
-              "count": 8,
+              "count": 9,
               "hits": [],
               "covered": false,
               "poolSnapshot": [
@@ -15596,7 +15592,7 @@ window.__THREE_COMPOUND_STATE__ = {
             {
               "start": 296,
               "end": 300,
-              "count": 2,
+              "count": 3,
               "hits": [],
               "covered": false,
               "poolSnapshot": [
@@ -16611,7 +16607,7 @@ window.__THREE_COMPOUND_STATE__ = {
             {
               "start": 281,
               "end": 285,
-              "count": 8,
+              "count": 9,
               "hits": [],
               "covered": false,
               "poolSnapshot": [
@@ -16656,7 +16652,7 @@ window.__THREE_COMPOUND_STATE__ = {
             {
               "start": 296,
               "end": 300,
-              "count": 2,
+              "count": 3,
               "hits": [],
               "covered": false,
               "poolSnapshot": [
@@ -18268,7 +18264,7 @@ window.__THREE_COMPOUND_STATE__ = {
             {
               "start": 281,
               "end": 285,
-              "count": 48,
+              "count": 49,
               "hits": [
                 {
                   "issue": 284,
@@ -18352,7 +18348,7 @@ window.__THREE_COMPOUND_STATE__ = {
             {
               "start": 296,
               "end": 300,
-              "count": 42,
+              "count": 43,
               "hits": [
                 {
                   "issue": 298,
@@ -18760,7 +18756,7 @@ window.__THREE_COMPOUND_STATE__ = {
             "42"
           ],
           "computedBy": "python-local-search",
-          "status": "cached",
+          "status": "no-change",
           "changeTime": "2026-08-18 14:17:44",
           "changeHistory": [
             {
@@ -20004,7 +20000,7 @@ window.__THREE_COMPOUND_STATE__ = {
             {
               "start": 281,
               "end": 285,
-              "count": 8,
+              "count": 9,
               "hits": [],
               "covered": false,
               "poolSnapshot": [
@@ -20062,7 +20058,7 @@ window.__THREE_COMPOUND_STATE__ = {
             {
               "start": 296,
               "end": 300,
-              "count": 2,
+              "count": 3,
               "hits": [],
               "covered": false,
               "poolSnapshot": [
@@ -21118,7 +21114,7 @@ window.__THREE_COMPOUND_STATE__ = {
             {
               "start": 281,
               "end": 285,
-              "count": 8,
+              "count": 9,
               "hits": [],
               "covered": false,
               "poolSnapshot": [
@@ -21176,7 +21172,7 @@ window.__THREE_COMPOUND_STATE__ = {
             {
               "start": 296,
               "end": 300,
-              "count": 2,
+              "count": 3,
               "hits": [],
               "covered": false,
               "poolSnapshot": [
@@ -23051,7 +23047,7 @@ window.__THREE_COMPOUND_STATE__ = {
             {
               "start": 281,
               "end": 285,
-              "count": 48,
+              "count": 49,
               "hits": [
                 {
                   "issue": 283,
@@ -23175,7 +23171,7 @@ window.__THREE_COMPOUND_STATE__ = {
             {
               "start": 296,
               "end": 300,
-              "count": 42,
+              "count": 43,
               "hits": [
                 {
                   "issue": 297,
@@ -23663,28 +23659,28 @@ window.__THREE_COMPOUND_STATE__ = {
           "historyCurrentMiss": 0,
           "historyMaxMiss": 1,
           "historyHitDraws": 132,
-          "intersection": [],
-          "intersectionCount": 0,
+          "intersection": [
+            "19"
+          ],
+          "intersectionCount": 1,
           "crossYearOnly": [
             "02",
             "10",
             "15",
-            "19",
             "28",
             "30",
             "43"
           ],
           "yearOnly": [
-            "08",
-            "17",
-            "22",
-            "29",
+            "11",
+            "16",
             "37",
+            "39",
             "46",
             "47"
           ],
           "computedBy": "python-local-search",
-          "status": "cached",
+          "status": "no-change",
           "changeTime": "2026-09-16 17:46:30",
           "changeHistory": [
             {
@@ -26435,7 +26431,7 @@ window.__THREE_COMPOUND_STATE__ = {
             {
               "start": 281,
               "end": 285,
-              "count": 8,
+              "count": 9,
               "hits": [],
               "covered": false,
               "poolSnapshot": [
@@ -26486,7 +26482,7 @@ window.__THREE_COMPOUND_STATE__ = {
             {
               "start": 296,
               "end": 300,
-              "count": 2,
+              "count": 3,
               "hits": [],
               "covered": false,
               "poolSnapshot": [
@@ -27855,7 +27851,7 @@ window.__THREE_COMPOUND_STATE__ = {
             {
               "start": 281,
               "end": 285,
-              "count": 8,
+              "count": 9,
               "hits": [],
               "covered": false,
               "poolSnapshot": [
@@ -27906,7 +27902,7 @@ window.__THREE_COMPOUND_STATE__ = {
             {
               "start": 296,
               "end": 300,
-              "count": 2,
+              "count": 3,
               "hits": [],
               "covered": false,
               "poolSnapshot": [
@@ -30433,7 +30429,7 @@ window.__THREE_COMPOUND_STATE__ = {
             {
               "start": 281,
               "end": 285,
-              "count": 48,
+              "count": 49,
               "hits": [
                 {
                   "issue": 283,
@@ -30568,7 +30564,7 @@ window.__THREE_COMPOUND_STATE__ = {
             {
               "start": 296,
               "end": 300,
-              "count": 42,
+              "count": 43,
               "hits": [
                 {
                   "issue": 296,
@@ -31248,7 +31244,7 @@ window.__THREE_COMPOUND_STATE__ = {
             "42"
           ],
           "computedBy": "python-local-search",
-          "status": "cached",
+          "status": "no-change",
           "changeTime": "2026-09-19 16:55:22",
           "changeHistory": [
             {
@@ -32736,7 +32732,7 @@ window.__THREE_COMPOUND_STATE__ = {
       "source": "hk",
       "year": "2026",
       "latestIssue": 114,
-      "computedAt": "2026-10-24 17:25:59",
+      "computedAt": "2026-10-25 17:15:03",
       "status": "cached",
       "pools": [
         {
