@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-30 19:19:56",
+  "generatedAt": "2026-10-31 17:56:44",
   "items": [
     {
       "source": "am",
@@ -1020,12 +1020,13 @@
             "year": "2026",
             "start": 286,
             "end": 290,
-            "count": 8,
+            "count": 9,
             "nums": [
               "08",
               "24",
               "25",
               "27",
+              "32",
               "34",
               "38",
               "40"
@@ -1070,58 +1071,58 @@
       "exact": false,
       "method": "rolling-before-window-exact-or-greedy-49c8",
       "validationMode": "rolling-before-window",
-      "computedAt": "2026-10-30 19:19:56",
+      "computedAt": "2026-10-31 17:56:44",
       "latestDraw": {
-        "issue": 303,
-        "date": "2026-10-30",
+        "issue": 304,
+        "date": "2026-10-31",
         "year": "2026",
         "balls": [
           {
             "index": 0,
-            "numberText": "08",
-            "zodiac": "猪",
+            "numberText": "23",
+            "zodiac": "猴",
             "color": "red",
             "colorName": "红"
           },
           {
             "index": 1,
-            "numberText": "28",
-            "zodiac": "兔",
-            "color": "green",
-            "colorName": "绿"
-          },
-          {
-            "index": 2,
-            "numberText": "40",
-            "zodiac": "兔",
+            "numberText": "24",
+            "zodiac": "羊",
             "color": "red",
             "colorName": "红"
           },
           {
-            "index": 3,
-            "numberText": "03",
-            "zodiac": "龙",
+            "index": 2,
+            "numberText": "10",
+            "zodiac": "鸡",
             "color": "blue",
             "colorName": "蓝"
           },
           {
-            "index": 4,
-            "numberText": "38",
-            "zodiac": "蛇",
+            "index": 3,
+            "numberText": "43",
+            "zodiac": "鼠",
             "color": "green",
             "colorName": "绿"
+          },
+          {
+            "index": 4,
+            "numberText": "13",
+            "zodiac": "马",
+            "color": "red",
+            "colorName": "红"
           },
           {
             "index": 5,
-            "numberText": "49",
-            "zodiac": "马",
-            "color": "green",
-            "colorName": "绿"
+            "numberText": "36",
+            "zodiac": "羊",
+            "color": "blue",
+            "colorName": "蓝"
           },
           {
             "index": 6,
-            "numberText": "17",
-            "zodiac": "虎",
+            "numberText": "21",
+            "zodiac": "狗",
             "color": "green",
             "colorName": "绿"
           }
@@ -1129,51 +1130,51 @@
         "regular": [
           {
             "index": 0,
-            "numberText": "08",
-            "zodiac": "猪",
+            "numberText": "23",
+            "zodiac": "猴",
             "color": "red",
             "colorName": "红"
           },
           {
             "index": 1,
-            "numberText": "28",
-            "zodiac": "兔",
-            "color": "green",
-            "colorName": "绿"
-          },
-          {
-            "index": 2,
-            "numberText": "40",
-            "zodiac": "兔",
+            "numberText": "24",
+            "zodiac": "羊",
             "color": "red",
             "colorName": "红"
           },
           {
-            "index": 3,
-            "numberText": "03",
-            "zodiac": "龙",
+            "index": 2,
+            "numberText": "10",
+            "zodiac": "鸡",
             "color": "blue",
             "colorName": "蓝"
           },
           {
-            "index": 4,
-            "numberText": "38",
-            "zodiac": "蛇",
+            "index": 3,
+            "numberText": "43",
+            "zodiac": "鼠",
             "color": "green",
             "colorName": "绿"
           },
           {
-            "index": 5,
-            "numberText": "49",
+            "index": 4,
+            "numberText": "13",
             "zodiac": "马",
-            "color": "green",
-            "colorName": "绿"
+            "color": "red",
+            "colorName": "红"
+          },
+          {
+            "index": 5,
+            "numberText": "36",
+            "zodiac": "羊",
+            "color": "blue",
+            "colorName": "蓝"
           }
         ],
         "special": {
           "index": 6,
-          "numberText": "17",
-          "zodiac": "虎",
+          "numberText": "21",
+          "zodiac": "狗",
           "color": "green",
           "colorName": "绿"
         }
@@ -1203,7 +1204,7 @@
         "year": "2026",
         "start": 301,
         "end": 305,
-        "count": 3,
+        "count": 4,
         "expected": 5,
         "covered": true,
         "pool": [
@@ -1271,6 +1272,11 @@
             "issue": 303,
             "date": "2026-10-30",
             "num": "17"
+          },
+          {
+            "issue": 304,
+            "date": "2026-10-31",
+            "num": "21"
           }
         ]
       },
@@ -3063,12 +3069,13 @@
           "year": "2026",
           "start": 286,
           "end": 290,
-          "count": 8,
+          "count": 9,
           "nums": [
             "08",
             "24",
             "25",
             "27",
+            "32",
             "34",
             "38",
             "40"
@@ -4936,12 +4943,13 @@
           "year": "2026",
           "start": 286,
           "end": 290,
-          "count": 8,
+          "count": 9,
           "nums": [
             "08",
             "24",
             "25",
             "27",
+            "32",
             "34",
             "38",
             "40"
@@ -12622,12 +12630,13 @@
             "year": "2026",
             "start": 286,
             "end": 290,
-            "count": 8,
+            "count": 9,
             "nums": [
               "08",
               "24",
               "25",
               "27",
+              "32",
               "34",
               "38",
               "40"
@@ -14172,12 +14181,13 @@
             "year": "2026",
             "start": 286,
             "end": 290,
-            "count": 8,
+            "count": 9,
             "nums": [
               "08",
               "24",
               "25",
               "27",
+              "32",
               "34",
               "38",
               "40"
@@ -14220,58 +14230,58 @@
       "exact": false,
       "method": "rolling-before-window-exact-or-greedy-49c8",
       "validationMode": "rolling-before-window",
-      "computedAt": "2026-10-30 19:19:56",
+      "computedAt": "2026-10-31 17:56:44",
       "latestDraw": {
-        "issue": 303,
-        "date": "2026-10-30",
+        "issue": 304,
+        "date": "2026-10-31",
         "year": "2026",
         "balls": [
           {
             "index": 0,
-            "numberText": "08",
-            "zodiac": "猪",
+            "numberText": "23",
+            "zodiac": "猴",
             "color": "red",
             "colorName": "红"
           },
           {
             "index": 1,
-            "numberText": "28",
-            "zodiac": "兔",
-            "color": "green",
-            "colorName": "绿"
-          },
-          {
-            "index": 2,
-            "numberText": "40",
-            "zodiac": "兔",
+            "numberText": "24",
+            "zodiac": "羊",
             "color": "red",
             "colorName": "红"
           },
           {
-            "index": 3,
-            "numberText": "03",
-            "zodiac": "龙",
+            "index": 2,
+            "numberText": "10",
+            "zodiac": "鸡",
             "color": "blue",
             "colorName": "蓝"
           },
           {
-            "index": 4,
-            "numberText": "38",
-            "zodiac": "蛇",
+            "index": 3,
+            "numberText": "43",
+            "zodiac": "鼠",
             "color": "green",
             "colorName": "绿"
+          },
+          {
+            "index": 4,
+            "numberText": "13",
+            "zodiac": "马",
+            "color": "red",
+            "colorName": "红"
           },
           {
             "index": 5,
-            "numberText": "49",
-            "zodiac": "马",
-            "color": "green",
-            "colorName": "绿"
+            "numberText": "36",
+            "zodiac": "羊",
+            "color": "blue",
+            "colorName": "蓝"
           },
           {
             "index": 6,
-            "numberText": "17",
-            "zodiac": "虎",
+            "numberText": "21",
+            "zodiac": "狗",
             "color": "green",
             "colorName": "绿"
           }
@@ -14279,51 +14289,51 @@
         "regular": [
           {
             "index": 0,
-            "numberText": "08",
-            "zodiac": "猪",
+            "numberText": "23",
+            "zodiac": "猴",
             "color": "red",
             "colorName": "红"
           },
           {
             "index": 1,
-            "numberText": "28",
-            "zodiac": "兔",
-            "color": "green",
-            "colorName": "绿"
-          },
-          {
-            "index": 2,
-            "numberText": "40",
-            "zodiac": "兔",
+            "numberText": "24",
+            "zodiac": "羊",
             "color": "red",
             "colorName": "红"
           },
           {
-            "index": 3,
-            "numberText": "03",
-            "zodiac": "龙",
+            "index": 2,
+            "numberText": "10",
+            "zodiac": "鸡",
             "color": "blue",
             "colorName": "蓝"
           },
           {
-            "index": 4,
-            "numberText": "38",
-            "zodiac": "蛇",
+            "index": 3,
+            "numberText": "43",
+            "zodiac": "鼠",
             "color": "green",
             "colorName": "绿"
           },
           {
-            "index": 5,
-            "numberText": "49",
+            "index": 4,
+            "numberText": "13",
             "zodiac": "马",
-            "color": "green",
-            "colorName": "绿"
+            "color": "red",
+            "colorName": "红"
+          },
+          {
+            "index": 5,
+            "numberText": "36",
+            "zodiac": "羊",
+            "color": "blue",
+            "colorName": "蓝"
           }
         ],
         "special": {
           "index": 6,
-          "numberText": "17",
-          "zodiac": "虎",
+          "numberText": "21",
+          "zodiac": "狗",
           "color": "green",
           "colorName": "绿"
         }
@@ -14467,7 +14477,7 @@
         "year": "2026",
         "start": 301,
         "end": 305,
-        "count": 3,
+        "count": 4,
         "expected": 5,
         "covered": false,
         "pool": [
@@ -14513,6 +14523,11 @@
             "issue": 303,
             "date": "2026-10-30",
             "num": "17"
+          },
+          {
+            "issue": 304,
+            "date": "2026-10-31",
+            "num": "21"
           }
         ]
       },
@@ -28049,12 +28064,13 @@
           "year": "2026",
           "start": 286,
           "end": 290,
-          "count": 8,
+          "count": 9,
           "nums": [
             "08",
             "24",
             "25",
             "27",
+            "32",
             "34",
             "38",
             "40"
@@ -41658,12 +41674,13 @@
           "year": "2026",
           "start": 286,
           "end": 290,
-          "count": 8,
+          "count": 9,
           "nums": [
             "08",
             "24",
             "25",
             "27",
+            "32",
             "34",
             "38",
             "40"
@@ -45622,12 +45639,13 @@
           "year": "2026",
           "start": 286,
           "end": 290,
-          "count": 8,
+          "count": 9,
           "nums": [
             "08",
             "24",
             "25",
             "27",
+            "32",
             "34",
             "38",
             "40"
@@ -46059,112 +46077,112 @@
       "exact": true,
       "method": "rolling-before-window-exact-or-greedy-49c8",
       "validationMode": "rolling-before-window",
-      "computedAt": "2026-10-30 19:19:56",
+      "computedAt": "2026-10-31 17:56:44",
       "latestDraw": {
-        "issue": 115,
-        "date": "2026-10-27",
+        "issue": 116,
+        "date": "2026-10-31",
         "year": "2026",
         "balls": [
           {
             "index": 0,
-            "numberText": "47",
+            "numberText": "11",
             "zodiac": "猴",
-            "color": "blue",
-            "colorName": "蓝"
+            "color": "green",
+            "colorName": "绿"
           },
           {
             "index": 1,
-            "numberText": "21",
-            "zodiac": "狗",
+            "numberText": "43",
+            "zodiac": "鼠",
             "color": "green",
             "colorName": "绿"
           },
           {
             "index": 2,
-            "numberText": "04",
-            "zodiac": "兔",
+            "numberText": "27",
+            "zodiac": "龙",
+            "color": "green",
+            "colorName": "绿"
+          },
+          {
+            "index": 3,
+            "numberText": "10",
+            "zodiac": "鸡",
             "color": "blue",
             "colorName": "蓝"
           },
           {
-            "index": 3,
-            "numberText": "02",
-            "zodiac": "蛇",
-            "color": "red",
-            "colorName": "红"
-          },
-          {
             "index": 4,
-            "numberText": "24",
-            "zodiac": "羊",
+            "numberText": "19",
+            "zodiac": "鼠",
             "color": "red",
             "colorName": "红"
           },
           {
             "index": 5,
-            "numberText": "18",
-            "zodiac": "牛",
-            "color": "red",
-            "colorName": "红"
+            "numberText": "37",
+            "zodiac": "马",
+            "color": "blue",
+            "colorName": "蓝"
           },
           {
             "index": 6,
-            "numberText": "31",
-            "zodiac": "鼠",
-            "color": "blue",
-            "colorName": "蓝"
+            "numberText": "08",
+            "zodiac": "猪",
+            "color": "red",
+            "colorName": "红"
           }
         ],
         "regular": [
           {
             "index": 0,
-            "numberText": "47",
+            "numberText": "11",
             "zodiac": "猴",
-            "color": "blue",
-            "colorName": "蓝"
+            "color": "green",
+            "colorName": "绿"
           },
           {
             "index": 1,
-            "numberText": "21",
-            "zodiac": "狗",
+            "numberText": "43",
+            "zodiac": "鼠",
             "color": "green",
             "colorName": "绿"
           },
           {
             "index": 2,
-            "numberText": "04",
-            "zodiac": "兔",
+            "numberText": "27",
+            "zodiac": "龙",
+            "color": "green",
+            "colorName": "绿"
+          },
+          {
+            "index": 3,
+            "numberText": "10",
+            "zodiac": "鸡",
             "color": "blue",
             "colorName": "蓝"
           },
           {
-            "index": 3,
-            "numberText": "02",
-            "zodiac": "蛇",
-            "color": "red",
-            "colorName": "红"
-          },
-          {
             "index": 4,
-            "numberText": "24",
-            "zodiac": "羊",
+            "numberText": "19",
+            "zodiac": "鼠",
             "color": "red",
             "colorName": "红"
           },
           {
             "index": 5,
-            "numberText": "18",
-            "zodiac": "牛",
-            "color": "red",
-            "colorName": "红"
+            "numberText": "37",
+            "zodiac": "马",
+            "color": "blue",
+            "colorName": "蓝"
           }
         ],
         "special": {
           "index": 6,
-          "numberText": "31",
-          "zodiac": "鼠",
-          "color": "blue",
-          "colorName": "蓝"
+          "numberText": "08",
+          "zodiac": "猪",
+          "color": "red",
+          "colorName": "红"
         }
       },
       "yearPools": [
@@ -46192,7 +46210,7 @@
         "year": "2026",
         "start": 116,
         "end": 120,
-        "count": 0,
+        "count": 1,
         "expected": 5,
         "covered": false,
         "pool": [
@@ -46206,76 +46224,8 @@
           "49"
         ],
         "poolBasis": "before-current-window",
-        "displayMode": "next-window",
-        "reviewWindow": {
-          "year": "2026",
-          "start": 111,
-          "end": 115,
-          "count": 5,
-          "expected": 5,
-          "nums": [
-            "05",
-            "09",
-            "20",
-            "31"
-          ],
-          "covered": true,
-          "pool": [
-            "02",
-            "05",
-            "10",
-            "19",
-            "27",
-            "34",
-            "40",
-            "47"
-          ],
-          "poolBasis": "before-review-window",
-          "hits": [
-            {
-              "issue": 113,
-              "date": "2026-10-22",
-              "num": "05"
-            }
-          ],
-          "draws": [
-            {
-              "issue": 111,
-              "date": "2026-10-17",
-              "num": "09"
-            },
-            {
-              "issue": 112,
-              "date": "2026-10-20",
-              "num": "31"
-            },
-            {
-              "issue": 113,
-              "date": "2026-10-22",
-              "num": "05"
-            },
-            {
-              "issue": 114,
-              "date": "2026-10-24",
-              "num": "20"
-            },
-            {
-              "issue": 115,
-              "date": "2026-10-27",
-              "num": "31"
-            }
-          ],
-          "postWindowOptimal": {
-            "covered": true,
-            "hits": [
-              {
-                "issue": 114,
-                "date": "2026-10-24",
-                "num": "20"
-              }
-            ]
-          }
-        },
+        "displayMode": "active-window",
+        "reviewWindow": null,
         "postWindowOptimal": {
           "pool": [
             "03",
@@ -46291,7 +46241,13 @@
           "hits": []
         },
         "hits": [],
-        "draws": []
+        "draws": [
+          {
+            "issue": 116,
+            "date": "2026-10-31",
+            "num": "08"
+          }
+        ]
       },
       "rollingWindows": [
         {
@@ -50437,112 +50393,112 @@
       "exact": false,
       "method": "rolling-before-window-exact-or-greedy-49c8",
       "validationMode": "rolling-before-window",
-      "computedAt": "2026-10-30 19:19:56",
+      "computedAt": "2026-10-31 17:56:44",
       "latestDraw": {
-        "issue": 115,
-        "date": "2026-10-27",
+        "issue": 116,
+        "date": "2026-10-31",
         "year": "2026",
         "balls": [
           {
             "index": 0,
-            "numberText": "47",
+            "numberText": "11",
             "zodiac": "猴",
-            "color": "blue",
-            "colorName": "蓝"
+            "color": "green",
+            "colorName": "绿"
           },
           {
             "index": 1,
-            "numberText": "21",
-            "zodiac": "狗",
+            "numberText": "43",
+            "zodiac": "鼠",
             "color": "green",
             "colorName": "绿"
           },
           {
             "index": 2,
-            "numberText": "04",
-            "zodiac": "兔",
+            "numberText": "27",
+            "zodiac": "龙",
+            "color": "green",
+            "colorName": "绿"
+          },
+          {
+            "index": 3,
+            "numberText": "10",
+            "zodiac": "鸡",
             "color": "blue",
             "colorName": "蓝"
           },
           {
-            "index": 3,
-            "numberText": "02",
-            "zodiac": "蛇",
-            "color": "red",
-            "colorName": "红"
-          },
-          {
             "index": 4,
-            "numberText": "24",
-            "zodiac": "羊",
+            "numberText": "19",
+            "zodiac": "鼠",
             "color": "red",
             "colorName": "红"
           },
           {
             "index": 5,
-            "numberText": "18",
-            "zodiac": "牛",
-            "color": "red",
-            "colorName": "红"
+            "numberText": "37",
+            "zodiac": "马",
+            "color": "blue",
+            "colorName": "蓝"
           },
           {
             "index": 6,
-            "numberText": "31",
-            "zodiac": "鼠",
-            "color": "blue",
-            "colorName": "蓝"
+            "numberText": "08",
+            "zodiac": "猪",
+            "color": "red",
+            "colorName": "红"
           }
         ],
         "regular": [
           {
             "index": 0,
-            "numberText": "47",
+            "numberText": "11",
             "zodiac": "猴",
-            "color": "blue",
-            "colorName": "蓝"
+            "color": "green",
+            "colorName": "绿"
           },
           {
             "index": 1,
-            "numberText": "21",
-            "zodiac": "狗",
+            "numberText": "43",
+            "zodiac": "鼠",
             "color": "green",
             "colorName": "绿"
           },
           {
             "index": 2,
-            "numberText": "04",
-            "zodiac": "兔",
+            "numberText": "27",
+            "zodiac": "龙",
+            "color": "green",
+            "colorName": "绿"
+          },
+          {
+            "index": 3,
+            "numberText": "10",
+            "zodiac": "鸡",
             "color": "blue",
             "colorName": "蓝"
           },
           {
-            "index": 3,
-            "numberText": "02",
-            "zodiac": "蛇",
-            "color": "red",
-            "colorName": "红"
-          },
-          {
             "index": 4,
-            "numberText": "24",
-            "zodiac": "羊",
+            "numberText": "19",
+            "zodiac": "鼠",
             "color": "red",
             "colorName": "红"
           },
           {
             "index": 5,
-            "numberText": "18",
-            "zodiac": "牛",
-            "color": "red",
-            "colorName": "红"
+            "numberText": "37",
+            "zodiac": "马",
+            "color": "blue",
+            "colorName": "蓝"
           }
         ],
         "special": {
           "index": 6,
-          "numberText": "31",
-          "zodiac": "鼠",
-          "color": "blue",
-          "colorName": "蓝"
+          "numberText": "08",
+          "zodiac": "猪",
+          "color": "red",
+          "colorName": "红"
         }
       },
       "yearPools": [
@@ -50684,9 +50640,9 @@
         "year": "2026",
         "start": 116,
         "end": 120,
-        "count": 0,
+        "count": 1,
         "expected": 5,
-        "covered": false,
+        "covered": true,
         "pool": [
           "08",
           "23",
@@ -50698,76 +50654,8 @@
           "44"
         ],
         "poolBasis": "before-current-window",
-        "displayMode": "next-window",
-        "reviewWindow": {
-          "year": "2026",
-          "start": 111,
-          "end": 115,
-          "count": 5,
-          "expected": 5,
-          "nums": [
-            "05",
-            "09",
-            "20",
-            "31"
-          ],
-          "covered": true,
-          "pool": [
-            "08",
-            "23",
-            "20",
-            "03",
-            "02",
-            "46",
-            "14",
-            "44"
-          ],
-          "poolBasis": "before-review-window",
-          "hits": [
-            {
-              "issue": 114,
-              "date": "2026-10-24",
-              "num": "20"
-            }
-          ],
-          "draws": [
-            {
-              "issue": 111,
-              "date": "2026-10-17",
-              "num": "09"
-            },
-            {
-              "issue": 112,
-              "date": "2026-10-20",
-              "num": "31"
-            },
-            {
-              "issue": 113,
-              "date": "2026-10-22",
-              "num": "05"
-            },
-            {
-              "issue": 114,
-              "date": "2026-10-24",
-              "num": "20"
-            },
-            {
-              "issue": 115,
-              "date": "2026-10-27",
-              "num": "31"
-            }
-          ],
-          "postWindowOptimal": {
-            "covered": true,
-            "hits": [
-              {
-                "issue": 114,
-                "date": "2026-10-24",
-                "num": "20"
-              }
-            ]
-          }
-        },
+        "displayMode": "active-window",
+        "reviewWindow": null,
         "postWindowOptimal": {
           "pool": [
             "08",
@@ -50779,11 +50667,29 @@
             "14",
             "44"
           ],
-          "covered": false,
-          "hits": []
+          "covered": true,
+          "hits": [
+            {
+              "issue": 116,
+              "date": "2026-10-31",
+              "num": "08"
+            }
+          ]
         },
-        "hits": [],
-        "draws": []
+        "hits": [
+          {
+            "issue": 116,
+            "date": "2026-10-31",
+            "num": "08"
+          }
+        ],
+        "draws": [
+          {
+            "issue": 116,
+            "date": "2026-10-31",
+            "num": "08"
+          }
+        ]
       },
       "rollingWindows": [
         {
