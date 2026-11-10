@@ -1,5 +1,5 @@
 window.__HISTORY_PATTERN_STATE__ = {
-  "generatedAt": "2026-11-09 23:24:56",
+  "generatedAt": "2026-11-10 20:37:49",
   "items": [
     {
       "source": "am",
@@ -1056,13 +1056,14 @@ window.__HISTORY_PATTERN_STATE__ = {
             "year": "2026",
             "start": 296,
             "end": 300,
-            "count": 9,
+            "count": 10,
             "nums": [
               "07",
               "08",
               "13",
               "23",
               "38",
+              "39",
               "43",
               "45",
               "48"
@@ -1121,112 +1122,112 @@ window.__HISTORY_PATTERN_STATE__ = {
       "exact": false,
       "method": "rolling-before-window-exact-or-greedy-49c8",
       "validationMode": "rolling-before-window",
-      "computedAt": "2026-11-09 23:24:56",
+      "computedAt": "2026-11-10 20:37:49",
       "latestDraw": {
-        "issue": 313,
-        "date": "2026-11-09",
+        "issue": 314,
+        "date": "2026-11-10",
         "year": "2026",
         "balls": [
           {
             "index": 0,
-            "numberText": "33",
-            "zodiac": "狗",
-            "color": "green",
-            "colorName": "绿"
-          },
-          {
-            "index": 1,
-            "numberText": "39",
-            "zodiac": "龙",
-            "color": "green",
-            "colorName": "绿"
-          },
-          {
-            "index": 2,
-            "numberText": "45",
-            "zodiac": "狗",
+            "numberText": "13",
+            "zodiac": "马",
             "color": "red",
             "colorName": "红"
           },
           {
+            "index": 1,
+            "numberText": "26",
+            "zodiac": "蛇",
+            "color": "blue",
+            "colorName": "蓝"
+          },
+          {
+            "index": 2,
+            "numberText": "09",
+            "zodiac": "狗",
+            "color": "blue",
+            "colorName": "蓝"
+          },
+          {
             "index": 3,
-            "numberText": "15",
-            "zodiac": "龙",
+            "numberText": "37",
+            "zodiac": "马",
             "color": "blue",
             "colorName": "蓝"
           },
           {
             "index": 4,
-            "numberText": "07",
-            "zodiac": "鼠",
+            "numberText": "34",
+            "zodiac": "鸡",
             "color": "red",
             "colorName": "红"
           },
           {
             "index": 5,
-            "numberText": "20",
+            "numberText": "44",
             "zodiac": "猪",
-            "color": "blue",
-            "colorName": "蓝"
+            "color": "green",
+            "colorName": "绿"
           },
           {
             "index": 6,
-            "numberText": "43",
+            "numberText": "31",
             "zodiac": "鼠",
-            "color": "green",
-            "colorName": "绿"
+            "color": "blue",
+            "colorName": "蓝"
           }
         ],
         "regular": [
           {
             "index": 0,
-            "numberText": "33",
-            "zodiac": "狗",
-            "color": "green",
-            "colorName": "绿"
-          },
-          {
-            "index": 1,
-            "numberText": "39",
-            "zodiac": "龙",
-            "color": "green",
-            "colorName": "绿"
-          },
-          {
-            "index": 2,
-            "numberText": "45",
-            "zodiac": "狗",
+            "numberText": "13",
+            "zodiac": "马",
             "color": "red",
             "colorName": "红"
           },
           {
+            "index": 1,
+            "numberText": "26",
+            "zodiac": "蛇",
+            "color": "blue",
+            "colorName": "蓝"
+          },
+          {
+            "index": 2,
+            "numberText": "09",
+            "zodiac": "狗",
+            "color": "blue",
+            "colorName": "蓝"
+          },
+          {
             "index": 3,
-            "numberText": "15",
-            "zodiac": "龙",
+            "numberText": "37",
+            "zodiac": "马",
             "color": "blue",
             "colorName": "蓝"
           },
           {
             "index": 4,
-            "numberText": "07",
-            "zodiac": "鼠",
+            "numberText": "34",
+            "zodiac": "鸡",
             "color": "red",
             "colorName": "红"
           },
           {
             "index": 5,
-            "numberText": "20",
+            "numberText": "44",
             "zodiac": "猪",
-            "color": "blue",
-            "colorName": "蓝"
+            "color": "green",
+            "colorName": "绿"
           }
         ],
         "special": {
           "index": 6,
-          "numberText": "43",
+          "numberText": "31",
           "zodiac": "鼠",
-          "color": "green",
-          "colorName": "绿"
+          "color": "blue",
+          "colorName": "蓝"
         }
       },
       "yearPools": [
@@ -1254,7 +1255,7 @@ window.__HISTORY_PATTERN_STATE__ = {
         "year": "2026",
         "start": 311,
         "end": 315,
-        "count": 3,
+        "count": 4,
         "expected": 5,
         "covered": true,
         "pool": [
@@ -1312,6 +1313,11 @@ window.__HISTORY_PATTERN_STATE__ = {
             "issue": 313,
             "date": "2026-11-09",
             "num": "43"
+          },
+          {
+            "issue": 314,
+            "date": "2026-11-10",
+            "num": "31"
           }
         ]
       },
@@ -3169,13 +3175,14 @@ window.__HISTORY_PATTERN_STATE__ = {
           "year": "2026",
           "start": 296,
           "end": 300,
-          "count": 9,
+          "count": 10,
           "nums": [
             "07",
             "08",
             "13",
             "23",
             "38",
+            "39",
             "43",
             "45",
             "48"
@@ -5104,13 +5111,14 @@ window.__HISTORY_PATTERN_STATE__ = {
           "year": "2026",
           "start": 296,
           "end": 300,
-          "count": 9,
+          "count": 10,
           "nums": [
             "07",
             "08",
             "13",
             "23",
             "38",
+            "39",
             "43",
             "45",
             "48"
@@ -5665,19 +5673,19 @@ window.__HISTORY_PATTERN_STATE__ = {
         "49",
         "30",
         "06",
-        "45",
-        "05",
-        "03",
-        "08"
+        "35",
+        "47",
+        "09",
+        "03"
       ],
       "postWindowOptimalPool": [
         "39",
         "49",
         "30",
         "06",
-        "45",
-        "05",
-        "03",
+        "35",
+        "47",
+        "46",
         "08"
       ],
       "postWindowStats": {
@@ -5708,7 +5716,7 @@ window.__HISTORY_PATTERN_STATE__ = {
               "26",
               "47"
             ],
-            "covered": false
+            "covered": true
           },
           {
             "year": "2020",
@@ -5845,7 +5853,7 @@ window.__HISTORY_PATTERN_STATE__ = {
               "25",
               "35"
             ],
-            "covered": false
+            "covered": true
           },
           {
             "year": "2020",
@@ -5952,7 +5960,7 @@ window.__HISTORY_PATTERN_STATE__ = {
               "37",
               "40"
             ],
-            "covered": true
+            "covered": false
           },
           {
             "year": "2020",
@@ -5966,7 +5974,7 @@ window.__HISTORY_PATTERN_STATE__ = {
               "43",
               "45"
             ],
-            "covered": true
+            "covered": false
           },
           {
             "year": "2020",
@@ -5979,7 +5987,7 @@ window.__HISTORY_PATTERN_STATE__ = {
               "18",
               "19"
             ],
-            "covered": true
+            "covered": false
           },
           {
             "year": "2020",
@@ -6006,7 +6014,7 @@ window.__HISTORY_PATTERN_STATE__ = {
               "33",
               "46"
             ],
-            "covered": false
+            "covered": true
           },
           {
             "year": "2020",
@@ -6034,7 +6042,7 @@ window.__HISTORY_PATTERN_STATE__ = {
               "20",
               "31"
             ],
-            "covered": true
+            "covered": false
           },
           {
             "year": "2020",
@@ -6060,7 +6068,7 @@ window.__HISTORY_PATTERN_STATE__ = {
               "38",
               "46"
             ],
-            "covered": false
+            "covered": true
           },
           {
             "year": "2020",
@@ -6073,7 +6081,7 @@ window.__HISTORY_PATTERN_STATE__ = {
               "31",
               "41"
             ],
-            "covered": true
+            "covered": false
           },
           {
             "year": "2020",
@@ -6128,7 +6136,7 @@ window.__HISTORY_PATTERN_STATE__ = {
               "44",
               "46"
             ],
-            "covered": false
+            "covered": true
           },
           {
             "year": "2020",
@@ -6155,7 +6163,7 @@ window.__HISTORY_PATTERN_STATE__ = {
               "44",
               "46"
             ],
-            "covered": false
+            "covered": true
           },
           {
             "year": "2020",
@@ -6168,7 +6176,7 @@ window.__HISTORY_PATTERN_STATE__ = {
               "35",
               "46"
             ],
-            "covered": false
+            "covered": true
           },
           {
             "year": "2020",
@@ -6223,7 +6231,7 @@ window.__HISTORY_PATTERN_STATE__ = {
               "32",
               "34"
             ],
-            "covered": true
+            "covered": false
           },
           {
             "year": "2020",
@@ -6333,7 +6341,7 @@ window.__HISTORY_PATTERN_STATE__ = {
               "17",
               "37"
             ],
-            "covered": true
+            "covered": false
           },
           {
             "year": "2021",
@@ -6388,7 +6396,7 @@ window.__HISTORY_PATTERN_STATE__ = {
               "37",
               "42"
             ],
-            "covered": true
+            "covered": false
           },
           {
             "year": "2021",
@@ -6416,7 +6424,7 @@ window.__HISTORY_PATTERN_STATE__ = {
               "42",
               "47"
             ],
-            "covered": false
+            "covered": true
           },
           {
             "year": "2021",
@@ -6610,7 +6618,7 @@ window.__HISTORY_PATTERN_STATE__ = {
               "37",
               "45"
             ],
-            "covered": true
+            "covered": false
           },
           {
             "year": "2021",
@@ -6624,7 +6632,7 @@ window.__HISTORY_PATTERN_STATE__ = {
               "36",
               "48"
             ],
-            "covered": false
+            "covered": true
           },
           {
             "year": "2021",
@@ -6693,7 +6701,7 @@ window.__HISTORY_PATTERN_STATE__ = {
               "46",
               "48"
             ],
-            "covered": false
+            "covered": true
           },
           {
             "year": "2021",
@@ -6763,7 +6771,7 @@ window.__HISTORY_PATTERN_STATE__ = {
               "28",
               "45"
             ],
-            "covered": true
+            "covered": false
           },
           {
             "year": "2021",
@@ -6831,7 +6839,7 @@ window.__HISTORY_PATTERN_STATE__ = {
               "23",
               "43"
             ],
-            "covered": true
+            "covered": false
           },
           {
             "year": "2021",
@@ -6859,7 +6867,7 @@ window.__HISTORY_PATTERN_STATE__ = {
               "36",
               "47"
             ],
-            "covered": false
+            "covered": true
           },
           {
             "year": "2021",
@@ -6970,7 +6978,7 @@ window.__HISTORY_PATTERN_STATE__ = {
               "38",
               "45"
             ],
-            "covered": true
+            "covered": false
           },
           {
             "year": "2021",
@@ -7067,7 +7075,7 @@ window.__HISTORY_PATTERN_STATE__ = {
               "34",
               "48"
             ],
-            "covered": true
+            "covered": false
           },
           {
             "year": "2021",
@@ -7275,7 +7283,7 @@ window.__HISTORY_PATTERN_STATE__ = {
               "43",
               "45"
             ],
-            "covered": true
+            "covered": false
           },
           {
             "year": "2021",
@@ -7289,7 +7297,7 @@ window.__HISTORY_PATTERN_STATE__ = {
               "44",
               "46"
             ],
-            "covered": false
+            "covered": true
           },
           {
             "year": "2021",
@@ -7315,7 +7323,7 @@ window.__HISTORY_PATTERN_STATE__ = {
               "22",
               "47"
             ],
-            "covered": false
+            "covered": true
           },
           {
             "year": "2022",
@@ -7370,7 +7378,7 @@ window.__HISTORY_PATTERN_STATE__ = {
               "19",
               "33"
             ],
-            "covered": true
+            "covered": false
           },
           {
             "year": "2022",
@@ -7411,7 +7419,7 @@ window.__HISTORY_PATTERN_STATE__ = {
               "32",
               "42"
             ],
-            "covered": true
+            "covered": false
           },
           {
             "year": "2022",
@@ -7523,7 +7531,7 @@ window.__HISTORY_PATTERN_STATE__ = {
               "31",
               "46"
             ],
-            "covered": false
+            "covered": true
           },
           {
             "year": "2022",
@@ -7633,7 +7641,7 @@ window.__HISTORY_PATTERN_STATE__ = {
               "34",
               "46"
             ],
-            "covered": false
+            "covered": true
           },
           {
             "year": "2022",
@@ -7647,7 +7655,7 @@ window.__HISTORY_PATTERN_STATE__ = {
               "46",
               "48"
             ],
-            "covered": false
+            "covered": true
           },
           {
             "year": "2022",
@@ -7675,7 +7683,7 @@ window.__HISTORY_PATTERN_STATE__ = {
               "40",
               "45"
             ],
-            "covered": true
+            "covered": false
           },
           {
             "year": "2022",
@@ -7716,7 +7724,7 @@ window.__HISTORY_PATTERN_STATE__ = {
               "42",
               "47"
             ],
-            "covered": false
+            "covered": true
           },
           {
             "year": "2022",
@@ -7744,7 +7752,7 @@ window.__HISTORY_PATTERN_STATE__ = {
               "26",
               "35"
             ],
-            "covered": false
+            "covered": true
           },
           {
             "year": "2022",
@@ -7828,7 +7836,7 @@ window.__HISTORY_PATTERN_STATE__ = {
               "35",
               "44"
             ],
-            "covered": false
+            "covered": true
           },
           {
             "year": "2022",
@@ -7910,7 +7918,7 @@ window.__HISTORY_PATTERN_STATE__ = {
               "41",
               "47"
             ],
-            "covered": false
+            "covered": true
           },
           {
             "year": "2022",
@@ -7923,7 +7931,7 @@ window.__HISTORY_PATTERN_STATE__ = {
               "24",
               "47"
             ],
-            "covered": false
+            "covered": true
           },
           {
             "year": "2022",
@@ -7963,7 +7971,7 @@ window.__HISTORY_PATTERN_STATE__ = {
               "20",
               "27"
             ],
-            "covered": true
+            "covered": false
           },
           {
             "year": "2022",
@@ -7991,7 +7999,7 @@ window.__HISTORY_PATTERN_STATE__ = {
               "21",
               "46"
             ],
-            "covered": false
+            "covered": true
           },
           {
             "year": "2022",
@@ -8005,7 +8013,7 @@ window.__HISTORY_PATTERN_STATE__ = {
               "38",
               "43"
             ],
-            "covered": true
+            "covered": false
           },
           {
             "year": "2022",
@@ -8046,7 +8054,7 @@ window.__HISTORY_PATTERN_STATE__ = {
               "21",
               "45"
             ],
-            "covered": true
+            "covered": false
           },
           {
             "year": "2022",
@@ -8060,7 +8068,7 @@ window.__HISTORY_PATTERN_STATE__ = {
               "47",
               "48"
             ],
-            "covered": false
+            "covered": true
           },
           {
             "year": "2022",
@@ -8074,7 +8082,7 @@ window.__HISTORY_PATTERN_STATE__ = {
               "18",
               "20"
             ],
-            "covered": true
+            "covered": false
           },
           {
             "year": "2022",
@@ -8102,7 +8110,7 @@ window.__HISTORY_PATTERN_STATE__ = {
               "43",
               "45"
             ],
-            "covered": true
+            "covered": false
           },
           {
             "year": "2022",
@@ -8183,7 +8191,7 @@ window.__HISTORY_PATTERN_STATE__ = {
               "38",
               "44"
             ],
-            "covered": true
+            "covered": false
           },
           {
             "year": "2022",
@@ -8223,7 +8231,7 @@ window.__HISTORY_PATTERN_STATE__ = {
               "29",
               "45"
             ],
-            "covered": true
+            "covered": false
           },
           {
             "year": "2022",
@@ -8250,7 +8258,7 @@ window.__HISTORY_PATTERN_STATE__ = {
               "25",
               "38"
             ],
-            "covered": true
+            "covered": false
           },
           {
             "year": "2022",
@@ -8264,7 +8272,7 @@ window.__HISTORY_PATTERN_STATE__ = {
               "41",
               "45"
             ],
-            "covered": true
+            "covered": false
           },
           {
             "year": "2022",
@@ -8374,7 +8382,7 @@ window.__HISTORY_PATTERN_STATE__ = {
               "40",
               "45"
             ],
-            "covered": true
+            "covered": false
           },
           {
             "year": "2023",
@@ -8388,7 +8396,7 @@ window.__HISTORY_PATTERN_STATE__ = {
               "35",
               "36"
             ],
-            "covered": false
+            "covered": true
           },
           {
             "year": "2023",
@@ -8401,7 +8409,7 @@ window.__HISTORY_PATTERN_STATE__ = {
               "47",
               "48"
             ],
-            "covered": false
+            "covered": true
           },
           {
             "year": "2023",
@@ -8484,7 +8492,7 @@ window.__HISTORY_PATTERN_STATE__ = {
               "32",
               "46"
             ],
-            "covered": false
+            "covered": true
           },
           {
             "year": "2023",
@@ -8526,7 +8534,7 @@ window.__HISTORY_PATTERN_STATE__ = {
               "21",
               "37"
             ],
-            "covered": true
+            "covered": false
           },
           {
             "year": "2023",
@@ -8567,7 +8575,7 @@ window.__HISTORY_PATTERN_STATE__ = {
               "35",
               "44"
             ],
-            "covered": false
+            "covered": true
           },
           {
             "year": "2023",
@@ -8664,7 +8672,7 @@ window.__HISTORY_PATTERN_STATE__ = {
               "31",
               "35"
             ],
-            "covered": false
+            "covered": true
           },
           {
             "year": "2023",
@@ -8760,7 +8768,7 @@ window.__HISTORY_PATTERN_STATE__ = {
               "17",
               "37"
             ],
-            "covered": true
+            "covered": false
           },
           {
             "year": "2023",
@@ -8869,7 +8877,7 @@ window.__HISTORY_PATTERN_STATE__ = {
               "11",
               "25"
             ],
-            "covered": true
+            "covered": false
           },
           {
             "year": "2023",
@@ -8925,7 +8933,7 @@ window.__HISTORY_PATTERN_STATE__ = {
               "38",
               "45"
             ],
-            "covered": true
+            "covered": false
           },
           {
             "year": "2023",
@@ -8939,7 +8947,7 @@ window.__HISTORY_PATTERN_STATE__ = {
               "33",
               "36"
             ],
-            "covered": true
+            "covered": false
           },
           {
             "year": "2023",
@@ -8952,7 +8960,7 @@ window.__HISTORY_PATTERN_STATE__ = {
               "13",
               "45"
             ],
-            "covered": true
+            "covered": false
           },
           {
             "year": "2023",
@@ -8993,7 +9001,7 @@ window.__HISTORY_PATTERN_STATE__ = {
               "21",
               "29"
             ],
-            "covered": true
+            "covered": false
           },
           {
             "year": "2023",
@@ -9119,7 +9127,7 @@ window.__HISTORY_PATTERN_STATE__ = {
               "44",
               "48"
             ],
-            "covered": false
+            "covered": true
           },
           {
             "year": "2023",
@@ -9215,7 +9223,7 @@ window.__HISTORY_PATTERN_STATE__ = {
               "21",
               "35"
             ],
-            "covered": false
+            "covered": true
           },
           {
             "year": "2023",
@@ -9243,7 +9251,7 @@ window.__HISTORY_PATTERN_STATE__ = {
               "41",
               "46"
             ],
-            "covered": false
+            "covered": true
           },
           {
             "year": "2023",
@@ -9271,7 +9279,7 @@ window.__HISTORY_PATTERN_STATE__ = {
               "37",
               "46"
             ],
-            "covered": false
+            "covered": true
           },
           {
             "year": "2023",
@@ -9341,7 +9349,7 @@ window.__HISTORY_PATTERN_STATE__ = {
               "46",
               "47"
             ],
-            "covered": false
+            "covered": true
           },
           {
             "year": "2024",
@@ -9368,7 +9376,7 @@ window.__HISTORY_PATTERN_STATE__ = {
               "29",
               "47"
             ],
-            "covered": false
+            "covered": true
           },
           {
             "year": "2024",
@@ -9382,7 +9390,7 @@ window.__HISTORY_PATTERN_STATE__ = {
               "35",
               "41"
             ],
-            "covered": false
+            "covered": true
           },
           {
             "year": "2024",
@@ -9520,7 +9528,7 @@ window.__HISTORY_PATTERN_STATE__ = {
               "19",
               "34"
             ],
-            "covered": true
+            "covered": false
           },
           {
             "year": "2024",
@@ -9534,7 +9542,7 @@ window.__HISTORY_PATTERN_STATE__ = {
               "38",
               "44"
             ],
-            "covered": true
+            "covered": false
           },
           {
             "year": "2024",
@@ -9640,7 +9648,7 @@ window.__HISTORY_PATTERN_STATE__ = {
               "43",
               "44"
             ],
-            "covered": false
+            "covered": true
           },
           {
             "year": "2024",
@@ -9730,7 +9738,7 @@ window.__HISTORY_PATTERN_STATE__ = {
               "35",
               "44"
             ],
-            "covered": false
+            "covered": true
           },
           {
             "year": "2024",
@@ -9891,7 +9899,7 @@ window.__HISTORY_PATTERN_STATE__ = {
               "42",
               "47"
             ],
-            "covered": false
+            "covered": true
           },
           {
             "year": "2024",
@@ -9963,7 +9971,7 @@ window.__HISTORY_PATTERN_STATE__ = {
               "43",
               "45"
             ],
-            "covered": true
+            "covered": false
           },
           {
             "year": "2024",
@@ -10015,7 +10023,7 @@ window.__HISTORY_PATTERN_STATE__ = {
               "35",
               "37"
             ],
-            "covered": false
+            "covered": true
           },
           {
             "year": "2024",
@@ -10229,7 +10237,7 @@ window.__HISTORY_PATTERN_STATE__ = {
               "40",
               "45"
             ],
-            "covered": true
+            "covered": false
           },
           {
             "year": "2024",
@@ -10248,7 +10256,7 @@ window.__HISTORY_PATTERN_STATE__ = {
               "46",
               "47"
             ],
-            "covered": false
+            "covered": true
           },
           {
             "year": "2024",
@@ -10512,7 +10520,7 @@ window.__HISTORY_PATTERN_STATE__ = {
               "21",
               "46"
             ],
-            "covered": false
+            "covered": true
           },
           {
             "year": "2024",
@@ -10568,7 +10576,7 @@ window.__HISTORY_PATTERN_STATE__ = {
               "40",
               "42"
             ],
-            "covered": true
+            "covered": false
           },
           {
             "year": "2025",
@@ -10810,7 +10818,7 @@ window.__HISTORY_PATTERN_STATE__ = {
               "35",
               "38"
             ],
-            "covered": false
+            "covered": true
           },
           {
             "year": "2025",
@@ -11010,7 +11018,7 @@ window.__HISTORY_PATTERN_STATE__ = {
               "36",
               "41"
             ],
-            "covered": true
+            "covered": false
           },
           {
             "year": "2025",
@@ -11048,7 +11056,7 @@ window.__HISTORY_PATTERN_STATE__ = {
               "40",
               "41"
             ],
-            "covered": false
+            "covered": true
           },
           {
             "year": "2025",
@@ -11123,7 +11131,7 @@ window.__HISTORY_PATTERN_STATE__ = {
               "41",
               "47"
             ],
-            "covered": false
+            "covered": true
           },
           {
             "year": "2025",
@@ -11233,7 +11241,7 @@ window.__HISTORY_PATTERN_STATE__ = {
               "47",
               "48"
             ],
-            "covered": false
+            "covered": true
           },
           {
             "year": "2025",
@@ -11288,7 +11296,7 @@ window.__HISTORY_PATTERN_STATE__ = {
               "32",
               "45"
             ],
-            "covered": true
+            "covered": false
           },
           {
             "year": "2025",
@@ -11613,7 +11621,7 @@ window.__HISTORY_PATTERN_STATE__ = {
               "42",
               "48"
             ],
-            "covered": true
+            "covered": false
           },
           {
             "year": "2025",
@@ -11685,7 +11693,7 @@ window.__HISTORY_PATTERN_STATE__ = {
               "40",
               "47"
             ],
-            "covered": false
+            "covered": true
           },
           {
             "year": "2025",
@@ -11703,7 +11711,7 @@ window.__HISTORY_PATTERN_STATE__ = {
               "36",
               "37"
             ],
-            "covered": true
+            "covered": false
           },
           {
             "year": "2025",
@@ -11871,7 +11879,7 @@ window.__HISTORY_PATTERN_STATE__ = {
               "40",
               "47"
             ],
-            "covered": false
+            "covered": true
           },
           {
             "year": "2026",
@@ -11885,7 +11893,7 @@ window.__HISTORY_PATTERN_STATE__ = {
               "34",
               "35"
             ],
-            "covered": false
+            "covered": true
           },
           {
             "year": "2026",
@@ -12015,7 +12023,7 @@ window.__HISTORY_PATTERN_STATE__ = {
               "40",
               "48"
             ],
-            "covered": true
+            "covered": false
           },
           {
             "year": "2026",
@@ -12087,7 +12095,7 @@ window.__HISTORY_PATTERN_STATE__ = {
               "38",
               "43"
             ],
-            "covered": true
+            "covered": false
           },
           {
             "year": "2026",
@@ -12842,19 +12850,20 @@ window.__HISTORY_PATTERN_STATE__ = {
               "36",
               "42"
             ],
-            "covered": true
+            "covered": false
           },
           {
             "year": "2026",
             "start": 296,
             "end": 300,
-            "count": 9,
+            "count": 10,
             "nums": [
               "07",
               "08",
               "13",
               "23",
               "38",
+              "39",
               "43",
               "45",
               "48"
@@ -12872,7 +12881,7 @@ window.__HISTORY_PATTERN_STATE__ = {
               "26",
               "45"
             ],
-            "covered": true
+            "covered": false
           },
           {
             "year": "2026",
@@ -12885,10 +12894,10 @@ window.__HISTORY_PATTERN_STATE__ = {
               "42",
               "46"
             ],
-            "covered": false
+            "covered": true
           }
         ],
-        "covered": 360,
+        "covered": 362,
         "misses": [
           {
             "year": "2020",
@@ -12901,20 +12910,6 @@ window.__HISTORY_PATTERN_STATE__ = {
               "17",
               "28",
               "48"
-            ],
-            "covered": false
-          },
-          {
-            "year": "2020",
-            "start": 136,
-            "end": 140,
-            "count": 5,
-            "nums": [
-              "11",
-              "16",
-              "24",
-              "26",
-              "47"
             ],
             "covered": false
           },
@@ -12947,20 +12942,6 @@ window.__HISTORY_PATTERN_STATE__ = {
           },
           {
             "year": "2020",
-            "start": 186,
-            "end": 190,
-            "count": 5,
-            "nums": [
-              "10",
-              "20",
-              "23",
-              "25",
-              "35"
-            ],
-            "covered": false
-          },
-          {
-            "year": "2020",
             "start": 196,
             "end": 200,
             "count": 5,
@@ -12987,68 +12968,80 @@ window.__HISTORY_PATTERN_STATE__ = {
           },
           {
             "year": "2020",
-            "start": 246,
-            "end": 250,
+            "start": 226,
+            "end": 230,
             "count": 5,
             "nums": [
+              "05",
+              "37",
+              "40"
+            ],
+            "covered": false
+          },
+          {
+            "year": "2020",
+            "start": 231,
+            "end": 235,
+            "count": 5,
+            "nums": [
+              "04",
               "21",
-              "22",
-              "29",
-              "33",
-              "46"
+              "28",
+              "43",
+              "45"
             ],
             "covered": false
           },
           {
             "year": "2020",
-            "start": 266,
-            "end": 270,
+            "start": 236,
+            "end": 240,
             "count": 5,
             "nums": [
-              "01",
-              "09",
+              "05",
+              "11",
               "18",
-              "38",
-              "46"
+              "19"
             ],
             "covered": false
           },
           {
             "year": "2020",
-            "start": 291,
-            "end": 295,
+            "start": 256,
+            "end": 260,
             "count": 5,
             "nums": [
-              "24",
+              "03",
+              "04",
+              "07",
+              "20",
+              "31"
+            ],
+            "covered": false
+          },
+          {
+            "year": "2020",
+            "start": 271,
+            "end": 275,
+            "count": 5,
+            "nums": [
+              "05",
+              "28",
+              "31",
+              "41"
+            ],
+            "covered": false
+          },
+          {
+            "year": "2020",
+            "start": 326,
+            "end": 330,
+            "count": 5,
+            "nums": [
+              "05",
               "25",
-              "44",
-              "46"
-            ],
-            "covered": false
-          },
-          {
-            "year": "2020",
-            "start": 301,
-            "end": 305,
-            "count": 5,
-            "nums": [
-              "23",
-              "24",
-              "44",
-              "46"
-            ],
-            "covered": false
-          },
-          {
-            "year": "2020",
-            "start": 306,
-            "end": 310,
-            "count": 5,
-            "nums": [
-              "01",
               "32",
-              "35",
-              "46"
+              "34"
             ],
             "covered": false
           },
@@ -13081,15 +13074,28 @@ window.__HISTORY_PATTERN_STATE__ = {
           },
           {
             "year": "2021",
-            "start": 41,
-            "end": 45,
+            "start": 11,
+            "end": 15,
             "count": 5,
             "nums": [
-              "14",
+              "01",
+              "03",
+              "09",
+              "17",
+              "37"
+            ],
+            "covered": false
+          },
+          {
+            "year": "2021",
+            "start": 31,
+            "end": 35,
+            "count": 5,
+            "nums": [
+              "03",
               "21",
-              "31",
-              "42",
-              "47"
+              "37",
+              "42"
             ],
             "covered": false
           },
@@ -13136,15 +13142,15 @@ window.__HISTORY_PATTERN_STATE__ = {
           },
           {
             "year": "2021",
-            "start": 116,
-            "end": 120,
+            "start": 111,
+            "end": 115,
             "count": 5,
             "nums": [
-              "22",
-              "27",
-              "35",
-              "36",
-              "48"
+              "09",
+              "23",
+              "26",
+              "37",
+              "45"
             ],
             "covered": false
           },
@@ -13159,20 +13165,6 @@ window.__HISTORY_PATTERN_STATE__ = {
               "37",
               "38",
               "42"
-            ],
-            "covered": false
-          },
-          {
-            "year": "2021",
-            "start": 141,
-            "end": 145,
-            "count": 5,
-            "nums": [
-              "28",
-              "31",
-              "42",
-              "46",
-              "48"
             ],
             "covered": false
           },
@@ -13206,6 +13198,20 @@ window.__HISTORY_PATTERN_STATE__ = {
           },
           {
             "year": "2021",
+            "start": 166,
+            "end": 170,
+            "count": 5,
+            "nums": [
+              "11",
+              "13",
+              "14",
+              "28",
+              "45"
+            ],
+            "covered": false
+          },
+          {
+            "year": "2021",
             "start": 171,
             "end": 175,
             "count": 5,
@@ -13233,6 +13239,19 @@ window.__HISTORY_PATTERN_STATE__ = {
           },
           {
             "year": "2021",
+            "start": 191,
+            "end": 195,
+            "count": 5,
+            "nums": [
+              "03",
+              "14",
+              "23",
+              "43"
+            ],
+            "covered": false
+          },
+          {
+            "year": "2021",
             "start": 196,
             "end": 200,
             "count": 5,
@@ -13242,20 +13261,6 @@ window.__HISTORY_PATTERN_STATE__ = {
               "14",
               "28",
               "42"
-            ],
-            "covered": false
-          },
-          {
-            "year": "2021",
-            "start": 201,
-            "end": 205,
-            "count": 5,
-            "nums": [
-              "19",
-              "29",
-              "33",
-              "36",
-              "47"
             ],
             "covered": false
           },
@@ -13283,6 +13288,20 @@ window.__HISTORY_PATTERN_STATE__ = {
               "15",
               "17",
               "37"
+            ],
+            "covered": false
+          },
+          {
+            "year": "2021",
+            "start": 241,
+            "end": 245,
+            "count": 5,
+            "nums": [
+              "11",
+              "21",
+              "28",
+              "38",
+              "45"
             ],
             "covered": false
           },
@@ -13316,6 +13335,20 @@ window.__HISTORY_PATTERN_STATE__ = {
           },
           {
             "year": "2021",
+            "start": 276,
+            "end": 280,
+            "count": 5,
+            "nums": [
+              "02",
+              "05",
+              "19",
+              "34",
+              "48"
+            ],
+            "covered": false
+          },
+          {
+            "year": "2021",
             "start": 296,
             "end": 300,
             "count": 5,
@@ -13329,28 +13362,15 @@ window.__HISTORY_PATTERN_STATE__ = {
           },
           {
             "year": "2021",
-            "start": 356,
-            "end": 360,
+            "start": 351,
+            "end": 355,
             "count": 5,
             "nums": [
-              "17",
-              "22",
-              "32",
-              "44",
-              "46"
-            ],
-            "covered": false
-          },
-          {
-            "year": "2022",
-            "start": 1,
-            "end": 5,
-            "count": 5,
-            "nums": [
-              "10",
-              "21",
-              "22",
-              "47"
+              "14",
+              "18",
+              "25",
+              "43",
+              "45"
             ],
             "covered": false
           },
@@ -13369,6 +13389,33 @@ window.__HISTORY_PATTERN_STATE__ = {
           },
           {
             "year": "2022",
+            "start": 21,
+            "end": 25,
+            "count": 5,
+            "nums": [
+              "03",
+              "12",
+              "14",
+              "19",
+              "33"
+            ],
+            "covered": false
+          },
+          {
+            "year": "2022",
+            "start": 36,
+            "end": 40,
+            "count": 5,
+            "nums": [
+              "03",
+              "21",
+              "32",
+              "42"
+            ],
+            "covered": false
+          },
+          {
+            "year": "2022",
             "start": 51,
             "end": 55,
             "count": 5,
@@ -13378,20 +13425,6 @@ window.__HISTORY_PATTERN_STATE__ = {
               "13",
               "27",
               "40"
-            ],
-            "covered": false
-          },
-          {
-            "year": "2022",
-            "start": 76,
-            "end": 80,
-            "count": 5,
-            "nums": [
-              "22",
-              "23",
-              "28",
-              "31",
-              "46"
             ],
             "covered": false
           },
@@ -13425,28 +13458,15 @@ window.__HISTORY_PATTERN_STATE__ = {
           },
           {
             "year": "2022",
-            "start": 116,
-            "end": 120,
+            "start": 131,
+            "end": 135,
             "count": 5,
             "nums": [
-              "16",
-              "32",
-              "34",
-              "46"
-            ],
-            "covered": false
-          },
-          {
-            "year": "2022",
-            "start": 121,
-            "end": 125,
-            "count": 5,
-            "nums": [
-              "16",
-              "17",
-              "36",
-              "46",
-              "48"
+              "03",
+              "19",
+              "27",
+              "40",
+              "45"
             ],
             "covered": false
           },
@@ -13466,34 +13486,6 @@ window.__HISTORY_PATTERN_STATE__ = {
           },
           {
             "year": "2022",
-            "start": 146,
-            "end": 150,
-            "count": 5,
-            "nums": [
-              "04",
-              "17",
-              "41",
-              "42",
-              "47"
-            ],
-            "covered": false
-          },
-          {
-            "year": "2022",
-            "start": 156,
-            "end": 160,
-            "count": 5,
-            "nums": [
-              "12",
-              "14",
-              "16",
-              "26",
-              "35"
-            ],
-            "covered": false
-          },
-          {
-            "year": "2022",
             "start": 176,
             "end": 180,
             "count": 5,
@@ -13503,47 +13495,6 @@ window.__HISTORY_PATTERN_STATE__ = {
               "40",
               "41",
               "44"
-            ],
-            "covered": false
-          },
-          {
-            "year": "2022",
-            "start": 186,
-            "end": 190,
-            "count": 5,
-            "nums": [
-              "19",
-              "25",
-              "31",
-              "35",
-              "44"
-            ],
-            "covered": false
-          },
-          {
-            "year": "2022",
-            "start": 216,
-            "end": 220,
-            "count": 5,
-            "nums": [
-              "15",
-              "18",
-              "25",
-              "41",
-              "47"
-            ],
-            "covered": false
-          },
-          {
-            "year": "2022",
-            "start": 221,
-            "end": 225,
-            "count": 5,
-            "nums": [
-              "04",
-              "10",
-              "24",
-              "47"
             ],
             "covered": false
           },
@@ -13562,29 +13513,70 @@ window.__HISTORY_PATTERN_STATE__ = {
           },
           {
             "year": "2022",
-            "start": 246,
-            "end": 250,
+            "start": 236,
+            "end": 240,
             "count": 5,
             "nums": [
-              "04",
-              "10",
-              "13",
-              "21",
-              "46"
+              "05",
+              "09",
+              "17",
+              "20",
+              "27"
             ],
             "covered": false
           },
           {
             "year": "2022",
-            "start": 271,
-            "end": 275,
+            "start": 251,
+            "end": 255,
             "count": 5,
             "nums": [
-              "01",
-              "07",
+              "05",
+              "20",
+              "25",
+              "38",
+              "43"
+            ],
+            "covered": false
+          },
+          {
+            "year": "2022",
+            "start": 266,
+            "end": 270,
+            "count": 5,
+            "nums": [
+              "04",
+              "09",
+              "21",
+              "45"
+            ],
+            "covered": false
+          },
+          {
+            "year": "2022",
+            "start": 276,
+            "end": 280,
+            "count": 5,
+            "nums": [
+              "03",
+              "12",
+              "14",
               "18",
-              "47",
-              "48"
+              "20"
+            ],
+            "covered": false
+          },
+          {
+            "year": "2022",
+            "start": 286,
+            "end": 290,
+            "count": 5,
+            "nums": [
+              "09",
+              "19",
+              "26",
+              "43",
+              "45"
             ],
             "covered": false
           },
@@ -13618,6 +13610,60 @@ window.__HISTORY_PATTERN_STATE__ = {
           },
           {
             "year": "2022",
+            "start": 316,
+            "end": 320,
+            "count": 5,
+            "nums": [
+              "03",
+              "11",
+              "38",
+              "44"
+            ],
+            "covered": false
+          },
+          {
+            "year": "2022",
+            "start": 331,
+            "end": 335,
+            "count": 5,
+            "nums": [
+              "20",
+              "24",
+              "26",
+              "29",
+              "45"
+            ],
+            "covered": false
+          },
+          {
+            "year": "2022",
+            "start": 341,
+            "end": 345,
+            "count": 5,
+            "nums": [
+              "03",
+              "07",
+              "25",
+              "38"
+            ],
+            "covered": false
+          },
+          {
+            "year": "2022",
+            "start": 346,
+            "end": 350,
+            "count": 5,
+            "nums": [
+              "26",
+              "33",
+              "36",
+              "41",
+              "45"
+            ],
+            "covered": false
+          },
+          {
+            "year": "2022",
             "start": 351,
             "end": 355,
             "count": 5,
@@ -13632,55 +13678,29 @@ window.__HISTORY_PATTERN_STATE__ = {
           },
           {
             "year": "2023",
-            "start": 26,
-            "end": 30,
+            "start": 21,
+            "end": 25,
             "count": 5,
             "nums": [
-              "02",
-              "18",
-              "32",
-              "35",
-              "36"
-            ],
-            "covered": false
-          },
-          {
-            "year": "2023",
-            "start": 31,
-            "end": 35,
-            "count": 5,
-            "nums": [
-              "04",
-              "11",
-              "47",
-              "48"
-            ],
-            "covered": false
-          },
-          {
-            "year": "2023",
-            "start": 61,
-            "end": 65,
-            "count": 5,
-            "nums": [
+              "07",
               "09",
-              "27",
-              "32",
-              "46"
+              "36",
+              "40",
+              "45"
             ],
             "covered": false
           },
           {
             "year": "2023",
-            "start": 91,
-            "end": 95,
+            "start": 76,
+            "end": 80,
             "count": 5,
             "nums": [
-              "01",
-              "24",
-              "33",
-              "35",
-              "44"
+              "05",
+              "07",
+              "19",
+              "21",
+              "37"
             ],
             "covered": false
           },
@@ -13713,20 +13733,6 @@ window.__HISTORY_PATTERN_STATE__ = {
           },
           {
             "year": "2023",
-            "start": 126,
-            "end": 130,
-            "count": 5,
-            "nums": [
-              "02",
-              "11",
-              "21",
-              "31",
-              "35"
-            ],
-            "covered": false
-          },
-          {
-            "year": "2023",
             "start": 156,
             "end": 160,
             "count": 5,
@@ -13736,6 +13742,19 @@ window.__HISTORY_PATTERN_STATE__ = {
               "42",
               "43",
               "44"
+            ],
+            "covered": false
+          },
+          {
+            "year": "2023",
+            "start": 161,
+            "end": 165,
+            "count": 5,
+            "nums": [
+              "05",
+              "10",
+              "17",
+              "37"
             ],
             "covered": false
           },
@@ -13755,6 +13774,19 @@ window.__HISTORY_PATTERN_STATE__ = {
           },
           {
             "year": "2023",
+            "start": 201,
+            "end": 205,
+            "count": 5,
+            "nums": [
+              "03",
+              "04",
+              "11",
+              "25"
+            ],
+            "covered": false
+          },
+          {
+            "year": "2023",
             "start": 216,
             "end": 220,
             "count": 5,
@@ -13764,6 +13796,47 @@ window.__HISTORY_PATTERN_STATE__ = {
               "19",
               "20",
               "36"
+            ],
+            "covered": false
+          },
+          {
+            "year": "2023",
+            "start": 221,
+            "end": 225,
+            "count": 5,
+            "nums": [
+              "09",
+              "29",
+              "31",
+              "38",
+              "45"
+            ],
+            "covered": false
+          },
+          {
+            "year": "2023",
+            "start": 226,
+            "end": 230,
+            "count": 5,
+            "nums": [
+              "03",
+              "20",
+              "29",
+              "33",
+              "36"
+            ],
+            "covered": false
+          },
+          {
+            "year": "2023",
+            "start": 231,
+            "end": 235,
+            "count": 5,
+            "nums": [
+              "04",
+              "12",
+              "13",
+              "45"
             ],
             "covered": false
           },
@@ -13796,6 +13869,20 @@ window.__HISTORY_PATTERN_STATE__ = {
           },
           {
             "year": "2023",
+            "start": 246,
+            "end": 250,
+            "count": 5,
+            "nums": [
+              "03",
+              "13",
+              "14",
+              "21",
+              "29"
+            ],
+            "covered": false
+          },
+          {
+            "year": "2023",
             "start": 256,
             "end": 260,
             "count": 5,
@@ -13805,20 +13892,6 @@ window.__HISTORY_PATTERN_STATE__ = {
               "29",
               "34",
               "36"
-            ],
-            "covered": false
-          },
-          {
-            "year": "2023",
-            "start": 291,
-            "end": 295,
-            "count": 5,
-            "nums": [
-              "20",
-              "25",
-              "35",
-              "44",
-              "48"
             ],
             "covered": false
           },
@@ -13865,47 +13938,6 @@ window.__HISTORY_PATTERN_STATE__ = {
           },
           {
             "year": "2023",
-            "start": 326,
-            "end": 330,
-            "count": 5,
-            "nums": [
-              "01",
-              "18",
-              "21",
-              "35"
-            ],
-            "covered": false
-          },
-          {
-            "year": "2023",
-            "start": 336,
-            "end": 340,
-            "count": 5,
-            "nums": [
-              "10",
-              "16",
-              "31",
-              "41",
-              "46"
-            ],
-            "covered": false
-          },
-          {
-            "year": "2023",
-            "start": 346,
-            "end": 350,
-            "count": 5,
-            "nums": [
-              "09",
-              "14",
-              "28",
-              "37",
-              "46"
-            ],
-            "covered": false
-          },
-          {
-            "year": "2023",
             "start": 351,
             "end": 355,
             "count": 5,
@@ -13934,20 +13966,6 @@ window.__HISTORY_PATTERN_STATE__ = {
           },
           {
             "year": "2024",
-            "start": 6,
-            "end": 10,
-            "count": 5,
-            "nums": [
-              "13",
-              "28",
-              "36",
-              "46",
-              "47"
-            ],
-            "covered": false
-          },
-          {
-            "year": "2024",
             "start": 11,
             "end": 15,
             "count": 5,
@@ -13957,33 +13975,6 @@ window.__HISTORY_PATTERN_STATE__ = {
               "17",
               "33",
               "37"
-            ],
-            "covered": false
-          },
-          {
-            "year": "2024",
-            "start": 16,
-            "end": 20,
-            "count": 5,
-            "nums": [
-              "18",
-              "20",
-              "29",
-              "47"
-            ],
-            "covered": false
-          },
-          {
-            "year": "2024",
-            "start": 21,
-            "end": 25,
-            "count": 5,
-            "nums": [
-              "01",
-              "20",
-              "32",
-              "35",
-              "41"
             ],
             "covered": false
           },
@@ -14016,6 +14007,33 @@ window.__HISTORY_PATTERN_STATE__ = {
           },
           {
             "year": "2024",
+            "start": 71,
+            "end": 75,
+            "count": 5,
+            "nums": [
+              "03",
+              "16",
+              "19",
+              "34"
+            ],
+            "covered": false
+          },
+          {
+            "year": "2024",
+            "start": 76,
+            "end": 80,
+            "count": 5,
+            "nums": [
+              "05",
+              "17",
+              "32",
+              "38",
+              "44"
+            ],
+            "covered": false
+          },
+          {
+            "year": "2024",
             "start": 91,
             "end": 95,
             "count": 5,
@@ -14025,24 +14043,6 @@ window.__HISTORY_PATTERN_STATE__ = {
               "34",
               "41",
               "48"
-            ],
-            "covered": false
-          },
-          {
-            "year": "2024",
-            "start": 111,
-            "end": 115,
-            "count": 10,
-            "nums": [
-              "10",
-              "18",
-              "19",
-              "20",
-              "24",
-              "29",
-              "35",
-              "43",
-              "44"
             ],
             "covered": false
           },
@@ -14065,53 +14065,20 @@ window.__HISTORY_PATTERN_STATE__ = {
           },
           {
             "year": "2024",
-            "start": 136,
-            "end": 140,
+            "start": 201,
+            "end": 205,
             "count": 10,
             "nums": [
-              "01",
-              "09",
-              "14",
-              "16",
-              "17",
-              "27",
-              "33",
-              "35",
-              "44"
-            ],
-            "covered": false
-          },
-          {
-            "year": "2024",
-            "start": 181,
-            "end": 185,
-            "count": 10,
-            "nums": [
-              "10",
-              "13",
-              "23",
-              "25",
-              "27",
-              "42",
-              "47"
-            ],
-            "covered": false
-          },
-          {
-            "year": "2024",
-            "start": 216,
-            "end": 220,
-            "count": 10,
-            "nums": [
-              "14",
+              "05",
               "15",
-              "21",
-              "26",
+              "16",
+              "25",
+              "28",
               "29",
               "31",
-              "34",
-              "35",
-              "37"
+              "40",
+              "43",
+              "45"
             ],
             "covered": false
           },
@@ -14154,20 +14121,20 @@ window.__HISTORY_PATTERN_STATE__ = {
           },
           {
             "year": "2024",
-            "start": 281,
-            "end": 285,
+            "start": 276,
+            "end": 280,
             "count": 10,
             "nums": [
               "07",
-              "13",
-              "16",
-              "18",
-              "21",
-              "25",
-              "27",
-              "43",
-              "46",
-              "47"
+              "11",
+              "14",
+              "22",
+              "26",
+              "28",
+              "29",
+              "36",
+              "40",
+              "45"
             ],
             "covered": false
           },
@@ -14191,16 +14158,16 @@ window.__HISTORY_PATTERN_STATE__ = {
             "covered": false
           },
           {
-            "year": "2024",
-            "start": 356,
-            "end": 360,
+            "year": "2025",
+            "start": 11,
+            "end": 15,
             "count": 5,
             "nums": [
-              "09",
-              "14",
-              "15",
-              "21",
-              "46"
+              "01",
+              "03",
+              "33",
+              "40",
+              "42"
             ],
             "covered": false
           },
@@ -14236,74 +14203,55 @@ window.__HISTORY_PATTERN_STATE__ = {
           },
           {
             "year": "2025",
-            "start": 81,
-            "end": 85,
-            "count": 10,
-            "nums": [
-              "01",
-              "11",
-              "19",
-              "20",
-              "28",
-              "32",
-              "34",
-              "35",
-              "38"
-            ],
-            "covered": false
-          },
-          {
-            "year": "2025",
-            "start": 146,
-            "end": 150,
+            "start": 136,
+            "end": 140,
             "count": 10,
             "nums": [
               "02",
+              "05",
+              "09",
+              "11",
               "14",
-              "15",
-              "22",
-              "27",
-              "28",
-              "32",
-              "35",
-              "40",
+              "19",
+              "25",
+              "34",
+              "36",
               "41"
             ],
             "covered": false
           },
           {
             "year": "2025",
-            "start": 166,
-            "end": 170,
+            "start": 211,
+            "end": 215,
             "count": 10,
             "nums": [
-              "07",
-              "09",
-              "16",
-              "20",
-              "23",
-              "33",
-              "38",
-              "41",
-              "47"
+              "02",
+              "03",
+              "11",
+              "12",
+              "15",
+              "18",
+              "21",
+              "32",
+              "45"
             ],
             "covered": false
           },
           {
             "year": "2025",
-            "start": 196,
-            "end": 200,
+            "start": 301,
+            "end": 305,
             "count": 10,
             "nums": [
-              "02",
+              "05",
               "10",
-              "13",
-              "14",
-              "26",
-              "34",
-              "43",
-              "44",
-              "47",
+              "11",
+              "15",
+              "22",
+              "27",
+              "33",
+              "42",
               "48"
             ],
             "covered": false
@@ -14326,19 +14274,19 @@ window.__HISTORY_PATTERN_STATE__ = {
           },
           {
             "year": "2025",
-            "start": 321,
-            "end": 325,
+            "start": 326,
+            "end": 330,
             "count": 10,
             "nums": [
-              "04",
-              "07",
-              "09",
+              "03",
+              "10",
+              "11",
               "15",
               "17",
-              "23",
-              "34",
-              "40",
-              "47"
+              "19",
+              "27",
+              "36",
+              "37"
             ],
             "covered": false
           },
@@ -14384,33 +14332,6 @@ window.__HISTORY_PATTERN_STATE__ = {
           },
           {
             "year": "2026",
-            "start": 16,
-            "end": 20,
-            "count": 5,
-            "nums": [
-              "16",
-              "38",
-              "40",
-              "47"
-            ],
-            "covered": false
-          },
-          {
-            "year": "2026",
-            "start": 21,
-            "end": 25,
-            "count": 5,
-            "nums": [
-              "09",
-              "10",
-              "16",
-              "34",
-              "35"
-            ],
-            "covered": false
-          },
-          {
-            "year": "2026",
             "start": 36,
             "end": 40,
             "count": 5,
@@ -14433,6 +14354,42 @@ window.__HISTORY_PATTERN_STATE__ = {
               "19",
               "25",
               "28"
+            ],
+            "covered": false
+          },
+          {
+            "year": "2026",
+            "start": 61,
+            "end": 65,
+            "count": 10,
+            "nums": [
+              "05",
+              "07",
+              "13",
+              "18",
+              "24",
+              "28",
+              "29",
+              "38",
+              "40",
+              "48"
+            ],
+            "covered": false
+          },
+          {
+            "year": "2026",
+            "start": 81,
+            "end": 85,
+            "count": 10,
+            "nums": [
+              "05",
+              "14",
+              "16",
+              "17",
+              "19",
+              "27",
+              "38",
+              "43"
             ],
             "covered": false
           },
@@ -14490,132 +14447,151 @@ window.__HISTORY_PATTERN_STATE__ = {
           },
           {
             "year": "2026",
-            "start": 306,
-            "end": 310,
+            "start": 291,
+            "end": 295,
+            "count": 10,
+            "nums": [
+              "02",
+              "05",
+              "16",
+              "17",
+              "24",
+              "25",
+              "28",
+              "32",
+              "36",
+              "42"
+            ],
+            "covered": false
+          },
+          {
+            "year": "2026",
+            "start": 301,
+            "end": 305,
             "count": 5,
             "nums": [
-              "13",
-              "15",
-              "42",
-              "46"
+              "17",
+              "21",
+              "26",
+              "45"
             ],
             "covered": false
           }
         ],
         "total": 472,
-        "hitRate": 76.27,
-        "currentMiss": 1,
-        "maxMiss": 4
+        "hitRate": 76.69,
+        "currentMiss": 0,
+        "maxMiss": 7
       },
       "exact": false,
       "method": "rolling-before-window-exact-or-greedy-49c8",
       "validationMode": "rolling-before-window",
-      "computedAt": "2026-11-09 23:24:56",
+      "computedAt": "2026-11-10 20:37:49",
       "latestDraw": {
-        "issue": 313,
-        "date": "2026-11-09",
+        "issue": 314,
+        "date": "2026-11-10",
         "year": "2026",
         "balls": [
           {
             "index": 0,
-            "numberText": "33",
-            "zodiac": "狗",
-            "color": "green",
-            "colorName": "绿"
-          },
-          {
-            "index": 1,
-            "numberText": "39",
-            "zodiac": "龙",
-            "color": "green",
-            "colorName": "绿"
-          },
-          {
-            "index": 2,
-            "numberText": "45",
-            "zodiac": "狗",
+            "numberText": "13",
+            "zodiac": "马",
             "color": "red",
             "colorName": "红"
           },
           {
+            "index": 1,
+            "numberText": "26",
+            "zodiac": "蛇",
+            "color": "blue",
+            "colorName": "蓝"
+          },
+          {
+            "index": 2,
+            "numberText": "09",
+            "zodiac": "狗",
+            "color": "blue",
+            "colorName": "蓝"
+          },
+          {
             "index": 3,
-            "numberText": "15",
-            "zodiac": "龙",
+            "numberText": "37",
+            "zodiac": "马",
             "color": "blue",
             "colorName": "蓝"
           },
           {
             "index": 4,
-            "numberText": "07",
-            "zodiac": "鼠",
+            "numberText": "34",
+            "zodiac": "鸡",
             "color": "red",
             "colorName": "红"
           },
           {
             "index": 5,
-            "numberText": "20",
+            "numberText": "44",
             "zodiac": "猪",
-            "color": "blue",
-            "colorName": "蓝"
+            "color": "green",
+            "colorName": "绿"
           },
           {
             "index": 6,
-            "numberText": "43",
+            "numberText": "31",
             "zodiac": "鼠",
-            "color": "green",
-            "colorName": "绿"
+            "color": "blue",
+            "colorName": "蓝"
           }
         ],
         "regular": [
           {
             "index": 0,
-            "numberText": "33",
-            "zodiac": "狗",
-            "color": "green",
-            "colorName": "绿"
-          },
-          {
-            "index": 1,
-            "numberText": "39",
-            "zodiac": "龙",
-            "color": "green",
-            "colorName": "绿"
-          },
-          {
-            "index": 2,
-            "numberText": "45",
-            "zodiac": "狗",
+            "numberText": "13",
+            "zodiac": "马",
             "color": "red",
             "colorName": "红"
           },
           {
+            "index": 1,
+            "numberText": "26",
+            "zodiac": "蛇",
+            "color": "blue",
+            "colorName": "蓝"
+          },
+          {
+            "index": 2,
+            "numberText": "09",
+            "zodiac": "狗",
+            "color": "blue",
+            "colorName": "蓝"
+          },
+          {
             "index": 3,
-            "numberText": "15",
-            "zodiac": "龙",
+            "numberText": "37",
+            "zodiac": "马",
             "color": "blue",
             "colorName": "蓝"
           },
           {
             "index": 4,
-            "numberText": "07",
-            "zodiac": "鼠",
+            "numberText": "34",
+            "zodiac": "鸡",
             "color": "red",
             "colorName": "红"
           },
           {
             "index": 5,
-            "numberText": "20",
+            "numberText": "44",
             "zodiac": "猪",
-            "color": "blue",
-            "colorName": "蓝"
+            "color": "green",
+            "colorName": "绿"
           }
         ],
         "special": {
           "index": 6,
-          "numberText": "43",
+          "numberText": "31",
           "zodiac": "鼠",
-          "color": "green",
-          "colorName": "绿"
+          "color": "blue",
+          "colorName": "蓝"
         }
       },
       "yearPools": [
@@ -14757,7 +14733,7 @@ window.__HISTORY_PATTERN_STATE__ = {
         "year": "2026",
         "start": 311,
         "end": 315,
-        "count": 3,
+        "count": 4,
         "expected": 5,
         "covered": false,
         "pool": [
@@ -14765,9 +14741,9 @@ window.__HISTORY_PATTERN_STATE__ = {
           "49",
           "30",
           "06",
-          "45",
-          "05",
-          "03",
+          "35",
+          "47",
+          "46",
           "08"
         ],
         "poolBasis": "before-current-window",
@@ -14779,9 +14755,9 @@ window.__HISTORY_PATTERN_STATE__ = {
             "49",
             "30",
             "06",
-            "45",
-            "05",
-            "03",
+            "35",
+            "47",
+            "46",
             "08"
           ],
           "covered": false,
@@ -14803,6 +14779,11 @@ window.__HISTORY_PATTERN_STATE__ = {
             "issue": 313,
             "date": "2026-11-09",
             "num": "43"
+          },
+          {
+            "issue": 314,
+            "date": "2026-11-10",
+            "num": "31"
           }
         ]
       },
@@ -28399,13 +28380,14 @@ window.__HISTORY_PATTERN_STATE__ = {
           "year": "2026",
           "start": 296,
           "end": 300,
-          "count": 9,
+          "count": 10,
           "nums": [
             "07",
             "08",
             "13",
             "23",
             "38",
+            "39",
             "43",
             "45",
             "48"
@@ -28421,8 +28403,10 @@ window.__HISTORY_PATTERN_STATE__ = {
             "03"
           ],
           "poolBasis": "before-window",
-          "covered": false,
-          "hits": []
+          "covered": true,
+          "hits": [
+            "39"
+          ]
         },
         {
           "year": "2026",
@@ -28465,10 +28449,10 @@ window.__HISTORY_PATTERN_STATE__ = {
             "49",
             "30",
             "06",
-            "45",
-            "05",
-            "03",
-            "08"
+            "35",
+            "47",
+            "09",
+            "03"
           ],
           "poolBasis": "before-window",
           "covered": false,
@@ -42068,13 +42052,14 @@ window.__HISTORY_PATTERN_STATE__ = {
           "year": "2026",
           "start": 296,
           "end": 300,
-          "count": 9,
+          "count": 10,
           "nums": [
             "07",
             "08",
             "13",
             "23",
             "38",
+            "39",
             "43",
             "45",
             "48"
@@ -42090,8 +42075,10 @@ window.__HISTORY_PATTERN_STATE__ = {
             "03"
           ],
           "poolBasis": "before-window",
-          "covered": false,
-          "hits": []
+          "covered": true,
+          "hits": [
+            "39"
+          ]
         },
         {
           "year": "2026",
@@ -42134,17 +42121,17 @@ window.__HISTORY_PATTERN_STATE__ = {
             "49",
             "30",
             "06",
-            "45",
-            "05",
-            "03",
-            "08"
+            "35",
+            "47",
+            "09",
+            "03"
           ],
           "poolBasis": "before-window",
           "covered": false,
           "hits": []
         }
       ],
-      "covered": 320,
+      "covered": 321,
       "misses": [
         {
           "year": "2020",
@@ -46090,35 +46077,6 @@ window.__HISTORY_PATTERN_STATE__ = {
         },
         {
           "year": "2026",
-          "start": 296,
-          "end": 300,
-          "count": 9,
-          "nums": [
-            "07",
-            "08",
-            "13",
-            "23",
-            "38",
-            "43",
-            "45",
-            "48"
-          ],
-          "pool": [
-            "39",
-            "49",
-            "30",
-            "06",
-            "35",
-            "47",
-            "09",
-            "03"
-          ],
-          "poolBasis": "before-window",
-          "covered": false,
-          "hits": []
-        },
-        {
-          "year": "2026",
           "start": 301,
           "end": 305,
           "count": 5,
@@ -46158,10 +46116,10 @@ window.__HISTORY_PATTERN_STATE__ = {
             "49",
             "30",
             "06",
-            "45",
-            "05",
-            "03",
-            "08"
+            "35",
+            "47",
+            "09",
+            "03"
           ],
           "poolBasis": "before-window",
           "covered": false,
@@ -46169,8 +46127,8 @@ window.__HISTORY_PATTERN_STATE__ = {
         }
       ],
       "total": 472,
-      "hitRate": 67.8,
-      "currentMiss": 5,
+      "hitRate": 68.01,
+      "currentMiss": 2,
       "maxMiss": 5
     },
     {
@@ -46529,58 +46487,58 @@ window.__HISTORY_PATTERN_STATE__ = {
       "exact": true,
       "method": "rolling-before-window-exact-or-greedy-49c8",
       "validationMode": "rolling-before-window",
-      "computedAt": "2026-11-09 23:24:56",
+      "computedAt": "2026-11-10 20:37:49",
       "latestDraw": {
-        "issue": 118,
-        "date": "2026-11-07",
+        "issue": 119,
+        "date": "2026-11-10",
         "year": "2026",
         "balls": [
           {
             "index": 0,
-            "numberText": "29",
-            "zodiac": "虎",
+            "numberText": "24",
+            "zodiac": "羊",
             "color": "red",
             "colorName": "红"
           },
           {
             "index": 1,
-            "numberText": "14",
-            "zodiac": "蛇",
-            "color": "blue",
-            "colorName": "蓝"
-          },
-          {
-            "index": 2,
-            "numberText": "21",
-            "zodiac": "狗",
-            "color": "green",
-            "colorName": "绿"
-          },
-          {
-            "index": 3,
-            "numberText": "22",
-            "zodiac": "鸡",
-            "color": "green",
-            "colorName": "绿"
-          },
-          {
-            "index": 4,
             "numberText": "11",
             "zodiac": "猴",
             "color": "green",
             "colorName": "绿"
           },
           {
-            "index": 5,
+            "index": 2,
             "numberText": "17",
             "zodiac": "虎",
             "color": "green",
             "colorName": "绿"
           },
           {
+            "index": 3,
+            "numberText": "03",
+            "zodiac": "龙",
+            "color": "blue",
+            "colorName": "蓝"
+          },
+          {
+            "index": 4,
+            "numberText": "13",
+            "zodiac": "马",
+            "color": "red",
+            "colorName": "红"
+          },
+          {
+            "index": 5,
+            "numberText": "15",
+            "zodiac": "龙",
+            "color": "blue",
+            "colorName": "蓝"
+          },
+          {
             "index": 6,
-            "numberText": "40",
-            "zodiac": "兔",
+            "numberText": "19",
+            "zodiac": "鼠",
             "color": "red",
             "colorName": "红"
           }
@@ -46588,51 +46546,51 @@ window.__HISTORY_PATTERN_STATE__ = {
         "regular": [
           {
             "index": 0,
-            "numberText": "29",
-            "zodiac": "虎",
+            "numberText": "24",
+            "zodiac": "羊",
             "color": "red",
             "colorName": "红"
           },
           {
             "index": 1,
-            "numberText": "14",
-            "zodiac": "蛇",
-            "color": "blue",
-            "colorName": "蓝"
-          },
-          {
-            "index": 2,
-            "numberText": "21",
-            "zodiac": "狗",
-            "color": "green",
-            "colorName": "绿"
-          },
-          {
-            "index": 3,
-            "numberText": "22",
-            "zodiac": "鸡",
-            "color": "green",
-            "colorName": "绿"
-          },
-          {
-            "index": 4,
             "numberText": "11",
             "zodiac": "猴",
             "color": "green",
             "colorName": "绿"
           },
           {
-            "index": 5,
+            "index": 2,
             "numberText": "17",
             "zodiac": "虎",
             "color": "green",
             "colorName": "绿"
+          },
+          {
+            "index": 3,
+            "numberText": "03",
+            "zodiac": "龙",
+            "color": "blue",
+            "colorName": "蓝"
+          },
+          {
+            "index": 4,
+            "numberText": "13",
+            "zodiac": "马",
+            "color": "red",
+            "colorName": "红"
+          },
+          {
+            "index": 5,
+            "numberText": "15",
+            "zodiac": "龙",
+            "color": "blue",
+            "colorName": "蓝"
           }
         ],
         "special": {
           "index": 6,
-          "numberText": "40",
-          "zodiac": "兔",
+          "numberText": "19",
+          "zodiac": "鼠",
           "color": "red",
           "colorName": "红"
         }
@@ -46662,7 +46620,7 @@ window.__HISTORY_PATTERN_STATE__ = {
         "year": "2026",
         "start": 116,
         "end": 120,
-        "count": 3,
+        "count": 4,
         "expected": 5,
         "covered": true,
         "pool": [
@@ -46720,6 +46678,11 @@ window.__HISTORY_PATTERN_STATE__ = {
             "issue": 118,
             "date": "2026-11-07",
             "num": "40"
+          },
+          {
+            "issue": 119,
+            "date": "2026-11-10",
+            "num": "19"
           }
         ]
       },
@@ -50867,58 +50830,58 @@ window.__HISTORY_PATTERN_STATE__ = {
       "exact": false,
       "method": "rolling-before-window-exact-or-greedy-49c8",
       "validationMode": "rolling-before-window",
-      "computedAt": "2026-11-09 23:24:56",
+      "computedAt": "2026-11-10 20:37:49",
       "latestDraw": {
-        "issue": 118,
-        "date": "2026-11-07",
+        "issue": 119,
+        "date": "2026-11-10",
         "year": "2026",
         "balls": [
           {
             "index": 0,
-            "numberText": "29",
-            "zodiac": "虎",
+            "numberText": "24",
+            "zodiac": "羊",
             "color": "red",
             "colorName": "红"
           },
           {
             "index": 1,
-            "numberText": "14",
-            "zodiac": "蛇",
-            "color": "blue",
-            "colorName": "蓝"
-          },
-          {
-            "index": 2,
-            "numberText": "21",
-            "zodiac": "狗",
-            "color": "green",
-            "colorName": "绿"
-          },
-          {
-            "index": 3,
-            "numberText": "22",
-            "zodiac": "鸡",
-            "color": "green",
-            "colorName": "绿"
-          },
-          {
-            "index": 4,
             "numberText": "11",
             "zodiac": "猴",
             "color": "green",
             "colorName": "绿"
           },
           {
-            "index": 5,
+            "index": 2,
             "numberText": "17",
             "zodiac": "虎",
             "color": "green",
             "colorName": "绿"
           },
           {
+            "index": 3,
+            "numberText": "03",
+            "zodiac": "龙",
+            "color": "blue",
+            "colorName": "蓝"
+          },
+          {
+            "index": 4,
+            "numberText": "13",
+            "zodiac": "马",
+            "color": "red",
+            "colorName": "红"
+          },
+          {
+            "index": 5,
+            "numberText": "15",
+            "zodiac": "龙",
+            "color": "blue",
+            "colorName": "蓝"
+          },
+          {
             "index": 6,
-            "numberText": "40",
-            "zodiac": "兔",
+            "numberText": "19",
+            "zodiac": "鼠",
             "color": "red",
             "colorName": "红"
           }
@@ -50926,51 +50889,51 @@ window.__HISTORY_PATTERN_STATE__ = {
         "regular": [
           {
             "index": 0,
-            "numberText": "29",
-            "zodiac": "虎",
+            "numberText": "24",
+            "zodiac": "羊",
             "color": "red",
             "colorName": "红"
           },
           {
             "index": 1,
-            "numberText": "14",
-            "zodiac": "蛇",
-            "color": "blue",
-            "colorName": "蓝"
-          },
-          {
-            "index": 2,
-            "numberText": "21",
-            "zodiac": "狗",
-            "color": "green",
-            "colorName": "绿"
-          },
-          {
-            "index": 3,
-            "numberText": "22",
-            "zodiac": "鸡",
-            "color": "green",
-            "colorName": "绿"
-          },
-          {
-            "index": 4,
             "numberText": "11",
             "zodiac": "猴",
             "color": "green",
             "colorName": "绿"
           },
           {
-            "index": 5,
+            "index": 2,
             "numberText": "17",
             "zodiac": "虎",
             "color": "green",
             "colorName": "绿"
+          },
+          {
+            "index": 3,
+            "numberText": "03",
+            "zodiac": "龙",
+            "color": "blue",
+            "colorName": "蓝"
+          },
+          {
+            "index": 4,
+            "numberText": "13",
+            "zodiac": "马",
+            "color": "red",
+            "colorName": "红"
+          },
+          {
+            "index": 5,
+            "numberText": "15",
+            "zodiac": "龙",
+            "color": "blue",
+            "colorName": "蓝"
           }
         ],
         "special": {
           "index": 6,
-          "numberText": "40",
-          "zodiac": "兔",
+          "numberText": "19",
+          "zodiac": "鼠",
           "color": "red",
           "colorName": "红"
         }
@@ -51114,7 +51077,7 @@ window.__HISTORY_PATTERN_STATE__ = {
         "year": "2026",
         "start": 116,
         "end": 120,
-        "count": 3,
+        "count": 4,
         "expected": 5,
         "covered": true,
         "pool": [
@@ -51182,6 +51145,11 @@ window.__HISTORY_PATTERN_STATE__ = {
             "issue": 118,
             "date": "2026-11-07",
             "num": "40"
+          },
+          {
+            "issue": 119,
+            "date": "2026-11-10",
+            "num": "19"
           }
         ]
       },
