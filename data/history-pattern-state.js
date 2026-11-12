@@ -1,5 +1,5 @@
 window.__HISTORY_PATTERN_STATE__ = {
-  "generatedAt": "2026-11-11 21:22:14",
+  "generatedAt": "2026-11-12 21:06:45",
   "items": [
     {
       "source": "am",
@@ -1074,12 +1074,13 @@ window.__HISTORY_PATTERN_STATE__ = {
             "year": "2026",
             "start": 301,
             "end": 305,
-            "count": 6,
+            "count": 7,
             "nums": [
               "17",
               "21",
               "26",
               "33",
+              "44",
               "45"
             ],
             "covered": true
@@ -1137,58 +1138,58 @@ window.__HISTORY_PATTERN_STATE__ = {
       "exact": false,
       "method": "rolling-before-window-exact-or-greedy-49c8",
       "validationMode": "rolling-before-window",
-      "computedAt": "2026-11-11 21:22:14",
+      "computedAt": "2026-11-12 21:06:45",
       "latestDraw": {
-        "issue": 315,
-        "date": "2026-11-11",
+        "issue": 316,
+        "date": "2026-11-12",
         "year": "2026",
         "balls": [
           {
             "index": 0,
-            "numberText": "06",
-            "zodiac": "牛",
-            "color": "green",
-            "colorName": "绿"
+            "numberText": "14",
+            "zodiac": "蛇",
+            "color": "blue",
+            "colorName": "蓝"
           },
           {
             "index": 1,
-            "numberText": "09",
-            "zodiac": "狗",
+            "numberText": "04",
+            "zodiac": "兔",
             "color": "blue",
             "colorName": "蓝"
           },
           {
             "index": 2,
-            "numberText": "25",
-            "zodiac": "马",
+            "numberText": "10",
+            "zodiac": "鸡",
             "color": "blue",
             "colorName": "蓝"
           },
           {
             "index": 3,
-            "numberText": "27",
-            "zodiac": "龙",
-            "color": "green",
-            "colorName": "绿"
+            "numberText": "46",
+            "zodiac": "鸡",
+            "color": "red",
+            "colorName": "红"
           },
           {
             "index": 4,
-            "numberText": "33",
+            "numberText": "45",
             "zodiac": "狗",
-            "color": "green",
-            "colorName": "绿"
+            "color": "red",
+            "colorName": "红"
           },
           {
             "index": 5,
-            "numberText": "22",
-            "zodiac": "鸡",
+            "numberText": "49",
+            "zodiac": "马",
             "color": "green",
             "colorName": "绿"
           },
           {
             "index": 6,
-            "numberText": "48",
-            "zodiac": "羊",
+            "numberText": "03",
+            "zodiac": "龙",
             "color": "blue",
             "colorName": "蓝"
           }
@@ -1196,51 +1197,51 @@ window.__HISTORY_PATTERN_STATE__ = {
         "regular": [
           {
             "index": 0,
-            "numberText": "06",
-            "zodiac": "牛",
-            "color": "green",
-            "colorName": "绿"
+            "numberText": "14",
+            "zodiac": "蛇",
+            "color": "blue",
+            "colorName": "蓝"
           },
           {
             "index": 1,
-            "numberText": "09",
-            "zodiac": "狗",
+            "numberText": "04",
+            "zodiac": "兔",
             "color": "blue",
             "colorName": "蓝"
           },
           {
             "index": 2,
-            "numberText": "25",
-            "zodiac": "马",
+            "numberText": "10",
+            "zodiac": "鸡",
             "color": "blue",
             "colorName": "蓝"
           },
           {
             "index": 3,
-            "numberText": "27",
-            "zodiac": "龙",
-            "color": "green",
-            "colorName": "绿"
+            "numberText": "46",
+            "zodiac": "鸡",
+            "color": "red",
+            "colorName": "红"
           },
           {
             "index": 4,
-            "numberText": "33",
+            "numberText": "45",
             "zodiac": "狗",
-            "color": "green",
-            "colorName": "绿"
+            "color": "red",
+            "colorName": "红"
           },
           {
             "index": 5,
-            "numberText": "22",
-            "zodiac": "鸡",
+            "numberText": "49",
+            "zodiac": "马",
             "color": "green",
             "colorName": "绿"
           }
         ],
         "special": {
           "index": 6,
-          "numberText": "48",
-          "zodiac": "羊",
+          "numberText": "03",
+          "zodiac": "龙",
           "color": "blue",
           "colorName": "蓝"
         }
@@ -1270,7 +1271,7 @@ window.__HISTORY_PATTERN_STATE__ = {
         "year": "2026",
         "start": 316,
         "end": 320,
-        "count": 0,
+        "count": 1,
         "expected": 5,
         "covered": false,
         "pool": [
@@ -1284,77 +1285,8 @@ window.__HISTORY_PATTERN_STATE__ = {
           "15"
         ],
         "poolBasis": "before-current-window",
-        "displayMode": "next-window",
-        "reviewWindow": {
-          "year": "2026",
-          "start": 311,
-          "end": 315,
-          "count": 5,
-          "expected": 5,
-          "nums": [
-            "31",
-            "34",
-            "38",
-            "43",
-            "48"
-          ],
-          "covered": true,
-          "pool": [
-            "01",
-            "08",
-            "10",
-            "17",
-            "49",
-            "38",
-            "37",
-            "15"
-          ],
-          "poolBasis": "before-review-window",
-          "hits": [
-            {
-              "issue": 312,
-              "date": "2026-11-08",
-              "num": "38"
-            }
-          ],
-          "draws": [
-            {
-              "issue": 311,
-              "date": "2026-11-07",
-              "num": "34"
-            },
-            {
-              "issue": 312,
-              "date": "2026-11-08",
-              "num": "38"
-            },
-            {
-              "issue": 313,
-              "date": "2026-11-09",
-              "num": "43"
-            },
-            {
-              "issue": 314,
-              "date": "2026-11-10",
-              "num": "31"
-            },
-            {
-              "issue": 315,
-              "date": "2026-11-11",
-              "num": "48"
-            }
-          ],
-          "postWindowOptimal": {
-            "covered": true,
-            "hits": [
-              {
-                "issue": 312,
-                "date": "2026-11-08",
-                "num": "38"
-              }
-            ]
-          }
-        },
+        "displayMode": "active-window",
+        "reviewWindow": null,
         "postWindowOptimal": {
           "pool": [
             "01",
@@ -1370,7 +1302,13 @@ window.__HISTORY_PATTERN_STATE__ = {
           "hits": []
         },
         "hits": [],
-        "draws": []
+        "draws": [
+          {
+            "issue": 316,
+            "date": "2026-11-12",
+            "num": "03"
+          }
+        ]
       },
       "rollingWindows": [
         {
@@ -3259,12 +3197,13 @@ window.__HISTORY_PATTERN_STATE__ = {
           "year": "2026",
           "start": 301,
           "end": 305,
-          "count": 6,
+          "count": 7,
           "nums": [
             "17",
             "21",
             "26",
             "33",
+            "44",
             "45"
           ],
           "pool": [
@@ -5224,12 +5163,13 @@ window.__HISTORY_PATTERN_STATE__ = {
           "year": "2026",
           "start": 301,
           "end": 305,
-          "count": 6,
+          "count": 7,
           "nums": [
             "17",
             "21",
             "26",
             "33",
+            "44",
             "45"
           ],
           "pool": [
@@ -12983,12 +12923,13 @@ window.__HISTORY_PATTERN_STATE__ = {
             "year": "2026",
             "start": 301,
             "end": 305,
-            "count": 6,
+            "count": 7,
             "nums": [
               "17",
               "21",
               "26",
               "33",
+              "44",
               "45"
             ],
             "covered": false
@@ -14592,12 +14533,13 @@ window.__HISTORY_PATTERN_STATE__ = {
             "year": "2026",
             "start": 301,
             "end": 305,
-            "count": 6,
+            "count": 7,
             "nums": [
               "17",
               "21",
               "26",
               "33",
+              "44",
               "45"
             ],
             "covered": false
@@ -14625,58 +14567,58 @@ window.__HISTORY_PATTERN_STATE__ = {
       "exact": false,
       "method": "rolling-before-window-exact-or-greedy-49c8",
       "validationMode": "rolling-before-window",
-      "computedAt": "2026-11-11 21:22:14",
+      "computedAt": "2026-11-12 21:06:45",
       "latestDraw": {
-        "issue": 315,
-        "date": "2026-11-11",
+        "issue": 316,
+        "date": "2026-11-12",
         "year": "2026",
         "balls": [
           {
             "index": 0,
-            "numberText": "06",
-            "zodiac": "牛",
-            "color": "green",
-            "colorName": "绿"
+            "numberText": "14",
+            "zodiac": "蛇",
+            "color": "blue",
+            "colorName": "蓝"
           },
           {
             "index": 1,
-            "numberText": "09",
-            "zodiac": "狗",
+            "numberText": "04",
+            "zodiac": "兔",
             "color": "blue",
             "colorName": "蓝"
           },
           {
             "index": 2,
-            "numberText": "25",
-            "zodiac": "马",
+            "numberText": "10",
+            "zodiac": "鸡",
             "color": "blue",
             "colorName": "蓝"
           },
           {
             "index": 3,
-            "numberText": "27",
-            "zodiac": "龙",
-            "color": "green",
-            "colorName": "绿"
+            "numberText": "46",
+            "zodiac": "鸡",
+            "color": "red",
+            "colorName": "红"
           },
           {
             "index": 4,
-            "numberText": "33",
+            "numberText": "45",
             "zodiac": "狗",
-            "color": "green",
-            "colorName": "绿"
+            "color": "red",
+            "colorName": "红"
           },
           {
             "index": 5,
-            "numberText": "22",
-            "zodiac": "鸡",
+            "numberText": "49",
+            "zodiac": "马",
             "color": "green",
             "colorName": "绿"
           },
           {
             "index": 6,
-            "numberText": "48",
-            "zodiac": "羊",
+            "numberText": "03",
+            "zodiac": "龙",
             "color": "blue",
             "colorName": "蓝"
           }
@@ -14684,51 +14626,51 @@ window.__HISTORY_PATTERN_STATE__ = {
         "regular": [
           {
             "index": 0,
-            "numberText": "06",
-            "zodiac": "牛",
-            "color": "green",
-            "colorName": "绿"
+            "numberText": "14",
+            "zodiac": "蛇",
+            "color": "blue",
+            "colorName": "蓝"
           },
           {
             "index": 1,
-            "numberText": "09",
-            "zodiac": "狗",
+            "numberText": "04",
+            "zodiac": "兔",
             "color": "blue",
             "colorName": "蓝"
           },
           {
             "index": 2,
-            "numberText": "25",
-            "zodiac": "马",
+            "numberText": "10",
+            "zodiac": "鸡",
             "color": "blue",
             "colorName": "蓝"
           },
           {
             "index": 3,
-            "numberText": "27",
-            "zodiac": "龙",
-            "color": "green",
-            "colorName": "绿"
+            "numberText": "46",
+            "zodiac": "鸡",
+            "color": "red",
+            "colorName": "红"
           },
           {
             "index": 4,
-            "numberText": "33",
+            "numberText": "45",
             "zodiac": "狗",
-            "color": "green",
-            "colorName": "绿"
+            "color": "red",
+            "colorName": "红"
           },
           {
             "index": 5,
-            "numberText": "22",
-            "zodiac": "鸡",
+            "numberText": "49",
+            "zodiac": "马",
             "color": "green",
             "colorName": "绿"
           }
         ],
         "special": {
           "index": 6,
-          "numberText": "48",
-          "zodiac": "羊",
+          "numberText": "03",
+          "zodiac": "龙",
           "color": "blue",
           "colorName": "蓝"
         }
@@ -14872,7 +14814,7 @@ window.__HISTORY_PATTERN_STATE__ = {
         "year": "2026",
         "start": 316,
         "end": 320,
-        "count": 0,
+        "count": 1,
         "expected": 5,
         "covered": false,
         "pool": [
@@ -14886,65 +14828,8 @@ window.__HISTORY_PATTERN_STATE__ = {
           "08"
         ],
         "poolBasis": "before-current-window",
-        "displayMode": "next-window",
-        "reviewWindow": {
-          "year": "2026",
-          "start": 311,
-          "end": 315,
-          "count": 5,
-          "expected": 5,
-          "nums": [
-            "31",
-            "34",
-            "38",
-            "43",
-            "48"
-          ],
-          "covered": false,
-          "pool": [
-            "39",
-            "49",
-            "30",
-            "06",
-            "35",
-            "47",
-            "46",
-            "08"
-          ],
-          "poolBasis": "before-review-window",
-          "hits": [],
-          "draws": [
-            {
-              "issue": 311,
-              "date": "2026-11-07",
-              "num": "34"
-            },
-            {
-              "issue": 312,
-              "date": "2026-11-08",
-              "num": "38"
-            },
-            {
-              "issue": 313,
-              "date": "2026-11-09",
-              "num": "43"
-            },
-            {
-              "issue": 314,
-              "date": "2026-11-10",
-              "num": "31"
-            },
-            {
-              "issue": 315,
-              "date": "2026-11-11",
-              "num": "48"
-            }
-          ],
-          "postWindowOptimal": {
-            "covered": false,
-            "hits": []
-          }
-        },
+        "displayMode": "active-window",
+        "reviewWindow": null,
         "postWindowOptimal": {
           "pool": [
             "39",
@@ -14960,7 +14845,13 @@ window.__HISTORY_PATTERN_STATE__ = {
           "hits": []
         },
         "hits": [],
-        "draws": []
+        "draws": [
+          {
+            "issue": 316,
+            "date": "2026-11-12",
+            "num": "03"
+          }
+        ]
       },
       "rollingWindows": [
         {
@@ -28587,12 +28478,13 @@ window.__HISTORY_PATTERN_STATE__ = {
           "year": "2026",
           "start": 301,
           "end": 305,
-          "count": 6,
+          "count": 7,
           "nums": [
             "17",
             "21",
             "26",
             "33",
+            "44",
             "45"
           ],
           "pool": [
@@ -42286,12 +42178,13 @@ window.__HISTORY_PATTERN_STATE__ = {
           "year": "2026",
           "start": 301,
           "end": 305,
-          "count": 6,
+          "count": 7,
           "nums": [
             "17",
             "21",
             "26",
             "33",
+            "44",
             "45"
           ],
           "pool": [
@@ -46308,12 +46201,13 @@ window.__HISTORY_PATTERN_STATE__ = {
           "year": "2026",
           "start": 301,
           "end": 305,
-          "count": 6,
+          "count": 7,
           "nums": [
             "17",
             "21",
             "26",
             "33",
+            "44",
             "45"
           ],
           "pool": [
@@ -46392,16 +46286,6 @@ window.__HISTORY_PATTERN_STATE__ = {
       "range": "year",
       "currentYear": "2026",
       "pool": [
-        "02",
-        "05",
-        "10",
-        "19",
-        "27",
-        "34",
-        "40",
-        "47"
-      ],
-      "postWindowOptimalPool": [
         "03",
         "16",
         "20",
@@ -46409,6 +46293,16 @@ window.__HISTORY_PATTERN_STATE__ = {
         "27",
         "34",
         "46",
+        "49"
+      ],
+      "postWindowOptimalPool": [
+        "03",
+        "08",
+        "10",
+        "15",
+        "20",
+        "27",
+        "34",
         "49"
       ],
       "postWindowStats": {
@@ -46731,11 +46625,25 @@ window.__HISTORY_PATTERN_STATE__ = {
               "31"
             ],
             "covered": true
+          },
+          {
+            "year": "2026",
+            "start": 116,
+            "end": 120,
+            "count": 5,
+            "nums": [
+              "08",
+              "13",
+              "19",
+              "40",
+              "46"
+            ],
+            "covered": true
           }
         ],
-        "covered": 23,
+        "covered": 24,
         "misses": [],
-        "total": 23,
+        "total": 24,
         "hitRate": 100.0,
         "currentMiss": 0,
         "maxMiss": 0
@@ -46743,58 +46651,58 @@ window.__HISTORY_PATTERN_STATE__ = {
       "exact": true,
       "method": "rolling-before-window-exact-or-greedy-49c8",
       "validationMode": "rolling-before-window",
-      "computedAt": "2026-11-11 21:22:14",
+      "computedAt": "2026-11-12 21:06:45",
       "latestDraw": {
-        "issue": 119,
-        "date": "2026-11-10",
+        "issue": 120,
+        "date": "2026-11-12",
         "year": "2026",
         "balls": [
           {
             "index": 0,
+            "numberText": "33",
+            "zodiac": "狗",
+            "color": "green",
+            "colorName": "绿"
+          },
+          {
+            "index": 1,
+            "numberText": "20",
+            "zodiac": "猪",
+            "color": "blue",
+            "colorName": "蓝"
+          },
+          {
+            "index": 2,
             "numberText": "24",
             "zodiac": "羊",
             "color": "red",
             "colorName": "红"
           },
           {
-            "index": 1,
-            "numberText": "11",
-            "zodiac": "猴",
-            "color": "green",
-            "colorName": "绿"
-          },
-          {
-            "index": 2,
-            "numberText": "17",
-            "zodiac": "虎",
-            "color": "green",
-            "colorName": "绿"
-          },
-          {
             "index": 3,
-            "numberText": "03",
-            "zodiac": "龙",
+            "numberText": "37",
+            "zodiac": "马",
             "color": "blue",
             "colorName": "蓝"
           },
           {
             "index": 4,
-            "numberText": "13",
-            "zodiac": "马",
-            "color": "red",
-            "colorName": "红"
-          },
-          {
-            "index": 5,
-            "numberText": "15",
-            "zodiac": "龙",
+            "numberText": "42",
+            "zodiac": "牛",
             "color": "blue",
             "colorName": "蓝"
           },
           {
+            "index": 5,
+            "numberText": "46",
+            "zodiac": "鸡",
+            "color": "red",
+            "colorName": "红"
+          },
+          {
             "index": 6,
-            "numberText": "19",
-            "zodiac": "鼠",
+            "numberText": "13",
+            "zodiac": "马",
             "color": "red",
             "colorName": "红"
           }
@@ -46802,51 +46710,51 @@ window.__HISTORY_PATTERN_STATE__ = {
         "regular": [
           {
             "index": 0,
+            "numberText": "33",
+            "zodiac": "狗",
+            "color": "green",
+            "colorName": "绿"
+          },
+          {
+            "index": 1,
+            "numberText": "20",
+            "zodiac": "猪",
+            "color": "blue",
+            "colorName": "蓝"
+          },
+          {
+            "index": 2,
             "numberText": "24",
             "zodiac": "羊",
             "color": "red",
             "colorName": "红"
           },
           {
-            "index": 1,
-            "numberText": "11",
-            "zodiac": "猴",
-            "color": "green",
-            "colorName": "绿"
-          },
-          {
-            "index": 2,
-            "numberText": "17",
-            "zodiac": "虎",
-            "color": "green",
-            "colorName": "绿"
-          },
-          {
             "index": 3,
-            "numberText": "03",
-            "zodiac": "龙",
+            "numberText": "37",
+            "zodiac": "马",
             "color": "blue",
             "colorName": "蓝"
           },
           {
             "index": 4,
-            "numberText": "13",
-            "zodiac": "马",
-            "color": "red",
-            "colorName": "红"
+            "numberText": "42",
+            "zodiac": "牛",
+            "color": "blue",
+            "colorName": "蓝"
           },
           {
             "index": 5,
-            "numberText": "15",
-            "zodiac": "龙",
-            "color": "blue",
-            "colorName": "蓝"
+            "numberText": "46",
+            "zodiac": "鸡",
+            "color": "red",
+            "colorName": "红"
           }
         ],
         "special": {
           "index": 6,
-          "numberText": "19",
-          "zodiac": "鼠",
+          "numberText": "13",
+          "zodiac": "马",
           "color": "red",
           "colorName": "红"
         }
@@ -46856,43 +46764,55 @@ window.__HISTORY_PATTERN_STATE__ = {
           "year": "2026",
           "pool": [
             "03",
-            "16",
+            "08",
+            "10",
+            "15",
             "20",
-            "21",
             "27",
             "34",
-            "46",
             "49"
           ],
           "exact": true,
-          "covered": 15,
-          "total": 23,
-          "hitRate": 65.22,
+          "covered": 16,
+          "total": 24,
+          "hitRate": 66.67,
           "currentMiss": 0,
           "maxMiss": 4
         }
       ],
       "currentWindow": {
         "year": "2026",
-        "start": 116,
-        "end": 120,
-        "count": 4,
+        "start": 121,
+        "end": 125,
+        "count": 0,
         "expected": 5,
-        "covered": true,
+        "covered": false,
         "pool": [
           "03",
-          "16",
+          "08",
+          "10",
+          "15",
           "20",
-          "21",
           "27",
           "34",
-          "46",
           "49"
         ],
         "poolBasis": "before-current-window",
-        "displayMode": "active-window",
-        "reviewWindow": null,
-        "postWindowOptimal": {
+        "displayMode": "next-window",
+        "reviewWindow": {
+          "year": "2026",
+          "start": 116,
+          "end": 120,
+          "count": 5,
+          "expected": 5,
+          "nums": [
+            "08",
+            "13",
+            "19",
+            "40",
+            "46"
+          ],
+          "covered": true,
           "pool": [
             "03",
             "16",
@@ -46903,44 +46823,68 @@ window.__HISTORY_PATTERN_STATE__ = {
             "46",
             "49"
           ],
-          "covered": true,
+          "poolBasis": "before-review-window",
           "hits": [
             {
               "issue": 117,
               "date": "2026-11-05",
               "num": "46"
             }
-          ]
+          ],
+          "draws": [
+            {
+              "issue": 116,
+              "date": "2026-10-31",
+              "num": "08"
+            },
+            {
+              "issue": 117,
+              "date": "2026-11-05",
+              "num": "46"
+            },
+            {
+              "issue": 118,
+              "date": "2026-11-07",
+              "num": "40"
+            },
+            {
+              "issue": 119,
+              "date": "2026-11-10",
+              "num": "19"
+            },
+            {
+              "issue": 120,
+              "date": "2026-11-12",
+              "num": "13"
+            }
+          ],
+          "postWindowOptimal": {
+            "covered": true,
+            "hits": [
+              {
+                "issue": 116,
+                "date": "2026-10-31",
+                "num": "08"
+              }
+            ]
+          }
         },
-        "hits": [
-          {
-            "issue": 117,
-            "date": "2026-11-05",
-            "num": "46"
-          }
-        ],
-        "draws": [
-          {
-            "issue": 116,
-            "date": "2026-10-31",
-            "num": "08"
-          },
-          {
-            "issue": 117,
-            "date": "2026-11-05",
-            "num": "46"
-          },
-          {
-            "issue": 118,
-            "date": "2026-11-07",
-            "num": "40"
-          },
-          {
-            "issue": 119,
-            "date": "2026-11-10",
-            "num": "19"
-          }
-        ]
+        "postWindowOptimal": {
+          "pool": [
+            "03",
+            "08",
+            "10",
+            "15",
+            "20",
+            "27",
+            "34",
+            "49"
+          ],
+          "covered": false,
+          "hits": []
+        },
+        "hits": [],
+        "draws": []
       },
       "rollingWindows": [
         {
@@ -47570,6 +47514,34 @@ window.__HISTORY_PATTERN_STATE__ = {
           "covered": true,
           "hits": [
             "05"
+          ]
+        },
+        {
+          "year": "2026",
+          "start": 116,
+          "end": 120,
+          "count": 5,
+          "nums": [
+            "08",
+            "13",
+            "19",
+            "40",
+            "46"
+          ],
+          "pool": [
+            "03",
+            "16",
+            "20",
+            "21",
+            "27",
+            "34",
+            "46",
+            "49"
+          ],
+          "poolBasis": "before-window",
+          "covered": true,
+          "hits": [
+            "46"
           ]
         }
       ],
@@ -48202,9 +48174,37 @@ window.__HISTORY_PATTERN_STATE__ = {
           "hits": [
             "05"
           ]
+        },
+        {
+          "year": "2026",
+          "start": 116,
+          "end": 120,
+          "count": 5,
+          "nums": [
+            "08",
+            "13",
+            "19",
+            "40",
+            "46"
+          ],
+          "pool": [
+            "03",
+            "16",
+            "20",
+            "21",
+            "27",
+            "34",
+            "46",
+            "49"
+          ],
+          "poolBasis": "before-window",
+          "covered": true,
+          "hits": [
+            "46"
+          ]
         }
       ],
-      "covered": 15,
+      "covered": 16,
       "misses": [
         {
           "year": "2026",
@@ -48413,8 +48413,8 @@ window.__HISTORY_PATTERN_STATE__ = {
           "hits": []
         }
       ],
-      "total": 23,
-      "hitRate": 65.22,
+      "total": 24,
+      "hitRate": 66.67,
       "currentMiss": 0,
       "maxMiss": 4
     },
@@ -48440,7 +48440,7 @@ window.__HISTORY_PATTERN_STATE__ = {
         "02",
         "46",
         "14",
-        "44"
+        "13"
       ],
       "postWindowStats": {
         "windows": [
@@ -48927,7 +48927,7 @@ window.__HISTORY_PATTERN_STATE__ = {
               "41",
               "44"
             ],
-            "covered": true
+            "covered": false
           },
           {
             "year": "2022",
@@ -48969,7 +48969,7 @@ window.__HISTORY_PATTERN_STATE__ = {
               "44",
               "48"
             ],
-            "covered": true
+            "covered": false
           },
           {
             "year": "2022",
@@ -49011,7 +49011,7 @@ window.__HISTORY_PATTERN_STATE__ = {
               "29",
               "42"
             ],
-            "covered": false
+            "covered": true
           },
           {
             "year": "2022",
@@ -49316,7 +49316,7 @@ window.__HISTORY_PATTERN_STATE__ = {
               "43",
               "44"
             ],
-            "covered": true
+            "covered": false
           },
           {
             "year": "2023",
@@ -49537,7 +49537,7 @@ window.__HISTORY_PATTERN_STATE__ = {
               "13",
               "48"
             ],
-            "covered": false
+            "covered": true
           },
           {
             "year": "2023",
@@ -49621,7 +49621,7 @@ window.__HISTORY_PATTERN_STATE__ = {
               "24",
               "37"
             ],
-            "covered": false
+            "covered": true
           },
           {
             "year": "2024",
@@ -49647,7 +49647,7 @@ window.__HISTORY_PATTERN_STATE__ = {
               "44",
               "45"
             ],
-            "covered": true
+            "covered": false
           },
           {
             "year": "2024",
@@ -49841,7 +49841,7 @@ window.__HISTORY_PATTERN_STATE__ = {
               "19",
               "31"
             ],
-            "covered": false
+            "covered": true
           },
           {
             "year": "2024",
@@ -50145,7 +50145,7 @@ window.__HISTORY_PATTERN_STATE__ = {
               "29",
               "30"
             ],
-            "covered": false
+            "covered": true
           },
           {
             "year": "2025",
@@ -50242,7 +50242,7 @@ window.__HISTORY_PATTERN_STATE__ = {
               "41",
               "44"
             ],
-            "covered": true
+            "covered": false
           },
           {
             "year": "2025",
@@ -50394,7 +50394,7 @@ window.__HISTORY_PATTERN_STATE__ = {
               "48",
               "49"
             ],
-            "covered": false
+            "covered": true
           },
           {
             "year": "2026",
@@ -50519,7 +50519,7 @@ window.__HISTORY_PATTERN_STATE__ = {
               "43",
               "44"
             ],
-            "covered": true
+            "covered": false
           },
           {
             "year": "2026",
@@ -50631,9 +50631,23 @@ window.__HISTORY_PATTERN_STATE__ = {
               "31"
             ],
             "covered": true
+          },
+          {
+            "year": "2026",
+            "start": 116,
+            "end": 120,
+            "count": 5,
+            "nums": [
+              "08",
+              "13",
+              "19",
+              "40",
+              "46"
+            ],
+            "covered": true
           }
         ],
-        "covered": 126,
+        "covered": 127,
         "misses": [
           {
             "year": "2020",
@@ -50734,6 +50748,19 @@ window.__HISTORY_PATTERN_STATE__ = {
           },
           {
             "year": "2022",
+            "start": 21,
+            "end": 25,
+            "count": 5,
+            "nums": [
+              "18",
+              "25",
+              "41",
+              "44"
+            ],
+            "covered": false
+          },
+          {
+            "year": "2022",
             "start": 26,
             "end": 30,
             "count": 5,
@@ -50748,15 +50775,15 @@ window.__HISTORY_PATTERN_STATE__ = {
           },
           {
             "year": "2022",
-            "start": 51,
-            "end": 55,
+            "start": 36,
+            "end": 40,
             "count": 5,
             "nums": [
-              "05",
-              "10",
-              "13",
-              "29",
-              "42"
+              "15",
+              "34",
+              "41",
+              "44",
+              "48"
             ],
             "covered": false
           },
@@ -50818,6 +50845,20 @@ window.__HISTORY_PATTERN_STATE__ = {
           },
           {
             "year": "2023",
+            "start": 51,
+            "end": 55,
+            "count": 5,
+            "nums": [
+              "01",
+              "07",
+              "27",
+              "43",
+              "44"
+            ],
+            "covered": false
+          },
+          {
+            "year": "2023",
             "start": 56,
             "end": 60,
             "count": 5,
@@ -50859,33 +50900,6 @@ window.__HISTORY_PATTERN_STATE__ = {
             "covered": false
           },
           {
-            "year": "2023",
-            "start": 131,
-            "end": 135,
-            "count": 5,
-            "nums": [
-              "05",
-              "07",
-              "13",
-              "48"
-            ],
-            "covered": false
-          },
-          {
-            "year": "2024",
-            "start": 16,
-            "end": 20,
-            "count": 5,
-            "nums": [
-              "05",
-              "13",
-              "15",
-              "24",
-              "37"
-            ],
-            "covered": false
-          },
-          {
             "year": "2024",
             "start": 21,
             "end": 25,
@@ -50900,6 +50914,19 @@ window.__HISTORY_PATTERN_STATE__ = {
           },
           {
             "year": "2024",
+            "start": 26,
+            "end": 30,
+            "count": 5,
+            "nums": [
+              "01",
+              "15",
+              "44",
+              "45"
+            ],
+            "covered": false
+          },
+          {
+            "year": "2024",
             "start": 41,
             "end": 45,
             "count": 5,
@@ -50909,20 +50936,6 @@ window.__HISTORY_PATTERN_STATE__ = {
               "28",
               "47",
               "49"
-            ],
-            "covered": false
-          },
-          {
-            "year": "2024",
-            "start": 96,
-            "end": 100,
-            "count": 5,
-            "nums": [
-              "01",
-              "13",
-              "16",
-              "19",
-              "31"
             ],
             "covered": false
           },
@@ -50954,20 +50967,6 @@ window.__HISTORY_PATTERN_STATE__ = {
           },
           {
             "year": "2025",
-            "start": 66,
-            "end": 70,
-            "count": 5,
-            "nums": [
-              "06",
-              "13",
-              "26",
-              "29",
-              "30"
-            ],
-            "covered": false
-          },
-          {
-            "year": "2025",
             "start": 76,
             "end": 80,
             "count": 5,
@@ -50990,6 +50989,20 @@ window.__HISTORY_PATTERN_STATE__ = {
               "11",
               "30",
               "38"
+            ],
+            "covered": false
+          },
+          {
+            "year": "2025",
+            "start": 101,
+            "end": 105,
+            "count": 5,
+            "nums": [
+              "25",
+              "30",
+              "32",
+              "41",
+              "44"
             ],
             "covered": false
           },
@@ -51037,15 +51050,14 @@ window.__HISTORY_PATTERN_STATE__ = {
           },
           {
             "year": "2026",
-            "start": 26,
-            "end": 30,
+            "start": 71,
+            "end": 75,
             "count": 5,
             "nums": [
-              "13",
-              "31",
-              "34",
-              "48",
-              "49"
+              "27",
+              "28",
+              "43",
+              "44"
             ],
             "covered": false
           },
@@ -51078,66 +51090,66 @@ window.__HISTORY_PATTERN_STATE__ = {
             "covered": false
           }
         ],
-        "total": 158,
-        "hitRate": 79.75,
+        "total": 159,
+        "hitRate": 79.87,
         "currentMiss": 0,
         "maxMiss": 2
       },
       "exact": false,
       "method": "rolling-before-window-exact-or-greedy-49c8",
       "validationMode": "rolling-before-window",
-      "computedAt": "2026-11-11 21:22:14",
+      "computedAt": "2026-11-12 21:06:45",
       "latestDraw": {
-        "issue": 119,
-        "date": "2026-11-10",
+        "issue": 120,
+        "date": "2026-11-12",
         "year": "2026",
         "balls": [
           {
             "index": 0,
+            "numberText": "33",
+            "zodiac": "狗",
+            "color": "green",
+            "colorName": "绿"
+          },
+          {
+            "index": 1,
+            "numberText": "20",
+            "zodiac": "猪",
+            "color": "blue",
+            "colorName": "蓝"
+          },
+          {
+            "index": 2,
             "numberText": "24",
             "zodiac": "羊",
             "color": "red",
             "colorName": "红"
           },
           {
-            "index": 1,
-            "numberText": "11",
-            "zodiac": "猴",
-            "color": "green",
-            "colorName": "绿"
-          },
-          {
-            "index": 2,
-            "numberText": "17",
-            "zodiac": "虎",
-            "color": "green",
-            "colorName": "绿"
-          },
-          {
             "index": 3,
-            "numberText": "03",
-            "zodiac": "龙",
+            "numberText": "37",
+            "zodiac": "马",
             "color": "blue",
             "colorName": "蓝"
           },
           {
             "index": 4,
-            "numberText": "13",
-            "zodiac": "马",
-            "color": "red",
-            "colorName": "红"
-          },
-          {
-            "index": 5,
-            "numberText": "15",
-            "zodiac": "龙",
+            "numberText": "42",
+            "zodiac": "牛",
             "color": "blue",
             "colorName": "蓝"
           },
           {
+            "index": 5,
+            "numberText": "46",
+            "zodiac": "鸡",
+            "color": "red",
+            "colorName": "红"
+          },
+          {
             "index": 6,
-            "numberText": "19",
-            "zodiac": "鼠",
+            "numberText": "13",
+            "zodiac": "马",
             "color": "red",
             "colorName": "红"
           }
@@ -51145,51 +51157,51 @@ window.__HISTORY_PATTERN_STATE__ = {
         "regular": [
           {
             "index": 0,
+            "numberText": "33",
+            "zodiac": "狗",
+            "color": "green",
+            "colorName": "绿"
+          },
+          {
+            "index": 1,
+            "numberText": "20",
+            "zodiac": "猪",
+            "color": "blue",
+            "colorName": "蓝"
+          },
+          {
+            "index": 2,
             "numberText": "24",
             "zodiac": "羊",
             "color": "red",
             "colorName": "红"
           },
           {
-            "index": 1,
-            "numberText": "11",
-            "zodiac": "猴",
-            "color": "green",
-            "colorName": "绿"
-          },
-          {
-            "index": 2,
-            "numberText": "17",
-            "zodiac": "虎",
-            "color": "green",
-            "colorName": "绿"
-          },
-          {
             "index": 3,
-            "numberText": "03",
-            "zodiac": "龙",
+            "numberText": "37",
+            "zodiac": "马",
             "color": "blue",
             "colorName": "蓝"
           },
           {
             "index": 4,
-            "numberText": "13",
-            "zodiac": "马",
-            "color": "red",
-            "colorName": "红"
+            "numberText": "42",
+            "zodiac": "牛",
+            "color": "blue",
+            "colorName": "蓝"
           },
           {
             "index": 5,
-            "numberText": "15",
-            "zodiac": "龙",
-            "color": "blue",
-            "colorName": "蓝"
+            "numberText": "46",
+            "zodiac": "鸡",
+            "color": "red",
+            "colorName": "红"
           }
         ],
         "special": {
           "index": 6,
-          "numberText": "19",
-          "zodiac": "鼠",
+          "numberText": "13",
+          "zodiac": "马",
           "color": "red",
           "colorName": "红"
         }
@@ -51199,18 +51211,18 @@ window.__HISTORY_PATTERN_STATE__ = {
           "year": "2026",
           "pool": [
             "03",
-            "16",
+            "08",
+            "10",
+            "15",
             "20",
-            "21",
             "27",
             "34",
-            "46",
             "49"
           ],
           "exact": true,
-          "covered": 15,
-          "total": 23,
-          "hitRate": 65.22,
+          "covered": 16,
+          "total": 24,
+          "hitRate": 66.67,
           "currentMiss": 0,
           "maxMiss": 4
         },
@@ -51331,11 +51343,11 @@ window.__HISTORY_PATTERN_STATE__ = {
       ],
       "currentWindow": {
         "year": "2026",
-        "start": 116,
-        "end": 120,
-        "count": 4,
+        "start": 121,
+        "end": 125,
+        "count": 0,
         "expected": 5,
-        "covered": true,
+        "covered": false,
         "pool": [
           "08",
           "23",
@@ -51344,12 +51356,24 @@ window.__HISTORY_PATTERN_STATE__ = {
           "02",
           "46",
           "14",
-          "44"
+          "13"
         ],
         "poolBasis": "before-current-window",
-        "displayMode": "active-window",
-        "reviewWindow": null,
-        "postWindowOptimal": {
+        "displayMode": "next-window",
+        "reviewWindow": {
+          "year": "2026",
+          "start": 116,
+          "end": 120,
+          "count": 5,
+          "expected": 5,
+          "nums": [
+            "08",
+            "13",
+            "19",
+            "40",
+            "46"
+          ],
+          "covered": true,
           "pool": [
             "08",
             "23",
@@ -51360,7 +51384,7 @@ window.__HISTORY_PATTERN_STATE__ = {
             "14",
             "44"
           ],
-          "covered": true,
+          "poolBasis": "before-review-window",
           "hits": [
             {
               "issue": 116,
@@ -51372,42 +51396,71 @@ window.__HISTORY_PATTERN_STATE__ = {
               "date": "2026-11-05",
               "num": "46"
             }
-          ]
+          ],
+          "draws": [
+            {
+              "issue": 116,
+              "date": "2026-10-31",
+              "num": "08"
+            },
+            {
+              "issue": 117,
+              "date": "2026-11-05",
+              "num": "46"
+            },
+            {
+              "issue": 118,
+              "date": "2026-11-07",
+              "num": "40"
+            },
+            {
+              "issue": 119,
+              "date": "2026-11-10",
+              "num": "19"
+            },
+            {
+              "issue": 120,
+              "date": "2026-11-12",
+              "num": "13"
+            }
+          ],
+          "postWindowOptimal": {
+            "covered": true,
+            "hits": [
+              {
+                "issue": 116,
+                "date": "2026-10-31",
+                "num": "08"
+              },
+              {
+                "issue": 117,
+                "date": "2026-11-05",
+                "num": "46"
+              },
+              {
+                "issue": 120,
+                "date": "2026-11-12",
+                "num": "13"
+              }
+            ]
+          }
         },
-        "hits": [
-          {
-            "issue": 116,
-            "date": "2026-10-31",
-            "num": "08"
-          },
-          {
-            "issue": 117,
-            "date": "2026-11-05",
-            "num": "46"
-          }
-        ],
-        "draws": [
-          {
-            "issue": 116,
-            "date": "2026-10-31",
-            "num": "08"
-          },
-          {
-            "issue": 117,
-            "date": "2026-11-05",
-            "num": "46"
-          },
-          {
-            "issue": 118,
-            "date": "2026-11-07",
-            "num": "40"
-          },
-          {
-            "issue": 119,
-            "date": "2026-11-10",
-            "num": "19"
-          }
-        ]
+        "postWindowOptimal": {
+          "pool": [
+            "08",
+            "23",
+            "20",
+            "03",
+            "02",
+            "46",
+            "14",
+            "13"
+          ],
+          "covered": false,
+          "hits": []
+        },
+        "hits": [],
+        "draws": []
       },
       "rollingWindows": [
         {
@@ -55722,6 +55775,35 @@ window.__HISTORY_PATTERN_STATE__ = {
           "covered": true,
           "hits": [
             "20"
+          ]
+        },
+        {
+          "year": "2026",
+          "start": 116,
+          "end": 120,
+          "count": 5,
+          "nums": [
+            "08",
+            "13",
+            "19",
+            "40",
+            "46"
+          ],
+          "pool": [
+            "08",
+            "23",
+            "20",
+            "03",
+            "02",
+            "46",
+            "14",
+            "44"
+          ],
+          "poolBasis": "before-window",
+          "covered": true,
+          "hits": [
+            "08",
+            "46"
           ]
         }
       ],
@@ -60039,9 +60121,38 @@ window.__HISTORY_PATTERN_STATE__ = {
           "hits": [
             "20"
           ]
+        },
+        {
+          "year": "2026",
+          "start": 116,
+          "end": 120,
+          "count": 5,
+          "nums": [
+            "08",
+            "13",
+            "19",
+            "40",
+            "46"
+          ],
+          "pool": [
+            "08",
+            "23",
+            "20",
+            "03",
+            "02",
+            "46",
+            "14",
+            "44"
+          ],
+          "poolBasis": "before-window",
+          "covered": true,
+          "hits": [
+            "08",
+            "46"
+          ]
         }
       ],
-      "covered": 94,
+      "covered": 95,
       "misses": [
         {
           "year": "2020",
@@ -61693,8 +61804,8 @@ window.__HISTORY_PATTERN_STATE__ = {
           "hits": []
         }
       ],
-      "total": 158,
-      "hitRate": 59.49,
+      "total": 159,
+      "hitRate": 59.75,
       "currentMiss": 0,
       "maxMiss": 4
     }
